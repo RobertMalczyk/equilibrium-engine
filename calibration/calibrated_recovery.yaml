@@ -1,0 +1,33 @@
+# Recovery calibration (M7.5 Part A) -- a RECORD; applied in the EVAL / day path (eval/calibrated.py),
+# stacked on calibrated_layer1 + calibrated_layer2. NOT applied to the golden/litmus tests (they stay frozen
+# on calibration/defaults.yaml placeholders). Fixes D10 (long-day stress saturation): in the placeholder
+# config, hunger accumulated too fast and drove the anger<->stress loop to the ceiling (stress~1.0 in ~5 min).
+#
+# Method: a 1-D sweep of the dominant driver (D10 isolation showed hunger+fatigue feed stress; hunger was the
+# BINDING one). The sweep was SHOWN before picking (M7.5 Part A commit). Provenance: ONE pacing anchor -- a
+# conscious, revisable design decision (like the satisfaction-glow anchor), NOT a number from any corpus/LLM.
+layer: "recovery (M7.5 Part A)"
+date: 2026-06-06
+
+anchor:
+  what: hunger_pacing
+  decision: >
+    An unfed persona reaches NOTICEABLE hunger (~0.5) in ~2 hours. The placeholder drift reached it in
+    ~19 min and saturated stress in ~5 min -- not believable. Revisable game-pacing decision (watch-beat).
+
+calibrated:
+  drifts.hunger:
+    value: 0.0004
+    was: 0.0010
+    status: calibrated-by-anchor
+    effect: >
+      Unfed hunger reaches 0.5 in ~2 h (caps ~0.55 over a single day); a normal day's stress stays BOUNDED
+      (max ~0.95, mean ~0.2-0.7) instead of pegging at 1.0, while remaining responsive to real provocations.
+
+note: >
+  Fatigue drift left unchanged (rest already controls fatigue; the D10 isolation showed hunger was the
+  binding driver). The eval/day path ALSO runs on the frozen calibrated Layer-1/2 gains (more anger<->stress
+  loop margin) -- resolving, for the eval path, the standing inconsistency that the golden/eval path ran on
+  placeholders. The golden/litmus tests deliberately remain on defaults.yaml. Validation: the day corpus +
+  mock-world no longer saturates; the leisure<work<barren stress contrast is clean (lutek leisure 0.21 <
+  work 0.61 < barren 0.72); determinism preserved.

@@ -1,0 +1,63 @@
+# Calibrated visibility thresholds -- PROVENANCE RECORD (GATE 3 / MVP-closing obedience + prisoner sub-blocks).
+#
+# This file is a RECORD, not loaded by the engine: per the 2026-06-04 decision the values live PER-PERSONA in
+# the persona YAMLs (data/personas/{halgrim,cichy}.yaml), so calibration/defaults.yaml stays a pure placeholder
+# set. The record exists so the numbers have provenance (targets get provenance; the project never invents
+# numbers). Each is a 1-D sub-block solved deterministically (NOT CMA-ES; a single threshold has no covariance).
+#
+# Method by dimension (see memory calibration-method-by-dimension): 1-D contrast sub-blocks -> a closed-form /
+# deterministic 1-D solve, aggregated by MIN-MARGIN where the gate is genuinely two-sided.
+
+layer: "thresholds (GATE 3)"
+date: 2026-06-04
+optimizer: "deterministic 1-D (min-margin / midpoint); no seed"
+
+calibrated:
+
+  # ---- C: the prisoner cold-response carrier (TWO-SIDED min-margin gate) ----
+  cichy.react.cold_response:
+    value: 0.240
+    status: calibrated-STANDING   # was "TEMPORARY pending pride->insult-anger"; that retirement was tested + rejected
+    scope: per-persona (data/personas/cichy.yaml)
+    method: "min-margin over loss.prisoner_margins (loss.contrast_gate). Swept theta in [0.205, 0.275]."
+    binding_pair: [cichy_resentful_crosses, cichy_neutral_stays]   # the EXPECTED pair, not a regression guard
+    window: {neutral_cold_max: 0.205, resentful_cold_min_from_overture: 0.275}
+    margins_at_opt:
+      cichy_resentful_crosses: 0.0349
+      cichy_neutral_stays:     0.0350     # balanced -> 0.240 is the true min-margin optimum
+      lutek_stays:             0.0948     # regression guard (slack BY CONSTRUCTION: private threshold)
+      wojslaw_bursts:          0.3694     # burst-litmus guard, far from binding
+      halgrim_suppresses:      0.1580     # burst-litmus guard, far from binding
+    provenance: >
+      Authorized by ORDER/CONTRAST only (a resented guard's overture reads colder than a neutral one's),
+      not by an absolute number. A PRIVATE threshold decouples the prisoner from Litmus A by construction:
+      Wojslaw/Halgrim/Lutek keep the GLOBAL react.cold_response 0.50, so theta_cichy cannot touch them.
+    standing_because: >
+      The pride->insult-anger retirement hypothesis was implemented (gain_modulators seam) and then a
+      measurement spike REJECTED it as a retirement: Cichy is pride 0.5 (= ref), so the prisoner scenario is
+      unchanged, and the prisoner's resentful cold (~0.275) is intrinsically lower than some personas'
+      ordinary public-insult cold (e.g. Welf 0.292, pride-immune; Edda ~0.50) -> not globally separable by a
+      single cold threshold. So this per-persona threshold STAYS, for that reason; a cleaner retirement needs
+      a different mechanism. See docs/known_divergences.md D9.
+
+  # ---- B: the obedience refuse threshold (ONE-SIDED; pinned as a midpoint) ----
+  halgrim.react.refuse:
+    value: 0.357
+    status: calibrated
+    scope: per-persona (data/personas/halgrim.yaml)
+    method: "midpoint of the two refuse impulses = (refuse@Wojslaw + refuse@Edda) / 2"
+    impulses: {refuse_at_wojslaw_resented: 0.486126, refuse_at_edda_respected: 0.227880}   # -> midpoint 0.357
+    one_sided_note: >
+      The binding BEHAVIORAL constraint is one-sided: only Wojslaw's refuse must cross; Edda cooperates
+      regardless (cooperate 0.65 > refuse 0.228), so a free minimization would be bottomless. The midpoint
+      of the resented-vs-respected refuse impulses is the max-headroom pin (~0.129 each side), pinned by the
+      obedience contrast itself rather than by an unrelated bar.
+    provenance: >
+      Authorized by ORDER/CONTRAST (a resented commander's order is refused, a respected one obeyed), not by
+      an absolute number. Sweep confirmed B2 = refuse for theta_refuse <= 0.486 and B1 = cooperate for all
+      theta_refuse; only two command scenarios exist (both Halgrim), so the per-persona scope is exact.
+
+note: >
+  MVP-closing: with these two thresholds the matrix criterion (A3 AND B3-visible AND C3) holds. theta_cichy
+  is a STANDING per-persona threshold (the pride->insult-anger retirement was tried and rejected -- not
+  globally separable; see D9); theta_refuse is a stable per-persona pin.

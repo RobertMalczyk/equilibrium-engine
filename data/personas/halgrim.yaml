@@ -1,0 +1,64 @@
+# Halgrim -- watch sergeant (stoic_veteran). Antithesis of explosiveness; suppresses
+# insults into cold_response. See docs/rpg_persona_dynamics_persony.md.
+#
+# Trait numbers are a CALIBRATION SEED from the qualitative profile, using the agreed
+# scale: ++ =0.90, + =0.75, - =0.50, v =0.25, vv =0.10, +++ ~0.97. These are seeds, not
+# final values -- they live in DATA, never in code.
+id: halgrim
+
+traits:
+  reactivity: 0.25          # v
+  patience: 0.75            # +
+  base_self_control: 0.90   # ++
+  need_for_control: 0.50    # -
+  pride: 0.50               # -
+  novelty_seeking: 0.25     # v
+  threat_sensitivity: 0.50  # -
+  trust_disposition: 0.50   # -
+  gratitude: 0.50           # -
+  stoicism: 0.90            # ++
+
+# "Good day" baseline: fed, rested, calm, trusting. self_control rests at base.
+initial_global_state:
+  hunger: 0.20
+  fatigue: 0.20
+  boredom: 0.10
+  stress: 0.10
+  frustration: 0.00
+  anger: 0.00
+  satisfaction: 0.30
+  self_control: 0.90
+
+initial_relations:
+  marta:
+    trust: 0.60
+    respect: 0.50
+    resentment: 0.05
+  player:
+    trust: 0.50
+    respect: 0.50
+    resentment: 0.00
+  # Authority relations -- CALIBRATION SEEDS (directions from the persony.md graph; numbers to be tuned,
+  # NOT measured/final). Deliberately a MODERATE gap (respect 0.65 vs 0.40 = 0.25, above-default vs
+  # below-default), NOT an extreme one: the obedience contrast must EMERGE from a moderate relational
+  # difference (proving the mechanism), not be handed a huge input gap that guarantees the result.
+  edda:                       # "Halgrim <-> Edda: mutual respect (competence)" -> respect above default
+    trust: 0.60
+    respect: 0.65
+    resentment: 0.05
+  wojslaw:                    # "Halgrim -> Wojslaw: tolerates with resentment, respect down" -> below default
+    trust: 0.35
+    respect: 0.40
+    resentment: 0.20
+
+affinities:
+  cabbage_soup: 0.20
+
+# Per-persona obedience refuse threshold (matrix Family B). theta_refuse = 0.357 = the midpoint of Halgrim's
+# refuse impulse toward a RESENTED commander (Wojslaw, ~0.486) and a RESPECTED one (Edda, ~0.228): a resented
+# order is refused, a respected one obeyed, with symmetric max headroom. The binding behavioral constraint is
+# ONE-SIDED (Wojslaw must cross; Edda cooperates regardless); the midpoint is the max-margin design choice
+# between the two impulses. Lives per-persona so calibration/defaults.yaml stays a placeholder.
+# See calibration/calibrated_thresholds.yaml.
+thresholds:
+  react.refuse: 0.357

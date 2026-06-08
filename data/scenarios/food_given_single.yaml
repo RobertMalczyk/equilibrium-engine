@@ -1,0 +1,14 @@
+# Pipe test (milestone 1c): one food_given at t=0. Exercises the full section-7 ordering
+# end-to-end -- the event decomposes into multiple channels (food_nutrition, preference_match,
+# repetition, novelty), all members run, and IDLE yields a neutral action.
+id: food_given_single
+persona: halgrim
+initial_overrides: {}
+events:
+  - type: food_given
+    t: 0
+    source: marta
+    item: cabbage_soup
+    intensity: 1.0
+    context:
+      public: false

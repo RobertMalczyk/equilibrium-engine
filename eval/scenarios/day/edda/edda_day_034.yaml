@@ -1,0 +1,55 @@
+# GENERATED 'normal day' scenario (eval/generate_day_scenarios.py).
+# Persona: edda. A believable 24 h day: events across the ~17 h WAKING day
+# (meals at meal-times, sparse triggers), then a `nightfall` -> the night/sleep reset. Run via
+# load_eval_persona_timescale for 717 ticks (dt ~120 s). Deterministic: seed =
+# sha256(GLOBAL_SEED:persona:index). Vocabulary {food_given, insult, help, command, nightfall}.
+id: edda_day_034
+persona: edda
+initial_overrides: {}
+events:
+- type: food_given
+  t: 21
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 217
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 244
+  source: player
+  intensity: 0.653
+  context:
+    has_authority: true
+- type: command
+  t: 258
+  source: player
+  intensity: 0.877
+  context:
+    has_authority: true
+- type: help
+  t: 276
+  source: marta
+  intensity: 0.821
+  context: {}
+- type: help
+  t: 334
+  source: player
+  intensity: 1.0
+  context: {}
+- type: food_given
+  t: 390
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0

@@ -1,0 +1,45 @@
+# Wojslaw -- noble guest (proud_noble). Easily slighted, low self-control, high pride;
+# bursts where Halgrim suppresses. See docs/rpg_persona_dynamics_persony.md.
+#
+# Trait numbers: calibration SEED from the qualitative profile (scale ++ =0.90, + =0.75,
+# - =0.50, v =0.25, vv =0.10). Seeds, not final values; data, not code.
+id: wojslaw
+
+traits:
+  reactivity: 0.75          # +
+  patience: 0.25            # v
+  base_self_control: 0.25   # v
+  need_for_control: 0.75    # +
+  pride: 0.90               # ++
+  novelty_seeking: 0.50     # -
+  threat_sensitivity: 0.50  # -
+  trust_disposition: 0.25   # v
+  gratitude: 0.25           # v
+  stoicism: 0.25            # v
+
+# Resting baseline; the shared elevated emotional state for the contrast comes from the
+# scenario's initial_overrides (applied identically to both personas).
+initial_global_state:
+  hunger: 0.20
+  fatigue: 0.20
+  boredom: 0.10
+  stress: 0.10
+  frustration: 0.00
+  anger: 0.00
+  satisfaction: 0.30
+  self_control: 0.25
+
+initial_relations:
+  marta:
+    trust: 0.30
+    respect: 0.20
+    resentment: 0.20
+  player:
+    trust: 0.40
+    respect: 0.40
+    resentment: 0.10
+
+# Same soup affinity as Halgrim ON PURPOSE: isolates the trait contrast (identical soup
+# input, only traits differ -> different action). Affinity-driven contrasts live elsewhere.
+affinities:
+  cabbage_soup: 0.20

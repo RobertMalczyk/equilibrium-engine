@@ -1,0 +1,377 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: branic. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: bad_blood, quiet, drill, feast, ordinary, drill.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: branic_multi_059
+persona: branic
+n_days: 6
+day_plan:
+- bad_blood
+- quiet
+- drill
+- feast
+- ordinary
+- drill
+initial_overrides:
+  global_state:
+    boredom: 0.2
+events:
+- type: food_given
+  t: 95
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 120
+  source: halgrim
+  intensity: 0.741
+  context:
+    public: true
+- type: command
+  t: 160
+  source: halgrim
+  intensity: 0.589
+  context:
+    has_authority: true
+- type: insult
+  t: 196
+  source: halgrim
+  intensity: 0.574
+  context:
+    public: false
+- type: food_given
+  t: 261
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 267
+  source: halgrim
+  intensity: 0.796
+  context:
+    has_authority: true
+- type: command
+  t: 298
+  source: halgrim
+  intensity: 0.825
+  context:
+    has_authority: true
+- type: food_given
+  t: 421
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 798
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 969
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: command
+  t: 1469
+  source: halgrim
+  intensity: 0.8
+  context:
+    has_authority: true
+- type: command
+  t: 1487
+  source: halgrim
+  intensity: 0.788
+  context:
+    has_authority: true
+- type: food_given
+  t: 1509
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1537
+  source: player
+  intensity: 0.843
+  context: {}
+- type: command
+  t: 1609
+  source: halgrim
+  intensity: 0.246
+  context:
+    has_authority: true
+- type: insult
+  t: 1633
+  source: halgrim
+  intensity: 0.63
+  context:
+    public: true
+- type: command
+  t: 1655
+  source: halgrim
+  intensity: 1.0
+  context:
+    has_authority: true
+- type: food_given
+  t: 1691
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 1706
+  source: halgrim
+  intensity: 0.719
+  context:
+    has_authority: true
+- type: command
+  t: 1854
+  source: halgrim
+  intensity: 0.588
+  context:
+    has_authority: true
+- type: command
+  t: 1919
+  source: halgrim
+  intensity: 0.824
+  context:
+    has_authority: true
+- type: insult
+  t: 1927
+  source: halgrim
+  intensity: 0.358
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: help
+  t: 2171
+  source: marta
+  intensity: 0.622
+  context: {}
+- type: food_given
+  t: 2218
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 2236
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2249
+  source: halgrim
+  intensity: 0.891
+  context: {}
+- type: food_given
+  t: 2416
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 2426
+  source: halgrim
+  intensity: 0.764
+  context:
+    has_authority: true
+- type: help
+  t: 2538
+  source: halgrim
+  intensity: 0.951
+  context: {}
+- type: food_given
+  t: 2605
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: help
+  t: 2912
+  source: marta
+  intensity: 0.569
+  context: {}
+- type: help
+  t: 2919
+  source: player
+  intensity: 0.941
+  context: {}
+- type: food_given
+  t: 2938
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 2954
+  source: halgrim
+  intensity: 0.458
+  context:
+    public: false
+- type: help
+  t: 2957
+  source: player
+  intensity: 0.898
+  context: {}
+- type: help
+  t: 3043
+  source: player
+  intensity: 0.726
+  context: {}
+- type: command
+  t: 3061
+  source: halgrim
+  intensity: 0.438
+  context:
+    has_authority: true
+- type: command
+  t: 3062
+  source: halgrim
+  intensity: 0.494
+  context:
+    has_authority: true
+- type: food_given
+  t: 3107
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3159
+  source: halgrim
+  intensity: 0.82
+  context: {}
+- type: command
+  t: 3187
+  source: halgrim
+  intensity: 0.994
+  context:
+    has_authority: true
+- type: help
+  t: 3248
+  source: marta
+  intensity: 0.916
+  context: {}
+- type: command
+  t: 3276
+  source: halgrim
+  intensity: 0.584
+  context:
+    has_authority: true
+- type: food_given
+  t: 3304
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 3305
+  source: halgrim
+  intensity: 0.309
+  context:
+    has_authority: true
+- type: command
+  t: 3332
+  source: halgrim
+  intensity: 0.96
+  context:
+    has_authority: true
+- type: help
+  t: 3346
+  source: marta
+  intensity: 0.789
+  context: {}
+- type: help
+  t: 3365
+  source: marta
+  intensity: 0.825
+  context: {}
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: command
+  t: 3619
+  source: halgrim
+  intensity: 0.89
+  context:
+    has_authority: true
+- type: food_given
+  t: 3638
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 3663
+  source: halgrim
+  intensity: 0.721
+  context:
+    has_authority: true
+- type: command
+  t: 3765
+  source: halgrim
+  intensity: 0.794
+  context:
+    has_authority: true
+- type: food_given
+  t: 3819
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 3882
+  source: halgrim
+  intensity: 0.919
+  context:
+    has_authority: true
+- type: command
+  t: 3945
+  source: halgrim
+  intensity: 0.946
+  context:
+    has_authority: true
+- type: command
+  t: 4051
+  source: halgrim
+  intensity: 0.99
+  context:
+    has_authority: true
+- type: nightfall
+  t: 4093
+  intensity: 1.0

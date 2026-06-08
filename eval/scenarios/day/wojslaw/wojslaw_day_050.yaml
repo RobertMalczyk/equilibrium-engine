@@ -1,0 +1,82 @@
+# GENERATED 'normal day' scenario (eval/generate_day_scenarios.py).
+# Persona: wojslaw. A believable 24 h day: events across the ~17 h WAKING day
+# (meals at meal-times, sparse triggers), then a `nightfall` -> the night/sleep reset. Run via
+# load_eval_persona_timescale for 717 ticks (dt ~120 s). Deterministic: seed =
+# sha256(GLOBAL_SEED:persona:index). Vocabulary {food_given, insult, help, command, nightfall}.
+id: wojslaw_day_050
+persona: wojslaw
+initial_overrides: {}
+events:
+- type: food_given
+  t: 63
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 158
+  source: player
+  intensity: 0.87
+  context:
+    public: false
+- type: help
+  t: 200
+  source: player
+  intensity: 0.655
+  context: {}
+- type: help
+  t: 233
+  source: marta
+  intensity: 0.894
+  context: {}
+- type: insult
+  t: 234
+  source: marta
+  intensity: 0.594
+  context:
+    public: false
+- type: command
+  t: 238
+  source: player
+  intensity: 0.794
+  context:
+    has_authority: true
+- type: food_given
+  t: 245
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 248
+  source: marta
+  intensity: 0.76
+  context: {}
+- type: command
+  t: 301
+  source: player
+  intensity: 0.902
+  context:
+    has_authority: true
+- type: command
+  t: 327
+  source: player
+  intensity: 0.69
+  context:
+    has_authority: true
+- type: insult
+  t: 390
+  source: marta
+  intensity: 0.75
+  context:
+    public: false
+- type: help
+  t: 482
+  source: marta
+  intensity: 0.527
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0

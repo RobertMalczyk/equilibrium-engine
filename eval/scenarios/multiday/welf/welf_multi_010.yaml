@@ -1,0 +1,110 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: welf. 4 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: quiet, short_rations, quiet, short_rations.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: welf_multi_010
+persona: welf
+n_days: 4
+day_plan:
+- quiet
+- short_rations
+- quiet
+- short_rations
+initial_overrides:
+  global_state:
+    boredom: 0.3
+events:
+- type: food_given
+  t: 63
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 82
+  source: player
+  intensity: 0.543
+  context: {}
+- type: food_given
+  t: 246
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 820
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 935
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 996
+  source: player
+  intensity: 0.867
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1511
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1640
+  source: player
+  intensity: 0.801
+  context: {}
+- type: insult
+  t: 1658
+  source: player
+  intensity: 0.474
+  context:
+    public: false
+- type: food_given
+  t: 1700
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: food_given
+  t: 2226
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2527
+  source: player
+  intensity: 0.323
+  context: {}
+- type: insult
+  t: 2554
+  source: player
+  intensity: 0.543
+  context:
+    public: true
+- type: nightfall
+  t: 2659
+  intensity: 1.0

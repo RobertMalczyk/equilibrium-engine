@@ -1,0 +1,51 @@
+# =====================================================================================
+# THE BELIEVABLE WORLD -- from a few honest inputs, no hand-tuned per-tick magic numbers.
+# Eval/story path only; defaults.yaml + the frozen golden/litmus path stay at time_scale 1.
+# Consumed by eval/calibrated.py:timescale_overrides(), which DERIVES every per-tick rate below
+# from these inputs + dt. Verified against calibration/timescale_ground_truth.yaml by the keeper.
+# =====================================================================================
+
+# (1) ===== THE KNOB: the emotional timescale =====
+# Scales EVERY half-life (fast emotions, relations, accumulators/drives) by this one factor. Because
+# dt = min(half_life)/10 scales with them, every per-tick decay RATIO is invariant -- the whole emotional +
+# relational world keeps its SHAPE, only the wall-clock stretches (bit-identical tick trace for the decay
+# part; see engine/yaml_io). Turn this ONE number and the world gets uniformly faster or slower:
+#   time_scale 20 -> anger fades in ~10 min, a day's emotions are brisk;
+#   time_scale 40 -> anger ~20 min, dt ~120 s, a 24 h day ~= 717 ticks   (the believable default);
+#   time_scale 80 -> anger ~40 min, the world is languid.
+# A grudge always fades over weeks (relations scale with it); the persona CONTRASTS (burst/cold/shrug,
+# cooperate/refuse, who-bores-first) are untouched -- they are trait-driven and timescale-invariant.
+time_scale: 40
+
+# (2) ===== THE DAY'S PHYSIOLOGICAL RHYTHM: believable real-world durations (seconds) =====
+# These anchor the day to real HOURS. The per-tick DRIFTS (boredom/hunger/fatigue rise), the sleep
+# discharge (night length) and the give-up timeout are all DERIVED from these + dt (closed form), so the
+# rhythm holds at whatever dt the knob produces -- and there is no hand-tuned rate to drift out of sync.
+# (Why separate from the knob: these are tied to the 24 h DAY, not to how fast feelings move; a placeholder
+# never calibrated their ratio to the emotions, which is exactly the gap a single knob could not close.)
+durations:
+  boredom_to_seek: 7200      # idle -> restless enough to seek a diversion (~2 h; reference persona Branic)
+  hunger_to_half:  18000     # -> noticeably hungry (~0.5) between meals (~5 h)
+  fatigue_to_high: 50400     # -> tired (~0.7) by the end of a ~14 h waking day
+  night_length:    25200     # nightfall -> wake (~7 h); sets the sleep_pressure discharge rate
+  seeking_giveup:  1800      # look ~30 min before giving up (the seeking timeout)
+  wake_hunger:     0.40      # how hungry he wakes after a night (a LEVEL, sets the overnight hunger drip)
+
+# (2b) CEILINGS for the two accumulators whose ASYMPTOTE matters (hunger/fatigue climb between meals / over
+# the day, so how high they cap decides whether a meal can cut hunger back down and whether fatigue tops out
+# believably). We derive BOTH the half-life and the drift from {rise-time, rise-level, ceiling}, so these
+# don't run to 1.0 the way a uniform half-life scale would. (Boredom/sleep/duty don't need this -- boredom is
+# actively relieved, sleep/duty are event-driven -- so their half-lives just scale with the knob.)
+ceilings:
+  hunger:  0.62      # a normal gap leaves him ~0.6 hungry -> a meal (-0.5) cuts it back below half
+  fatigue: 0.85      # a long day tops out ~0.85 tired
+
+# (3) ===== GENUINE calibration GAINS: a coupling STRENGTH, not a duration =====
+# How hard hunger/fatigue drive stress. NOT derivable from the knob (it is a gain, not a time). Halved from
+# the placeholders, which were tuned when hunger/fatigue never left ~0; at believable LEVELS (0.5-0.7) they
+# over-drove the anger<->stress loop (enraged-by-noon). NOT the Jury loop itself, so stability is untouched.
+# Owned by calibration (spec section 9).
+couplings:
+  stress:
+    hunger:  0.009
+    fatigue: 0.012

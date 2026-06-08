@@ -1,0 +1,38 @@
+# Welf -- merchant stranded by the weather (bored_merchant). Transactional, composed; high boredom
+# accumulation in idleness -> the node that exercises the proactive drive. Bores relatively early.
+# See docs/rpg_persona_dynamics_persony.md.
+#
+# Trait numbers: calibration SEED from the qualitative profile (scale ++ =0.90, + =0.75, - =0.50,
+# v =0.25, vv =0.10). Seeds, not final values; data, not code.
+id: welf
+
+traits:
+  reactivity: 0.25          # v
+  patience: 0.50            # -
+  base_self_control: 0.50   # -
+  need_for_control: 0.50    # -
+  pride: 0.50               # -
+  novelty_seeking: 0.75     # +   (Lutek >> Welf ~ Branic > rest > Halgrim)
+  threat_sensitivity: 0.50  # -
+  trust_disposition: 0.50   # -
+  gratitude: 0.50           # -
+  stoicism: 0.50            # -
+
+# Resting baseline; idle_watch lets boredom accumulate from the drift, no events.
+initial_global_state:
+  hunger: 0.20
+  fatigue: 0.20
+  boredom: 0.20
+  stress: 0.10
+  frustration: 0.00
+  anger: 0.00
+  satisfaction: 0.30
+  self_control: 0.50
+
+initial_relations:
+  player:
+    trust: 0.50
+    respect: 0.50
+    resentment: 0.00
+
+affinities: {}

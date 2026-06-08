@@ -1,0 +1,491 @@
+# =====================================================================================
+# PLACEHOLDER CALIBRATION DEFAULTS -- TEMPORARY VALUES.
+#
+# WARNING: every number below is a TEMPORARY placeholder, NOT a calibrated value. They
+# exist only so the engine can run and produce a golden trace. The golden traces WILL
+# CHANGE once the calibration harness (spec section 16) re-tunes these. Do not treat any
+# value here as final or meaningful. The ENGINE CODE contains no numeric literals; all
+# tunables live here (spec section 14). Topology (allowed coupling edges) is frozen in
+# spec section 8; only the gains are tunable.
+# =====================================================================================
+
+tick:
+  nyquist_factor: 10          # dt = min(half_life) / nyquist_factor (spec section 2)
+
+# Half-lives in game-time seconds. The smallest (anger=30) sets dt = 3.0.
+half_lives:
+  hunger: 3000
+  fatigue: 2000
+  boredom: 150
+  stress: 70
+  frustration: 45
+  anger: 30
+  satisfaction: 35
+  self_control: 50
+  duty: 600                     # authority drive state (spec §8). LONG on purpose: duty accrues over a watch,
+                                # not seconds -- so it never becomes min(half_lives) and dt=min/10 is unchanged
+                                # (the fast emotions still set dt). PLACEHOLDER (owned by calibration).
+  sleep_pressure: 2000          # M7.5 Part B sleep drive state. LONG (so dt unchanged + the nightfall
+                                # injection PERSISTS while arousal settles, instead of decaying off before
+                                # the sleep drive can cross theta_start). PLACEHOLDER.
+  trust: 100000
+  respect: 100000
+  resentment: 150000
+
+# Accumulators rise via drift; emotions drift 0 (decay to setpoint 0). self_control's
+# setpoint is wired to trait base_self_control in code (not a literal here).
+drifts:
+  hunger: 0.0010
+  fatigue: 0.0015
+  boredom: 0.0040               # M3b TOPOLOGY: idleness is a boredom source (empty watch bores).
+                                # Placeholder magnitude owned by calibration (spec section 9) -- NOT
+                                # hand-tuned to make idle_watch's monotonic_up/start predicate pass.
+
+# Channel -> state gains (input->state edges). Signed. Relational channels (insult/help)
+# carry a source; their resentment/trust deposits route onto relations[source] via
+# gains.relations (see update.py).
+gains:
+  hunger:
+    food_nutrition: -0.50       # satiation reduces hunger
+  satisfaction:
+    preference_match: 0.40      # liked food raises satisfaction
+  frustration:
+    preference_match: -0.30     # disliked food (negative pref) raises frustration
+    insult: 0.20               # insult also frustrates
+    command: 0.20              # an order irritates; relation_filter amplifies it for a DISRESPECTED source
+                               # (negative polarity) -> "frustration up at low respect" (spec section 5)
+    weather: 0.22              # environmental discomfort (cold/rain) wears at the temper. PLACEHOLDER.
+  stress:
+    weather: 0.05              # the same discomfort adds a LITTLE stress (erodes effective_self_control a
+                               # touch). Kept small so rain's effect is GRADUAL (frustration-dominant), not a
+                               # cliff. PLACEHOLDER. Neutral by default (no `weather` event -> 0).
+  anger:
+    insult: 0.35               # insult -> anger (global)
+  boredom:
+    repetition: 0.30            # repeated item bores
+    novelty: -0.30             # novelty relieves boredom
+  sleep_pressure:
+    night: 1.00                 # M7.5 Part B: the `nightfall` signal injects sleep_pressure (saturates ~1.0)
+                                # -> once arousal settles the sleep drive crosses theta_start and SLEEP fires.
+                                # PLACEHOLDER (the "length of night" emerges with the SLEEP discharge rate).
+  relations:                    # relational-dim deposits, keyed by channel; booked on source
+    resentment:
+      insult: 0.25
+      help: -0.15              # help eases resentment
+    trust:
+      help: 0.20
+
+# Sparse state->state couplings. TOPOLOGY FROZEN (spec section 8): only these 6 edges.
+# Stability (Jury): g(anger->stress)*g(stress->anger) < (1-decay_stress)*(1-decay_anger).
+couplings:
+  stress:
+    hunger: 0.02
+    fatigue: 0.03
+    anger: 0.03                 # anger -> stress
+  anger:
+    stress: 0.04                # stress -> anger
+    frustration: 0.05           # frustration -> anger
+  frustration:
+    boredom: 0.04               # boredom -> frustration
+
+# Ambient idle homeostasis (D11 fix): extra per-tick recovery toward calm, applied ONLY when the persona
+# is IDLE and unprovoked (no recent provocation -- the reactive_window). Seekers already recover via
+# self_activity (stress -0.04/tick when BUSY); non-seekers never engage one, so without this their stress
+# has no intraday path down and sits chronically high (-> over-react to ordinary events). This gives every
+# persona a "settle when nothing is happening" path. NOT applied while active (BUSY/SEEKING) or provoked,
+# so the burst-vs-suppress litmus (provoked the whole run) is untouched. Signed (negative = relax).
+# PLACEHOLDER magnitudes -- owned by calibration (spec section 9), NOT hand-tuned to a target.
+idle_recovery:
+  stress: -0.010
+  anger: -0.010
+# D11 round-2: the idle recovery is scaled by REACTIVITY -- a high-reactivity persona settles SLOWER and
+# keeps its edge (a resentful prisoner / thin-skinned recruit doesn't melt to "at ease" between events),
+# while a calm one (low reactivity) recovers at the full base rate. factor = clamp01(1 + k*(reactivity-ref)),
+# clamped [0,1] so reactivity can only REDUCE recovery, never amplify past the base. The blind re-judge
+# showed the UNIFORM recovery over-relaxed exactly the reactivity>=0.75 personas. k,ref are calibration
+# PLACEHOLDERS (the ordering -- reactive settles slower -- is behaviour-authorized; magnitude is not pinned).
+idle_recovery_modulator:
+  trait: reactivity
+  ref: 0.5
+  k: -1.5
+# D11 round-3: idle stress recovery stops at a FLOOR proportional to the persona's strongest STANDING
+# resentment (resentment_max) -- a deep grievance is a baseline stressor, so a resentful captive idles WARY,
+# not "settled, at ease" between events (the blind judge's one fault on Cichy). floor = weight*resentment_max;
+# a persona with no standing resentment (~0) keeps the full pull-to-calm. PLACEHOLDER weight (calibration).
+idle_recovery_floor:
+  stress: 0.5
+
+# Gain modulators (spec section 14): an input->state gain scaled by a trait, mod = 1 + k*(trait - ref),
+# default identity. FIRST INSTANCE: pride -> insult-anger (wound-sensitivity) -- a proud persona's insult
+# deposits MORE anger, a low-pride one LESS, so the differentiated sting emerges from a TRAIT (not from
+# output-side stoicism). ref=0.5 so a reference-pride persona keeps gains.anger.insult exactly (the Layer-2
+# freeze stays valid; only the per-persona spread is new). k is a BELIEVABILITY-STRENGTH placeholder: the
+# ordering (anger rises with pride) is behaviour-authorized, but its magnitude has no sharp behavioural
+# crossing -- it is bounded, pending Level-3 / LLM-comparative validation (spec section 17), NOT min-margin
+# calibrated. It does NOT retire the prisoner's temp cold threshold (independent problems; known_divergences D6).
+gain_modulators:
+  anger:
+    insult:
+      trait: pride
+      ref: 0.5
+      k: 1.0
+
+derived_weights:
+  effective_self_control:
+    fatigue: 0.30
+    stress: 0.30
+  irritability:
+    stress: 0.50
+    frustration: 0.40
+    hunger: 0.20
+  dissatisfaction:
+    frustration: 0.60
+    satisfaction: 0.50
+  urge_boredom:                 # drive = boredom state in its second role (spec section 4/8)
+    boredom: 2.00               # D5: raised so the idle boredom plateau (~0.29) can reach theta_start;
+                                # PLACEHOLDER -- magnitude owned by calibration (the boredom STATE is unchanged,
+                                # so this only affects the proactive seek urge, not the reactive boredom path)
+    fatigue: 0.10               # D5: was 0.50 -- the strong brake made the urge UNREACHABLE (idle fatigue->1
+                                # killed it); the rest-drive competition already diverts a tired NPC, so a light
+                                # brake suffices. PLACEHOLDER.
+    boredom_novelty_k: 1.20     # D5 TEMPO: novelty_seeking modulates the boredom term (fast-borers seek sooner,
+                                # low-novelty stoics later/never). PLACEHOLDER (ordering authorized; magnitude
+                                # pending calibration, like the pride gain modulator). ref = neutral trait 0.5.
+    boredom_novelty_ref: 0.50
+  urge_fatigue:
+    fatigue: 1.00
+  urge_command:                 # AUTHORITY drive = duty state in its second role (spec §8); mirror of urge_boredom.
+    duty: 1.00                  # PLACEHOLDER -- magnitude owned by calibration (the duty STATE is unchanged).
+    command_nfc_k: 1.00         # TEMPO: need_for_control modulates the duty term (a high-control persona acts on
+                                # accrued duty sooner; a low-control one later/never) -- the novelty_seeking->boredom
+                                # precedent (D5). PLACEHOLDER (ordering authorized; magnitude pending calibration).
+    command_nfc_ref: 0.50       # ref = neutral trait, so a reference-need_for_control persona keeps duty·1.
+  arousal:                      # M7.5 Part B sleep BLOCKER: only an ACUTELY wound-up character is slow to drop
+    stress: 0.15                # off. Weights are kept LOW so the chronic anger/stress PLATEAU (~0.6 for a hot
+    anger: 0.35                 # persona) does NOT block sleep -- resetting that plateau is what the night is
+    frustration: 0.15           # FOR; only a FRESH spike (anger~1.0 just after a provocation) delays onset.
+                                # PLACEHOLDERS (ordering authorized; magnitudes owned by calibration).
+  sleep_urge:                   # SLEEP drive = sleep_pressure state in its 2nd role, + fatigue, − arousal.
+    sleep_pressure: 1.00        # PLACEHOLDER. With nightfall (sleep_pressure ~0.7) this clears theta_start
+    fatigue: 0.30               # once arousal settles; a very tired persona sleeps despite some frustration.
+  affective_bias:
+    trust: 0.50
+    respect: 0.40
+    resentment: 0.70
+
+# Declarative term registry (like coupling topology): each term = product of factors.
+# Invariant (validated at load, spec section 8): every term carries >=1 state/derived/
+# relation_agg factor; traits only modulate. complement: true means (1 - factor).
+potential_terms:
+  frustration:        [{kind: state, name: frustration}]
+  hunger:             [{kind: state, name: hunger}]
+  irritability:       [{kind: derived, name: irritability}]
+  dissatisfaction:    [{kind: derived, name: dissatisfaction}]
+  resentment_max:     [{kind: relation_agg, name: resentment_max}]
+  anger_x_stoicism:   [{kind: state, name: anger}, {kind: trait, name: stoicism}]
+  anger_x_low_control:
+    - {kind: state, name: anger}
+    - {kind: derived, name: effective_self_control, complement: true}
+  frustration_x_need_control:
+    - {kind: state, name: frustration}
+    - {kind: trait, name: need_for_control}
+  dissatisfaction_x_pride:
+    - {kind: derived, name: dissatisfaction}
+    - {kind: trait, name: pride}
+  # Obedience terms (GATE 3): every one is command_pressure-gated (no order -> 0) AND per-source-relational.
+  # relation_source = the relation to the CURRENT event's source (generic; M5 promise/apology reuse it).
+  command_x_respect_src:                          # comply with a commander I respect
+    - {kind: command_pressure}
+    - {kind: relation_source, name: respect}
+  command_x_resentment_src:                       # refuse a commander I resent
+    - {kind: command_pressure}
+    - {kind: relation_source, name: resentment}
+  command_x_lowrespect_x_nfc:                     # refuse a commander I don't respect, harder if controlling
+    - {kind: command_pressure}
+    - {kind: relation_source, name: respect, complement: true}
+    - {kind: trait, name: need_for_control}
+  command_x_frustration_x_nfc:                    # a frustrated controller refuses an order harder
+    - {kind: command_pressure}
+    - {kind: state, name: frustration}
+    - {kind: trait, name: need_for_control}
+  # Kindness terms (Theme A): gesture-gated, kindness_pressure = this tick's appraised kindness (0 if none),
+  # the mirror of command_pressure. Both pair the transient with a per-source relation factor (the invariant:
+  # a term needs >=1 state/relation factor -- a transient can't fire alone, same rule the obedience terms obey).
+  # `kindness_x_nonresent_src` = kindness toward a source you don't resent -> the FLOOR (fires at zero trust)
+  # AND the INHIBITORY edge on the hostile potentials. `kindness_x_trust_src` = the trust BONUS on warmth.
+  kindness_x_nonresent_src:                       # fires for any non-resented giver (1 - resentment[src])
+    - {kind: kindness_pressure}
+    - {kind: relation_source, name: resentment, complement: true}
+  kindness_x_trust_src:                           # warmer toward a trusted giver
+    - {kind: kindness_pressure}
+    - {kind: relation_source, name: trust}
+  # Target policy (THIRD inhibitory edge): a respected BYSTANDER (a non-provoking source S != the current
+  # provoker, while residual anger lingers) should not catch displaced anger. bystander_pressure is the
+  # transient gate; respect[S] scales the sparing (a respected commander is spared, a stranger less so).
+  bystander_x_respect_src:
+    - {kind: bystander_pressure}
+    - {kind: relation_source, name: respect}
+
+# Reactive potentials = clamp( Sum weight * term ). cooperate intentionally has no term in
+# MVP: it needs command_pressure (a command-channel signal, stage 2) which is absent -> 0.
+potential_weights:
+  complain:
+    dissatisfaction: 0.70
+    frustration: 0.40
+    hunger: 0.15
+    dissatisfaction_x_pride: 0.40
+    kindness_x_nonresent_src: -1.0                 # THEME A: a kindness inhibits grumbling too (signed edge). PLACEHOLDER.
+  outburst:
+    anger_x_low_control: 1.20
+    irritability: 0.20
+    bystander_x_respect_src: -1.0                 # TARGET POLICY: don't vent at a respected bystander (anger is
+                                                  # someone else's fault). Neutral by construction (0 unless a
+                                                  # non-provoking, non-provoker source interacts amid residual
+                                                  # anger). PLACEHOLDER (ordering authorized: respected -> spared).
+    kindness_x_nonresent_src: -1.0                # THEME A: a kindness from a non-resented source INHIBITS venting -- the
+                                  # second inhibitory edge (after obedience priority). kindness_pressure=0 by
+                                  # default (no gesture / resented source) -> no effect -> burst/prisoner
+                                  # litmus bit-identical. PLACEHOLDER magnitude (ordering authorized: kindness
+                                  # suppresses lashing-out at the kind giver -- the "rage at soup" artifact).
+    command_x_respect_src: -1.0   # OBEDIENCE PRIORITY (D11 Branic): a respected commander's order INHIBITS
+                                  # venting -> obedience is robust to ambient/residual anger. Signed (inhibitory)
+                                  # edge: the SAME term cooperate reads with +1.0, here read with a negative
+                                  # weight (the system's first inhibitory potential edge). Neutral by default
+                                  # (no order -> command_pressure 0 -> 0; low respect -> small; high respect ->
+                                  # strong) so the burst-soup litmus + the low-respect refuse are untouched.
+                                  # Scoped to outburst only (a curt cold_response to a respected order stays
+                                  # believable). PLACEHOLDER magnitude: ORDERING authorized (a respected order
+                                  # suppresses venting), no sharp crossing pins the gain -> pending Level-3/LLM
+                                  # validation (spec section 17), like the pride->insult modulator k.
+  cold_response:
+    anger_x_stoicism: 1.10
+    frustration: 0.20
+    kindness_x_nonresent_src: -1.0                    # THEME A: a kindness inhibits the cold shoulder too (signed edge). PLACEHOLDER.
+    bystander_x_respect_src: -1.0                     # TARGET POLICY: no cold contempt at a respected bystander. PLACEHOLDER.
+  cooperate:                          # obedience (GATE 3): comply with a commander I respect
+    command_x_respect_src: 1.0
+  refuse:                             # obedience (GATE 3): all command-gated (no order -> no refusal);
+    command_x_resentment_src: 1.0     # per-source (resenting Wojslaw must not break obedience to Edda)
+    command_x_lowrespect_x_nfc: 0.8
+    command_x_frustration_x_nfc: 0.5
+    # DEFAULT placeholder weights -- emergence is CHECKED at these before any tuning (GATE 3).
+  positive_response:                  # THEME A: a warm reply to an appraised kindness (gesture-gated, source-keyed)
+    kindness_x_nonresent_src: 0.40    # FLOOR: a non-resented kindness draws a warm reply even at zero trust
+                                      # (you thank the cook for soup) -- so goodwill can BOOTSTRAP; the
+                                      # +trust deposit then grows warmth over repeated kindnesses. PLACEHOLDER.
+    kindness_x_trust_src: 0.60        # BONUS: warmer toward a trusted giver. PLACEHOLDER (ordering authorized).
+
+filter_weights:
+  relation:
+    bias_gain: 0.50             # affective_bias scaling of relational channels
+    social_exposure_gain: 0.60  # public context amplifies relational channels (spec section 5)
+  affinity:
+    valence_gain: 0.0           # 0 => identity in MVP (valence already in preference_match)
+
+thresholds:
+  react_default: 2.0            # absent threshold => unreachable
+  interrupt_default: 2.0
+  react.complain: 0.45
+  react.outburst: 0.55
+  react.cold_response: 0.50
+  react.cooperate: 0.40
+  react.refuse: 0.50
+  react.positive_response: 0.30   # THEME A: a warm reply fires readily on an appraised kindness. PLACEHOLDER.
+  interrupt.complain: 0.70
+  interrupt.outburst: 0.65
+  interrupt.cold_response: 0.70
+  interrupt.cooperate: 0.80
+  interrupt.refuse: 0.75
+  interrupt.positive_response: 0.80  # THEME A: warmth rarely INTERRUPTS an ongoing activity. PLACEHOLDER.
+  urge_start: 0.60             # theta_start (proactive)
+  satiation: 0.70              # theta_nasycenia (END activity)
+  fatigue_end: 0.80            # theta_zmeczenia (END activity)
+  reactive_window_ticks: 10    # D5 step 1c: a reactive REPLY needs a provocation within this many ticks;
+                               # else ambient idle drift would fire a reply at thin air. ~one anger half-life
+                               # (30s / dt 3 = 10 ticks). PLACEHOLDER (owned by calibration).
+  seeking_timeout_ticks: 20    # M7 Step 2: SEEKING this long with no `activity` confirmation -> give up
+                               # (-> IDLE, keeping the accrued seeking-frustration). PLACEHOLDER.
+  provocation_resentment: 0.30 # D11 (Fix 3): a positive GESTURE (food/help) from a source counts as a
+                               # PROVOCATION (opens the reactive gate) only if resentment[source] >= this --
+                               # "a kindness from someone you blame still galls". Below it, a meal/help is
+                               # benign -> no reply (kills the 'snaps at being fed' over-reaction). Insults
+                               # and orders provoke regardless (they raise anger/frustration directly).
+                               # PLACEHOLDER pinned BETWEEN the believability finding (an ordinary persona's
+                               # mild resentment, ~0.20, must NOT provoke) and the burst litmus (the bad-day
+                               # resentment, 0.35, MUST provoke); exact value owned by calibration.
+
+# Appraisal (Theme A) -- event valence config. gesture_channels: filtered channels that mark a pro-social
+# GESTURE (food -> food_nutrition; help -> help). kindness_pressure: the transient magnitude emitted when a
+# gesture is appraised non-negative from a NON-resented source (mirror of command_pressure). The GATE
+# (gesture + non-negative + non-resented) guarantees neutrality, not this magnitude: with no gesture / a
+# resented source it is never emitted -> positive_response dormant, hostile potentials untouched, goldens
+# bit-identical. PLACEHOLDER magnitude (calibration owns it).
+appraisal:
+  gesture_channels: [food_nutrition, help]
+  kindness_pressure: 1.0
+  bystander_pressure: 1.0       # target policy: transient magnitude when a respected non-provoking source
+                                # interacts amid residual anger. Neutral by construction via its GATE (see
+                                # _bystander_pressure), not via this value. PLACEHOLDER (calibration owns it).
+
+# Drive registry: adding a drive = data, not code (spec section 8/14).
+drives:
+  boredom:
+    urge: boredom
+    action: seek_stimulus
+  fatigue:
+    urge: fatigue
+    action: rest
+  command:                      # AUTHORITY drive (spec §8): duty -> command_other. Present for all personas,
+    urge: command               # but fires ONLY where duty accrues (drift>0, i.e. an authority persona);
+    action: command_other       # everyone else keeps urge_command=0 -> never crosses theta_start.
+  sleep:                        # M7.5 Part B NIGHT drive: sleep_urge -> sleep (the SLEEP mode). Present for
+    urge: sleep                 # all personas, but fires only after `nightfall` raised sleep_pressure
+    action: sleep               # (else sleep_urge<=0); sparse -> single-day litmus/goldens untouched.
+
+action_params:
+  # M7 Step 2: seek_stimulus is now the SEEKING intent ("looking"), NOT the relief. It costs frustration
+  # (looking is not free -> chronic fruitless search becomes irritation) and gives NO relief -- relief comes
+  # only from a world-CONFIRMED activity (self_activity / external below). The boredom STATE keeps drifting.
+  seek_stimulus:
+    seeking: true             # M7 Step 2: this drive needs WORLD CONFIRMATION (IDLE->SEEKING, not ->BUSY);
+                              # other drives (rest) are self-supplied and go straight to BUSY.
+    per_tick:
+      frustration: 0.01       # the seeking cost. PLACEHOLDER (calibration).
+  # World-confirmed activities (engaged via an `activity` event). Boredom relief scales with the confirmed
+  # novelty (engaged_novelty, applied in update). self_activity RECOVERS stress; external (work) slowly RAISES it.
+  # Both carry a small fatigue cost so the activity ENDS (fatigue_end) and the NPC cycles back through its day.
+  self_activity:              # leisure / "unwinding"
+    per_tick:
+      boredom: -0.05          # × engaged_novelty (how stimulating)
+      stress: -0.04           # RECOVERS stress
+      satisfaction: 0.03
+      fatigue: 0.01           # engaging is mildly tiring -> the activity eventually ends
+    cooldown: 2
+  external:                   # work / "the grind"
+    per_tick:
+      boredom: -0.05          # × engaged_novelty
+      stress: 0.01            # slow accrual
+      satisfaction: 0.01
+      fatigue: 0.02           # work tires faster -> ends sooner, and feeds the rest drive
+    cooldown: 2
+  rest:
+    end_when_below:
+      fatigue: 0.20           # rest ENDS once rested (fatigue low) -- it serves the fatigue need, not satiation
+    per_tick:
+      fatigue: -0.05
+      satisfaction: 0.01
+    cooldown: 2
+  sleep:                      # M7.5 Part B: the NIGHT mode. Self-supplied proactive -> SLEEP (not BUSY).
+    sleep: true               # routes the START into Mode.SLEEP (simulation._apply_transition).
+    end_when_below:
+      sleep_pressure: 0.10    # WAKE when the night is over (sleep_pressure discharged) -> COOLDOWN -> IDLE.
+    per_tick:                 # the RESET: fast states decay strongly, physiological recover; SLOW relations
+                              # are ABSENT -> the grudge persists across the night (spec §8). PLACEHOLDERS.
+      anger: -0.10            # fast emotions strongly toward 0 (on top of their own decay)
+      stress: -0.10
+      frustration: -0.10
+      satisfaction: -0.02     # drifts toward neutral overnight
+      fatigue: -0.05          # rest deeply
+      self_control: 0.02      # recovers toward baseline
+      hunger: 0.01            # rises slowly through the night
+      sleep_pressure: -0.012  # discharge -> crosses end_when_below -> wake by morning
+    cooldown: 2
+  command_other:              # AUTHORITY verb (spec §8): proactive, other-directed, INSTANTANEOUS (fires once
+                              # from IDLE -> COOLDOWN, NOT a SEEKING search and NOT a BUSY dwell). The cross-agent
+                              # routing (-> a subordinate's command event) is the ORCHESTRATOR's job (eval layer),
+                              # not the pure engine -- here it just discharges the issuer's duty.
+    instantaneous: true
+    cooldown: 2               # rate-limits issuance (no order every tick). PLACEHOLDER.
+    post_effects:
+      global:
+        duty: -0.35           # discharge the duty drive (the accrue->discharge arc, mirror of seek relieving
+                              # boredom). PLACEHOLDER magnitude owned by calibration.
+        satisfaction: 0.05    # "things are in hand" -- a small reward for the issuer. PLACEHOLDER.
+  outburst:
+    post_effects:
+      global:
+        anger: -0.30            # discharge anger
+      source_relations:
+        resentment: 0.15        # +resentment booked on the target (spec section 8)
+    cooldown: 2
+  cold_response:
+    post_effects:
+      global: {}
+  complain:
+    post_effects:
+      global: {}
+  positive_response:            # THEME A: a warm reply to a kindness. Books a small GOODWILL deposit on the
+                                # giver -- the mirror of outburst's +resentment[source], so warmth accumulates
+                                # across days as grudges do. PLACEHOLDER magnitudes (calibration owns them).
+    post_effects:
+      global:
+        satisfaction: 0.03      # a kindness received feels good (small)
+      source_relations:
+        trust: 0.05             # +trust booked on the giver (goodwill builds over repeated kindnesses)
+    cooldown: 1
+
+mapper_params: {}
+
+history_params:
+  recent_window: 100           # ticks counted as "recent"
+  repetition_norm: 6           # recent same-item count at which repetition saturates
+
+# Calibration parameter bounds (spec section 14 tuned-values inventory). REVISABLE PLACEHOLDERS:
+# best-guess ranges, NOT laws -- calibration may move them; nobody should treat a bound as sacred.
+# Single source for (a) regularization in the loss and (b) the step-3 optimizer search space.
+# Includes RELATIVE-ORDERING constraints (declarative), not just per-param min/max.
+param_bounds:
+  revisable: true              # the ranges below are placeholders, not laws
+  half_lives:                  # game-time units; current seeds all sit inside these ranges
+    anger:        [10, 60]
+    frustration:  [15, 90]
+    stress:       [20, 120]
+    satisfaction: [15, 80]
+    self_control: [20, 120]
+    boredom:      [60, 400]
+    duty:         [300, 1200]   # authority drive state; long (accrues over a watch) so dt stays set by emotions
+    sleep_pressure: [600, 3000] # sleep drive state; LONG (so dt stays set by the fast emotions AND the
+                                # nightfall injection persists while arousal settles); current seed 2000
+    fatigue:      [800, 4000]
+    hunger:       [1000, 6000]
+    trust:        [50000, 200000]
+    respect:      [50000, 200000]
+    resentment:   [80000, 300000]
+  # Each list = half_life keys that must be NON-DECREASING (fast emotion -> slow memory).
+  half_life_ordering:
+    - [anger, frustration, stress, boredom]   # emotions ordered fastest -> slowest
+    - [boredom, trust]                          # any emotion well below any memory dimension
+  # LAYER-2 free-set bounds (the anger loop). Dotted paths into the config. REVISABLE PLACEHOLDERS;
+  # single source for regularization + the CMA-ES search space. Bounds are WIDE enough that the optimizer
+  # CAN reach the unstable region (anger<->stress pole >= 1) -- on purpose: stability is the binding HARD
+  # gate, not a soft penalty. Roles: 3 COUPLINGS (in the Jury 2-cycle) + 2 insult DRIVERS (inputs, not poles).
+  # LOWER bounds on the loop couplings are NONZERO on purpose: a coupling can't go so low the loop
+  # ceases to exist (anger would become an isolated counter, not an emotion that responds to stress/
+  # frustration). "weaker is better" on contrast+cooldown+margin is a bottomless direction otherwise.
+  layer2_gains:
+    "couplings.anger.stress":       [0.015, 0.12]  # anger <- stress   (loop edge; Jury)
+    "couplings.stress.anger":       [0.012, 0.10]  # stress <- anger   (loop edge; Jury)
+    "couplings.anger.frustration":  [0.015, 0.12]  # anger <- frustration (feeds the loop; not the 2-cycle)
+    "gains.anger.insult":           [0.10, 0.60]   # insult -> anger   (DRIVER: amplitude, not a pole)
+    "gains.frustration.insult":     [0.0, 0.40]    # insult -> frustration (DRIVER)
+
+# Calibration TIME-SCALE ANCHOR -- the ONE absolute number in the layer-1 benchmark; everything
+# else is RELATIVE to it (orderings the optimizer fits). It is a conscious GAME-PACING DESIGN
+# DECISION, not a number from any corpus or LLM (those authorize order/shape, never seconds).
+calibration:
+  # The glow of a pleasant moment (good food / praise) half-decays in ~45 s: it stays with you for
+  # the better part of a minute, mostly gone in ~2-3 min -- the watch-beat (minutes) pacing decision.
+  # REVISABLE; the single dimensional pin. Anchored on SATISFACTION, not anger: satisfaction has NO
+  # incoming state coupling, so its half-decay tracks its half-life (the layer-1 free var) linearly
+  # (hl 20/35/60 -> 22/36/60 s). Anger's decay is dominated by the FROZEN stress->anger /
+  # frustration->anger gains -- its half-life has ~no leverage (75 s at hl 30, 74 s at hl 15) -- so
+  # the anger-cooldown target is a LAYER-2 (gain) goal, recorded in known_divergences, not here.
+  satisfaction_halfdecay_seconds: 45.0
+  halfdecay_frac: 0.50          # "half-decay" = the impulse contribution fallen to 50% of its peak
+  # Layer-2 SOFT stability objective: reward Jury 2-cycle headroom up to this margin (on TOP of the hard
+  # reject at margin<=0). Baseline margin ~0.0007 is a knife-edge; the bound is ~0.00194. 0.0012 = comfortable
+  # headroom (the optimizer pushes couplings down to reach it). REVISABLE design number.
+  stability_margin_target: 0.0012
+  decoupling_peak_anger_floor: 0.30   # decoupling MONITOR: anger must still respond to the scenario (peak
+                                      # anger on same_soup_bad_day >= this) -- the contrast must not be won
+                                      # by anger going inert. Monitored (weight 0); reported by run_layer2.

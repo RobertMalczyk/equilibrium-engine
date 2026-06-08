@@ -1,0 +1,55 @@
+# GENERATED 'normal day' scenario (eval/generate_day_scenarios.py).
+# Persona: lutek. A believable 24 h day: events across the ~17 h WAKING day
+# (meals at meal-times, sparse triggers), then a `nightfall` -> the night/sleep reset. Run via
+# load_eval_persona_timescale for 717 ticks (dt ~120 s). Deterministic: seed =
+# sha256(GLOBAL_SEED:persona:index). Vocabulary {food_given, insult, help, command, nightfall}.
+id: lutek_day_077
+persona: lutek
+initial_overrides:
+  global_state:
+    boredom: 0.25
+events:
+- type: food_given
+  t: 83
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 84
+  source: player
+  intensity: 0.462
+  context:
+    public: true
+- type: help
+  t: 147
+  source: player
+  intensity: 0.895
+  context: {}
+- type: food_given
+  t: 233
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 234
+  source: marta
+  intensity: 0.71
+  context: {}
+- type: insult
+  t: 368
+  source: player
+  intensity: 0.526
+  context:
+    public: false
+- type: help
+  t: 399
+  source: player
+  intensity: 0.754
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0

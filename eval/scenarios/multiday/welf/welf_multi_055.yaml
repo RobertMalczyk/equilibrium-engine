@@ -1,0 +1,230 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: welf. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: visitors, quiet, visitors, visitors, foul_weather, quiet.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: welf_multi_055
+persona: welf
+n_days: 6
+day_plan:
+- visitors
+- quiet
+- visitors
+- visitors
+- foul_weather
+- quiet
+initial_overrides:
+  global_state:
+    boredom: 0.3
+events:
+- type: food_given
+  t: 47
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 98
+  source: player
+  intensity: 0.658
+  context: {}
+- type: help
+  t: 137
+  source: player
+  intensity: 0.621
+  context: {}
+- type: food_given
+  t: 244
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 284
+  source: player
+  intensity: 0.758
+  context: {}
+- type: help
+  t: 376
+  source: player
+  intensity: 0.65
+  context: {}
+- type: food_given
+  t: 413
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 769
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 946
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1124
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1164
+  source: player
+  intensity: 0.285
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1498
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1672
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1812
+  source: player
+  intensity: 0.934
+  context: {}
+- type: food_given
+  t: 1867
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1882
+  source: player
+  intensity: 0.245
+  context: {}
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: food_given
+  t: 2226
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 2411
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2563
+  source: player
+  intensity: 1.0
+  context: {}
+- type: food_given
+  t: 2598
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: weather
+  t: 2888
+  intensity: 0.503
+- type: weather
+  t: 2948
+  intensity: 0.632
+- type: food_given
+  t: 2952
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 3008
+  intensity: 0.638
+- type: weather
+  t: 3068
+  intensity: 0.594
+- type: food_given
+  t: 3122
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 3128
+  intensity: 0.541
+- type: help
+  t: 3165
+  source: player
+  intensity: 0.525
+  context: {}
+- type: weather
+  t: 3188
+  intensity: 0.607
+- type: weather
+  t: 3248
+  intensity: 0.507
+- type: weather
+  t: 3308
+  intensity: 0.588
+- type: food_given
+  t: 3320
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: help
+  t: 3603
+  source: player
+  intensity: 0.699
+  context: {}
+- type: food_given
+  t: 3699
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3848
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 4093
+  intensity: 1.0

@@ -1,0 +1,362 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: halgrim. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: drill, bad_blood, visitors, drill, visitors, quiet.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: halgrim_multi_085
+persona: halgrim
+n_days: 6
+day_plan:
+- drill
+- bad_blood
+- visitors
+- drill
+- visitors
+- quiet
+initial_overrides: {}
+events:
+- type: command
+  t: 13
+  source: wojslaw
+  intensity: 0.817
+  context:
+    has_authority: true
+- type: help
+  t: 14
+  source: player
+  intensity: 0.683
+  context: {}
+- type: command
+  t: 15
+  source: wojslaw
+  intensity: 0.736
+  context:
+    has_authority: true
+- type: insult
+  t: 50
+  source: wojslaw
+  intensity: 0.713
+  context:
+    public: true
+- type: food_given
+  t: 53
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 118
+  source: marta
+  intensity: 0.73
+  context: {}
+- type: help
+  t: 167
+  source: marta
+  intensity: 0.919
+  context: {}
+- type: food_given
+  t: 259
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 311
+  source: wojslaw
+  intensity: 0.652
+  context:
+    has_authority: true
+- type: command
+  t: 315
+  source: wojslaw
+  intensity: 0.583
+  context:
+    has_authority: true
+- type: command
+  t: 480
+  source: edda
+  intensity: 0.478
+  context:
+    has_authority: true
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 777
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 781
+  source: wojslaw
+  intensity: 0.786
+  context:
+    public: false
+- type: insult
+  t: 865
+  source: wojslaw
+  intensity: 0.568
+  context:
+    public: false
+- type: insult
+  t: 900
+  source: wojslaw
+  intensity: 0.72
+  context:
+    public: false
+- type: insult
+  t: 940
+  source: wojslaw
+  intensity: 0.47
+  context:
+    public: false
+- type: command
+  t: 972
+  source: wojslaw
+  intensity: 0.742
+  context:
+    has_authority: true
+- type: food_given
+  t: 975
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1152
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 1186
+  source: wojslaw
+  intensity: 1.0
+  context:
+    has_authority: true
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: help
+  t: 1444
+  source: player
+  intensity: 0.406
+  context: {}
+- type: command
+  t: 1470
+  source: wojslaw
+  intensity: 0.561
+  context:
+    has_authority: true
+- type: command
+  t: 1476
+  source: edda
+  intensity: 0.7
+  context:
+    has_authority: true
+- type: insult
+  t: 1485
+  source: wojslaw
+  intensity: 0.868
+  context:
+    public: true
+- type: food_given
+  t: 1515
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1669
+  source: wojslaw
+  intensity: 0.433
+  context:
+    public: false
+- type: food_given
+  t: 1670
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1682
+  source: marta
+  intensity: 0.798
+  context: {}
+- type: food_given
+  t: 1893
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1937
+  source: marta
+  intensity: 0.478
+  context: {}
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: help
+  t: 2184
+  source: marta
+  intensity: 0.922
+  context: {}
+- type: command
+  t: 2201
+  source: wojslaw
+  intensity: 0.887
+  context:
+    has_authority: true
+- type: command
+  t: 2207
+  source: edda
+  intensity: 0.666
+  context:
+    has_authority: true
+- type: food_given
+  t: 2215
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 2247
+  source: edda
+  intensity: 0.963
+  context:
+    has_authority: true
+- type: command
+  t: 2315
+  source: wojslaw
+  intensity: 0.163
+  context:
+    has_authority: true
+- type: command
+  t: 2338
+  source: edda
+  intensity: 0.497
+  context:
+    has_authority: true
+- type: insult
+  t: 2353
+  source: wojslaw
+  intensity: 0.684
+  context:
+    public: false
+- type: command
+  t: 2417
+  source: wojslaw
+  intensity: 0.592
+  context:
+    has_authority: true
+- type: command
+  t: 2447
+  source: edda
+  intensity: 0.174
+  context:
+    has_authority: true
+- type: command
+  t: 2531
+  source: edda
+  intensity: 0.835
+  context:
+    has_authority: true
+- type: command
+  t: 2614
+  source: edda
+  intensity: 0.925
+  context:
+    has_authority: true
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: food_given
+  t: 2928
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3067
+  source: marta
+  intensity: 0.975
+  context: {}
+- type: food_given
+  t: 3083
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3105
+  source: player
+  intensity: 0.897
+  context: {}
+- type: command
+  t: 3158
+  source: edda
+  intensity: 1.0
+  context:
+    has_authority: true
+- type: command
+  t: 3183
+  source: edda
+  intensity: 0.588
+  context:
+    has_authority: true
+- type: help
+  t: 3200
+  source: player
+  intensity: 0.485
+  context: {}
+- type: food_given
+  t: 3322
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: food_given
+  t: 3648
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3839
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3878
+  source: marta
+  intensity: 0.786
+  context: {}
+- type: command
+  t: 4085
+  source: edda
+  intensity: 0.755
+  context:
+    has_authority: true
+- type: nightfall
+  t: 4093
+  intensity: 1.0

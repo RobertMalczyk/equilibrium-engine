@@ -1,0 +1,88 @@
+# GENERATED 'normal day' scenario (eval/generate_day_scenarios.py).
+# Persona: branic. A believable 24 h day: events across the ~17 h WAKING day
+# (meals at meal-times, sparse triggers), then a `nightfall` -> the night/sleep reset. Run via
+# load_eval_persona_timescale for 717 ticks (dt ~120 s). Deterministic: seed =
+# sha256(GLOBAL_SEED:persona:index). Vocabulary {food_given, insult, help, command, nightfall}.
+id: branic_day_082
+persona: branic
+initial_overrides:
+  global_state:
+    boredom: 0.2
+events:
+- type: command
+  t: 11
+  source: halgrim
+  intensity: 0.668
+  context:
+    has_authority: true
+- type: command
+  t: 47
+  source: halgrim
+  intensity: 0.75
+  context:
+    has_authority: true
+- type: food_given
+  t: 73
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 99
+  source: halgrim
+  intensity: 0.416
+  context:
+    public: false
+- type: command
+  t: 119
+  source: halgrim
+  intensity: 0.84
+  context:
+    has_authority: true
+- type: insult
+  t: 120
+  source: halgrim
+  intensity: 0.512
+  context:
+    public: false
+- type: help
+  t: 139
+  source: marta
+  intensity: 0.778
+  context: {}
+- type: command
+  t: 143
+  source: halgrim
+  intensity: 0.785
+  context:
+    has_authority: true
+- type: food_given
+  t: 258
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 434
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 452
+  source: halgrim
+  intensity: 0.606
+  context:
+    has_authority: true
+- type: insult
+  t: 463
+  source: halgrim
+  intensity: 0.381
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0

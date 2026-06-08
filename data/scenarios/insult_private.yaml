@@ -1,0 +1,7 @@
+# Private insult (pair of insult_public): identical insult, context not public, so no
+# social_exposure amplification. outburst_potential here < public.
+id: insult_private
+persona: wojslaw
+initial_overrides: {}
+events:
+  - {type: insult, t: 0, source: player, intensity: 1.0, context: {public: false}}

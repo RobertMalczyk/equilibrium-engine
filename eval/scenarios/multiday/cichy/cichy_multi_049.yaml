@@ -1,0 +1,237 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: cichy. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: quiet, bad_blood, bad_blood, bad_blood, quiet, bad_blood.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: cichy_multi_049
+persona: cichy
+n_days: 6
+day_plan:
+- quiet
+- bad_blood
+- bad_blood
+- bad_blood
+- quiet
+- bad_blood
+initial_overrides:
+  global_state:
+    boredom: 0.3
+    frustration: 0.1
+  relations:
+    guard:
+      trust: 0.05
+      respect: 0.1
+      resentment: 0.85
+events:
+- type: insult
+  t: 41
+  source: guard
+  intensity: 0.52
+  context:
+    public: false
+- type: food_given
+  t: 67
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 253
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: insult
+  t: 735
+  source: guard
+  intensity: 0.437
+  context:
+    public: false
+- type: food_given
+  t: 781
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 984
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1005
+  source: guard
+  intensity: 0.698
+  context:
+    public: false
+- type: insult
+  t: 1058
+  source: guard
+  intensity: 0.631
+  context:
+    public: false
+- type: insult
+  t: 1128
+  source: guard
+  intensity: 0.703
+  context:
+    public: false
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1506
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1563
+  source: guard
+  intensity: 0.503
+  context:
+    public: false
+- type: food_given
+  t: 1665
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1756
+  source: guard
+  intensity: 0.677
+  context:
+    public: false
+- type: food_given
+  t: 1886
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1937
+  source: guard
+  intensity: 0.674
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: insult
+  t: 2155
+  source: guard
+  intensity: 0.565
+  context:
+    public: false
+- type: food_given
+  t: 2245
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 2258
+  source: guard
+  intensity: 0.461
+  context:
+    public: false
+- type: food_given
+  t: 2384
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 2457
+  source: guard
+  intensity: 0.602
+  context:
+    public: false
+- type: food_given
+  t: 2590
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: food_given
+  t: 2938
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3160
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3305
+  source: player
+  intensity: 0.468
+  context: {}
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: food_given
+  t: 3669
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3828
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 3894
+  source: guard
+  intensity: 0.71
+  context:
+    public: false
+- type: insult
+  t: 3942
+  source: guard
+  intensity: 0.937
+  context:
+    public: false
+- type: food_given
+  t: 4046
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 4057
+  source: guard
+  intensity: 0.734
+  context:
+    public: true
+- type: nightfall
+  t: 4093
+  intensity: 1.0

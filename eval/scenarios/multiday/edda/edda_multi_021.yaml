@@ -1,0 +1,230 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: edda. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: drill, feast, visitors, quiet, ordinary, quiet.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: edda_multi_021
+persona: edda
+n_days: 6
+day_plan:
+- drill
+- feast
+- visitors
+- quiet
+- ordinary
+- quiet
+initial_overrides: {}
+events:
+- type: food_given
+  t: 50
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 141
+  source: player
+  intensity: 0.614
+  context: {}
+- type: food_given
+  t: 234
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 315
+  source: halgrim
+  intensity: 0.727
+  context: {}
+- type: food_given
+  t: 428
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 763
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 790
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 876
+  source: player
+  intensity: 0.762
+  context: {}
+- type: food_given
+  t: 941
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1017
+  source: player
+  intensity: 0.725
+  context: {}
+- type: help
+  t: 1065
+  source: player
+  intensity: 0.797
+  context: {}
+- type: food_given
+  t: 1112
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1113
+  source: halgrim
+  intensity: 0.699
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1464
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1567
+  source: halgrim
+  intensity: 0.824
+  context: {}
+- type: food_given
+  t: 1685
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1693
+  source: marta
+  intensity: 0.509
+  context: {}
+- type: help
+  t: 1779
+  source: player
+  intensity: 0.7
+  context: {}
+- type: food_given
+  t: 1858
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: food_given
+  t: 2214
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 2375
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 2544
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: food_given
+  t: 2917
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3007
+  source: player
+  intensity: 0.643
+  context: {}
+- type: food_given
+  t: 3125
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 3199
+  source: player
+  intensity: 0.705
+  context:
+    has_authority: true
+- type: food_given
+  t: 3269
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: food_given
+  t: 3644
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3830
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 4004
+  source: player
+  intensity: 0.898
+  context:
+    has_authority: true
+- type: food_given
+  t: 4020
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 4093
+  intensity: 1.0

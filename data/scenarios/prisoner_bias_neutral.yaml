@@ -1,0 +1,13 @@
+# Neutral baseline for prisoner_bias: same Cichy, same events, but a neutral relation to
+# the guard. The insult lands lighter and the help lands fuller than in the resentful run.
+id: prisoner_bias_neutral
+persona: cichy
+initial_overrides:
+  relations:
+    guard:
+      trust: 0.50
+      respect: 0.50
+      resentment: 0.00
+events:
+  - {type: insult, t: 0, source: guard, intensity: 0.8, context: {public: false}}
+  - {type: help,   t: 4, source: guard, intensity: 0.8, context: {public: false}}

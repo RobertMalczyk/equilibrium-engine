@@ -1,0 +1,8 @@
+# Obedience litmus (the SECOND litmus, GATE 3): the SAME Halgrim receives a command from EDDA, whom he
+# respects (graph: mutual respect). Expect cooperate. Pair with command_from_wojslaw (same persona, same
+# order, resented source -> refuse) -- the contrast is WITHIN one persona, purely from respect[source].
+id: command_from_edda
+persona: halgrim
+initial_overrides: {}
+events:
+  - {type: command, t: 0, source: edda, intensity: 1.0, context: {has_authority: true}}

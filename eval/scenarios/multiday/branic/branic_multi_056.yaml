@@ -1,0 +1,243 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: branic. 4 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: ordinary, ordinary, bad_blood, foul_weather.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: branic_multi_056
+persona: branic
+n_days: 4
+day_plan:
+- ordinary
+- ordinary
+- bad_blood
+- foul_weather
+initial_overrides:
+  global_state:
+    boredom: 0.2
+events:
+- type: help
+  t: 24
+  source: halgrim
+  intensity: 0.871
+  context: {}
+- type: food_given
+  t: 59
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 169
+  source: halgrim
+  intensity: 0.773
+  context:
+    has_authority: true
+- type: food_given
+  t: 253
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 322
+  source: halgrim
+  intensity: 0.477
+  context: {}
+- type: food_given
+  t: 454
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 763
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 871
+  source: player
+  intensity: 0.698
+  context: {}
+- type: command
+  t: 961
+  source: halgrim
+  intensity: 1.0
+  context:
+    has_authority: true
+- type: food_given
+  t: 981
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1008
+  source: player
+  intensity: 0.449
+  context: {}
+- type: help
+  t: 1102
+  source: marta
+  intensity: 0.504
+  context: {}
+- type: command
+  t: 1136
+  source: halgrim
+  intensity: 0.608
+  context:
+    has_authority: true
+- type: food_given
+  t: 1168
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 1205
+  source: halgrim
+  intensity: 0.891
+  context:
+    has_authority: true
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: insult
+  t: 1438
+  source: halgrim
+  intensity: 0.287
+  context:
+    public: false
+- type: food_given
+  t: 1507
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1623
+  source: halgrim
+  intensity: 0.484
+  context:
+    public: false
+- type: help
+  t: 1686
+  source: player
+  intensity: 0.227
+  context: {}
+- type: food_given
+  t: 1700
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 1710
+  source: halgrim
+  intensity: 0.744
+  context:
+    has_authority: true
+- type: insult
+  t: 1732
+  source: halgrim
+  intensity: 0.814
+  context:
+    public: false
+- type: insult
+  t: 1777
+  source: halgrim
+  intensity: 0.324
+  context:
+    public: false
+- type: command
+  t: 1819
+  source: halgrim
+  intensity: 0.403
+  context:
+    has_authority: true
+- type: insult
+  t: 1862
+  source: halgrim
+  intensity: 0.598
+  context:
+    public: false
+- type: insult
+  t: 1896
+  source: halgrim
+  intensity: 0.621
+  context:
+    public: false
+- type: command
+  t: 1937
+  source: halgrim
+  intensity: 1.0
+  context:
+    has_authority: true
+- type: command
+  t: 1939
+  source: halgrim
+  intensity: 0.606
+  context:
+    has_authority: true
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: weather
+  t: 2171
+  intensity: 0.545
+- type: food_given
+  t: 2217
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 2231
+  intensity: 0.58
+- type: weather
+  t: 2291
+  intensity: 0.669
+- type: weather
+  t: 2351
+  intensity: 0.581
+- type: insult
+  t: 2399
+  source: halgrim
+  intensity: 0.401
+  context:
+    public: false
+- type: food_given
+  t: 2408
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 2411
+  intensity: 0.675
+- type: weather
+  t: 2471
+  intensity: 0.622
+- type: weather
+  t: 2531
+  intensity: 0.535
+- type: weather
+  t: 2591
+  intensity: 0.503
+- type: nightfall
+  t: 2659
+  intensity: 1.0

@@ -1,0 +1,93 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: cichy. 4 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: quiet, short_rations, short_rations, ordinary.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: cichy_multi_081
+persona: cichy
+n_days: 4
+day_plan:
+- quiet
+- short_rations
+- short_rations
+- ordinary
+initial_overrides:
+  global_state:
+    boredom: 0.3
+    frustration: 0.1
+  relations:
+    guard:
+      trust: 0.05
+      respect: 0.1
+      resentment: 0.85
+events:
+- type: food_given
+  t: 104
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 261
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: help
+  t: 792
+  source: player
+  intensity: 0.714
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1500
+  source: guard
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1682
+  source: guard
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1715
+  source: guard
+  intensity: 0.583
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: food_given
+  t: 2222
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 2395
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2532
+  source: player
+  intensity: 0.401
+  context: {}
+- type: nightfall
+  t: 2659
+  intensity: 1.0

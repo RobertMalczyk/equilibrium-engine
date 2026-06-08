@@ -1,0 +1,146 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: welf. 4 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: quiet, short_rations, quiet, visitors.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: welf_multi_078
+persona: welf
+n_days: 4
+day_plan:
+- quiet
+- short_rations
+- quiet
+- visitors
+initial_overrides:
+  global_state:
+    boredom: 0.3
+events:
+- type: food_given
+  t: 72
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 258
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 285
+  source: player
+  intensity: 0.745
+  context: {}
+- type: food_given
+  t: 438
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 801
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 956
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1220
+  source: player
+  intensity: 0.612
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1509
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1654
+  source: player
+  intensity: 0.548
+  context: {}
+- type: food_given
+  t: 1687
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1878
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: food_given
+  t: 2217
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2265
+  source: player
+  intensity: 0.717
+  context: {}
+- type: help
+  t: 2388
+  source: player
+  intensity: 1.0
+  context: {}
+- type: food_given
+  t: 2400
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 2420
+  source: player
+  intensity: 0.797
+  context:
+    public: false
+- type: help
+  t: 2437
+  source: player
+  intensity: 0.631
+  context: {}
+- type: help
+  t: 2523
+  source: player
+  intensity: 0.435
+  context: {}
+- type: insult
+  t: 2640
+  source: player
+  intensity: 0.574
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0

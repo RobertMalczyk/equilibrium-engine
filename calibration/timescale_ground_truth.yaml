@@ -1,0 +1,44 @@
+# Time-scale GROUND TRUTH -- believable real-world durations for each persona-dynamics phenomenon.
+#
+# This is the human-set reference the `eval/timescale_keeper.py` dev tool checks the persona time
+# constants against. NOT engine config; a verification anchor. Edit these to change "what believable
+# feels like"; the keeper then reports which constants are out of range and roughly what would fix them.
+#
+# Each phenomenon: target_s (believable duration in seconds), tol (fractional tolerance), how (which
+# kind of measurement), note (the human rationale). Decay phenomena are read straight off the half-life
+# (half-lives are in game-seconds); drift/dynamic phenomena are MEASURED by running a probe.
+
+reference_persona: branic        # default probe subject: a hot, fast-boring recruit
+day:
+  full_hours: 24
+  waking_hours: 17               # dawn ~06:00, nightfall ~23:00
+  night_hours: 7
+
+phenomena:
+  # --- fast emotions: real-world fade time == half-life (seconds), read directly ---
+  anger_halflife:        {target_s: 1200,  tol: 0.35, how: halflife, state: anger,
+                          note: "a flash of temper cools over ~20 min"}
+  frustration_halflife:  {target_s: 1800,  tol: 0.40, how: halflife, state: frustration,
+                          note: "irritation eases over ~30 min"}
+  stress_halflife:       {target_s: 1920,  tol: 0.40, how: halflife, state: stress,
+                          note: "tension unwinds over ~30 min (anger x the calibrated loop ratio)"}
+  satisfaction_halflife: {target_s: 1700,  tol: 0.40, how: halflife, state: satisfaction,
+                          note: "a good mood lingers ~30 min"}
+
+  # --- accumulators: MEASURED rise time (drift), the per-dimension freedom ---
+  boredom_to_seek:       {target_s: 7200,  tol: 0.45, how: time_to_seek,
+                          note: "idle on a dull watch -> restless enough to seek a diversion in ~2 h"}
+  hunger_to_half:        {target_s: 18000, tol: 0.45, how: time_to_state, state: hunger, level: 0.5,
+                          note: "noticeably hungry (~0.5) ~5 h after a meal"}
+  fatigue_to_high:       {target_s: 50400, tol: 0.45, how: time_to_state, state: fatigue, level: 0.7,
+                          note: "tired (~0.7) by the end of a ~14 h waking day"}
+
+  # --- relational memory: the slowest dimension (a grudge persists across nights, fades over weeks) ---
+  grudge_halflife:       {target_s: 6048000, tol: 0.55, how: halflife, state: resentment,
+                          note: "a grudge persists across nights and fades only over ~weeks"}
+
+  # --- sleep / give-up: MEASURED ---
+  night_length:          {target_s: 25200, tol: 0.45, how: night,
+                          note: "a night's sleep ~7 h (nightfall -> wake)"}
+  seeking_giveup:        {target_s: 1800,  tol: 0.60, how: giveup,
+                          note: "look for a diversion ~30 min before giving up (timeout)"}

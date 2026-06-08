@@ -1,0 +1,52 @@
+# Branic -- a day
+
+An account of one ordinary day, hour by hour: what happened around him and how he
+carried himself through it. (Times are the clock on the wall.)
+
+- **08:00** -- He grows restless, casting about for something to do.
+- **08:00** -- He occupies himself -- tinkering, pacing, passing the time.
+- **08:03** -- He sits down to rest.
+- **08:22** -- He busies himself with work.
+- **08:24** -- Marta brings him a bowl of cabbage soup. He lets it pass, no notable reaction.
+- **08:25** -- Halgrim mocks him, a barbed remark. He flares up and snaps angrily.
+- **08:30** -- He looks tense, a little on edge.
+- **08:30** -- He sits down to rest.
+- **08:34** -- He grows restless, casting about for something to do.
+- **08:35** -- He occupies himself -- tinkering, pacing, passing the time.
+- **08:42** -- He busies himself with work.
+- **08:48** -- Halgrim orders him to get something done. He sets to it at once.
+- **09:00** -- He looks settled, at ease.
+- **09:02** -- He grows restless, casting about for something to do.
+- **09:03** -- He occupies himself -- tinkering, pacing, passing the time.
+- **09:03** -- Halgrim lends him a hand, does him a small kindness. He lets it pass, no notable reaction.
+- **09:05** -- He sits down to rest.
+- **09:10** -- He busies himself with work.
+- **09:12** -- Halgrim orders him to get something done. He does as asked.
+- **09:30** -- He looks settled, at ease.
+- **09:30** -- Marta brings him a bowl of cabbage soup. He lets it pass, no notable reaction.
+- **09:30** -- He occupies himself -- tinkering, pacing, passing the time.
+- **09:31** -- He sits down to rest.
+- **09:36** -- He grows restless, casting about for something to do.
+- **09:40** -- Halgrim orders him to get something done. He does as asked.
+- **09:59** -- Halgrim orders him to get something done. He does as asked.
+- **10:00** -- He looks settled, at ease.
+- **10:00** -- He sits down to rest.
+- **10:05** -- He grows restless, casting about for something to do.
+- **10:05** -- He occupies himself -- tinkering, pacing, passing the time.
+- **10:19** -- He busies himself with work.
+- **10:20** -- Halgrim orders him to get something done. He does as asked.
+- **10:30** -- He looks tense, a little on edge.
+- **10:32** -- He grows restless, casting about for something to do.
+- **10:32** -- He occupies himself -- tinkering, pacing, passing the time.
+- **10:34** -- He sits down to rest.
+- **10:39** -- He busies himself with work.
+- **10:59** -- A stranger lends him a hand, does him a small kindness. He lets it pass, no notable reaction.
+- **11:00** -- He looks settled, at ease.
+- **11:01** -- He sits down to rest.
+- **11:06** -- He grows restless, casting about for something to do.
+- **11:06** -- He occupies himself -- tinkering, pacing, passing the time.
+- **11:30** -- He looks settled, at ease.
+- **11:30** -- He sits down to rest.
+- **11:35** -- He grows restless, casting about for something to do.
+- **11:35** -- He busies himself with work.
+- **11:54** -- He occupies himself -- tinkering, pacing, passing the time.

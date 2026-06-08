@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Calibration diagnostic artifacts (regenerable plots/tables, not bit-stable)
+calibration/diagnostics/
+
+# Eval run outputs (regenerable). NOTE: the cited evidence is KEPT on purpose —
+# eval/*.md reports of record, and eval/judge_multiday/**/manifest.yaml + RESULT.md +
+# PROGRESS.md + README.md. Only the bulky generated judge prompts and debug plots are ignored.
+eval/plots/
+*.prompt.md
+
+# Editor / OS
+.DS_Store
+*.swp
+
+# Claude Code local settings (machine-specific)
+.claude/

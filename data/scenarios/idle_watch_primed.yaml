@@ -1,0 +1,13 @@
+# idle_watch_primed: same Welf, same empty watch, but boredom is primed HIGH via initial_overrides
+# (DATA, not a gain). This isolates the fixed proactive-path WIRING (boredom -> urge_boredom ->
+# seek_stimulus -> BUSY -> relief) from the calibration question of whether idle accumulation alone
+# reaches theta_start. Priming substitutes for the not-yet-calibrated boredom drift magnitude (D5).
+# No weight was tuned: only the scenario's starting state is set.
+id: idle_watch_primed
+persona: welf
+initial_overrides:
+  global_state:
+    boredom: 0.90
+    frustration: 0.00
+    fatigue: 0.20
+events: []

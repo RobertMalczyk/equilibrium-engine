@@ -1,0 +1,56 @@
+# Cichy -- prisoner (resentful_prisoner). Deep resentment / low trust toward guards lives
+# in RELATIONS, not traits (spec: persony.md). Node of bias asymmetry.
+#
+# Trait numbers: calibration SEED (scale ++ =0.90, + =0.75, - =0.50, v =0.25, vv =0.10).
+id: cichy
+
+traits:
+  reactivity: 0.75          # +
+  patience: 0.25            # v
+  base_self_control: 0.25   # v
+  need_for_control: 0.50    # -
+  pride: 0.50               # -
+  novelty_seeking: 0.50     # -
+  threat_sensitivity: 0.75  # +
+  trust_disposition: 0.10   # vv
+  gratitude: 0.25           # v
+  stoicism: 0.50            # -
+
+initial_global_state:
+  hunger: 0.30
+  fatigue: 0.30
+  boredom: 0.20
+  stress: 0.20
+  frustration: 0.10
+  anger: 0.05
+  satisfaction: 0.20
+  self_control: 0.25
+
+# Standing relation to the GUARDS who keep him -- his defining disposition (persony.md: resentment up-up,
+# trust down-down, respect down). CALIBRATION SEED (directions, not final). This is who Cichy IS, so it
+# belongs in the persona; the prisoner-bias LITMUS still isolates the effect because prisoner_bias_*
+# OVERRIDE relations[guard] explicitly (resentful 0.85 / neutral 0.00), replacing this seed. Without it the
+# eval/day path (events from `guard`) had no relation -> Cichy read un-resentful between events (D11 round-3).
+initial_relations:
+  guard:
+    trust: 0.10
+    respect: 0.20
+    resentment: 0.85
+  player:
+    trust: 0.30
+    respect: 0.30
+    resentment: 0.10
+
+affinities: {}
+
+# STANDING per-persona threshold -- the prisoner cold-response carrier (matrix Family C).
+# theta = 0.240 is the min-margin optimum of the prisoner contrast gate (loss.prisoner_margins): resentful
+# Cichy's relational-bias-amplified cold clears it EVERY tick from the overture, the neutral baseline stays
+# under it, and the other personas (Wojslaw/Halgrim/Lutek) keep the GLOBAL 0.50 -- a private threshold
+# decouples by construction. It was hoped pride->insult-anger would retire this, but a measurement spike
+# REJECTED that (Cichy is pride 0.5 = ref, unchanged; the prisoner's cold ~0.275 is intrinsically lower than
+# some personas' ordinary public-insult cold, e.g. Welf 0.292 -- not globally separable). So this STAYS, for
+# that documented reason; a cleaner retirement needs a different mechanism. See docs/known_divergences.md D9
+# and calibration/calibrated_thresholds.yaml.
+thresholds:
+  react.cold_response: 0.240

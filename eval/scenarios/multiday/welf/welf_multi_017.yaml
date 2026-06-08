@@ -1,0 +1,99 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: welf. 3 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: visitors, quiet, quiet.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: welf_multi_017
+persona: welf
+n_days: 3
+day_plan:
+- visitors
+- quiet
+- quiet
+initial_overrides:
+  global_state:
+    boredom: 0.3
+events:
+- type: food_given
+  t: 91
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 273
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 330
+  source: player
+  intensity: 0.575
+  context:
+    public: false
+- type: help
+  t: 432
+  source: player
+  intensity: 0.767
+  context: {}
+- type: help
+  t: 495
+  source: player
+  intensity: 0.698
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 781
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 922
+  source: player
+  intensity: 0.78
+  context: {}
+- type: food_given
+  t: 994
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: insult
+  t: 1443
+  source: player
+  intensity: 0.392
+  context:
+    public: false
+- type: food_given
+  t: 1509
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1631
+  source: player
+  intensity: 0.921
+  context: {}
+- type: food_given
+  t: 1698
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0

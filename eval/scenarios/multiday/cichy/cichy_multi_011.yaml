@@ -1,0 +1,230 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: cichy. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: foul_weather, quiet, bad_blood, ordinary, short_rations, foul_weather.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: cichy_multi_011
+persona: cichy
+n_days: 6
+day_plan:
+- foul_weather
+- quiet
+- bad_blood
+- ordinary
+- short_rations
+- foul_weather
+initial_overrides:
+  global_state:
+    boredom: 0.3
+    frustration: 0.1
+  relations:
+    guard:
+      trust: 0.05
+      respect: 0.1
+      resentment: 0.85
+events:
+- type: weather
+  t: 20
+  intensity: 0.629
+- type: weather
+  t: 80
+  intensity: 0.58
+- type: food_given
+  t: 94
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 140
+  intensity: 0.675
+- type: weather
+  t: 200
+  intensity: 0.561
+- type: food_given
+  t: 260
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 261
+  intensity: 0.522
+- type: weather
+  t: 320
+  intensity: 0.665
+- type: insult
+  t: 332
+  source: guard
+  intensity: 0.509
+  context:
+    public: false
+- type: weather
+  t: 380
+  intensity: 0.575
+- type: food_given
+  t: 419
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 440
+  intensity: 0.533
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 786
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 971
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1129
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1501
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1508
+  source: guard
+  intensity: 0.845
+  context:
+    public: false
+- type: food_given
+  t: 1675
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1680
+  source: guard
+  intensity: 0.692
+  context:
+    public: false
+- type: insult
+  t: 1705
+  source: guard
+  intensity: 0.561
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: help
+  t: 2153
+  source: player
+  intensity: 0.456
+  context: {}
+- type: food_given
+  t: 2196
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 2317
+  source: guard
+  intensity: 0.712
+  context:
+    public: false
+- type: insult
+  t: 2324
+  source: guard
+  intensity: 0.624
+  context:
+    public: false
+- type: food_given
+  t: 2394
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: food_given
+  t: 2943
+  source: guard
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3107
+  source: guard
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: weather
+  t: 3605
+  intensity: 0.604
+- type: food_given
+  t: 3664
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 3665
+  intensity: 0.618
+- type: weather
+  t: 3725
+  intensity: 0.639
+- type: weather
+  t: 3785
+  intensity: 0.553
+- type: food_given
+  t: 3837
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 3845
+  intensity: 0.595
+- type: weather
+  t: 3905
+  intensity: 0.553
+- type: weather
+  t: 3965
+  intensity: 0.52
+- type: weather
+  t: 4025
+  intensity: 0.628
+- type: nightfall
+  t: 4093
+  intensity: 1.0

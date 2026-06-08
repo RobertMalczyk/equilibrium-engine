@@ -1,0 +1,186 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: edda. 4 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: ordinary, ordinary, quiet, drill.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: edda_multi_037
+persona: edda
+n_days: 4
+day_plan:
+- ordinary
+- ordinary
+- quiet
+- drill
+initial_overrides: {}
+events:
+- type: food_given
+  t: 38
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 59
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 159
+  source: player
+  intensity: 0.716
+  context: {}
+- type: help
+  t: 221
+  source: halgrim
+  intensity: 0.85
+  context: {}
+- type: food_given
+  t: 228
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 415
+  source: marta
+  intensity: 0.603
+  context: {}
+- type: food_given
+  t: 416
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 451
+  source: marta
+  intensity: 0.864
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: help
+  t: 739
+  source: halgrim
+  intensity: 0.83
+  context: {}
+- type: food_given
+  t: 767
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 927
+  source: player
+  intensity: 0.817
+  context:
+    has_authority: true
+- type: food_given
+  t: 973
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1096
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1152
+  source: halgrim
+  intensity: 0.833
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1483
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1687
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1699
+  source: halgrim
+  intensity: 0.826
+  context: {}
+- type: command
+  t: 1755
+  source: player
+  intensity: 0.696
+  context:
+    has_authority: true
+- type: food_given
+  t: 1839
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: food_given
+  t: 2223
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2278
+  source: player
+  intensity: 0.95
+  context: {}
+- type: food_given
+  t: 2392
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2514
+  source: halgrim
+  intensity: 0.967
+  context: {}
+- type: food_given
+  t: 2561
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2578
+  source: halgrim
+  intensity: 0.678
+  context: {}
+- type: command
+  t: 2615
+  source: player
+  intensity: 0.485
+  context:
+    has_authority: true
+- type: nightfall
+  t: 2659
+  intensity: 1.0

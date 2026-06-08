@@ -1,0 +1,8 @@
+# Obedience litmus (GATE 3), pair of command_from_edda: the SAME Halgrim receives the SAME order from
+# WOJSLAW, whom he tolerates with resentment (graph: respect down, resentment). Expect refuse/cold_response.
+# Same persona, same command -> different action, purely from respect[source]/resentment[source].
+id: command_from_wojslaw
+persona: halgrim
+initial_overrides: {}
+events:
+  - {type: command, t: 0, source: wojslaw, intensity: 1.0, context: {has_authority: true}}

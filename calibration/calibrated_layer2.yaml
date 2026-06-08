@@ -1,0 +1,90 @@
+layer: 2
+seed: 2
+optimizer: cma==4.4.4
+reads_on_top_of: calibrated_layer1.yaml (satisfaction=43.17) + defaults.yaml (placeholders);
+  both untouched
+free_set:
+- couplings.anger.stress
+- couplings.stress.anger
+- couplings.anger.frustration
+- gains.anger.insult
+- gains.frustration.insult
+- half_lives.anger
+- half_lives.stress
+calibrated:
+  couplings.anger.stress:
+    value: 0.05415
+    kind: gain
+    status: calibrated-at-layer-2
+  couplings.stress.anger:
+    value: 0.01688
+    kind: gain
+    status: calibrated-at-layer-2
+  couplings.anger.frustration:
+    value: 0.0495
+    kind: gain
+    status: calibrated-at-layer-2
+  gains.anger.insult:
+    value: 0.49688
+    kind: gain
+    status: calibrated-at-layer-2
+  gains.frustration.insult:
+    value: 0.12521
+    kind: gain
+    status: calibrated-at-layer-2
+  half_lives.anger:
+    value: 30.11282
+    kind: half_life
+    status: calibrated-at-layer-2
+  half_lives.stress:
+    value: 48.04636
+    kind: half_life
+    status: calibrated-at-layer-2
+provenance:
+  flags: &id001
+    contrast_repaired: true
+    cooldown_met: true
+    margin_ok: true
+    decoupling_ok: true
+    tension_irreducible: false
+    success: true
+  jury_margin_before: 0.00076
+  jury_margin_after: 0.001933
+  spectral_radius: 0.999304
+  dt: 3.0113
+  components:
+    regularization: 0.0
+    stability_margin: 0.0
+    behavior: 0.0
+    ranking: 0.0
+    cooldown: 0.0
+    timing: 0.0038
+    curve: 0.0
+    decoupling: 0.0
+flags: *id001
+written: true
+note: 'accepted: hard contracts met, anger still coupled. If margin_ok is False, the
+  soft margin could not reach target without breaking the burst -> the binding constraint
+  is the frozen outburst threshold (a later threshold sub-layer), not a gain.'
+selected_by: dt_neutral (ref layer-1 dt=3.0)
+seeds_tried:
+- seed: 1
+  success: true
+  dt: 2.7602
+  anger: 27.60197
+- seed: 2
+  success: true
+  dt: 3.0113
+  anger: 30.11282
+- seed: 3
+  success: false
+  dt: 2.1529
+  anger: 21.52925
+- seed: 4
+  success: false
+  dt: 3.4404
+  anger: 34.40445
+- seed: 5
+  success: true
+  dt: 3.8061
+  anger: 38.06088

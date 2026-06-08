@@ -1,0 +1,241 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: wojslaw. 3 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: ordinary, feast, visitors.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: wojslaw_multi_038
+persona: wojslaw
+n_days: 3
+day_plan:
+- ordinary
+- feast
+- visitors
+initial_overrides: {}
+events:
+- type: help
+  t: 7
+  source: marta
+  intensity: 0.809
+  context: {}
+- type: food_given
+  t: 24
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 28
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 98
+  source: marta
+  intensity: 0.85
+  context: {}
+- type: help
+  t: 145
+  source: player
+  intensity: 0.783
+  context: {}
+- type: command
+  t: 239
+  source: player
+  intensity: 0.574
+  context:
+    has_authority: true
+- type: food_given
+  t: 243
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 256
+  source: marta
+  intensity: 0.632
+  context:
+    public: false
+- type: help
+  t: 311
+  source: marta
+  intensity: 0.747
+  context: {}
+- type: food_given
+  t: 403
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 433
+  source: player
+  intensity: 0.764
+  context:
+    has_authority: true
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 759
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 770
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 784
+  source: player
+  intensity: 0.8
+  context: {}
+- type: insult
+  t: 820
+  source: player
+  intensity: 0.507
+  context:
+    public: true
+- type: help
+  t: 921
+  source: player
+  intensity: 1.0
+  context: {}
+- type: food_given
+  t: 937
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 954
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 956
+  source: player
+  intensity: 0.956
+  context: {}
+- type: help
+  t: 1014
+  source: player
+  intensity: 0.902
+  context: {}
+- type: command
+  t: 1051
+  source: player
+  intensity: 0.685
+  context:
+    has_authority: true
+- type: food_given
+  t: 1108
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1125
+  source: marta
+  intensity: 0.765
+  context: {}
+- type: command
+  t: 1131
+  source: player
+  intensity: 0.985
+  context:
+    has_authority: true
+- type: help
+  t: 1175
+  source: player
+  intensity: 0.69
+  context: {}
+- type: help
+  t: 1187
+  source: marta
+  intensity: 0.777
+  context: {}
+- type: help
+  t: 1188
+  source: player
+  intensity: 0.902
+  context: {}
+- type: help
+  t: 1209
+  source: marta
+  intensity: 0.59
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1476
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1477
+  source: marta
+  intensity: 0.786
+  context: {}
+- type: command
+  t: 1578
+  source: player
+  intensity: 0.577
+  context:
+    has_authority: true
+- type: help
+  t: 1614
+  source: player
+  intensity: 0.804
+  context: {}
+- type: food_given
+  t: 1653
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1830
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 1908
+  source: player
+  intensity: 0.512
+  context:
+    has_authority: true
+- type: help
+  t: 1918
+  source: player
+  intensity: 0.792
+  context: {}
+- type: command
+  t: 1923
+  source: player
+  intensity: 0.878
+  context:
+    has_authority: true
+- type: nightfall
+  t: 1942
+  intensity: 1.0

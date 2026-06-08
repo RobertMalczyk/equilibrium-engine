@@ -1,0 +1,186 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: halgrim. 4 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: quiet, bad_blood, quiet, foul_weather.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: halgrim_multi_006
+persona: halgrim
+n_days: 4
+day_plan:
+- quiet
+- bad_blood
+- quiet
+- foul_weather
+initial_overrides: {}
+events:
+- type: food_given
+  t: 69
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 253
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 336
+  source: player
+  intensity: 0.974
+  context: {}
+- type: food_given
+  t: 436
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 774
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 866
+  source: edda
+  intensity: 0.581
+  context:
+    has_authority: true
+- type: food_given
+  t: 977
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1101
+  source: marta
+  intensity: 0.716
+  context: {}
+- type: insult
+  t: 1154
+  source: wojslaw
+  intensity: 0.488
+  context:
+    public: false
+- type: food_given
+  t: 1160
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 1194
+  source: edda
+  intensity: 0.784
+  context:
+    has_authority: true
+- type: command
+  t: 1195
+  source: wojslaw
+  intensity: 0.402
+  context:
+    has_authority: true
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1463
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1703
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: weather
+  t: 2171
+  intensity: 0.632
+- type: food_given
+  t: 2227
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 2231
+  intensity: 0.527
+- type: weather
+  t: 2291
+  intensity: 0.63
+- type: weather
+  t: 2351
+  intensity: 0.53
+- type: food_given
+  t: 2402
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 2411
+  intensity: 0.637
+- type: command
+  t: 2445
+  source: wojslaw
+  intensity: 0.708
+  context:
+    has_authority: true
+- type: weather
+  t: 2471
+  intensity: 0.535
+- type: command
+  t: 2476
+  source: wojslaw
+  intensity: 0.585
+  context:
+    has_authority: true
+- type: weather
+  t: 2531
+  intensity: 0.615
+- type: command
+  t: 2583
+  source: edda
+  intensity: 0.482
+  context:
+    has_authority: true
+- type: insult
+  t: 2585
+  source: wojslaw
+  intensity: 0.733
+  context:
+    public: false
+- type: weather
+  t: 2591
+  intensity: 0.577
+- type: food_given
+  t: 2593
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0

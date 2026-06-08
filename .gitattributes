@@ -1,0 +1,6 @@
+# Force LF everywhere so byte-exact golden traces are stable across platforms.
+# Without this, a Windows checkout would turn LF into CRLF and break the golden
+# trace comparison (tests read the file and compare exactly).
+* text=auto eol=lf
+*.png binary
+*.jpg binary

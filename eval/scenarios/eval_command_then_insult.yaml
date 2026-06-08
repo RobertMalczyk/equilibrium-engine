@@ -1,0 +1,12 @@
+# LLM-GENERATED eval scenario (held-out; NOT used for calibration). Two different channels, one run.
+#
+# Situation: "Edda gives Halgrim an order, which he takes; moments later the resented Wojslaw mocks him
+# in front of the watch." Expect: cooperate on the order (respected source), then a cold_response to the
+# insult (the stoic veteran suppresses rather than bursts) -- two seams firing from one timeline.
+id: eval_command_then_insult
+persona: halgrim
+initial_overrides: {}
+events:
+  - {type: command, t: 0, source: edda,    intensity: 1.0, context: {has_authority: true}}
+  - {type: insult,  t: 4, source: wojslaw, intensity: 1.0, context: {public: true}}
+  - {type: insult,  t: 9, source: wojslaw, intensity: 1.0, context: {public: true}}

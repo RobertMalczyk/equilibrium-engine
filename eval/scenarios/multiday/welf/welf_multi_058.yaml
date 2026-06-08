@@ -1,0 +1,128 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: welf. 3 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: short_rations, short_rations, foul_weather.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: welf_multi_058
+persona: welf
+n_days: 3
+day_plan:
+- short_rations
+- short_rations
+- foul_weather
+initial_overrides:
+  global_state:
+    boredom: 0.3
+events:
+- type: food_given
+  t: 74
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 202
+  source: player
+  intensity: 0.482
+  context:
+    public: true
+- type: help
+  t: 203
+  source: player
+  intensity: 0.601
+  context: {}
+- type: food_given
+  t: 248
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 281
+  source: player
+  intensity: 0.596
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: help
+  t: 770
+  source: player
+  intensity: 1.0
+  context: {}
+- type: food_given
+  t: 820
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 841
+  source: player
+  intensity: 0.794
+  context:
+    public: true
+- type: insult
+  t: 1133
+  source: player
+  intensity: 0.41
+  context:
+    public: false
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: weather
+  t: 1454
+  intensity: 0.617
+- type: food_given
+  t: 1507
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 1514
+  intensity: 0.47
+- type: weather
+  t: 1574
+  intensity: 0.739
+- type: weather
+  t: 1634
+  intensity: 0.661
+- type: food_given
+  t: 1677
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: weather
+  t: 1694
+  intensity: 0.429
+- type: insult
+  t: 1721
+  source: player
+  intensity: 0.421
+  context:
+    public: false
+- type: weather
+  t: 1754
+  intensity: 0.606
+- type: help
+  t: 1800
+  source: player
+  intensity: 0.608
+  context: {}
+- type: weather
+  t: 1814
+  intensity: 0.658
+- type: weather
+  t: 1874
+  intensity: 0.609
+- type: nightfall
+  t: 1942
+  intensity: 1.0

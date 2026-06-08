@@ -1,0 +1,51 @@
+# GENERATED 'normal day' scenario (eval/generate_day_scenarios.py).
+# Persona: cichy. A believable 24 h day: events across the ~17 h WAKING day
+# (meals at meal-times, sparse triggers), then a `nightfall` -> the night/sleep reset. Run via
+# load_eval_persona_timescale for 717 ticks (dt ~120 s). Deterministic: seed =
+# sha256(GLOBAL_SEED:persona:index). Vocabulary {food_given, insult, help, command, nightfall}.
+id: cichy_day_038
+persona: cichy
+initial_overrides:
+  global_state:
+    boredom: 0.3
+    frustration: 0.1
+  relations:
+    guard:
+      trust: 0.05
+      respect: 0.1
+      resentment: 0.85
+events:
+- type: food_given
+  t: 97
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 198
+  source: player
+  intensity: 0.922
+  context: {}
+- type: food_given
+  t: 255
+  source: guard
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 303
+  source: guard
+  intensity: 0.581
+  context:
+    public: false
+- type: insult
+  t: 410
+  source: guard
+  intensity: 0.833
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0

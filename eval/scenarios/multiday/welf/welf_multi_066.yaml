@@ -1,0 +1,116 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: welf. 4 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: short_rations, short_rations, short_rations, short_rations.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: welf_multi_066
+persona: welf
+n_days: 4
+day_plan:
+- short_rations
+- short_rations
+- short_rations
+- short_rations
+initial_overrides:
+  global_state:
+    boredom: 0.3
+events:
+- type: help
+  t: 35
+  source: player
+  intensity: 0.684
+  context: {}
+- type: food_given
+  t: 90
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 259
+  source: player
+  intensity: 0.812
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 811
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 939
+  source: player
+  intensity: 0.865
+  context: {}
+- type: food_given
+  t: 980
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1052
+  source: player
+  intensity: 0.598
+  context:
+    public: false
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1506
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1584
+  source: player
+  intensity: 0.547
+  context: {}
+- type: insult
+  t: 1585
+  source: player
+  intensity: 0.433
+  context:
+    public: true
+- type: help
+  t: 1610
+  source: player
+  intensity: 0.589
+  context: {}
+- type: help
+  t: 1644
+  source: player
+  intensity: 0.805
+  context: {}
+- type: help
+  t: 1807
+  source: player
+  intensity: 0.843
+  context: {}
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: food_given
+  t: 2199
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2468
+  source: player
+  intensity: 0.865
+  context: {}
+- type: nightfall
+  t: 2659
+  intensity: 1.0

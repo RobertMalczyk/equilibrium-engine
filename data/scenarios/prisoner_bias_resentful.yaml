@@ -1,0 +1,14 @@
+# prisoner_bias (spec section D): Cichy reads a resented guard's acts asymmetrically.
+# Same persona + same events as prisoner_bias_neutral; ONLY relations[guard] differs, so
+# the asymmetry is purely the relational affective_bias (insult amplified, help damped).
+id: prisoner_bias_resentful
+persona: cichy
+initial_overrides:
+  relations:
+    guard:
+      trust: 0.05
+      respect: 0.10
+      resentment: 0.85
+events:
+  - {type: insult, t: 0, source: guard, intensity: 0.8, context: {public: false}}
+  - {type: help,   t: 4, source: guard, intensity: 0.8, context: {public: false}}

@@ -1,0 +1,233 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: welf. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: short_rations, visitors, visitors, ordinary, short_rations, ordinary.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: welf_multi_091
+persona: welf
+n_days: 6
+day_plan:
+- short_rations
+- visitors
+- visitors
+- ordinary
+- short_rations
+- ordinary
+initial_overrides:
+  global_state:
+    boredom: 0.3
+events:
+- type: food_given
+  t: 72
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 137
+  source: player
+  intensity: 0.506
+  context:
+    public: true
+- type: food_given
+  t: 244
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 431
+  source: player
+  intensity: 0.283
+  context:
+    public: false
+- type: help
+  t: 448
+  source: player
+  intensity: 0.627
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: help
+  t: 730
+  source: player
+  intensity: 0.389
+  context: {}
+- type: food_given
+  t: 794
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 977
+  source: player
+  intensity: 0.892
+  context: {}
+- type: food_given
+  t: 990
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1022
+  source: player
+  intensity: 0.793
+  context: {}
+- type: help
+  t: 1077
+  source: player
+  intensity: 0.73
+  context: {}
+- type: food_given
+  t: 1115
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1195
+  source: player
+  intensity: 0.974
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1511
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1601
+  source: player
+  intensity: 0.538
+  context: {}
+- type: help
+  t: 1641
+  source: player
+  intensity: 0.672
+  context: {}
+- type: food_given
+  t: 1715
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: help
+  t: 2205
+  source: player
+  intensity: 0.737
+  context: {}
+- type: food_given
+  t: 2214
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2266
+  source: player
+  intensity: 0.644
+  context: {}
+- type: food_given
+  t: 2422
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 2568
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2656
+  source: player
+  intensity: 0.63
+  context: {}
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: insult
+  t: 2929
+  source: player
+  intensity: 0.7
+  context:
+    public: false
+- type: food_given
+  t: 2961
+  source: player
+  intensity: 0.55
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3077
+  source: player
+  intensity: 0.833
+  context: {}
+- type: help
+  t: 3367
+  source: player
+  intensity: 0.803
+  context: {}
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: insult
+  t: 3595
+  source: player
+  intensity: 0.628
+  context:
+    public: false
+- type: help
+  t: 3599
+  source: player
+  intensity: 0.779
+  context: {}
+- type: food_given
+  t: 3670
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3838
+  source: player
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3976
+  source: player
+  intensity: 0.634
+  context: {}
+- type: insult
+  t: 4054
+  source: player
+  intensity: 0.481
+  context:
+    public: false
+- type: nightfall
+  t: 4093
+  intensity: 1.0

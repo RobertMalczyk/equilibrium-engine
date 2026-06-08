@@ -1,0 +1,231 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: halgrim. 6 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: quiet, quiet, ordinary, drill, visitors, quiet.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: halgrim_multi_051
+persona: halgrim
+n_days: 6
+day_plan:
+- quiet
+- quiet
+- ordinary
+- drill
+- visitors
+- quiet
+initial_overrides: {}
+events:
+- type: food_given
+  t: 32
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 162
+  source: player
+  intensity: 0.744
+  context: {}
+- type: food_given
+  t: 256
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 790
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 909
+  source: wojslaw
+  intensity: 0.496
+  context:
+    has_authority: true
+- type: food_given
+  t: 965
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 1084
+  source: edda
+  intensity: 0.699
+  context:
+    has_authority: true
+- type: food_given
+  t: 1150
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: insult
+  t: 1491
+  source: wojslaw
+  intensity: 0.684
+  context:
+    public: false
+- type: command
+  t: 1492
+  source: edda
+  intensity: 0.88
+  context:
+    has_authority: true
+- type: food_given
+  t: 1508
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 1707
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1886
+  source: wojslaw
+  intensity: 0.584
+  context:
+    public: false
+- type: nightfall
+  t: 1942
+  intensity: 1.0
+- type: command
+  t: 2154
+  source: edda
+  intensity: 0.642
+  context:
+    has_authority: true
+- type: help
+  t: 2179
+  source: player
+  intensity: 0.753
+  context: {}
+- type: command
+  t: 2181
+  source: wojslaw
+  intensity: 0.762
+  context:
+    has_authority: true
+- type: food_given
+  t: 2234
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: command
+  t: 2392
+  source: wojslaw
+  intensity: 0.382
+  context:
+    has_authority: true
+- type: food_given
+  t: 2409
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 2659
+  intensity: 1.0
+- type: command
+  t: 2892
+  source: edda
+  intensity: 0.769
+  context:
+    has_authority: true
+- type: food_given
+  t: 2933
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2970
+  source: player
+  intensity: 0.649
+  context: {}
+- type: command
+  t: 3081
+  source: edda
+  intensity: 1.0
+  context:
+    has_authority: true
+- type: help
+  t: 3082
+  source: marta
+  intensity: 0.667
+  context: {}
+- type: food_given
+  t: 3145
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 3264
+  source: player
+  intensity: 0.499
+  context: {}
+- type: command
+  t: 3308
+  source: edda
+  intensity: 0.748
+  context:
+    has_authority: true
+- type: food_given
+  t: 3317
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 3376
+  intensity: 1.0
+- type: food_given
+  t: 3627
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 3819
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 4034
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 4093
+  intensity: 1.0

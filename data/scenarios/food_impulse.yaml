@@ -1,0 +1,9 @@
+# food_impulse -- Halgrim, one liked-food serving at t=10 (a few ticks of baseline first, so the
+# rise is visible). Excites SATISFACTION (cabbage_soup is a liked item). Paired with quiet_control:
+# (food_impulse - control) isolates the satisfaction glow, whose half-decay tracks the satisfaction
+# half-life -- the clean layer-1 time-scale anchor.
+id: food_impulse
+persona: halgrim
+initial_overrides: {}
+events:
+  - {type: food_given, t: 10, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}

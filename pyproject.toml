@@ -1,0 +1,37 @@
+[project]
+name = "rpg-persona-dynamics"
+version = "0.1.0"
+description = "Deterministic, debuggable NPC tension engine for RPGs, modeled as a control system."
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0"]
+
+[project.optional-dependencies]
+# numpy is used ONLY in tests + offline stability analysis, never inside the engine tick loop.
+dev = ["pytest>=7.0", "numpy>=1.24", "ruff>=0.15"]
+# calibration harness (offline tooling): cma (CMA-ES) + SALib (Morris/Sobol screening).
+# These live ONLY in engine/calibration.py, never in the engine tick loop.
+calibration = ["numpy>=1.24", "cma>=4.0", "SALib>=1.5", "matplotlib>=3.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+# E/F = pycodestyle + pyflakes; I = import sorting. The formatter owns line length,
+# so E501 is left to it (ruff's recommended formatter-friendly setup).
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+# The distributable library is `engine`. The flat layout also holds non-package
+# top-level dirs (data, calibration, eval, docs, White_paper, ...), so setuptools
+# auto-discovery is ambiguous — declare the package explicitly. The `eval` harness
+# and test suite run from a source checkout with the repo root on PYTHONPATH.
+[tool.setuptools]
+packages = ["engine"]

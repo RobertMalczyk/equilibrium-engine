@@ -1,0 +1,11 @@
+# idle_watch (spec scenarios B): a watch with NO events. The boredom drift (idleness bores) drives
+# boredom up; once urge_boredom crosses theta_start the proactive seek_stimulus fires (the first real
+# test of the fixed proactive path: urge reads boredom directly, not via frustration).
+#
+# Predicate TARGETS (calibration-owned, spec section 16 / known_divergences): boredom_curve = monotonic_up,
+# proactive_start_count >= 1, and after a start satisfaction up / boredom down. Whether these pass under
+# placeholder weights is a calibration question -- NOT forced here by tuning.
+id: idle_watch
+persona: welf
+initial_overrides: {}
+events: []

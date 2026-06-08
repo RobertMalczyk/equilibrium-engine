@@ -1,0 +1,688 @@
+{
+  "trace_version": 1,
+  "persona": "lutek",
+  "scenario": "insult_public",
+  "dt": 3.0,
+  "ticks": [
+    {
+      "t": 0,
+      "event": {
+        "type": "insult",
+        "t": 0,
+        "source": "player",
+        "target": null,
+        "item": null,
+        "topic": null,
+        "faction": null,
+        "intensity": 1.0,
+        "context": {
+          "public": true
+        }
+      },
+      "snapshot": {
+        "global": {
+          "hunger": 0.2,
+          "fatigue": 0.2,
+          "boredom": 0.1,
+          "stress": 0.1,
+          "frustration": 0.0,
+          "anger": 0.0,
+          "satisfaction": 0.3,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.55,
+            "respect": 0.5,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.55,
+            "respect": 0.5,
+            "resentment": 0.0
+          }
+        },
+        "mode": "IDLE"
+      },
+      "derived_pre": {
+        "affective_bias": {
+          "marta": 0.475,
+          "player": 0.475
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.09,
+        "effective_self_control": 0.66,
+        "dissatisfaction": 0.0,
+        "urge_boredom": 0.2928,
+        "urge_fatigue": 0.2
+      },
+      "eff_inputs": {
+        "insult": {
+          "value": 1.22,
+          "cls": "relational",
+          "source": "player",
+          "target": null,
+          "polarity": "negative"
+        }
+      },
+      "delta": {
+        "global": {
+          "anger": 0.32425,
+          "boredom": 0.00262327,
+          "duty": 0.0,
+          "fatigue": 0.001292164,
+          "frustration": 0.248,
+          "hunger": 0.000861419,
+          "satisfaction": -0.017304638,
+          "self_control": 0.0,
+          "sleep_pressure": 0.0,
+          "stress": 0.007073059
+        },
+        "relations": {
+          "marta": {
+            "respect": -1.0397e-05,
+            "trust": -1.1437e-05
+          },
+          "player": {
+            "resentment": 0.305,
+            "respect": -1.0397e-05,
+            "trust": -1.1437e-05
+          }
+        }
+      },
+      "state_after_commit": {
+        "global": {
+          "hunger": 0.200861419,
+          "fatigue": 0.201292164,
+          "boredom": 0.10262327,
+          "stress": 0.107073059,
+          "frustration": 0.248,
+          "anger": 0.32425,
+          "satisfaction": 0.282695362,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549988563,
+            "respect": 0.499989603,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549988563,
+            "respect": 0.499989603,
+            "resentment": 0.305
+          }
+        }
+      },
+      "derived_post": {
+        "affective_bias": {
+          "marta": 0.474990123,
+          "player": 0.261490123
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.192908813,
+        "effective_self_control": 0.657490433,
+        "dissatisfaction": 0.007452319,
+        "urge_boredom": 0.300876374,
+        "urge_fatigue": 0.201292164
+      },
+      "potentials": {
+        "complain": 0.135291068,
+        "outburst": 0.171852235,
+        "cold_response": 0.31710625,
+        "cooperate": 0.0,
+        "refuse": 0.0,
+        "positive_response": 0.0
+      },
+      "urges": {
+        "boredom": 0.300876374,
+        "command": 0.0,
+        "fatigue": 0.201292164,
+        "sleep": 0.0
+      },
+      "selection": {
+        "action": "neutral",
+        "score": 0.0,
+        "kind": "idle",
+        "interrupted": false,
+        "post_effects": {
+          "global": {},
+          "relations": {}
+        },
+        "explanation": "idle: nothing above threshold"
+      },
+      "state_after_post": {
+        "global": {
+          "hunger": 0.200861419,
+          "fatigue": 0.201292164,
+          "boredom": 0.10262327,
+          "stress": 0.107073059,
+          "frustration": 0.248,
+          "anger": 0.32425,
+          "satisfaction": 0.282695362,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549988563,
+            "respect": 0.499989603,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549988563,
+            "respect": 0.499989603,
+            "resentment": 0.305
+          }
+        },
+        "mode": "IDLE"
+      }
+    },
+    {
+      "t": 1,
+      "event": null,
+      "snapshot": {
+        "global": {
+          "hunger": 0.200861419,
+          "fatigue": 0.201292164,
+          "boredom": 0.10262327,
+          "stress": 0.107073059,
+          "frustration": 0.248,
+          "anger": 0.32425,
+          "satisfaction": 0.282695362,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549988563,
+            "respect": 0.499989603,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549988563,
+            "respect": 0.499989603,
+            "resentment": 0.305
+          }
+        },
+        "mode": "IDLE"
+      },
+      "derived_pre": {
+        "affective_bias": {
+          "marta": 0.474990123,
+          "player": 0.261490123
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.192908813,
+        "effective_self_control": 0.657490433,
+        "dissatisfaction": 0.007452319,
+        "urge_boredom": 0.300876374,
+        "urge_fatigue": 0.201292164
+      },
+      "eff_inputs": {},
+      "delta": {
+        "global": {
+          "anger": -0.00503113,
+          "boredom": 0.002587155,
+          "duty": 0.0,
+          "fatigue": 0.001290821,
+          "frustration": -0.007094351,
+          "hunger": 0.000860822,
+          "satisfaction": -0.01630647,
+          "self_control": 0.0,
+          "sleep_pressure": 0.0,
+          "stress": 0.016649528
+        },
+        "relations": {
+          "marta": {
+            "respect": -1.0397e-05,
+            "trust": -1.1437e-05
+          },
+          "player": {
+            "resentment": -4.228e-06,
+            "respect": -1.0397e-05,
+            "trust": -1.1437e-05
+          }
+        }
+      },
+      "state_after_commit": {
+        "global": {
+          "hunger": 0.20172224,
+          "fatigue": 0.202582985,
+          "boredom": 0.105210426,
+          "stress": 0.123722587,
+          "frustration": 0.240905649,
+          "anger": 0.31921887,
+          "satisfaction": 0.266388893,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549977127,
+            "respect": 0.499979206,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549977127,
+            "respect": 0.499979206,
+            "resentment": 0.304995772
+          }
+        }
+      },
+      "derived_post": {
+        "affective_bias": {
+          "marta": 0.474980246,
+          "player": 0.261483205
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.198568001,
+        "effective_self_control": 0.652108329,
+        "dissatisfaction": 0.011348943,
+        "urge_boredom": 0.308839913,
+        "urge_fatigue": 0.202582985
+      },
+      "potentials": {
+        "complain": 0.13569975,
+        "outburst": 0.172977904,
+        "cold_response": 0.311536697,
+        "cooperate": 0.0,
+        "refuse": 0.0,
+        "positive_response": 0.0
+      },
+      "urges": {
+        "boredom": 0.308839913,
+        "command": 0.0,
+        "fatigue": 0.202582985,
+        "sleep": 0.0
+      },
+      "selection": {
+        "action": "neutral",
+        "score": 0.0,
+        "kind": "idle",
+        "interrupted": false,
+        "post_effects": {
+          "global": {},
+          "relations": {}
+        },
+        "explanation": "idle: nothing above threshold"
+      },
+      "state_after_post": {
+        "global": {
+          "hunger": 0.20172224,
+          "fatigue": 0.202582985,
+          "boredom": 0.105210426,
+          "stress": 0.123722587,
+          "frustration": 0.240905649,
+          "anger": 0.31921887,
+          "satisfaction": 0.266388893,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549977127,
+            "respect": 0.499979206,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549977127,
+            "respect": 0.499979206,
+            "resentment": 0.304995772
+          }
+        },
+        "mode": "IDLE"
+      }
+    },
+    {
+      "t": 2,
+      "event": null,
+      "snapshot": {
+        "global": {
+          "hunger": 0.20172224,
+          "fatigue": 0.202582985,
+          "boredom": 0.105210426,
+          "stress": 0.123722587,
+          "frustration": 0.240905649,
+          "anger": 0.31921887,
+          "satisfaction": 0.266388893,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549977127,
+            "respect": 0.499979206,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549977127,
+            "respect": 0.499979206,
+            "resentment": 0.304995772
+          }
+        },
+        "mode": "IDLE"
+      },
+      "derived_pre": {
+        "affective_bias": {
+          "marta": 0.474980246,
+          "player": 0.261483205
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.198568001,
+        "effective_self_control": 0.652108329,
+        "dissatisfaction": 0.011348943,
+        "urge_boredom": 0.308839913,
+        "urge_fatigue": 0.202582985
+      },
+      "eff_inputs": {},
+      "delta": {
+        "global": {
+          "anger": -0.004382947,
+          "boredom": 0.002551537,
+          "duty": 0.0,
+          "fatigue": 0.00128948,
+          "frustration": -0.006670496,
+          "hunger": 0.000860225,
+          "satisfaction": -0.015365878,
+          "self_control": 0.0,
+          "sleep_pressure": 0.0,
+          "stress": 0.016067213
+        },
+        "relations": {
+          "marta": {
+            "respect": -1.0397e-05,
+            "trust": -1.1436e-05
+          },
+          "player": {
+            "resentment": -4.228e-06,
+            "respect": -1.0397e-05,
+            "trust": -1.1436e-05
+          }
+        }
+      },
+      "state_after_commit": {
+        "global": {
+          "hunger": 0.202582466,
+          "fatigue": 0.203872465,
+          "boredom": 0.107761963,
+          "stress": 0.1397898,
+          "frustration": 0.234235153,
+          "anger": 0.314835923,
+          "satisfaction": 0.251023015,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.54996569,
+            "respect": 0.499968809,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.54996569,
+            "respect": 0.499968809,
+            "resentment": 0.304991544
+          }
+        }
+      },
+      "derived_post": {
+        "affective_bias": {
+          "marta": 0.474970369,
+          "player": 0.261476288
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.204105454,
+        "effective_self_control": 0.646901321,
+        "dissatisfaction": 0.015029584,
+        "urge_boredom": 0.316692172,
+        "urge_fatigue": 0.203872465
+      },
+      "potentials": {
+        "complain": 0.136105098,
+        "outburst": 0.174222869,
+        "cold_response": 0.306586667,
+        "cooperate": 0.0,
+        "refuse": 0.0,
+        "positive_response": 0.0
+      },
+      "urges": {
+        "boredom": 0.316692172,
+        "command": 0.0,
+        "fatigue": 0.203872465,
+        "sleep": 0.0
+      },
+      "selection": {
+        "action": "neutral",
+        "score": 0.0,
+        "kind": "idle",
+        "interrupted": false,
+        "post_effects": {
+          "global": {},
+          "relations": {}
+        },
+        "explanation": "idle: nothing above threshold"
+      },
+      "state_after_post": {
+        "global": {
+          "hunger": 0.202582466,
+          "fatigue": 0.203872465,
+          "boredom": 0.107761963,
+          "stress": 0.1397898,
+          "frustration": 0.234235153,
+          "anger": 0.314835923,
+          "satisfaction": 0.251023015,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.54996569,
+            "respect": 0.499968809,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.54996569,
+            "respect": 0.499968809,
+            "resentment": 0.304991544
+          }
+        },
+        "mode": "IDLE"
+      }
+    },
+    {
+      "t": 3,
+      "event": null,
+      "snapshot": {
+        "global": {
+          "hunger": 0.202582466,
+          "fatigue": 0.203872465,
+          "boredom": 0.107761963,
+          "stress": 0.1397898,
+          "frustration": 0.234235153,
+          "anger": 0.314835923,
+          "satisfaction": 0.251023015,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.54996569,
+            "respect": 0.499968809,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.54996569,
+            "respect": 0.499968809,
+            "resentment": 0.304991544
+          }
+        },
+        "mode": "IDLE"
+      },
+      "derived_pre": {
+        "affective_bias": {
+          "marta": 0.474970369,
+          "player": 0.261476288
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.204105454,
+        "effective_self_control": 0.646901321,
+        "dissatisfaction": 0.015029584,
+        "urge_boredom": 0.316692172,
+        "urge_fatigue": 0.203872465
+      },
+      "eff_inputs": {},
+      "delta": {
+        "global": {
+          "anger": -0.00378027,
+          "boredom": 0.002516409,
+          "duty": 0.0,
+          "fatigue": 0.00128814,
+          "frustration": -0.006267205,
+          "hunger": 0.000859629,
+          "satisfaction": -0.014479541,
+          "self_control": 0.0,
+          "sleep_pressure": 0.0,
+          "stress": 0.015521336
+        },
+        "relations": {
+          "marta": {
+            "respect": -1.0396e-05,
+            "trust": -1.1436e-05
+          },
+          "player": {
+            "resentment": -4.228e-06,
+            "respect": -1.0396e-05,
+            "trust": -1.1436e-05
+          }
+        }
+      },
+      "state_after_commit": {
+        "global": {
+          "hunger": 0.203442095,
+          "fatigue": 0.205160604,
+          "boredom": 0.110278372,
+          "stress": 0.155311135,
+          "frustration": 0.227967948,
+          "anger": 0.311055653,
+          "satisfaction": 0.236543474,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549954254,
+            "respect": 0.499958413,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549954254,
+            "respect": 0.499958413,
+            "resentment": 0.304987316
+          }
+        }
+      },
+      "derived_post": {
+        "affective_bias": {
+          "marta": 0.474960492,
+          "player": 0.261469371
+        },
+        "negative_bias": {
+          "marta": 0.0,
+          "player": 0.0
+        },
+        "irritability": 0.209531166,
+        "effective_self_control": 0.641858478,
+        "dissatisfaction": 0.018509032,
+        "urge_boredom": 0.324434686,
+        "urge_fatigue": 0.205160604
+      },
+      "potentials": {
+        "complain": 0.136510719,
+        "outburst": 0.175588567,
+        "cold_response": 0.302214503,
+        "cooperate": 0.0,
+        "refuse": 0.0,
+        "positive_response": 0.0
+      },
+      "urges": {
+        "boredom": 0.324434686,
+        "command": 0.0,
+        "fatigue": 0.205160604,
+        "sleep": 0.0
+      },
+      "selection": {
+        "action": "neutral",
+        "score": 0.0,
+        "kind": "idle",
+        "interrupted": false,
+        "post_effects": {
+          "global": {},
+          "relations": {}
+        },
+        "explanation": "idle: nothing above threshold"
+      },
+      "state_after_post": {
+        "global": {
+          "hunger": 0.203442095,
+          "fatigue": 0.205160604,
+          "boredom": 0.110278372,
+          "stress": 0.155311135,
+          "frustration": 0.227967948,
+          "anger": 0.311055653,
+          "satisfaction": 0.236543474,
+          "self_control": 0.75,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "marta": {
+            "trust": 0.549954254,
+            "respect": 0.499958413,
+            "resentment": 0.0
+          },
+          "player": {
+            "trust": 0.549954254,
+            "respect": 0.499958413,
+            "resentment": 0.304987316
+          }
+        },
+        "mode": "IDLE"
+      }
+    }
+  ]
+}

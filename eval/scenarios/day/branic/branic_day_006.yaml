@@ -1,0 +1,55 @@
+# GENERATED 'normal day' scenario (eval/generate_day_scenarios.py).
+# Persona: branic. A believable 24 h day: events across the ~17 h WAKING day
+# (meals at meal-times, sparse triggers), then a `nightfall` -> the night/sleep reset. Run via
+# load_eval_persona_timescale for 717 ticks (dt ~120 s). Deterministic: seed =
+# sha256(GLOBAL_SEED:persona:index). Vocabulary {food_given, insult, help, command, nightfall}.
+id: branic_day_006
+persona: branic
+initial_overrides:
+  global_state:
+    boredom: 0.2
+events:
+- type: food_given
+  t: 49
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 243
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 292
+  source: marta
+  intensity: 0.67
+  context: {}
+- type: command
+  t: 433
+  source: halgrim
+  intensity: 0.906
+  context:
+    has_authority: true
+- type: help
+  t: 437
+  source: player
+  intensity: 0.829
+  context: {}
+- type: command
+  t: 445
+  source: halgrim
+  intensity: 0.434
+  context:
+    has_authority: true
+- type: help
+  t: 500
+  source: player
+  intensity: 0.857
+  context: {}
+- type: nightfall
+  t: 508
+  intensity: 1.0

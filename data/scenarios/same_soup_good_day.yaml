@@ -1,0 +1,13 @@
+# Litmus scenario (spec section 15 demo, case A): Marta serves the same soup repeatedly to
+# a fed, rested, trusting eater. Expectation: no outburst; boredom rises with repetition.
+# Spacing of t matters (decay is per tick, scenarios note): events at t = 0,10,20,...
+id: same_soup_good_day
+persona: halgrim
+initial_overrides: {}
+events:
+  - {type: food_given, t: 0,  source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 10, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 20, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 30, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 40, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 50, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}

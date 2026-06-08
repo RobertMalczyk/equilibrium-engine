@@ -1,0 +1,268 @@
+{
+  "trace_version": 1,
+  "persona": "halgrim",
+  "scenario": "food_given_single",
+  "dt": 3.0,
+  "ticks": [
+    {
+      "t": 0,
+      "event": {
+        "type": "food_given",
+        "t": 0,
+        "source": "marta",
+        "target": null,
+        "item": "cabbage_soup",
+        "topic": null,
+        "faction": null,
+        "intensity": 1.0,
+        "context": {
+          "public": false
+        }
+      },
+      "snapshot": {
+        "global": {
+          "hunger": 0.2,
+          "fatigue": 0.2,
+          "boredom": 0.1,
+          "stress": 0.1,
+          "frustration": 0.0,
+          "anger": 0.0,
+          "satisfaction": 0.3,
+          "self_control": 0.9,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "edda": {
+            "trust": 0.6,
+            "respect": 0.65,
+            "resentment": 0.05
+          },
+          "marta": {
+            "trust": 0.6,
+            "respect": 0.5,
+            "resentment": 0.05
+          },
+          "player": {
+            "trust": 0.5,
+            "respect": 0.5,
+            "resentment": 0.0
+          },
+          "wojslaw": {
+            "trust": 0.35,
+            "respect": 0.4,
+            "resentment": 0.2
+          }
+        },
+        "mode": "IDLE"
+      },
+      "derived_pre": {
+        "affective_bias": {
+          "edda": 0.525,
+          "marta": 0.465,
+          "player": 0.45,
+          "wojslaw": 0.195
+        },
+        "negative_bias": {
+          "edda": 0.0,
+          "marta": 0.0,
+          "player": 0.0,
+          "wojslaw": 0.0
+        },
+        "irritability": 0.09,
+        "effective_self_control": 0.81,
+        "dissatisfaction": 0.0,
+        "urge_boredom": 0.12,
+        "urge_fatigue": 0.2
+      },
+      "eff_inputs": {
+        "food_nutrition": {
+          "value": 1.0,
+          "cls": "self",
+          "source": null,
+          "target": null,
+          "polarity": "positive"
+        },
+        "novelty": {
+          "value": 1.0,
+          "cls": "self",
+          "source": null,
+          "target": null,
+          "polarity": "positive"
+        },
+        "preference_match": {
+          "value": 0.2,
+          "cls": "affinity",
+          "source": null,
+          "target": "cabbage_soup",
+          "polarity": "positive"
+        },
+        "repetition": {
+          "value": 0.0,
+          "cls": "self",
+          "source": null,
+          "target": null,
+          "polarity": "negative"
+        }
+      },
+      "delta": {
+        "global": {
+          "anger": 0.004,
+          "boredom": -0.29737673,
+          "duty": 0.0,
+          "fatigue": 0.001292164,
+          "frustration": -0.056,
+          "hunger": -0.499138581,
+          "satisfaction": 0.062695362,
+          "self_control": 0.0,
+          "sleep_pressure": 0.0,
+          "stress": 0.007073059
+        },
+        "relations": {
+          "edda": {
+            "resentment": -6.93e-07,
+            "respect": -1.3516e-05,
+            "trust": -1.2477e-05
+          },
+          "marta": {
+            "resentment": -6.93e-07,
+            "respect": -1.0397e-05,
+            "trust": -1.2477e-05
+          },
+          "player": {
+            "respect": -1.0397e-05,
+            "trust": -1.0397e-05
+          },
+          "wojslaw": {
+            "resentment": -2.773e-06,
+            "respect": -8.318e-06,
+            "trust": -7.278e-06
+          }
+        }
+      },
+      "state_after_commit": {
+        "global": {
+          "hunger": 0.0,
+          "fatigue": 0.201292164,
+          "boredom": 0.0,
+          "stress": 0.107073059,
+          "frustration": 0.0,
+          "anger": 0.004,
+          "satisfaction": 0.362695362,
+          "self_control": 0.9,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "edda": {
+            "trust": 0.599987523,
+            "respect": 0.649986484,
+            "resentment": 0.049999307
+          },
+          "marta": {
+            "trust": 0.599987523,
+            "respect": 0.499989603,
+            "resentment": 0.049999307
+          },
+          "player": {
+            "trust": 0.499989603,
+            "respect": 0.499989603,
+            "resentment": 0.0
+          },
+          "wojslaw": {
+            "trust": 0.349992722,
+            "respect": 0.399991682,
+            "resentment": 0.199997227
+          }
+        }
+      },
+      "derived_post": {
+        "affective_bias": {
+          "edda": 0.52498884,
+          "marta": 0.464990088,
+          "player": 0.449990643,
+          "wojslaw": 0.194994975
+        },
+        "negative_bias": {
+          "edda": 0.0,
+          "marta": 0.0,
+          "player": 0.0,
+          "wojslaw": 0.0
+        },
+        "irritability": 0.053536529,
+        "effective_self_control": 0.807490433,
+        "dissatisfaction": 0.0,
+        "urge_boredom": 0.0,
+        "urge_fatigue": 0.201292164
+      },
+      "potentials": {
+        "complain": 0.0,
+        "outburst": 0.0,
+        "cold_response": 0.0,
+        "cooperate": 0.0,
+        "refuse": 0.0,
+        "positive_response": 0.739992791
+      },
+      "urges": {
+        "boredom": 0.0,
+        "command": 0.0,
+        "fatigue": 0.201292164,
+        "sleep": 0.04292669
+      },
+      "selection": {
+        "action": "positive_response",
+        "score": 0.739992791,
+        "kind": "reactive",
+        "interrupted": false,
+        "post_effects": {
+          "global": {
+            "satisfaction": 0.03
+          },
+          "relations": {
+            "marta": {
+              "trust": 0.05
+            }
+          }
+        },
+        "explanation": "reactive 'positive_response' (world first)"
+      },
+      "state_after_post": {
+        "global": {
+          "hunger": 0.0,
+          "fatigue": 0.201292164,
+          "boredom": 0.0,
+          "stress": 0.107073059,
+          "frustration": 0.0,
+          "anger": 0.004,
+          "satisfaction": 0.392695362,
+          "self_control": 0.9,
+          "duty": 0.0,
+          "sleep_pressure": 0.0
+        },
+        "relations": {
+          "edda": {
+            "trust": 0.599987523,
+            "respect": 0.649986484,
+            "resentment": 0.049999307
+          },
+          "marta": {
+            "trust": 0.649987523,
+            "respect": 0.499989603,
+            "resentment": 0.049999307
+          },
+          "player": {
+            "trust": 0.499989603,
+            "respect": 0.499989603,
+            "resentment": 0.0
+          },
+          "wojslaw": {
+            "trust": 0.349992722,
+            "respect": 0.399991682,
+            "resentment": 0.199997227
+          }
+        },
+        "mode": "IDLE"
+      }
+    }
+  ]
+}

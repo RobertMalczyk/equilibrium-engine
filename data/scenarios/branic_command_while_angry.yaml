@@ -1,0 +1,19 @@
+# Obedience-priority regression (D11 Branic): a RESPECTED commander (Halgrim, respect 0.75) gives Branic an
+# order while Branic carries RESIDUAL ambient anger (left by an off-screen provocation -- high anger, LOW
+# frustration, no fresh insult). Diagnosed snap condition: anger ~0.515 -> outburst clears 0.55 and out-argmaxes
+# cooperate, so the SAME order obeyed one tick is snapped-at the next ("dice, not temperament"). The signed
+# inhibitory edge (command_pressure x respect[src], negative weight into outburst) makes obedience to a
+# respected commander robust to that residual irritation -> cooperate, not outburst. Pair WITH/WITHOUT the
+# edge (param_overrides) to show the flip; the no-command burst litmus + low-respect refuse stay untouched.
+# Numbers mirror the diagnosed snap tick measured on 30 Branic-days: anger ~0.515, pot[cooperate] ~0.50
+# (a moderate watch order: command_pressure 0.667 x respect[halgrim] 0.75 = 0.50), pot[outburst] clearing
+# 0.55 -> outburst out-argmaxes cooperate. The fixture REPRODUCES that condition (not tuned to pass).
+id: branic_command_while_angry
+persona: branic
+initial_overrides:
+  global_state:
+    anger: 0.515       # residual, elevated -- the measured snap-tick anger
+    stress: 0.30       # lowers eff_self_control so anger routes to outburst (the venting branch)
+    frustration: 0.05  # LOW -> the anger is residual/accumulated, NOT a fresh provocation
+events:
+  - {type: command, t: 0, source: halgrim, intensity: 0.667, context: {has_authority: true}}

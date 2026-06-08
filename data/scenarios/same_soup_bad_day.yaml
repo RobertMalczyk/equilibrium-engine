@@ -1,0 +1,25 @@
+# Persona-contrast scenario (spec section 10 litmus + interaction-feature validation):
+# the SAME elevated emotional state (initial_overrides, applied to BOTH personas) + the
+# SAME soup events. Only traits differ -> Halgrim (high stoicism/control) goes cold,
+# Wojslaw (low control, high pride) bursts. Same emotion, different trait -> different action.
+#
+# initial_overrides are shared starting conditions ("tired, bored, resentful"); the persona
+# field is informational -- the contrast runner pairs this scenario with each persona config.
+id: same_soup_bad_day
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.55
+    boredom: 0.50
+    stress: 0.35
+    frustration: 0.45
+    anger: 0.40
+    satisfaction: 0.10
+  relations:
+    marta:
+      resentment: 0.35
+events:
+  - {type: food_given, t: 0,  source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 8,  source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 16, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}
+  - {type: food_given, t: 24, source: marta, item: cabbage_soup, intensity: 1.0, context: {public: false}}

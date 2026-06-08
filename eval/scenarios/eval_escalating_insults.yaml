@@ -1,0 +1,14 @@
+# LLM-GENERATED eval scenario (held-out; NOT used for calibration). Situation invented by the model,
+# expressed in the engine's event catalog only {food_given, insult, help, command}.
+#
+# Situation: "A noble keeps needling Wojslaw across a crowded hall." Four public insults from the player,
+# rising in sharpness, spaced so anger can partly cool between them -> expect repeated bursts (build,
+# discharge, rebuild) from the low-self-control / high-pride noble.
+id: eval_escalating_insults
+persona: wojslaw
+initial_overrides: {}
+events:
+  - {type: insult, t: 0,  source: player, intensity: 0.6, context: {public: true}}
+  - {type: insult, t: 5,  source: player, intensity: 0.8, context: {public: true}}
+  - {type: insult, t: 10, source: player, intensity: 1.0, context: {public: true}}
+  - {type: insult, t: 15, source: player, intensity: 1.0, context: {public: true}}

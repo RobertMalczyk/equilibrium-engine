@@ -1,0 +1,121 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: lutek. 3 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: quiet, ordinary, visitors.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: lutek_multi_095
+persona: lutek
+n_days: 3
+day_plan:
+- quiet
+- ordinary
+- visitors
+initial_overrides:
+  global_state:
+    boredom: 0.25
+events:
+- type: food_given
+  t: 81
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 270
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 430
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 802
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 932
+  source: marta
+  intensity: 0.912
+  context: {}
+- type: food_given
+  t: 973
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 995
+  source: player
+  intensity: 0.585
+  context: {}
+- type: help
+  t: 1057
+  source: player
+  intensity: 0.724
+  context: {}
+- type: help
+  t: 1119
+  source: marta
+  intensity: 0.861
+  context: {}
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: food_given
+  t: 1516
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1519
+  source: player
+  intensity: 0.784
+  context: {}
+- type: help
+  t: 1628
+  source: player
+  intensity: 0.863
+  context: {}
+- type: food_given
+  t: 1687
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1759
+  source: marta
+  intensity: 0.59
+  context: {}
+- type: food_given
+  t: 1869
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1890
+  source: player
+  intensity: 0.585
+  context: {}
+- type: nightfall
+  t: 1942
+  intensity: 1.0

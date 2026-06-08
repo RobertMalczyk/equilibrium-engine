@@ -1,0 +1,45 @@
+# Lutek -- wandering poet (curious_romantic). Bores fastest and keeps firing new ideas;
+# turns insults into jokes -- in MVP this surfaces only as the EXTERNAL effect (he does NOT
+# burst), reproduced by high stoicism + self_control. The valence rewrite (insult ->
+# satisfaction) is stage 2 (spec section 13). See docs/rpg_persona_dynamics_persony.md.
+#
+# Trait numbers: calibration SEED from the qualitative profile (scale +++ ~0.97, ++ =0.90,
+# + =0.75, - =0.50, v =0.25, vv =0.10). Seeds, not final values; data, not code.
+id: lutek
+
+traits:
+  reactivity: 0.50          # -
+  patience: 0.25            # v
+  base_self_control: 0.75   # +*  selective vs insults (MVP: global high)
+  need_for_control: 0.25    # v
+  pride: 0.25               # v
+  novelty_seeking: 0.97     # +++  fastest to bore (Lutek >> Welf ~ Branic > rest > Halgrim)
+  threat_sensitivity: 0.25  # v
+  trust_disposition: 0.75   # +
+  gratitude: 0.50           # -
+  stoicism: 0.75            # +*  selective vs insults (MVP: global high)
+
+initial_global_state:
+  hunger: 0.20
+  fatigue: 0.20
+  boredom: 0.10
+  stress: 0.10
+  frustration: 0.00
+  anger: 0.00
+  satisfaction: 0.30
+  self_control: 0.75
+
+# Neutral-warm toward everyone; indifferent to Wojslaw's posturing (low pride -> no status
+# game). player included so insult scenarios (source: player) have a relation to read.
+initial_relations:
+  player:
+    trust: 0.55
+    respect: 0.50
+    resentment: 0.00
+  marta:
+    trust: 0.55
+    respect: 0.50
+    resentment: 0.00
+
+affinities:
+  cabbage_soup: 0.20

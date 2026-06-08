@@ -1,0 +1,216 @@
+# GENERATED multi-day scenario (eval/generate_multiday_scenarios.py).
+# Persona: wojslaw. 3 days, believable timescale (717 ticks/day,
+# dt ~120 s); each day a Sapkowski-keep day-type: bad_blood, bad_blood, drill.
+# Run via load_eval_persona_timescale for n_days*717 ticks. Vocabulary {food_given, insult,
+# help, command, weather, nightfall}. Deterministic: seed = sha256(MULTI_SEED:persona:index).
+id: wojslaw_multi_005
+persona: wojslaw
+n_days: 3
+day_plan:
+- bad_blood
+- bad_blood
+- drill
+initial_overrides: {}
+events:
+- type: food_given
+  t: 57
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 143
+  source: player
+  intensity: 0.722
+  context: {}
+- type: food_given
+  t: 246
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 256
+  source: player
+  intensity: 0.831
+  context:
+    public: true
+- type: insult
+  t: 303
+  source: player
+  intensity: 0.357
+  context:
+    public: true
+- type: insult
+  t: 345
+  source: marta
+  intensity: 0.914
+  context:
+    public: false
+- type: command
+  t: 346
+  source: player
+  intensity: 0.922
+  context:
+    has_authority: true
+- type: food_given
+  t: 414
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 460
+  source: player
+  intensity: 1.0
+  context:
+    public: false
+- type: nightfall
+  t: 508
+  intensity: 1.0
+- type: food_given
+  t: 754
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 759
+  source: marta
+  intensity: 0.663
+  context:
+    public: false
+- type: command
+  t: 828
+  source: player
+  intensity: 1.0
+  context:
+    has_authority: true
+- type: insult
+  t: 877
+  source: marta
+  intensity: 0.816
+  context:
+    public: false
+- type: command
+  t: 888
+  source: player
+  intensity: 0.793
+  context:
+    has_authority: true
+- type: command
+  t: 921
+  source: player
+  intensity: 0.696
+  context:
+    has_authority: true
+- type: insult
+  t: 994
+  source: marta
+  intensity: 0.96
+  context:
+    public: false
+- type: command
+  t: 1010
+  source: player
+  intensity: 0.515
+  context:
+    has_authority: true
+- type: command
+  t: 1030
+  source: player
+  intensity: 0.92
+  context:
+    has_authority: true
+- type: insult
+  t: 1140
+  source: player
+  intensity: 0.664
+  context:
+    public: false
+- type: command
+  t: 1155
+  source: player
+  intensity: 0.922
+  context:
+    has_authority: true
+- type: insult
+  t: 1202
+  source: player
+  intensity: 0.884
+  context:
+    public: true
+- type: nightfall
+  t: 1225
+  intensity: 1.0
+- type: insult
+  t: 1437
+  source: player
+  intensity: 0.499
+  context:
+    public: true
+- type: insult
+  t: 1465
+  source: marta
+  intensity: 0.791
+  context:
+    public: false
+- type: food_given
+  t: 1494
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 1547
+  source: player
+  intensity: 0.996
+  context: {}
+- type: command
+  t: 1645
+  source: player
+  intensity: 0.695
+  context:
+    has_authority: true
+- type: help
+  t: 1651
+  source: player
+  intensity: 0.913
+  context: {}
+- type: food_given
+  t: 1654
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: insult
+  t: 1750
+  source: player
+  intensity: 0.896
+  context:
+    public: false
+- type: insult
+  t: 1752
+  source: marta
+  intensity: 0.75
+  context:
+    public: false
+- type: help
+  t: 1828
+  source: marta
+  intensity: 1.0
+  context: {}
+- type: help
+  t: 1878
+  source: player
+  intensity: 0.73
+  context: {}
+- type: nightfall
+  t: 1942
+  intensity: 1.0

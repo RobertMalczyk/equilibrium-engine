@@ -1,0 +1,9 @@
+# quiet_control -- Halgrim, NO events. The control twin for the impulse-response timing measurements:
+# the layer-1 timing contracts subtract this from an impulse run so the always-on ambient drift
+# (boredom-drift -> frustration -> anger, anger<->stress) cancels and only the EVENT's contribution
+# remains (textbook impulse response = output-with minus output-without). Halgrim does not outburst,
+# so the difference decays cleanly/monotonically.
+id: quiet_control
+persona: halgrim
+initial_overrides: {}
+events: []

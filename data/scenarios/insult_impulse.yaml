@@ -1,0 +1,10 @@
+# insult_impulse -- Halgrim, one insult at t=10. Excites ANGER (decays) and RESENTMENT (persists).
+# Paired with quiet_control: (insult_impulse - control) isolates each contribution. Used for the C1
+# REACHABILITY contrast -- within the horizon, anger reaches half-decay while resentment does NOT
+# (a grudge outlasts a flash of temper) -- phrased on WHETHER half-decay is reached, never on
+# resentment's (unreachable) half-decay time.
+id: insult_impulse
+persona: halgrim
+initial_overrides: {}
+events:
+  - {type: insult, t: 10, source: player, intensity: 1.0, context: {public: false}}

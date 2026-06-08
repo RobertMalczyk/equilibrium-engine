@@ -1,0 +1,38 @@
+# Layer-1 calibration result -- the frozen base for Layer 2. NOT defaults.yaml (defaults stays
+# placeholders). Each half-life carries a STATUS so nobody reads a placeholder as a calibrated value:
+#   calibrated  = a layer-1 contract DROVE it (a real gradient); renegotiating it = a conscious target change.
+#   placeholder = NO layer-1 contract constrained it (flat loss region) -> the value is the seed, NOT a
+#                 measurement. Layer 2 may pin some of these via GAINS; it must not treat them as frozen.
+# Provenance applies to the ABSENCE of a value too: "only satisfaction calibrated" is a finding, not an omission.
+layer: 1
+seed: 1
+optimizer: "cma==4.4.4"
+result: {best_total: 0.0000, accepted: true, note: "satisfaction re-confirmed deterministically (seed=1)"}
+
+half_lives:
+  satisfaction:
+    value: 43.17
+    status: calibrated
+    by: "glow half-decay anchor (calibration.satisfaction_halfdecay_seconds=45) -- the ONLY layer-1 contract with a gradient. DETERMINISTIC seed=1 (the prior 44.2 came from a non-reproducible seed=0 run -- cma treats seed=0 as randomize; both land at ~45s, the flat V-bottom of the anchor)."
+  anger:
+    value: 30.0
+    status: placeholder
+    reason: "anger half-life has NO leverage on any layer-1 contract (D6: cooldown is gain-controlled). Optimizer left it at 30. Pinned in LAYER 2 (the anger loop)."
+  frustration:
+    value: 45.0
+    status: placeholder
+    reason: "unconstrained at layer 1 (flat loss region; optimizer 'wandered'). Pinned in LAYER 2 -- the anger-loop gains act on frustration."
+  stress:
+    value: 70.0
+    status: placeholder
+    reason: "unconstrained at layer 1 (flat loss region). Pinned in LAYER 2 -- the anger-loop gains act on stress."
+  boredom:
+    value: 150.0
+    status: placeholder
+    reason: "unconstrained at layer 1 beyond the ordering guard. Awaits a future timing CONTRACT (benchmark enrichment), see known_divergences D7."
+  fatigue:    {value: 2000.0,   status: placeholder, reason: "Morris-inert at layer 1 (no contract exercises it)."}
+  hunger:     {value: 3000.0,   status: placeholder, reason: "Morris-inert at layer 1."}
+  self_control: {value: 50.0,   status: placeholder, reason: "Morris-inert at layer 1 (homeostat)."}
+  trust:      {value: 100000.0, status: placeholder, reason: "memory dim; Morris-inert at layer 1."}
+  respect:    {value: 100000.0, status: placeholder, reason: "memory dim; Morris-inert at layer 1."}
+  resentment: {value: 150000.0, status: placeholder, reason: "memory dim; Morris-inert at layer 1."}

@@ -1,0 +1,59 @@
+# Edda -- castellan (authority). Issues orders to Marta and the staff; respected for competence; the
+# authority node (the repeated_command / obedience test). Enters with the command extension (GATE 3).
+# A FULL community member -- traits + relations from docs/rpg_persona_dynamics_persony.md, not a stub.
+#
+# Trait numbers: calibration SEED from the qualitative profile (scale ++ =0.90, + =0.75, - =0.50,
+# v =0.25, vv =0.10). Seeds, not final values; data, not code.
+id: edda
+
+traits:
+  reactivity: 0.25          # v   (composed authority)
+  patience: 0.75            # +
+  base_self_control: 0.75   # +
+  need_for_control: 0.90    # ++  (the authority node)
+  pride: 0.75               # +
+  novelty_seeking: 0.25     # v
+  threat_sensitivity: 0.50  # -
+  trust_disposition: 0.50   # -
+  gratitude: 0.50           # -
+  stoicism: 0.75            # +
+
+initial_global_state:
+  hunger: 0.20
+  fatigue: 0.20
+  boredom: 0.10
+  stress: 0.10
+  frustration: 0.00
+  anger: 0.00
+  satisfaction: 0.30
+  self_control: 0.75
+  duty: 0.00                  # starts attended-to; accrues over the watch (drift below)
+
+# AUTHORITY ACTIVATION (spec §8): Edda is the one persona whose `duty` drive is live -- her drift is
+# positive, so duty accrues ("the fort needs running") and command_other fires periodically (the cadence
+# emerges with her need_for_control=0.90 tempo). For every other persona duty drift = 0 (sparse default),
+# so duty stays 0 and they never issue orders. PLACEHOLDER magnitude owned by calibration (the cadence
+# target: she directs the staff periodically through a quiet stretch; a low-need_for_control persona does not).
+drifts:
+  duty: 0.0018                 # PLACEHOLDER: yields ~one order every ~20 min (a castellan periodically
+                              # setting the watch in order, not micromanaging). The cadence is a calibration
+                              # target, not hand-tuned to a verdict; magnitude owned by calibration (spec §9).
+
+# Relations from the persony.md graph (CALIBRATION SEEDS, directions not measured): Edda <-> Halgrim
+# mutual respect; Edda -> Marta/staff issues orders.
+initial_relations:
+  halgrim:                    # "Halgrim <-> Edda: mutual respect (competence)" (mutual: matches Halgrim->Edda)
+    trust: 0.60
+    respect: 0.65
+    resentment: 0.05
+  marta:                      # "Edda -> Marta / staff: issues orders" (authority; respected for competence)
+    trust: 0.55
+    respect: 0.50
+    resentment: 0.00
+  player:
+    trust: 0.50
+    respect: 0.50
+    resentment: 0.00
+
+affinities:
+  cabbage_soup: 0.20
