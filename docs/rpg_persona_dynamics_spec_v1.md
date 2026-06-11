@@ -202,10 +202,53 @@ relational→affinity. Relational effects of object channels (e.g. resentment) a
 kernel: `lookup(entity, table) → scalar` (`0` = neutral/unknown) and `factor(value, gain, sign) =
 1 + gain·sign·value` (`1.0` = identity, the default when the gain is `0` or the entity is absent). The
 relation stage passes `sign = polarity_sign(channel)`; the affinity stage passes `+1` and clamps its
-result. `lookup` is the **seam** the deferred category→specific hierarchy / cosine affinity-field
-(§13/§14) replaces internally without moving a call site. The resolver owns the per-entity gain ONLY —
+result. `lookup` is the **seam** whose internals the **affinity FIELD** (next subsection) replaces
+without moving a call site (the earlier discrete category→specific hierarchy idea is SUPERSEDED by the
+field — nearness in the embedding space *is* the grouping). The resolver owns the per-entity gain ONLY —
 NOT the appraisal gates (`command/kindness/bystander_pressure`, §8), which are a separate "what kind of
 event is this" question. Diagram: `docs/diagrams/filters.md`.
+
+**Affinity FIELD over an embedding space — the generalized `lookup` (staged; design of record:
+`Ideas/affinity_field_unification.md`, private overlay).** Stop storing one valence row per entity:
+place every entity — **object AND agent** — as a **coordinate in a small (~3D) vector space** (frozen
+config; any embedding *generation* by a model is an OFFLINE perception-seam step cached to config, never
+in the tick), define a **sparse set of authored anchors** (coordinate + valence), and resolve any
+entity's valence as a **cosine-similarity-weighted blend of the anchors**:
+
+```text
+w_a        = exp( (cos(x_e, x_a) − 1) / tau )          # similarity kernel, tau = temperature
+valence(e) = Σ_a w_a·v_a / (Σ_a w_a + w_0)             # kernel regression with a NEUTRAL PRIOR
+```
+
+- **Equation shape is topology — frozen now;** `tau` (similarity fall-off), `w_0` (the neutral-prior
+  weight: an entity far from every anchor reads ~0, exactly the `lookup` "unknown = neutral" contract)
+  and the overall gain are **calibration placeholders**. Coordinates, anchor placements and anchor
+  **valences** are **authored** (they are personality/world design, not control gains).
+- **Grouping is EMERGENT from the full 3D layout** (decided): no dimension is reserved as a hand-set
+  "group vicinity" knob — clusters arise from coordinate placement alone (an unlabeled daisy placed near
+  the "flowers" anchor reads `+`; a rose in a sub-region reads `++`; "dislikes animals but likes dogs" =
+  a positive dog anchor inside a negative animal region). Generalization by similarity replaces both the
+  flat table and any discrete IS-A tree — no enumeration, no type-`if`s.
+- **Neutral default / bit-identical staging:** an **empty field (zero anchors) = identity** — the same
+  neutral default as the dict lookup, so the swap ships inert and anchors are opt-in behaviour (the
+  filter-unification migration discipline).
+- **Feed-forward ONLY:** the field scales inputs, seeds state, or adds a prior; it introduces **no
+  integrator and no loop** — the pole/Jury discipline is untouched (assert + test, including people
+  option B below).
+- **Debuggability is a requirement:** the resolver logs the contributing anchors + cosine weights
+  ("−0.31: cos 0.8 from 'snakes'(−0.8), 0.3 from 'pets'(+0.5)") so the field stays as traceable as the
+  table it replaces.
+- **PEOPLE (the hard part — objects are a pure feed-forward gain, people carry dynamic relations).**
+  Staged fork, decided: **(A) first — field as INITIAL CONDITION**: proximity to anchors *seeds* a
+  stranger's trust/respect/resentment ("a new noble starts disliked"), then the normal dynamics take
+  over; existing seeded personas unaffected → goldens hold. **(B) is the stated TARGET — field as a
+  PERSISTENT PRIOR**: a standing feed-forward bias alongside the learned relation each tick ("an
+  instinctive distaste for his kind that lingers even as I come to trust *him*"); implemented only after
+  (A) validates. **(C) replacing the relation dims is REJECTED** — it would gut the core dynamics.
+- **Implementation order:** (1) the field as the OBJECT resolver behind `filters.py::lookup` (empty =
+  bit-identical; then a roses/flowers + dogs/animals proximity demo with tests) → (2) people (A) →
+  (3) people (B). Composes with the deferred frequency axis: the field gives `gain(entity)`; frequency
+  would make it `gain(entity, recent_rate)` — orthogonal.
 
 **Degraded / deferred:** `ignored_preference` **is not a channel** — it is derived from `preference_match`
 (negative) + `repetition` (no model of desires in the MVP). `threat` is **deferred to stage 2** with
@@ -713,7 +756,9 @@ stage-2 is the **back-edge** authority↔resentment loop, chains of command, and
 dependent on a `humor`/`wit` trait, which *shifts part of the negative valence — especially `insult` —
 into `satisfaction`*: an insult lands more weakly **and** improves the mood; in the MVP we reproduce only
 the external effect — no burst — via stoicism + self_control, without rewriting the valence). `curiosity`
-only if novelty earns an axis beyond boredom. `familiarity` — cut. Each addition = one
+only if novelty earns an axis beyond boredom. `familiarity` — cut. The **affinity FIELD** (object+agent
+valence generalization, previously deferred here as "phobias / affinity learning substrate") is now
+SPECIFIED in §5 and staged: object resolver → people-(A) seed → people-(B) prior. Each addition = one
 integrator/channel/action with no structural change.
 
 ---
@@ -742,9 +787,10 @@ integrator/channel/action with no structural change.
   modulation each stage applies is **one shared kernel** (`filters.py`: `factor = 1 + gain·sign·value`
   over a `lookup(entity, table)` with a neutral default) — a single generic element, identity unless a
   config entry populates it, exactly like the integrator and the gain modulators. Its `lookup` is the
-  designated seam for the deferred entity-generalization (category→specific hierarchy, then the cosine
-  affinity FIELD over an embedding space, §13); swapping the lookup internals moves no call site and an
-  empty table stays bit-identical. Trait-keyed modulators (gain modulators above) are a *different* axis
+  designated seam for the entity-generalization: the **cosine affinity FIELD over an embedding space,
+  now specified in §5** (the discrete category→specific hierarchy is superseded by it — nearness is the
+  grouping); swapping the lookup internals moves no call site and an
+  empty table / empty field stays bit-identical. Trait-keyed modulators (gain modulators above) are a *different* axis
   and stay separate — no framework forced across the two.
 - **Drive and relation = core + a thin capability via a uniform interface** (drive: urge read + thresholds
   + binding to an action; relation: a dimension per `AgentId` + affective bias). They pass through a
