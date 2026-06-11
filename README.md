@@ -4,6 +4,8 @@
 Visible behaviour *emerges from the dynamics of internal states* — it is not driven by scripts or by a
 language model in the decision loop.
 
+**Website:** **[equilibrium-engine.dev](https://equilibrium-engine.dev/)** — interactive demos, the trace explorer, and the [white paper](https://equilibrium-engine.dev/whitepaper.pdf).
+
 ---
 
 ## The idea in one paragraph
