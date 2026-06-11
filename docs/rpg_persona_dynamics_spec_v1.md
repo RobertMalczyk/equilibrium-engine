@@ -505,7 +505,11 @@ anger       → stress
     engage `self_activity` → stress **recovers**); in a barren world (novelty budget exhausted, timeouts)
     it is **positive** (fruitless looking winds the character up, which drives more looking). The engine
     stays open-loop internally — the world/runner closes it; this is the activity-model discipline, not a
-    new in-engine coupling edge.
+    new in-engine coupling edge. **NOTE — the relief-seeking term closes a SECOND return path too:**
+    `stress → urge → SEEKING → +frustration/tick (the existing looking cost) → anger → stress` — a longer
+    cycle through the frustration chain that exists the moment the urge reads stress, independent of the
+    new stress cost. Both return paths enter the stability check; the barren-world loop gain is the SUM
+    of the two.
 - **Stability (a mandatory re-check when gains change).** The linearized 2-cycle
   `[[decay_stress, g(anger→stress)],[g(stress→anger), decay_anger]]` must have poles inside the unit
   circle. The binding Jury criterion: `g(anger→stress)·g(stress→anger) < (1−decay_stress)·(1−decay_anger)`.
@@ -522,22 +526,34 @@ loops were kept safe by **weak gains** (the linear Jury bound), which buys "gent
 fury". This milestone permits **genuine escalation** and replaces weak-gain safety with **nonlinear
 saturation + a self-extinguishing burst latch**:
 
-- **Escalation is permitted.** Under a rare coincidence of inputs (tired AND insulted AND hungry AND
-  fruitlessly seeking — the can't-find stress edge of Loop 2 is one more such drive), the summed input
-  gain pushes Loop 1 past its linear stability point and the state spirals up fast. This is intended
-  behaviour, not a bug: the rare coincidence *is* the burst trigger.
+- **Escalation needs a declared NONLINEARITY (topology decided now).** In a *linear* loop, stability
+  does not depend on inputs at all — poles are fixed by gains and decays, so no coincidence of drives
+  could ever destabilize it; "many inputs at once" would only raise the operating point. The escalation
+  is therefore carried by a **state-dependent coupling escalation factor**, a sparse per-edge modulator
+  in the §14 family: `g_eff = g · (1 + k_esc · y_snapshot)` on a loop edge `x ← y` (contribution
+  `g·y + g·k_esc·y²`). Locally, the slope `g·(1 + 2·k_esc·y*)` **grows with the operating point** `y*`:
+  at low states the loop keeps exactly the frozen Layer-2 linear poles (`y*≈0 → g_eff≈g`; the freeze
+  stays valid), and only when a rare coincidence of inputs (tired AND insulted AND hungry AND fruitlessly
+  seeking — the can't-find stress edge of Loop 2 is one more such drive) lifts the operating point high
+  enough does the local gain cross the Jury bound and the state spiral up fast. `k_esc` is a sparse
+  calibration placeholder, `0` = neutral (today's linear loop); declared for the two Loop-1 edges only.
+  This makes "stability conditional on how many inputs coincide" *mathematically* true — it is a
+  property of the operating point, which inputs set, acting through the declared nonlinearity.
 - **The ceiling catches it.** The existing `[0,1]` clamp saturates the spiral — at the ceiling the
   coupling has nowhere to grow. The state **plateaus pinned near max** while the drive persists ("spike,
   hold"), a qualitatively distinct mode from normal dynamics.
 - **The burst latch ends it.** A plateau at max must *extinguish*, or the character stays in fury forever.
-  An explicit **burst latch** (bookkeeping, like `mode` — NOT a new state integrator): **enter** when the
-  loop states sit in the saturation band (`anger ≥ theta_burst_enter`) for `burst_confirm_ticks`; **exit**
-  (hysteresis) when `anger ≤ theta_burst_exit` (< enter). While latched, an **extinction term** (a strong
-  per-tick relaxation, half-life ~"an hour of game time", placeholder) is added to the loop states in
-  `update`, so once the trigger eases the trajectory **comes off the ceiling and keeps descending** —
-  spike → plateau → slow cool, integrate-and-fire at the *loop* level (the proactive-path precedent:
-  threshold-crossing → an episode of finite duration). Boundedness condition: **extinction dominates the
-  coupling outside the saturated region** — verified empirically (trajectory-returns test), not by poles.
+  An explicit **burst latch** (bookkeeping, like `mode` — NOT a new state integrator; carried in the
+  runtime and emitted in the debug trace / goldens like `mode`): **enter** when **BOTH loop states** sit
+  in the saturation band (`anger ≥ theta_burst_enter[anger]` AND `stress ≥ theta_burst_enter[stress]`)
+  for `burst_confirm_ticks` — the *loop* plateau is the signature, a single-state spike (an ordinary
+  outburst) must NOT arm it; **exit** (hysteresis) when `anger ≤ theta_burst_exit` (< enter). While
+  latched, an **extinction term** (a strong per-tick relaxation, half-life ~"an hour of game time",
+  placeholder; applied in `update` regardless of mode) is added to the loop states, so once the trigger
+  eases the trajectory **comes off the ceiling and keeps descending** — spike → plateau → slow cool,
+  integrate-and-fire at the *loop* level (the proactive-path precedent: threshold-crossing → an episode
+  of finite duration). Boundedness condition: **extinction dominates the escalated coupling outside the
+  saturated region** — verified empirically (trajectory-returns test), not by poles.
 - **Stability is conditional on input coincidence — verify the FREQUENT combinations, accept the rare.**
   The Jury/pole discipline still guarantees the loop is stable for the *typical* operating points
   (single inputs and the **measured** frequent pairs — measure the co-occurrence distribution from the
@@ -546,24 +562,36 @@ saturation + a self-extinguishing burst latch**:
   honestly): per-combination checks are multi-operating-point analysis; stability at each checked point
   does not strictly cover the *transitions* between them — acceptable for slow emotional states, but a
   limit, not a proof.
-- **Displaced aggression — who the burst lands on (`theta_displace`).** While latched, the target bar
-  widens: reacting to the *actual provoker* fires at the ordinary `react.*` thresholds; discharging onto
-  an **innocent bystander** (even a kind one — "kicking the dog") requires `anger ≥ theta_displace`,
-  with `theta_displace >> react.*` (placeholder). Below it the appraisal route wins (a kindness draws
-  `positive_response`); above it the burst may catch whoever is present. **A displaced lash-out must NOT
+- **Displaced aggression — who the burst lands on (`theta_displace`), wired into the provocation gate.**
+  The selector admits a reactive reply only under `recent_provocation` (§7 step 8) — and a kind
+  bystander's gesture is deliberately NOT a provocation, so as-is the displaced discharge could never
+  fire (this was the latched-spring measurement: potential armed above the line for ~10 ticks, gate
+  shut). The widening is therefore an explicit **gate extension**: while the burst latch is SET and
+  `anger ≥ theta_displace` (`theta_displace >> react.*`, placeholder), **any SOURCED event this tick is
+  an admissible discharge trigger** — the gate opens for it even though it provokes nothing (a
+  sourceless event, e.g. `weather`, still never opens it; you cannot kick the rain). Reacting to the
+  *actual provoker* keeps the ordinary `react.*` thresholds and gate. Below `theta_displace` the
+  appraisal route wins unchanged (a kindness draws `positive_response`); above it the burst may catch
+  whoever is present — the discharge target is this tick's event source. **A displaced lash-out must NOT
   mint a durable grudge on the innocent:** its relational cost is booked **transiently / heavily
   discounted** (a flash of "snapped at her", not "now hates her") — the measured pathology (wojsław/Marta:
   each discharge booked `+resentment` on the giver, her resentment ran to 1.0, then her every kindness
   read as provocation → a fabricated nemesis) is excluded **by construction**, not by tuning. The
   expression seam must render it **as displacement** ("still seething from the taunt, he snaps at Marta
   though she has done nothing"), never as "he hates soup".
-- **Neutral by default — ships bit-identical.** New config: the seeking `stress` cost (`0` default), the
-  `urge_boredom` stress weight (`0` default), `theta_burst_enter/exit` (disabled default — latch never
-  arms), the extinction rate, `theta_displace`, the displaced-discharge relational discount. ALL are
-  calibration placeholders (topology-now, constants-from-calibration); with the defaults neutral the
-  litmus/goldens are unchanged by construction. Calibrating the escalation gains is a NEW layer **after**
-  the frozen Layer-2 (it deliberately moves the loop past the old hard-reject Jury gate, so the gate is
-  *replaced* for this layer by the boundedness/return check + the decoupling-style monitors).
+- **Neutral by default — ships bit-identical.** New config: the seeking `stress` cost (`0` default —
+  booked **per tick while SEEKING**, not at give-up: the wear of fruitless looking is continuous, the
+  integrator reads it as it accrues, and the timeout already *keeps* the accumulated state — an
+  on-timeout lump sum was considered and rejected as a discontinuity the dynamics don't need), the
+  `urge_boredom` stress weight (`0` default), the per-edge escalation factors `k_esc` (`0` default —
+  the loop stays linear), `theta_burst_enter[anger/stress]`/`theta_burst_exit`/`burst_confirm_ticks`
+  (disabled default — latch never arms), the extinction rate, `theta_displace`, the displaced-discharge
+  relational discount. ALL are calibration placeholders (topology-now, constants-from-calibration); with
+  the defaults neutral the litmus/goldens are unchanged by construction. Calibrating `k_esc` + the burst
+  params is a NEW layer **after** the frozen Layer-2 — Layer-2's *linear* gains stay frozen (the
+  escalation factor is anchored so `y*≈0` reproduces them exactly); the new layer's gate is the
+  **boundedness/return check + the decoupling-style monitors**, replacing the hard-reject Jury gate only
+  for the declared saturated regime.
 - Diagram (required artifact): `docs/diagrams/burst_saturation.md` (control + functional forms).
 
 **Reactive potentials — gated by state, traits only modulate.** `M7` computes only
@@ -813,6 +841,13 @@ integrator/channel/action with no structural change.
   calibrated gain exactly (the Layer-2 freeze stays valid — only the per-persona *spread* is new). Generic
   and reusable — any `(state, channel)` edge, declared sparsely in config (later: gratitude×help,
   threat_sensitivity×threat) — no per-edge code.
+- **Coupling escalation factors (sparse, state × coupling-gain — §8 burst & saturation):** a state→state
+  coupling edge `x ← y` MAY carry `g_eff = g·(1 + k_esc·y_snapshot)` — the edge strengthens with its own
+  input's level, the declared nonlinearity that makes loop stability operating-point-dependent. Neutral
+  default `k_esc = 0` = today's linear edge; anchored at `y = 0` so the frozen linear calibration is
+  reproduced exactly at low states. The same shape family as the gain modulators (a `1 + k·signal`
+  factor on a declared edge), keyed on a STATE rather than a trait — a third axis, declared sparsely,
+  no per-edge code. MVP instances: the two Loop-1 edges (`anger←stress`, `stress←anger`) only.
 - **Filters = a uniform pipeline of identity stages** (the dispatch from section 5 is its form: a self
   channel passes through an identity stage, it is not an exception carved out with an `if`). The per-entity
   modulation each stage applies is **one shared kernel** (`filters.py`: `factor = 1 + gain·sign·value`
@@ -846,7 +881,8 @@ integrator/channel/action with no structural change.
 
 **Inventory of tuned values (no literals in engine code — everything from config with a default):**
 half-lives/decay, drifts, setpoints, input→state gains, gain modulators (sparse trait×gain: trait, ref, k),
-state→state couplings (sparse), potential and
+state→state couplings (sparse) + their escalation factors (sparse `k_esc`, §8 burst), burst-latch
+thresholds/extinction/`theta_displace`/relational discount, potential and
 urge read weights, thresholds (`theta_react`, `theta_interrupt`, `theta_start`, `theta_satiation`,
 `theta_fatigue_end`, action thresholds), action parameters (per-tick relief/cost/reward, cooldown),
 affinities. *Values* are in config; *topology* (the list of allowed edges) too — the code holds only the
