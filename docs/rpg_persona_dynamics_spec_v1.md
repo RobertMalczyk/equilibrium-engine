@@ -34,7 +34,11 @@ place only. Three keywords: **frozen snapshot**, **synchronous update**, **filte
 - **Integrators with decay.** Every state is a one-pole low-pass filter; `decay` = the time constant.
   **Resonance/oscillation is an emergent property of a loop of ≥2 states**, not a property of a single input.
 - **Loop stability.** The choice of feedback gains must keep the poles of the linearized loops inside the
-  unit circle (unless a limit cycle is intended).
+  unit circle (unless a limit cycle is intended) — **OR**, for a loop deliberately declared
+  **saturation-bounded** (§8 burst & saturation), stability means **boundedness**: the trajectory may
+  escalate to the clamp ceiling but must **return** once the drive eases (extinction dominates the
+  coupling outside the saturated region). A saturation-bounded loop is an explicit, declared exception —
+  the linear pole test remains the default for every other loop.
 - **State mutates in one place** (`update.commit`) + the selector's small `post_effects` (section 6/7).
 - **Generic element + neutral defaults** (full contract: section 14). All states are instances of **one**
   integrator; a "role" (emotion / accumulator / homeostat / memory) = a **parameter preset**, not a
@@ -145,13 +149,17 @@ only a modulator (the `seek_food` drive is deferred).
 
 **Derived — per tick, NOT states:** effective_self_control (= self_control − the effect of
 fatigue/stress), irritability, negative_bias (per source), affective_bias (per source), dissatisfaction,
-urge_boredom (= f(boredom · novelty-tempo, − light fatigue brake)), urge_fatigue (directly from fatigue).
+urge_boredom (= f(boredom · novelty-tempo, + stress relief-seeking term, − light fatigue brake)),
+urge_fatigue (directly from fatigue).
 *A drive/urge is not a state* — the integrator of the boredom urge is the existing `boredom` (drive =
 state in its second role, §8): the urge reads `boredom` **DIRECTLY**, not via `frustration`. **D5:** the
 boredom term is modulated by `novelty_seeking` (`nov_factor = 1 + k·(novelty − ref)`, default identity) so
 the time-to-seek from idle is ordered by the trait — a novelty-seeker acts on boredom sooner, a low-novelty
 stoic later or never. (The fatigue brake is kept LIGHT: the `fatigue→rest` drive already diverts a tired NPC,
 so a strong brake only made the boredom urge unreachable. Magnitudes are calibration placeholders.)
+**Relief-seeking (burst & saturation, §8):** the urge additionally reads `stress` with a small positive
+weight — a stressed character looks for something to take its mind off (the return edge of Loop 2, which
+closes through the world). Weight = a calibration placeholder, `0` = neutral default (today's behaviour).
 
 **Bookkeeping — NOT states:** mode (IDLE/SEEKING/BUSY/COOLDOWN/SLEEP), active_action + busy_target, cooldowns, log.
 
@@ -296,7 +304,8 @@ TICK(t):
             else                       → neutral/positive_response  # start blocked
         elif mode == SEEKING:                                      # M7 Step 2: looking for an activity
             if max_react ≥ theta_react → action=reactive (interrupt the search → IDLE)
-            else                       → continue seeking (seek_stimulus; +frustration/tick, the looking cost)
+            else                       → continue seeking (seek_stimulus; +frustration, +stress per tick —
+                                         the looking cost; the stress term is Loop 2's forward edge, §8)
         else (IDLE):
             if   max_react ≥ theta_react    → action=reactive       # the world has priority
             elif max(urges) ≥ theta_start   → START strongest drive: a SEEKING drive (seek_stimulus) → SEEKING
@@ -314,7 +323,9 @@ TICK(t):
 **Selection rule vs thresholds:** threshold = "is it in the running", argmax = "which of the admitted ones
 is strongest" (`cold_response` 0.50 with potential 0.6 beats `outburst` 0.75 with potential 0.55 — by design).
 **Suppression (outburst→cold_response):** keys on stoicism + respect + eff_self_control (no fear); a
-`suppressed_anger` bump / delayed burst = **stage 2**.
+`suppressed_anger` bump / delayed burst = **stage 2** (the *loop-level* delayed burst — saturation +
+the burst latch — is specified now in §8 burst & saturation; a dedicated `suppressed_anger` state remains
+deferred).
 **Gain modulator (`mod`):** an input→state gain MAY carry a trait modulator `mod = 1 + k·(trait − ref)`
 (sparse; default `mod = 1` = identity; anchored at `ref` so a reference-trait persona keeps the calibrated
 gain exactly). First instance: **pride → insult-anger** (wound-sensitivity) — a proud persona's insult
@@ -360,8 +371,10 @@ proactive trigger — its strength is a calibration task. **Named, deferred:** `
 > urge no longer depends on frustration; the reactive chain no longer gates the proactive START.
 
 **Activity model (M7 Step 2) — the proactive path is CLOSED-LOOP and fallible.** A proactive START does
-not self-supply relief; it enters **SEEKING** (the intent — "looking"), which **costs frustration** each
-tick. The engine ENGAGES (→ BUSY) only when the **world confirms** via an `activity` event (a mode-control
+not self-supply relief; it enters **SEEKING** (the intent — "looking"), which **costs frustration and
+stress** each tick (the stress cost is the burst milestone's "can't find an activity wears you down" edge —
+Loop 2's forward edge, §8 burst & saturation; placeholder, `0` = today's behaviour). The engine ENGAGES
+(→ BUSY) only when the **world confirms** via an `activity` event (a mode-control
 signal carrying `kind` ∈ {`self_activity`, `external`} and `novelty`); if no confirmation arrives within
 `seeking_timeout_ticks`, it **gives up** → IDLE (keeping the accrued frustration — the "looked, found
 nothing" arc). Engaged relief is per-tick, with the boredom relief **scaled by the confirmed novelty**, and
@@ -483,12 +496,75 @@ anger       → stress
   exactly the high-reactivity cast — D11 round 2.) Recovery also stops at a **standing-grievance floor**
   (`idle_recovery_floor[stress] · resentment_max`): a deep resentment is itself a baseline stressor, so a
   resentful captive idles *wary*, not "at ease" — recovery never pulls stress below the floor (D11 round 3).
-- **The only feedback loop** is `anger ↔ stress` (a 2-cycle); `boredom→frustration→anger` and
-  `hunger/fatigue→stress` are **feedforward** edges into that loop, not cycles.
+- **Loop inventory (verified topology).** TWO positive feedback loops:
+  - **Loop 1 — `anger ↔ stress`** (a 2-cycle) is the only **in-engine** state→state cycle;
+    `boredom→frustration→anger` and `hunger/fatigue→stress` are **feedforward** edges into it, not cycles.
+  - **Loop 2 — relief-seeking ⇄ seeking-failure**, closing **through the world**: `stress → urge_boredom`
+    (the relief-seeking term, §4) `→ SEEKING → no world confirmation ("can't find") → +stress/tick → …`.
+    Its **sign is environmental**: in a rich world the same loop is **negative** feedback (stress → seek →
+    engage `self_activity` → stress **recovers**); in a barren world (novelty budget exhausted, timeouts)
+    it is **positive** (fruitless looking winds the character up, which drives more looking). The engine
+    stays open-loop internally — the world/runner closes it; this is the activity-model discipline, not a
+    new in-engine coupling edge.
 - **Stability (a mandatory re-check when gains change).** The linearized 2-cycle
   `[[decay_stress, g(anger→stress)],[g(stress→anger), decay_anger]]` must have poles inside the unit
   circle. The binding Jury criterion: `g(anger→stress)·g(stress→anger) < (1−decay_stress)·(1−decay_anger)`.
   The regime test (`tests/`) computes the spectral radius of the full 6-state submatrix and requires `< 1`.
+  **Burst extension (§8 burst & saturation):** the Jury/pole test governs the **nominal operating band**
+  (typical input combinations). For the declared saturation-bounded regime — rare input coincidences that
+  push the loop past linear stability — the binding test becomes **boundedness/return** (the trajectory
+  escalates to the ceiling, holds, and **comes back down** once the drive eases), checked empirically per
+  §8 burst, not by poles.
+
+**Burst & saturation — letting the positive loops genuinely escalate (two loops, one safety mechanism).**
+Design of record: `Ideas/burst_saturation_design_note.md` (private overlay repo). Until now the positive
+loops were kept safe by **weak gains** (the linear Jury bound), which buys "gentle build-up", never "real
+fury". This milestone permits **genuine escalation** and replaces weak-gain safety with **nonlinear
+saturation + a self-extinguishing burst latch**:
+
+- **Escalation is permitted.** Under a rare coincidence of inputs (tired AND insulted AND hungry AND
+  fruitlessly seeking — the can't-find stress edge of Loop 2 is one more such drive), the summed input
+  gain pushes Loop 1 past its linear stability point and the state spirals up fast. This is intended
+  behaviour, not a bug: the rare coincidence *is* the burst trigger.
+- **The ceiling catches it.** The existing `[0,1]` clamp saturates the spiral — at the ceiling the
+  coupling has nowhere to grow. The state **plateaus pinned near max** while the drive persists ("spike,
+  hold"), a qualitatively distinct mode from normal dynamics.
+- **The burst latch ends it.** A plateau at max must *extinguish*, or the character stays in fury forever.
+  An explicit **burst latch** (bookkeeping, like `mode` — NOT a new state integrator): **enter** when the
+  loop states sit in the saturation band (`anger ≥ theta_burst_enter`) for `burst_confirm_ticks`; **exit**
+  (hysteresis) when `anger ≤ theta_burst_exit` (< enter). While latched, an **extinction term** (a strong
+  per-tick relaxation, half-life ~"an hour of game time", placeholder) is added to the loop states in
+  `update`, so once the trigger eases the trajectory **comes off the ceiling and keeps descending** —
+  spike → plateau → slow cool, integrate-and-fire at the *loop* level (the proactive-path precedent:
+  threshold-crossing → an episode of finite duration). Boundedness condition: **extinction dominates the
+  coupling outside the saturated region** — verified empirically (trajectory-returns test), not by poles.
+- **Stability is conditional on input coincidence — verify the FREQUENT combinations, accept the rare.**
+  The Jury/pole discipline still guarantees the loop is stable for the *typical* operating points
+  (single inputs and the **measured** frequent pairs — measure the co-occurrence distribution from the
+  700-corpus runs, do NOT assume which pairs are common). Three-plus coincidences MAY go linearly unstable
+  — and that *is* the burst, already bounded by the mechanism above. Known method limit (recorded
+  honestly): per-combination checks are multi-operating-point analysis; stability at each checked point
+  does not strictly cover the *transitions* between them — acceptable for slow emotional states, but a
+  limit, not a proof.
+- **Displaced aggression — who the burst lands on (`theta_displace`).** While latched, the target bar
+  widens: reacting to the *actual provoker* fires at the ordinary `react.*` thresholds; discharging onto
+  an **innocent bystander** (even a kind one — "kicking the dog") requires `anger ≥ theta_displace`,
+  with `theta_displace >> react.*` (placeholder). Below it the appraisal route wins (a kindness draws
+  `positive_response`); above it the burst may catch whoever is present. **A displaced lash-out must NOT
+  mint a durable grudge on the innocent:** its relational cost is booked **transiently / heavily
+  discounted** (a flash of "snapped at her", not "now hates her") — the measured pathology (wojsław/Marta:
+  each discharge booked `+resentment` on the giver, her resentment ran to 1.0, then her every kindness
+  read as provocation → a fabricated nemesis) is excluded **by construction**, not by tuning. The
+  expression seam must render it **as displacement** ("still seething from the taunt, he snaps at Marta
+  though she has done nothing"), never as "he hates soup".
+- **Neutral by default — ships bit-identical.** New config: the seeking `stress` cost (`0` default), the
+  `urge_boredom` stress weight (`0` default), `theta_burst_enter/exit` (disabled default — latch never
+  arms), the extinction rate, `theta_displace`, the displaced-discharge relational discount. ALL are
+  calibration placeholders (topology-now, constants-from-calibration); with the defaults neutral the
+  litmus/goldens are unchanged by construction. Calibrating the escalation gains is a NEW layer **after**
+  the frozen Layer-2 (it deliberately moves the loop past the old hard-reject Jury gate, so the gate is
+  *replaced* for this layer by the boundedness/return check + the decoupling-style monitors).
+- Diagram (required artifact): `docs/diagrams/burst_saturation.md` (control + functional forms).
 
 **Reactive potentials — gated by state, traits only modulate.** `M7` computes only
 `potential = clamp(Σ weight·term)`, where each **term** is a declared product of factors (like the
