@@ -216,14 +216,33 @@ in the tick), define a **sparse set of authored anchors** (coordinate + valence)
 entity's valence as a **cosine-similarity-weighted blend of the anchors**:
 
 ```text
-w_a        = exp( (cos(x_e, x_a) − 1) / tau )          # similarity kernel, tau = temperature
-valence(e) = Σ_a w_a·v_a / (Σ_a w_a + w_0)             # kernel regression with a NEUTRAL PRIOR
+if e in explicit_table:  valence(e) = table[e]          # EXACT-ENTRY OVERRIDE (k=1: a known,
+                                                        # specifically-authored entity wins outright)
+else:
+    w_a        = exp( (cos(x_e, x_a) − 1) / tau )       # similarity kernel, tau = temperature
+    valence(e) = Σ_a w_a·v_a / (Σ_a w_a + w_0)          # kernel regression with a NEUTRAL PRIOR
 ```
 
+- **Exact-entry override (the resolution order, decided now).** The field is the *generalization* layer
+  — it answers for entities **nobody authored individually**. An explicitly-authored entity (today's
+  `affinities` entries) returns its table value **exactly**, bypassing the blend; the kernel
+  interpolates **unknowns only**. Two reasons: (1) with a neutral prior `w_0 > 0`, an entity sitting
+  *on* an anchor reads `v_a·Σw/(Σw+w_0)` — never exactly its authored value, so existing entries could
+  NOT be migrated bit-identically through the kernel; the override makes the migration exact by
+  construction. (2) It *is* the original filter vision — "k=1 nearest, most-specific wins": a specific
+  authored judgment beats the generalized landscape.
 - **Equation shape is topology — frozen now;** `tau` (similarity fall-off), `w_0` (the neutral-prior
   weight: an entity far from every anchor reads ~0, exactly the `lookup` "unknown = neutral" contract)
   and the overall gain are **calibration placeholders**. Coordinates, anchor placements and anchor
   **valences** are **authored** (they are personality/world design, not control gains).
+- **Coordinate hygiene (validated at load):** cosine ignores magnitude, so coordinates are
+  **unit-normalized at load** (the config may be authored unnormalized; the loader normalizes — two
+  entities on one ray ARE the same direction, by design). A zero vector is a **hard config error**
+  (cosine undefined). Blend output is `clamp_signed` like every signed value.
+- **Scope of the seam (narrower than "all of `lookup`"):** the field backs the **static affinity
+  table** reads only (object valence; later the agent-anchor *priors* below). The relation stage's
+  reads of the **dynamic** per-source relation dims (and the betrayal exception's nested `trust` fetch)
+  are live state, not authored tables — they stay on the plain dict path, untouched.
 - **Grouping is EMERGENT from the full 3D layout** (decided): no dimension is reserved as a hand-set
   "group vicinity" knob — clusters arise from coordinate placement alone (an unlabeled daisy placed near
   the "flowers" anchor reads `+`; a rose in a sub-region reads `++`; "dislikes animals but likes dogs" =
@@ -245,10 +264,19 @@ valence(e) = Σ_a w_a·v_a / (Σ_a w_a + w_0)             # kernel regression wi
   PERSISTENT PRIOR**: a standing feed-forward bias alongside the learned relation each tick ("an
   instinctive distaste for his kind that lingers even as I come to trust *him*"); implemented only after
   (A) validates. **(C) replacing the relation dims is REJECTED** — it would gut the core dynamics.
-- **Implementation order:** (1) the field as the OBJECT resolver behind `filters.py::lookup` (empty =
-  bit-identical; then a roses/flowers + dogs/animals proximity demo with tests) → (2) people (A) →
-  (3) people (B). Composes with the deferred frequency axis: the field gives `gain(entity)`; frequency
-  would make it `gain(entity, recent_rate)` — orthogonal.
+  **Dimensionality (a gap the idea note glossed — decided now):** a person is not one number; seeding
+  (A) needs trust/respect/resentment, three. The anchor **valence generalizes to per-dimension
+  components**: an OBJECT anchor carries a scalar `v`; an AGENT anchor carries a sparse component
+  vector `(v_trust, v_respect, v_resentment)` — missing component = neutral `0`. ONE kernel evaluation
+  per entity (the weights `w_a` are computed once from geometry) blends each declared component
+  independently — same mechanism, no second field. The seeded relation = the per-dim blend; option (B)'s
+  prior is the same per-dim blend applied as a standing bias.
+- **Implementation order:** (1) the field as the OBJECT resolver behind the affinity-table `lookup`
+  (empty field = bit-identical; existing `affinities` entries ride the exact-entry override, so they
+  stay byte-exact even once anchors are populated; then a roses/flowers + dogs/animals proximity demo
+  with tests, asserting the debug log explains each blend) → (2) people (A) → (3) people (B). Composes
+  with the deferred frequency axis: the field gives `gain(entity)`; frequency would make it
+  `gain(entity, recent_rate)` — orthogonal.
 
 **Degraded / deferred:** `ignored_preference` **is not a channel** — it is derived from `preference_match`
 (negative) + `repetition` (no model of desires in the MVP). `threat` is **deferred to stage 2** with
