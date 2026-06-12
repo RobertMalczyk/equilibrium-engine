@@ -76,6 +76,10 @@
               │   displaced discharge target = the tick's event   │
               │     source; books resentment TRANSIENT/discounted │
               │     (no durable grudge on the innocent)           │
+              │   DISPLACED only if: not itself a provocation     │
+              │     (direct replies book full cost), HOSTILE      │
+              │     (books +resentment; warm replies never        │
+              │     tagged), target != remembered provoker        │
               └───────────────────────────────────────────────────┘
 
  [0,1] clamp = the saturation ceiling: when the escalated loop goes locally unstable (rare input

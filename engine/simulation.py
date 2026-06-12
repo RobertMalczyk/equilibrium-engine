@@ -368,12 +368,23 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
         # a flash of "snapped at her", never a durable grudge on the innocent (the fabricated-nemesis
         # runaway is excluded by construction). The expression seam reads the tag to frame it AS
         # displacement. Unlatched (the shipped default) -> this branch never runs -> bit-identical.
+        # A discharge is DISPLACED only if ALL hold (corner-case review, 2026-06-12):
+        #   (1) the displaced gate is what could admit it (latch SET + anger over the bar);
+        #   (2) this tick's event is NOT itself a provocation -- a direct reply to the provoking
+        #       event (even a brand-new provoker) is an ORDINARY reply and books its full cost;
+        #   (3) the reply is HOSTILE (books positive resentment) -- a warm positive_response that
+        #       happens while latched is an appraisal reply, not a lash-out: never tagged/discounted;
+        #   (4) the target is not the remembered provocation source.
         if (
             displaced_gate
+            and not is_provocation
             and sel.kind == ActionKind.REACTIVE
             and reaction_target is not None
             and reaction_target != runtime.last_provocation_source
-            and sel.post_effects.relations
+            and any(
+                dims.get("resentment", 0.0) > 0.0
+                for dims in sel.post_effects.relations.values()
+            )
         ):
             discount = float(config.appraisal.get("displaced_relational_discount", 0.0))
             relations = {

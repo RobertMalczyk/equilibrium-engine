@@ -234,6 +234,115 @@ def test_sourceless_weather_never_catches_the_burst():
     assert tr.ticks[5].selection.kind.value != "reactive"
 
 
+# --- corner cases (review pass, 2026-06-12) ---------------------------------------------------------
+
+
+def test_direct_reply_to_a_new_provoker_is_never_displaced():
+    """While latched, a brand-new provoker insults — the reply is a DIRECT reply to this tick's
+    provocation: full relational cost, no displacement tag (the bug the review caught: it was
+    tagged displaced because last_provocation_source was still None)."""
+    cfg = _burst_cfg(
+        extinction={"anger": 0.02, "stress": 0.02},
+        appraisal={"gesture_channels": [], "kindness_pressure": 0.0},
+    )
+    events = [RawEvent(t=5, type="insult", source="brun", intensity=1.0)]
+    _, tr = run_scenario(cfg, _scenario(events, initial=HOT_START), n_ticks=8)
+    tk = tr.ticks[5]
+    assert tk.burst_latched is True
+    assert tk.selection.kind.value == "reactive"
+    assert "[DISPLACED" not in tk.selection.explanation
+    booked = tk.selection.post_effects.relations.get("brun", {}).get("resentment", 0.0)
+    assert booked > 0.05  # the provoker's grudge books in FULL
+
+
+def test_warm_reply_while_latched_is_not_tagged_or_discounted():
+    """Kindness appraisal ON: at these placeholder weights the kindness edge wins and the reply is
+    positive_response — an APPRAISAL reply, never displacement: no tag, trust deposit kept."""
+    cfg = _burst_cfg(
+        extinction={"anger": 0.02, "stress": 0.02}
+    )  # default appraisal: kindness ON
+    events = [
+        RawEvent(
+            t=5, type="food_given", source="marta", item="warm_meal", intensity=0.8
+        )
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=HOT_START), n_ticks=8)
+    tk = tr.ticks[5]
+    assert tk.selection.action == "positive_response"
+    assert "[DISPLACED" not in tk.selection.explanation
+    trust = tk.selection.post_effects.relations.get("marta", {}).get("trust", 0.0)
+    assert trust > 0.0  # goodwill books undiscounted
+
+
+def test_theta_displace_without_latch_config_is_inert():
+    cfg = _load(
+        {
+            "thresholds": {"theta_displace": 0.55, "reactive_window_ticks": 1},
+            "appraisal": {"gesture_channels": [], "kindness_pressure": 0.0},
+        }
+    )
+    events = [
+        RawEvent(
+            t=5, type="food_given", source="marta", item="warm_meal", intensity=0.8
+        )
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=HOT_START), n_ticks=8)
+    assert all(not tk.burst_latched for tk in tr.ticks)
+    assert tr.ticks[5].selection.kind.value != "reactive"  # the gate never widens
+
+
+def test_confirm_dwell_resets_when_the_band_is_left():
+    """The confirm counter must reset if the loop dips out of the saturation band mid-dwell: a
+    strong extinction-free decay run that leaves the band before confirm completes never latches."""
+    cfg = _load(
+        {
+            "thresholds": dict(BURST_THRESHOLDS, **{"burst_confirm_ticks": 6}),
+        }
+    )
+    # stress starts just at the band edge and decays out of it within the 6-tick confirm window
+    init = {"global_state": {"anger": 0.95, "stress": 0.62}}
+    _, tr = run_scenario(cfg, _scenario([], initial=init), n_ticks=12)
+    assert all(not tk.burst_latched for tk in tr.ticks)
+
+
+def test_partial_burst_threshold_set_is_a_config_error():
+    with pytest.raises(ValueError, match="partial burst-latch"):
+        _load({"thresholds": {"burst_enter.anger": 0.8}})
+
+
+def test_inverted_hysteresis_is_a_config_error():
+    with pytest.raises(ValueError, match="hysteresis"):
+        _load(
+            {
+                "thresholds": {
+                    "burst_enter.anger": 0.8,
+                    "burst_enter.stress": 0.6,
+                    "burst_exit": 0.85,
+                }
+            }
+        )
+
+
+def test_zero_confirm_ticks_is_a_config_error():
+    with pytest.raises(ValueError, match="burst_confirm_ticks"):
+        _load({"thresholds": dict(BURST_THRESHOLDS, **{"burst_confirm_ticks": 0})})
+
+
+def test_negative_k_esc_is_a_config_error():
+    with pytest.raises(ValueError, match="k_esc"):
+        _load({"coupling_escalation": {"anger": {"stress": -0.5}}})
+
+
+def test_out_of_range_extinction_is_a_config_error():
+    with pytest.raises(ValueError, match="rate must be"):
+        _load(
+            {
+                "thresholds": BURST_THRESHOLDS,
+                "burst_extinction": {"anger": 1.5},
+            }
+        )
+
+
 # --- determinism ------------------------------------------------------------------------------------
 
 

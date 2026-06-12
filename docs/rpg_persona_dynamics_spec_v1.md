@@ -572,7 +572,19 @@ saturation + a self-extinguishing burst latch**:
   sourceless event, e.g. `weather`, still never opens it; you cannot kick the rain). Reacting to the
   *actual provoker* keeps the ordinary `react.*` thresholds and gate. Below `theta_displace` the
   appraisal route wins unchanged (a kindness draws `positive_response`); above it the burst may catch
-  whoever is present — the discharge target is this tick's event source. **A displaced lash-out must NOT
+  whoever is present — the discharge target is this tick's event source. **A discharge counts as
+  DISPLACED (transient booking + the displacement framing) only if ALL hold:** the displaced gate is
+  what could admit it; this tick's event is **not itself a provocation** (a direct reply to a provoking
+  event — even from a brand-new provoker — is an ordinary reply and books its full relational cost);
+  the reply is **hostile** (books positive resentment — a warm `positive_response` that happens while
+  latched is an appraisal reply, never tagged or discounted); and the target is not the remembered
+  provocation source. Config validation: the latch threshold set is **all-or-nothing** (a partial set
+  is rejected, not silently disabled), `burst_exit < burst_enter.anger` (the hysteresis must be real),
+  `burst_confirm_ticks ≥ 1`, `k_esc ≥ 0` (a negative factor could flip a coupling's sign — saturation
+  is a different mechanism), extinction rates in `[0,1]`. Calibration note (measured): with the
+  kindness inhibitory edge at its −1.0 placeholder and `kindness_pressure` 1.0, `positive_response`
+  out-argmaxes the displaced outburst even at anger ≈ 1 — whether a burst can beat a *kindness* (vs a
+  merely neutral bystander event) is owned by those weights, i.e. by calibration, not by topology. **A displaced lash-out must NOT
   mint a durable grudge on the innocent:** its relational cost is booked **transiently / heavily
   discounted** (a flash of "snapped at her", not "now hates her") — the measured pathology (wojsław/Marta:
   each discharge booked `+resentment` on the giver, her resentment ran to 1.0, then her every kindness
