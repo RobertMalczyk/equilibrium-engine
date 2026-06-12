@@ -61,7 +61,7 @@ def _cfg(persona: str, overrides: dict):
 # --- the observable record (blind discipline: what a bystander could see, nothing internal) --------
 
 _EVENT_LINE = {
-    "food_given": "{src} offers food ({item})",
+    "food_given": "{src} offers food — {item}",
     "insult": "{src} throws an insult",
     "weather": "cold rain sets in",
     "activity": "something to do turns up nearby",
@@ -88,9 +88,7 @@ def _observable(tr) -> list[str]:
         if ev is not None and ev.type in _EVENT_LINE:
             bits.append(
                 _EVENT_LINE[ev.type]
-                .format(src=ev.source or "someone", item=ev.item or "")
-                .strip()
-                .rstrip("()")
+                .format(src=ev.source or "someone", item=ev.item or "something")
                 .strip()
             )
         sel = tk.selection
