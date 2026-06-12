@@ -280,6 +280,14 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
         and event_source is not None
         and snapshot.global_state["anger"] >= theta_displace
     )
+    # Above the bar, displacement OVERRIDES the appraisal route (spec section 8 burst, decided
+    # 2026-06-12): while the displaced gate is open, this tick's kindness is suppressed -- fury past
+    # theta_displace no longer HEARS the kindness ("even someone kind, even at their kindness").
+    # Below the bar (or unlatched) the appraisal route wins completely unchanged. Without this gate
+    # the kindness inhibitory edge vetoed the displaced discharge at every weight (measured), so the
+    # spec'd behaviour was unrealizable by calibration -- a topology gap, not a tuning task.
+    if displaced_gate:
+        kindness_pressure = 0.0
     reactive_allowed = (
         is_provocation
         or kindness_pressure > 0.0

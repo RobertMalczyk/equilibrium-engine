@@ -80,6 +80,10 @@
               │     (direct replies book full cost), HOSTILE      │
               │     (books +resentment; warm replies never        │
               │     tagged), target != remembered provoker        │
+              │   while the gate is open, kindness_pressure is    │
+              │     SUPPRESSED -> fury past the bar no longer     │
+              │     hears the kindness; below the bar appraisal   │
+              │     wins unchanged (theta_displace = THE dial)    │
               └───────────────────────────────────────────────────┘
 
  [0,1] clamp = the saturation ceiling: when the escalated loop goes locally unstable (rare input

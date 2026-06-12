@@ -204,6 +204,10 @@ if not k.source and not k.target: identity                          # pass throu
 ```
 A channel may have both a source and a target (e.g. "forced to eat a spider") → both filters, order
 relational→affinity. Relational effects of object channels (e.g. resentment) are booked on `relations[source]`.
+**Booking CREATES the relation row for a previously-unknown source** — a stranger's first insult starts a
+real grudge; relation rows are never required to be pre-seeded (the row starts at the neutral 0-vector and
+the deposit lands on it; fixed 2026-06-12 — previously an unseeded source's input deposits were silently
+dropped and only action post-effects could create the row).
 
 **Shared per-entity resolver (`filters.py`).** Both stages above compute the *same* modulation shape —
 *scale a signal by a per-entity value, identity unless populated* — so it lives once, in a small pure
@@ -581,10 +585,16 @@ saturation + a self-extinguishing burst latch**:
   provocation source. Config validation: the latch threshold set is **all-or-nothing** (a partial set
   is rejected, not silently disabled), `burst_exit < burst_enter.anger` (the hysteresis must be real),
   `burst_confirm_ticks ≥ 1`, `k_esc ≥ 0` (a negative factor could flip a coupling's sign — saturation
-  is a different mechanism), extinction rates in `[0,1]`. Calibration note (measured): with the
-  kindness inhibitory edge at its −1.0 placeholder and `kindness_pressure` 1.0, `positive_response`
-  out-argmaxes the displaced outburst even at anger ≈ 1 — whether a burst can beat a *kindness* (vs a
-  merely neutral bystander event) is owned by those weights, i.e. by calibration, not by topology. **A displaced lash-out must NOT
+  is a different mechanism), extinction rates in `[0,1]`. **Above the bar, displacement OVERRIDES the
+  appraisal route (topology, decided 2026-06-12):** while the displaced gate is open (latch SET and
+  `anger ≥ theta_displace`), the tick's `kindness_pressure` is **suppressed to 0** — fury past the
+  displacement bar no longer *hears* the kindness (the design note's "even someone kind, even at their
+  kindness"). Below the bar the appraisal route wins completely unchanged. This was a measured
+  topology gap, not a tuning task: with the kindness inhibitory edge at any meaningful weight,
+  `positive_response` out-argmaxed the displaced outburst even at anger ≈ 1 (0.50 vs 0.159 at the
+  placeholders), so no calibration could ever realize the spec'd "the burst may catch a kind giver" —
+  the qualitative behaviour had to be a gate, per the topology-now rule. `theta_displace` is thereby
+  the *single* dial separating "warmth still gets through" from "anyone present can catch it". **A displaced lash-out must NOT
   mint a durable grudge on the innocent:** its relational cost is booked **transiently / heavily
   discounted** (a flash of "snapped at her", not "now hates her") — the measured pathology (wojsław/Marta:
   each discharge booked `+resentment` on the giver, her resentment ran to 1.0, then her every kindness

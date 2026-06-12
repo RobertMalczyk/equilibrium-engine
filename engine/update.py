@@ -155,10 +155,14 @@ def compute(
         delta_global[x] = new - old  # raw; commit clamps
 
     # Relational states: memory (slow decay toward setpoint) + relational channel deposits.
+    # Booking CREATES the row for a previously-unknown source (spec section 5): a stranger's first
+    # insult starts a real grudge -- iterate the union of seeded rows and this tick's relational
+    # sources (sorted: deterministic). A fresh source's row starts at the neutral 0-vector.
     rel_gains = gains.get("relations", {})
+    event_sources = {si.source for si in eff.values() if si.source is not None}
     delta_relations: dict[str, dict[str, float]] = {}
-    for src in sorted(snapshot.relations):
-        row = snapshot.relations[src]
+    for src in sorted(set(snapshot.relations) | event_sources):
+        row = snapshot.relations.get(src, {})
         out_row: dict[str, float] = {}
         for dim in RELATION_DIMS:
             old = row.get(dim, 0.0)

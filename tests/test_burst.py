@@ -255,11 +255,12 @@ def test_direct_reply_to_a_new_provoker_is_never_displaced():
     assert booked > 0.05  # the provoker's grudge books in FULL
 
 
-def test_warm_reply_while_latched_is_not_tagged_or_discounted():
-    """Kindness appraisal ON: at these placeholder weights the kindness edge wins and the reply is
-    positive_response — an APPRAISAL reply, never displacement: no tag, trust deposit kept."""
+def test_warm_reply_below_the_displacement_bar_is_not_tagged_or_discounted():
+    """Kindness appraisal ON, latched, but anger BELOW theta_displace: the appraisal route wins
+    completely unchanged — positive_response, no displacement tag, trust deposit kept."""
     cfg = _burst_cfg(
-        extinction={"anger": 0.02, "stress": 0.02}
+        extra={"theta_displace": 0.99},  # the bar sits above the run's anger
+        extinction={"anger": 0.02, "stress": 0.02},
     )  # default appraisal: kindness ON
     events = [
         RawEvent(
@@ -268,10 +269,50 @@ def test_warm_reply_while_latched_is_not_tagged_or_discounted():
     ]
     _, tr = run_scenario(cfg, _scenario(events, initial=HOT_START), n_ticks=8)
     tk = tr.ticks[5]
+    assert tk.burst_latched is True
     assert tk.selection.action == "positive_response"
     assert "[DISPLACED" not in tk.selection.explanation
     trust = tk.selection.post_effects.relations.get("marta", {}).get("trust", 0.0)
     assert trust > 0.0  # goodwill books undiscounted
+
+
+def test_above_the_bar_displacement_overrides_kindness():
+    """Kindness appraisal ON, latched, anger ABOVE theta_displace: the kindness is suppressed —
+    fury past the bar no longer hears it ("even someone kind, even at their kindness"). The
+    discharge lands on Marta, tagged displaced, transient booking — and NO trust deposit (the warm
+    reply never fired). theta_displace is THE dial between the two regimes (spec section 8 burst)."""
+    cfg = _burst_cfg(
+        extinction={"anger": 0.02, "stress": 0.02}
+    )  # kindness ON, bar at 0.55 < anger 0.95
+    events = [
+        RawEvent(
+            t=5, type="food_given", source="marta", item="warm_meal", intensity=0.8
+        )
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=HOT_START), n_ticks=8)
+    tk = tr.ticks[5]
+    assert tk.burst_latched is True
+    assert tk.selection.action == "outburst"
+    assert "[DISPLACED" in tk.selection.explanation
+    booked = tk.selection.post_effects.relations.get("marta", {})
+    assert booked.get("resentment", 0.0) == 0.0  # transient (discount 0)
+    assert booked.get("trust", 0.0) == 0.0  # no goodwill either: the warmth never fired
+
+
+def test_strangers_first_insult_books_a_real_grudge():
+    """Spec section 5: booking CREATES the relation row — a stranger's first insult starts a real
+    grudge from the INPUT deposit itself (previously dropped; only post-effects created rows).
+    Run with anger low and the gate effectively closed so no reply fires: the deposit alone must
+    appear."""
+    cfg = _load({"thresholds": {"react_default": 2.0, "reactive_window_ticks": 1}})
+    events = [RawEvent(t=2, type="insult", source="total_stranger", intensity=0.8)]
+    calm = {"global_state": {"anger": 0.05, "stress": 0.05}}
+    _, tr = run_scenario(cfg, _scenario(events, initial=calm), n_ticks=5)
+    row = tr.ticks[2].state_after_commit.relations.get("total_stranger", {})
+    assert row.get("resentment", 0.0) > 0.05  # the input deposit landed on a fresh row
+    # and the row persists (relational memory)
+    end = tr.ticks[-1].state_after_post.relations.get("total_stranger", {})
+    assert end.get("resentment", 0.0) > 0.05
 
 
 def test_theta_displace_without_latch_config_is_inert():
