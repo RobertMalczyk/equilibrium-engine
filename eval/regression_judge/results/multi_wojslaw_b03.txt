@@ -1,0 +1,10 @@
+wojslaw_multi_031: PASS -- sane pacing, sleeps/recovers, flares at public mocks
+wojslaw_multi_032: PASS -- believable arc, erupts at insults, calms and sleeps
+wojslaw_multi_033: PASS -- coherent days, temper rises/falls, rests at night
+wojslaw_multi_034: PASS -- proud refusals and eruptions, recovers after sleep
+wojslaw_multi_035: PASS -- defiant to orders, flares at mocks, sane pacing
+wojslaw_multi_036: PASS -- warms to kindness yet still flares; coherent
+wojslaw_multi_037: PASS -- believable mix of warmth, refusals, and eruptions
+wojslaw_multi_038: PASS -- mostly calm warm stretch, still bristles; plausible
+wojslaw_multi_039: PASS -- sane days, erupts at public mocks, refuses orders
+wojslaw_multi_040: PASS -- coherent pacing, temper climbs by evening, recovers

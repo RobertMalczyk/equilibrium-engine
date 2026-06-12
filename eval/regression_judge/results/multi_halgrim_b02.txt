@@ -1,0 +1,10 @@
+halgrim_multi_021: PASS -- calm baseline, cold curtness to Wojsław, recovers nightly
+halgrim_multi_022: PASS -- sane pacing, cold to Wojsław, obeys Edda
+halgrim_multi_023: PASS -- believable tension rise/fall, controlled responses
+halgrim_multi_024: PASS -- mostly calm, declines Wojsław, sane
+halgrim_multi_025: PASS -- tension builds, cold not raging, recovers
+halgrim_multi_026: PASS -- heavy Wojsław mockery met with cold curtness
+halgrim_multi_027: PASS -- flat refusals to Wojsław, consistent resentment
+halgrim_multi_028: PASS -- sane, cold to Wojsław, recovers nightly
+halgrim_multi_029: PASS -- calm baseline, cold to Wojsław, sane
+halgrim_multi_030: FLAG -- cold cutting contempt aimed at respected Edda (22:48)

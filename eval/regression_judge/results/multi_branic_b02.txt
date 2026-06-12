@@ -1,0 +1,10 @@
+branic_multi_021: PASS -- calm days, one night eruption, recovers after sleep
+branic_multi_022: PASS -- restless recruit, refusals and one flare, nightly recovery
+branic_multi_023: PASS -- bad-day refusal cluster, snaps at mockery, recovers overnight
+branic_multi_024: PASS -- sane pacing, refusal clusters, calm mornings after sleep
+branic_multi_025: PASS -- eruptions at mockery, refusals, recovers each morning
+branic_multi_026: PASS -- dense refusal/snap afternoon, but a plausible bad day
+branic_multi_027: PASS -- repeated snaps at Halgrim, all resolve overnight
+branic_multi_028: PASS -- calm, compliant, well-paced days and nights
+branic_multi_029: PASS -- mostly compliant, restless when idle, recovers nightly
+branic_multi_030: PASS -- calm with one public-mockery flare, sleeps and recovers

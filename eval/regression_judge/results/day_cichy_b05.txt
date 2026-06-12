@@ -1,0 +1,10 @@
+cichy_day_051: PASS -- sane day, eruption at mock, sleeps and recovers
+cichy_day_052: PASS -- believable pacing, fury then settles, night sleep
+cichy_day_053: PASS -- calm day, bristles at mock, recovers overnight
+cichy_day_054: PASS -- curt then furious at mocks, plausible recovery
+cichy_day_055: PASS -- warm to stranger, curt to guard, coherent
+cichy_day_056: PASS -- many provocations, escalating fury fits resentful captive
+cichy_day_057: PASS -- public mock triggers fury, recovers, sane pacing
+cichy_day_058: PASS -- fury at mock, warm to stranger, sleeps
+cichy_day_059: PASS -- varied reactions to mocks, plausible day
+cichy_day_060: PASS -- calm day, warm to stranger, curt to guard

@@ -1,0 +1,10 @@
+cichy_day_061: PASS -- sane day; guard taunts anger, calms, sleeps and recovers
+cichy_day_062: PASS -- sane pacing; resents guards, warms only to strangers
+cichy_day_063: PASS -- coherent day; eruption at mockery, settles, normal sleep
+cichy_day_064: PASS -- believable spans; curt to guards, warm to stranger
+cichy_day_065: PASS -- calm day; curt soup replies, recovers overnight fine
+cichy_day_066: PASS -- sane pacing; late taunt snaps then sleeps normally
+cichy_day_067: PASS -- believable; fury at mockery, tense, then settles down
+cichy_day_068: PASS -- quiet sane day; curt to guards, normal sleep cycle
+cichy_day_069: PASS -- early fury at taunt, calms, believable rest of day
+cichy_day_070: PASS -- sane day; snaps at mockery, settles, recovers overnight

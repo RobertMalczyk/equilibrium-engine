@@ -1,0 +1,10 @@
+wojslaw_day_001: PASS -- sane pacing; mocks anger, soup thanked, sleeps and recovers
+wojslaw_day_002: PASS -- coherent day; bristle then erupt, kindness warmly received
+wojslaw_day_003: PASS -- calm baseline, mocks provoke fury, kindness thanked
+wojslaw_day_004: PASS -- proud refusals and fury at mocks, believable arc
+wojslaw_day_005: PASS -- mostly warm day, two mocks draw bristle and snap
+wojslaw_day_006: PASS -- defiant refusals and fury, kindness warmed; fits proud man
+wojslaw_day_007: PASS -- repeated mocks erupt, orders refused; sane for hot temper
+wojslaw_day_008: PASS -- fury at mocks, mild grumble at one order, recovers
+wojslaw_day_009: PASS -- mocks draw fury, order refused, otherwise settled
+wojslaw_day_010: PASS -- snaps and erupts at mocks, refuses order, calm spells

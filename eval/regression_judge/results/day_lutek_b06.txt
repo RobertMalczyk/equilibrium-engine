@@ -1,0 +1,10 @@
+lutek_day_061: PASS -- sane day, mockery shrugged off, sleeps and wakes recovered
+lutek_day_062: PASS -- warm, restless, even-tempered; believable pacing throughout
+lutek_day_063: PASS -- insults roll off, easy cycles of rest and tinkering
+lutek_day_064: PASS -- calm good humour, sane hunger/rest rhythm, recovers overnight
+lutek_day_065: PASS -- believable busy day, warm to kindness, settles by night
+lutek_day_066: PASS -- mockery ignored, normal restless-rest cadence, sound sleep
+lutek_day_067: PASS -- two slights shrugged off, easy pacing, recovers overnight
+lutek_day_068: PASS -- late night but sane; warm, restless, untroubled
+lutek_day_069: PASS -- warm reception of kindnesses, believable rhythm, sleeps late
+lutek_day_070: PASS -- mockery ignored, sane cycles, recovers with morning light

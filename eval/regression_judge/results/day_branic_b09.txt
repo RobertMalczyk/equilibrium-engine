@@ -1,0 +1,10 @@
+branic_day_091: PASS -- sane day; one public-mock eruption fits thin-skinned recruit
+branic_day_092: PASS -- calm day, lets mocks pass, sleeps and recovers
+branic_day_093: PASS -- calm, obedient, believable pacing and rest
+branic_day_094: PASS -- calm with mild edge, sleeps and wakes recovered
+branic_day_095: PASS -- public-mock eruption then refusal, plausible escalation
+branic_day_096: PASS -- busy calm day, normal cycles, sleeps well
+branic_day_097: PASS -- snaps at mock then declines order, reactive but sane
+branic_day_098: PASS -- calm obedient day, believable pacing
+branic_day_099: PASS -- calm day, normal restless/rest cycles, sleeps
+branic_day_100: PASS -- bristles then refuses after repeated mocks, plausible

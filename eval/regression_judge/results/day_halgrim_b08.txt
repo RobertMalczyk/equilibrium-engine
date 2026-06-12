@@ -1,0 +1,10 @@
+halgrim_day_081: PASS -- calm day, mild curtness to Wojsław, recovers after sleep
+halgrim_day_082: PASS -- steady, brief complaint at Wojsław order, otherwise settled
+halgrim_day_083: PASS -- calm, curt to Wojsław mockery, settled
+halgrim_day_084: PASS -- quiet uneventful day, sane pacing
+halgrim_day_085: PASS -- calm, declines Wojsław, lets mockery pass
+halgrim_day_086: PASS -- quiet calm day, warm to kindnesses
+halgrim_day_087: PASS -- heavy Wojsław provocation, cold refusals, tense, recovers overnight
+halgrim_day_088: PASS -- calm, lets Wojsław pass, warm throughout
+halgrim_day_089: PASS -- steady calm day, obeys orders, warm
+halgrim_day_090: PASS -- cold curtness to late Wojsław mockery, tense then sleeps

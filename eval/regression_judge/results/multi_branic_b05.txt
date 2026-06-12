@@ -1,0 +1,10 @@
+branic_multi_051: PASS -- sane pacing, sleeps nightly, one late eruption after building tension
+branic_multi_052: PASS -- believable days, single snap after rain and mockery
+branic_multi_053: PASS -- calm steady stretch, normal boredom-rest-sleep rhythm
+branic_multi_054: PASS -- ordinary days, one eruption, recovers after sleep
+branic_multi_055: PASS -- escalating defiance but builds over repeated provocations, resets nightly
+branic_multi_056: PASS -- calm with one late eruption, plausible cadence
+branic_multi_057: PASS -- believable, tension builds to late flare-up
+branic_multi_058: FLAG -- days-long flat defiant refusals to respected sergeant, little cooling between
+branic_multi_059: PASS -- moderate refusals and flares, resets each night
+branic_multi_060: PASS -- escalation builds from rain and mockery, recovers nightly

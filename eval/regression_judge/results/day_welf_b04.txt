@@ -1,0 +1,10 @@
+welf_day_041: PASS -- sane boredom cycle, calm, sleeps and wakes recovered
+welf_day_042: PASS -- believable day, warm to kindness, rests and sleeps well
+welf_day_043: PASS -- normal restlessness cycle, even-keeled, recovers overnight
+welf_day_044: PASS -- lets mock pass calmly, fits composed profile
+welf_day_045: PASS -- steady day, boredom rises and eases believably
+welf_day_046: PASS -- mock ignored, calm cycle, sound sleep and wake
+welf_day_047: PASS -- mock shrugged off, normal pacing, recovers at night
+welf_day_048: PASS -- settled day, occupies the empty hours, sleeps well
+welf_day_049: PASS -- believable boredom cycle, brief tension, recovers overnight
+welf_day_050: PASS -- calm steady day, warm to kindnesses, sleeps soundly

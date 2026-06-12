@@ -1,0 +1,10 @@
+halgrim_day_051: PASS -- calm day, cold curt refusals to Wojslaw, sleeps and wakes
+halgrim_day_052: PASS -- steady day, warm to kindnesses, obeys Edda, sane pacing
+halgrim_day_053: PASS -- even keel, obeys Edda, lets Wojslaw's jab pass
+halgrim_day_054: PASS -- settled throughout, warm to help, declines Wojslaw plausibly
+halgrim_day_055: PASS -- mostly calm, one cold answer, brief mutter, recovers
+halgrim_day_056: PASS -- steady, obeys Edda, declines/ignores Wojslaw, sane
+halgrim_day_057: PASS -- brief tense spell then settles, curt to Wojslaw, fine
+halgrim_day_058: PASS -- calm day, slight curtness to Wojslaw at night, sleeps
+halgrim_day_059: PASS -- settled, warm to kindness, curt to Wojslaw, obeys Edda
+halgrim_day_060: PASS -- steady, obeys Edda, cold to public mock, sane

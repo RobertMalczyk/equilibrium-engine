@@ -1,0 +1,10 @@
+wojslaw_day_081: PASS -- calm day, one late snap, sleeps and recovers
+wojslaw_day_082: PASS -- flares at insults, defies orders, recovers by night
+wojslaw_day_083: PASS -- mostly calm, one snap, grumbles at orders
+wojslaw_day_084: PASS -- erupts at public mocks, thanks kindnesses, sane
+wojslaw_day_085: PASS -- builds anger, public eruptions, refusals, settles at night
+wojslaw_day_086: PASS -- erupts at mocks, calmed by kindness, ends rested
+wojslaw_day_087: PASS -- calm day, one snap, declines orders believably
+wojslaw_day_088: PASS -- heavy provocation, many eruptions but recovers and sleeps
+wojslaw_day_089: PASS -- repeated public eruptions and refusals, recovers nightly
+wojslaw_day_090: PASS -- mixed flares and restraint, defies order, sane modulation

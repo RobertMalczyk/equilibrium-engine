@@ -1,0 +1,10 @@
+halgrim_multi_071: PASS -- sane cycle, calm baseline, cold curtness when provoked
+halgrim_multi_072: PASS -- very calm, recovers overnight, nothing jars
+halgrim_multi_073: PASS -- refuses Wojsław, obeys Edda, sane pacing
+halgrim_multi_074: PASS -- provoked coldness recovers overnight, mild grumble at Edda fine
+halgrim_multi_075: PASS -- steady, calm, believable rise and fall
+halgrim_multi_076: PASS -- mostly settled, cold to Wojsław when mocked
+halgrim_multi_077: PASS -- Wojsław provokes contempt, recovers; on-profile
+halgrim_multi_078: PASS -- sane days, refuses Wojsław, obeys Edda
+halgrim_multi_079: PASS -- very calm stretch, nothing absurd
+halgrim_multi_080: PASS -- cold curtness to Wojsław when mocked, recovers overnight

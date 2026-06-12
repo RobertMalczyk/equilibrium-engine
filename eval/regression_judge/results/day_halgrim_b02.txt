@@ -1,0 +1,10 @@
+halgrim_day_021: PASS -- calm day, warm to kindness, barb let pass, recovers
+halgrim_day_022: PASS -- steady; obeys Edda, declines Wojslaw, sane pacing
+halgrim_day_023: PASS -- even keel, lets mockery pass, sleeps and wakes settled
+halgrim_day_024: PASS -- calm throughout, obeys Edda, nothing jarring
+halgrim_day_025: PASS -- curt under repeated Wojslaw provocation, tense then recovers; fits
+halgrim_day_026: PASS -- declines Wojslaw, obeys Edda, steady and sane
+halgrim_day_027: FLAG -- mutters complaint at respected Edda on calm, unprovoked day
+halgrim_day_028: PASS -- calm, lets barbs pass, warm to kindness
+halgrim_day_029: PASS -- even keel, mockery let pass, sane day
+halgrim_day_030: PASS -- declines Wojslaw, curt to mock, otherwise settled

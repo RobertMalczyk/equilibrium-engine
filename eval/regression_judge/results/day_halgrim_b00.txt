@@ -1,0 +1,10 @@
+halgrim_day_001: PASS -- calm day, curt-not-raging to Wojsław, refuses his order
+halgrim_day_002: PASS -- steady day, warm to kindnesses, sleeps and recovers
+halgrim_day_003: PASS -- obeys Edda, declines Wojsław, even-keeled throughout
+halgrim_day_004: PASS -- settled day, obeys Edda, warmly thanks Marta
+halgrim_day_005: PASS -- cold contempt only after repeated public mocking; recovers overnight
+halgrim_day_006: PASS -- mild curtness to mockery, otherwise settled and warm
+halgrim_day_007: PASS -- obeys Edda, declines Wojsław, calm and steady
+halgrim_day_008: PASS -- declines Wojsław's order, curt to mocking, warm otherwise
+halgrim_day_009: PASS -- warm to many kindnesses, lets provocations pass
+halgrim_day_010: PASS -- curt to mockery, lets Edda's order pass, calm

@@ -1,0 +1,10 @@
+cichy_multi_021: PASS -- sane cadence; provoked anger at guards, calm baseline restored
+cichy_multi_022: PASS -- believable arc; warmth to strangers, resentment toward guards intact
+cichy_multi_023: PASS -- normal day/night rhythm; anger only when provoked
+cichy_multi_024: PASS -- five days sane; flares provoked, recovers after sleep
+cichy_multi_025: PASS -- coherent; warm to strangers, hostile to jailers as expected
+cichy_multi_026: PASS -- believable pacing; rain and mocking handled sensibly
+cichy_multi_027: PASS -- sane stretch; provoked fury, calm restored nightly
+cichy_multi_028: PASS -- normal rhythm; resentment of soup and mocking consistent
+cichy_multi_029: PASS -- coherent days; strangers warm him, guards rile him
+cichy_multi_030: PASS -- six days sane; provoked anger, recovery, no absurdity

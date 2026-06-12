@@ -1,0 +1,10 @@
+branic_day_021: PASS -- sane day, restless cycles, sleeps and wakes recovered
+branic_day_022: PASS -- believable pacing, warm to kindnesses, lets barbs pass
+branic_day_023: PASS -- normal boredom/rest rhythm, night sleep, fitting recruit
+branic_day_024: PASS -- sane day, eager and restless, nothing jars
+branic_day_025: PASS -- believable, mild evening edge from dull watch, fitting
+branic_day_026: PASS -- coherent day, obeys orders, warms to small kindnesses
+branic_day_027: PASS -- sane pacing, restless and willing, sleeps at night
+branic_day_028: PASS -- believable, obeys Halgrim, lets mockery pass, recovers overnight
+branic_day_029: PASS -- normal rhythm, restless young recruit, nothing absurd
+branic_day_030: PASS -- sane day, obeys orders eagerly, warms to kindness

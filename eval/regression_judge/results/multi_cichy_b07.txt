@@ -1,0 +1,10 @@
+cichy_multi_071: PASS -- sane days, provoked flares subside, sleeps and recovers
+cichy_multi_072: PASS -- believable; anger tracks guard provocation, rests and recovers nightly
+cichy_multi_073: PASS -- calm baseline, flares only at guards, recovers after sleep
+cichy_multi_074: PASS -- coherent days, provoked eruptions subside, nightly recovery intact
+cichy_multi_075: PASS -- denser fury but each provoked by guards, recovers nightly
+cichy_multi_076: PASS -- quiet sane stretch, restlessness cycles, sleeps and wakes settled
+cichy_multi_077: PASS -- provoked eruptions at guards, settles between, recovers overnight
+cichy_multi_078: PASS -- believable arc, guard-provoked flares, nightly reset holds
+cichy_multi_079: PASS -- sane pacing, warms to stranger, flares at guards only
+cichy_multi_080: PASS -- six days coherent, all fury provoked, recovers each night

@@ -1,0 +1,10 @@
+wojslaw_day_031: PASS -- sane day, erupts at public mock, recovers overnight
+wojslaw_day_032: PASS -- calm day, single eruption at public insult, normal sleep
+wojslaw_day_033: PASS -- prickly: eruptions at mocks, refusals at orders, plausible
+wojslaw_day_034: PASS -- milder day, bristles at non-public mocks, warm to kindness
+wojslaw_day_035: PASS -- mostly warm, erupts/snaps at evening mocks, sane pacing
+wojslaw_day_036: PASS -- eruptions and refusals at mocks/orders, recovers, sleeps
+wojslaw_day_037: PASS -- calm day; lets one public mock pass, otherwise fine
+wojslaw_day_038: PASS -- snaps and erupts at mocks, refuses order, sane
+wojslaw_day_039: PASS -- snaps at mocks, calm otherwise, recovers overnight
+wojslaw_day_040: PASS -- warm morning, evening anger cluster at mocks/orders, sane

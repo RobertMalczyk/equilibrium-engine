@@ -1,0 +1,10 @@
+cichy_day_091: PASS -- calm day, mild curtness at soup, sleeps and recovers
+cichy_day_092: PASS -- settled baseline, brief curt reply, sane pacing
+cichy_day_093: PASS -- mocks provoke anger that subsides; otherwise calm
+cichy_day_094: PASS -- fury at mock recovers quickly; rest of day settled
+cichy_day_095: PASS -- placid day, no anger, normal sleep cycle
+cichy_day_096: PASS -- tense at times, curt at soup, nothing absurd
+cichy_day_097: PASS -- eruption at mock then settles; believable arc
+cichy_day_098: PASS -- erupts at guards, warm to strangers; consistent
+cichy_day_099: PASS -- calm, warm to stranger kindness, sane day
+cichy_day_100: PASS -- repeated mocks spark fury that recovers; sane

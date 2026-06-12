@@ -1,0 +1,10 @@
+wojslaw_multi_051: PASS -- sane pacing, calm baseline, provoked flares, recovers overnight
+wojslaw_multi_052: PASS -- coherent days, anger only on mockery, nightly reset intact
+wojslaw_multi_053: PASS -- dense mockery clusters but each provoked, resets nightly
+wojslaw_multi_054: PASS -- believable arc, kindness warms, insults anger, sleeps and recovers
+wojslaw_multi_055: PASS -- sane life, proud refusals and flares all provoked
+wojslaw_multi_056: PASS -- heavy provocation days but reactions tracked to insults, recovers
+wojslaw_multi_057: PASS -- coherent pacing, noble refuses orders, anger only when mocked
+wojslaw_multi_058: PASS -- sensible days, warmth and fury both context-appropriate
+wojslaw_multi_059: PASS -- many proud refusals fit noble; flares provoked, nightly reset
+wojslaw_multi_060: PASS -- mockery-dense but provoked; spillover snap plausible for hot temper

@@ -1,0 +1,10 @@
+branic_multi_071: PASS -- sane work/rest/boredom cycles, sleeps and recovers, mild refusals
+branic_multi_072: PASS -- believable compliant days, restless cycles, recovers overnight
+branic_multi_073: PASS -- provoked escalation to a late snap, resets after sleep
+branic_multi_074: PASS -- accumulating provocation, fury then defiance, nightly reset
+branic_multi_075: PASS -- long calm stretch, rain handled, recovers each night
+branic_multi_076: PASS -- escalations only after mockery, otherwise calm, sleeps well
+branic_multi_077: PASS -- mostly calm, one late mutter under provocation, sane
+branic_multi_078: PASS -- calm compliant recruit, normal boredom and rest cycles
+branic_multi_079: PASS -- calm three days, rain fine, recovers overnight
+branic_multi_080: PASS -- anger tied to public mockery, resets nightly, sane

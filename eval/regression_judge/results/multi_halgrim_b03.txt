@@ -1,0 +1,10 @@
+halgrim_multi_031: PASS -- calm, cold-curt to Wojsław, sleeps and recovers; coherent.
+halgrim_multi_032: PASS -- placid stretch, warm to kindness, mild refusals; sane pacing.
+halgrim_multi_033: PASS -- tension builds and ebbs, cold curtness only; consistent.
+halgrim_multi_034: PASS -- even keel, brief edge late, recovers nightly; coherent.
+halgrim_multi_035: PASS -- rain weathered without snapping, calm throughout; sane.
+halgrim_multi_036: PASS -- long arc, cold refusals to Wojsław, sleeps recovered; consistent.
+halgrim_multi_037: PASS -- mostly settled, one curt reply, recovers; believable.
+halgrim_multi_038: PASS -- six days even, cold curtness when pushed; coherent.
+halgrim_multi_039: PASS -- tension accrues then resets nightly, never shouts; consistent.
+halgrim_multi_040: PASS -- rain and arrogance met with cold defiance; sane pacing.

@@ -1,0 +1,10 @@
+lutek_multi_051: PASS -- sane restless/rest cycles, mockery shrugged off, sleeps and recovers
+lutek_multi_052: PASS -- believable pacing, warm to kindness, insults roll off as expected
+lutek_multi_053: PASS -- normal day rhythm, thick-skinned to barbs, nightly recovery
+lutek_multi_054: PASS -- restless novelty-seeking, mockery ignored, sane hunger and sleep
+lutek_multi_055: PASS -- coherent multi-day life, easy-going, no jarring reactions
+lutek_multi_056: PASS -- sensible cycles, warm thanks, brief tension resolves normally
+lutek_multi_057: PASS -- believable rhythm, sociable, insults pass without reaction
+lutek_multi_058: PASS -- sane pacing, mockery shrugged, sleeps at night and recovers
+lutek_multi_059: PASS -- normal restless-and-rest days, thick-skinned, good-humoured throughout
+lutek_multi_060: PASS -- coherent days, warm to Marta, no contradictions with profile

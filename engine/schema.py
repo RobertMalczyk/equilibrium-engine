@@ -257,6 +257,15 @@ class PersonaConfig:
     # appraised non-negative from a non-resented source (mirror of command_pressure). Empty => no kindness
     # ever fires (gesture_channels absent), so positive_response stays dormant and goldens are bit-identical.
     appraisal: dict = field(default_factory=dict)
+    # coupling_escalation[x][y] = k_esc: a state->state coupling edge x<-y MAY strengthen with its own
+    # input's level, g_eff = g*(1 + k_esc*y_snapshot) (spec section 8 burst / section 14 -- the declared
+    # nonlinearity that makes loop stability operating-point-dependent). Sparse; absent edge = 0 = the
+    # linear edge, bit-identical. Anchored at y=0 so the frozen linear calibration is reproduced exactly.
+    coupling_escalation: dict[str, dict[str, float]] = field(default_factory=dict)
+    # burst_extinction[state] = per-tick relaxation rate toward 0 applied ONLY while the burst latch is
+    # SET (spec section 8: the self-extinguishing episode -- spike, plateau, slow cool). Empty = no
+    # extinction (the latch never sets when its thresholds are absent, so this stays dormant together).
+    burst_extinction: dict[str, float] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -296,6 +305,14 @@ class PersonaRuntime:
         None  # tick of the last SOURCELESS world stressor (weather): wears the
     )
     # baseline + suppresses idle recovery (but opens no reactive reply)
+    burst_latched: bool = (
+        False  # spec section 8 burst: the loop-plateau flip-flop (SET when BOTH loop
+    )
+    # states sit in the saturation band for burst_confirm_ticks; RESET on the exit hysteresis). While
+    # SET: the extinction term applies in update and the displaced-discharge gate extension is armed.
+    burst_armed_since: Optional[int] = (
+        None  # first tick of the current saturation-band dwell (confirm counter)
+    )
 
     def freeze(self) -> Snapshot:
         """Deep-copied frozen snapshot (spec section 7, step 1)."""

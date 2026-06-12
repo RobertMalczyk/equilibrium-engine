@@ -1,0 +1,10 @@
+cichy_day_031: PASS -- calm cycle, mild bristle at mock, recovers overnight
+cichy_day_032: PASS -- fury at repeated guard mockery fits resentful captive
+cichy_day_033: PASS -- calm day, curt to soup, sane pacing
+cichy_day_034: PASS -- warm to stranger, neutral to guards, consistent
+cichy_day_035: PASS -- erupts at mock, warm to stranger, coherent
+cichy_day_036: PASS -- snaps/bristles at mocks, otherwise settled
+cichy_day_037: PASS -- calm day, curt to soup, recovers overnight
+cichy_day_038: PASS -- two eruptions at mocks, warm to stranger, sane
+cichy_day_039: PASS -- snaps at mock, warm to stranger, believable
+cichy_day_040: PASS -- mild bristle/curt at guards, calm overall

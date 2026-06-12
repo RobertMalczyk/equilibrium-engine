@@ -1,0 +1,10 @@
+edda_day_021: PASS -- sane day; warm to kindness, mild grumble at stranger's order
+edda_day_022: PASS -- calm, well-paced day; fitting reactions to all events
+edda_day_023: PASS -- composed throughout; lets stranger's mockery and order pass
+edda_day_024: PASS -- sane day; refuses stranger's order, fitting for one in command
+edda_day_025: PASS -- settled, well-fed day; warm to kindnesses, nothing jars
+edda_day_026: PASS -- calm day; unbothered by mockery and a stranger's order
+edda_day_027: PASS -- sane pacing; shrugs mockery, refuses stranger, warm otherwise
+edda_day_028: PASS -- composed day; complies with one order, warm to staff
+edda_day_029: PASS -- steady, well-paced day; consistently warm to kindnesses
+edda_day_030: PASS -- quiet settled day; meals, rest, watch, all believable

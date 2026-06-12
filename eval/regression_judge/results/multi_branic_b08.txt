@@ -1,0 +1,10 @@
+branic_multi_081: PASS -- sane day cycle; one night snap at Halgrim's mock, recovers
+branic_multi_082: PASS -- rain stressor, escalating refusals/eruptions on repeated mocks, plausible
+branic_multi_083: PASS -- mix of obey/refuse, eruption follows a public mock, sleeps well
+branic_multi_084: PASS -- mostly warm, single snap at public mock, sane pacing
+branic_multi_085: PASS -- coherent over six days, eruptions tied to provocations
+branic_multi_086: PASS -- refusals cluster but each follows orders/mocks; rain handled sanely
+branic_multi_087: PASS -- stays up past midnight then sleeps; escalation to snap is earned
+branic_multi_088: PASS -- heavy compliance, warm to kindness, sane day/night rhythm
+branic_multi_089: PASS -- lots of compliance and warmth, lets mocks pass, recovers nightly
+branic_multi_090: PASS -- snap soon after waking (already tense) on Halgrim's mock; otherwise sane

@@ -1,0 +1,10 @@
+branic_day_081: PASS -- sane idle-restless cycle, eats, sleeps, wakes recovered
+branic_day_082: PASS -- bristles at late mockery after long day, otherwise settled
+branic_day_083: PASS -- quiet day, restless/busy cycle, normal rest and sleep
+branic_day_084: PASS -- escalating mockery to a snap by evening, believable
+branic_day_085: PASS -- public mockery stings, warmth from Marta, sane day
+branic_day_086: PASS -- snaps at late barbed remark, otherwise warm and settled
+branic_day_087: PASS -- warm, well-fed day, normal restless cycle and sleep
+branic_day_088: PASS -- calm uneventful day, eats well, rests, sleeps, recovers
+branic_day_089: PASS -- bristles at evening barb, mostly warm and settled
+branic_day_090: PASS -- lets public mockery pass, obeys orders, sane day

@@ -1,0 +1,10 @@
+lutek_multi_081: PASS -- sane restless-busy-rest cycle, sleeps nightly, mockery rolls off
+lutek_multi_082: PASS -- believable pacing, recovers after sleep, insults shrugged off
+lutek_multi_083: PASS -- coherent days, warm to kindness, brief tension resolves quickly
+lutek_multi_084: PASS -- novelty-seeking cycle, calm, nothing jarring
+lutek_multi_085: PASS -- sane day-night rhythm, mockery ignored, eats warmly
+lutek_multi_086: PASS -- six coherent days, restless poet, thick-skinned throughout
+lutek_multi_087: PASS -- believable spans, sleeps and wakes recovered, no rage
+lutek_multi_088: PASS -- consistent restless-rest cadence, mockery shrugged, sane
+lutek_multi_089: PASS -- coherent pacing, warm to help, insults roll off
+lutek_multi_090: PASS -- sane cycle, calm and curious, nothing contradicts profile

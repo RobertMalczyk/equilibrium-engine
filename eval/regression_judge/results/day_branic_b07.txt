@@ -1,0 +1,10 @@
+branic_day_071: PASS -- sane restless-rest cycles, fed, sleeps and wakes recovered
+branic_day_072: PASS -- calm day; snaps only at late repeated barbed mocks, fitting
+branic_day_073: PASS -- believable pacing, lets jabs pass, sleeps well
+branic_day_074: PASS -- erupts at public mock then settles; otherwise calm, sane
+branic_day_075: PASS -- ordinary day, mock let pass, recovers overnight
+branic_day_076: PASS -- calm well-paced day, kindnesses warmed, sleeps fine
+branic_day_077: PASS -- steady day, lets mocks pass, obeys orders, sleeps
+branic_day_078: PASS -- sane day, obeys and lets jabs pass, recovers
+branic_day_079: PASS -- believable rise-and-fall, obeys orders, sleeps and wakes
+branic_day_080: PASS -- calm day, lets mock pass, sleeps and recovers

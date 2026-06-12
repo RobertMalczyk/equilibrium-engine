@@ -146,8 +146,17 @@ class TickTrace:
     urges: dict[str, float]
     selection: ActionSelection
     state_after_post: Snapshot
+    # spec section 8 burst: the latch is part of the observable trace (like mode). Emitted SPARSELY --
+    # only when SET -- so traces/goldens of non-bursting runs stay byte-identical.
+    burst_latched: bool = False
 
     def to_dict(self) -> dict:
+        d = self._to_dict_base()
+        if self.burst_latched:
+            d["burst_latched"] = True
+        return d
+
+    def _to_dict_base(self) -> dict:
         return {
             "t": self.t,
             "event": _event_dict(self.event),

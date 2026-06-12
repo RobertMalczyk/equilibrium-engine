@@ -1,0 +1,10 @@
+edda_day_011: PASS -- calm day, eats/rests/sleeps, lets mock pass
+edda_day_012: PASS -- sane pacing, mild complaint at stranger's order
+edda_day_013: PASS -- composed throughout, warmed by kindness, sleeps well
+edda_day_014: PASS -- calm, lets mock pass, recovers overnight
+edda_day_015: PASS -- composed, lets order and mock pass
+edda_day_016: PASS -- calm, mutters at order, otherwise at ease
+edda_day_017: PASS -- settled day, lets order pass, sleeps
+edda_day_018: PASS -- curt at mock, declines order, fits command
+edda_day_019: PASS -- calm, warmed by help, lets mock pass
+edda_day_020: PASS -- refuses order, lets mocks pass, composed

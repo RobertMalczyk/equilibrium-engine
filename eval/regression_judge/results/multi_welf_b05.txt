@@ -1,0 +1,10 @@
+welf_multi_051: PASS -- sane cycle of boredom, rest, sleep; lets mocks pass
+welf_multi_052: PASS -- believable idle days, warm to kindness, even-tempered
+welf_multi_053: PASS -- coherent pacing, recovers overnight, no unmotivated rage
+welf_multi_054: PASS -- calm throughout, mock ignored, boredom rises and eases
+welf_multi_055: PASS -- six steady days, sane rhythm, composed reactions
+welf_multi_056: PASS -- normal boredom-rest-sleep cycle, gracious to help
+welf_multi_057: PASS -- even-keeled, well-paced days and nights, recovers on waking
+welf_multi_058: PASS -- repeated mocks all let pass; calm, believable rhythm
+welf_multi_059: PASS -- sane idle days, warm thanks, sleeps and recovers
+welf_multi_060: PASS -- composed across six days, mocks ignored, sane pacing

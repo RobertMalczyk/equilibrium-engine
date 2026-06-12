@@ -1,0 +1,10 @@
+halgrim_multi_001: PASS -- calm baseline, cold-curt to Wojsław, recovers nightly; sane.
+halgrim_multi_002: PASS -- even keel, mild curtness, rain unremarkable; believable stretch.
+halgrim_multi_003: PASS -- mostly settled, compliant to Edda, minor grumbles; sane pacing.
+halgrim_multi_004: PASS -- tension builds under Wojsław, cold contempt, resets after sleep.
+halgrim_multi_005: PASS -- steady, tension rises/falls believably, no shouting; fits profile.
+halgrim_multi_006: PASS -- calm throughout, declines Wojsław politely-cold; sane days.
+halgrim_multi_007: PASS -- even keel over five days, curt not raging; believable.
+halgrim_multi_008: PASS -- escalating cold defiance to Wojsław over days, recovers nightly; sane.
+halgrim_multi_009: PASS -- steady, cold-curt to provocation, compliant to Edda; believable.
+halgrim_multi_010: PASS -- tension under Wojsław's barrage, cold contempt, nightly reset; fits.

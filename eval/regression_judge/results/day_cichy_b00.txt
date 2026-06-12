@@ -1,0 +1,10 @@
+cichy_day_001: PASS -- sane day; flares at mockery, settles, sleeps and recovers
+cichy_day_002: PASS -- believable pacing; anger at guards, calm rest, night sleep
+cichy_day_003: PASS -- calm day, curt at soup; fits resentful captive
+cichy_day_004: PASS -- warm to stranger, curt/furious at guards; consistent
+cichy_day_005: PASS -- fury at mockery then settles; normal sleep cycle
+cichy_day_006: PASS -- mild then late eruption; sane rise and fall
+cichy_day_007: PASS -- fury at guard, warmth to stranger; recovers overnight
+cichy_day_008: PASS -- repeated snapping at mockery, calms between; believable
+cichy_day_009: PASS -- curt at soup, late flare; settles and sleeps
+cichy_day_010: PASS -- public mockery erupts, bristles at soup; sane arc

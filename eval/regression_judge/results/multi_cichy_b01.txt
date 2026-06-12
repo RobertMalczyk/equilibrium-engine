@@ -1,0 +1,10 @@
+cichy_multi_011: PASS -- sane pacing; calm baseline, anger only at guard provocations, recovers nightly
+cichy_multi_012: PASS -- believable days; eruptions provocation-tied, warm to strangers, curt to guards
+cichy_multi_013: PASS -- coherent stretch; tension rises and falls, sleeps and wakes recovered
+cichy_multi_014: PASS -- sane; resented soup and mockery draw anger, kindness warms appropriately
+cichy_multi_015: PASS -- believable; provocation-driven fury, calm mornings, in-character resentment
+cichy_multi_016: PASS -- coherent days; eruptions tied to guard taunts, strangers warmly received
+cichy_multi_017: PASS -- sane pacing; dense evening fury all provocation-driven, recovers overnight
+cichy_multi_018: PASS -- believable; calm baseline, anger at guards only, nightly reset intact
+cichy_multi_019: PASS -- coherent; rain wears him down, mockery erupts, calm restored by morning
+cichy_multi_020: PASS -- sane short stretch; provocation-tied anger, settles and sleeps normally

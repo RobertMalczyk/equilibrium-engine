@@ -1,0 +1,10 @@
+wojslaw_day_011: PASS -- sane pacing; fury at mocks, warmth at kindness, sleeps and recovers
+wojslaw_day_012: PASS -- believable day; calm baseline, erupts at barbs, declines orders
+wojslaw_day_013: PASS -- mostly calm day, one snap at public mock; coherent
+wojslaw_day_014: PASS -- temper rises and falls believably; warm to help, flares at mocks
+wojslaw_day_015: PASS -- hot day with repeated mocks, fitting fury and refusals; recovers
+wojslaw_day_016: PASS -- proud refusals and eruption; warmth at kindness, sane rhythm
+wojslaw_day_017: PASS -- calm stretch, one public-mock eruption; declines order, coherent
+wojslaw_day_018: PASS -- tense afternoon, fitting eruptions and defiance; sleeps and recovers
+wojslaw_day_019: PASS -- calm day, single late eruption at mock; believable pacing
+wojslaw_day_020: PASS -- heated day, dense mocks/orders draw fury and defiance; fitting

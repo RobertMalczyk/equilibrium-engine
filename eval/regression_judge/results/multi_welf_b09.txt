@@ -1,0 +1,10 @@
+welf_multi_091: PASS -- sane boredom/rest cycle, calm under mockery, sleeps and recovers.
+welf_multi_092: PASS -- steady restless-occupy-settle rhythm, even-tempered, normal nights.
+welf_multi_093: PASS -- lets mocks pass, warms to kindness, believable pacing.
+welf_multi_094: PASS -- consistent idleness-driven restlessness, calm, recovers nightly.
+welf_multi_095: PASS -- rain handled as stressor not provocation, stays composed.
+welf_multi_096: PASS -- normal boredom cycle, warm thanks, sane sleep/wake.
+welf_multi_097: PASS -- even-keeled across six days, rain and mocks shrugged off.
+welf_multi_098: PASS -- believable rest/restless pacing, calm, recovers each morning.
+welf_multi_099: PASS -- sane days, late-but-plausible sleep onset, wakes recovered.
+welf_multi_100: PASS -- steady composed merchant, boredom rises and falls believably.

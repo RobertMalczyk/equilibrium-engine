@@ -1,0 +1,10 @@
+branic_day_011: PASS -- sane rhythm; boredom cycles, soup, orders obeyed, sleeps and wakes calm
+branic_day_012: PASS -- believable day; lets mockery pass, mild edge in evening, recovers overnight
+branic_day_013: PASS -- one snap and one refusal at provoked mockery fit thin-skinned recruit
+branic_day_014: PASS -- normal day; rises tense late but settles, sleeps after midnight
+branic_day_015: PASS -- busy day of orders obeyed; mild tension late, calm after sleep
+branic_day_016: PASS -- ordinary rhythm; kindnesses warmly taken, brief edge, recovers overnight
+branic_day_017: PASS -- restless cycles and obeyed orders; mild evening tension, wakes calm
+branic_day_018: PASS -- believable; soup, kindnesses, brief tension, sleeps and wakes recovered
+branic_day_019: PASS -- repeated mockery let pass; mild evening edge, calm after sleep
+branic_day_020: PASS -- calm sane day; boredom cycles, kindnesses, brief tension, late sleep

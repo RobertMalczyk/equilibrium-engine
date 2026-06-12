@@ -1,0 +1,10 @@
+welf_day_031: PASS -- sane boredom cycle, warm to kindness, sleeps and recovers
+welf_day_032: PASS -- believable idle-day pacing, calm and even-keeled throughout
+welf_day_033: PASS -- lets mockery pass twice, composed as profile expects
+welf_day_034: PASS -- mild end-of-day tension after idleness, otherwise steady
+welf_day_035: PASS -- restless-then-settled cycle, shrugs off barb, sane night
+welf_day_036: PASS -- ignores mockery, even-tempered, normal sleep and wake
+welf_day_037: PASS -- steady idle day, warm thanks, recovered after sleep
+welf_day_038: PASS -- shrugs barb, mild late tension, believable throughout
+welf_day_039: PASS -- many small kindnesses taken warmly, calm and sane
+welf_day_040: PASS -- ordinary idle day, mild evening edge, sleeps and recovers

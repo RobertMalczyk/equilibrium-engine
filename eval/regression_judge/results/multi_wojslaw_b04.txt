@@ -1,0 +1,10 @@
+wojslaw_multi_041: PASS -- sane arc; flares at mocks, warms to kindness, recovers nightly
+wojslaw_multi_042: PASS -- believable pacing; eruptions tied to insults, calm baseline, sleeps well
+wojslaw_multi_043: PASS -- consistent prickly noble; defiant refusals and fury at public mocks
+wojslaw_multi_044: PASS -- sane days; warm to kindness, snaps at barbs, rests at night
+wojslaw_multi_045: PASS -- mostly calm/warm stretch; mild bristling, nothing jarring
+wojslaw_multi_046: PASS -- heated but motivated; mocks provoke fury, sleeps and recovers
+wojslaw_multi_047: PASS -- calm gracious run; rare eruptions at public mocks, sane pacing
+wojslaw_multi_048: PASS -- even-keeled days; flares only at public mocks, recovers nightly
+wojslaw_multi_049: PASS -- tense day-3 cluster but insult-driven; recovers, plausible for hot noble
+wojslaw_multi_050: PASS -- believable mix; fury at mocks, defiance at orders, nightly reset

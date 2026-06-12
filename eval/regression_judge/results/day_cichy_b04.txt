@@ -1,0 +1,10 @@
+cichy_day_041: PASS -- calm day, mild curtness at soup, sleeps and wakes recovered
+cichy_day_042: PASS -- escalating fury at repeated guard mockery, then settles and sleeps
+cichy_day_043: PASS -- dawn eruption at mockery, otherwise calm believable day
+cichy_day_044: PASS -- curt at mock, calm pacing, normal night recovery
+cichy_day_045: PASS -- warmth to stranger, fury at guard mock; sane day
+cichy_day_046: PASS -- calm day with curt soup reply, normal sleep cycle
+cichy_day_047: PASS -- calm throughout, curt at evening soup, sane pacing
+cichy_day_048: PASS -- snaps and erupts at mockery, tense then recovers overnight
+cichy_day_049: PASS -- fully calm day, soup passes, normal rest and sleep
+cichy_day_050: PASS -- calm, warm to stranger, soup passes; believable day

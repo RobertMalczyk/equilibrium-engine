@@ -1,0 +1,10 @@
+wojslaw_multi_081: PASS -- sane escalation, public mocks anger, nights reset
+wojslaw_multi_082: PASS -- calm/warm with one public-mock flare, recovers nightly
+wojslaw_multi_083: PASS -- believable build to fury, tense spells, sleeps recover
+wojslaw_multi_084: PASS -- hot temper under heavy mocking, recovers each night
+wojslaw_multi_085: PASS -- mostly calm, defiant refusals and flares, sane pacing
+wojslaw_multi_086: PASS -- warm and settled with occasional flares, nights reset
+wojslaw_multi_087: PASS -- much fury under provocation, recovers nightly, fits temper
+wojslaw_multi_088: PASS -- calm/warm with proportionate flares, sleeps recovered
+wojslaw_multi_089: PASS -- escalating anger day 3, defiant refusals, recovers
+wojslaw_multi_090: PASS -- calm warm days, defiant refusals, no jarring rage

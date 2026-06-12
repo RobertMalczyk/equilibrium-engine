@@ -1,0 +1,10 @@
+lutek_day_011: PASS -- sane day; restless cycles, mockery shrugged off, sleeps and recovers
+lutek_day_012: PASS -- believable pacing; warm thanks, calm throughout, normal night rest
+lutek_day_013: PASS -- sane stretch; restlessness and ease alternate, mild tension resolves
+lutek_day_014: PASS -- normal day; novelty-seeking cycles, warm responses, recovers overnight
+lutek_day_015: PASS -- believable; mockery let pass, easy temper, sleeps late but fine
+lutek_day_016: PASS -- sane; public mockery shrugged off, warm thanks, recovers overnight
+lutek_day_017: PASS -- believable pacing; calm under mockery, restless cycles, rests well
+lutek_day_018: PASS -- normal busy day; many kindnesses warmly received, sleeps and wakes eased
+lutek_day_019: PASS -- sane; restless-occupy cycles, warm thanks, mild tension settles
+lutek_day_020: PASS -- believable day; novelty-seeking, warm responses, normal night recovery

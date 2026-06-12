@@ -1,0 +1,10 @@
+wojslaw_multi_001: PASS -- sane pacing; eruptions track provocations; sleeps and recovers
+wojslaw_multi_002: PASS -- calm baseline, flares at mockery; warmth to kindness; nightly reset
+wojslaw_multi_003: PASS -- believable rise and fall of temper; recovers each night
+wojslaw_multi_004: PASS -- proud and prickly; refuses orders, snaps at insults; sane
+wojslaw_multi_005: PASS -- temper builds over day, resolves by night; consistent
+wojslaw_multi_006: PASS -- flares publicly, mixes warmth and refusal; sane pacing
+wojslaw_multi_007: PASS -- warm mornings, evening eruptions; nightly recovery; fits profile
+wojslaw_multi_008: PASS -- short temper, defiant to strangers; sleeps and recovers
+wojslaw_multi_009: PASS -- believable provocation-driven anger; resets overnight; consistent
+wojslaw_multi_010: PASS -- repeated mocks draw repeated fury; sane pacing, nightly reset

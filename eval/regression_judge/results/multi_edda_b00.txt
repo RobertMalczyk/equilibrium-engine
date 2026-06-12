@@ -1,0 +1,10 @@
+edda_multi_001: PASS -- sane pacing, calm composed castellan, sleeps and recovers nightly
+edda_multi_002: PASS -- believable days, composed responses to orders and mockery
+edda_multi_003: PASS -- steady command, warm to kindness, recovers each night
+edda_multi_004: PASS -- handles strangers' orders with authority, nothing jars
+edda_multi_005: PASS -- sane life-stretch, in-command and composed throughout
+edda_multi_006: PASS -- believable pacing, lets provocations pass, sleeps well
+edda_multi_007: PASS -- composed under repeated orders, declines firmly, recovers nightly
+edda_multi_008: PASS -- mild curt reply to public mockery fits composed commander
+edda_multi_009: PASS -- warm to many kindnesses, steady command, sane days
+edda_multi_010: PASS -- calm castellan, lets order/mockery pass, sleeps and recovers

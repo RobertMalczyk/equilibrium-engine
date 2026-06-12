@@ -1,0 +1,10 @@
+lutek_multi_001: PASS -- sane cycle, bores fast, sleeps well, mock shrugged off
+lutek_multi_002: PASS -- believable pacing, warm thanks, insults ignored, brief tension resolves
+lutek_multi_003: PASS -- restless-rest rhythm normal, mocks pass, recovers each night
+lutek_multi_004: PASS -- many mocks all shrugged off, calm pacing throughout
+lutek_multi_005: PASS -- six days steady, novelty-seeking, sleeps nightly, no rage
+lutek_multi_006: PASS -- consistent gentle cycle, insults roll off, recovers overnight
+lutek_multi_007: PASS -- believable days, warm to Marta, mocks ignored, sane
+lutek_multi_008: PASS -- normal rhythm, soup welcomed, mock passes, sleeps recovered
+lutek_multi_009: PASS -- busy social days, kindness warmly met, mocks shrugged off
+lutek_multi_010: PASS -- steady restless-rest cycle, calm, sleeps and wakes recovered

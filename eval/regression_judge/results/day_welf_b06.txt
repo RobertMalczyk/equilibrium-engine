@@ -1,0 +1,10 @@
+welf_day_061: PASS -- sane day, boredom cycles, sleeps and wakes recovered
+welf_day_062: PASS -- composed, lets mockery pass, restlessness rises and eases
+welf_day_063: PASS -- believable pacing, calm throughout, normal rest cycles
+welf_day_064: PASS -- steady day, boredom-driven busyness, sound night sleep
+welf_day_065: PASS -- shrugs off two jibes, calm, normal day rhythm
+welf_day_066: PASS -- public mock ignored, even-keeled, believable spans
+welf_day_067: PASS -- calm merchant, mild edge then settles, sleeps well
+welf_day_068: PASS -- unremarkable sane day, boredom and rest in balance
+welf_day_069: PASS -- warm to kindnesses, calm, believable pacing throughout
+welf_day_070: PASS -- steady day, brief tension, restful night, recovers

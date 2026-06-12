@@ -1,0 +1,10 @@
+cichy_multi_001: PASS -- sane cadence; calm baseline, fury only at mockery, sleeps/recovers
+cichy_multi_002: PASS -- believable; resentment-coloured guard reactions, anger settles between events
+cichy_multi_003: PASS -- coherent; warmth to strangers, never to guards, nightly reset holds
+cichy_multi_004: PASS -- sane 6 days; anger rises and falls over believable spans
+cichy_multi_005: PASS -- believable short stretch; pacing fine, guard-specific resentment intact
+cichy_multi_006: PASS -- coherent; rain wears him without absurd snapping, recovers nightly
+cichy_multi_007: PASS -- sane; clustered mockery-fury plausible, calm baseline returns
+cichy_multi_008: PASS -- believable; repeated provocations escalate over hours, sleeps recovered
+cichy_multi_009: PASS -- coherent; heavy mockery day drives fury fittingly, resets at night
+cichy_multi_010: PASS -- sane; resentful flares at guards, warm only to strangers

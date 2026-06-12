@@ -1,0 +1,10 @@
+cichy_day_011: PASS -- sane day; anger at guard mock, warmth to stranger, sleeps well
+cichy_day_012: PASS -- believable pacing; flares at guard barbs, settles, recovers overnight
+cichy_day_013: PASS -- calm day, lets guard soup pass, tense spells ebb naturally
+cichy_day_014: PASS -- erupts at guard mockery, warm to strangers, coherent arc
+cichy_day_015: PASS -- normal rhythm; fury at mock, curt to soup, sleeps and wakes eased
+cichy_day_016: PASS -- two guard eruptions in evening, otherwise settled; plausible
+cichy_day_017: PASS -- stranger kindness welcomed, guard mock provokes fury, sane spans
+cichy_day_018: PASS -- believable day; guard barbs spark anger, recovers by night
+cichy_day_019: PASS -- snaps at guard mock, calm otherwise, restful night
+cichy_day_020: PASS -- low-key day, curt at guard mock, no absurdity

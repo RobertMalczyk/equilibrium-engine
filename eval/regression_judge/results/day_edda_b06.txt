@@ -1,0 +1,10 @@
+edda_day_061: PASS -- calm day, warm to kindness, lets mockery pass, sleeps and wakes
+edda_day_062: PASS -- settled day, gracious to many kindnesses, directs watch, normal rest
+edda_day_063: PASS -- composed amid mockery, one curt reply fits, warm otherwise
+edda_day_064: PASS -- easy day, many small kindnesses received warmly, sound sleep
+edda_day_065: PASS -- settled throughout, kindness warmly met, sets watch, recovers overnight
+edda_day_066: PASS -- calm under orders and mockery, eats, sleeps, wakes at ease
+edda_day_067: PASS -- quiet steady day, mockery shrugged off, gracious to Marta
+edda_day_068: PASS -- busy with kindnesses, mockery let pass, composed and rested
+edda_day_069: PASS -- warm to staff, lets two barbs pass, normal sleep cycle
+edda_day_070: PASS -- spare calm day, soup and rest, directs watch, wakes settled

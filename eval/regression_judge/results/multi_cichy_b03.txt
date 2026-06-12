@@ -1,0 +1,10 @@
+cichy_multi_031: PASS -- sane pacing; anger at guard mocking fits resentful captive
+cichy_multi_032: PASS -- believable cycles; curt/edgy with guards, recovers nightly
+cichy_multi_033: PASS -- sane day/night; fury at mocking, calm otherwise, fits profile
+cichy_multi_034: PASS -- escalating fury at guards believable; sleeps and recovers
+cichy_multi_035: PASS -- normal rhythm; snaps at guards, settles, no absurdity
+cichy_multi_036: PASS -- busy day, late sleep 00:06 but recovers; anger fits
+cichy_multi_037: PASS -- sane spans; rain stressor, guard-anger consistent
+cichy_multi_038: PASS -- six days coherent; fury at guards, nightly reset intact
+cichy_multi_039: PASS -- believable; repeated guard fury fits grievance, calm between
+cichy_multi_040: PASS -- five days sane; curt/furious with guards, recovers each night

@@ -1,0 +1,10 @@
+edda_day_081: PASS -- calm, settled day; warm thanks; sleeps and wakes recovered
+edda_day_082: PASS -- composed; lets orders and mockery pass; sane pacing
+edda_day_083: PASS -- steady day, gracious to kindnesses, obeys order calmly
+edda_day_084: PASS -- composed under mockery and orders; settled throughout
+edda_day_085: PASS -- warm, settled day; mockery let pass; restful night
+edda_day_086: PASS -- calm, lets order and mockery pass; gracious throughout
+edda_day_087: PASS -- a shade curt at mockery; proportionate, otherwise composed
+edda_day_088: PASS -- settled, warm day; sane pacing; recovers overnight
+edda_day_089: PASS -- composed, gracious day; order let pass; sleeps well
+edda_day_090: PASS -- calm; obeys order, lets mockery pass; settled throughout

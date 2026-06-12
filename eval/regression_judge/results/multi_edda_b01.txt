@@ -1,0 +1,10 @@
+edda_multi_011: PASS -- calm, commanding, recovers nightly; warm to kindness
+edda_multi_012: PASS -- composed; mild curt replies to strangers' mocks, provocation-tied
+edda_multi_013: PASS -- settled, in charge; declines strangers' orders sanely
+edda_multi_014: PASS -- sane pacing, warm to staff, lets jabs pass
+edda_multi_015: PASS -- composed authority; measured responses to strangers' orders
+edda_multi_016: PASS -- calm, commanding, sleeps and wakes recovered
+edda_multi_017: PASS -- firm refusals to strangers' orders fit her standing
+edda_multi_018: PASS -- composed; absorbs mocks, warm to kindness throughout
+edda_multi_019: PASS -- in command; defiant refusals to strangers, sane arc
+edda_multi_020: PASS -- settled, recovers nightly, mild grumble at strangers

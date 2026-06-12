@@ -1,0 +1,10 @@
+branic_multi_041: PASS -- sane cycles, nightly sleep, lone eruption follows repeated mock
+branic_multi_042: PASS -- calm cycles, obeys orders, rain weathered without snapping
+branic_multi_043: PASS -- grudge builds over days; defiance and snaps proportional
+branic_multi_044: PASS -- calm, obeys, mocks let pass; believable pacing
+branic_multi_045: PASS -- heavy orders obeyed, mocks shrugged, warm to kindness
+branic_multi_046: PASS -- calm seek/rest cycles, abundant kindness, no jarring anger
+branic_multi_047: PASS -- escalation clusters around repeated mocks; sleeps and recovers
+branic_multi_048: PASS -- calm, obedient, mocks let pass; sane day-to-day
+branic_multi_049: PASS -- calm cycles, obeys, single shrugged mock
+branic_multi_050: PASS -- mocking barrage yields mounting fury and defiance, coherent

@@ -217,6 +217,36 @@ def load_persona(
         s: {o: float(g) for o, g in dict(edges).items()}
         for s, edges in dict(merged.get("couplings", {})).items()
     }
+    # coupling_escalation[x][y] = k_esc on the existing edge x<-y (spec section 8 burst / section 14):
+    # g_eff = g*(1 + k_esc*y). Sparse; each escalated edge MUST exist in couplings (the nonlinearity
+    # rides a declared linear edge, never creates one).
+    coupling_escalation: dict[str, dict[str, float]] = {}
+    for s, edges in dict(merged.get("coupling_escalation", {})).items():
+        for o, k in dict(edges).items():
+            if couplings.get(str(s), {}).get(str(o)) is None:
+                raise ValueError(
+                    f"{ctx}.coupling_escalation['{s}']['{o}']: no such edge in couplings"
+                )
+            k = float(k)
+            if k < 0.0:
+                # a negative k_esc could flip the coupling's SIGN at high states (1 + k*y < 0) --
+                # that is a different mechanism (saturation), not the declared escalation.
+                raise ValueError(
+                    f"{ctx}.coupling_escalation['{s}']['{o}']: k_esc must be >= 0 (got {k})"
+                )
+            coupling_escalation.setdefault(str(s), {})[str(o)] = k
+    # burst_extinction[state] = per-tick relaxation rate toward 0 while the burst latch is SET (spec
+    # section 8 burst). Sparse; dormant unless the latch thresholds are configured.
+    burst_extinction: dict[str, float] = {}
+    for s, v in dict(merged.get("burst_extinction", {})).items():
+        if s not in GLOBAL_STATES:
+            raise ValueError(f"{ctx}.burst_extinction: unknown state '{s}'")
+        v = float(v)
+        if not (0.0 <= v <= 1.0):
+            raise ValueError(
+                f"{ctx}.burst_extinction['{s}']: rate must be in [0,1] (got {v})"
+            )
+        burst_extinction[str(s)] = v
     # idle_recovery[state] = per-tick delta applied only when IDLE and unprovoked (spec section 8, D11).
     # Sparse; validated against the state vocabulary. Signed (negative = relax toward calm).
     idle_recovery: dict[str, float] = {}
@@ -283,6 +313,24 @@ def load_persona(
     thresholds = {
         k: float(v) for k, v in dict(_require(merged, "thresholds", ctx)).items()
     }
+    # Burst-latch threshold set (spec section 8 burst): all-or-nothing, with a real hysteresis.
+    # A partial set is a config MISTAKE (the latch would silently stay disabled), so it is rejected.
+    _burst_keys = ("burst_enter.anger", "burst_enter.stress", "burst_exit")
+    _present = [k for k in _burst_keys if k in thresholds]
+    if _present and len(_present) != len(_burst_keys):
+        missing = [k for k in _burst_keys if k not in thresholds]
+        raise ValueError(
+            f"{ctx}.thresholds: partial burst-latch config: {_present} set but {missing} missing"
+        )
+    if _present:
+        if thresholds["burst_exit"] >= thresholds["burst_enter.anger"]:
+            raise ValueError(
+                f"{ctx}.thresholds: burst_exit ({thresholds['burst_exit']}) must be < "
+                f"burst_enter.anger ({thresholds['burst_enter.anger']}) -- the hysteresis "
+                "must be real or the latch thrashes"
+            )
+        if thresholds.get("burst_confirm_ticks", 1.0) < 1.0:
+            raise ValueError(f"{ctx}.thresholds: burst_confirm_ticks must be >= 1")
     drives = dict(merged.get("drives", {}))
     action_params = dict(merged.get("action_params", {}))
     mapper_params = {
@@ -308,6 +356,8 @@ def load_persona(
         dt=dt,
         gains=gains,
         couplings=couplings,
+        coupling_escalation=coupling_escalation,
+        burst_extinction=burst_extinction,
         gain_modulators=gain_modulators,
         idle_recovery=idle_recovery,
         idle_recovery_modulator=idle_recovery_modulator,

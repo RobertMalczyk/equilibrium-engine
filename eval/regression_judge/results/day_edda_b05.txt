@@ -1,0 +1,10 @@
+edda_day_051: PASS -- calm day, warm thanks, sleeps and wakes at ease
+edda_day_052: PASS -- steady composed day, eats, rests, sleeps, wakes recovered
+edda_day_053: PASS -- lets mockery pass, warm to kindness, sane pacing
+edda_day_054: PASS -- settled day, regular meals, watch set, normal sleep
+edda_day_055: PASS -- warm and composed throughout, believable rhythm
+edda_day_056: PASS -- lets orders pass, eats, rests, sleeps normally
+edda_day_057: PASS -- mockery ignored, calm meals and rest, wakes at ease
+edda_day_058: PASS -- order let pass, warm thanks, sane day and sleep
+edda_day_059: PASS -- composed warm day, regular meals, normal night
+edda_day_060: PASS -- steady calm day, kindnesses welcomed, sleeps and recovers

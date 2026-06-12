@@ -1,0 +1,10 @@
+halgrim_day_061: PASS -- calm day, warm thanks, lets mockery pass; sane
+halgrim_day_062: PASS -- steady; mild curtness to Wojsław's repeated barbs; believable
+halgrim_day_063: PASS -- tension builds under repeated jabs, refuses Wojsław, obeys Edda
+halgrim_day_064: PASS -- cold curtness to mockery, obeys Edda; controlled throughout
+halgrim_day_065: PASS -- even keel, warm thanks, lets provocations pass; fine
+halgrim_day_066: PASS -- calm, warmly fed, ignores Wojsław's public barb; sane
+halgrim_day_067: PASS -- settled day, quiet refusal of Wojsław's late order; believable
+halgrim_day_068: PASS -- steady, brief curtness to Wojsław, obeys Edda; consistent
+halgrim_day_069: PASS -- quiet calm day, obeys Edda, warm thanks; sane
+halgrim_day_070: PASS -- many kindnesses warmly taken, lets mockery pass; fine

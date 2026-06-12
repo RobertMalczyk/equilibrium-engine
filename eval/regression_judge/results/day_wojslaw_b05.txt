@@ -1,0 +1,10 @@
+wojslaw_day_051: PASS -- sane pacing, flares at mocks, sleeps and recovers
+wojslaw_day_052: PASS -- erupts at insults, calm otherwise, believable day
+wojslaw_day_053: PASS -- escalating anger at mocks, warms to kindness, sane
+wojslaw_day_054: PASS -- mixed reactions, hot at mocks, recovers overnight
+wojslaw_day_055: PASS -- erupts at Marta's barbs, lets orders pass, sane
+wojslaw_day_056: PASS -- warms then erupts at mock, refuses orders, sane
+wojslaw_day_057: PASS -- erupts at mocks, refuses order, sleeps and recovers
+wojslaw_day_058: PASS -- bristles then erupts at evening mock, believable
+wojslaw_day_059: PASS -- mostly warm day, one bristle at Marta, plausible
+wojslaw_day_060: PASS -- flares at mocks, warms to kindness, sane pacing

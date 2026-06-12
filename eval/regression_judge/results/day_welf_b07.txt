@@ -1,0 +1,10 @@
+welf_day_071: PASS -- sane day, boredom-driven restlessness, calm, sleeps and recovers
+welf_day_072: PASS -- sane; shrugs off mockery, warm to kindness, calm throughout
+welf_day_073: PASS -- sane day, many kindnesses received warmly, settled and restful
+welf_day_074: PASS -- sane day, even-keeled, restlessness and rest in believable spans
+welf_day_075: PASS -- sane; brief late-evening edge, otherwise calm, lets mockery pass
+welf_day_076: PASS -- sane; mild late tension after long day, shrugs off jibe
+welf_day_077: PASS -- sane day, calm, mild late-evening edge before sleeping
+welf_day_078: PASS -- sane day, composed, restlessness and rest paced believably
+welf_day_079: PASS -- sane day, even-keeled, warm to kindness, sleeps and recovers
+welf_day_080: PASS -- sane day, calm, lets mockery pass, kindnesses warmly received

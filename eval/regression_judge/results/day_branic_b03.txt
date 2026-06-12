@@ -1,0 +1,10 @@
+branic_day_031: PASS -- sane pacing; one mock-snap fits thin-skinned recruit, recovers and sleeps.
+branic_day_032: PASS -- calm day, lets mockery pass, settles and sleeps normally.
+branic_day_033: PASS -- believable restless day, warm to kindness, sleeps and wakes recovered.
+branic_day_034: PASS -- ordinary day, warm responses, sane rest/restless rhythm, sleeps well.
+branic_day_035: PASS -- mostly calm, tolerates barbs, normal boredom cycle and night rest.
+branic_day_036: PASS -- quiet uneventful day, lets mock pass, sleeps and wakes at ease.
+branic_day_037: PASS -- repeated public mockery builds to eruptions then refusal; escalation fits.
+branic_day_038: PASS -- calm compliant day, warm to soup, normal rest and sleep.
+branic_day_039: PASS -- one snap at mocking late, otherwise steady; recovers and sleeps.
+branic_day_040: PASS -- calm day, lets barbs pass, sane boredom rhythm and sleep.
