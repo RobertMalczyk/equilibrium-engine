@@ -1,0 +1,10 @@
+wojslaw_multi_011: PASS -- sane warm day, provoked eruptions, recovers nightly
+wojslaw_multi_012: PASS -- eruptions only on mocks, refuses orders, recovers
+wojslaw_multi_013: PASS -- provoked anger, calm stretches, nightly recovery
+wojslaw_multi_014: PASS -- hot but all anger provoked by mocks/orders
+wojslaw_multi_015: PASS -- provoked eruptions and refusals, recovers at night
+wojslaw_multi_016: PASS -- hot day, anger provoked, warm to kindness/food
+wojslaw_multi_017: PASS -- provoked eruptions, settles, recovers nightly
+wojslaw_multi_018: PASS -- proud hot man, anger only on provocation
+wojslaw_multi_019: PASS -- warm and grateful, late eruptions when mocked
+wojslaw_multi_020: PASS -- provoked eruptions, calm stretches, recovers nightly

@@ -1,0 +1,10 @@
+welf_day_001: PASS -- sane day; boredom cycles, warm thanks, sleeps and recovers
+welf_day_002: PASS -- sane; mild evening edginess from idleness, fits composed man
+welf_day_003: PASS -- lets mockery pass calmly, fitting; sane pacing throughout
+welf_day_004: PASS -- even-keeled day, boredom cycles, recovers overnight
+welf_day_005: PASS -- sane pacing, later bedtime then later wake, consistent
+welf_day_006: PASS -- shrugs off barb calmly; believable boredom and rest cycles
+welf_day_007: PASS -- steady day, restless spells and warm thanks, recovers
+welf_day_008: PASS -- lets public mockery pass, fitting; sane day and sleep
+welf_day_009: PASS -- multiple barbs all let pass calmly, fully consistent
+welf_day_010: PASS -- mild evening edginess from idleness, otherwise even-keeled

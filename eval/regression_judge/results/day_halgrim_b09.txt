@@ -1,0 +1,10 @@
+halgrim_day_091: PASS -- calm dutiful day, eats, obeys Edda, sleeps and wakes recovered
+halgrim_day_092: PASS -- lets Wojsław's jab pass, warm to kindness, even keel throughout
+halgrim_day_093: PASS -- declines Wojsław's order, calm otherwise; consistent resentment
+halgrim_day_094: PASS -- obeys/ignores Edda, declines Wojsław; steady and in character
+halgrim_day_095: PASS -- public mocks met with cold curtness, never shouts; believable
+halgrim_day_096: PASS -- busy but sane; cold-curt to Wojsław, obeys Edda, declines him
+halgrim_day_097: PASS -- quiet dutiful day, obeys Edda, warmed by Marta; recovers
+halgrim_day_098: PASS -- Wojsław jabs leave him tense then ease; cold not shouting
+halgrim_day_099: PASS -- quiet even day, lets order pass, sleeps and wakes calm
+halgrim_day_100: PASS -- mild curtness to Wojsław, obeys Edda, otherwise settled

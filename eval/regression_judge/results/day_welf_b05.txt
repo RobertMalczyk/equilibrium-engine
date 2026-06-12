@@ -1,0 +1,10 @@
+welf_day_051: PASS -- sane boredom cycle, eats, sleeps, recovers; mockery shrugged off
+welf_day_052: PASS -- clean restless/occupy/rest day, warm to kindness, recovers overnight
+welf_day_053: PASS -- sane cycle; brief pre-sleep edginess, recovers by morning
+welf_day_054: PASS -- believable boredom cycle, eats, sleeps, wakes settled
+welf_day_055: PASS -- clean idleness cycle, warm to help, sleeps and recovers
+welf_day_056: PASS -- sane pacing, occupies himself, eats, sleeps, recovers
+welf_day_057: PASS -- clean day, warmly thanks many kindnesses, recovers overnight
+welf_day_058: PASS -- sane cycle; brief pre-sleep tension, recovers by morning
+welf_day_059: PASS -- clean boredom cycle, eats, sleeps, wakes settled
+welf_day_060: PASS -- single mild flare at public taunt, settles fast; composed

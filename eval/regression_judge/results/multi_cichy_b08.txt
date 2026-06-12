@@ -1,0 +1,10 @@
+cichy_multi_081: PASS -- calm days, mild curt reactions to guards, sleeps and recovers
+cichy_multi_082: PASS -- provoked eruptions settle, nightly sleep resets, sane pacing
+cichy_multi_083: PASS -- dense morning fury cluster but each follows a barb, recovers
+cichy_multi_084: PASS -- mild, sane days; one provoked eruption, proper recovery
+cichy_multi_085: PASS -- eruptions all follow mockery, warms to stranger, recovers nightly
+cichy_multi_086: PASS -- heavy afternoon eruption run but causally provoked, settles, sleeps
+cichy_multi_087: PASS -- calmer stretch, isolated snaps at barbs, sane pacing
+cichy_multi_088: PASS -- provoked anger then recovery, warm to strangers, sleeps well
+cichy_multi_089: PASS -- eruptions follow barbs, recovers between, nightly reset intact
+cichy_multi_090: PASS -- mild reactions, provoked snaps, sane day rhythm and sleep

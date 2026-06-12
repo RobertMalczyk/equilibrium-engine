@@ -1,0 +1,10 @@
+halgrim_multi_051: PASS -- calm days, mild curtness, recovers nightly
+halgrim_multi_052: PASS -- steady; cold contempt only after repeated Wojsław mocking
+halgrim_multi_053: PASS -- rain plus provocation escalates plausibly, recovers
+halgrim_multi_054: PASS -- defiant refusals to Wojsław fit resentment, controlled
+halgrim_multi_055: PASS -- calm, kindness-heavy day, nothing jarring
+halgrim_multi_056: PASS -- buildup to cold contempt under sustained provocation
+halgrim_multi_057: PASS -- calm, mild reactions, sane pacing
+halgrim_multi_058: PASS -- late escalation under provocation, otherwise even keel
+halgrim_multi_059: PASS -- calm throughout, recovers nightly, sane
+halgrim_multi_060: PASS -- heavy provocation yields cold contempt, recovers next day

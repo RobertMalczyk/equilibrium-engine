@@ -1,0 +1,10 @@
+lutek_day_001: PASS -- sane restless cycle, sleeps and wakes recovered
+lutek_day_002: PASS -- mockery rolls off, kindnesses warm, sane pacing
+lutek_day_003: PASS -- warm to kindness, lets mockery pass, sleeps late but fine
+lutek_day_004: PASS -- restless-rest cycle, thick-skinned to mockery, sane day
+lutek_day_005: PASS -- believable pacing, mild evening edge, sleeps well
+lutek_day_006: PASS -- many kindnesses warmly taken, mockery ignored, sane
+lutek_day_007: PASS -- calm restless poet's day, sleeps and wakes recovered
+lutek_day_008: PASS -- mockery passes, kindnesses warm, no absurdity
+lutek_day_009: PASS -- easy warm day, sane restless cycling, good sleep
+lutek_day_010: PASS -- thick-skinned, warm, believable late-night sleep onset

@@ -74,6 +74,12 @@ def render(persona: str, index: int) -> tuple[str, list[str]]:
     raw = yaml.safe_load(path.read_text(encoding="utf-8"))
     n_days, day_plan = raw["n_days"], raw["day_plan"]
     sc = load_scenario(path)
+    return narrate(persona, cfg, sc, n_days), day_plan
+
+
+def narrate(persona: str, cfg, sc, n_days: int) -> str:
+    """The observable, numbers-free record of an n-day run (1 day = the day corpus; the regression
+    judge reuses this for BOTH corpora). Extracted from render() unchanged."""
     tr = run_multiday(cfg, sc, n_days)
     ticks = tr.ticks
     name = DISPLAY[persona]
@@ -169,7 +175,7 @@ def render(persona: str, index: int) -> tuple[str, list[str]]:
             if plain:
                 add(t, f"{Subj} {plain.format(r=refl)}.")
             prev_act = act
-    return "\n".join(lines), day_plan
+    return "\n".join(lines)
 
 
 RUBRIC = """\

@@ -1,0 +1,10 @@
+cichy_multi_041: PASS -- sane day/night, calm baseline, anger at guards' mocking, recovers
+cichy_multi_042: PASS -- believable pacing, flares at jailers, settles, sleeps and recovers
+cichy_multi_043: PASS -- coherent days, resentful snaps at guards, warm to strangers
+cichy_multi_044: PASS -- sane cycle, rain endured, anger rises and falls believably
+cichy_multi_045: PASS -- calm baseline with guard-triggered fury, nightly recovery intact
+cichy_multi_046: PASS -- coherent days, mocking provokes him, kindness from jailers unmoved
+cichy_multi_047: PASS -- believable 6 days, resentment at guards, recovers each night
+cichy_multi_048: PASS -- sane pacing, flares at mocking, soup let pass, sleeps well
+cichy_multi_049: PASS -- coherent days, repeated guard provocations, anger ebbs and recovers
+cichy_multi_050: PASS -- sane short stretch, fury at guards, calm restored overnight

@@ -1,0 +1,10 @@
+halgrim_day_041: PASS -- calm day, warm to soup, sleeps, wakes recovered
+halgrim_day_042: PASS -- steady; curt-cold to Wojsław's jibe, obeys Edda
+halgrim_day_043: PASS -- cold contempt only at Wojsław, recovers, sane pacing
+halgrim_day_044: PASS -- declines Wojsław's orders, obeys Edda; fits resentment
+halgrim_day_045: PASS -- even keel, lets provocations pass, sleeps well
+halgrim_day_046: PASS -- calm throughout, shrugs off mockery, recovers overnight
+halgrim_day_047: PASS -- settled day, declines late Wojsław order, sane
+halgrim_day_048: PASS -- mutters at Wojsław; lone mutter at Edda mild but fine
+halgrim_day_049: PASS -- warm to allies, declines Wojsław, calm day
+halgrim_day_050: PASS -- steady, only a shade curt to Wojsław

@@ -1,0 +1,10 @@
+wojslaw_multi_091: PASS -- calm soup days, provoked flares, recovers overnight
+wojslaw_multi_092: PASS -- tension builds from provocations, resets at sleep
+wojslaw_multi_093: PASS -- mostly warm, occasional eruption at public mocks
+wojslaw_multi_094: PASS -- six days, provoked anger, calm mornings after sleep
+wojslaw_multi_095: PASS -- mostly calm, provocation-driven flares, nightly recovery
+wojslaw_multi_096: PASS -- calm baseline, heavy eruptions when densely provoked
+wojslaw_multi_097: PASS -- dense provocations, eruptions, recovers each morning
+wojslaw_multi_098: PASS -- hot temper, eruptions at mocks, nightly reset
+wojslaw_multi_099: PASS -- dense provoked eruptions, each tied to insult/order
+wojslaw_multi_100: PASS -- mostly calm, lets most pass, occasional flare

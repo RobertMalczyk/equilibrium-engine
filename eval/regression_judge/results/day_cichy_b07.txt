@@ -1,0 +1,10 @@
+cichy_day_071: PASS -- sane day; anger flares at guards, settles, sleeps and recovers
+cichy_day_072: PASS -- believable pacing; tension rises and eases, rests at night
+cichy_day_073: PASS -- coherent day; mockery provokes, calm returns, sound sleep
+cichy_day_074: PASS -- sane arc; eruptions at guards fit, recovers overnight
+cichy_day_075: PASS -- believable; calm mostly, flares late, settles before sleep
+cichy_day_076: PASS -- quiet sane day; no unprompted anger, normal rhythm
+cichy_day_077: PASS -- coherent; warm to stranger, sharp to guards, recovers
+cichy_day_078: PASS -- sane; mild morning bristle, even day, sound sleep
+cichy_day_079: PASS -- believable; warmth to strangers, edge to guards, recovers
+cichy_day_080: PASS -- sane day; eruptions on mockery, settles, sleeps well

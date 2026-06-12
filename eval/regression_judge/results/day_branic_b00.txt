@@ -1,0 +1,10 @@
+branic_day_001: PASS -- sane day, bored/restless cycle, sleeps and recovers
+branic_day_002: PASS -- calm believable day, lets mockery pass, sleeps well
+branic_day_003: PASS -- normal pacing, warm to kindness, rests and sleeps
+branic_day_004: PASS -- sane day, restless stretches, obeys orders, recovers overnight
+branic_day_005: PASS -- believable day, eats, works, sleeps, wakes settled
+branic_day_006: PASS -- busy evening but sane, warm thanks, sleeps fine
+branic_day_007: PASS -- ordinary day, bored cycle, compliant, recovers overnight
+branic_day_008: PASS -- lets repeated mockery pass, calm day, sleeps late
+branic_day_009: PASS -- sane pacing, warm to help, rests and recovers
+branic_day_010: PASS -- snaps once at public mockery, in-character, otherwise sane

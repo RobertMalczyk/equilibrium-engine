@@ -1,0 +1,10 @@
+wojslaw_day_061: PASS -- sane day; flares at mocks, warm at kindness, sleeps well
+wojslaw_day_062: PASS -- believable escalation and cooldown; recovers overnight
+wojslaw_day_063: PASS -- temper rises and settles plausibly across the day
+wojslaw_day_064: PASS -- mostly warmed, one eruption at public mock; coherent
+wojslaw_day_065: PASS -- hot mornings, tense afternoon, calm sleep; consistent
+wojslaw_day_066: PASS -- eruptions at mocks, calm otherwise; sane pacing
+wojslaw_day_067: PASS -- calm day with late flares at public mocks; believable
+wojslaw_day_068: PASS -- one eruption, grumbles at orders, settles; coherent
+wojslaw_day_069: PASS -- hot morning eruptions, tense, then recovers; plausible
+wojslaw_day_070: PASS -- early flares, refuses orders, settles by evening; sane

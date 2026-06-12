@@ -1,0 +1,10 @@
+halgrim_day_071: PASS -- calm, warm to kindness, obeys; sane day.
+halgrim_day_072: PASS -- quiet, settled, warm to help; believable dull day.
+halgrim_day_073: PASS -- curt only to Wojsław's barb; otherwise even-keeled.
+halgrim_day_074: PASS -- mild edge from Wojsław's pile-on; sane, recovers overnight.
+halgrim_day_075: PASS -- settled throughout, warm to kindness; uneventful sane day.
+halgrim_day_076: PASS -- lets Wojsław's barb pass, calm; believable steady day.
+halgrim_day_077: PASS -- warm, settled, obeys Edda; sane uneventful day.
+halgrim_day_078: PASS -- curt and cold to Wojsław's public jibe; fitting.
+halgrim_day_079: PASS -- calm, warm to soup, lets barb pass; sane.
+halgrim_day_080: PASS -- tense under repeated Wojsław barbs; curt not raging; sane.

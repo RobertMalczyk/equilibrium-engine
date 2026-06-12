@@ -1,0 +1,10 @@
+wojslaw_multi_061: PASS -- sane pacing; flares at mockery, calms, sleeps and recovers
+wojslaw_multi_062: PASS -- believable; anger builds with provocation, refuses orders, rests well
+wojslaw_multi_063: PASS -- consistent; hot temper at insults, warms to kindness, nightly reset
+wojslaw_multi_064: PASS -- sane day; proud refusals and flares, gratitude for kindness fit
+wojslaw_multi_065: PASS -- believable; erupts at mockery, defiant to orders, recovers overnight
+wojslaw_multi_066: PASS -- sane pacing; flares fittingly, warms to soup, sleeps and resets
+wojslaw_multi_067: PASS -- consistent prickly noble; anger swells then settles, rests at night
+wojslaw_multi_068: PASS -- believable; bristles and erupts at insults, calm baseline restored
+wojslaw_multi_069: PASS -- sane; hot reactions to mockery, defiant refusals, nightly recovery
+wojslaw_multi_070: PASS -- believable; flares at insults, warms to kindness, calms overnight

@@ -1,0 +1,10 @@
+halgrim_day_011: PASS -- calm, warm to kindnesses, shrugs off mockery
+halgrim_day_012: PASS -- buttoned-down curtness under escalating provocation, obeys Edda
+halgrim_day_013: PASS -- cold and curt under heavy needling, recovers by night
+halgrim_day_014: PASS -- steady, warm, declines arrogant guest's order
+halgrim_day_015: PASS -- mostly calm; brief grumble at Edda, settles
+halgrim_day_016: PASS -- entirely calm and even-keeled day
+halgrim_day_017: PASS -- calm, obeys Edda, warm to cook
+halgrim_day_018: PASS -- tense late after provocations, recovers overnight
+halgrim_day_019: PASS -- calm, warm, obeys respected commander
+halgrim_day_020: PASS -- calm throughout, lets mockery pass

@@ -1,0 +1,10 @@
+edda_day_071: PASS -- warm, composed, lets stranger's order pass; sane day
+edda_day_072: PASS -- settled and gracious; provocations pass calmly
+edda_day_073: PASS -- calm castellan, mockery let pass; believable pacing
+edda_day_074: PASS -- composed through barb and kindnesses; sane day
+edda_day_075: PASS -- many kindnesses, mockery passes; settled throughout
+edda_day_076: PASS -- quiet day, warm thanks, normal rest and sleep
+edda_day_077: PASS -- order let pass, composed; believable pacing
+edda_day_078: PASS -- order let pass, warmed by help; sane day
+edda_day_079: PASS -- complies with order, composed; believable throughout
+edda_day_080: PASS -- quiet, gracious, regular meals and rest; sane day

@@ -1,0 +1,10 @@
+lutek_multi_041: PASS -- sane day/night cycle, easygoing, restless-then-busy as expected
+lutek_multi_042: PASS -- mockery rolls off, sleeps and recovers, believable pacing
+lutek_multi_043: PASS -- calm warm poet, hunger and rest cycle normally
+lutek_multi_044: PASS -- thick-skinned, warm to kindness, coherent days and nights
+lutek_multi_045: PASS -- restless novelty-seeking, insults shrugged, sane recovery overnight
+lutek_multi_046: PASS -- believable boredom-driven activity, no rage, sleeps soundly
+lutek_multi_047: PASS -- easy good humour, mockery ignored, normal day arc
+lutek_multi_048: PASS -- coherent pacing, warm to help, late nights then rest
+lutek_multi_049: PASS -- six sane days, thick-skinned, restless then settled cycle
+lutek_multi_050: PASS -- mockery passes harmlessly, hunger and rest paced believably

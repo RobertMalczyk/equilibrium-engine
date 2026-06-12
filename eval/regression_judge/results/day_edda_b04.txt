@@ -1,0 +1,10 @@
+edda_day_041: PASS -- calm day, warm to kindness, only mutters at a stranger's order
+edda_day_042: PASS -- composed; declines/curt to strangers' orders, fitting her authority
+edda_day_043: PASS -- settled day, warm thanks, sleeps and wakes recovered
+edda_day_044: PASS -- mild curt reply to mocking, otherwise at ease throughout
+edda_day_045: PASS -- uneventful warm day, runs the watch, sleeps well
+edda_day_046: PASS -- calm; one mutter at a stranger's order, nothing jarring
+edda_day_047: PASS -- settled, warm, lets a stranger's order pass; sane pacing
+edda_day_048: PASS -- quiet steady day, eats, rests, sets the watch, sleeps
+edda_day_049: PASS -- busy warm morning, lets orders pass, composed throughout
+edda_day_050: PASS -- composed; refuses a stranger's late order, fitting her standing

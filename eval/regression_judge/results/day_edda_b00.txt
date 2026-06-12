@@ -1,0 +1,10 @@
+edda_day_001: PASS -- calm day, soup, sleeps and wakes recovered
+edda_day_002: PASS -- composed throughout, sane pacing, recovers overnight
+edda_day_003: PASS -- shrugs off mockery and orders, warm to kindness
+edda_day_004: PASS -- settled day, believable rise and fall
+edda_day_005: PASS -- calm, lets orders and mockery pass, sane
+edda_day_006: PASS -- quiet steady day, sleeps and wakes well
+edda_day_007: PASS -- refuses/grumbles at strangers' orders, plausible for authority
+edda_day_008: PASS -- warm to help, calm, sane recovery
+edda_day_009: PASS -- settled, composed, believable pacing
+edda_day_010: PASS -- calm steady day, recovers overnight

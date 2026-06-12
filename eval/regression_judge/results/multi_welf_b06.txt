@@ -1,0 +1,10 @@
+welf_multi_061: PASS -- sane boredom/rest/sleep cycles; calm through mockery.
+welf_multi_062: PASS -- believable pacing; restlessness and recovery look right.
+welf_multi_063: PASS -- lets barbs pass; normal day/night rhythm.
+welf_multi_064: PASS -- composed in rain; hunger and temper rise/fall sanely.
+welf_multi_065: PASS -- steady, even-keeled; mockery shrugged off as expected.
+welf_multi_066: PASS -- calm under repeated barbs; sane sleep/wake cycle.
+welf_multi_067: PASS -- believable idleness chafing; recovers overnight, no rage.
+welf_multi_068: PASS -- neutral soup reaction fine; sane pacing throughout.
+welf_multi_069: PASS -- warm to kindness, calm otherwise; normal rhythm.
+welf_multi_070: PASS -- consistent boredom cycles; nothing jars the profile.

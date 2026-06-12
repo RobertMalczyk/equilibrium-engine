@@ -1,0 +1,10 @@
+halgrim_multi_061: PASS -- sane pacing, cold-curt to Wojsław, recovers nightly
+halgrim_multi_062: PASS -- calm baseline, defiant only to Wojsław, sleeps and recovers
+halgrim_multi_063: PASS -- heavy Wojsław provocation, stays cold not raging
+halgrim_multi_064: PASS -- quiet steady days, warm to kindness, no jars
+halgrim_multi_065: PASS -- settled, cold contempt to Wojsław mockery only
+halgrim_multi_066: PASS -- even keel, curt to provocation, nightly reset
+halgrim_multi_067: PASS -- believable rise of tension, recovers each morning
+halgrim_multi_068: PASS -- steady, resents Wojsław, compliant with Edda
+halgrim_multi_069: PASS -- mostly settled, mild grumble under load, sane
+halgrim_multi_070: PASS -- calm, defiant to Wojsław, warm to Marta, recovers

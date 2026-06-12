@@ -1,0 +1,10 @@
+welf_day_011: PASS -- sane day; mockery let pass, mild tension, calm again
+welf_day_012: PASS -- believable idle day; warm to kindnesses, sleeps and recovers
+welf_day_013: PASS -- sane pacing; boredom cycles, kindnesses accepted, rests well
+welf_day_014: PASS -- steady idle day; restlessness and ease alternate believably
+welf_day_015: PASS -- coherent day; composed, occupies himself, sleeps and wakes fresh
+welf_day_016: PASS -- sane stretch; boredom rises and settles, no absurdities
+welf_day_017: PASS -- believable; brief tension passes, restless but even-keeled
+welf_day_018: PASS -- sane day; momentary edge then calm, sleeps and recovers
+welf_day_019: PASS -- steady idle day; warm thanks, normal boredom cadence
+welf_day_020: PASS -- coherent; many kindnesses taken warmly, calm throughout

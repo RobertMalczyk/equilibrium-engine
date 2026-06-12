@@ -1,0 +1,10 @@
+welf_multi_011: PASS -- sane boredom/rest cycle, calm thanks, mockery shrugged off
+welf_multi_012: PASS -- believable pacing, mild dawn edginess settles, mockery ignored
+welf_multi_013: PASS -- coherent days, recovers after sleep, no out-of-character anger
+welf_multi_014: PASS -- steady boredom-driven activity, warm to kindness, calm under barbs
+welf_multi_015: PASS -- sane cycles, rain-tension mild, lets mockery pass
+welf_multi_016: PASS -- one mild bristle at mock, brief and settles; otherwise composed
+welf_multi_017: PASS -- believable restless/rest rhythm, even-tempered throughout
+welf_multi_018: PASS -- sane pacing, sleeps and recovers, calm businesslike reactions
+welf_multi_019: PASS -- coherent multi-day life, mild edginess only, warm thanks
+welf_multi_020: PASS -- steady cycles, mockery shrugged, no absurd starvation or rage

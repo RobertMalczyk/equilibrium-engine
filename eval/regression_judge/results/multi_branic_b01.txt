@@ -1,0 +1,10 @@
+branic_multi_011: PASS -- sane day/night cycle, anger builds then resets with sleep
+branic_multi_012: PASS -- calm, mostly compliant, single evening eruption, recovers overnight
+branic_multi_013: PASS -- believable pacing, provoked eruptions, nightly reset intact
+branic_multi_014: PASS -- warm and compliant, lone evening fury after buildup
+branic_multi_015: PASS -- escalating refusals build believably, sleeps and recovers
+branic_multi_016: PASS -- dense provocation drives refusals/fury, nightly reset holds
+branic_multi_017: FLAG -- two snaps at 06:40/07:16 right after a recovered wake
+branic_multi_018: PASS -- heavy provocation stretch, anger builds within-day, resets overnight
+branic_multi_019: PASS -- calm, warm to kindness, occasional provoked flare, sane cycle
+branic_multi_020: PASS -- temper rises and falls believably, sleeps and wakes recovered

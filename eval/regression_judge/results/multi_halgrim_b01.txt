@@ -1,0 +1,10 @@
+halgrim_multi_011: PASS -- calm baseline, cold curtness under Wojsław provocation, recovers nightly
+halgrim_multi_012: PASS -- settled days, mild curt replies, sane pacing and recovery
+halgrim_multi_013: PASS -- even keel with brief tense spells, believable rises and falls
+halgrim_multi_014: PASS -- mostly calm, firm refusals to Wojsław, recovers each night
+halgrim_multi_015: PASS -- settled with tense afternoons, cold-curt not shouting, sane
+halgrim_multi_016: PASS -- calm, late escalation to cold contempt, then recovers
+halgrim_multi_017: PASS -- rain stress wears him, curt under provocation, recovers nightly
+halgrim_multi_018: PASS -- settled baseline, tense spells under mocking, sane recovery
+halgrim_multi_019: PASS -- very calm, mild complaints to orders, believable days
+halgrim_multi_020: PASS -- calm throughout, declines Wojsław plainly, settled and sane

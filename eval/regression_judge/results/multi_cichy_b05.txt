@@ -1,0 +1,10 @@
+cichy_multi_051: PASS -- calm baseline, flares only at mocking, sleeps and recovers
+cichy_multi_052: PASS -- sane pacing, anger rises and falls believably
+cichy_multi_053: PASS -- calm spells with guard-triggered flares, nightly recovery
+cichy_multi_054: PASS -- believable spans, resentment-consistent reactions to guards
+cichy_multi_055: PASS -- sane day-to-day, flares only on provocation
+cichy_multi_056: PASS -- calm baseline, warm to stranger, fury only at mocking
+cichy_multi_057: PASS -- sane pacing across three days, recovers overnight
+cichy_multi_058: PASS -- believable rises and falls, guard-keyed anger
+cichy_multi_059: PASS -- calm with provocation-triggered flares, nightly reset
+cichy_multi_060: FLAG -- Day 2 ~7 back-to-back furious eruptions, relentless rage cluster

@@ -1,0 +1,10 @@
+welf_multi_081: PASS -- sane cadence; calm under mockery, boredom-driven, fits profile
+welf_multi_082: PASS -- believable days; lets mockery pass, restless when idle
+welf_multi_083: PASS -- sane sleep/wake; warm to kindness, unruffled by barbs
+welf_multi_084: PASS -- coherent; rain/cold tension settles, no overreaction
+welf_multi_085: PASS -- sane pacing; composed throughout, boredom relieved by occupation
+welf_multi_086: PASS -- believable week; even-keeled, restlessness fits the idleness
+welf_multi_087: PASS -- sane days/nights; calm, boredom-driven, nothing jars
+welf_multi_088: PASS -- coherent; sleep just past midnight once, still sane
+welf_multi_089: PASS -- believable; settled, mockery shrugged off, fits profile
+welf_multi_090: PASS -- sane cadence; composed, restless when idle, recovers nightly

@@ -1,0 +1,10 @@
+branic_multi_001: PASS -- calm, well-paced; restless/rest cycles, sleeps and recovers nightly
+branic_multi_002: PASS -- normal days; single night snap at Halgrim's mockery fits thin skin
+branic_multi_003: PASS -- escalating defiance to Halgrim, recovers overnight, warm to others
+branic_multi_004: PASS -- evening snaps/refusals to Halgrim's barbs, sane recovery, warm elsewhere
+branic_multi_005: PASS -- calm, obedient, warm to kindness; sane pacing and sleep
+branic_multi_006: PASS -- dense refusal cluster Day2 to a hard sergeant, but recovers nightly
+branic_multi_007: PASS -- building anger to repeated mocks, fury then overnight reset
+branic_multi_008: PASS -- mostly calm with occasional snap; sleeps and wakes recovered
+branic_multi_009: PASS -- calm, warm, restless cycling; believable spans and nightly sleep
+branic_multi_010: PASS -- persistent defiance to orders but warm to kindness, nightly reset

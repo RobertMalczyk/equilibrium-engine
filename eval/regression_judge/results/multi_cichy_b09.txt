@@ -1,0 +1,10 @@
+cichy_multi_091: PASS -- sane pacing, calm baseline, flares at guards, recovers nightly
+cichy_multi_092: PASS -- believable days, anger at mockery, settles and sleeps well
+cichy_multi_093: PASS -- evening fury cluster heavy but plausible given repeated taunts
+cichy_multi_094: PASS -- snapping at brought soup strong but fits resentful-while-tense
+cichy_multi_095: PASS -- dense mockery drives repeated fury, recovers overnight, in character
+cichy_multi_096: PASS -- normal rhythm, resents guards, warms to stranger, sleeps recovered
+cichy_multi_097: PASS -- sane arc, flares at guards including meals, calm baseline holds
+cichy_multi_098: PASS -- believable pacing, guard-triggered anger, stranger warmth, nightly reset
+cichy_multi_099: PASS -- dense Day3 taunt cluster, escalating fury but plausible, recovers
+cichy_multi_100: PASS -- calm mild stretch, flares at mockery, sleeps and wakes settled

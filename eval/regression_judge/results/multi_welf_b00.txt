@@ -1,0 +1,10 @@
+welf_multi_001: PASS -- sane day cycle; boredom rises/falls, sleeps and wakes recovered, shrugs off mockery
+welf_multi_002: PASS -- believable pacing; restless-then-occupied loop, calm under barbed remark, nightly reset
+welf_multi_003: PASS -- coherent days; idleness builds and resolves, warm to kindness, no unwarranted anger
+welf_multi_004: PASS -- sane stretch; dense kindnesses handled warmly, mockery ignored, sleeps at night
+welf_multi_005: PASS -- believable; rain-watch tension stays mild, boredom cycles, recovers each morning
+welf_multi_006: PASS -- coherent; settled baseline, restless spells occupied, composed under mockery
+welf_multi_007: PASS -- sane six-plus days; drifting sleep times reasonable, boredom cycle intact
+welf_multi_008: PASS -- believable week; mockery in front of others shrugged off, nightly recovery holds
+welf_multi_009: PASS -- coherent; rain stressor mild, repeated barbs ignored, boredom rises and eases
+welf_multi_010: PASS -- sane days; public mockery passes calmly, boredom cycles, sleeps and wakes recovered

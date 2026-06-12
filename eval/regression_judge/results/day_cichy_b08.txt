@@ -1,0 +1,10 @@
+cichy_day_081: PASS -- calm day, curt to guards, warm to stranger, recovers overnight
+cichy_day_082: PASS -- mild tension, lets soup pass or curt, sane pacing
+cichy_day_083: PASS -- eruptions only on guard mockery, recovers by morning
+cichy_day_084: PASS -- repeated provoked flares at guards, settles overnight
+cichy_day_085: PASS -- mild edge, curt at guards, believable quiet day
+cichy_day_086: PASS -- snaps at mockery, otherwise settled, sane
+cichy_day_087: PASS -- warm to stranger, erupts at guard taunts, recovers
+cichy_day_088: PASS -- warm to strangers, one provoked eruption, sane day
+cichy_day_089: PASS -- early eruption follows guard mockery, provoked not random
+cichy_day_090: PASS -- calm, curt at guards, settled night and waking

@@ -1,0 +1,10 @@
+lutek_day_091: PASS -- sane restless-and-rest cycle, shrugs off mockery, sleeps and recovers
+lutek_day_092: PASS -- believable pacing, warm to kindness, mild evening tension, recovers overnight
+lutek_day_093: PASS -- coherent day, lets mockery pass, calm and busy as fits him
+lutek_day_094: PASS -- normal rhythm, mockery rolls off, warm thanks, recovered at dawn
+lutek_day_095: PASS -- busy sociable day, many small kindnesses welcomed, sleeps well
+lutek_day_096: PASS -- sane day, warm to Marta's help, settled mood, recovers overnight
+lutek_day_097: PASS -- restless-poet cadence, shrugs mockery, calm throughout, wakes rested
+lutek_day_098: PASS -- believable pacing, warm thanks, brief evening edge, recovers by morning
+lutek_day_099: PASS -- coherent restless-and-rest day, warm to kindnesses, sleeps and recovers
+lutek_day_100: PASS -- normal rhythm, welcomes help, mild evening tension, recovered at dawn

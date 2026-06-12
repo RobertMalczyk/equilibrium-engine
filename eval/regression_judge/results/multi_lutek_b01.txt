@@ -1,0 +1,10 @@
+lutek_multi_011: PASS -- sane restless/rest cycles, sleeps nightly, mockery shrugged off
+lutek_multi_012: PASS -- believable pacing, warm to kindness, recovers after sleep
+lutek_multi_013: PASS -- restless-then-settled rhythm, insults let pass, nothing jarring
+lutek_multi_014: PASS -- one mild curt reply to mock, otherwise calm and sane
+lutek_multi_015: PASS -- coherent days, easy with kindness, sleeps and wakes recovered
+lutek_multi_016: PASS -- sane cycles, mockery shrugged off, no absurd swings
+lutek_multi_017: PASS -- believable restless pacing, thick-skinned to barbs, nightly sleep
+lutek_multi_018: PASS -- coherent days, mild edge only, insults let pass
+lutek_multi_019: PASS -- sane pacing, warm to help, recovers each night
+lutek_multi_020: PASS -- restless/rest rhythm, good-humoured, nothing contradicts profile

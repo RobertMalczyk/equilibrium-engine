@@ -1,0 +1,10 @@
+branic_multi_091: PASS -- sane pacing; anger only after mocking, recovers nightly
+branic_multi_092: PASS -- coherent; mostly compliant, one snap after barbed remark
+branic_multi_093: PASS -- believable; defiance builds after repeated provocation
+branic_multi_094: PASS -- thin-skinned snaps all follow sustained mocking, plausible
+branic_multi_095: PASS -- calm, warm to kindness, sane boredom cycles
+branic_multi_096: PASS -- coherent days, sleeps and wakes recovered
+branic_multi_097: PASS -- fury erupts only after sustained mocking barrage, plausible
+branic_multi_098: PASS -- warm and calm throughout, sane pacing
+branic_multi_099: PASS -- coherent; mild flares after provocation, recovers nightly
+branic_multi_100: PASS -- heavy defiance follows grudge plus repeated orders, believable

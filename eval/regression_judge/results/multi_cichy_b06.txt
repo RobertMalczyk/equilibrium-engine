@@ -1,0 +1,10 @@
+cichy_multi_061: PASS -- sane pacing, anger only on guard provocation, recovers nightly
+cichy_multi_062: PASS -- believable cycle, flares at guards, settles, sleeps and recovers
+cichy_multi_063: PASS -- coherent days, resentment toward guards, warmth to stranger kindness
+cichy_multi_064: PASS -- sane spans, provoked anger, calm baseline, nightly reset intact
+cichy_multi_065: PASS -- believable, bristles at guards, accepts stranger help, recovers nightly
+cichy_multi_066: PASS -- coherent escalation on mocks, settles between, sleeps and recovers
+cichy_multi_067: PASS -- sane pacing, guard-triggered flares, stranger kindness welcomed
+cichy_multi_068: PASS -- believable days, provoked anger only, calm baseline, nightly reset
+cichy_multi_069: PASS -- coherent, resents guards, warm to strangers, recovers each night
+cichy_multi_070: PASS -- sane spans, flares on guard provocation, settles, nightly recovery

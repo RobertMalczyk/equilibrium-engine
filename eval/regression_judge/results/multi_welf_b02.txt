@@ -1,0 +1,10 @@
+welf_multi_021: PASS -- sane pacing; calm under mockery, boredom resolves, sleeps and recovers
+welf_multi_022: PASS -- even-keeled throughout; lets barbs pass, restlessness self-soothes
+welf_multi_023: PASS -- six days of believable rhythm; rain a mild stressor only
+welf_multi_024: PASS -- steady cycles of boredom and ease; kindness warmly received
+welf_multi_025: PASS -- one neutral soup response benign; otherwise calm and well-paced
+welf_multi_026: PASS -- coherent five days; mockery shrugged off, nights reset him
+welf_multi_027: PASS -- composed across six days; idleness drives him, not temper
+welf_multi_028: PASS -- sensible pacing; warm to help, unbothered by barbs
+welf_multi_029: PASS -- believable rhythm; rain wears mildly, no unprovoked anger
+welf_multi_030: PASS -- calm and steady six days; boredom and rest cycle naturally

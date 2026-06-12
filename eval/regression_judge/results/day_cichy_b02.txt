@@ -1,0 +1,10 @@
+cichy_day_021: PASS -- sane day; calm baseline, snaps only at guard taunts.
+cichy_day_022: PASS -- believable pacing; curt at soup, flares at mockery, recovers.
+cichy_day_023: PASS -- coherent day; resentful curtness and fury fit captive profile.
+cichy_day_024: PASS -- sane; erupts at public mockery, warmth withheld from guards.
+cichy_day_025: PASS -- believable; bristles even at soup, fury at taunts, sleeps off.
+cichy_day_026: PASS -- calm low-provocation day, restlessness and rest cycle normal.
+cichy_day_027: PASS -- sane pacing; one flare at guard, wakes recovered.
+cichy_day_028: PASS -- coherent; bristle then eruption at public mockery, fits profile.
+cichy_day_029: PASS -- believable; repeated guard taunts draw fury, soup curt, recovers.
+cichy_day_030: PASS -- sane; warm to stranger, curt/furious to guards, sleeps off.

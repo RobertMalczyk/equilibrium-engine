@@ -1,0 +1,10 @@
+welf_multi_041: PASS -- sane idleness/rest/sleep cycle, calm throughout
+welf_multi_042: PASS -- believable pacing, warm to kindness, mocks pass
+welf_multi_043: PASS -- steady restless-then-occupied rhythm, recovers nightly
+welf_multi_044: PASS -- rain endured calmly, no absurd reactions
+welf_multi_045: PASS -- consistent calm merchant, sane hunger/temper spans
+welf_multi_046: PASS -- normal idle-fort days, sleeps and wakes recovered
+welf_multi_047: PASS -- composed through rain and mockery, good pacing
+welf_multi_048: PASS -- lone snap after rain+repeated mocks; plausible, settles fast
+welf_multi_049: PASS -- calm under rain and barbs, believable cadence
+welf_multi_050: PASS -- steady six days, restlessness and rest balanced

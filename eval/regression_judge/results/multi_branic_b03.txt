@@ -1,0 +1,10 @@
+branic_multi_031: PASS -- calm sane cycles, lets mockery pass, recovers nightly
+branic_multi_032: PASS -- believable escalation under repeated mocking, recovers each morning
+branic_multi_033: PASS -- thin-skinned defiance under harsh sergeant, sleeps and resets
+branic_multi_034: PASS -- mostly calm, one flare at public mockery, warm to kindness
+branic_multi_035: PASS -- calm, warm to kindness, sane day-night pacing
+branic_multi_036: PASS -- calm cycles, single snap at mockery, recovers
+branic_multi_037: PASS -- fury at public mockery, otherwise sane and warm
+branic_multi_038: PASS -- flares at mockery, sane boredom-rest cycles throughout
+branic_multi_039: PASS -- calm and compliant, believable pacing, recovers nightly
+branic_multi_040: PASS -- one snap at mockery, otherwise calm and compliant

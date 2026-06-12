@@ -1,0 +1,10 @@
+halgrim_multi_081: PASS -- calm, mild mutters, recovers nightly; in character.
+halgrim_multi_082: PASS -- cold curt under Wojsław provocation, recovers overnight; sane.
+halgrim_multi_083: PASS -- settled, mild declines; calm and believable.
+halgrim_multi_084: PASS -- cold contempt to Wojsław, rain endured, recovers; in character.
+halgrim_multi_085: PASS -- sustained Wojsław friction stays cold/curt, recovers nightly.
+halgrim_multi_086: PASS -- very calm, rain on watch, mild declines; sane.
+halgrim_multi_087: PASS -- curt cold to mockery, settled otherwise, recovers.
+halgrim_multi_088: PASS -- cold contempt to Wojsław, rain, recovers overnight; sane.
+halgrim_multi_089: PASS -- calm, refuses Wojsław, curt answers, recovers nightly.
+halgrim_multi_090: PASS -- fast Wojsław escalation but stays cold/curt, recovers.

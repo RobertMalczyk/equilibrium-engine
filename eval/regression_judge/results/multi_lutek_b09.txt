@@ -1,0 +1,10 @@
+lutek_multi_091: PASS -- restless/occupy cycle, warm thanks, sleeps and wakes recovered
+lutek_multi_092: PASS -- sane pacing, easy warmth, soup lets-pass fine, nightly sleep
+lutek_multi_093: PASS -- mockery rolls off, novelty-seeking, recovers each night
+lutek_multi_094: PASS -- barbs ignored, warm to kindness, believable spans
+lutek_multi_095: PASS -- coherent restless/rest rhythm, thanks freely, sleeps nightly
+lutek_multi_096: PASS -- multiple mocks all let pass, no raging, sane days
+lutek_multi_097: PASS -- steady seeking-and-rest, warm responses, recovers overnight
+lutek_multi_098: PASS -- good-humoured, warm thanks, believable hunger/rest pacing
+lutek_multi_099: PASS -- mockery ignored, novelty-driven, sleeps and wakes settled
+lutek_multi_100: PASS -- restless cycle, warm to kindness, sane nightly recovery
