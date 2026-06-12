@@ -282,6 +282,19 @@ filter_weights:
   affinity:
     valence_gain: 0.0           # 0 => identity in MVP (valence already in preference_match)
 
+# Affinity FIELD (spec section 5; engine/affinity_field.py): cosine-blended valence for entities
+# nobody authored individually. ABSENT (the default) = no field = the historical flat lookup,
+# bit-identical. Authored `affinities` entries always win outright (exact-entry override).
+# Shape, when a persona populates it (coordinates may be authored unnormalized; the loader
+# unit-normalizes; a zero vector is a hard config error):
+#   affinity_field:
+#     tau: <kernel temperature, > 0 — CALIBRATION placeholder>
+#     w0: <neutral-prior weight, >= 0 — CALIBRATION placeholder>
+#     coordinates:        # entity -> coordinate (AUTHORED — world/character design)
+#       daisy: [0.9, 0.4, 0.1]
+#     anchors:            # sparse authored anchors: name + coord (or a coordinates ref) + valence
+#       - {name: flowers, coord: [1.0, 0.3, 0.0], value: 0.5}
+
 thresholds:
   react_default: 2.0            # absent threshold => unreachable
   interrupt_default: 2.0

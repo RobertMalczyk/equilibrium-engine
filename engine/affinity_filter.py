@@ -35,8 +35,8 @@ def apply(
             out[name] = si  # identity: not an affinity channel, or neutral default
             continue
         valence = filters.lookup(
-            si.target, affinities
-        )  # seam: flat lookup today (FIELD later)
+            si.target, affinities, field=config.affinity_field
+        )  # seam: exact entry wins; unknown entities blend through the FIELD (spec section 5)
         adjusted = clamp_signed(si.value * filters.factor(valence, valence_gain))
         out[name] = SemanticInput(
             name=si.name,

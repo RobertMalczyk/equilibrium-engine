@@ -9,6 +9,7 @@ no numeric literals -- channel values come from the event, history, and affiniti
 
 from __future__ import annotations
 
+from engine import filters
 from engine.schema import (
     HistoryFeatures,
     InputClass,
@@ -42,7 +43,9 @@ def map_event(
             polarity=Polarity.POSITIVE,
         )
         # Affinity (target = the food item): object valence -> satisfaction/frustration.
-        pref = config.affinities.get(event.item, 0.0) if event.item is not None else 0.0
+        pref = filters.lookup(
+            event.item, config.affinities, field=config.affinity_field
+        )
         out["preference_match"] = SemanticInput(
             name="preference_match",
             value=pref,

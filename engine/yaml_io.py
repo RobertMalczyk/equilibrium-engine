@@ -13,6 +13,7 @@ from pathlib import Path
 
 import yaml
 
+from engine import affinity_field
 from engine.clamp import clamp01, clamp_signed
 from engine.schema import (
     GLOBAL_STATES,
@@ -201,6 +202,12 @@ def load_persona(
         str(k): clamp_signed(float(v))
         for k, v in dict(merged.get("affinities", {})).items()
     }
+    # Affinity FIELD (spec section 5): cosine-blended valence for UNKNOWN entities; authored
+    # `affinities` entries always win outright (exact-entry override at filters.lookup).
+    # Absent/empty block -> None -> the historical flat lookup, bit-identical.
+    field_cfg = affinity_field.build(
+        merged.get("affinity_field"), f"{ctx}.affinity_field"
+    )
 
     # gains: {state: {channel: float}}, except the reserved 'relations' key which carries
     # relational-dim deposits nested one level deeper: {dim: {channel: float}} (see update.py).
@@ -301,6 +308,7 @@ def load_persona(
         initial_global_state=initial_global_state,
         initial_relations=initial_relations,
         affinities=affinities,
+        affinity_field=field_cfg,
         half_lives=half_lives,
         setpoints=setpoints,
         drifts=drifts,

@@ -12,6 +12,8 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
 
+from engine.affinity_field import AffinityField
+
 # --- Canonical orderings (deterministic iteration; never reorder ad hoc) ----------
 
 GLOBAL_STATES: tuple[str, ...] = (
@@ -230,6 +232,10 @@ class PersonaConfig:
     action_params: dict[str, dict]
     mapper_params: dict[str, float]
     history_params: dict[str, float]
+    # affinity_field: the cosine-blended valence field over an embedding space (spec section 5;
+    # engine/affinity_field.py). None (default) = no field = the historical flat lookup, bit-identical.
+    # Authored entries in `affinities` always win outright (exact-entry override at filters.lookup).
+    affinity_field: "AffinityField | None" = None
     # gain_modulators[state][channel] = {trait, ref, k}: scales an input->state gain by a trait,
     # mod = 1 + k*(trait - ref) (spec section 14). Sparse; absent edge = identity (mod = 1).
     gain_modulators: dict[str, dict[str, dict]] = field(default_factory=dict)
