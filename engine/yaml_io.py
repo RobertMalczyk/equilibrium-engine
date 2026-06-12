@@ -217,6 +217,24 @@ def load_persona(
         s: {o: float(g) for o, g in dict(edges).items()}
         for s, edges in dict(merged.get("couplings", {})).items()
     }
+    # coupling_escalation[x][y] = k_esc on the existing edge x<-y (spec section 8 burst / section 14):
+    # g_eff = g*(1 + k_esc*y). Sparse; each escalated edge MUST exist in couplings (the nonlinearity
+    # rides a declared linear edge, never creates one).
+    coupling_escalation: dict[str, dict[str, float]] = {}
+    for s, edges in dict(merged.get("coupling_escalation", {})).items():
+        for o, k in dict(edges).items():
+            if couplings.get(str(s), {}).get(str(o)) is None:
+                raise ValueError(
+                    f"{ctx}.coupling_escalation['{s}']['{o}']: no such edge in couplings"
+                )
+            coupling_escalation.setdefault(str(s), {})[str(o)] = float(k)
+    # burst_extinction[state] = per-tick relaxation rate toward 0 while the burst latch is SET (spec
+    # section 8 burst). Sparse; dormant unless the latch thresholds are configured.
+    burst_extinction: dict[str, float] = {}
+    for s, v in dict(merged.get("burst_extinction", {})).items():
+        if s not in GLOBAL_STATES:
+            raise ValueError(f"{ctx}.burst_extinction: unknown state '{s}'")
+        burst_extinction[str(s)] = float(v)
     # idle_recovery[state] = per-tick delta applied only when IDLE and unprovoked (spec section 8, D11).
     # Sparse; validated against the state vocabulary. Signed (negative = relax toward calm).
     idle_recovery: dict[str, float] = {}
@@ -308,6 +326,8 @@ def load_persona(
         dt=dt,
         gains=gains,
         couplings=couplings,
+        coupling_escalation=coupling_escalation,
+        burst_extinction=burst_extinction,
         gain_modulators=gain_modulators,
         idle_recovery=idle_recovery,
         idle_recovery_modulator=idle_recovery_modulator,

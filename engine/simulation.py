@@ -9,6 +9,8 @@ derived here from (prev_mode, kind, interrupted).
 
 from __future__ import annotations
 
+from dataclasses import replace
+
 from engine import (
     action_selector,
     affinity_filter,
@@ -267,10 +269,22 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
     # with no recent provocation. On a kindness tick the hostile potentials are inhibited (the signed edge), so
     # opening the gate yields warmth, not a snap. (No gesture/resented source -> kindness_pressure 0 -> the gate
     # is governed by provocation exactly as before -> bit-identical.)
+    # Burst gate extension (spec section 8 burst): while the latch is SET and anger has cleared the
+    # displacement bar, ANY SOURCED event this tick is an admissible discharge trigger -- the gate opens
+    # for it even though it provokes nothing (a kind gesture included; "kicking the dog"). A sourceless
+    # event (weather) still never opens it: you cannot kick the rain. Reads the FROZEN snapshot (the
+    # synchronous discipline) and the latch state carried over from the previous tick's end.
+    theta_displace = config.thresholds.get("theta_displace", float("inf"))
+    displaced_gate = (
+        runtime.burst_latched
+        and event_source is not None
+        and snapshot.global_state["anger"] >= theta_displace
+    )
     reactive_allowed = (
         is_provocation
         or kindness_pressure > 0.0
         or (lp is not None and (t - lp) <= window)
+        or displaced_gate
     )
     # A sourceless world stressor (rain) opens no reply, but it WEARS the persona down -- so while it is active
     # he is not idly recovering (spec §5: weather wears the temper, so a later provocation lands harder).
@@ -289,6 +303,7 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
         runtime.active_action,
         runtime.engaged_novelty,
         recovering=recovering,
+        burst_latched=runtime.burst_latched,
     )
 
     # 5. commit + clamp -> state'
@@ -347,6 +362,32 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
             reaction_target,
             reactive_allowed=reactive_allowed,
         )
+        # Displaced discharge (spec section 8 burst): a reactive reply landing on someone who is NOT
+        # the provocation's source, while the latch is SET and anger is over the displacement bar,
+        # books its relational cost TRANSIENTLY (discounted by config, default 0 = fully transient) --
+        # a flash of "snapped at her", never a durable grudge on the innocent (the fabricated-nemesis
+        # runaway is excluded by construction). The expression seam reads the tag to frame it AS
+        # displacement. Unlatched (the shipped default) -> this branch never runs -> bit-identical.
+        if (
+            displaced_gate
+            and sel.kind == ActionKind.REACTIVE
+            and reaction_target is not None
+            and reaction_target != runtime.last_provocation_source
+            and sel.post_effects.relations
+        ):
+            discount = float(config.appraisal.get("displaced_relational_discount", 0.0))
+            relations = {
+                src: {dim: v * discount for dim, v in dims.items()}
+                for src, dims in sel.post_effects.relations.items()
+            }
+            sel = replace(
+                sel,
+                post_effects=StateDelta(
+                    global_=sel.post_effects.global_, relations=relations
+                ),
+                explanation=sel.explanation
+                + " [DISPLACED onto a bystander; relational cost transient]",
+            )
         # 9. commit post_effects + mode/cooldown transition
         _commit(runtime, sel.post_effects)
         _apply_transition(runtime, prev_mode, sel, t)
@@ -378,6 +419,32 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
         if runtime.cooldowns["mode"] <= 0 and runtime.mode == Mode.COOLDOWN:
             runtime.mode = Mode.IDLE
 
+    # Burst latch transitions (spec section 8 burst), evaluated on the END-of-tick committed state.
+    # ENTER: BOTH loop states in the saturation band for burst_confirm_ticks (the LOOP plateau is the
+    # signature -- a single-state spike must not arm it). EXIT (hysteresis): anger back below burst_exit.
+    # All three thresholds must be configured or the latch is disabled (the shipped default).
+    enter_a = config.thresholds.get("burst_enter.anger")
+    enter_s = config.thresholds.get("burst_enter.stress")
+    exit_th = config.thresholds.get("burst_exit")
+    if enter_a is not None and enter_s is not None and exit_th is not None:
+        if runtime.burst_latched:
+            if runtime.global_state["anger"] <= exit_th:
+                runtime.burst_latched = False
+                runtime.burst_armed_since = None
+        else:
+            in_band = (
+                runtime.global_state["anger"] >= enter_a
+                and runtime.global_state["stress"] >= enter_s
+            )
+            if in_band:
+                if runtime.burst_armed_since is None:
+                    runtime.burst_armed_since = t
+                confirm = int(config.thresholds.get("burst_confirm_ticks", 1))
+                if (t - runtime.burst_armed_since) + 1 >= confirm:
+                    runtime.burst_latched = True
+            else:
+                runtime.burst_armed_since = None
+
     return TickTrace(
         t=t,
         event=event,
@@ -391,6 +458,7 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
         urges=urges,
         selection=sel,
         state_after_post=state_after_post,
+        burst_latched=runtime.burst_latched,
     )
 
 

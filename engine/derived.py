@@ -60,8 +60,13 @@ def compute(
         + w_urb.get("boredom_novelty_k", 0.0)
         * (nov - w_urb.get("boredom_novelty_ref", 0.5)),
     )
+    # Relief-seeking (spec section 4 / section 8 burst, Loop 2's return edge): the urge ALSO reads
+    # `stress` with a small positive weight -- a stressed character looks for something to take its
+    # mind off. Weight 0 (the neutral default) = today's behaviour; the loop this closes runs THROUGH
+    # the world (rich world: engaged relief, negative feedback; barren world: fruitless looking winds up).
     urge_boredom = clamp01(
         w_urb.get("boredom", 0.0) * g["boredom"] * nov_factor
+        + w_urb.get("stress", 0.0) * g["stress"]
         - w_urb.get("fatigue", 0.0) * g["fatigue"]
     )
 

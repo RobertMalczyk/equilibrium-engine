@@ -64,6 +64,7 @@ def compute(
     active_action: str | None,
     engaged_novelty: float = 1.0,
     recovering: bool = False,
+    burst_latched: bool = False,
 ) -> StateDelta:
     g = snapshot.global_state
     decay = config.decay
@@ -71,6 +72,12 @@ def compute(
     gains = config.gains
     gain_modulators = config.gain_modulators
     couplings = config.couplings
+    # spec section 8 burst / section 14: a coupling edge MAY escalate with its own input's level,
+    # g_eff = g*(1 + k_esc*y). Sparse; absent = 0 = the linear edge (bit-identical by construction).
+    escalation = config.coupling_escalation
+    # spec section 8 burst: while the latch is SET, an extinction term relaxes the loop states toward 0
+    # (the self-extinguishing episode). Empty/unlatched = no term.
+    extinction = config.burst_extinction if burst_latched else {}
     # per-tick effects apply while the persona is "active": BUSY (engaged activity), SEEKING (looking), or
     # SLEEP (M7.5 Part B -- the sleep reset is the `sleep` action's per_tick: fast states decay, fatigue/
     # sleep_pressure discharge, self_control recovers; the SLOW relations are absent so the grudge persists).
@@ -118,8 +125,18 @@ def compute(
                 new += gx[ch] * mod * si.value
 
         cx = couplings.get(x, {})
+        ex = escalation.get(x, {})
         for y in sorted(cx):
-            new += cx[y] * g[y]  # snapshot (synchronous)
+            # escalated edge: g*(1 + k_esc*y)*y -- local gain grows with the operating point (burst);
+            # k_esc absent/0 reduces to the exact linear product (the frozen calibration).
+            new += (
+                cx[y] * (1.0 + ex.get(y, 0.0) * g[y]) * g[y]
+            )  # snapshot (synchronous)
+
+        if x in extinction:
+            # burst extinction (latch SET): relax toward 0 at the configured rate -- the trajectory
+            # comes off the ceiling and keeps descending (spike, plateau, slow cool).
+            new += extinction[x] * (0.0 - g[x])
 
         if active:
             new += _active_effect(config, active_action, x, engaged_novelty)

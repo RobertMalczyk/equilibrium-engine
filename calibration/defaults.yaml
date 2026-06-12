@@ -88,6 +88,22 @@ couplings:
   frustration:
     boredom: 0.04               # boredom -> frustration
 
+# BURST & SATURATION (spec section 8 burst / section 14). All neutral/disabled by default ->
+# bit-identical; enabling is a calibration layer AFTER the frozen Layer-2 (gate: boundedness/return
+# check, not Jury, for the declared saturated regime).
+# coupling_escalation[x][y] = k_esc: the edge x<-y strengthens with its input, g_eff = g*(1+k_esc*y)
+# (the declared nonlinearity -- local gain grows with the operating point; 0/absent = linear edge).
+# Declared for the two Loop-1 edges ONLY (spec).
+coupling_escalation:
+  stress:
+    anger: 0.0                  # PLACEHOLDER (calibration; k_esc=0 = today's linear loop)
+  anger:
+    stress: 0.0                 # PLACEHOLDER (calibration)
+# burst_extinction[state] = per-tick relaxation toward 0 while the burst latch is SET (the
+# self-extinguishing episode: spike, plateau, slow cool over ~"an hour of game time").
+burst_extinction: {}            # e.g. {anger: 0.05, stress: 0.05} -- PLACEHOLDERS (calibration);
+                                # dormant: the latch never sets while its thresholds (below) are absent.
+
 # Ambient idle homeostasis (D11 fix): extra per-tick recovery toward calm, applied ONLY when the persona
 # is IDLE and unprovoked (no recent provocation -- the reactive_window). Seekers already recover via
 # self_activity (stress -0.04/tick when BUSY); non-seekers never engage one, so without this their stress
@@ -148,6 +164,10 @@ derived_weights:
     fatigue: 0.10               # D5: was 0.50 -- the strong brake made the urge UNREACHABLE (idle fatigue->1
                                 # killed it); the rest-drive competition already diverts a tired NPC, so a light
                                 # brake suffices. PLACEHOLDER.
+    stress: 0.0                 # RELIEF-SEEKING (spec section 4 / section 8 burst, Loop 2's return edge): a
+                                # stressed character looks for distraction. 0 = NEUTRAL DEFAULT (today's
+                                # behaviour, bit-identical); the loop it closes runs THROUGH the world.
+                                # PLACEHOLDER (calibration; both Loop-2 return paths enter the stability check).
     boredom_novelty_k: 1.20     # D5 TEMPO: novelty_seeking modulates the boredom term (fast-borers seek sooner,
                                 # low-novelty stoics later/never). PLACEHOLDER (ordering authorized; magnitude
                                 # pending calibration, like the pride gain modulator). ref = neutral trait 0.5.
@@ -320,9 +340,23 @@ thresholds:
 # (gesture + non-negative + non-resented) guarantees neutrality, not this magnitude: with no gesture / a
 # resented source it is never emitted -> positive_response dormant, hostile potentials untouched, goldens
 # bit-identical. PLACEHOLDER magnitude (calibration owns it).
+# BURST latch + displacement thresholds (spec section 8 burst) -- ABSENT = the latch and the
+# displaced-discharge gate are DISABLED (the shipped default; bit-identical). When enabled, ALL of
+# burst_enter.anger / burst_enter.stress / burst_exit must be set (both loop states must sit in the
+# saturation band for burst_confirm_ticks to arm -- the LOOP plateau, not a single-state spike;
+# exit < enter = hysteresis), plus theta_displace >> react.* for the bystander gate extension.
+# Example (eval/test values are authored per scenario, NOT here):
+#   burst_enter.anger: <theta>     burst_enter.stress: <theta>     burst_exit: <theta, < enter>
+#   burst_confirm_ticks: <n>       theta_displace: <theta, >> react.*>
+
 appraisal:
   gesture_channels: [food_nutrition, help]
   kindness_pressure: 1.0
+  # displaced_relational_discount: scales the relational deposit of a DISPLACED discharge (latch SET,
+  # target != the provocation's source). 0.0 (the default when absent) = fully transient -- a snap at
+  # the innocent books NO durable grudge (the fabricated-nemesis runaway excluded by construction).
+  # PLACEHOLDER (calibration may later allow a small residue).
+  displaced_relational_discount: 0.0
   bystander_pressure: 1.0       # target policy: transient magnitude when a respected non-provoking source
                                 # interacts amid residual anger. Neutral by construction via its GATE (see
                                 # _bystander_pressure), not via this value. PLACEHOLDER (calibration owns it).
