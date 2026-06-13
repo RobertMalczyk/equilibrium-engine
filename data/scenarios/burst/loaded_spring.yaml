@@ -1,0 +1,30 @@
+# M20.1 burst-calibration benchmark — THE LOADED SPRING (blocked discharge -> plateau).
+#
+# Purpose: the burst is precisely the BLOCKED-DISCHARGE mode (spec §8). A free-to-vent character
+# outbursts and discharges anger per reply, so it never plateaus; the plateau needs a hot, pinned
+# state with NO ONE to vent on. This benchmark pins the loaded-hot state (the morning's fury, caused
+# by someone NOT present) and then a KIND, NON-RESENTED bystander (Marta) arrives at the peak — the
+# "kicking the dog" case for displacement (C5 / G5) and the extinction trajectory (C2 / G3): with the
+# latch armed and nothing discharging it, the loop holds at the ceiling until extinction cools it.
+#
+# Same shared-initial format as same_soup_bad_day.yaml. Litmus dt; calibration owns the thresholds.
+id: loaded_spring
+persona: wojslaw
+initial_overrides:
+  global_state:
+    hunger: 0.55
+    fatigue: 0.60
+    boredom: 0.40
+    stress: 0.85        # pinned hot: a morning nobody here caused
+    frustration: 0.55
+    anger: 0.90         # white-hot, above the displacement bar
+    satisfaction: 0.05
+  relations:
+    marta:
+      trust: 0.40
+      respect: 0.30
+      resentment: 0.10  # a kind, NON-resented bystander -> her gesture is a kindness, not a slight
+events:
+  # nobody to vent on for a long stretch (the latch arms and holds), THEN kind Marta brings a meal at
+  # the peak -- the displaced discharge ("kicking the dog"), booked transiently (no durable grudge).
+  - {type: food_given, t: 12, source: marta, item: warm_meal, intensity: 0.8, context: {public: false}}

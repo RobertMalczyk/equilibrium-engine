@@ -1,0 +1,42 @@
+# M20.1 burst-calibration benchmark — THE ≥3-WAY BAD-DAY STACK.
+#
+# Purpose: drive a genuine ≥3-way drive coincidence (the burst trigger region, spec §8) from a
+# believable loaded operating point, so calibration (C1 k_esc / C3 latch) has a real spiral to bite
+# on AND so G6*/G7 can verify a burst actually fires. Composed from the existing Sapkowski keep
+# day-types (short_rations + foul_weather + bad_blood) — NO new channel, NO invented numbers:
+#   * short_rations + foul_weather  -> the LOADED state (hungry, tired, stressed, worn down on watch),
+#     pinned via initial_overrides as the realistic co-elevated operating point the corpus reaches
+#     (cf. the cichy_multi_060 trace: anger ~0.4-0.6 floor, stress ~0.35 — here lifted with hunger +
+#     fatigue for the third/fourth coinciding drive);
+#   * bad_blood -> a cluster of slights from a DEEPLY-RESENTED guard, stacked ON TOP of the loaded
+#     state = the ≥3-way coincidence that, once k_esc is calibrated, lifts the local loop gain across
+#     the Jury bound -> spiral -> clamp plateau -> burst latch.
+#
+# Same format as same_soup_bad_day.yaml: initial_overrides are SHARED loaded conditions applied to
+# whichever persona the calibration/contrast runner pairs this with (the persona field is
+# informational). Litmus dt (not the believable timescale) — calibration controls the operating point
+# directly, dt-agnostic, like the other benchmarks.
+id: bad_day_stack
+persona: wojslaw
+initial_overrides:
+  global_state:
+    hunger: 0.70        # short_rations: a lean, thin-meal day -> deep hunger
+    fatigue: 0.65       # foul_weather: a long cold watch -> worn down
+    boredom: 0.45
+    stress: 0.50        # rain stressor + hunger/fatigue feeding the loop
+    frustration: 0.40
+    anger: 0.40         # already simmering, below the burst band
+    satisfaction: 0.05
+  relations:
+    guard:
+      trust: 0.05
+      respect: 0.10
+      resentment: 0.85  # bad_blood: the slights come from a man he already loathes
+events:
+  # the bad_blood cluster: the resented guard needles him again and again with no let-up
+  - {type: insult, t: 0,  source: guard, intensity: 1.0, context: {public: false}}
+  - {type: insult, t: 4,  source: guard, intensity: 1.0, context: {public: false}}
+  - {type: insult, t: 8,  source: guard, intensity: 1.0, context: {public: false}}
+  - {type: insult, t: 12, source: guard, intensity: 1.0, context: {public: false}}
+  - {type: insult, t: 16, source: guard, intensity: 1.0, context: {public: false}}
+  - {type: insult, t: 20, source: guard, intensity: 1.0, context: {public: false}}

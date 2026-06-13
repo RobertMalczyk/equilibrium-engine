@@ -1,0 +1,30 @@
+# M20.1 burst-calibration benchmark — THE ORDINARY 2-WAY (must NEVER burst).
+#
+# Purpose: the CONTROL for "rare and earned" (spec §8, success criterion 3). The burst must fire only
+# in the accepted ≥3-way region; the FREQUENT combinations (pairs — measured at 13.9% of ticks,
+# dominant hungry+tired 11%, see eval/burst_cooccurrence_report.md) must stay LINEARLY STABLE at
+# their operating point after k_esc is calibrated. This benchmark pins the dominant hungry+tired pair
+# plus a single mild annoyance and asserts it does NOT spiral / does NOT latch — the negative gate
+# that bounds k_esc from above (C1 feasibility frontier). If calibration ever makes THIS latch, k_esc
+# is too large.
+#
+# Same shared-initial format as same_soup_bad_day.yaml. Litmus dt; calibration owns the thresholds.
+id: ordinary_pair
+persona: wojslaw
+initial_overrides:
+  global_state:
+    hunger: 0.50        # the dominant pair, at an EVERYDAY level...
+    fatigue: 0.45       # ...hungry + tired (the frequent 11%, not the siege extreme)
+    boredom: 0.40
+    stress: 0.30        # NOT co-elevated into the third drive
+    frustration: 0.15
+    anger: 0.15         # calm temper: no provocation cluster
+    satisfaction: 0.20
+  relations:
+    guard:
+      trust: 0.05
+      respect: 0.10
+      resentment: 0.85
+events:
+  # one ordinary slight -- an everyday annoyance, not a relentless cluster
+  - {type: insult, t: 6, source: guard, intensity: 0.6, context: {public: false}}
