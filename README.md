@@ -6,6 +6,12 @@ language model in the decision loop.
 
 **Website:** **[equilibrium-engine.dev](https://equilibrium-engine.dev/)** — interactive demos, the trace explorer, and the [white paper](https://equilibrium-engine.dev/whitepaper.pdf).
 
+> ⚠️ **Work in progress (research-grade).** The MVP thesis is proven and the core is stable and
+> tested, but the engine is under **active development** — APIs, the spec, and config layouts can
+> change without notice, and several subsystems are mid-calibration. See
+> [**Project status & current work**](#project-status--current-work) below for what is settled and
+> what is open.
+
 ---
 
 ## The idea in one paragraph
@@ -101,6 +107,30 @@ the sanity gate runs on a fresh clone; the generators (`eval/generate_*_scenario
 - **Block diagrams** — `docs/diagrams/`: each subsystem in both control (summing junctions, integrators,
   signed feedback) and functional (the cycle in domain language) form.
 
+## Project status & current work
+
+**Stable / proven.** The MVP thesis holds: same input → different visible actions per persona,
+byte-identical re-runs, behaviour from dynamics rather than scripts. The tick path, calibration
+harness (Layer 1/2), determinism goldens, and the believability eval (700-day + 700-multiday
+corpora, blind-judge) are in place and green.
+
+**In progress / known open issues:**
+
+- **Burst / outburst calibration (M20.1).** The burst-saturation subsystem (escalation, latch,
+  extinction, displaced aggression) is structurally complete and **ships inert** — every magnitude
+  is a neutral placeholder, so it has no effect until calibrated. Calibrating the numbers under a
+  boundedness gate is open work (`docs/burst_calibration_plan.md`).
+- **Blind-judge residuals.** A handful of corpus scenarios still read slightly off (e.g.
+  fury-on-waking, dense-refusal cadence); the full-corpus pass rate is ~99% but not 100%.
+- **Affinity-field generalisation.** A generic cosine-blended valence field (places/objects, and
+  optionally people-seeding) is being developed behind the input-filter seam.
+- **Stage-2 social dynamics.** Authority↔resentment back-edges, chains of command, mood contagion,
+  and leveled grievance are designed but not yet built.
+
+Because of the above, **treat the spec, config schema, and calibrated constants as moving targets.**
+Contributions and issue reports are welcome, but expect churn.
+
 ## License
 
-[Apache License 2.0](LICENSE) — © 2026 Robert Malczyk.
+[Apache License 2.0](LICENSE) — © 2026 Robert Malczyk. A permissive license: use, modify, and
+redistribute freely, including commercially, provided the license and copyright notice are retained.
