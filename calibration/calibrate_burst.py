@@ -51,11 +51,12 @@ BAND_ENTRY = {"anger": 0.80, "stress": 0.60}
 # The design note calls a burst a self-extinguishing episode that comes off the ceiling in "about
 # an hour" of game time. We express it in TICKS via the believable day layout (dt ~120s/tick).
 T_COOL_HOURS = 1.0
-# theta_burst_exit (anger) used as the C2 return target. PROVISIONAL: stage C3 pins the latch band
-# + hysteresis exit from the C1/C2 trajectory geometry. Chosen LOW (firmly inside the linearly
-# stable region, ~the high end of ordinary reactive anger) so it is CONSERVATIVE: any larger exit
-# C3 settles on is reached even sooner, so the C2 guarantee still holds.
-THETA_EXIT_C2 = 0.40
+# theta_burst_exit (anger) — the latch release hysteresis (stage C3), also the C2 cool-down return
+# target (C2 and C3 share it: C2 sizes extinction to reach it within T_cool, C3 uses it as the latch
+# exit). Anchored to the measured envelope: just BELOW the frequent <=2-way anger p99 (~0.4426), so
+# the latch releases once acute anger has fallen back beneath the ordinary reactive ceiling and
+# CANNOT re-arm from a normal provocation. Hysteresis gap to enter.anger (0.80) is 0.40 — chatter-free.
+THETA_BURST_EXIT = 0.40
 # the worst-case start of the cool-down: full saturation. If the latched loop returns from (1,1)
 # within T_cool, it returns from any lower in-band plateau at least as fast.
 CEILING = {"anger": 1.0, "stress": 1.0}
@@ -82,7 +83,7 @@ def latched_cooldown(
         s <- decay_s*s + g_as*(1+k*a)*a - ext_s*s      (anger  -> stress, escalated)
     setpoints/drifts/idle-recovery are 0 here (an active outburst episode, no external input). This
     is the analytic cool-down used to size extinction; the full-scenario check is G3* after the
-    overlay is wired. Returns the trajectory, monotonicity, and tick of return below THETA_EXIT_C2.
+    overlay is wired. Returns the trajectory, monotonicity, and tick of return below THETA_BURST_EXIT.
     Single source of the C2 cooling math (imported by tests/test_burst_calibration.py)."""
     a, s = a0, s0
     traj = [(a, s)]
@@ -97,7 +98,7 @@ def latched_cooldown(
         if a > prev_a + 1e-9:
             mono = False
         prev_a = a
-        if cross is None and a < THETA_EXIT_C2:
+        if cross is None and a < THETA_BURST_EXIT:
             cross = i
     return {"traj": traj, "mono": mono, "cross": cross, "final": (a, s)}
 
@@ -178,7 +179,7 @@ def _lambda_max(decay, g_as, g_sa, k, ext_a, ext_s, a, s) -> float:
 
 def solve_c2(k: float) -> dict:
     """C2 — extinction. Given k_esc (C1), choose the SMALLEST extinction (longest believable, still
-    bounded, episode) that returns the fully-saturated latched loop below THETA_EXIT_C2 within T_cool.
+    bounded, episode) that returns the fully-saturated latched loop below THETA_BURST_EXIT within T_cool.
 
     One scalar free parameter beta: ext_x = beta * (1 - decay_x). Splitting by each state's native
     decay rate makes anger relax faster than stress automatically (the design note's "anger falls
@@ -192,7 +193,7 @@ def solve_c2(k: float) -> dict:
     one_minus = {"anger": 1.0 - decay["anger"], "stress": 1.0 - decay["stress"]}
     t_cool = _t_cool_ticks()
 
-    # smallest beta (0.01 grid) whose full-saturation cool-down returns below THETA_EXIT_C2 within
+    # smallest beta (0.01 grid) whose full-saturation cool-down returns below THETA_BURST_EXIT within
     # t_cool ticks and is monotone (stays down, no re-spiral).
     beta = None
     b = 0.0
@@ -223,7 +224,66 @@ def solve_c2(k: float) -> dict:
     }
 
 
-def write_yaml(res: dict, c2: dict) -> None:
+def solve_c3(env: dict, c2: dict, k: float) -> dict:
+    """C3 — latch geometry (theta_burst_enter / theta_burst_exit / burst_confirm_ticks). Chosen from
+    the operating-point envelope + the escalated-loop spiral boundary + the C2 trajectory, NOT free-
+    optimised (the latch is the "rare and earned" selector once k_esc can't gate on coincidence count).
+
+      enter = BAND_ENTRY (0.80, 0.60): just ABOVE the measured frequent <=2-way ceiling
+              (anger {le2_anger_max}, stress {le2_stress_max}) AND at the escalated-loop spiral
+              boundary (Jury margin ~0 there, < 0 above) — ordinary coinciding drives never arm it.
+      exit  = THETA_BURST_EXIT (0.40): < enter.anger and just below the frequent anger p99
+              ({le2_anger_p99}) — releases once acute anger rejoins the ordinary reactive range and
+              cannot re-arm from a normal provocation. The hysteresis gap is enter.anger - exit.
+      confirm = 2: the minimal dwell > 1 tick. A single in-band tick must NOT arm (the signature is a
+              sustained LOOP plateau, not an instantaneous coincidence); 2 ticks ~ a few minutes at
+              the believable dt, and short vs. the bad-day plateau (verified plateau-capable, step 1).
+    """
+    enter_a = BAND_ENTRY["anger"]
+    enter_s = BAND_ENTRY["stress"]
+    exit_th = THETA_BURST_EXIT
+    confirm = 2
+    le2_a_max, le2_s_max = env["le2_anger_max"], env["le2_stress_max"]
+    le2_a_p99 = env["le2_anger_p99"]
+    # geometry sanity (mirrors the engine yaml_io validation + the "rare and earned" intent)
+    assert exit_th < enter_a, "hysteresis: exit must be < enter.anger"
+    assert enter_a > le2_a_max and enter_s > le2_s_max, "enter band must clear the frequent ceiling"
+    assert exit_th < le2_a_p99, "exit must be below the ordinary reactive anger p99 (chatter-free)"
+    assert confirm >= 2, "confirm must reject a single in-band tick"
+    prov_enter = (
+        f"latch arm band, anger edge = {enter_a}. Set just ABOVE the measured frequent <=2-way anger "
+        f"ceiling ({le2_a_max:.3f}) and at the escalated-loop (k_esc={k}) spiral boundary — the Jury "
+        f"margin is ~0 at (0.80,0.60) and negative above, so the loop only spirals (=burst) once both "
+        f"states clear the ordinary envelope. Carries the 'rare and earned' selectivity that k_esc "
+        f"cannot (C1 finding: >=3-way pairs don't out-reach <=2-way pairs)."
+    )
+    prov_exit = (
+        f"latch release hysteresis (anger) = {exit_th}. < enter.anger ({enter_a}) and just below the "
+        f"frequent <=2-way anger p99 ({le2_a_p99:.4f}): the latch releases once acute anger has fallen "
+        f"back beneath the ordinary reactive ceiling, so it cannot re-arm from a normal provocation. "
+        f"Hysteresis gap {enter_a - exit_th:.2f}. Shared with C2: extinction (beta={c2['beta']:.2f}) "
+        f"is sized so the fully-saturated cool-down reaches this exit within T_cool={c2['t_cool']} "
+        f"ticks (return at tick {c2['cross']})."
+    )
+    prov_confirm = (
+        f"latch confirm dwell = {confirm} ticks. The minimal value > 1: a single in-band tick must not "
+        f"arm the latch — the burst signature is a sustained LOOP plateau (both states in-band), not an "
+        f"instantaneous coincidence. {confirm} ticks ~ a few minutes at the believable dt, short vs the "
+        f"bad-day plateau (step-1 benchmarks are plateau-capable). Matches the G4 discrimination tests."
+    )
+    return {
+        "enter_a": enter_a,
+        "enter_s": enter_s,
+        "exit": exit_th,
+        "confirm": confirm,
+        "le2_s_max": le2_s_max,
+        "prov_enter": prov_enter,
+        "prov_exit": prov_exit,
+        "prov_confirm": prov_confirm,
+    }
+
+
+def write_yaml(res: dict, c2: dict, c3: dict) -> None:
     k = res["k"]
     prov = (
         f"C1 feasibility frontier (calibration/calibrate_burst.py). Frozen Layer-2: "
@@ -251,6 +311,10 @@ def write_yaml(res: dict, c2: dict) -> None:
             "coupling_escalation.stress.anger",
             "burst_extinction.anger",
             "burst_extinction.stress",
+            "thresholds.burst_enter.anger",
+            "thresholds.burst_enter.stress",
+            "thresholds.burst_exit",
+            "thresholds.burst_confirm_ticks",
         ],
         "calibrated": {
             "coupling_escalation.anger.stress": {
@@ -276,7 +340,7 @@ def write_yaml(res: dict, c2: dict) -> None:
                     f"believable dt. ONE free scalar beta={c2['beta']:.2f} with ext_x=beta*(1-decay_x) "
                     f"(split inherited from the frozen Layer-2 decays => anger faster than stress, no "
                     f"invented ratio). beta is the SMALLEST value whose fully-saturated (1,1) latched "
-                    f"cool-down returns below theta_burst_exit={THETA_EXIT_C2} within T_cool and stays "
+                    f"cool-down returns below theta_burst_exit={THETA_BURST_EXIT} within T_cool and stays "
                     f"down (monotone). Result: return at tick {c2['cross']} ({c2['cross']}<= {c2['t_cool']}), "
                     f"spectral radius at the ceiling lambda_max={c2['lam_ceiling']:.4f}<1 (bounded). "
                     f"ext_anger=beta*(1-decay_anger)={c2['ext_a']}."
@@ -292,12 +356,36 @@ def write_yaml(res: dict, c2: dict) -> None:
                     f"construction (stress cools slower than anger, per the design note)."
                 ),
             },
+            "thresholds.burst_enter.anger": {
+                "value": c3["enter_a"],
+                "kind": "latch_band",
+                "status": "calibrated-C3",
+                "provenance": c3["prov_enter"],
+            },
+            "thresholds.burst_enter.stress": {
+                "value": c3["enter_s"],
+                "kind": "latch_band",
+                "status": "calibrated-C3",
+                "provenance": (
+                    f"latch arm band, stress edge = {c3['enter_s']}; same anchor as "
+                    f"thresholds.burst_enter.anger (just above the measured frequent <=2-way stress "
+                    f"ceiling {c3['le2_s_max']:.3f}; both states must be in-band for the loop plateau)."
+                ),
+            },
+            "thresholds.burst_exit": {
+                "value": c3["exit"],
+                "kind": "latch_hysteresis",
+                "status": "calibrated-C3",
+                "provenance": c3["prov_exit"],
+            },
+            "thresholds.burst_confirm_ticks": {
+                "value": c3["confirm"],
+                "kind": "latch_dwell",
+                "status": "calibrated-C3",
+                "provenance": c3["prov_confirm"],
+            },
         },
-        "band_entry_used_for_C1": BAND_ENTRY,
-        "theta_burst_exit_used_for_C2": THETA_EXIT_C2,
         "stages_pending": [
-            "C3 latch geometry (theta_burst_enter/exit/confirm — pins BAND_ENTRY + finalizes the "
-            "C2 provisional theta_burst_exit)",
             "C4 Loop-2 sign (urge_boredom.stress, seek stress-cost)",
             "C5 theta_displace + displaced discount",
             "refractory edge weight (potential_weights.outburst.refractory_x_resent_src)",
@@ -354,11 +442,23 @@ def main() -> None:
     print(f"  burst_extinction.anger  = {c2['ext_a']}")
     print(f"  burst_extinction.stress = {c2['ext_s']}  (< anger: stress cools slower)")
     print(
-        f"full-saturation (1,1) cool-down: anger<{THETA_EXIT_C2} at tick {c2['cross']} "
+        f"full-saturation (1,1) cool-down: anger<{THETA_BURST_EXIT} at tick {c2['cross']} "
         f"(<= {c2['t_cool']}), monotone={c2['mono']}, lambda_max@ceiling={c2['lam_ceiling']:.4f}"
     )
 
-    write_yaml(res, c2)
+    # --- C3 latch geometry ---
+    c3 = solve_c3(res["env"], c2, res["k"])
+    print("\nC3 — latch geometry\n" + "=" * 50)
+    print(
+        f"burst_enter = (anger>={c3['enter_a']}, stress>={c3['enter_s']})  "
+        f"[> frequent ceiling ({res['env']['le2_anger_max']:.2f},{res['env']['le2_stress_max']:.2f})]"
+    )
+    print(
+        f"burst_exit  = {c3['exit']} (anger; < p99 {res['env']['le2_anger_p99']:.3f}, "
+        f"gap {c3['enter_a'] - c3['exit']:.2f})   burst_confirm_ticks = {c3['confirm']}"
+    )
+
+    write_yaml(res, c2, c3)
     print(f"\nwrote -> {OUT.relative_to(ROOT)}")
 
 

@@ -55,6 +55,17 @@ def _extinction() -> tuple[float, float]:
     )
 
 
+def _latch() -> dict:
+    doc = yaml.safe_load(BURST_YAML.read_text(encoding="utf-8"))
+    cal = doc["calibrated"]
+    return {
+        "enter_a": float(cal["thresholds.burst_enter.anger"]["value"]),
+        "enter_s": float(cal["thresholds.burst_enter.stress"]["value"]),
+        "exit": float(cal["thresholds.burst_exit"]["value"]),
+        "confirm": int(cal["thresholds.burst_confirm_ticks"]["value"]),
+    }
+
+
 def _escalated_margin(decay, g_as, g_sa, k, a, s) -> float:
     """Jury margin of the loop with the escalated LOCAL gains at operating point (a, s), via the
     engine's own jury_margin (single source of truth)."""
@@ -150,3 +161,48 @@ def test_C2_extinction_minimal_anger_faster_than_stress():
     )
     too_slow = weaker["cross"] is None or weaker["cross"] > _t_cool_ticks()
     assert too_slow, "extinction is stronger than the minimal return-within-T_cool rate"
+
+
+# --- C3 (latch geometry) acceptance ---------------------------------------------------------
+
+
+def test_C3_enter_band_clears_the_frequent_ceiling_and_spirals():
+    """The latch arm band sits ABOVE the measured frequent <=2-way ceiling (so ordinary coinciding
+    drives never arm it) and inside the escalated-loop spiral region (so once armed the loop is
+    actually bursting). This is the 'rare and earned' selectivity k_esc can't supply (C1)."""
+    decay, g_as, g_sa = _loop()
+    k = _k_esc()
+    lat = _latch()
+    env = json.loads(ENV_JSON.read_text(encoding="utf-8"))
+    assert lat["enter_a"] > env["le2_anger_max"] and lat["enter_s"] > env["le2_stress_max"]
+    # the frequent ceiling itself stays stable; the enter band spirals
+    assert _escalated_margin(decay, g_as, g_sa, k, env["le2_anger_max"], env["le2_stress_max"]) >= 0.0
+    assert _escalated_margin(decay, g_as, g_sa, k, lat["enter_a"], lat["enter_s"]) < 0.0
+
+
+def test_C3_exit_hysteresis_is_below_enter_and_chatter_free():
+    """Release hysteresis: exit < enter.anger (engine yaml_io requires it) and below the ordinary
+    reactive anger p99, so the latch cannot re-toggle from a normal provocation."""
+    lat = _latch()
+    env = json.loads(ENV_JSON.read_text(encoding="utf-8"))
+    assert lat["exit"] < lat["enter_a"]
+    assert lat["exit"] < env["le2_anger_p99"]
+
+
+def test_C3_confirm_dwell_rejects_a_single_tick():
+    """The loop-plateau signature: a single in-band tick must not arm — confirm >= 2."""
+    assert _latch()["confirm"] >= 2
+
+
+def test_C3_exit_is_consistent_with_C2_cooldown():
+    """C2/C3 coupling: the calibrated extinction returns the saturated loop below the C3 exit within
+    T_cool — the two stages agree on the same theta_burst_exit (no provisional drift)."""
+    decay, g_as, g_sa = _loop()
+    k = _k_esc()
+    ext_a, ext_s = _extinction()
+    r = latched_cooldown(decay, g_as, g_sa, k, ext_a, ext_s)
+    # latched_cooldown's internal cross uses THETA_BURST_EXIT; assert the YAML exit matches it
+    from calibration.calibrate_burst import THETA_BURST_EXIT
+
+    assert _latch()["exit"] == THETA_BURST_EXIT
+    assert r["cross"] is not None and r["cross"] <= _t_cool_ticks()
