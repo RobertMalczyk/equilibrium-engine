@@ -249,3 +249,32 @@ def test_C4_urge_boredom_stress_edge_is_inert():
     """Measured finding: the stress->seek return edge stays neutral (boredom already drives seeking);
     the topology edge exists but its calibrated weight is 0."""
     assert _loop2()["w_s"] == 0.0
+
+
+# --- C5 (displacement bar) acceptance -------------------------------------------------------
+
+
+def _displace() -> dict:
+    doc = yaml.safe_load(BURST_YAML.read_text(encoding="utf-8"))
+    cal = doc["calibrated"]
+    return {
+        "theta": float(cal["thresholds.theta_displace"]["value"]),
+        "discount": float(cal["appraisal.displaced_relational_discount"]["value"]),
+    }
+
+
+def test_C5_theta_displace_sits_in_the_deep_half_of_the_burst():
+    """Displacement fires only in DEEP burst: theta_displace is inside the latch band (exit <
+    theta < enter.anger) and above typical reactive anger (the frequent <=2-way anger p99), so a
+    normal reactive anger never displaces and the gate closes as anger cools below it."""
+    d = _displace()
+    lat = _latch()
+    env = json.loads(ENV_JSON.read_text(encoding="utf-8"))
+    assert lat["exit"] < d["theta"] < lat["enter_a"]
+    assert d["theta"] > env["le2_anger_p99"]
+
+
+def test_C5_displaced_grudge_is_fully_transient():
+    """The discharge onto an innocent bystander books NO durable grudge (discount 0) — the intended
+    default that excludes the fabricated-nemesis runaway."""
+    assert _displace()["discount"] == 0.0

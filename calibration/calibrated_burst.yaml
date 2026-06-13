@@ -17,6 +17,8 @@ free_set:
 - thresholds.burst_confirm_ticks
 - action_params.seek_stimulus.per_tick.stress
 - derived_weights.urge_boredom.stress
+- thresholds.theta_displace
+- appraisal.displaced_relational_discount
 calibrated:
   coupling_escalation.anger.stress:
     value: 1.1
@@ -100,6 +102,24 @@ calibrated:
       \ making a pure-stress (boredom 0) character seek requires w_s ~ the seek threshold (~0.85), a large,\
       \ fragile hand-set value. Per topology-now / never-invent-numbers, the edge stays NEUTRAL (0); Loop\
       \ 2 is carried by the seek stress-cost (B2). The topology edge exists, the weight is 0."
+  thresholds.theta_displace:
+    value: 0.6
+    kind: displacement_bar
+    status: calibrated-C5
+    provenance: 'displacement bar = 0.6 = midpoint of the C3 latch band [exit 0.4, enter.anger 0.8]. Displacement
+      fires only in the DEEP half of the burst: above typical reactive anger (frequent <=2-way anger p99
+      0.4426) and below the plateau where the latch arms (0.8); the gate closes as anger cools through
+      the band''s lower half, before the latch releases at exit. Validated by the existing G5 displacement
+      tests.'
+  appraisal.displaced_relational_discount:
+    value: 0.0
+    kind: displaced_grudge_discount
+    status: default-C5
+    provenance: "displaced relational discount = 0.0: the discharge onto an INNOCENT bystander books NO\
+      \ durable grudge (fully transient \u2014 'snapped at her'); the intended default that excludes the\
+      \ fabricated-nemesis runaway. Nonzero only for a story/persona target with a provenance-backed partial\
+      \ grudge (none here)."
 stages_pending:
-- C5 theta_displace + displaced discount
-- refractory edge weight (potential_weights.outburst.refractory_x_resent_src)
+- "refractory edge weight (potential_weights.outburst.refractory_x_resent_src) \u2014 turn ON"
+- wire the burst overlay into the eval loader (plan step 4, opt-in)
+- 1400-scenario regression + sanity + cichy_multi_060 (plan step 5)

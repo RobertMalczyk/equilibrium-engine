@@ -1,6 +1,12 @@
 """M20.1 burst calibration — staged, deterministic, provenance-tracked (plan §4).
 
-STAGE C1 (this file, so far): the k_esc feasibility frontier. Reads the frozen Layer-2 loop
+STAGES C1–C5 (all here): C1 k_esc feasibility frontier (solve_c1) -> C2 extinction (solve_c2,
+latched_cooldown) -> C3 latch geometry (solve_c3) -> C4 Loop-2 sign (solve_c4, loop2_contrast) ->
+C5 displacement bar (solve_c5). All write calibration/calibrated_burst.yaml (overlay; defaults stay
+neutral, goldens bit-identical until the overlay is wired at plan step 4). Remaining: turn the
+refractory-edge weight ON, wire the overlay, run the 1400-scenario regression.
+
+C1 detail — the k_esc feasibility frontier. Reads the frozen Layer-2 loop
 (couplings + decays) and the MEASURED operating-point envelope (eval/burst_operating_points.json,
 produced by eval/measure_operating_points.py) and chooses the per-edge escalation k_esc analytically:
 
@@ -224,6 +230,39 @@ def solve_c2(k: float) -> dict:
     }
 
 
+def solve_c5(c3: dict, env: dict) -> dict:
+    """C5 — theta_displace (the displacement bar) + the displaced relational discount.
+
+      theta_displace = midpoint of the C3 latch hysteresis band [exit, enter.anger]. Displacement
+        ("kicking the dog": a sourced event catches the spent fury while latched) fires only in the
+        DEEP half of the episode — above typical reactive anger (the frequent <=2-way anger p99) and
+        below the plateau where the latch arms (enter.anger). As anger cools through the lower half of
+        the band the gate closes again, before the latch itself releases at exit.
+      displaced_relational_discount = 0.0: the grudge booked on the INNOCENT target is fully transient
+        ("snapped at her", no durable resentment) — the intended default (the fabricated-nemesis
+        runaway is excluded by construction). Nonzero ONLY with a story/persona target that carries a
+        provenance-backed partial grudge; none here, so it stays 0.
+    """
+    theta = round((c3["exit"] + c3["enter_a"]) / 2.0, 2)
+    le2_a_p99 = env["le2_anger_p99"]
+    assert c3["exit"] < theta < c3["enter_a"], "theta_displace must sit inside the latch band"
+    assert theta > le2_a_p99, "theta_displace must be above typical reactive anger (frequent p99)"
+    prov_theta = (
+        f"displacement bar = {theta} = midpoint of the C3 latch band [exit {c3['exit']}, enter.anger "
+        f"{c3['enter_a']}]. Displacement fires only in the DEEP half of the burst: above typical "
+        f"reactive anger (frequent <=2-way anger p99 {le2_a_p99:.4f}) and below the plateau where the "
+        f"latch arms ({c3['enter_a']}); the gate closes as anger cools through the band's lower half, "
+        f"before the latch releases at exit. Validated by the existing G5 displacement tests."
+    )
+    prov_discount = (
+        "displaced relational discount = 0.0: the discharge onto an INNOCENT bystander books NO "
+        "durable grudge (fully transient — 'snapped at her'); the intended default that excludes the "
+        "fabricated-nemesis runaway. Nonzero only for a story/persona target with a provenance-backed "
+        "partial grudge (none here)."
+    )
+    return {"theta_displace": theta, "discount": 0.0, "prov_theta": prov_theta, "prov_discount": prov_discount}
+
+
 def loop2_contrast(seek_cost: float, window: int = 15) -> dict:
     """Run the rich and barren mock-world scenarios (lutek, STRESSED start) with the given burst
     seek stress-cost and return the mean per-tick STRESS slope of each. Single source of the C4
@@ -340,7 +379,7 @@ def solve_c3(env: dict, c2: dict, k: float) -> dict:
     }
 
 
-def write_yaml(res: dict, c2: dict, c3: dict, c4: dict) -> None:
+def write_yaml(res: dict, c2: dict, c3: dict, c4: dict, c5: dict) -> None:
     k = res["k"]
     prov = (
         f"C1 feasibility frontier (calibration/calibrate_burst.py). Frozen Layer-2: "
@@ -374,6 +413,8 @@ def write_yaml(res: dict, c2: dict, c3: dict, c4: dict) -> None:
             "thresholds.burst_confirm_ticks",
             "action_params.seek_stimulus.per_tick.stress",
             "derived_weights.urge_boredom.stress",
+            "thresholds.theta_displace",
+            "appraisal.displaced_relational_discount",
         ],
         "calibrated": {
             "coupling_escalation.anger.stress": {
@@ -470,10 +511,23 @@ def write_yaml(res: dict, c2: dict, c3: dict, c4: dict) -> None:
                     "carried by the seek stress-cost (B2). The topology edge exists, the weight is 0."
                 ),
             },
+            "thresholds.theta_displace": {
+                "value": c5["theta_displace"],
+                "kind": "displacement_bar",
+                "status": "calibrated-C5",
+                "provenance": c5["prov_theta"],
+            },
+            "appraisal.displaced_relational_discount": {
+                "value": c5["discount"],
+                "kind": "displaced_grudge_discount",
+                "status": "default-C5",
+                "provenance": c5["prov_discount"],
+            },
         },
         "stages_pending": [
-            "C5 theta_displace + displaced discount",
-            "refractory edge weight (potential_weights.outburst.refractory_x_resent_src)",
+            "refractory edge weight (potential_weights.outburst.refractory_x_resent_src) — turn ON",
+            "wire the burst overlay into the eval loader (plan step 4, opt-in)",
+            "1400-scenario regression + sanity + cichy_multi_060 (plan step 5)",
         ],
     }
     OUT.write_text(
@@ -552,7 +606,16 @@ def main() -> None:
     print(f"  contrast margin     = {c4['margin']:+.4f}")
     print(f"derived_weights.urge_boredom.stress = {c4['w_s']} (measured-inert: boredom already seeks)")
 
-    write_yaml(res, c2, c3, c4)
+    # --- C5 displacement bar + discount ---
+    c5 = solve_c5(c3, res["env"])
+    print("\nC5 — displacement bar\n" + "=" * 50)
+    print(
+        f"theta_displace = {c5['theta_displace']} (midpoint of latch band "
+        f"[{c3['exit']},{c3['enter_a']}]; > reactive p99 {res['env']['le2_anger_p99']:.3f})"
+    )
+    print(f"displaced_relational_discount = {c5['discount']} (fully transient — no grudge on the innocent)")
+
+    write_yaml(res, c2, c3, c4, c5)
     print(f"\nwrote -> {OUT.relative_to(ROOT)}")
 
 
