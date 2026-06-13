@@ -278,3 +278,32 @@ def test_C5_displaced_grudge_is_fully_transient():
     """The discharge onto an innocent bystander books NO durable grudge (discount 0) — the intended
     default that excludes the fabricated-nemesis runaway."""
     assert _displace()["discount"] == 0.0
+
+
+# --- REFRAMED vent acceptance (2026-06-14): the vent is a stability safety valve ------------
+# Silent on a single/ordinary load (one stable loop must NOT vent); fires + self-terminates on a
+# genuine multi-loop coincidence. REPLACES the earlier mis-aimed cichy_multi_060 target (a single
+# relentless provoker is one stable loop, supposed to stay bounded WITHOUT venting). See
+# eval/verify_vent_boundedness.py for the full rationale.
+
+
+def test_vent_is_silent_on_an_ordinary_single_load():
+    """(1) The frequent ordinary 2-way load (hungry+tired + one mild slight) is individually stable —
+    the safety valve must stay SHUT (no latch). If this ever vents, the burst is firing on a single
+    bounded loop, which the design forbids."""
+    from eval.verify_vent_boundedness import vent_response
+
+    r = vent_response("wojslaw", "ordinary_pair")
+    assert not r["armed"], "the vent armed on an ordinary single load (must stay silent)"
+
+
+def test_vent_fires_and_self_terminates_on_a_multiloop_coincidence():
+    """(2) A genuine >=3-way bad-day stack (loaded state + a resented-provoker cluster) excites several
+    unrelated loops at once; the vent must ARM (catch the un-certifiable combination) AND RELEASE
+    within the response window (extinction discharges the saturation — the episode self-terminates,
+    the character returns bounded rather than staying pegged)."""
+    from eval.verify_vent_boundedness import vent_response
+
+    r = vent_response("wojslaw", "bad_day_stack")
+    assert r["armed"], "the vent did not fire on a genuine >=3-way coincidence"
+    assert r["released"], "the vent latched but never released — the episode did not self-terminate"
