@@ -52,6 +52,32 @@ def recovery_overrides() -> dict:
     return ov
 
 
+def burst_overrides() -> dict:
+    """param_overrides for the M20.1 BURST overlay (calibration/calibrated_burst.yaml: C1-C5 — k_esc,
+    extinction, latch band+hysteresis+confirm, Loop-2 seek cost, theta_displace, displaced discount).
+    OPT-IN only: stacking this ARMS the latch (the enter thresholds), which in turn activates the
+    escalation, extinction, displacement gate, AND the latched-provoker refractory edge (whose weights
+    already live in defaults but are gated by the latch). Defaults stay neutral -> the golden/litmus
+    path and any burst=False eval run are bit-identical.
+
+    The free_set keys are dotted paths. Most nest straight into the config tree, BUT a few latch
+    thresholds are stored under FLAT keys that themselves contain a dot (e.g. thresholds['burst_enter.
+    anger']); those must NOT be re-nested, so `thresholds.*` is peeled off and kept flat."""
+    doc = yaml.safe_load((CAL / "calibrated_burst.yaml").read_text(encoding="utf-8"))
+    flat = {k: v["value"] for k, v in doc["calibrated"].items()}
+    thresholds: dict = {}
+    rest: dict = {}
+    for key, val in flat.items():
+        if key.startswith("thresholds."):
+            thresholds[key[len("thresholds.") :]] = val  # flat threshold key (may contain a dot)
+        else:
+            rest[key] = val
+    ov = nest_dotted(rest)
+    if thresholds:
+        ov = _merge(ov, {"thresholds": thresholds})
+    return ov
+
+
 def _drift_to_reach(level: float, t_sec: float, half_life: float, dt: float) -> float:
     """Per-tick drift for an accumulator (setpoint 0) to rise from 0 to `level` in `t_sec` real seconds, at a
     GIVEN half-life. Closed form of x_{t+1}=decay*x+drift: x(n)=x*(1-decay^n), x*=drift/(1-decay)."""
@@ -141,13 +167,18 @@ def timescale_overrides() -> dict:
     return _merge(recovery_overrides(), ov)
 
 
-def load_eval_persona_timescale(persona_id: str) -> PersonaConfig:
+def load_eval_persona_timescale(persona_id: str, burst: bool = False) -> PersonaConfig:
     """Eval persona with the believable per-dimension time constants (a believable DAY; see
-    timescale_overrides). Use for the day corpus / story once the keeper passes."""
+    timescale_overrides). Use for the day corpus / story once the keeper passes.
+
+    ``burst`` (default False) stacks the M20.1 burst overlay (opt-in); False is bit-identical."""
+    ov = timescale_overrides()
+    if burst:
+        ov = _merge(ov, burst_overrides())
     return load_persona(
         ROOT / "data" / "personas" / f"{persona_id}.yaml",
         DEFAULTS,
-        param_overrides=timescale_overrides(),
+        param_overrides=ov,
     )
 
 
@@ -163,16 +194,23 @@ def believable_day_layout() -> dict:
     }
 
 
-def load_eval_persona(persona_id: str, time_scale: float = 1.0) -> PersonaConfig:
+def load_eval_persona(
+    persona_id: str, time_scale: float = 1.0, burst: bool = False
+) -> PersonaConfig:
     """A persona loaded with the calibrated + recovery dynamics (for the eval / day-corpus path).
 
     ``time_scale`` (default 1.0 = identity) uniformly slows ALL time constants so a believable DAY emerges
     from the placeholder-fast emotions (anger half-life 30s). It is a pure clock reparametrization: the
     tick-by-tick trace is bit-identical, only dt (seconds/tick) stretches (see engine/yaml_io). Eval-only --
-    defaults stay at 1.0 so the frozen golden/litmus path is untouched."""
+    defaults stay at 1.0 so the frozen golden/litmus path is untouched.
+
+    ``burst`` (default False) stacks the M20.1 burst overlay (burst_overrides) on top -- OPT-IN, so the
+    burst machinery is live only where a caller asks for it; burst=False is bit-identical to before."""
     ov = recovery_overrides()
     if time_scale != 1.0:
         ov = _merge(ov, {"tick": {"time_scale": float(time_scale)}})
+    if burst:
+        ov = _merge(ov, burst_overrides())
     return load_persona(
         ROOT / "data" / "personas" / f"{persona_id}.yaml", DEFAULTS, param_overrides=ov
     )
