@@ -116,7 +116,7 @@ DerivedSnapshot:                            # computed every tick, NOT state
 
 StateDelta:  global: dict[str,float],  relations: dict[AgentId, dict[str,float]]
 
-PotentialVector [0..1 after clamp]:  complain outburst cold_response cooperate refuse
+PotentialVector [0..1 after clamp]:  complain outburst cold_response cooperate refuse positive_response
 ActionId = neutral | positive_response | cooperate | complain | cold_response | refuse
          | outburst | hostile_action            # reactive (hostile = top range of outburst)
          | seek_stimulus | rest                  # proactive (activities with a duration)
@@ -195,6 +195,23 @@ relational channels).
 `promise_broken`→trust↓,resentment↑,anger↑ (betrayal amplification) · `boundary_violation`→resentment↑,anger↑ ·
 `care_signal`→trust↑ · `apology`→resentment↓ (rebuilds trust) · `competence_signal`→respect↑ ·
 `repeated_failure`→respect↓,frustration↑ · `control_loss`→frustration↑,stress↑,resentment↑.
+
+**Social Event Mapper Pack (negative-but-not-insult social events; MVP-active, mapper/spec extension
+only — input surfaces, NOT new internal states).** Three relational channels weaker/more specific than
+`insult`, each emitted by a RawEvent of the same name, source preserved, **negative** polarity, routed
+like every relational channel (per-source `relation_filter` bias + public `social_exposure`); all
+magnitudes are config placeholders owned by calibration (`gains.*`, `gains.relations.*`), ordered
+`insult` (strongest) > `complaint` ≈ `refusal` > `cold_reply` (weakest):
+- `cold_reply`→frustration↑(small),anger↑(slight),resentment↑(small),trust↓(cooling) — a restrained
+  negative reply: social distance / mild irritation / relational cooling, the **weakest** of the three;
+- `refusal`→frustration↑,anger↑(small),resentment↑,respect↓,trust↓ — a rejection of a request/order/
+  invitation: social **friction** (distinct from `command`, an order, and `insult`, an attack), with a
+  little respect/trust erosion;
+- `complaint`→frustration↑,resentment↑,anger↑(small) — verbalized dissatisfaction / negative social
+  pressure, milder than `insult` and weighted toward the **frustration/resentment** paths over raw anger.
+These need no new selector logic: feeding anger/frustration from a source, they are detected as
+provocations by the generic gate (§7) and route through the existing reactive actions
+(`complain`/`cold_response`/`outburst`), so the choice still emerges from state+traits.
 
 **Routing rule (dispatch, per channel):**
 ```text

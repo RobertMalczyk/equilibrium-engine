@@ -102,6 +102,48 @@ def map_event(
         )
         return out
 
+    if event.type == "cold_reply":
+        # Social Event Mapper Pack: a restrained negative reply -- colder than neutral, but not an
+        # attack. Relational (source = the speaker), negative; the WEAKEST of the negative social
+        # events. Expresses social distance / mild irritation / relational cooling. Like every
+        # relational channel it routes through the relation_filter (per-source bias + public exposure)
+        # and its state/relation deposits live in config (gains.*.cold_reply) -- the mapper stays dumb.
+        out["cold_reply"] = SemanticInput(
+            name="cold_reply",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type == "refusal":
+        # Social Event Mapper Pack: a rejection of a request/order/invitation -- social friction, not
+        # automatically an insult. Relational, negative; distinct from `command` (an order) and
+        # `insult` (an attack). Friction + frustration, with a little respect/trust erosion (gains in
+        # config). Magnitudes owned by calibration.
+        out["refusal"] = SemanticInput(
+            name="refusal",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type == "complaint":
+        # Social Event Mapper Pack: verbalized dissatisfaction / negative social pressure -- not
+        # necessarily an attack. Relational, negative; milder than `insult`, and weighted (in config)
+        # toward the frustration/resentment paths more than raw anger.
+        out["complaint"] = SemanticInput(
+            name="complaint",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
     if event.type == "nightfall":
         # M7.5 Part B: the day/night signal (self, no source). Raises sleep_pressure; the sleep drive then
         # fires the SLEEP mode. A world/runner mode-control signal, like `activity` -- "the loop closes in
