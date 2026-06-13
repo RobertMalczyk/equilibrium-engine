@@ -25,9 +25,10 @@ the anger⇄stress loop is deliberately driven *locally unstable* in rare drive-
 
 ## 1. What we want to achieve (success criteria)
 
-1. **A real outburst exists.** For at least the burst-prone personas (wojsław; the M20.1 memo
-   names **cichy_060** (`eval/scenarios/day/cichy/cichy_day_060.yaml`) as the residual that must
-   clear), a sufficiently bad stacked day produces
+1. **A real outburst exists.** For at least the burst-prone personas (wojsław; the named residual
+   is **`cichy_multi_060`** — `eval/scenarios/day/multiday/cichy/cichy_multi_060.yaml`, the
+   *multiday* `bad_blood` Day-2 insult cluster — **NOT** `cichy_day_060`, which passes; see the
+   diagnosis in §1.5), a sufficiently bad stacked day produces
    a genuine spike→plateau→slow-cool episode — fury that *holds* — not a gentle weak-gain rise.
 2. **It is bounded — always.** Every latched episode extinguishes and the latch releases below
    `theta_burst_exit` within a bounded time and **stays down** (no re-ignition without fresh
@@ -46,6 +47,31 @@ the anger⇄stress loop is deliberately driven *locally unstable* in rare drive-
 **Non-goals (explicitly deferred):** the stage-2 authority↔resentment back-edge, mood contagion,
 leveled grievance, and the affinity-field people-seeding — all tracked separately. M20.1 does not
 touch Layer-1/Layer-2 gains already calibrated; it adds the burst overlay *on top of* them.
+
+---
+
+## 1.5 Acceptance-target diagnosis (done 2026-06-13, BEFORE any tuning — plan risk #2)
+
+The named target was run through the engine before touching a parameter. Findings:
+
+- **The target identifier was wrong.** `cichy_day_060` (the day corpus) **PASSES** ("calm day,
+  warm to stranger, curt to guard"; anger never leaves 0). The actually-flagged residual is
+  **`cichy_multi_060`** (multiday), which the regression report ties to the saturation/runaway
+  family. All references corrected.
+- **The residual is in the burst family but only reaches a *modest* plateau.** On Day 2
+  (`bad_blood`, 8 insults from the deeply-resented guard, t≈789→1047): `resentment[guard]`
+  saturates to ~1.0; `anger` spikes 0.47→0.61 per insult and **floors at ~0.33–0.40 between them**
+  (real wind-up, never returns to 0); `stress` holds a **~0.35 plateau**. So the loop is elevated
+  and sustained but tops out at **anger ~0.6 / stress ~0.35** — nowhere near the clamp ceiling.
+  With `k_esc=0` there is no escalation to push it into a latch band.
+- **A TOPOLOGY GAP, not a tuning problem (decided: fix topology first).** Each fresh insult
+  re-opens the reactive gate and fires an **independent full-intensity `outburst` (score 0.94–1.0)**
+  — 7 times. The implausibility is not an *unbounded* runaway; it is **7 identical maximal eruptions
+  with no episode structure** (no single sustained breakdown, no eventual numbing/withdrawal). The
+  burst latch as specced only changes the *bystander* gate (displacement); the **provoker still gets
+  ordinary `react.*` thresholds**, so calibration alone would leave the cluster intact. Per the
+  project rule (*a qualitative bug present at every weight is a topology fix, not tuning*), M20.1
+  now begins with a topology stage — see §3.5.
 
 ---
 
@@ -95,6 +121,38 @@ Eight families, in two groups. **No number is chosen by hand** — each is an ou
 | B4 | `appraisal.displaced_relational_discount` | grudge on the innocent bystander | 0 (transient) | keep at 0 unless a target says otherwise (provenance) |
 
 ---
+
+## 3.5 Topology stage — the latched-provoker refractory edge (NEW; spec + diagram first)
+
+The §1.5 diagnosis shows calibration alone cannot fix `cichy_multi_060`: while a burst is latched,
+a *fresh* provocation from the same source re-fires a full outburst, giving the "relentless cluster"
+the judge flagged. The missing topology: **a latched/saturated NPC does not keep exploding fresh at
+the same provoker — the first eruption opens an episode; subsequent same-source provocations during
+the episode shift toward a sustained/numbed reaction (cold contempt / withdrawal), not a new
+max-intensity outburst.**
+
+This is generic-element work, not a new subsystem:
+
+- **Mechanism (signed inhibitory edge, the existing idiom):** while `burst_latched`, the provoker's
+  `outburst` potential reads a **negative** modulation by a latched-refractory factor — the same
+  signed-edge pattern as `command_x_respect_src` (Branic) and `kindness_x_*` (Theme A). The vented
+  energy has already discharged; the latch records that, and a same-tick re-provocation routes to
+  `cold_response` (which is already in the catalog) rather than a fresh `outburst`.
+- **Where:** a new `potential_weights.outburst.<latched_refractory>` term (placeholder, neutral 0 →
+  bit-identical when burst is off or unlatched), fed by the existing `burst_latched` flag — no new
+  state, no new channel. The refractory factor is sourced from the latch the burst mechanism already
+  maintains.
+- **Invariants:** feed-forward from an existing flag (no new loop); neutral default = today's
+  behaviour; the *first* outburst of an episode is unchanged (refractory applies only while already
+  latched); a genuinely *new* provoker (different source) is unaffected (this is source-scoped, like
+  the displacement gate's `target != remembered provoker`).
+- **DoD for this stage:** spec §8 updated (the refractory edge added to the burst loop inventory) +
+  `docs/diagrams/burst_saturation.md` updated **before** code; a structural test (G7) that a latched
+  episode with repeated same-source provocation yields ONE outburst then cold/numbed reactions, and
+  that the unlatched / burst-off path is bit-identical.
+
+Only after this edge exists (inert by default) does the calibration in §4 turn it — and the rest of
+the burst overlay — on.
 
 ## 4. Calibration method (per the project's calibration discipline)
 
@@ -164,8 +222,8 @@ G4 (latch discrimination), G5 (displacement), config-error guards, determinism �
 **Regression (the big gate):** re-run the **1400-scenario blind regression** (700 day + 700
 multiday) with the burst overlay active and confirm **no regression** vs the M20 baseline
 (day 698/700, multi 626/630); re-run `eval/sanity_multiday.py --all` (7-check gate) and confirm
-the pass rate holds; target the **cichy_060** residual clears. Blind-judge a fresh batch on the
-bad-day scenarios specifically (the episodes are the new behaviour the judge has not seen).
+the pass rate holds; target the **cichy_multi_060** residual clears. Blind-judge a fresh batch on
+the bad-day scenarios specifically (the episodes are the new behaviour the judge has not seen).
 
 ---
 
@@ -181,7 +239,7 @@ authoring work.
 | **Bad-day stack** | drive the ≥3-way coincidence so the loop spirals | ~6–10 | hand-authored YAML in `data/scenarios/` (calibration benchmarks, same format as `same_soup_bad_day.yaml`): hunger + fatigue + repeated provocation + fruitless seeking stacked over a believable day | **Sapkowski keep day-types** already in the multiday generator (`short_rations` + `drill` + `foul_weather` + `bad_blood`) — compose the existing lore-flavoured multipliers, do not invent new channels |
 | **Loaded-spring (blocked discharge)** | the plateau: hot, pinned, *no one to vent on* until a bystander arrives | ~3 | extend the `eval/burst_eval.py` loaded-spring arc into seeded scenarios; provoker absent, then a kind/neutral bystander at the peak | the wojsław/Marta measurement already cited in `test_burst.py` G5 |
 | **Rich vs barren world pair** | Loop 2 sign (relief vs wind-up) | 2 | one scenario in a mock world with activities available, one barren | mock-world runner (`eval/`), `seek_stimulus` semantics |
-| **cichy_060 (the named residual)** | the specific scenario M20.1 must fix | 1 | locate `cichy` day-scenario index 060 in `eval/scenarios/day/cichy/`; if it is the fury-on-waking / dense-refusals residual, it is the acceptance target | existing corpus + the project-status residual note |
+| **cichy_multi_060 (the named residual)** | the specific scenario M20.1 must fix | 1 | `eval/scenarios/multiday/cichy/cichy_multi_060.yaml` — Day 2 `bad_blood` insult cluster; DIAGNOSED (§1.5) as the repeated-provocation / no-episode-structure case → fixed by the §3.5 refractory edge + burst calibration, not calibration alone | existing corpus + the §1.5 diagnosis |
 | **Persona-contrast trio** | bursts differ by persona, not by a per-persona number | 3 (wojsław/halgrim/branic) | same bad-day excitation, three personas → burst / suppress / obey-priority | `data/personas/*.yaml` traits; contrast must emerge from state+traits, not a hand-set per-persona burst param |
 
 **Authoring discipline:** scenarios are **deterministic** (numpy-seeded, not LLM-generated);
@@ -193,17 +251,20 @@ sourced from the existing Sapkowski day-type vocabulary and the cast/relation gr
 
 ## 7. Work sequence (when development starts — not now)
 
-0. **Spec/diagram check.** Re-read spec §8/§14/§16; confirm the diagram still matches. If C1–C5
-   reveal a topology gap (a bug present at *every* weight), stop and fix topology in the spec first.
+0. **Spec/diagram check + acceptance-target diagnosis. DONE (§1.5).** Confirmed a topology gap
+   (the latched-provoker case), so per the rule we fix topology first (step 0.5).
+0.5 **Topology stage (§3.5): the latched-provoker refractory edge.** Spec §8 + diagram FIRST, then
+   the inert signed-edge term + the G7 structural test. Bit-identical when burst off / unlatched.
 1. Author the bad-day + loaded-spring + rich/barren calibration scenarios (§6). Verify they reach
    the ≥3-way region and (for loaded-spring) hold the plateau — *before* any number is tuned.
 2. C1 `k_esc` feasibility frontier → C2 extinction → C3 latch geometry → C4 Loop 2 → C5 displacement
    (§4), each frozen and its gate green before the next. Write `calibration/calibrated_burst.yaml`.
-3. Add the G2\*/G3\*/G6\* + Loop-2 + contrast tests (§5); regenerate burst-on goldens deliberately.
+   Includes turning the §3.5 refractory edge from inert to its calibrated weight.
+3. Add the G2\*/G3\*/G6\*/G7 + Loop-2 + contrast tests (§5); regenerate burst-on goldens deliberately.
 4. Wire the calibrated burst overlay into the eval loader (alongside `recovery`/`timescale`
    overrides) behind an explicit opt-in so burst-off paths stay bit-identical.
 5. Full suite green → `eval/sanity_multiday.py --all` → **1400-scenario blind regression** →
-   targeted blind-judge of the bad-day episodes. Confirm cichy_060 clears, no regression elsewhere.
+   targeted blind-judge of the bad-day episodes. Confirm cichy_multi_060 clears, no regression else.
 6. Update spec §8 status (placeholders → calibrated) + the diagram's status line; PR to public main.
 
 **Commit-per-step, spec-first, measure-before-deciding.** Respect the push window (no remote pushes
@@ -216,10 +277,10 @@ sourced from the existing Sapkowski day-type vocabulary and the cast/relation gr
 - **Feasibility tension:** if the largest `k_esc` that keeps all pairs linearly stable is *too
   small* to ever spiral at ≥3-way, the burst is vacuous → revisit whether a pair's operating point
   is mis-binned, or whether the band thresholds (not `k_esc`) should carry more of the trigger.
-- **cichy_060 diagnosis first:** confirm what the residual actually is (fury-on-waking vs
-  dense-refusals vs mild-grumble) before assuming the burst overlay is the fix — it may be a
-  night-reset or target-policy interaction, not a burst-tuning task. Classify against LIGHTHOUSE
-  before treating as a problem.
+- **cichy diagnosis: RESOLVED (§1.5).** The residual is `cichy_multi_060` (not `cichy_day_060`,
+  which passes); it is the repeated-provocation / no-episode-structure case, addressed by the §3.5
+  refractory topology edge plus burst calibration (calibration alone would not fix it). Classified
+  against LIGHTHOUSE as a believability-texture gap within the burst family, not a thesis threat.
 - **Believable-timescale interaction:** T_cool (~an hour) must be expressed in the believable dt,
   and the latch confirm/dwell counters are in *ticks* — re-derive them when the time_scale knob is
   applied, or the latch geometry shifts under the eval timescale.
@@ -233,10 +294,13 @@ sourced from the existing Sapkowski day-type vocabulary and the cast/relation gr
 
 ## 9. Definition of done
 
+- §3.5 latched-provoker refractory edge: spec §8 + diagram updated FIRST; inert by default;
+  G7 structural test green; burst-off / unlatched path bit-identical.
 - `calibration/calibrated_burst.yaml` exists with full provenance; `defaults.yaml` untouched.
-- `tests/test_burst_calibration.py` (G2\*/G3\*/G6\* + Loop-2 + contrast) green; full suite green.
+- `tests/test_burst_calibration.py` (G2\*/G3\*/G6\*/G7 + Loop-2 + contrast) green; full suite green.
 - Burst-off goldens byte-identical; burst-on goldens deliberately regenerated.
 - 1400-scenario blind regression: no regression vs M20 baseline (day 698/700, multi 626/630).
-- `sanity_multiday.py --all` pass rate held; **cichy_060 clears**.
+- `sanity_multiday.py --all` pass rate held; **cichy_multi_060 clears** (one episode then
+  numbed/cold, not 7 fresh max eruptions).
 - Spec §8 + diagram status updated (calibrated, not placeholder); the subsystem is "done" only
   with the synchronized diagram (project rule).
