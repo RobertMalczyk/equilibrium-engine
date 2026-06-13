@@ -55,12 +55,23 @@ gains:
     command: 0.20              # an order irritates; relation_filter amplifies it for a DISRESPECTED source
                                # (negative polarity) -> "frustration up at low respect" (spec section 5)
     weather: 0.22              # environmental discomfort (cold/rain) wears at the temper. PLACEHOLDER.
+    # Social Event Mapper Pack (negative-but-not-insult social events). All PLACEHOLDERS owned by
+    # calibration; ordering authorized (insult strongest; complaint/refusal milder; cold_reply weakest)
+    # -- weighted toward frustration (the social-friction path) more than raw anger (the `anger` block).
+    complaint: 0.15            # verbalized dissatisfaction -> mostly frustration
+    refusal: 0.15              # social friction -> frustration
+    cold_reply: 0.06           # mild irritation / cooling -> a little frustration (weakest)
   stress:
     weather: 0.05              # the same discomfort adds a LITTLE stress (erodes effective_self_control a
                                # touch). Kept small so rain's effect is GRADUAL (frustration-dominant), not a
                                # cliff. PLACEHOLDER. Neutral by default (no `weather` event -> 0).
   anger:
     insult: 0.35               # insult -> anger (global)
+    # Social Event Mapper Pack: a SMALL anger contribution (all < insult's 0.35) -- these are social
+    # friction, not attacks. cold_reply weakest. PLACEHOLDERS (calibration owns magnitudes).
+    complaint: 0.05
+    refusal: 0.06
+    cold_reply: 0.03
   boredom:
     repetition: 0.30            # repeated item bores
     novelty: -0.30             # novelty relieves boredom
@@ -72,8 +83,20 @@ gains:
     resentment:
       insult: 0.25
       help: -0.15              # help eases resentment
+      # Social Event Mapper Pack: smaller standing-grievance deposits than insult (0.25). cold_reply
+      # weakest. PLACEHOLDERS (calibration). Clamp01 keeps relations in [0,1].
+      complaint: 0.12
+      refusal: 0.10
+      cold_reply: 0.06
     trust:
       help: 0.20
+      # Negative deposits = relational COOLING/erosion (clamp01 floors at 0, so safe). refusal and a
+      # cold reply chip at trust; complaint does not (it is grievance, not a rejection of the bond).
+      refusal: -0.05
+      cold_reply: -0.05
+    respect:
+      # refusal alone erodes respect a touch (a rejection of one's request/order). PLACEHOLDER.
+      refusal: -0.05
 
 # Sparse state->state couplings. TOPOLOGY FROZEN (spec section 8): only these 6 edges.
 # Stability (Jury): g(anger->stress)*g(stress->anger) < (1-decay_stress)*(1-decay_anger).
