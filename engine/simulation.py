@@ -154,20 +154,29 @@ def _bystander_pressure(
 def _refractory_pressure(
     event, runtime, is_provocation: bool, config: PersonaConfig
 ) -> float:
-    """Latched-provoker refractory edge (spec §8, the FOURTH inhibitory edge): once a burst is LATCHED,
-    a FRESH provocation from the SAME source no longer mints a new full-intensity outburst each tick -- the
-    spent fury yields to cold contempt / numbed withdrawal (the `refractory_x_resent_src` term is read with
-    a negative weight by `outburst`). It fires only when the latch is SET, this tick's event is itself a
-    provocation, and its source IS the remembered provoker (`runtime.last_provocation_source`, which holds
-    the PREVIOUS provoker at this point -- updated after the selector). The FIRST eruption of an episode
-    arms the latch at end-of-tick, so it sees `burst_latched=False` here and is unchanged. 0 otherwise ->
-    bit-identical: unlatched (the shipped default never arms the latch), a different/new provoker (still a
-    full ordinary reaction, like the displacement gate's `target != provoker`), or a non-provocation."""
-    if not runtime.burst_latched:
+    """Spent-fury refractory edge (spec §8, the FOURTH inhibitory edge), DECOUPLED from the burst latch.
+    Once a character has already erupted at a source, a FRESH provocation from the SAME source while the
+    fury is still hot no longer mints a new full-intensity outburst each tick -- the spent fury yields to
+    cold contempt / numbed withdrawal (the `refractory_x_resent_src` term is read with a negative weight by
+    `outburst`). The arming signature is the SPENT-FURY state, NOT the latch: the latch is the
+    stress-saturation vent for a multi-loop COINCIDENCE, which a single relentless provoker (one
+    individually-stable loop) never reaches -- so a latch-gated brake could never help exactly the
+    relentless-cluster case it is for. Fires iff this tick's event is a provocation, its source IS the
+    remembered provoker (`last_provocation_source`, the PREVIOUS provoker at this point), AND the carried
+    anger is at/above `refractory_anger` (the heat of a recent eruption at that source). It naturally also
+    covers the genuinely-latched multi-loop case (anger is high there too) -- a superset of the old latch
+    gate. The FIRST eruption is a NEW source (`last_provocation_source` not yet this one), so it is
+    unchanged. 0 otherwise -> bit-identical: `refractory_anger` unset (the shipped default), anger below it,
+    a different/new provoker (full ordinary reaction, like the displacement gate's `target != provoker`),
+    or a non-provocation."""
+    theta = config.thresholds.get("refractory_anger")
+    if theta is None:  # disabled (shipped default) -> bit-identical
         return 0.0
     if event is None or event.source is None or not is_provocation:
         return 0.0
     if event.source != runtime.last_provocation_source:
+        return 0.0
+    if runtime.global_state["anger"] < theta:  # not still hot from a recent eruption here
         return 0.0
     return float(config.appraisal.get("refractory_pressure", 0.0))
 
@@ -285,9 +294,9 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
     kindness_pressure = _kindness_pressure(event, eff, snapshot, config)
     # Target policy: is this tick's source a respected BYSTANDER catching displaced anger? (uses last_provocation_source)
     bystander_pressure = _bystander_pressure(event, runtime, t, window, config)
-    # Latched-provoker refractory (spec §8, 4th inhibitory edge): while latched, a fresh provocation from the
-    # SAME source inhibits a new outburst -> the spent fury goes cold instead (uses burst_latched carried from
-    # the previous tick + last_provocation_source). 0 when unlatched / different source / non-provocation.
+    # Spent-fury refractory (spec §8, 4th inhibitory edge, DECOUPLED from the latch): a fresh provocation
+    # from the SAME source while still hot (anger >= refractory_anger) inhibits a new outburst -> the spent
+    # fury goes cold instead. 0 when refractory_anger unset / anger below it / different source / non-provoke.
     refractory_pressure = _refractory_pressure(event, runtime, is_provocation, config)
     lp = runtime.last_provocation_t
     # A kindness is itself a valid trigger for a reactive REPLY (positive_response) -- it opens the gate even

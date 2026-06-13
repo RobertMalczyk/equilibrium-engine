@@ -4,7 +4,8 @@
 > §8 (burst & saturation subsection, loop inventory), §14 (coupling escalation factors).
 > Design of record: `Ideas/burst_saturation_design_note.md` (private overlay repo).
 > Status: IMPLEMENTED (M20, merged `3dcf4a3`), inert by default; M20.1 calibration in progress.
-> The latched-provoker refractory edge (4th inhibitory edge) is added here (M20.1 topology stage,
+> The spent-fury refractory edge (4th inhibitory edge, DECOUPLED from the latch — arms on a same-source
+> re-provocation while anger>=refractory_anger) is added here (M20.1 topology stage,
 > §3.5 of `burst_calibration_plan.md`). All magnitudes are calibration placeholders; neutral defaults
 > (`0` / disabled) keep today's behaviour bit-identical.
 
@@ -70,9 +71,10 @@
               │ GATE EXTENSION (selector, §7 step 8):             │
               │   provoker (FIRST eruption arms latch): ordinary  │
               │     react.* thresholds + gate                     │
-              │   provoker (RE-provokes WHILE LATCHED): refractory │
-              │     edge — refractory_pressure × resentment[src]  │
-              │     read NEGATIVE by outburst (4th inhibitory     │
+              │   provoker (RE-provokes, anger>=refractory_anger):│
+              │     refractory edge — refractory_pressure ×       │
+              │     resentment[src] read NEGATIVE by outburst     │
+              │     (4th inhibitory, DECOUPLED from the latch)    │
               │     edge) -> no fresh max outburst; the spent      │
               │     fury yields to a lower-intensity reply         │
               │     (grumble / cold contempt). Source-scoped to    │
@@ -172,4 +174,4 @@ burst trigger — bounded by saturation + the latch, by construction.
 | G4 latch discrimination | a single-state spike (ordinary insult burst) does NOT arm the latch; the litmus burst-vs-suppress contrast bit-identical |
 | G5 displacement | latched + anger ≥ theta_displace + kind sourced event → displaced discharge, rendered AS displacement, bystander resentment delta ≈ transient (no durable grudge); below theta_displace → `positive_response` unchanged; sourceless weather never a target |
 | G6 input co-occurrence | measured pair/triple frequency report from the 700-corpus runs, BEFORE calibrating k_esc (which combinations to guarantee is data-driven) |
-| G7 latched-provoker refractory | while latched, repeated provocation from the SAME source yields ONE outburst then a lower-intensity reply (not N fresh outbursts); a NEW provoker still gets a full reaction; unlatched path bit-identical; with the latch disabled (shipped default) every path bit-identical |
+| G7 spent-fury refractory (latch-decoupled) | with `refractory_anger` set, repeated provocation from the SAME source while anger>=refractory_anger yields ONE outburst then a lower-intensity reply (not N fresh outbursts) EVEN WITHOUT the latch arming (the relentless single-provoker case the vent never catches); a NEW provoker still gets a full reaction; `refractory_anger` unset (shipped default) -> every path bit-identical |

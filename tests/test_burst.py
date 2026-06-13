@@ -398,7 +398,7 @@ def _refractory_run(refractory_on=True, n_ticks=9):
     if not refractory_on:
         appraisal["refractory_pressure"] = 0.0
     cfg = _burst_cfg(
-        extra={"reactive_window_ticks": 1, "burst_exit": 0.10},
+        extra={"reactive_window_ticks": 1, "burst_exit": 0.10, "refractory_anger": 0.30},
         extinction={"anger": 0.005, "stress": 0.005},  # latch holds across both insults
         appraisal=appraisal,
     )
@@ -451,7 +451,7 @@ def test_refractory_does_not_fire_for_a_different_provoker():
     spares the engine from re-exploding at the SAME source it already vented on."""
     appraisal = {"gesture_channels": [], "kindness_pressure": 0.0}
     cfg = _burst_cfg(
-        extra={"reactive_window_ticks": 1, "burst_exit": 0.10},
+        extra={"reactive_window_ticks": 1, "burst_exit": 0.10, "refractory_anger": 0.30},
         extinction={"anger": 0.005, "stress": 0.005},
         appraisal=appraisal,
     )
@@ -472,13 +472,13 @@ def test_refractory_does_not_fire_for_a_different_provoker():
     )  # a new provoker still gets the full reaction
 
 
-def test_refractory_is_inert_when_unlatched():
-    """Burst off (no latch config): the refractory edge never engages -- repeated same-source insults
-    behave exactly as without the edge. This is the bit-identical guarantee for the shipped default
-    (where the latch is disabled)."""
+def test_refractory_is_inert_without_refractory_anger():
+    """The bit-identical guarantee for the shipped default: with `refractory_anger` UNSET, the edge
+    never engages -- repeated same-source insults behave exactly as without it, even when hot. (The
+    gate is now keyed on `refractory_anger`, not the latch; absent -> always 0.)"""
     base = _load(
         {"thresholds": {"reactive_window_ticks": 3}}
-    )  # no burst thresholds -> never latches
+    )  # no refractory_anger, no burst thresholds
     initial = {
         "global_state": {"anger": 0.95, "stress": 0.90},
         "relations": {"brun": {"resentment": 0.9}},
@@ -491,6 +491,31 @@ def test_refractory_is_inert_when_unlatched():
     assert all(not tk.burst_latched for tk in tr.ticks)
     # both same-source insults are handled by the ordinary path (no refractory suppression)
     assert tr.ticks[3].selection.action == tr.ticks[6].selection.action
+
+
+def test_refractory_fires_WITHOUT_the_latch():
+    """THE DECOUPLING (M20.1, 2026-06-14): the spent-fury brake works with NO latch at all -- exactly
+    the relentless single-provoker case (cichy_multi_060) the vent never catches. A resented provoker
+    insults twice from a moderate, NON-saturating state: the loop never reaches the band, the latch
+    never arms, yet the SECOND same-source insult (anger still >= refractory_anger from the first
+    eruption) does NOT re-explode. With `refractory_anger` UNSET on the same scenario, it would."""
+    initial = {
+        "global_state": {"anger": 0.55, "stress": 0.20},  # hot temper, but stress far below the band
+        "relations": {"brun": {"resentment": 0.9}},
+    }
+    events = [
+        RawEvent(t=2, type="insult", source="brun", intensity=1.0),  # first: new source -> erupts
+        RawEvent(t=4, type="insult", source="brun", intensity=1.0),  # repeat: still hot -> refractory
+    ]
+    # NO burst-latch thresholds; only the refractory gate + reactive window.
+    on = _load({"thresholds": {"reactive_window_ticks": 1, "refractory_anger": 0.30}})
+    off = _load({"thresholds": {"reactive_window_ticks": 1}})  # refractory_anger unset
+    _, tr_on = run_scenario(on, _scenario(events, initial=initial), n_ticks=8)
+    _, tr_off = run_scenario(off, _scenario(events, initial=initial), n_ticks=8)
+    assert all(not tk.burst_latched for tk in tr_on.ticks)  # the vent never armed (single loop)
+    assert tr_on.ticks[2].selection.action == "outburst"  # first eruption stands
+    assert tr_on.ticks[4].selection.action != "outburst"  # ...but the repeat does NOT re-explode
+    assert tr_off.ticks[4].selection.action == "outburst"  # without the gate, it re-explodes
 
 
 # --- determinism ------------------------------------------------------------------------------------

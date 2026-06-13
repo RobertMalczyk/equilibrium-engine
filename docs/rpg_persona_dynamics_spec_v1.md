@@ -733,33 +733,41 @@ all `identity`/`k=1` by default) — the milestone to unify them is `Ideas/filte
 the dog"), gated behind a high `theta_displace` — stays deferred to `Ideas/burst_saturation_design_note.md`.
 Magnitudes are calibration placeholders; only the ORDERING (a respected bystander is spared) is authorized.
 
-**A latched burst does not re-explode fresh at the same provoker — the latched-provoker refractory edge
-(the FOURTH inhibitory edge).** Once a burst is **latched** (the loop has spiralled into the saturated
-plateau, §8 burst & saturation), the fury has *opened an episode*: the spike has discharged and the
-person is now in a sustained, white-knuckle state. A *fresh* provocation from the **same** source during
-that episode should NOT mint a brand-new full-intensity `outburst` each time — that reads as the
-"relentless cluster" pathology (the measured `cichy_multi_060` flag: a deeply-resented guard insults
-eight times across an afternoon and every single insult fires an independent max `outburst`, with no
-episode structure — no single sustained breakdown, no eventual cooling). Real fury, already vented and
-still latched, shifts toward a **lower-intensity reply** (a grumble, a curt/cold response — the spent
-fury, not a fresh explosion). Fixed as the mirror of the obedience / kindness / bystander edges —
-**no new selector logic, no new term**: while the latch is SET, a transient **`refractory_pressure`**
-is emitted for a *re-provoking* event from the **remembered provocation source**
-(`last_provocation_source`), and the term `refractory_pressure × resentment[source]` is read with a
-**negative** weight by `outburst`, knocking the re-explosion below the surviving lower-intensity
-potentials. Which reply survives (`complain` grumble vs `cold_response` curtness vs a withdrawn
-non-reaction) is a calibration-texture detail the M20.1 stages shape per persona; the **topology**
-claim is only that a *fresh full outburst does not re-fire*. The damping scales WITH the (saturated)
-resentment toward the provoker, so it bites exactly in the relentless-cluster case.
-**Scoped to `outburst` only**, and **only while latched** (the FIRST eruption of an episode — which
-arms the latch — is unchanged; this never suppresses an ordinary single outburst, only re-explosions
-*inside* a latched episode). Neutral **by construction**: latch not SET, or the event is from a
-*different* source (a genuinely new provoker still gets a full ordinary reaction — same source-scoping
-as the displacement gate's `target != remembered provoker`), or no re-provocation → `refractory_pressure
-= 0` → bit-identical (every burst-off / unlatched path, and all single-eruption litmus, untouched). This
-is the fourth instance of the general per-entity FILTER mechanic; like the others it is `identity` by
-default. Magnitude is a calibration placeholder; only the ORDERING (a latched episode does not re-explode
-fresh at the same source — it goes cold) is authorized.
+**A spent fury does not re-explode fresh at the same provoker — the spent-fury refractory edge
+(the FOURTH inhibitory edge).** Once a character has *already erupted* at a source, a *fresh*
+provocation from the **same** source while the fury is still hot should NOT mint a brand-new
+full-intensity `outburst` each time — that reads as the "relentless cluster" pathology (the measured
+`cichy_multi_060` flag: a deeply-resented guard insults eight times across an afternoon and every single
+insult fires an independent max `outburst`, with no episode structure — no spent-fury, no eventual
+cooling). Real fury, already vented at this source and still smouldering, shifts toward a
+**lower-intensity reply** (a grumble, a curt/cold response — the spent fury, not a fresh explosion).
+
+**This edge is DECOUPLED from the burst latch (the vent).** The burst latch is the stability safety
+valve for the *un-certifiable COMBINATION of several unrelated loops* (§8 burst & saturation): it arms
+only when stacked pressures saturate the shared loop states into the band, and a SINGLE relentless
+provoker is one individually-stable loop that (correctly) never reaches the band — so it never latches.
+The same-provoker repetition is therefore a *separate, expression-level* concern, and the refractory
+brake keys on the **spent-fury signature**, not on the vent: a *re-provoking* event from the remembered
+provocation source (`last_provocation_source`) **while `anger ≥ refractory_anger`** (the carried-over
+heat of a recent eruption at that source) emits a transient **`refractory_pressure`**, and the term
+`refractory_pressure × resentment[source]` is read with a **negative** weight by `outburst`, knocking the
+re-explosion below the surviving lower-intensity potentials. (It is the mirror of the obedience /
+kindness / bystander edges — **no new selector logic, no new term.** It naturally *also* covers the
+genuinely-latched multi-loop case, since anger is high there too — a superset of the old latch gate.)
+Which reply survives (`complain` grumble vs `cold_response` curtness vs a withdrawn non-reaction) is a
+calibration-texture detail the M20.1 stages shape per persona; the **topology** claim is only that a
+*fresh full outburst does not re-fire*. The damping scales WITH the resentment toward the provoker, so it
+bites exactly in the relentless-resented-cluster case.
+**Scoped to `outburst` only.** The FIRST eruption is unchanged — it comes from a *new* source
+(`last_provocation_source` is not yet that provoker), so the edge is neutral and a full outburst fires;
+the brake engages only on the *repeat*. Neutral **by construction**: `refractory_anger` unset (the
+shipped default), or `anger < refractory_anger`, or the event is from a *different* source (a genuinely
+new provoker still gets a full ordinary reaction — same source-scoping as the displacement gate's
+`target != remembered provoker`), or no re-provocation → `refractory_pressure = 0` → bit-identical (every
+burst-off path and all single-eruption litmus untouched). This is the fourth instance of the general
+per-entity FILTER mechanic; like the others it is `identity` by default. The threshold + magnitude are
+calibration placeholders; only the ORDERING (a spent fury does not re-explode fresh at the same source —
+it goes cold) is authorized.
 
 **Resentment without an order → `cold_response` (prisoner-bias), via a TEMPORARY per-persona threshold.**
 `refuse` is obedience-only (above): it expresses resentment *when commanded*. The SAME resentment, *without*

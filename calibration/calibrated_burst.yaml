@@ -19,6 +19,7 @@ free_set:
 - derived_weights.urge_boredom.stress
 - thresholds.theta_displace
 - appraisal.displaced_relational_discount
+- thresholds.refractory_anger
 calibrated:
   coupling_escalation.anger.stress:
     value: 1.1
@@ -119,6 +120,17 @@ calibrated:
       \ durable grudge (fully transient \u2014 'snapped at her'); the intended default that excludes the\
       \ fabricated-nemesis runaway. Nonzero only for a story/persona target with a provenance-backed partial\
       \ grudge (none here)."
+  thresholds.refractory_anger:
+    value: 0.3
+    kind: refractory_gate
+    status: topology-decoupled
+    provenance: 'spent-fury refractory edge (4th inhibitory), DECOUPLED from the vent latch (2026-06-14).
+      Arms the brake when a SAME-source re-provocation lands while anger >= 0.3 (the carried heat of a
+      recent eruption at that source) -> the spent fury yields to a lower-intensity reply (the term refractory_pressure
+      x resentment[src] is read NEGATIVE by outburst; both weights already in defaults). ~2x the calm
+      baseline (~0.15): elevated yet below the outburst-trigger level, so it gates the REPEAT not the
+      first eruption (a new source). Decoupled because a single relentless provoker is one stable loop
+      that never reaches the band -> a latch-gated brake could never help that case.'
 stages_pending:
 - "refractory edge weight (potential_weights.outburst.refractory_x_resent_src) \u2014 turn ON"
 - wire the burst overlay into the eval loader (plan step 4, opt-in)

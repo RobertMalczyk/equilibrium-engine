@@ -67,6 +67,15 @@ THETA_BURST_EXIT = 0.40
 # within T_cool, it returns from any lower in-band plateau at least as fast.
 CEILING = {"anger": 1.0, "stress": 1.0}
 
+# Spent-fury refractory edge (spec §8, 4th inhibitory edge, DECOUPLED from the vent latch, 2026-06-14).
+# The anger level above which a same-source re-provocation is read as "still hot from a recent eruption
+# here" -> the spent fury yields to a lower-intensity reply instead of a fresh outburst. Anchored ~2x
+# the calm anger baseline (~0.15): clearly elevated (carrying the prior eruption's heat) yet well below
+# the outburst-trigger level, so it gates the REPEAT, never the first eruption (which is a new source).
+# Decoupled from the latch because a single relentless provoker is one stable loop that never reaches
+# the saturation band, so a latch-gated brake could never help the very case it is for.
+REFRACTORY_ANGER = 0.30
+
 
 def _clamp01(x: float) -> float:
     return 0.0 if x < 0.0 else 1.0 if x > 1.0 else x
@@ -415,6 +424,7 @@ def write_yaml(res: dict, c2: dict, c3: dict, c4: dict, c5: dict) -> None:
             "derived_weights.urge_boredom.stress",
             "thresholds.theta_displace",
             "appraisal.displaced_relational_discount",
+            "thresholds.refractory_anger",
         ],
         "calibrated": {
             "coupling_escalation.anger.stress": {
@@ -522,6 +532,22 @@ def write_yaml(res: dict, c2: dict, c3: dict, c4: dict, c5: dict) -> None:
                 "kind": "displaced_grudge_discount",
                 "status": "default-C5",
                 "provenance": c5["prov_discount"],
+            },
+            "thresholds.refractory_anger": {
+                "value": REFRACTORY_ANGER,
+                "kind": "refractory_gate",
+                "status": "topology-decoupled",
+                "provenance": (
+                    f"spent-fury refractory edge (4th inhibitory), DECOUPLED from the vent latch "
+                    f"(2026-06-14). Arms the brake when a SAME-source re-provocation lands while "
+                    f"anger >= {REFRACTORY_ANGER} (the carried heat of a recent eruption at that "
+                    f"source) -> the spent fury yields to a lower-intensity reply (the term "
+                    f"refractory_pressure x resentment[src] is read NEGATIVE by outburst; both weights "
+                    f"already in defaults). ~2x the calm baseline (~0.15): elevated yet below the "
+                    f"outburst-trigger level, so it gates the REPEAT not the first eruption (a new "
+                    f"source). Decoupled because a single relentless provoker is one stable loop that "
+                    f"never reaches the band -> a latch-gated brake could never help that case."
+                ),
             },
         },
         "stages_pending": [
