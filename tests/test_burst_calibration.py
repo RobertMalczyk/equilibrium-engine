@@ -14,6 +14,11 @@ from pathlib import Path
 import pytest
 import yaml
 
+from calibration.calibrate_burst import (
+    _lambda_max,
+    _t_cool_ticks,
+    latched_cooldown,
+)
 from engine.stability import jury_margin
 from eval.calibrated import load_eval_persona
 
@@ -39,6 +44,15 @@ def _k_esc() -> float:
     k2 = cal["coupling_escalation.stress.anger"]["value"]
     assert k1 == k2, "C1 chose a single shared k; the two edges must match"
     return float(k1)
+
+
+def _extinction() -> tuple[float, float]:
+    doc = yaml.safe_load(BURST_YAML.read_text(encoding="utf-8"))
+    cal = doc["calibrated"]
+    return (
+        float(cal["burst_extinction.anger"]["value"]),
+        float(cal["burst_extinction.stress"]["value"]),
+    )
 
 
 def _escalated_margin(decay, g_as, g_sa, k, a, s) -> float:
@@ -92,3 +106,47 @@ def test_G2star_complement_a_deep_saturation_point_DOES_cross():
     # the saturation band the latch will sit on (C1 spiral target; C3 pins it)
     assert _escalated_margin(decay, g_as, g_sa, k, 0.80, 0.60) < 0.0
     assert _escalated_margin(decay, g_as, g_sa, k, 1.00, 1.00) < 0.0
+
+
+# --- C2 (extinction) acceptance -------------------------------------------------------------
+
+
+def test_C2_extinction_returns_from_full_saturation_within_T_cool():
+    """C2 boundedness+speed: with the calibrated extinction, a latched loop started at FULL
+    saturation (1,1) returns below theta_burst_exit within T_cool ticks AND is monotone (stays down
+    — no re-spiral). The worst-case ceiling: any lower in-band plateau returns at least as fast."""
+    decay, g_as, g_sa = _loop()
+    k = _k_esc()
+    ext_a, ext_s = _extinction()
+    r = latched_cooldown(decay, g_as, g_sa, k, ext_a, ext_s)
+    assert r["mono"], "latched cool-down re-spiralled (not monotone) — extinction too weak"
+    assert r["cross"] is not None, "latched loop never returned below theta_burst_exit"
+    assert r["cross"] <= _t_cool_ticks(), (
+        f"cool-down took {r['cross']} ticks > T_cool={_t_cool_ticks()}"
+    )
+
+
+def test_C2_extinction_is_bounded_at_the_ceiling():
+    """The extinction-damped escalated loop has spectral radius < 1 even at full saturation: the
+    burst is a BOUNDED episode, not a runaway. (The complement of the C1 spiral: in-band the loop
+    spirals UP; once latched, extinction makes it contract.)"""
+    decay, g_as, g_sa = _loop()
+    k = _k_esc()
+    ext_a, ext_s = _extinction()
+    assert _lambda_max(decay, g_as, g_sa, k, ext_a, ext_s, 1.0, 1.0) < 1.0
+
+
+def test_C2_extinction_minimal_anger_faster_than_stress():
+    """Design-note shape: anger falls fast, stress cools slower => ext_anger > ext_stress. And the
+    calibration is the SMALLEST sufficient extinction: dropping one grid step (beta-0.01, i.e.
+    scaling both rates down ~1.5%) must FAIL the return-within-T_cool predicate (not over-damped)."""
+    decay, g_as, g_sa = _loop()
+    k = _k_esc()
+    ext_a, ext_s = _extinction()
+    assert ext_a > ext_s
+    # one notch weaker (~ beta-0.01): scale both down and confirm it no longer returns in time
+    weaker = latched_cooldown(
+        decay, g_as, g_sa, k, ext_a * (0.64 / 0.65), ext_s * (0.64 / 0.65)
+    )
+    too_slow = weaker["cross"] is None or weaker["cross"] > _t_cool_ticks()
+    assert too_slow, "extinction is stronger than the minimal return-within-T_cool rate"

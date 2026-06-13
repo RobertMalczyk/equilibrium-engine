@@ -31,11 +31,12 @@ Deterministic; no optimizer needed (closed-form). Run:
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 
 import yaml
 
-from eval.calibrated import load_eval_persona
+from eval.calibrated import believable_day_layout, load_eval_persona
 
 ROOT = Path(__file__).resolve().parents[1]
 ENV_JSON = ROOT / "eval" / "burst_operating_points.json"
@@ -44,6 +45,66 @@ OUT = ROOT / "calibration" / "calibrated_burst.yaml"
 # the saturation band the latch will sit on (stage C3 will pin these; C1 uses them as the spiral
 # target). Chosen just ABOVE the measured frequent-pair ceiling (anger max ~0.70, stress max ~0.53).
 BAND_ENTRY = {"anger": 0.80, "stress": 0.60}
+
+# --- stage C2 (extinction) anchors -----------------------------------------------------------
+# The single ABSOLUTE anchor for the burst layer's time axis: the believable cool-down duration.
+# The design note calls a burst a self-extinguishing episode that comes off the ceiling in "about
+# an hour" of game time. We express it in TICKS via the believable day layout (dt ~120s/tick).
+T_COOL_HOURS = 1.0
+# theta_burst_exit (anger) used as the C2 return target. PROVISIONAL: stage C3 pins the latch band
+# + hysteresis exit from the C1/C2 trajectory geometry. Chosen LOW (firmly inside the linearly
+# stable region, ~the high end of ordinary reactive anger) so it is CONSERVATIVE: any larger exit
+# C3 settles on is reached even sooner, so the C2 guarantee still holds.
+THETA_EXIT_C2 = 0.40
+# the worst-case start of the cool-down: full saturation. If the latched loop returns from (1,1)
+# within T_cool, it returns from any lower in-band plateau at least as fast.
+CEILING = {"anger": 1.0, "stress": 1.0}
+
+
+def _clamp01(x: float) -> float:
+    return 0.0 if x < 0.0 else 1.0 if x > 1.0 else x
+
+
+def latched_cooldown(
+    decay: dict[str, float],
+    g_as: float,
+    g_sa: float,
+    k: float,
+    ext_a: float,
+    ext_s: float,
+    a0: float = 1.0,
+    s0: float = 1.0,
+    n: int = 240,
+) -> dict:
+    """Simulate the latched anger<->stress loop with extinction, in the ABSENCE of fresh provocation
+    (the self-extinguishing episode). Mirrors engine/update.py exactly for the loop states:
+        a <- decay_a*a + g_sa*(1+k*s)*s - ext_a*a      (stress -> anger, escalated)
+        s <- decay_s*s + g_as*(1+k*a)*a - ext_s*s      (anger  -> stress, escalated)
+    setpoints/drifts/idle-recovery are 0 here (an active outburst episode, no external input). This
+    is the analytic cool-down used to size extinction; the full-scenario check is G3* after the
+    overlay is wired. Returns the trajectory, monotonicity, and tick of return below THETA_EXIT_C2.
+    Single source of the C2 cooling math (imported by tests/test_burst_calibration.py)."""
+    a, s = a0, s0
+    traj = [(a, s)]
+    mono = True
+    cross = None
+    prev_a = a
+    for i in range(1, n + 1):
+        an = _clamp01(decay["anger"] * a + g_sa * (1.0 + k * s) * s - ext_a * a)
+        sn = _clamp01(decay["stress"] * s + g_as * (1.0 + k * a) * a - ext_s * s)
+        a, s = an, sn
+        traj.append((a, s))
+        if a > prev_a + 1e-9:
+            mono = False
+        prev_a = a
+        if cross is None and a < THETA_EXIT_C2:
+            cross = i
+    return {"traj": traj, "mono": mono, "cross": cross, "final": (a, s)}
+
+
+def _t_cool_ticks() -> int:
+    dt = float(believable_day_layout()["dt"])  # seconds per tick (believable timescale)
+    return round(T_COOL_HOURS * 3600.0 / dt)
 
 
 def _loop_constants():
@@ -106,7 +167,63 @@ def solve_c1() -> dict:
     }
 
 
-def write_yaml(res: dict) -> None:
+def _lambda_max(decay, g_as, g_sa, k, ext_a, ext_s, a, s) -> float:
+    """Spectral radius of the extinction-damped escalated loop linearised at (a, s). With extinction
+    the self-retention drops to (decay - ext); the burst is bounded iff this stays < 1."""
+    da = decay["anger"] - ext_a
+    ds = decay["stress"] - ext_s
+    cross = g_sa * (1.0 + k * s) * g_as * (1.0 + k * a)
+    return ((da + ds) + math.sqrt((da - ds) ** 2 + 4.0 * cross)) / 2.0
+
+
+def solve_c2(k: float) -> dict:
+    """C2 — extinction. Given k_esc (C1), choose the SMALLEST extinction (longest believable, still
+    bounded, episode) that returns the fully-saturated latched loop below THETA_EXIT_C2 within T_cool.
+
+    One scalar free parameter beta: ext_x = beta * (1 - decay_x). Splitting by each state's native
+    decay rate makes anger relax faster than stress automatically (the design note's "anger falls
+    fast, stress cools slower") WITHOUT inventing a ratio — the split is inherited from the frozen
+    Layer-2 half-lives. beta is fixed by the single absolute anchor T_cool; everything else relative.
+    """
+    c = load_eval_persona("wojslaw")
+    decay = c.decay
+    g_as = c.couplings["stress"]["anger"]
+    g_sa = c.couplings["anger"]["stress"]
+    one_minus = {"anger": 1.0 - decay["anger"], "stress": 1.0 - decay["stress"]}
+    t_cool = _t_cool_ticks()
+
+    # smallest beta (0.01 grid) whose full-saturation cool-down returns below THETA_EXIT_C2 within
+    # t_cool ticks and is monotone (stays down, no re-spiral).
+    beta = None
+    b = 0.0
+    while b <= 3.0 + 1e-9:
+        ext_a = b * one_minus["anger"]
+        ext_s = b * one_minus["stress"]
+        r = latched_cooldown(decay, g_as, g_sa, k, ext_a, ext_s)
+        if r["mono"] and r["cross"] is not None and r["cross"] <= t_cool:
+            beta = round(b, 2)
+            break
+        b = round(b + 0.01, 2)
+    if beta is None:
+        raise SystemExit("C2: no beta in [0,3] returns within T_cool — check k_esc / model")
+
+    ext_a = round(beta * one_minus["anger"], 6)
+    ext_s = round(beta * one_minus["stress"], 6)
+    r = latched_cooldown(decay, g_as, g_sa, k, ext_a, ext_s)
+    lam_ceiling = _lambda_max(decay, g_as, g_sa, k, ext_a, ext_s, 1.0, 1.0)
+    return {
+        "beta": beta,
+        "ext_a": ext_a,
+        "ext_s": ext_s,
+        "t_cool": t_cool,
+        "cross": r["cross"],
+        "mono": r["mono"],
+        "lam_ceiling": lam_ceiling,
+        "decay": decay,
+    }
+
+
+def write_yaml(res: dict, c2: dict) -> None:
     k = res["k"]
     prov = (
         f"C1 feasibility frontier (calibration/calibrate_burst.py). Frozen Layer-2: "
@@ -132,6 +249,8 @@ def write_yaml(res: dict) -> None:
         "free_set": [
             "coupling_escalation.anger.stress",
             "coupling_escalation.stress.anger",
+            "burst_extinction.anger",
+            "burst_extinction.stress",
         ],
         "calibrated": {
             "coupling_escalation.anger.stress": {
@@ -147,11 +266,38 @@ def write_yaml(res: dict) -> None:
                 "provenance": "symmetric with coupling_escalation.anger.stress (no data to split "
                 "the two edges; one shared k, the absolute anchor for the burst layer)",
             },
+            "burst_extinction.anger": {
+                "value": c2["ext_a"],
+                "kind": "extinction_rate",
+                "status": "calibrated-C2",
+                "provenance": (
+                    f"C2 extinction (calibration/calibrate_burst.py). Absolute anchor = the "
+                    f"believable cool-down T_cool={T_COOL_HOURS:.0f}h = {c2['t_cool']} ticks at the "
+                    f"believable dt. ONE free scalar beta={c2['beta']:.2f} with ext_x=beta*(1-decay_x) "
+                    f"(split inherited from the frozen Layer-2 decays => anger faster than stress, no "
+                    f"invented ratio). beta is the SMALLEST value whose fully-saturated (1,1) latched "
+                    f"cool-down returns below theta_burst_exit={THETA_EXIT_C2} within T_cool and stays "
+                    f"down (monotone). Result: return at tick {c2['cross']} ({c2['cross']}<= {c2['t_cool']}), "
+                    f"spectral radius at the ceiling lambda_max={c2['lam_ceiling']:.4f}<1 (bounded). "
+                    f"ext_anger=beta*(1-decay_anger)={c2['ext_a']}."
+                ),
+            },
+            "burst_extinction.stress": {
+                "value": c2["ext_s"],
+                "kind": "extinction_rate",
+                "status": "calibrated-C2",
+                "provenance": (
+                    f"C2 extinction, stress edge. Same scalar beta={c2['beta']:.2f}; "
+                    f"ext_stress=beta*(1-decay_stress)={c2['ext_s']} < ext_anger ({c2['ext_a']}) by "
+                    f"construction (stress cools slower than anger, per the design note)."
+                ),
+            },
         },
         "band_entry_used_for_C1": BAND_ENTRY,
+        "theta_burst_exit_used_for_C2": THETA_EXIT_C2,
         "stages_pending": [
-            "C2 burst_extinction (return-and-stay within T_cool)",
-            "C3 latch geometry (theta_burst_enter/exit/confirm — pins BAND_ENTRY)",
+            "C3 latch geometry (theta_burst_enter/exit/confirm — pins BAND_ENTRY + finalizes the "
+            "C2 provisional theta_burst_exit)",
             "C4 Loop-2 sign (urge_boredom.stress, seek stress-cost)",
             "C5 theta_displace + displaced discount",
             "refractory edge weight (potential_weights.outburst.refractory_x_resent_src)",
@@ -199,7 +345,20 @@ def main() -> None:
     for nm, (a, s) in pts.items():
         m = bound - g_as * g_sa * _factor(a, s, res["k"])
         print(f"  {nm:28s} margin={m:+.6f}  {'SPIRAL' if m < 0 else 'stable'}")
-    write_yaml(res)
+
+    # --- C2 extinction ---
+    c2 = solve_c2(res["k"])
+    print("\nC2 — extinction\n" + "=" * 50)
+    print(f"anchor T_cool = {T_COOL_HOURS:.0f}h = {c2['t_cool']} ticks (believable dt)")
+    print(f"chosen beta = {c2['beta']:.2f}  (ext_x = beta*(1-decay_x))")
+    print(f"  burst_extinction.anger  = {c2['ext_a']}")
+    print(f"  burst_extinction.stress = {c2['ext_s']}  (< anger: stress cools slower)")
+    print(
+        f"full-saturation (1,1) cool-down: anger<{THETA_EXIT_C2} at tick {c2['cross']} "
+        f"(<= {c2['t_cool']}), monotone={c2['mono']}, lambda_max@ceiling={c2['lam_ceiling']:.4f}"
+    )
+
+    write_yaml(res, c2)
     print(f"\nwrote -> {OUT.relative_to(ROOT)}")
 
 

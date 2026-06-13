@@ -9,6 +9,8 @@ anchor: the frozen Layer-2 2-cycle Jury bound + the measured corpus operating-po
 free_set:
 - coupling_escalation.anger.stress
 - coupling_escalation.stress.anger
+- burst_extinction.anger
+- burst_extinction.stress
 calibrated:
   coupling_escalation.anger.stress:
     value: 1.1
@@ -26,12 +28,29 @@ calibrated:
     status: calibrated-C1
     provenance: symmetric with coupling_escalation.anger.stress (no data to split the two edges; one shared
       k, the absolute anchor for the burst layer)
+  burst_extinction.anger:
+    value: 0.043529
+    kind: extinction_rate
+    status: calibrated-C2
+    provenance: 'C2 extinction (calibration/calibrate_burst.py). Absolute anchor = the believable cool-down
+      T_cool=1h = 30 ticks at the believable dt. ONE free scalar beta=0.65 with ext_x=beta*(1-decay_x)
+      (split inherited from the frozen Layer-2 decays => anger faster than stress, no invented ratio).
+      beta is the SMALLEST value whose fully-saturated (1,1) latched cool-down returns below theta_burst_exit=0.4
+      within T_cool and stays down (monotone). Result: return at tick 30 (30<= 30), spectral radius at
+      the ceiling lambda_max=0.9763<1 (bounded). ext_anger=beta*(1-decay_anger)=0.043529.'
+  burst_extinction.stress:
+    value: 0.027633
+    kind: extinction_rate
+    status: calibrated-C2
+    provenance: C2 extinction, stress edge. Same scalar beta=0.65; ext_stress=beta*(1-decay_stress)=0.027633
+      < ext_anger (0.043529) by construction (stress cools slower than anger, per the design note).
 band_entry_used_for_C1:
   anger: 0.8
   stress: 0.6
+theta_burst_exit_used_for_C2: 0.4
 stages_pending:
-- C2 burst_extinction (return-and-stay within T_cool)
-- "C3 latch geometry (theta_burst_enter/exit/confirm \u2014 pins BAND_ENTRY)"
+- "C3 latch geometry (theta_burst_enter/exit/confirm \u2014 pins BAND_ENTRY + finalizes the C2 provisional\
+  \ theta_burst_exit)"
 - C4 Loop-2 sign (urge_boredom.stress, seek stress-cost)
 - C5 theta_displace + displaced discount
 - refractory edge weight (potential_weights.outburst.refractory_x_resent_src)
