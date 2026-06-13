@@ -224,6 +224,63 @@ def solve_c2(k: float) -> dict:
     }
 
 
+def loop2_contrast(seek_cost: float, window: int = 15) -> dict:
+    """Run the rich and barren mock-world scenarios (lutek, STRESSED start) with the given burst
+    seek stress-cost and return the mean per-tick STRESS slope of each. Single source of the C4
+    Loop-2 contrast (imported by tests). Rich world: the world confirms a self_activity (relief,
+    stress -0.04/tick) -> stress descends. Barren world: fruitless seeking -> the seek stress-cost
+    accumulates -> stress winds up. Deterministic (the mock world is seeded)."""
+    from eval.burst_eval import STRESSED, Scenario, _cfg
+    from eval.mock_world import MockWorld, run_with_world
+
+    ov = {"action_params": {"seek_stimulus": {"per_tick": {"stress": seek_cost}}}}
+    cfg = _cfg("lutek", ov)
+    relief = abs(
+        float(cfg.action_params.get("self_activity", {}).get("per_tick", {}).get("stress", 0.0))
+    )
+
+    def _slope(novelty_start: float, replenish: float) -> float:
+        sc = Scenario(id="loop2", persona="lutek", initial_overrides=STRESSED, events=())
+        tr = run_with_world(
+            cfg, sc, MockWorld(novelty_start=novelty_start, replenish_per_tick=replenish), window
+        )
+        s = [tk.state_after_post.global_state["stress"] for tk in tr.ticks]
+        return (s[-1] - s[0]) / len(s)
+
+    rich = _slope(1.0, 0.02)
+    barren = _slope(0.0, 0.0)
+    return {"rich": rich, "barren": barren, "margin": barren - rich, "relief": relief}
+
+
+def solve_c4() -> dict:
+    """C4 — Loop 2 (relief-seeking through the world). Two free edges:
+      B2 seek_stimulus.per_tick.stress: the FORWARD edge (fruitless looking wears you down). Set to
+         HALF the calibrated rich-world relief rate |self_activity.stress| (a deliberate asymmetry:
+         relief from engaging must DOMINATE the wind-up from looking, so a rich world resolves stress;
+         the looking cost is 'small'). This is the operative Loop-2 knob.
+      B1 derived_weights.urge_boredom.stress: the stress->seek RETURN edge. MEASURED FINDING: the
+         rich/barren contrast does NOT identify it — boredom already drives seeking in every
+         burst-relevant (wound-up) scenario, and making pure-stress (boredom 0) seek needs w_s ~ the
+         seek threshold (~0.85), a large fragile hand-set value. Per topology-now / never-invent, the
+         edge stays NEUTRAL (0); Loop 2 is carried by B2.
+    Validated by the mock-world contrast: with B2 the rich slope is negative (relief) and the barren
+    slope positive (wind-up into burst range); at cost 0 the barren world does not wind up.
+    """
+    probe = loop2_contrast(0.02)
+    seek_cost = round(0.5 * probe["relief"], 4)  # half the relief rate (0.5 * 0.04 = 0.02)
+    chosen = loop2_contrast(seek_cost)
+    off = loop2_contrast(0.0)
+    return {
+        "seek_cost": seek_cost,
+        "w_s": 0.0,
+        "relief": probe["relief"],
+        "rich": chosen["rich"],
+        "barren": chosen["barren"],
+        "margin": chosen["margin"],
+        "barren_off": off["barren"],
+    }
+
+
 def solve_c3(env: dict, c2: dict, k: float) -> dict:
     """C3 — latch geometry (theta_burst_enter / theta_burst_exit / burst_confirm_ticks). Chosen from
     the operating-point envelope + the escalated-loop spiral boundary + the C2 trajectory, NOT free-
@@ -283,7 +340,7 @@ def solve_c3(env: dict, c2: dict, k: float) -> dict:
     }
 
 
-def write_yaml(res: dict, c2: dict, c3: dict) -> None:
+def write_yaml(res: dict, c2: dict, c3: dict, c4: dict) -> None:
     k = res["k"]
     prov = (
         f"C1 feasibility frontier (calibration/calibrate_burst.py). Frozen Layer-2: "
@@ -315,6 +372,8 @@ def write_yaml(res: dict, c2: dict, c3: dict) -> None:
             "thresholds.burst_enter.stress",
             "thresholds.burst_exit",
             "thresholds.burst_confirm_ticks",
+            "action_params.seek_stimulus.per_tick.stress",
+            "derived_weights.urge_boredom.stress",
         ],
         "calibrated": {
             "coupling_escalation.anger.stress": {
@@ -384,9 +443,35 @@ def write_yaml(res: dict, c2: dict, c3: dict) -> None:
                 "status": "calibrated-C3",
                 "provenance": c3["prov_confirm"],
             },
+            "action_params.seek_stimulus.per_tick.stress": {
+                "value": c4["seek_cost"],
+                "kind": "loop2_seek_cost",
+                "status": "calibrated-C4",
+                "provenance": (
+                    f"C4 Loop-2 forward edge (fruitless looking wears you down). = half the calibrated "
+                    f"rich-world relief rate |self_activity.stress|={c4['relief']:.3f} (deliberate "
+                    f"asymmetry: engaging-relief must DOMINATE looking-windup so a rich world resolves "
+                    f"stress; the cost is 'small'). Mock-world contrast (lutek, STRESSED): rich stress "
+                    f"slope {c4['rich']:+.4f}/tick (relief), barren {c4['barren']:+.4f}/tick (wind-up "
+                    f"into burst range); at cost 0 barren is {c4['barren_off']:+.4f} (no wind-up). The "
+                    f"operative Loop-2 knob."
+                ),
+            },
+            "derived_weights.urge_boredom.stress": {
+                "value": c4["w_s"],
+                "kind": "loop2_return_edge",
+                "status": "measured-inert-C4",
+                "provenance": (
+                    "C4 MEASURED FINDING: the stress->seek return edge is NOT identified by the "
+                    "rich/barren contrast — boredom already drives seeking in every burst-relevant "
+                    "(wound-up) scenario, and making a pure-stress (boredom 0) character seek requires "
+                    "w_s ~ the seek threshold (~0.85), a large, fragile hand-set value. Per "
+                    "topology-now / never-invent-numbers, the edge stays NEUTRAL (0); Loop 2 is "
+                    "carried by the seek stress-cost (B2). The topology edge exists, the weight is 0."
+                ),
+            },
         },
         "stages_pending": [
-            "C4 Loop-2 sign (urge_boredom.stress, seek stress-cost)",
             "C5 theta_displace + displaced discount",
             "refractory edge weight (potential_weights.outburst.refractory_x_resent_src)",
         ],
@@ -458,7 +543,16 @@ def main() -> None:
         f"gap {c3['enter_a'] - c3['exit']:.2f})   burst_confirm_ticks = {c3['confirm']}"
     )
 
-    write_yaml(res, c2, c3)
+    # --- C4 Loop-2 (relief vs wind-up) ---
+    c4 = solve_c4()
+    print("\nC4 — Loop-2 (relief-seeking through the world)\n" + "=" * 50)
+    print(f"seek_stimulus.per_tick.stress = {c4['seek_cost']}  (= 0.5 * relief rate {c4['relief']:.3f})")
+    print(f"  rich stress slope   = {c4['rich']:+.4f}/tick (relief)")
+    print(f"  barren stress slope = {c4['barren']:+.4f}/tick (wind-up; at cost 0: {c4['barren_off']:+.4f})")
+    print(f"  contrast margin     = {c4['margin']:+.4f}")
+    print(f"derived_weights.urge_boredom.stress = {c4['w_s']} (measured-inert: boredom already seeks)")
+
+    write_yaml(res, c2, c3, c4)
     print(f"\nwrote -> {OUT.relative_to(ROOT)}")
 
 

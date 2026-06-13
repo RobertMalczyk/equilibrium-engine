@@ -18,6 +18,7 @@ from calibration.calibrate_burst import (
     _lambda_max,
     _t_cool_ticks,
     latched_cooldown,
+    loop2_contrast,
 )
 from engine.stability import jury_margin
 from eval.calibrated import load_eval_persona
@@ -53,6 +54,15 @@ def _extinction() -> tuple[float, float]:
         float(cal["burst_extinction.anger"]["value"]),
         float(cal["burst_extinction.stress"]["value"]),
     )
+
+
+def _loop2() -> dict:
+    doc = yaml.safe_load(BURST_YAML.read_text(encoding="utf-8"))
+    cal = doc["calibrated"]
+    return {
+        "seek_cost": float(cal["action_params.seek_stimulus.per_tick.stress"]["value"]),
+        "w_s": float(cal["derived_weights.urge_boredom.stress"]["value"]),
+    }
 
 
 def _latch() -> dict:
@@ -206,3 +216,36 @@ def test_C3_exit_is_consistent_with_C2_cooldown():
 
     assert _latch()["exit"] == THETA_BURST_EXIT
     assert r["cross"] is not None and r["cross"] <= _t_cool_ticks()
+
+
+# --- C4 (Loop 2: relief vs wind-up) acceptance ----------------------------------------------
+
+
+def test_C4_rich_world_relieves_barren_world_winds_up():
+    """C4 Loop-2 sign: with the calibrated seek stress-cost, a RICH mock world (activities to engage)
+    makes stress DESCEND (relief) while a BARREN world (nothing to find) makes it WIND UP — the same
+    persona, the same stressed start, opposite slopes. The min-margin contrast."""
+    seek_cost = _loop2()["seek_cost"]
+    c = loop2_contrast(seek_cost)
+    assert c["rich"] < 0.0, f"rich world did not relieve (slope {c['rich']:+.4f})"
+    assert c["barren"] > 0.0, f"barren world did not wind up (slope {c['barren']:+.4f})"
+    assert c["margin"] > 0.0
+
+
+def test_C4_seek_cost_is_necessary_for_the_windup():
+    """The wind-up is CARRIED by the seek stress-cost: at cost 0 the barren world does not wind up
+    (the burst Loop-2 forward edge is what lifts stress into burst range)."""
+    assert loop2_contrast(0.0)["barren"] <= 0.0
+
+
+def test_C4_seek_cost_is_below_the_relief_rate():
+    """'Small': the fruitless-looking cost is below the rich-world relief rate, so engaging always
+    dominates looking and a rich world resolves stress."""
+    c = loop2_contrast(_loop2()["seek_cost"])
+    assert 0.0 < _loop2()["seek_cost"] < c["relief"]
+
+
+def test_C4_urge_boredom_stress_edge_is_inert():
+    """Measured finding: the stress->seek return edge stays neutral (boredom already drives seeking);
+    the topology edge exists but its calibrated weight is 0."""
+    assert _loop2()["w_s"] == 0.0

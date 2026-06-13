@@ -15,6 +15,8 @@ free_set:
 - thresholds.burst_enter.stress
 - thresholds.burst_exit
 - thresholds.burst_confirm_ticks
+- action_params.seek_stimulus.per_tick.stress
+- derived_weights.urge_boredom.stress
 calibrated:
   coupling_escalation.anger.stress:
     value: 1.1
@@ -80,7 +82,24 @@ calibrated:
       \ arm the latch \u2014 the burst signature is a sustained LOOP plateau (both states in-band), not\
       \ an instantaneous coincidence. 2 ticks ~ a few minutes at the believable dt, short vs the bad-day\
       \ plateau (step-1 benchmarks are plateau-capable). Matches the G4 discrimination tests."
+  action_params.seek_stimulus.per_tick.stress:
+    value: 0.02
+    kind: loop2_seek_cost
+    status: calibrated-C4
+    provenance: 'C4 Loop-2 forward edge (fruitless looking wears you down). = half the calibrated rich-world
+      relief rate |self_activity.stress|=0.040 (deliberate asymmetry: engaging-relief must DOMINATE looking-windup
+      so a rich world resolves stress; the cost is ''small''). Mock-world contrast (lutek, STRESSED):
+      rich stress slope -0.0285/tick (relief), barren +0.0123/tick (wind-up into burst range); at cost
+      0 barren is -0.0036 (no wind-up). The operative Loop-2 knob.'
+  derived_weights.urge_boredom.stress:
+    value: 0.0
+    kind: loop2_return_edge
+    status: measured-inert-C4
+    provenance: "C4 MEASURED FINDING: the stress->seek return edge is NOT identified by the rich/barren\
+      \ contrast \u2014 boredom already drives seeking in every burst-relevant (wound-up) scenario, and\
+      \ making a pure-stress (boredom 0) character seek requires w_s ~ the seek threshold (~0.85), a large,\
+      \ fragile hand-set value. Per topology-now / never-invent-numbers, the edge stays NEUTRAL (0); Loop\
+      \ 2 is carried by the seek stress-cost (B2). The topology edge exists, the weight is 0."
 stages_pending:
-- C4 Loop-2 sign (urge_boredom.stress, seek stress-cost)
 - C5 theta_displace + displaced discount
 - refractory edge weight (potential_weights.outburst.refractory_x_resent_src)
