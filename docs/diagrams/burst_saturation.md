@@ -3,8 +3,10 @@
 > Spec: §1 (loop-stability invariant, saturation-bounded exception), §4 (relief-seeking urge term),
 > §8 (burst & saturation subsection, loop inventory), §14 (coupling escalation factors).
 > Design of record: `Ideas/burst_saturation_design_note.md` (private overlay repo).
-> Status: SPEC/DIAGRAM ONLY — implementation pending. All magnitudes are calibration placeholders;
-> neutral defaults (`0` / disabled) keep today's behaviour bit-identical.
+> Status: IMPLEMENTED (M20, merged `3dcf4a3`), inert by default; M20.1 calibration in progress.
+> The latched-provoker refractory edge (4th inhibitory edge) is added here (M20.1 topology stage,
+> §3.5 of `burst_calibration_plan.md`). All magnitudes are calibration placeholders; neutral defaults
+> (`0` / disabled) keep today's behaviour bit-identical.
 
 ## 1. Control form
 
@@ -66,7 +68,16 @@
                                  ▼
               ┌───────────────────────────────────────────────────┐
               │ GATE EXTENSION (selector, §7 step 8):             │
-              │   provoker: ordinary react.* thresholds + gate    │
+              │   provoker (FIRST eruption arms latch): ordinary  │
+              │     react.* thresholds + gate                     │
+              │   provoker (RE-provokes WHILE LATCHED): refractory │
+              │     edge — refractory_pressure × resentment[src]  │
+              │     read NEGATIVE by outburst (4th inhibitory     │
+              │     edge) -> no fresh max outburst; the spent      │
+              │     fury yields to cold_response (sustained cold   │
+              │     contempt / numbed withdrawal). Source-scoped   │
+              │     to last_provocation_source; a NEW provoker     │
+              │     still gets a full ordinary reaction.           │
               │   bystander: while LATCHED and                    │
               │     anger ≥ theta_displace (>> react.*),          │
               │     ANY SOURCED event this tick opens the         │
@@ -107,7 +118,12 @@
         ▼
  Fury peaks and HOLDS — white-knuckle, pinned at the top while the pressure lasts   ── plateau
         │                                                    (the burst latch is now SET)
-        ├── the actual offender speaks → the discharge lands on HIM (ordinary thresholds)
+        ├── the actual offender speaks (the FIRST time, which armed the latch) → the discharge
+        │   lands on HIM (ordinary thresholds)
+        │
+        ├── the actual offender keeps mocking him WHILE the latch holds → he does NOT erupt afresh
+        │   at each new taunt; the spent fury yields to sustained cold contempt / numbed withdrawal
+        │   (the refractory edge — one episode, not seven identical explosions)
         │
         ├── an innocent — even kind Marta with her soup — happens to be there, and his fury is
         │   over the displacement bar → he SNAPS AT HER ("kicking the dog"), but it is rendered
@@ -156,3 +172,4 @@ burst trigger — bounded by saturation + the latch, by construction.
 | G4 latch discrimination | a single-state spike (ordinary insult burst) does NOT arm the latch; the litmus burst-vs-suppress contrast bit-identical |
 | G5 displacement | latched + anger ≥ theta_displace + kind sourced event → displaced discharge, rendered AS displacement, bystander resentment delta ≈ transient (no durable grudge); below theta_displace → `positive_response` unchanged; sourceless weather never a target |
 | G6 input co-occurrence | measured pair/triple frequency report from the 700-corpus runs, BEFORE calibrating k_esc (which combinations to guarantee is data-driven) |
+| G7 latched-provoker refractory | while latched, repeated provocation from the SAME source yields ONE outburst then cold_response/numbed (not N fresh outbursts); unlatched and different-source paths bit-identical; with the edge inert (default) every path bit-identical |
