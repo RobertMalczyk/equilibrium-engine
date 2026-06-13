@@ -47,6 +47,7 @@ def _factor_value(
     command_pressure: float,
     kindness_pressure: float,
     bystander_pressure: float,
+    refractory_pressure: float,
     event_source: str | None,
     relations: Relations,
 ) -> float:
@@ -66,6 +67,8 @@ def _factor_value(
         v = kindness_pressure  # transient gating factor (0 if no appraised kindness)
     elif kind == "bystander_pressure":
         v = bystander_pressure  # transient gating factor (0 if the source isn't a bystander)
+    elif kind == "refractory_pressure":
+        v = refractory_pressure  # transient gating factor (0 unless latched + same-source re-provocation)
     else:  # relation_source (validated at load): relation to the CURRENT event's source, per-dim
         v = (
             relations.get(event_source, {}).get(name, 0.0)
@@ -84,6 +87,7 @@ def compute(
     event_source: str | None = None,
     kindness_pressure: float = 0.0,
     bystander_pressure: float = 0.0,
+    refractory_pressure: float = 0.0,
 ) -> PotentialVector:
     """command_pressure (transient, this tick's command channel; 0 if no order), kindness_pressure
     (transient, this tick's appraised kindness; 0 if none) and event_source (the current event's source,
@@ -107,6 +111,7 @@ def compute(
                 command_pressure,
                 kindness_pressure,
                 bystander_pressure,
+                refractory_pressure,
                 event_source,
                 relations,
             )

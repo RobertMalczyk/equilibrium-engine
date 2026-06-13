@@ -723,15 +723,17 @@ person is now in a sustained, white-knuckle state. A *fresh* provocation from th
 that episode should NOT mint a brand-new full-intensity `outburst` each time — that reads as the
 "relentless cluster" pathology (the measured `cichy_multi_060` flag: a deeply-resented guard insults
 eight times across an afternoon and every single insult fires an independent max `outburst`, with no
-episode structure — no single sustained breakdown, no eventual numbing). Real fury, already vented and
-still latched, shifts toward **sustained cold contempt / numbed withdrawal**, not repeated fresh
-explosions. Fixed as the mirror of the obedience / kindness / bystander edges — **no new selector logic,
-no new term**: while the latch is SET, a transient **`refractory_pressure`** is emitted for a
-*re-provoking* event from the **remembered provocation source** (`last_provocation_source`), and the
-term `refractory_pressure × resentment[source]` is read with a **negative** weight by `outburst`. The
-already-elevated `anger×stoicism` term keeps `cold_response` available, so the suppressed re-outburst
-naturally yields to a curt/cold reply — the energy is spent, the contempt remains. The damping scales
-WITH the (saturated) resentment toward the provoker, so it bites exactly in the relentless-cluster case.
+episode structure — no single sustained breakdown, no eventual cooling). Real fury, already vented and
+still latched, shifts toward a **lower-intensity reply** (a grumble, a curt/cold response — the spent
+fury, not a fresh explosion). Fixed as the mirror of the obedience / kindness / bystander edges —
+**no new selector logic, no new term**: while the latch is SET, a transient **`refractory_pressure`**
+is emitted for a *re-provoking* event from the **remembered provocation source**
+(`last_provocation_source`), and the term `refractory_pressure × resentment[source]` is read with a
+**negative** weight by `outburst`, knocking the re-explosion below the surviving lower-intensity
+potentials. Which reply survives (`complain` grumble vs `cold_response` curtness vs a withdrawn
+non-reaction) is a calibration-texture detail the M20.1 stages shape per persona; the **topology**
+claim is only that a *fresh full outburst does not re-fire*. The damping scales WITH the (saturated)
+resentment toward the provoker, so it bites exactly in the relentless-cluster case.
 **Scoped to `outburst` only**, and **only while latched** (the FIRST eruption of an episode — which
 arms the latch — is unchanged; this never suppresses an ordinary single outburst, only re-explosions
 *inside* a latched episode). Neutral **by construction**: latch not SET, or the event is from a

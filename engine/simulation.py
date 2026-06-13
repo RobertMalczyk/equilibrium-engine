@@ -151,6 +151,27 @@ def _bystander_pressure(
     return float(config.appraisal.get("bystander_pressure", 0.0))
 
 
+def _refractory_pressure(
+    event, runtime, is_provocation: bool, config: PersonaConfig
+) -> float:
+    """Latched-provoker refractory edge (spec §8, the FOURTH inhibitory edge): once a burst is LATCHED,
+    a FRESH provocation from the SAME source no longer mints a new full-intensity outburst each tick -- the
+    spent fury yields to cold contempt / numbed withdrawal (the `refractory_x_resent_src` term is read with
+    a negative weight by `outburst`). It fires only when the latch is SET, this tick's event is itself a
+    provocation, and its source IS the remembered provoker (`runtime.last_provocation_source`, which holds
+    the PREVIOUS provoker at this point -- updated after the selector). The FIRST eruption of an episode
+    arms the latch at end-of-tick, so it sees `burst_latched=False` here and is unchanged. 0 otherwise ->
+    bit-identical: unlatched (the shipped default never arms the latch), a different/new provoker (still a
+    full ordinary reaction, like the displacement gate's `target != provoker`), or a non-provocation."""
+    if not runtime.burst_latched:
+        return 0.0
+    if event is None or event.source is None or not is_provocation:
+        return 0.0
+    if event.source != runtime.last_provocation_source:
+        return 0.0
+    return float(config.appraisal.get("refractory_pressure", 0.0))
+
+
 def _cooldown_ticks(config: PersonaConfig, action: str | None) -> int:
     if action is None:
         return 0
@@ -264,6 +285,10 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
     kindness_pressure = _kindness_pressure(event, eff, snapshot, config)
     # Target policy: is this tick's source a respected BYSTANDER catching displaced anger? (uses last_provocation_source)
     bystander_pressure = _bystander_pressure(event, runtime, t, window, config)
+    # Latched-provoker refractory (spec §8, 4th inhibitory edge): while latched, a fresh provocation from the
+    # SAME source inhibits a new outburst -> the spent fury goes cold instead (uses burst_latched carried from
+    # the previous tick + last_provocation_source). 0 when unlatched / different source / non-provocation.
+    refractory_pressure = _refractory_pressure(event, runtime, is_provocation, config)
     lp = runtime.last_provocation_t
     # A kindness is itself a valid trigger for a reactive REPLY (positive_response) -- it opens the gate even
     # with no recent provocation. On a kindness tick the hostile potentials are inhibited (the signed edge), so
@@ -331,6 +356,7 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
         event_source,
         kindness_pressure,
         bystander_pressure,
+        refractory_pressure,
     )
     urges = {
         "boredom": derived_post.urge_boredom,

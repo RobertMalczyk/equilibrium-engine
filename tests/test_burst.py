@@ -384,6 +384,115 @@ def test_out_of_range_extinction_is_a_config_error():
         )
 
 
+# --- G7: the latched-provoker refractory edge (M20.1, the 4th inhibitory edge) ---------------------
+
+
+def _refractory_run(refractory_on=True, n_ticks=9):
+    """LATCHED + a deeply-resented provoker (brun) insults TWICE from the same source. The first
+    insult (t3) is a brand-new provocation -- last_provocation_source is not yet brun -- so it is an
+    ordinary direct reply that arms the episode (outburst). The second (t6) re-provokes from the SAME
+    remembered source while still latched: the refractory edge fires. refractory_on=False zeroes the
+    transient magnitude (the edge OFF) as a control, isolating the mechanism (mirror of the
+    displacement-discount control test)."""
+    appraisal = {"gesture_channels": [], "kindness_pressure": 0.0}
+    if not refractory_on:
+        appraisal["refractory_pressure"] = 0.0
+    cfg = _burst_cfg(
+        extra={"reactive_window_ticks": 1, "burst_exit": 0.10},
+        extinction={"anger": 0.005, "stress": 0.005},  # latch holds across both insults
+        appraisal=appraisal,
+    )
+    initial = {
+        "global_state": {"anger": 0.95, "stress": 0.90},
+        "relations": {"brun": {"resentment": 0.9}},
+    }
+    events = [
+        RawEvent(t=3, type="insult", source="brun", intensity=1.0),
+        RawEvent(t=5, type="insult", source="brun", intensity=1.0),
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=initial), n_ticks=n_ticks)
+    return tr
+
+
+def test_refractory_suppresses_a_second_outburst_at_the_same_provoker():
+    """One episode, not two identical eruptions: the first same-source insult erupts (arms the
+    episode); the second, while still latched, does NOT re-explode -- the spent fury yields to a
+    lower-intensity reply. The cichy_multi_060 relentless-cluster fix. (Which reply survives is
+    calibration texture; the TOPOLOGY claim is only that a fresh full outburst does not re-fire.)"""
+    tr = _refractory_run(refractory_on=True)
+    first, second = tr.ticks[3], tr.ticks[5]
+    assert first.burst_latched is True
+    assert first.selection.action == "outburst"  # the first eruption stands
+    assert second.burst_latched is True  # still inside the episode
+    assert second.selection.action != "outburst"  # ...but it does NOT re-explode
+    assert (
+        second.event is not None and second.event.source == "brun"
+    )  # the same provoker spoke
+
+
+def test_refractory_off_re_explodes_every_time_the_provoker_speaks():
+    """CONTROL: with the refractory transient zeroed, the SAME scenario re-fires a fresh outburst on
+    the second insult -- proving the edge (not luck or decay) is what produces the single-episode
+    reading."""
+    tr = _refractory_run(refractory_on=False)
+    assert tr.ticks[3].selection.action == "outburst"
+    assert (
+        tr.ticks[5].selection.action == "outburst"
+    )  # the relentless cluster, un-fixed
+    # ...and the edge measurably lowers the second outburst potential:
+    on = _refractory_run(refractory_on=True).ticks[5].potentials["outburst"]
+    off = tr.ticks[5].potentials["outburst"]
+    assert on < off
+
+
+def test_refractory_does_not_fire_for_a_different_provoker():
+    """Source-scoped (like the displacement gate's `target != provoker`): a genuinely NEW provoker
+    interrupting a latched episode still draws a full ordinary reaction -- the refractory brake only
+    spares the engine from re-exploding at the SAME source it already vented on."""
+    appraisal = {"gesture_channels": [], "kindness_pressure": 0.0}
+    cfg = _burst_cfg(
+        extra={"reactive_window_ticks": 1, "burst_exit": 0.10},
+        extinction={"anger": 0.005, "stress": 0.005},
+        appraisal=appraisal,
+    )
+    initial = {
+        "global_state": {"anger": 0.95, "stress": 0.90},
+        "relations": {"brun": {"resentment": 0.9}, "kasimir": {"resentment": 0.9}},
+    }
+    events = [
+        RawEvent(
+            t=3, type="insult", source="brun", intensity=1.0
+        ),  # arms; brun = provoker
+        RawEvent(t=5, type="insult", source="kasimir", intensity=1.0),  # a NEW provoker
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=initial), n_ticks=9)
+    assert tr.ticks[5].burst_latched is True
+    assert (
+        tr.ticks[5].selection.action == "outburst"
+    )  # a new provoker still gets the full reaction
+
+
+def test_refractory_is_inert_when_unlatched():
+    """Burst off (no latch config): the refractory edge never engages -- repeated same-source insults
+    behave exactly as without the edge. This is the bit-identical guarantee for the shipped default
+    (where the latch is disabled)."""
+    base = _load(
+        {"thresholds": {"reactive_window_ticks": 3}}
+    )  # no burst thresholds -> never latches
+    initial = {
+        "global_state": {"anger": 0.95, "stress": 0.90},
+        "relations": {"brun": {"resentment": 0.9}},
+    }
+    events = [
+        RawEvent(t=3, type="insult", source="brun", intensity=1.0),
+        RawEvent(t=6, type="insult", source="brun", intensity=1.0),
+    ]
+    _, tr = run_scenario(base, _scenario(events, initial=initial), n_ticks=9)
+    assert all(not tk.burst_latched for tk in tr.ticks)
+    # both same-source insults are handled by the ordinary path (no refractory suppression)
+    assert tr.ticks[3].selection.action == tr.ticks[6].selection.action
+
+
 # --- determinism ------------------------------------------------------------------------------------
 
 

@@ -245,6 +245,13 @@ potential_terms:
   bystander_x_respect_src:
     - {kind: bystander_pressure}
     - {kind: relation_source, name: respect}
+  # Latched-provoker refractory (FOURTH inhibitory edge, M20.1): while a burst is LATCHED, a fresh
+  # provocation from the SAME source should not mint a new full-intensity outburst each tick. refractory_pressure
+  # is the transient gate (0 unless latched + same-source re-provocation); resentment[src] scales it (it bites
+  # hardest exactly where the relentless cluster lives -- a deeply-resented provoker hammering away).
+  refractory_x_resent_src:
+    - {kind: refractory_pressure}
+    - {kind: relation_source, name: resentment}
 
 # Reactive potentials = clamp( Sum weight * term ). cooperate intentionally has no term in
 # MVP: it needs command_pressure (a command-channel signal, stage 2) which is absent -> 0.
@@ -277,6 +284,15 @@ potential_weights:
                                   # believable). PLACEHOLDER magnitude: ORDERING authorized (a respected order
                                   # suppresses venting), no sharp crossing pins the gain -> pending Level-3/LLM
                                   # validation (spec section 17), like the pride->insult modulator k.
+    refractory_x_resent_src: -1.0 # LATCHED-PROVOKER REFRACTORY (M20.1, 4th inhibitory edge): while the burst
+                                  # latch is SET, a fresh provocation from the SAME source INHIBITS a new
+                                  # outburst -> the spent fury yields to a lower-intensity reply (one episode,
+                                  # not N identical eruptions; the cichy_multi_060 relentless-cluster fix). Neutral by
+                                  # construction: refractory_pressure=0 unless latched (the shipped default never
+                                  # arms the latch) AND same-source re-provocation -> burst-off/unlatched paths
+                                  # bit-identical. Scoped to outburst only (the cold contempt that replaces it
+                                  # is the intended reading). PLACEHOLDER magnitude: ORDERING authorized (a
+                                  # latched episode does not re-explode fresh at the same source).
   cold_response:
     anger_x_stoicism: 1.10
     frustration: 0.20
@@ -360,6 +376,10 @@ appraisal:
   bystander_pressure: 1.0       # target policy: transient magnitude when a respected non-provoking source
                                 # interacts amid residual anger. Neutral by construction via its GATE (see
                                 # _bystander_pressure), not via this value. PLACEHOLDER (calibration owns it).
+  refractory_pressure: 1.0      # latched-provoker refractory (M20.1, 4th inhibitory edge): transient magnitude
+                                # when -- while LATCHED -- the SAME provoker re-provokes. Neutral by construction
+                                # via its GATE (see _refractory_pressure; the latch is disabled by default so this
+                                # never fires), not via this value. PLACEHOLDER (calibration owns it).
 
 # Drive registry: adding a drive = data, not code (spec section 8/14).
 drives:

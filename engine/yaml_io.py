@@ -59,7 +59,12 @@ def _validate_factor(factor: dict, ctx: str) -> dict:
     elif kind == "relation_agg":
         if name not in _RELATION_AGG_FACTORS:
             raise ValueError(f"{ctx}: unknown relation_agg factor '{name}'")
-    elif kind in ("command_pressure", "kindness_pressure", "bystander_pressure"):
+    elif kind in (
+        "command_pressure",
+        "kindness_pressure",
+        "bystander_pressure",
+        "refractory_pressure",
+    ):
         name = None  # transient scalar; no name
     elif kind == "relation_source":
         if name not in RELATION_DIMS:
@@ -68,7 +73,7 @@ def _validate_factor(factor: dict, ctx: str) -> dict:
             )
     else:
         raise ValueError(
-            f"{ctx}: factor kind must be state|derived|trait|relation_agg|command_pressure|kindness_pressure|bystander_pressure|relation_source, got '{kind}'"
+            f"{ctx}: factor kind must be state|derived|trait|relation_agg|command_pressure|kindness_pressure|bystander_pressure|refractory_pressure|relation_source, got '{kind}'"
         )
     return {
         "kind": kind,
