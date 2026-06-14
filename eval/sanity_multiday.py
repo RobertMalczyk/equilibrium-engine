@@ -140,11 +140,12 @@ def main():
     import yaml
 
     do_all = "--all" in sys.argv
+    burst = "--burst" in sys.argv  # arm the M20.1 outburst overlay (opt-in; default off = unchanged)
     n_per = 100 if do_all else 10
-    cfgs = {p: load_eval_persona_timescale(p) for p in PERSONAS}
+    cfgs = {p: load_eval_persona_timescale(p, burst=burst) for p in PERSONAS}
     print(
         f"Multi-day sanity over {n_per}/persona ({n_per * 7} scenarios), believable timescale "
-        f"(dt={cfgs['branic'].dt:.0f}s, {DAY_TICKS} ticks/day).\n"
+        f"(dt={cfgs['branic'].dt:.0f}s, {DAY_TICKS} ticks/day){', OUTBURST ARMED' if burst else ''}.\n"
     )
     agg = {
         c: defaultdict(lambda: [0, 0]) for c in CHECKS
