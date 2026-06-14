@@ -1,0 +1,10 @@
+# Game-facing: the same source applies the new negative-but-not-insult social events, private then
+# public. Public exposure should appraise at least as hard as private (relation_filter exposure).
+id: game_public_private_social_pressure
+persona: wojslaw
+initial_overrides: {}
+events:
+  - {type: complaint, t: 0,  source: player, intensity: 0.8}
+  - {type: complaint, t: 4,  source: player, intensity: 0.8, context: {public: true}}
+  - {type: refusal,   t: 8,  source: player, intensity: 0.8, context: {public: true}}
+  - {type: cold_reply, t: 12, source: player, intensity: 0.8, context: {public: true}}

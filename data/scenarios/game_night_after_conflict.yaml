@@ -1,0 +1,10 @@
+# Game-facing: a conflict with the player, then nightfall. Fast affect should head toward recovery
+# while the slow grudge toward the player persists (the night/sleep memory contract).
+id: game_night_after_conflict
+persona: wojslaw
+initial_overrides:
+  global_state: {fatigue: 0.5}
+events:
+  - {type: insult,   t: 0,  source: player, intensity: 0.9, context: {public: true}}
+  - {type: insult,   t: 5,  source: player, intensity: 0.9, context: {public: true}}
+  - {type: nightfall, t: 20, intensity: 1.0}

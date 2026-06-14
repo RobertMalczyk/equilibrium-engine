@@ -1,0 +1,11 @@
+# Game-facing: a stream of repeated complaints from one source (verbalized dissatisfaction / nagging,
+# not attacks). Should wear at frustration/resentment without instant max anger.
+id: game_repeated_complaints
+persona: wojslaw
+initial_overrides: {}
+events:
+  - {type: complaint, t: 0,  source: player, intensity: 0.6}
+  - {type: complaint, t: 3,  source: player, intensity: 0.6}
+  - {type: complaint, t: 6,  source: player, intensity: 0.6}
+  - {type: complaint, t: 9,  source: player, intensity: 0.6}
+  - {type: complaint, t: 12, source: player, intensity: 0.6}
