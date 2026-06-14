@@ -1,0 +1,12 @@
+# Game-facing: a mixed "day" of low-level social noise from a few sources -- cold replies, a
+# complaint, a help, an authority command, a refusal. No world loop, only scheduled RawEvents.
+id: game_social_noise_day
+persona: halgrim
+initial_overrides:
+  global_state: {fatigue: 0.3}
+events:
+  - {type: cold_reply, t: 0,  source: guard,  intensity: 0.4}
+  - {type: complaint,  t: 5,  source: player, intensity: 0.5}
+  - {type: help,       t: 10, source: player, intensity: 1.0}
+  - {type: command,    t: 15, source: edda,   intensity: 1.0}
+  - {type: refusal,    t: 20, source: player, intensity: 0.6}

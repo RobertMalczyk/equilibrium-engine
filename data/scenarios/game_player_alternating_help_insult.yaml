@@ -1,0 +1,12 @@
+# Game-facing: a "player" source alternates hostility and help. Slow social memory should NOT
+# reset on the help -- run across two contrasting personas (the test overrides `persona`).
+id: game_player_alternating_help_insult
+persona: wojslaw
+initial_overrides:
+  relations:
+    player: {trust: 0.4, respect: 0.4, resentment: 0.0}
+events:
+  - {type: insult,  t: 0,  source: player, intensity: 0.9, context: {public: true}}
+  - {type: help,    t: 6,  source: player, intensity: 1.0}
+  - {type: insult,  t: 12, source: player, intensity: 0.9, context: {public: true}}
+  - {type: help,    t: 18, source: player, intensity: 1.0}
