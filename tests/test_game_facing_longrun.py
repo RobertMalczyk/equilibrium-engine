@@ -148,3 +148,20 @@ def test_8_game_scenario_two_personas(path):
     assert seqs[CONTRAST[0]] != seqs[CONTRAST[1]], (
         f"{path.stem}: the two personas produced identical traces"
     )
+
+
+def _action_seq(path, persona):
+    sc = load_scenario(path)
+    tr = run_scenario(load_eval_persona(persona), dataclasses.replace(sc, persona=persona))[1]
+    return tuple(tk.selection.action for tk in tr.ticks)
+
+
+def test_8_corpus_shows_visible_action_contrast():
+    """The project litmus (CLAUDE.md): two personas in the same scenario must play differently in
+    VISIBLE ACTIONS, not merely in anger numbers. The weak negative-only scenarios may leave both at
+    `neutral`, so this is asserted over the CORPUS: at least one game scenario yields a different
+    action sequence for the stoic vs the reactive persona."""
+    assert any(
+        _action_seq(path, CONTRAST[0]) != _action_seq(path, CONTRAST[1])
+        for path in GAME_SCENARIOS
+    )

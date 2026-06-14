@@ -121,10 +121,11 @@ def test_2A_insult_is_strongest_anger():
 def test_2A_cold_reply_is_mildest():
     init = {"global_state": {"anger": 0.0, "frustration": 0.0, "stress": 0.0}}
     g = {t: _state1("wojslaw", t, init) for t in NEW_NEG}
-    assert g["cold_reply"]["anger"] <= g["complaint"]["anger"]
-    assert g["cold_reply"]["anger"] <= g["refusal"]["anger"]
-    assert g["cold_reply"]["frustration"] <= g["complaint"]["frustration"]
-    assert g["cold_reply"]["frustration"] <= g["refusal"]["frustration"]
+    # strictly mildest on BOTH dims (strict, so an alias of another event would fail)
+    assert g["cold_reply"]["anger"] < g["complaint"]["anger"]
+    assert g["cold_reply"]["anger"] < g["refusal"]["anger"]
+    assert g["cold_reply"]["frustration"] < g["complaint"]["frustration"]
+    assert g["cold_reply"]["frustration"] < g["refusal"]["frustration"]
 
 
 def test_2A_complaint_weights_frustration_over_anger():
@@ -153,8 +154,10 @@ def test_2B_negative_events_distinguishable_in_potentials():
         t: tuple(round(v, 9) for v in _pots1("wojslaw", t, init).values())
         for t in ("insult",) + NEW_NEG
     }
-    assert len(set(pots.values())) > 1  # not all four identical
-    for t in NEW_NEG:  # none is an alias of insult
+    # all FOUR produce pairwise-distinct potential vectors -- none is an alias of any other
+    # (a strictly stronger check than "each differs from insult"):
+    assert len(set(pots.values())) == 4, "negative events are not all distinguishable"
+    for t in NEW_NEG:
         assert pots[t] != pots["insult"], f"{t} potentials alias insult's"
 
 
