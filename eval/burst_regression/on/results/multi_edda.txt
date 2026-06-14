@@ -1,0 +1,10 @@
+edda_multi_011: PASS -- steady composed days, sane pacing, profile consistent
+edda_multi_013: PASS -- authority assertion on Day 3 fits castellan profile well
+edda_multi_014: PASS -- absorbs mockery and orders without reaction, fits profile
+edda_multi_023: PASS -- complies with stranger order Day 3 night, minor but not absurd
+edda_multi_043: PASS -- indifference to Halgrim kindness unusual but not a genuine problem
+edda_multi_060: PASS -- calm uneventful days, consistent pacing and profile
+edda_multi_064: PASS -- single curt reply to late mockery adds texture, fully believable
+edda_multi_071: PASS -- complies with stranger order late Day 2, plausible duty context
+edda_multi_084: PASS -- steady and composed throughout, absorbs provocations cleanly
+edda_multi_085: PASS -- three rest entries cluster Day 1 afternoon but not alarming

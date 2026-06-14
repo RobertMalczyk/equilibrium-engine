@@ -1,0 +1,10 @@
+lutek_day_007: PASS
+lutek_day_034: PASS
+lutek_day_035: PASS
+lutek_day_038: PASS
+lutek_day_040: PASS
+lutek_day_057: PASS
+lutek_day_058: PASS
+lutek_day_064: PASS
+lutek_day_067: PASS
+lutek_day_090: PASS

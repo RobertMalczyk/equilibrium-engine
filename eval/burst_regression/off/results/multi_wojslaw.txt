@@ -1,0 +1,10 @@
+wojslaw_multi_020: PASS -- calm/erupt cycle tracks provocations; sleep resets fine
+wojslaw_multi_032: PASS -- eruptions tied to mockings; tension accumulates believably
+wojslaw_multi_058: PASS -- warm Day 1 then escalating provocations; arc coherent
+wojslaw_multi_059: PASS -- morning composure post-sleep; eruptions resume with provocation
+wojslaw_multi_067: PASS -- bristle at kindness while tense is odd but state supports it
+wojslaw_multi_068: PASS -- restrained early, erupts when mockings accumulate; fine
+wojslaw_multi_079: PASS -- grumbling at kindness while tense plausible for proud irritable man
+wojslaw_multi_084: PASS -- heavy Day 4 eruptions driven by heavy provocations; bounded
+wojslaw_multi_094: PASS -- peaceful Day 1 no provocations; escalates correctly when mocked
+wojslaw_multi_100: PASS -- calm Day 2 with zero provocations; eruptions tied to insults

@@ -1,0 +1,10 @@
+branic_multi_012: PASS -- sane 4-day arc, evening snaps earned by accumulated friction
+branic_multi_013: PASS -- 6-day escalation, Day 4 eruption well-prepared, Day 5 refusals plausible
+branic_multi_021: PASS -- late-night sleep timing odd but acceptable, outburst earned
+branic_multi_038: PASS -- Day 3 eruption after tense buildup, Day 4 mild soup-indifference fine
+branic_multi_040: PASS -- heavy order-pressure Day 2, morning snap Day 3, calm recovery Days 4-5
+branic_multi_049: PASS -- quiet 3 days with no real pressure, no outburst, fits
+branic_multi_062: PASS -- sustained refusal plateau after Day 1 tension; calm mood between orders plausible
+branic_multi_073: PASS -- clean 3-day arc, late-night snap earned by end-of-day tension
+branic_multi_078: PASS -- cooperative calm stretch across 4 days, no outburst, believable good run
+branic_multi_091: PASS -- Day 3 morning snap earned, Day 5-6 escalation into defiance believable

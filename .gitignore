@@ -17,6 +17,7 @@ calibration/diagnostics/
 # PROGRESS.md + README.md. Only the bulky generated judge prompts and debug plots are ignored.
 eval/plots/
 *.prompt.md
+eval/burst_regression/*/batches/
 
 # Editor / OS
 .DS_Store

@@ -1,0 +1,10 @@
+edda_day_012: PASS -- settled day, one mild complaint, sleeps normally
+edda_day_032: PASS -- calm day, ignores stranger orders, all pacing sane
+edda_day_037: PASS -- quiet positive day, no friction, normal rhythms
+edda_day_047: PASS -- settled throughout, ignores order, sleeps on time
+edda_day_051: PASS -- good pacing, regular meals and warmth, no issues
+edda_day_072: PASS -- even day, ignores evening order, all normal
+edda_day_073: PASS -- public barb ignored, fits composed castellan demeanour
+edda_day_077: PASS -- very settled, positive interactions, nothing jars
+edda_day_079: FLAG -- castellan simply obeys stranger's order rather than ignoring it
+edda_day_087: FLAG -- castellan complies with stranger's order; authority profile tension

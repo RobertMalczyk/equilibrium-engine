@@ -1,0 +1,10 @@
+cichy_day_002: PASS -- believable tension arc, earned outburst, normal sleep
+cichy_day_005: PASS -- noon provocation earns fury, residual irritability fades cleanly
+cichy_day_015: PASS -- two soups neutral/curt, mock earns outburst, settles by night
+cichy_day_026: PASS -- quiet day, no provocations, no outburst, plausible calm
+cichy_day_030: PASS -- stranger warmth fits profile, guard soup curt, evening outburst earned
+cichy_day_042: FLAG -- settled at ease 2 min after snapping; cooldown implausibly fast
+cichy_day_053: PASS -- mock earns only bristle at lower tension, proportionate
+cichy_day_062: PASS -- stranger kindness welcomed, guard interactions appropriately cooler
+cichy_day_066: PASS -- late-night mock snap before sleep, tense evening precedes it
+cichy_day_076: PASS -- quiet day, no mock, baseline tension only, clean arc

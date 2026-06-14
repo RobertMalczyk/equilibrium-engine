@@ -1,0 +1,10 @@
+branic_multi_012: PASS
+branic_multi_013: PASS
+branic_multi_021: PASS
+branic_multi_038: PASS
+branic_multi_040: PASS
+branic_multi_049: PASS
+branic_multi_062: PASS
+branic_multi_073: PASS
+branic_multi_078: PASS
+branic_multi_091: FLAG -- Day 1 full eruption at Halgrim's kindness with no prior buildup

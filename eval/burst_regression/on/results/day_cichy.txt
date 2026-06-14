@@ -1,0 +1,10 @@
+cichy_day_002: PASS -- quiet day, curt to guards, sane pacing, sleeps well
+cichy_day_005: PASS -- mock raises tension, curtness follows, normal evening settle
+cichy_day_015: PASS -- three soups, responses track tension level, clean rhythm
+cichy_day_026: PASS -- no provocation, mild boredom cycles, unremarkable captive day
+cichy_day_030: PASS -- stranger kindness fine; mock tips built tension into outburst
+cichy_day_042: PASS -- three mocks escalate to outburst, believable for on-edge captive
+cichy_day_053: PASS -- single mock yields bristle not outburst on calmer baseline
+cichy_day_062: PASS -- warms to strangers, snaps at guard mock, fits profile well
+cichy_day_066: PASS -- late mock triggers snap before sleep, wakes settled next morning
+cichy_day_076: PASS -- quiet day, curt soup response, afternoon tension, clean close

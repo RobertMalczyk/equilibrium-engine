@@ -1,0 +1,10 @@
+welf_day_006: PASS -- calm day, boredom cycles, mock shrugged off, sane pacing
+welf_day_014: PASS -- steady rhythm, kindness warmly received, clean sleep
+welf_day_015: PASS -- extra rest intervals fit idle man with nothing to do
+welf_day_020: PASS -- two kindnesses close together, otherwise normal day
+welf_day_034: PASS -- late-evening tension plausible for boredom-prone man
+welf_day_036: PASS -- mock ignored, minor late sleep, consistent profile
+welf_day_049: PASS -- late tension then settles, sleeps on time, wakes recovered
+welf_day_050: PASS -- two soups within 34 min odd but no jarring behaviour
+welf_day_070: PASS -- late-day edge resolves quickly, clean sleep and recovery
+welf_day_090: PASS -- late tension pattern consistent, sleeps and wakes recovered

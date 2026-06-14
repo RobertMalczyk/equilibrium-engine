@@ -1,0 +1,10 @@
+branic_day_002: PASS -- quiet sane day, normal pacing, sleeps on time
+branic_day_019: PASS -- four mocks all absorbed, evening tension is plausible accumulated wear
+branic_day_028: PASS -- several orders let pass, sane rhythm, normal sleep
+branic_day_055: PASS -- public mock triggers a snap after heavy morning, fits the profile
+branic_day_073: PASS -- positive day, evening tension from fatigue is believable
+branic_day_076: PASS -- tension dips after late soup, believable recovery arc
+branic_day_079: PASS -- quiet positive start, evening tension from wear, normal sleep
+branic_day_083: PASS -- very quiet day, boredom cycles, evening tension, normal sleep
+branic_day_088: PASS -- two soups 32 min apart is odd but pacing otherwise sane
+branic_day_092: PASS -- wound tight at 20:03, kindness met flatly then warmly, acceptable

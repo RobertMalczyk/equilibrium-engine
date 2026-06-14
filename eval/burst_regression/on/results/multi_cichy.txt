@@ -1,0 +1,10 @@
+cichy_multi_003: PASS -- sane 5-day arc, outbursts follow clear provocation
+cichy_multi_019: PASS -- tense grind days, curtly responses, no false spikes
+cichy_multi_022: PASS -- Day 4 escalation across multiple mocks is believable
+cichy_multi_033: PASS -- Day 3 early snap after two-day grind is plausible
+cichy_multi_035: PASS -- clean run, curt to guards, no eruptions, pacing fine
+cichy_multi_045: PASS -- contained responses despite sustained guard pressure
+cichy_multi_048: PASS -- rain and mockery raise tension, no absurd spikes
+cichy_multi_082: PASS -- multi-day wear, wakes settled, responses proportionate
+cichy_multi_083: PASS -- heavy guard aggression drives multiple eruptions, fits profile
+cichy_multi_097: PASS -- Day 3 eruption after rain and prior-day wear is plausible

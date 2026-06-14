@@ -1,0 +1,10 @@
+wojslaw_day_009: PASS -- clean arc, eruptions on provocation, settles normally
+wojslaw_day_031: PASS -- sustained irritability, eruptions fit, sleeps recovered
+wojslaw_day_049: PASS -- pleasant morning, mid-day eruptions on mockery, calms
+wojslaw_day_050: PASS -- residual edginess after mock, reasonable arc through evening
+wojslaw_day_055: PASS -- heavy-provocation day, sustained anger, plausible pacing
+wojslaw_day_070: PASS -- morning escalation under repeated mocks, calm afternoon
+wojslaw_day_075: PASS -- calm baseline, two eruptions on mockery, settles fine
+wojslaw_day_080: PASS -- morning flares, long calm, late flare on new provocation
+wojslaw_day_082: PASS -- quick anger then warmth, mid-day snaps, evening outburst
+wojslaw_day_085: PASS -- calm until provoked, consistent snap/erupt pattern, no absurdities

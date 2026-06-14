@@ -1,0 +1,10 @@
+halgrim_day_022: PASS
+halgrim_day_031: PASS
+halgrim_day_041: PASS
+halgrim_day_046: PASS
+halgrim_day_071: PASS
+halgrim_day_078: PASS
+halgrim_day_087: PASS
+halgrim_day_094: PASS
+halgrim_day_098: PASS
+halgrim_day_100: PASS

@@ -1,0 +1,10 @@
+branic_day_002: PASS -- sane pacing, boredom cycles, sleeps and wakes recovered
+branic_day_019: PASS -- repeated mocks absorbed; mild evening tension fits accumulated load
+branic_day_028: PASS -- some orders met with no-reaction but overall arc coherent
+branic_day_055: PASS -- public mock triggers snap after long compliant stretch, fits profile
+branic_day_073: PASS -- positive day, mild end-of-evening tension plausible for restless character
+branic_day_076: PASS -- very positive day, consistently settled, nothing jarring
+branic_day_079: PASS -- late-day tension without sharp trigger but plausible boredom buildup
+branic_day_083: PASS -- quiet day, mild evening tension, sleeps and wakes recovered
+branic_day_088: PASS -- two soups close together is odd but not absurd, day otherwise sane
+branic_day_092: PASS -- muted response to Halgrim kindness at 21:17 minor, warm response follows

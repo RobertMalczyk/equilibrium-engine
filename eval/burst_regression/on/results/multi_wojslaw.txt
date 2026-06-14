@@ -1,0 +1,10 @@
+wojslaw_multi_020: PASS
+wojslaw_multi_032: PASS
+wojslaw_multi_058: PASS
+wojslaw_multi_059: PASS
+wojslaw_multi_067: PASS
+wojslaw_multi_068: PASS
+wojslaw_multi_079: PASS
+wojslaw_multi_084: PASS
+wojslaw_multi_094: PASS
+wojslaw_multi_100: PASS

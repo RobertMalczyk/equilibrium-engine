@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>Outburst on/off — 10% blind regression</title>
+<style>
+ body{font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;color:#1a1a1a;background:#fafafa}
+ h1{font-size:1.5rem} h2{font-size:1.15rem;margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}
+ table{border-collapse:collapse;width:100%;margin:1rem 0;background:#fff}
+ th,td{border:1px solid #ddd;padding:.45rem .6rem;text-align:left}
+ th{background:#f0f0f0} tr.tot td{font-weight:600;background:#f7f7f7}
+ tr.warn td{background:#fff3f0} tr.good td{background:#f0fbf3}
+ .meta{color:#555} code{background:#eee;padding:.1rem .3rem;border-radius:3px}
+ .pill{display:inline-block;padding:.15rem .5rem;border-radius:10px;background:#eef;margin-right:.4rem}
+</style>
+<h1>Outburst on/off — 10% blind regression</h1>
+<p class="meta">Sample: seed <code>1400</code>, coverage <code>10%</code>
+= 140 scenarios (day + multi-day). Each judged blind under the M20.1 outburst overlay
+<b>disabled</b> (shipped default) and <b>enabled</b>. One fresh Sonnet judge per batch, neutral rubric,
+no answer key.</p>
+<p><span class="pill">94/140 scenarios change narration when armed</span>
+<span class="pill">5 verdict deltas</span></p>
+<h2>Pass counts by corpus / persona</h2>
+<table><tr><th>corpus</th><th>persona</th><th>pass (off)</th><th>pass (on)</th></tr>
+<tr><td>day</td><td>halgrim</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>day</td><td>wojslaw</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>day</td><td>cichy</td><td>9/10</td><td>10/10</td></tr>
+<tr><td>day</td><td>branic</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>day</td><td>lutek</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>day</td><td>welf</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>day</td><td>edda</td><td>8/10</td><td>10/10</td></tr>
+<tr><td>multi</td><td>halgrim</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>multi</td><td>wojslaw</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>multi</td><td>cichy</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>multi</td><td>branic</td><td>10/10</td><td>9/10</td></tr>
+<tr><td>multi</td><td>lutek</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>multi</td><td>welf</td><td>10/10</td><td>9/10</td></tr>
+<tr><td>multi</td><td>edda</td><td>10/10</td><td>10/10</td></tr>
+<tr class='tot'><td>day TOTAL</td><td></td><td>67/70</td><td>70/70</td></tr>
+<tr class='tot'><td>multi TOTAL</td><td></td><td>70/70</td><td>68/70</td></tr>
+</table>
+<h2>Verdict deltas (off → on)</h2>
+<p class="meta">The blind judge is non-deterministic: a delta where <b>narration changed = no</b> is pure
+judge variance (same text, different agent), <b>not</b> a burst effect. Only <b>narration changed =
+yes</b> rows are attributable to arming the outburst overlay.</p>
+<table><tr><th>scenario</th><th>off</th><th>on</th><th>narration changed</th></tr>
+<tr class='warn'><td>branic_multi_091</td><td>PASS</td><td>FLAG</td><td>yes</td></tr>
+<tr class='good'><td>cichy_day_042</td><td>FLAG</td><td>PASS</td><td>yes</td></tr>
+<tr class='good'><td>edda_day_079</td><td>FLAG</td><td>PASS</td><td>no</td></tr>
+<tr class='good'><td>edda_day_087</td><td>FLAG</td><td>PASS</td><td>no</td></tr>
+<tr class='warn'><td>welf_multi_030</td><td>PASS</td><td>FLAG</td><td>yes</td></tr>
+</table>
+<h2>Flags — outburst off</h2><ul>
+<li>cichy_day_042: settled at ease 2 min after snapping; cooldown implausibly fast</li>
+<li>edda_day_079: castellan simply obeys stranger's order rather than ignoring it</li>
+<li>edda_day_087: castellan complies with stranger's order; authority profile tension</li>
+</ul>
+<h2>Flags — outburst on</h2><ul>
+<li>branic_multi_091: Day 1 full eruption at Halgrim's kindness with no prior buildup</li>
+<li>welf_multi_030: calm man snaps angrily at soup-bringer without clear provocation</li>
+</ul>
+</html>

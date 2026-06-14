@@ -1,0 +1,10 @@
+welf_multi_025: PASS
+welf_multi_030: PASS
+welf_multi_033: PASS
+welf_multi_042: PASS
+welf_multi_052: PASS
+welf_multi_058: PASS
+welf_multi_065: PASS
+welf_multi_070: PASS
+welf_multi_092: PASS
+welf_multi_096: PASS

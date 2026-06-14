@@ -1,0 +1,10 @@
+lutek_multi_004: PASS
+lutek_multi_006: PASS
+lutek_multi_033: PASS
+lutek_multi_035: PASS
+lutek_multi_036: PASS
+lutek_multi_045: PASS
+lutek_multi_048: PASS
+lutek_multi_056: PASS
+lutek_multi_086: PASS
+lutek_multi_094: PASS

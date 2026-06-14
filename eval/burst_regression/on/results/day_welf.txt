@@ -1,0 +1,10 @@
+welf_day_006: PASS -- calm day, mock let pass, eats and sleeps fine
+welf_day_014: PASS -- steady rhythm, kindnesses received warmly, clean sleep
+welf_day_015: PASS -- meal mid-activity and rest sequence slightly tight but sane
+welf_day_020: PASS -- multiple kindnesses cluster but pacing and sleep are sound
+welf_day_034: PASS -- mild late-day tension fits boredom buildup, resets at sleep
+welf_day_036: PASS -- mock shrugged off correctly, slight late bedtime acceptable
+welf_day_049: PASS -- late restlessness explains mild edge, rests before sleep
+welf_day_050: PASS -- two soups 34 min apart is odd but not a hard failure
+welf_day_070: PASS -- late tension after late boredom spike, sleep resets cleanly
+welf_day_090: PASS -- late-day edge without provocation, mild; sleep resets fine

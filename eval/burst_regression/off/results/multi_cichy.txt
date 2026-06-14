@@ -1,0 +1,10 @@
+cichy_multi_003: PASS -- sane 5-day arc, provocation responses well-paced
+cichy_multi_019: PASS -- three outbursts Day 5 each triggered by explicit mocking
+cichy_multi_022: PASS -- two Day-4 furys on separate mockings, proportional
+cichy_multi_033: PASS -- quiet build, escalation on Day 3 mockings fits profile
+cichy_multi_035: PASS -- fury on single evening mocking, afternoon tension supports it
+cichy_multi_045: PASS -- Day 5 double fury triggered by two mockings, settles cleanly
+cichy_multi_048: PASS -- rain-day tension feeds fury, good multi-day pacing
+cichy_multi_082: PASS -- stranger kindnesses noted; guard mockings drive outbursts throughout
+cichy_multi_083: PASS -- six Day-2 mockings, all individually triggered, responses proportional
+cichy_multi_097: PASS -- rain plus late-day provocation chain, nights reset correctly

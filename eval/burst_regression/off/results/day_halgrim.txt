@@ -1,0 +1,10 @@
+halgrim_day_022: PASS -- calm dutiful day, profile match
+halgrim_day_031: PASS -- cold contempt under repeated barbs fits perfectly
+halgrim_day_041: PASS -- double soup at 08:02/08:22 odd but not disqualifying
+halgrim_day_046: PASS -- end-of-day Edda pass unusual but within range
+halgrim_day_071: PASS -- many stranger kindnesses, busy but coherent
+halgrim_day_078: PASS -- escalating response to repeated Wojslaw provocation correct
+halgrim_day_087: PASS -- sustained pressure builds tension; wakes recovered
+halgrim_day_094: PASS -- twice ignores Edda without tension marker, borderline
+halgrim_day_098: PASS -- mood oscillation choppy but not absurd
+halgrim_day_100: PASS -- quiet day, mild curt reply fits profile

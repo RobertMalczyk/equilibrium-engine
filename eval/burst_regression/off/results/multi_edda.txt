@@ -1,0 +1,10 @@
+edda_multi_011: PASS -- calm, well-fed, sleeps, exercises authority throughout
+edda_multi_013: PASS -- sane 5 days; one stranger compliance late but tolerable
+edda_multi_014: PASS -- composed under mockery and orders; profile-consistent
+edda_multi_023: PASS -- 6 days stable; one compliance and one refusal both plausible
+edda_multi_043: PASS -- Halgrim kindness met flatly once; minor, rest is solid
+edda_multi_060: PASS -- quiet days; multiple stranger orders deflected, composure holds
+edda_multi_064: PASS -- three rests day 1 is dense; curt reply to public mockery fits
+edda_multi_071: PASS -- one stranger-order compliance mildly off-profile but isolated
+edda_multi_084: PASS -- clean record; late-night mockery ignored, fully consistent
+edda_multi_085: PASS -- three rests in 2hrs is dense; stranger compliance mild concern

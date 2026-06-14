@@ -1,0 +1,10 @@
+halgrim_multi_045: PASS
+halgrim_multi_046: PASS
+halgrim_multi_065: PASS
+halgrim_multi_071: PASS
+halgrim_multi_079: PASS
+halgrim_multi_085: PASS
+halgrim_multi_090: PASS
+halgrim_multi_091: PASS
+halgrim_multi_093: PASS
+halgrim_multi_100: PASS

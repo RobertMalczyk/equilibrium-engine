@@ -1,0 +1,10 @@
+welf_multi_025: PASS -- steady boredom cycles, sleeps right, profile fits
+welf_multi_030: FLAG -- calm man snaps angrily at soup-bringer without clear provocation
+welf_multi_033: PASS -- clean boredom pattern, mocks absorbed, kindnesses welcomed
+welf_multi_042: PASS -- consistent across 5 days, mocks let pass, profile fits
+welf_multi_052: PASS -- rain-day tension plausible, two soups close together minor
+welf_multi_058: PASS -- flat to one kindness odd but within composed-man range
+welf_multi_065: PASS -- rain day slightly tense but recovers, no profile contradictions
+welf_multi_070: PASS -- calm, receptive, boredom-seeking pattern fully consistent
+welf_multi_092: PASS -- multi-day pattern stable, tension resolves with food and rest
+welf_multi_096: PASS -- post-soup tension brief, recovers normally, overall sane
