@@ -176,7 +176,9 @@ def _refractory_pressure(
         return 0.0
     if event.source != runtime.last_provocation_source:
         return 0.0
-    if runtime.global_state["anger"] < theta:  # not still hot from a recent eruption here
+    if (
+        runtime.global_state["anger"] < theta
+    ):  # not still hot from a recent eruption here
         return 0.0
     return float(config.appraisal.get("refractory_pressure", 0.0))
 

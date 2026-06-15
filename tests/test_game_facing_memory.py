@@ -113,13 +113,31 @@ def _player_insults(d):
     if d != 0:
         return []
     return [
-        (6, {"type": "insult", "source": "player", "intensity": 0.9, "context": {"public": True}}),
-        (13, {"type": "insult", "source": "player", "intensity": 0.9, "context": {"public": True}}),
+        (
+            6,
+            {
+                "type": "insult",
+                "source": "player",
+                "intensity": 0.9,
+                "context": {"public": True},
+            },
+        ),
+        (
+            13,
+            {
+                "type": "insult",
+                "source": "player",
+                "intensity": 0.9,
+                "context": {"public": True},
+            },
+        ),
     ]
 
 
 def _player_res(tr, t):
-    return tr.ticks[t].state_after_post.relations.get("player", {}).get("resentment", 0.0)
+    return (
+        tr.ticks[t].state_after_post.relations.get("player", {}).get("resentment", 0.0)
+    )
 
 
 def test_7A_night_resets_fast_state_slow_relation_persists():
@@ -137,7 +155,9 @@ def test_7A_night_resets_fast_state_slow_relation_persists():
     res_dusk0 = _player_res(tr, DAY_LEN - 1)
     res_dawn1 = _player_res(tr, DAY_LEN)  # first tick after the night
     assert res_dusk0 > 0.05  # a grudge formed
-    assert res_dawn1 >= res_dusk0 - 0.02  # ...and it is NOT erased overnight (slow state)
+    assert (
+        res_dawn1 >= res_dusk0 - 0.02
+    )  # ...and it is NOT erased overnight (slow state)
 
 
 def test_7A_deterministic():
@@ -175,7 +195,9 @@ def test_9_trace_exposes_full_tick_anatomy():
     assert tk["event"]["type"] == "insult"
     assert tk["event"]["source"] == "player"  # the input event preserves its source id
     assert "insult" in tk["eff_inputs"]  # the mapped semantic channel is visible
-    assert tk["eff_inputs"]["insult"]["source"] == "player"  # ...with the source attributed
+    assert (
+        tk["eff_inputs"]["insult"]["source"] == "player"
+    )  # ...with the source attributed
     assert "global" in tk["snapshot"]  # state BEFORE the commit
     assert "global" in tk["state_after_commit"]  # state AFTER the commit
     assert tk["potentials"]  # a non-empty potential vector

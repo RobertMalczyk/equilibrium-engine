@@ -69,7 +69,9 @@ def burst_overrides() -> dict:
     rest: dict = {}
     for key, val in flat.items():
         if key.startswith("thresholds."):
-            thresholds[key[len("thresholds.") :]] = val  # flat threshold key (may contain a dot)
+            thresholds[key[len("thresholds.") :]] = (
+                val  # flat threshold key (may contain a dot)
+            )
         else:
             rest[key] = val
     ov = nest_dotted(rest)

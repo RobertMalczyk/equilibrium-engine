@@ -55,8 +55,12 @@ def test_1A_repeated_minor_hostility_builds_bounded_resentment():
     last = tr.ticks[-1].state_after_post
     assert "player" in last.relations  # a relational source gets/updates a relation row
     r = last.relations["player"]["resentment"]
-    assert r > 0.0  # resentment toward the player moved up (from halgrim's 0.0 baseline)
-    assert r < 0.95  # ...but weak events alone do NOT saturate into a permanent max grudge
+    assert (
+        r > 0.0
+    )  # resentment toward the player moved up (from halgrim's 0.0 baseline)
+    assert (
+        r < 0.95
+    )  # ...but weak events alone do NOT saturate into a permanent max grudge
     assert all(  # nor pin anger to the ceiling
         tk.state_after_post.global_state["anger"] < 0.95 for tk in tr.ticks
     )
@@ -94,7 +98,9 @@ def test_1C_help_does_not_erase_slow_negative_memory():
     assert res_after_insult1 > 0.0  # the first insult built a grudge
     # one help in the middle does NOT zero the slow grudge (source-specific memory persists):
     assert res_after_help > 0.5 * res_after_insult1
-    assert res_final > 0.0  # the final relation reflects mixed history, not a pure reset
+    assert (
+        res_final > 0.0
+    )  # the final relation reflects mixed history, not a pure reset
 
 
 # ============================ Part 2: negative events are not all insults ============================
@@ -169,9 +175,9 @@ def test_4_public_at_least_as_strong_as_private(typ):
     def res(pub):
         tr = _run("wojslaw", [_ev(0, typ, "player", 1.0, public=pub)], n=1)
         return (
-            tr.ticks[0].state_after_commit.relations.get("player", {}).get(
-                "resentment", 0.0
-            )
+            tr.ticks[0]
+            .state_after_commit.relations.get("player", {})
+            .get("resentment", 0.0)
         )
 
     assert res(True) >= res(False)
@@ -185,9 +191,9 @@ def test_4_public_strictly_amplified_by_exposure(typ):
     def res(pub):
         tr = _run("wojslaw", [_ev(0, typ, "player", 1.0, public=pub)], n=1)
         return (
-            tr.ticks[0].state_after_commit.relations.get("player", {}).get(
-                "resentment", 0.0
-            )
+            tr.ticks[0]
+            .state_after_commit.relations.get("player", {})
+            .get("resentment", 0.0)
         )
 
     assert res(True) > res(False)
@@ -219,7 +225,9 @@ def test_5_personas_differ_under_same_stream():
         p: tuple(_stream_actions(p))
         for p in ("halgrim", "wojslaw", "cichy", "lutek", "branic")
     }
-    assert len(set(seqs.values())) > 1  # the exact action sequence is NOT identical for all
+    assert (
+        len(set(seqs.values())) > 1
+    )  # the exact action sequence is NOT identical for all
 
 
 def test_5_stoic_suppresses_reactive_erupts():

@@ -140,7 +140,9 @@ def main():
     import yaml
 
     do_all = "--all" in sys.argv
-    burst = "--burst" in sys.argv  # arm the M20.1 outburst overlay (opt-in; default off = unchanged)
+    burst = (
+        "--burst" in sys.argv
+    )  # arm the M20.1 outburst overlay (opt-in; default off = unchanged)
     n_per = 100 if do_all else 10
     cfgs = {p: load_eval_persona_timescale(p, burst=burst) for p in PERSONAS}
     print(

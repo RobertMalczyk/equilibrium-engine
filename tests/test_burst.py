@@ -398,7 +398,11 @@ def _refractory_run(refractory_on=True, n_ticks=9):
     if not refractory_on:
         appraisal["refractory_pressure"] = 0.0
     cfg = _burst_cfg(
-        extra={"reactive_window_ticks": 1, "burst_exit": 0.10, "refractory_anger": 0.30},
+        extra={
+            "reactive_window_ticks": 1,
+            "burst_exit": 0.10,
+            "refractory_anger": 0.30,
+        },
         extinction={"anger": 0.005, "stress": 0.005},  # latch holds across both insults
         appraisal=appraisal,
     )
@@ -451,7 +455,11 @@ def test_refractory_does_not_fire_for_a_different_provoker():
     spares the engine from re-exploding at the SAME source it already vented on."""
     appraisal = {"gesture_channels": [], "kindness_pressure": 0.0}
     cfg = _burst_cfg(
-        extra={"reactive_window_ticks": 1, "burst_exit": 0.10, "refractory_anger": 0.30},
+        extra={
+            "reactive_window_ticks": 1,
+            "burst_exit": 0.10,
+            "refractory_anger": 0.30,
+        },
         extinction={"anger": 0.005, "stress": 0.005},
         appraisal=appraisal,
     )
@@ -500,22 +508,35 @@ def test_refractory_fires_WITHOUT_the_latch():
     never arms, yet the SECOND same-source insult (anger still >= refractory_anger from the first
     eruption) does NOT re-explode. With `refractory_anger` UNSET on the same scenario, it would."""
     initial = {
-        "global_state": {"anger": 0.55, "stress": 0.20},  # hot temper, but stress far below the band
+        "global_state": {
+            "anger": 0.55,
+            "stress": 0.20,
+        },  # hot temper, but stress far below the band
         "relations": {"brun": {"resentment": 0.9}},
     }
     events = [
-        RawEvent(t=2, type="insult", source="brun", intensity=1.0),  # first: new source -> erupts
-        RawEvent(t=4, type="insult", source="brun", intensity=1.0),  # repeat: still hot -> refractory
+        RawEvent(
+            t=2, type="insult", source="brun", intensity=1.0
+        ),  # first: new source -> erupts
+        RawEvent(
+            t=4, type="insult", source="brun", intensity=1.0
+        ),  # repeat: still hot -> refractory
     ]
     # NO burst-latch thresholds; only the refractory gate + reactive window.
     on = _load({"thresholds": {"reactive_window_ticks": 1, "refractory_anger": 0.30}})
     off = _load({"thresholds": {"reactive_window_ticks": 1}})  # refractory_anger unset
     _, tr_on = run_scenario(on, _scenario(events, initial=initial), n_ticks=8)
     _, tr_off = run_scenario(off, _scenario(events, initial=initial), n_ticks=8)
-    assert all(not tk.burst_latched for tk in tr_on.ticks)  # the vent never armed (single loop)
+    assert all(
+        not tk.burst_latched for tk in tr_on.ticks
+    )  # the vent never armed (single loop)
     assert tr_on.ticks[2].selection.action == "outburst"  # first eruption stands
-    assert tr_on.ticks[4].selection.action != "outburst"  # ...but the repeat does NOT re-explode
-    assert tr_off.ticks[4].selection.action == "outburst"  # without the gate, it re-explodes
+    assert (
+        tr_on.ticks[4].selection.action != "outburst"
+    )  # ...but the repeat does NOT re-explode
+    assert (
+        tr_off.ticks[4].selection.action == "outburst"
+    )  # without the gate, it re-explodes
 
 
 # --- determinism ------------------------------------------------------------------------------------

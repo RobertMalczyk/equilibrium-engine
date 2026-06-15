@@ -221,7 +221,9 @@ def solve_c2(k: float) -> dict:
             break
         b = round(b + 0.01, 2)
     if beta is None:
-        raise SystemExit("C2: no beta in [0,3] returns within T_cool — check k_esc / model")
+        raise SystemExit(
+            "C2: no beta in [0,3] returns within T_cool — check k_esc / model"
+        )
 
     ext_a = round(beta * one_minus["anger"], 6)
     ext_s = round(beta * one_minus["stress"], 6)
@@ -242,20 +244,24 @@ def solve_c2(k: float) -> dict:
 def solve_c5(c3: dict, env: dict) -> dict:
     """C5 — theta_displace (the displacement bar) + the displaced relational discount.
 
-      theta_displace = midpoint of the C3 latch hysteresis band [exit, enter.anger]. Displacement
-        ("kicking the dog": a sourced event catches the spent fury while latched) fires only in the
-        DEEP half of the episode — above typical reactive anger (the frequent <=2-way anger p99) and
-        below the plateau where the latch arms (enter.anger). As anger cools through the lower half of
-        the band the gate closes again, before the latch itself releases at exit.
-      displaced_relational_discount = 0.0: the grudge booked on the INNOCENT target is fully transient
-        ("snapped at her", no durable resentment) — the intended default (the fabricated-nemesis
-        runaway is excluded by construction). Nonzero ONLY with a story/persona target that carries a
-        provenance-backed partial grudge; none here, so it stays 0.
+    theta_displace = midpoint of the C3 latch hysteresis band [exit, enter.anger]. Displacement
+      ("kicking the dog": a sourced event catches the spent fury while latched) fires only in the
+      DEEP half of the episode — above typical reactive anger (the frequent <=2-way anger p99) and
+      below the plateau where the latch arms (enter.anger). As anger cools through the lower half of
+      the band the gate closes again, before the latch itself releases at exit.
+    displaced_relational_discount = 0.0: the grudge booked on the INNOCENT target is fully transient
+      ("snapped at her", no durable resentment) — the intended default (the fabricated-nemesis
+      runaway is excluded by construction). Nonzero ONLY with a story/persona target that carries a
+      provenance-backed partial grudge; none here, so it stays 0.
     """
     theta = round((c3["exit"] + c3["enter_a"]) / 2.0, 2)
     le2_a_p99 = env["le2_anger_p99"]
-    assert c3["exit"] < theta < c3["enter_a"], "theta_displace must sit inside the latch band"
-    assert theta > le2_a_p99, "theta_displace must be above typical reactive anger (frequent p99)"
+    assert c3["exit"] < theta < c3["enter_a"], (
+        "theta_displace must sit inside the latch band"
+    )
+    assert theta > le2_a_p99, (
+        "theta_displace must be above typical reactive anger (frequent p99)"
+    )
     prov_theta = (
         f"displacement bar = {theta} = midpoint of the C3 latch band [exit {c3['exit']}, enter.anger "
         f"{c3['enter_a']}]. Displacement fires only in the DEEP half of the burst: above typical "
@@ -269,7 +275,12 @@ def solve_c5(c3: dict, env: dict) -> dict:
         "fabricated-nemesis runaway. Nonzero only for a story/persona target with a provenance-backed "
         "partial grudge (none here)."
     )
-    return {"theta_displace": theta, "discount": 0.0, "prov_theta": prov_theta, "prov_discount": prov_discount}
+    return {
+        "theta_displace": theta,
+        "discount": 0.0,
+        "prov_theta": prov_theta,
+        "prov_discount": prov_discount,
+    }
 
 
 def loop2_contrast(seek_cost: float, window: int = 15) -> dict:
@@ -284,13 +295,22 @@ def loop2_contrast(seek_cost: float, window: int = 15) -> dict:
     ov = {"action_params": {"seek_stimulus": {"per_tick": {"stress": seek_cost}}}}
     cfg = _cfg("lutek", ov)
     relief = abs(
-        float(cfg.action_params.get("self_activity", {}).get("per_tick", {}).get("stress", 0.0))
+        float(
+            cfg.action_params.get("self_activity", {})
+            .get("per_tick", {})
+            .get("stress", 0.0)
+        )
     )
 
     def _slope(novelty_start: float, replenish: float) -> float:
-        sc = Scenario(id="loop2", persona="lutek", initial_overrides=STRESSED, events=())
+        sc = Scenario(
+            id="loop2", persona="lutek", initial_overrides=STRESSED, events=()
+        )
         tr = run_with_world(
-            cfg, sc, MockWorld(novelty_start=novelty_start, replenish_per_tick=replenish), window
+            cfg,
+            sc,
+            MockWorld(novelty_start=novelty_start, replenish_per_tick=replenish),
+            window,
         )
         s = [tk.state_after_post.global_state["stress"] for tk in tr.ticks]
         return (s[-1] - s[0]) / len(s)
@@ -315,7 +335,9 @@ def solve_c4() -> dict:
     slope positive (wind-up into burst range); at cost 0 the barren world does not wind up.
     """
     probe = loop2_contrast(0.02)
-    seek_cost = round(0.5 * probe["relief"], 4)  # half the relief rate (0.5 * 0.04 = 0.02)
+    seek_cost = round(
+        0.5 * probe["relief"], 4
+    )  # half the relief rate (0.5 * 0.04 = 0.02)
     chosen = loop2_contrast(seek_cost)
     off = loop2_contrast(0.0)
     return {
@@ -352,8 +374,12 @@ def solve_c3(env: dict, c2: dict, k: float) -> dict:
     le2_a_p99 = env["le2_anger_p99"]
     # geometry sanity (mirrors the engine yaml_io validation + the "rare and earned" intent)
     assert exit_th < enter_a, "hysteresis: exit must be < enter.anger"
-    assert enter_a > le2_a_max and enter_s > le2_s_max, "enter band must clear the frequent ceiling"
-    assert exit_th < le2_a_p99, "exit must be below the ordinary reactive anger p99 (chatter-free)"
+    assert enter_a > le2_a_max and enter_s > le2_s_max, (
+        "enter band must clear the frequent ceiling"
+    )
+    assert exit_th < le2_a_p99, (
+        "exit must be below the ordinary reactive anger p99 (chatter-free)"
+    )
     assert confirm >= 2, "confirm must reject a single in-band tick"
     prov_enter = (
         f"latch arm band, anger edge = {enter_a}. Set just ABOVE the measured frequent <=2-way anger "
@@ -626,11 +652,17 @@ def main() -> None:
     # --- C4 Loop-2 (relief vs wind-up) ---
     c4 = solve_c4()
     print("\nC4 — Loop-2 (relief-seeking through the world)\n" + "=" * 50)
-    print(f"seek_stimulus.per_tick.stress = {c4['seek_cost']}  (= 0.5 * relief rate {c4['relief']:.3f})")
+    print(
+        f"seek_stimulus.per_tick.stress = {c4['seek_cost']}  (= 0.5 * relief rate {c4['relief']:.3f})"
+    )
     print(f"  rich stress slope   = {c4['rich']:+.4f}/tick (relief)")
-    print(f"  barren stress slope = {c4['barren']:+.4f}/tick (wind-up; at cost 0: {c4['barren_off']:+.4f})")
+    print(
+        f"  barren stress slope = {c4['barren']:+.4f}/tick (wind-up; at cost 0: {c4['barren_off']:+.4f})"
+    )
     print(f"  contrast margin     = {c4['margin']:+.4f}")
-    print(f"derived_weights.urge_boredom.stress = {c4['w_s']} (measured-inert: boredom already seeks)")
+    print(
+        f"derived_weights.urge_boredom.stress = {c4['w_s']} (measured-inert: boredom already seeks)"
+    )
 
     # --- C5 displacement bar + discount ---
     c5 = solve_c5(c3, res["env"])
@@ -639,7 +671,9 @@ def main() -> None:
         f"theta_displace = {c5['theta_displace']} (midpoint of latch band "
         f"[{c3['exit']},{c3['enter_a']}]; > reactive p99 {res['env']['le2_anger_p99']:.3f})"
     )
-    print(f"displaced_relational_discount = {c5['discount']} (fully transient — no grudge on the innocent)")
+    print(
+        f"displaced_relational_discount = {c5['discount']} (fully transient — no grudge on the innocent)"
+    )
 
     write_yaml(res, c2, c3, c4, c5)
     print(f"\nwrote -> {OUT.relative_to(ROOT)}")

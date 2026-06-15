@@ -98,13 +98,16 @@ def test_6A_dense_pressure_saturates_but_stays_bounded():
 def test_6B_extreme_abuse_is_bounded_but_reacts():
     events = [_ev(t, "insult", "player", 1.0, public=True) for t in range(0, 200, 5)]
     tr = _run("wojslaw", events, {"global_state": {"fatigue": 0.3}}, n=200, burst=True)
-    assert _bounds_ok(tr)  # bounded even under relentless hostility (burst overlay armed)
+    assert _bounds_ok(
+        tr
+    )  # bounded even under relentless hostility (burst overlay armed)
     hostile = {"outburst", "cold_response", "complain", "refuse"}
     assert any(tk.selection.action in hostile for tk in tr.ticks)  # it reacts, not calm
     # the standing grudge lands on the actual abuser -- explainable by the hostile stream:
-    assert tr.ticks[-1].state_after_post.relations.get("player", {}).get(
-        "resentment", 0.0
-    ) > 0.5
+    assert (
+        tr.ticks[-1].state_after_post.relations.get("player", {}).get("resentment", 0.0)
+        > 0.5
+    )
 
 
 # ============================ Part 8: engine-only game scenario corpus ============================
@@ -117,9 +120,7 @@ def test_8_game_corpus_exists():
     assert len(GAME_SCENARIOS) >= 3, "expected a small game_*.yaml scenario corpus"
 
 
-@pytest.mark.parametrize(
-    "path", GAME_SCENARIOS, ids=[p.stem for p in GAME_SCENARIOS]
-)
+@pytest.mark.parametrize("path", GAME_SCENARIOS, ids=[p.stem for p in GAME_SCENARIOS])
 def test_8_game_scenario_two_personas(path):
     """Each game scenario: runs against two contrasting personas, deterministic, all states valid,
     and at least one meaningful behavioral difference between the two personas."""
@@ -139,7 +140,9 @@ def test_8_game_scenario_two_personas(path):
                 round(tk.state_after_post.global_state["anger"], 4),
                 round(tk.state_after_post.global_state["frustration"], 4),
                 round(
-                    tk.state_after_post.relations.get("player", {}).get("resentment", 0.0),
+                    tk.state_after_post.relations.get("player", {}).get(
+                        "resentment", 0.0
+                    ),
                     4,
                 ),
             )
@@ -152,7 +155,9 @@ def test_8_game_scenario_two_personas(path):
 
 def _action_seq(path, persona):
     sc = load_scenario(path)
-    tr = run_scenario(load_eval_persona(persona), dataclasses.replace(sc, persona=persona))[1]
+    tr = run_scenario(
+        load_eval_persona(persona), dataclasses.replace(sc, persona=persona)
+    )[1]
     return tuple(tk.selection.action for tk in tr.ticks)
 
 
