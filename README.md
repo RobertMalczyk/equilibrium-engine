@@ -6,6 +6,8 @@ language model in the decision loop.
 
 **Website:** **[equilibrium-engine.dev](https://equilibrium-engine.dev/)** — interactive demos, the trace explorer, and the [white paper](https://equilibrium-engine.dev/whitepaper.pdf).
 **YouTube:** **[@equilibrium-engine](https://www.youtube.com/@equilibrium-engine)** — teaser & explainer films.
+**Wiki:** **[project wiki](https://github.com/RobertMalczyk/equilibrium-engine/wiki)** — architecture, believability testing, and how to contribute.
+**Reports:** [believability results](eval/hourly_runs/FINAL_report.md) (2,800 blind-judged scenarios, 97.6% pass) · [full per-test report](eval/hourly_runs/TEST_REPORT.md).
 
 > ⚠️ **Work in progress (research-grade).** The MVP thesis is proven and the core is stable and
 > tested, but the engine is under **active development** — APIs, the spec, and config layouts can
