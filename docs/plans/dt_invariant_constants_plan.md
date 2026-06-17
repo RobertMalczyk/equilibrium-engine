@@ -1,6 +1,10 @@
 # Plan — dt-invariant (continuous-time) parameterization
 
-> Status: **PLAN ONLY** (no code yet). Branch `dt-invariant-constants`.
+> Status: **S0–S4 IMPLEMENTED.** S0 spec §2.1 + S1 `resolution_factor` on `main` (PR #3). S2 (action
+> per-tick rates) + S3 (count windows `÷Ts`) + S4 (free-dynamics convergence smoke test) on branch
+> `dt-invariant-s2-s4` (PR open). Default path byte-identical throughout (golden green). Remaining
+> beyond this plan: a fuller fine-`dt` validation (boundedness gate + G0 incident-count spot-check at a
+> production fine `dt`) and any calibration re-fit if a fine `dt` becomes a shipped operating point.
 > Goal: make `dt` (= sample time `Ts`) a pure **resolution** knob — every time-dependent constant is
 > specified in **real-time units** and the per-tick coefficient is derived from `Ts` at load, so the
 > continuous-time trajectory is preserved when `dt` changes (not just relabeled, as `time_scale` does).
