@@ -1,0 +1,10 @@
+edda_day_burstOFF_081: PASS -- calm composed day, authority shown at night, sane pacing
+edda_day_burstOFF_082: PASS -- absorbs mockery and orders without reaction, fits composed authority
+edda_day_burstOFF_083: PASS -- complies with stranger order early, otherwise settled and composed
+edda_day_burstOFF_084: PASS -- ignores stranger order and mock, recovers via kindnesses, sane
+edda_day_burstOFF_085: PASS -- well-paced day, mocks absorbed calmly, warmth to kindnesses fits
+edda_day_burstOFF_086: PASS -- ignores order and mock, steady throughout, authority at night
+edda_day_burstOFF_087: PASS -- curt reply to public mock is plausible for composed authority
+edda_day_burstOFF_088: PASS -- two soups in 22min odd but not a character breach, sane overall
+edda_day_burstOFF_089: PASS -- many kindnesses, stays settled, authority at close, sane pacing
+edda_day_burstOFF_090: PASS -- ignores mock and order without reaction, composed throughout

@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_081: PASS -- anger accumulates across day 5, sleep resets hold
+wojslaw_multi_burstON_082: PASS -- early eruption fades, next days rebuild plausibly
+wojslaw_multi_burstON_083: PASS -- double mock triggers burst, displaced aggression onto soup
+wojslaw_multi_burstON_084: PASS -- sustained burst mode across 6 days, mornings reset
+wojslaw_multi_burstON_085: PASS -- bad day 2 then calm day 3 contrast is believable
+wojslaw_multi_burstON_086: PASS -- positive day 3 earned after two tense prior days
+wojslaw_multi_burstON_087: PASS -- long wear-down pattern, consistent morning resets
+wojslaw_multi_burstON_088: PASS -- calm day 1, escalation day 3, displaced aggression present
+wojslaw_multi_burstON_089: PASS -- 3-day arc from serene to irritable, clean progression
+wojslaw_multi_burstON_090: PASS -- three calm days after one burst; no provocation, plausible

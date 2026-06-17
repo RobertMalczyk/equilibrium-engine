@@ -1,0 +1,10 @@
+lutek_day_burstOFF_001: PASS -- restless-occupy cycles, warm thanks, sleeps and recovers; coherent.
+lutek_day_burstOFF_002: PASS -- mockery rolls off, kindnesses warm him; sane pacing.
+lutek_day_burstOFF_003: PASS -- thick-skinned to mocks, warm to help; believable day.
+lutek_day_burstOFF_004: PASS -- restless novelty-seeking, mockery ignored; recovers after sleep.
+lutek_day_burstOFF_005: PASS -- boredom cycles, insults shrugged off; settled overnight.
+lutek_day_burstOFF_006: PASS -- warm to kindness, mockery unbothered; coherent rhythm.
+lutek_day_burstOFF_007: PASS -- restless seeking, calm acceptance; sleeps and wakes recovered.
+lutek_day_burstOFF_008: PASS -- mockery passes, kindnesses warm; believable settled day.
+lutek_day_burstOFF_009: PASS -- novelty-chasing cycles, warm thanks; sane day.
+lutek_day_burstOFF_010: PASS -- restless seeking, mockery shrugged; coherent pacing into night.

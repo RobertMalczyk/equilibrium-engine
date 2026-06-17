@@ -1,0 +1,10 @@
+welf_day_burstON_021: PASS -- calm, occupied, sleeps and wakes normally
+welf_day_burstON_022: PASS -- restlessness and ease cycle believably; brief edge fine
+welf_day_burstON_023: PASS -- steady day, mild evening tension, recovers overnight
+welf_day_burstON_024: PASS -- lets mockery pass, consistent with composed merchant
+welf_day_burstON_025: PASS -- boredom-occupy-rest cycles sane; minor evening tension
+welf_day_burstON_026: PASS -- even-keeled, warm to kindness, normal sleep
+welf_day_burstON_027: PASS -- believable boredom rhythm, mild tension before sleep
+welf_day_burstON_028: PASS -- restless-occupy-rest cycling, calm reactions throughout
+welf_day_burstON_029: PASS -- shrugs off mockery early, calm steady day
+welf_day_burstON_030: PASS -- composed, warm to help, normal day-night cycle

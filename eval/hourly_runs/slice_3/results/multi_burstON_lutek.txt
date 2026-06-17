@@ -1,0 +1,12 @@
+All records show sane pacing: sleeps at night, wakes recovered, restless/busy cycling (fitting a novelty-craver), warm thanks for kindnesses, mockery let pass. Record 039 has one "answers curtly and coldly" to a public mock — mild, not enraged, acceptable for thick-skinned but slightly notable; it passes once and never escalates.
+
+lutek_multi_burstON_031: PASS -- sane restless-rest cycles, warm to kindness, sleeps nightly
+lutek_multi_burstON_032: PASS -- believable pacing, mockery shrugged off, recovers each night
+lutek_multi_burstON_033: PASS -- consistent restless poet, warm thanks, normal sleep cycle
+lutek_multi_burstON_034: PASS -- sane days, late sleep once but coherent, mockery ignored
+lutek_multi_burstON_035: PASS -- believable cycles, warm to help, sleeps and recovers
+lutek_multi_burstON_036: PASS -- restless-busy rhythm, mockery shrugged, nightly sleep intact
+lutek_multi_burstON_037: PASS -- coherent pacing, warm reactions, recovers each morning
+lutek_multi_burstON_038: PASS -- sane multi-day rhythm, mockery let pass, sleeps nightly
+lutek_multi_burstON_039: PASS -- one curt-cold reply to public mock, no escalation, fine
+lutek_multi_burstON_040: PASS -- believable cycles, mockery shrugged, normal sleep recovery

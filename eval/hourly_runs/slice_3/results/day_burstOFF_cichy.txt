@@ -1,0 +1,10 @@
+cichy_day_burstOFF_031: PASS -- calm captive, mild bristling, sane pacing and sleep.
+cichy_day_burstOFF_032: PASS -- multiple eruptions at guard mockery, fits resentful temper.
+cichy_day_burstOFF_033: PASS -- quiet day, curt at soup, recovers overnight.
+cichy_day_burstOFF_034: PASS -- warm to stranger's kindness, neutral toward guards, believable.
+cichy_day_burstOFF_035: PASS -- fury at mockery, warmth to stranger, sensible arc.
+cichy_day_burstOFF_036: PASS -- escalating anger at guards, settles, sleeps, recovers.
+cichy_day_burstOFF_037: PASS -- low-key tense day, curt to guards, calm sleep.
+cichy_day_burstOFF_038: PASS -- two eruptions, restless evening, slightly late sleep, fine.
+cichy_day_burstOFF_039: PASS -- snaps once, otherwise settled, warmth to stranger.
+cichy_day_burstOFF_040: PASS -- mostly settled, curt and bristling at guards, recovers.

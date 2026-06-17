@@ -1,0 +1,10 @@
+branic_day_burstOFF_021: PASS -- sane pacing, boredom cycles, sleeps and wakes recovered
+branic_day_burstOFF_022: PASS -- believable day, warm to kindness, restful night
+branic_day_burstOFF_023: PASS -- coherent boredom/rest rhythm, recovers overnight
+branic_day_burstOFF_024: PASS -- consistent warmth and restlessness, normal sleep cycle
+branic_day_burstOFF_025: PASS -- sane day, mild tension, recovers after sleep
+branic_day_burstOFF_026: PASS -- believable rhythm, warm responses, settled overnight
+branic_day_burstOFF_027: PASS -- coherent pacing, obeys orders, sleeps and recovers
+branic_day_burstOFF_028: PASS -- normal duty cycle, compliant, restful night
+branic_day_burstOFF_029: PASS -- sane day, warm to soup, recovers overnight
+branic_day_burstOFF_030: PASS -- believable rhythm, obeys orders, settled after sleep

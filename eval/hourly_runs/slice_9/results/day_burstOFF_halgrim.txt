@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_091: PASS -- calm steady day, obeys Edda, warmed by kindnesses, sleeps.
+halgrim_day_burstOFF_092: PASS -- shrugs off mockery, stays at ease, recovers overnight.
+halgrim_day_burstOFF_093: PASS -- declines Wojsław, calm throughout, believable pacing.
+halgrim_day_burstOFF_094: PASS -- obeys Edda, refuses Wojsław, even keel all day.
+halgrim_day_burstOFF_095: PASS -- cold curt replies to public mockery, fits iron control.
+halgrim_day_burstOFF_096: PASS -- curt to Wojsław, obeys Edda, warm to kindness.
+halgrim_day_burstOFF_097: PASS -- steady dutiful day, recovers overnight, nothing jars.
+halgrim_day_burstOFF_098: PASS -- mockery builds mild tension, eases by evening, plausible.
+halgrim_day_burstOFF_099: PASS -- quiet uneventful day, calm throughout, wakes recovered.
+halgrim_day_burstOFF_100: PASS -- mild curtness to Wojsław, obeys Edda, calm.

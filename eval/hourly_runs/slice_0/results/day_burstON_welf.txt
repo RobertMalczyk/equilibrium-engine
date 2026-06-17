@@ -1,0 +1,10 @@
+welf_day_burstON_001: PASS -- calm, occupies idle hours, warm to kindness, sleeps and recovers
+welf_day_burstON_002: PASS -- restless when idle, mild edge by night, sleeps and recovers
+welf_day_burstON_003: PASS -- lets mockery pass calmly, fills empty hours, sane rhythm
+welf_day_burstON_004: PASS -- even-keeled, occupies himself, warm thanks, settled throughout
+welf_day_burstON_005: PASS -- slightly later sleep and wake, otherwise calm and sane
+welf_day_burstON_006: PASS -- shrugs off the barb, restless-then-busy cycle, recovers overnight
+welf_day_burstON_007: PASS -- composed, fills idle time, sleeps at night, wakes settled
+welf_day_burstON_008: PASS -- public mockery let pass, calm idleness-driven restlessness, normal sleep
+welf_day_burstON_009: PASS -- multiple barbs all shrugged off, busy and even-keeled
+welf_day_burstON_010: PASS -- mockery passes, mild evening edge, sleeps and wakes recovered

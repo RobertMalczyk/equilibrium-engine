@@ -1,0 +1,10 @@
+lutek_day_burstOFF_011: PASS -- restless cycles, shrugs off mockery, sleeps and wakes calm.
+lutek_day_burstOFF_012: PASS -- novelty-seeking rhythm, warm thanks, normal sleep cycle.
+lutek_day_burstOFF_013: PASS -- believable restless day, kindnesses welcomed, recovers overnight.
+lutek_day_burstOFF_014: PASS -- sane pacing, good-humoured, sleeps and wakes settled.
+lutek_day_burstOFF_015: PASS -- mockery shrugged off, restless cycles, late but sane sleep.
+lutek_day_burstOFF_016: PASS -- public mockery rolls off, normal restless-rest rhythm.
+lutek_day_burstOFF_017: PASS -- calm response to mockery, believable restless day.
+lutek_day_burstOFF_018: PASS -- frequent novelty-seeking, warm to kindness, normal night.
+lutek_day_burstOFF_019: PASS -- sane restless cycles, kindnesses welcomed, sleeps fine.
+lutek_day_burstOFF_020: PASS -- believable pacing, easy-going, sleeps and wakes settled.

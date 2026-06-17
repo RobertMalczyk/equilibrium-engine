@@ -1,0 +1,10 @@
+edda_multi_burstON_041: PASS -- composed, sane pacing, sleeps and recovers
+edda_multi_burstON_042: PASS -- calm command, believable spans, provocations let pass
+edda_multi_burstON_043: PASS -- steady days, recovers nightly, fitting composure
+edda_multi_burstON_044: PASS -- five sane days, warm to kindness, settled
+edda_multi_burstON_045: PASS -- measured complaints/refusals to orders, otherwise composed
+edda_multi_burstON_046: PASS -- quiet steady days, sane meal and sleep cadence
+edda_multi_burstON_047: PASS -- curt reply to mockery, otherwise settled and disciplined
+edda_multi_burstON_048: PASS -- five composed days, sane pacing throughout
+edda_multi_burstON_049: PASS -- calm authority, recovers nightly, believable
+edda_multi_burstON_050: PASS -- believable Day6 escalation under repeated mocking, then recovers

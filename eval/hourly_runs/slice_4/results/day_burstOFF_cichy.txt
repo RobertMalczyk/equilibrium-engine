@@ -1,0 +1,10 @@
+cichy_day_burstOFF_041: PASS -- calm day, curt to guards, sleeps and wakes recovered.
+cichy_day_burstOFF_042: PASS -- mockery provokes anger, escalating fury, settles by night.
+cichy_day_burstOFF_043: PASS -- early eruption at mockery, otherwise calm, sane pacing.
+cichy_day_burstOFF_044: PASS -- curt to mockery and soup, calm throughout, recovers overnight.
+cichy_day_burstOFF_045: PASS -- warm to stranger, fury at guard mockery, sensible.
+cichy_day_burstOFF_046: PASS -- calm day, curt to guard soup, normal pacing.
+cichy_day_burstOFF_047: PASS -- placid day, curt to guards, sleeps and recovers.
+cichy_day_burstOFF_048: PASS -- mockery sparks anger and fury, calms, sane arc.
+cichy_day_burstOFF_049: PASS -- quiet calm day, lets guard kindness pass, normal.
+cichy_day_burstOFF_050: PASS -- warm to stranger, curt to guards, calm throughout.

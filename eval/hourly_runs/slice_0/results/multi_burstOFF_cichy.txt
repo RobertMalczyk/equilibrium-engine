@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_001: PASS -- sane pacing, sleeps and recovers, anger fits provocation
+cichy_multi_burstOFF_002: PASS -- believable spans, calm baseline, erupts only at mocks
+cichy_multi_burstOFF_003: PASS -- warm to stranger kindness, resentment toward guards intact
+cichy_multi_burstOFF_004: PASS -- sane multi-day rhythm, provoked anger, nightly recovery
+cichy_multi_burstOFF_005: PASS -- calm baseline, provoked flares, sleeps and recovers
+cichy_multi_burstOFF_006: PASS -- coherent days, anger tracks mocks, warms to stranger
+cichy_multi_burstOFF_007: PASS -- believable pacing, repeated mocks escalate plausibly, recovers nightly
+cichy_multi_burstOFF_008: PASS -- sane rhythm, guard-directed resentment, settled nights
+cichy_multi_burstOFF_009: PASS -- dense mocks but each provoked, recovers overnight fine
+cichy_multi_burstOFF_010: PASS -- provoked eruptions, rain wears not provokes, nightly reset

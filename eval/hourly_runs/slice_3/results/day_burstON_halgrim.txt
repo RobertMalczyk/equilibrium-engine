@@ -1,0 +1,10 @@
+halgrim_day_burstON_031: PASS -- calm baseline, cold curtness to Wojsław, sleeps and wakes recovered.
+halgrim_day_burstON_032: PASS -- even keel all day, warm to kindness, normal sleep.
+halgrim_day_burstON_033: PASS -- lets provocations pass calmly, settled throughout, sane pacing.
+halgrim_day_burstON_034: PASS -- curt to mockery, mild tension after, recovers overnight.
+halgrim_day_burstON_035: PASS -- declines arrogant orders, cold curtness, brief tension, calm again.
+halgrim_day_burstON_036: PASS -- steady day, refuses Wojsław's late orders, sleeps normally.
+halgrim_day_burstON_037: PASS -- obeys Edda, refuses Wojsław, curt then tense, recovers.
+halgrim_day_burstON_038: PASS -- calm, curt to mockery, brief edge, settles and sleeps.
+halgrim_day_burstON_039: PASS -- warm to Marta, cold contempt to Wojsław, settled throughout.
+halgrim_day_burstON_040: PASS -- uneventful calm day, warm to kindness, normal rest.

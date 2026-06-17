@@ -1,0 +1,10 @@
+cichy_multi_burstON_001: PASS -- calm baseline, single eruption after mounting tension; sane pacing
+cichy_multi_burstON_002: PASS -- escalation to fury under repeated mockery; recovers nightly
+cichy_multi_burstON_003: PASS -- warm to strangers, curt/furious to guards; coherent
+cichy_multi_burstON_004: PASS -- mostly curt, occasional snap; believable captive rhythm
+cichy_multi_burstON_005: PASS -- tense days, one eruption, nightly reset; sane
+cichy_multi_burstON_006: PASS -- graded irritation with strangers warmly received; coherent
+cichy_multi_burstON_007: PASS -- frequent mockery, mostly curt, early snap; plausible
+cichy_multi_burstON_008: PASS -- several eruptions under heavy goading; recovers each night
+cichy_multi_burstON_009: PASS -- heavy guard mockery, curt with occasional fury; coherent
+cichy_multi_burstON_010: PASS -- curt/cold to guards, warm to strangers; sane pacing

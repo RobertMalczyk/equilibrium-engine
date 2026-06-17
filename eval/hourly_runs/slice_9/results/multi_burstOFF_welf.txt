@@ -1,0 +1,10 @@
+welf_multi_burstOFF_091: PASS -- steady boredom cycles, mocks let pass, sane pacing
+welf_multi_burstOFF_092: PASS -- clean rhythm, warmth at kindnesses, mocks in stride
+welf_multi_burstOFF_093: FLAG -- soup at 13:53 day4 gets "lets it pass" not warmth
+welf_multi_burstOFF_094: PASS -- six days sane, kindness warmth consistent throughout
+welf_multi_burstOFF_095: FLAG -- soup at 13:53 day4 gets "lets it pass" not warmth
+welf_multi_burstOFF_096: PASS -- three clean days, boredom cycles, profile intact
+welf_multi_burstOFF_097: PASS -- six days with rain, warmth and tolerance consistent
+welf_multi_burstOFF_098: PASS -- four days, rain days, all responses profile-consistent
+welf_multi_burstOFF_099: FLAG -- kindness at day5 07:04 gets "lets it pass" response
+welf_multi_burstOFF_100: PASS -- four days sane, rain day3, boredom cycles intact

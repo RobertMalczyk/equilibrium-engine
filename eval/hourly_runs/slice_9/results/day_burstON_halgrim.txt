@@ -1,0 +1,10 @@
+halgrim_day_burstON_091: PASS -- calm, obeys, warmed by kindness; sane day.
+halgrim_day_burstON_092: PASS -- ignores Wojsław's barb, easy day, sleeps well.
+halgrim_day_burstON_093: PASS -- declines arrogant Wojsław, warm to Marta; consistent.
+halgrim_day_burstON_094: PASS -- obeys Edda, refuses Wojsław; calm throughout.
+halgrim_day_burstON_095: PASS -- cold contempt to repeated public mockery; fitting.
+halgrim_day_burstON_096: PASS -- curt cold reply to Wojsław, otherwise steady.
+halgrim_day_burstON_097: PASS -- uneventful, obedient, warmly fed; sane.
+halgrim_day_burstON_098: PASS -- curt to mockery, tense but controlled; recovers overnight.
+halgrim_day_burstON_099: PASS -- quiet uneventful day, settled throughout.
+halgrim_day_burstON_100: PASS -- obeys Edda, mild curtness to Wojsław; steady.

@@ -1,0 +1,10 @@
+welf_day_burstOFF_061: PASS -- sane boredom/rest cycle, sleeps and recovers, mockery shrugged off
+welf_day_burstOFF_062: PASS -- believable idle day, warm to kindness, lets barb pass
+welf_day_burstOFF_063: PASS -- steady pacing, eats and rests, composed throughout
+welf_day_burstOFF_064: PASS -- normal day, restlessness and ease alternate naturally
+welf_day_burstOFF_065: PASS -- two mocks shrugged off, calm idle day, sleeps fine
+welf_day_burstOFF_066: PASS -- public mockery ignored, settled mostly, believable arc
+welf_day_burstOFF_067: PASS -- coherent day, warm thanks, mild evening edge, recovers
+welf_day_burstOFF_068: PASS -- calm idle day, eats, rests, sleeps and recovers
+welf_day_burstOFF_069: PASS -- believable pacing, neutral and warm reactions, sound sleep
+welf_day_burstOFF_070: PASS -- normal boredom cycle, mild tension, recovers overnight

@@ -1,0 +1,10 @@
+branic_multi_burstOFF_091: PASS -- steady build to defiance on day 5, resets overnight
+branic_multi_burstOFF_092: PASS -- calm arc, occasional snap, sleep resets hold
+branic_multi_burstOFF_093: PASS -- passive non-compliance builds across days without outburst
+branic_multi_burstOFF_094: PASS -- rain plus mocks compound into multi-day flare-up
+branic_multi_burstOFF_095: PASS -- bristles then complies moments later, plausible mood swing
+branic_multi_burstOFF_096: PASS -- mild throughout five days, gradual single refusal
+branic_multi_burstOFF_097: FLAG -- burstOFF yet "erupts shouting in fury" at day 5 16:48
+branic_multi_burstOFF_098: PASS -- unusually kind run, no contradictions for three days
+branic_multi_burstOFF_099: PASS -- gradual refusal build over days, believable pacing
+branic_multi_burstOFF_100: PASS -- positive day 2 then tense day 4 refusals, sane arc

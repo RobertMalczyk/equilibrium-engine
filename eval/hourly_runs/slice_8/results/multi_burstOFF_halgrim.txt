@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_081: PASS -- calm run, appropriate mild friction with Wojslaw
+halgrim_multi_burstOFF_082: PASS -- tension builds across days under Wojslaw pressure, resets at sleep
+halgrim_multi_burstOFF_083: PASS -- quiet peaceful stretch, no provocations, stays settled
+halgrim_multi_burstOFF_084: PASS -- rain plus Wojslaw friction escalates believably, resets overnight
+halgrim_multi_burstOFF_085: PASS -- six-day Wojslaw grind, progressive tension, Edda spillover on Day 4 earned
+halgrim_multi_burstOFF_086: PASS -- rain day absorbed, good Marta support, clean arc
+halgrim_multi_burstOFF_087: PASS -- Wojslaw jabs accumulate across days, tension carries, Edda respected
+halgrim_multi_burstOFF_088: FLAG -- Day 5: flat non-response to Marta's soup, breaks warm pattern
+halgrim_multi_burstOFF_089: PASS -- graduated Wojslaw responses, tension rises Day 3, believable
+halgrim_multi_burstOFF_090: PASS -- heavy Day 1 Wojslaw barrage, spillover to Edda on Day 3 earned

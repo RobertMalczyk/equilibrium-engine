@@ -1,0 +1,12 @@
+All records show consistent, sane behavior: restless/occupy cycles fitting a novelty-craving poet, mockery let pass or mildly curt, kindness warmly received, sleeps at night, wakes recovered. Mild "tense/on edge" moments resolve. Nothing jars with the profile.
+
+lutek_multi_burstON_021: PASS -- restless cycles, mockery shrugged, calm and sane throughout
+lutek_multi_burstON_022: PASS -- believable pacing, warm to kindness, sleeps and recovers
+lutek_multi_burstON_023: PASS -- mild curt reply to public mockery, otherwise unbothered
+lutek_multi_burstON_024: PASS -- novelty-seeking loops, insults shrugged, nights restful
+lutek_multi_burstON_025: PASS -- restless poet, one curt retort, sane day rhythm
+lutek_multi_burstON_026: PASS -- a few cold retorts to public mockery, still plausible
+lutek_multi_burstON_027: PASS -- easy pacing, hard to offend, recovers nightly
+lutek_multi_burstON_028: PASS -- restless cycles, mockery passes, believable across five days
+lutek_multi_burstON_029: PASS -- warm, restless, unoffended; sane hunger and sleep arcs
+lutek_multi_burstON_030: PASS -- mild curt reply, otherwise calm restless wandering poet

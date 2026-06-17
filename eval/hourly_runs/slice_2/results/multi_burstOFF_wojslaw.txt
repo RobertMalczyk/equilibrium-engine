@@ -1,0 +1,12 @@
+All records read. Each shows sane day/night pacing, recovery after sleep, flares on insults (in-character for a proud, hot-tempered man), gratitude for kindness, refusal of orders from inferiors. Nothing absurd.
+
+wojslaw_multi_burstOFF_021: PASS -- sane pacing, flares on mocks, calm nights, recovers
+wojslaw_multi_burstOFF_022: PASS -- believable; warm to kindness, occasional flares, sleeps well
+wojslaw_multi_burstOFF_023: PASS -- consistent prickly noble, recovers nightly, nothing absurd
+wojslaw_multi_burstOFF_024: PASS -- defiant refusals and flares fit proud temper
+wojslaw_multi_burstOFF_025: PASS -- warm mornings, evening flares, sane rhythm
+wojslaw_multi_burstOFF_026: PASS -- mostly calm with believable mock-triggered eruptions
+wojslaw_multi_burstOFF_027: PASS -- coherent days, flares on insults, nightly reset
+wojslaw_multi_burstOFF_028: PASS -- hot early, defiant, plausible pacing and recovery
+wojslaw_multi_burstOFF_029: PASS -- prickly, refuses orders, sleeps and recovers normally
+wojslaw_multi_burstOFF_030: PASS -- believable flares, gratitude, sane day/night cycle

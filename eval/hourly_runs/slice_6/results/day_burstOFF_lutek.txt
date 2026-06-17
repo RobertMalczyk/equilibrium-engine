@@ -1,0 +1,10 @@
+lutek_day_burstOFF_061: PASS -- restless cycles, mockery shrugged off, sane day/night rhythm
+lutek_day_burstOFF_062: PASS -- warm to kindness, restless-busy loop, sleeps and recovers
+lutek_day_burstOFF_063: PASS -- insults pass, easy good humour, believable pacing
+lutek_day_burstOFF_064: PASS -- novelty-seeking cycles, warm thanks, normal sleep recovery
+lutek_day_burstOFF_065: PASS -- restless and amused, kindnesses warmly received, sane rhythm
+lutek_day_burstOFF_066: PASS -- mockery shrugged, busy-rest cycles, ordinary day and night
+lutek_day_burstOFF_067: PASS -- insults roll off, restless tinkering, recovers after sleep
+lutek_day_burstOFF_068: PASS -- late sleep but coherent, warm, restless-busy loop holds
+lutek_day_burstOFF_069: PASS -- warm to help, restless cycles, late but sane sleep
+lutek_day_burstOFF_070: PASS -- mockery passes, novelty-seeking, sleeps and wakes recovered

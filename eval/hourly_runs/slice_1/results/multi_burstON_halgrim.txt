@@ -1,0 +1,10 @@
+halgrim_multi_burstON_011: PASS -- calm, cold curtness under Wojsław's needling; sleeps and recovers.
+halgrim_multi_burstON_012: PASS -- steady, controlled curtness escalating only with provocation; nightly reset.
+halgrim_multi_burstON_013: PASS -- even-keeled, tension builds and settles believably over days.
+halgrim_multi_burstON_014: PASS -- cold defiance toward Wojsław, warmth to Marta; sane pacing.
+halgrim_multi_burstON_015: PASS -- controlled curtness, recovers nightly; provocations build tension plausibly.
+halgrim_multi_burstON_016: PASS -- mostly settled, cold only when pushed; believable arc.
+halgrim_multi_burstON_017: PASS -- rain and needling wear him; cold curtness, nightly recovery.
+halgrim_multi_burstON_018: PASS -- steady, cold contempt under mockery; sane day rhythm.
+halgrim_multi_burstON_019: PASS -- calm throughout, mild curtness at most; well-regulated.
+halgrim_multi_burstON_020: PASS -- composed across six days, warmth and measured curtness; recovers nightly.

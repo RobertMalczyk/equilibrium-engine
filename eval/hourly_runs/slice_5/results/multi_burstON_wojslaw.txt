@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_051: PASS -- calm baseline, erupts at mocks, recovers nightly
+wojslaw_multi_burstON_052: PASS -- escalation across days, sane recovery and provocations
+wojslaw_multi_burstON_053: PASS -- eruptions cluster on insults, warms when calm
+wojslaw_multi_burstON_054: PASS -- dense anger day stays provocation-driven, recovers overnight
+wojslaw_multi_burstON_055: PASS -- mostly calm, warm; flares tied to mocks
+wojslaw_multi_burstON_056: PASS -- heavy provocation, coherent spillover, nightly reset
+wojslaw_multi_burstON_057: PASS -- coherent escalation, refuses orders, recovers
+wojslaw_multi_burstON_058: PASS -- warm early, anger builds on insults, recovers
+wojslaw_multi_burstON_059: PASS -- flares only when already tense, sane pacing
+wojslaw_multi_burstON_060: PASS -- provocation-driven eruptions, recovers nightly, coherent

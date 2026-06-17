@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_071: PASS -- temper flares on mockery, settles between, sane pacing
+wojslaw_multi_burstOFF_072: PASS -- heavy provocation Day 4, repeated eruptions, resets nightly
+wojslaw_multi_burstOFF_073: PASS -- intense mockery load Day 1, erupts repeatedly but recovers
+wojslaw_multi_burstOFF_074: PASS -- calm run driven by many kindnesses, one flare fits profile
+wojslaw_multi_burstOFF_075: PASS -- low-provocation stretch, sparse eruptions, believable quiet days
+wojslaw_multi_burstOFF_076: PASS -- high provocation density, multiple eruptions, pacing sane
+wojslaw_multi_burstOFF_077: PASS -- two quick eruptions on back-to-back mocks, calms cleanly
+wojslaw_multi_burstOFF_078: PASS -- Day 1 very heavy mockery yields many eruptions, structurally sound
+wojslaw_multi_burstOFF_079: PASS -- Day 2 tense with refusals and bristling, Day 3 calm, sane arc
+wojslaw_multi_burstOFF_080: PASS -- warm positive run, erupts when mockery arrives, coherent

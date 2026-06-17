@@ -1,0 +1,10 @@
+lutek_day_burstOFF_091: PASS -- restless cycles, shrugs off mockery, sleeps and wakes recovered
+lutek_day_burstOFF_092: PASS -- believable boredom rhythm, warm to kindness, mild tension only
+lutek_day_burstOFF_093: PASS -- sane pacing, mockery rolls off, recovers overnight
+lutek_day_burstOFF_094: PASS -- restless-rest cycles, thick-skinned to insult, normal sleep
+lutek_day_burstOFF_095: PASS -- warm responses, frequent restlessness, calm throughout
+lutek_day_burstOFF_096: PASS -- coherent day, warm to Marta, settled overall
+lutek_day_burstOFF_097: PASS -- mockery shrugged off, restless rhythm, recovers overnight
+lutek_day_burstOFF_098: PASS -- believable boredom cycles, warm thanks, mild evening tension
+lutek_day_burstOFF_099: PASS -- calm easy day, frequent novelty-seeking, normal sleep
+lutek_day_burstOFF_100: PASS -- sane pacing, warm to kindness, recovers with light

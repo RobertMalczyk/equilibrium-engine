@@ -1,0 +1,10 @@
+cichy_day_burstON_061: PASS -- sane pacing; resentful curtness and one flare-up fit profile
+cichy_day_burstON_062: PASS -- believable day; warm to strangers, curt to guards
+cichy_day_burstON_063: PASS -- calm day, cold reply to mockery, sleeps and recovers
+cichy_day_burstON_064: PASS -- normal cadence; curt with guards, warm to stranger
+cichy_day_burstON_065: PASS -- sane rhythm; guard kindness unsoftened, stranger thanked
+cichy_day_burstON_066: PASS -- believable; late flare at mockery, recovers overnight
+cichy_day_burstON_067: PASS -- steady tense day, curt guard replies, fitting
+cichy_day_burstON_068: PASS -- calm sane day, curt to soup-bringer, recovers
+cichy_day_burstON_069: PASS -- early fury at mockery settles, sane recovery
+cichy_day_burstON_070: PASS -- normal pacing, snaps at mockery, soothes overnight

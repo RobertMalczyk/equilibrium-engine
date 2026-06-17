@@ -1,0 +1,10 @@
+cichy_day_burstON_071: PASS -- sane day; flares at mocks, curt to guards
+cichy_day_burstON_072: PASS -- believable arc; eruption to mock, recovers, sleeps
+cichy_day_burstON_073: PASS -- calm baseline, snaps at mocking, settles overnight
+cichy_day_burstON_074: PASS -- fury at mock fits hot resentful captive
+cichy_day_burstON_075: PASS -- tense-calm cycling, curt to guards, sane pacing
+cichy_day_burstON_076: PASS -- quiet day, mild curtness to guard soup
+cichy_day_burstON_077: PASS -- snaps at guard, warm to stranger kindness
+cichy_day_burstON_078: PASS -- bristles at mock, indifferent to guard meals
+cichy_day_burstON_079: PASS -- warm to strangers, edgy with guards, recovers
+cichy_day_burstON_080: PASS -- two eruptions to mocking, believable, sleeps recovered

@@ -1,0 +1,10 @@
+edda_day_burstOFF_011: PASS -- calm, composed; warm to kindness, ignores mockery; sleeps well.
+edda_day_burstOFF_012: PASS -- composed day; mild complaint at a stranger's order fits authority.
+edda_day_burstOFF_013: PASS -- settled and warm; lets a stranger's order pass calmly.
+edda_day_burstOFF_014: PASS -- calm throughout; warmth and unruffled responses, normal sleep.
+edda_day_burstOFF_015: PASS -- composed, gracious to help, ignores barbs; sane pacing.
+edda_day_burstOFF_016: PASS -- mild complaint at stranger's order; otherwise composed and warm.
+edda_day_burstOFF_017: PASS -- settled, warm to kindness, lets order pass; normal night.
+edda_day_burstOFF_018: PASS -- curt reply and declining a stranger's order fit her authority.
+edda_day_burstOFF_019: PASS -- warm, composed, ignores mockery; believable pacing and sleep.
+edda_day_burstOFF_020: PASS -- refuses stranger's order, stays composed; fits commanding standing.

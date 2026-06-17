@@ -1,0 +1,10 @@
+lutek_day_burstOFF_081: PASS -- restless cycles, kindness warmly received, settles overnight
+lutek_day_burstOFF_082: PASS -- sane pacing, brief late-night edge, wakes settled
+lutek_day_burstOFF_083: PASS -- mock rolls off, warmth received, evening tension resolves
+lutek_day_burstOFF_084: PASS -- busy generous day, calm through evening, clean sleep
+lutek_day_burstOFF_085: PASS -- restless-work cycles, evening edge resolved by soup
+lutek_day_burstOFF_086: PASS -- many kindnesses, evening tension eases, wakes refreshed
+lutek_day_burstOFF_087: PASS -- mocks shrugged off, late tension, wakes easy
+lutek_day_burstOFF_088: PASS -- active restless day, brief tension, late settling
+lutek_day_burstOFF_089: FLAG -- kindness at 21:23 met with "lets it pass" not warmth
+lutek_day_burstOFF_090: PASS -- mock ignored, tension mid-afternoon, resolves cleanly

@@ -1,0 +1,12 @@
+All records reviewed. Each shows believable pacing, night sleep with recovery, and a hot-tempered proud man who erupts at mocks but warms to kindness. Nothing absurd.
+
+wojslaw_multi_burstOFF_011: PASS -- calm baseline, erupts at public mocks, recovers nightly
+wojslaw_multi_burstOFF_012: PASS -- believable flares at insults, settles between, sleeps well
+wojslaw_multi_burstOFF_013: PASS -- escalating mock-days, eruptions proportionate, recovers each morning
+wojslaw_multi_burstOFF_014: PASS -- heavy provocation, hot defiant reactions fit proud temper
+wojslaw_multi_burstOFF_015: PASS -- sane arc, anger tracks mocks, nightly reset holds
+wojslaw_multi_burstOFF_016: PASS -- many insults, fitting fury and refusals, recovers overnight
+wojslaw_multi_burstOFF_017: PASS -- believable temper across six days, sleeps and recovers
+wojslaw_multi_burstOFF_018: PASS -- provocation-heavy but proportionate; warms to kindness when calm
+wojslaw_multi_burstOFF_019: PASS -- warm early, sharpens with mocks, plausible throughout
+wojslaw_multi_burstOFF_020: PASS -- prickly eruptions at insults, calms between, nightly reset

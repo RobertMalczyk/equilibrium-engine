@@ -1,0 +1,10 @@
+cichy_multi_burstON_051: PASS -- sane daily rhythm, cool to guards, recovers nightly
+cichy_multi_burstON_052: PASS -- believable pacing, bounded flares, warm to strangers
+cichy_multi_burstON_053: PASS -- coherent days, resentful to guards, anger settles
+cichy_multi_burstON_054: PASS -- normal cycle, curt with captors, sleeps and recovers
+cichy_multi_burstON_055: PASS -- sane spans, eruptions bounded, nightly reset intact
+cichy_multi_burstON_056: PASS -- believable rhythm, warmth to strangers, cool to guards
+cichy_multi_burstON_057: PASS -- coherent three days, curt responses, recovers overnight
+cichy_multi_burstON_058: PASS -- sane pacing, bounded fury, settles and sleeps
+cichy_multi_burstON_059: PASS -- normal days, resentful to captors, nightly recovery
+cichy_multi_burstON_060: PASS -- dense mock-cluster Day2 but bounded, resets overnight

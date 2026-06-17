@@ -1,0 +1,10 @@
+branic_multi_burstON_051: PASS -- calm days, one late flare, sleeps and recovers
+branic_multi_burstON_052: PASS -- mostly settled, single eruption after rain, recovers
+branic_multi_burstON_053: PASS -- calm six days, mild edge, nightly reset
+branic_multi_burstON_054: PASS -- gradual escalation, warmth interspersed, sleep resets
+branic_multi_burstON_055: PASS -- repeated defiance but bounded, recovers each night
+branic_multi_burstON_056: PASS -- calm days, single eruption, recovers normally
+branic_multi_burstON_057: PASS -- builds to evening flare, sleeps and resets
+branic_multi_burstON_058: FLAG -- relentless multi-day defiant refusals to respected mentor
+branic_multi_burstON_059: PASS -- escalation mixed with warmth, recovers nightly
+branic_multi_burstON_060: PASS -- late escalation with refusals, bounded, recovers

@@ -1,0 +1,12 @@
+All records show calm castellan: settled, warm to kindness, takes charge, sleeps/wakes, mild curt/decline reactions to orders/mockery. Consistent and sane.
+
+edda_multi_burstON_001: PASS -- calm composed castellan, sleeps and recovers, sane pacing
+edda_multi_burstON_002: PASS -- composed, lets provocations pass, believable command routine
+edda_multi_burstON_003: PASS -- settled days, takes charge, recovers nightly, nothing jars
+edda_multi_burstON_004: PASS -- declines stranger orders, stays composed, sane across six days
+edda_multi_burstON_005: PASS -- calm authority, warm to kindness, believable pacing
+edda_multi_burstON_006: PASS -- composed castellan, mild complaint at order, recovers nightly
+edda_multi_burstON_007: PASS -- many orders declined or passed, stays composed, sane
+edda_multi_burstON_008: PASS -- curt reply to public mockery fits composed authority
+edda_multi_burstON_009: PASS -- warm, settled, takes charge, sleeps and recovers
+edda_multi_burstON_010: PASS -- calm, lets mockery and orders pass, sane pacing

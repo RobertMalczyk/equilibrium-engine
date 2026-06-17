@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_051: PASS -- calm baseline, sleeps/recovers, mild curt reactions only.
+halgrim_multi_burstOFF_052: PASS -- steady; cold contempt only after Wojsław's repeated mockery.
+halgrim_multi_burstOFF_053: PASS -- rain plus Wojsław provocations build bounded edge, recovers.
+halgrim_multi_burstOFF_054: PASS -- tension rises under Wojsław, resets overnight, sane pacing.
+halgrim_multi_burstOFF_055: PASS -- easy day, warm to kindness, no jarring reactions.
+halgrim_multi_burstOFF_056: PASS -- escalation tracks Wojsław provocations, cold-curt not raging.
+halgrim_multi_burstOFF_057: PASS -- mostly settled, mild curtness, recovers nightly.
+halgrim_multi_burstOFF_058: PASS -- many kindnesses, edge builds only under Wojsław barbs.
+halgrim_multi_burstOFF_059: PASS -- calm throughout, warm responses, refusals to Wojsław plausible.
+halgrim_multi_burstOFF_060: PASS -- heavy Wojsław provocation, bounded cold tension, resets overnight.

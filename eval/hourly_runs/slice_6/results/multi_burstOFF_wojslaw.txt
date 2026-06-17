@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_061: PASS -- calm baseline, flares at insults, sleeps and recovers
+wojslaw_multi_burstOFF_062: PASS -- proud refusals and fury, warm to kindness, sane nights
+wojslaw_multi_burstOFF_063: PASS -- believable temper arc, recovers each morning
+wojslaw_multi_burstOFF_064: PASS -- calm with warm thanks, occasional eruptions, sane pacing
+wojslaw_multi_burstOFF_065: PASS -- prickly reactions to mocks, refuses orders, nightly reset
+wojslaw_multi_burstOFF_066: PASS -- settled baseline, flares fit, recovers after sleep
+wojslaw_multi_burstOFF_067: PASS -- short temper at insults, defiant refusals, sane days
+wojslaw_multi_burstOFF_068: PASS -- flares and refusals consistent, calm recovery overnight
+wojslaw_multi_burstOFF_069: PASS -- proud eruptions at mocks, warms little, sleeps soundly
+wojslaw_multi_burstOFF_070: PASS -- believable temper and pride, recovers each morning

@@ -1,0 +1,10 @@
+halgrim_multi_burstON_031: PASS -- calm baseline, cold curtness to Wojsław, sleeps and recovers
+halgrim_multi_burstON_032: PASS -- mostly settled, warm to kindness, declines Wojsław plainly
+halgrim_multi_burstON_033: PASS -- tension builds with provocation, cold not loud, nightly reset
+halgrim_multi_burstON_034: PASS -- even keel, cold curtness only after repeated barbs
+halgrim_multi_burstON_035: PASS -- rain wears him, no snapping, recovers overnight
+halgrim_multi_burstON_036: PASS -- steady, cold contempt reserved for Wojsław provocations
+halgrim_multi_burstON_037: PASS -- calm, warm, brief curtness; sleeps and wakes recovered
+halgrim_multi_burstON_038: PASS -- long stretch believable, cold curtness escalates only late
+halgrim_multi_burstON_039: PASS -- accumulating tension stays cold, nightly recovery holds
+halgrim_multi_burstON_040: PASS -- defiance to Wojsław, warmth to kindness, sane pacing

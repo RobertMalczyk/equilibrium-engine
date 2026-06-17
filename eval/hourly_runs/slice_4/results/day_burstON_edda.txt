@@ -1,0 +1,10 @@
+edda_day_burstON_041: PASS -- calm, warm to kindness, mild grumble at stranger's order
+edda_day_burstON_042: PASS -- composed; cold contempt to mockery fits a commander
+edda_day_burstON_043: PASS -- settled day, obeys or ignores strangers plausibly
+edda_day_burstON_044: PASS -- tension rises with repeated mockery, settles; believable
+edda_day_burstON_045: PASS -- warm, settled, no jarring reactions throughout
+edda_day_burstON_046: PASS -- calm with one mild complaint; sleeps and recovers
+edda_day_burstON_047: PASS -- composed, lets stranger's order pass; normal arc
+edda_day_burstON_048: PASS -- quiet uneventful day, warm to soup, recovers
+edda_day_burstON_049: PASS -- many kindnesses, settled, lets orders pass; fine
+edda_day_burstON_050: PASS -- warm day, declines stranger's order, stays composed
