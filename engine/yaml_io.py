@@ -184,7 +184,20 @@ def load_persona(
     time_scale = float(tick_cfg.get("time_scale", 1.0))
     if time_scale != 1.0:
         half_lives = {k: v * time_scale for k, v in half_lives.items()}
-    dt = _derive_dt(half_lives, nyquist_factor)
+    # Optional RESOLUTION refinement (default 1.0 = identity; spec section 2.1). Unlike time_scale (which
+    # RELABELS time by scaling half-lives), this REFINES the sampling: it shrinks dt with the half-lives
+    # held fixed (dt = min(half_life)*time_scale / (nyquist*resolution_factor)) and scales every
+    # CONTINUOUS-RATE coefficient by 1/resolution_factor so the per-SECOND rate -- hence the real-time
+    # trajectory -- is preserved (forward Euler; leaks stay exact via decay). Rate-type terms: drifts,
+    # couplings, burst_extinction, idle_recovery (later stages: action per-tick effects + sustained
+    # channels). Event-impulse gains and dimensionless thresholds/k_esc are NOT scaled. At 1.0 this whole
+    # block is a guarded no-op, so defaults.yaml + every golden trace stay BIT-IDENTICAL.
+    resolution_factor = float(tick_cfg.get("resolution_factor", 1.0))
+    if resolution_factor <= 0.0:
+        raise ValueError(
+            f"{ctx}.tick.resolution_factor must be > 0 (got {resolution_factor})"
+        )
+    dt = _derive_dt(half_lives, nyquist_factor * resolution_factor)
     decay = _derive_decay(half_lives, dt)
 
     setpoints = {k: float(v) for k, v in dict(merged.get("setpoints", {})).items()}
@@ -347,6 +360,20 @@ def load_persona(
     param_bounds = dict(merged.get("param_bounds", {}))
     calibration = dict(merged.get("calibration", {}))
     appraisal = dict(merged.get("appraisal", {}))
+
+    # Resolution refinement (spec section 2.1): scale CONTINUOUS-RATE coefficients by 1/resolution_factor
+    # so their per-second rate is preserved at the finer dt. Guarded: at the default 1.0 this is skipped
+    # entirely, so the canonical config is byte-identical. (k_esc rides the scaled coupling edge and stays
+    # dimensionless; event-impulse gains and thresholds are untouched. Action per-tick effects + count
+    # windows are handled in later stages.)
+    if resolution_factor != 1.0:
+        inv = 1.0 / resolution_factor
+        drifts = {k: v * inv for k, v in drifts.items()}
+        couplings = {
+            s: {o: g * inv for o, g in edges.items()} for s, edges in couplings.items()
+        }
+        burst_extinction = {s: v * inv for s, v in burst_extinction.items()}
+        idle_recovery = {s: v * inv for s, v in idle_recovery.items()}
 
     return PersonaConfig(
         id=persona_id,
