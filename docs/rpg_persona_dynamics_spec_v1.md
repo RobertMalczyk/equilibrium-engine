@@ -71,6 +71,62 @@ place only. Three keywords: **frozen snapshot**, **synchronous update**, **filte
 - **Note:** revise `dt` when a phenomenon faster than the current fastest emotion is added (`dt` always
   drops to the fastest element).
 
+### 2.1 Continuous-time parameterization — `dt` as a resolution knob
+
+`time_scale` (§2 above) *relabels* time: it scales every half-life by `k`, keeping `dt/half_life`
+constant, so the discrete trace is bit-identical and only the seconds-per-tick stretch. It cannot
+*refine* the model — it never changes how many ticks resolve a given game-second.
+
+This subsection adds the complementary property: **hold the real-time constants fixed and change `dt`,
+and the continuous-time trajectory is preserved** (finer `dt` = a more faithful sampling of the same
+dynamics, not a different model). The engine is therefore specified as a **continuous-time model that
+is discretized at load**: every time-dependent constant is given in **real-time units**, and its
+per-tick coefficient is derived from the sample time `Ts = dt`.
+
+**The conversion is per dynamical kind — NOT a uniform `÷Ts`.** Dividing everything by `Ts` is wrong
+(decays are exponential in `Ts`; one-shot events must not scale). Each constant is classified and
+converted as:
+
+| kind | examples | real-time spec | per-tick coefficient |
+|------|----------|----------------|----------------------|
+| **leak / decay** | state half-lives → `decay`; relational memory | time constant `τ` (s) | `decay = 2^(−Ts/τ)` — *exact* |
+| **continuous rate** | `drifts`; state↔state `couplings`; `burst_extinction`; `idle_recovery`; per-tick action effects; *sustained* physiological inputs | rate **per second** | **`× Ts`** (forward Euler) |
+| **event impulse** | `insult` / `help` / `command` / `food_given` deposits | deposit magnitude (per event) | **unchanged** — the event fires once, independent of `Ts` |
+| **counter / window** | `seeking_timeout`, `burst_confirm`, refractory window, action `cooldown`, `reactive_window` | duration (s) | **`round(· / Ts)`** ticks |
+| **dimensionless** | thresholds, clamps, escalation `k_esc`, trait modulators, gains on states | — | **unchanged** |
+
+In one line: **`τ`-type → exponential in `Ts`; rate-type → `× Ts`; count-type → `÷ Ts`;
+impulse/threshold → invariant.** Half-lives→`decay` already follow the leak rule. Channels carry an
+explicit **kind tag** (`impulse` vs `sustained`) so the loader routes event deposits (invariant) apart
+from sustained feeds (`× Ts`).
+
+**One conversion site.** All `Ts`-conversion lives in the **loader** (`yaml_io`), exactly as
+half-lives already become `decay` there; the tick update equation consumes ready per-tick
+coefficients and is unchanged. There is one mechanism for discretization, and **no per-tick numeric
+literal** survives in engine code — config holds real-time values, the loader holds the `Ts` map.
+(The eval believable-day derivation, which previously re-derived drifts/timeouts from durations,
+is subsumed by this generic conversion.)
+
+**Canonical invariance (by construction).** Re-expressing each existing per-tick constant as
+`rate_per_second = value_per_tick / Ts_canonical` (and counts as `seconds = ticks · Ts_canonical`)
+makes the loader reproduce the exact original per-tick numbers at the canonical `Ts`. The frozen
+golden/litmus trace is therefore **unchanged**; only *new* `dt` values exercise the refined path.
+
+**Scope and caveats (honest limits of "real-time preserved").**
+1. Leaks discretize **exactly**; the additive rate terms use **forward Euler** (`× Ts`) and are thus
+   `dt`-invariant only **in the limit**, with `O(Ts)` error that shrinks as `dt` decreases.
+2. The **nonlinear and threshold logic** — escalation `k_esc`, clamps, and the burst **latch**
+   (integrate-and-fire, confirm-for-`N`-ticks, hysteresis) — is path-dependent. Counters are specced
+   in seconds and converted, but the latch *crossing* still depends on the discrete path, so different
+   `dt` values **converge** rather than producing bit-identical event timing.
+3. Calibration is performed at the **canonical `Ts`**. A finer `dt` is a **new operating point**: the
+   boundedness gate and the G0 corridor must be re-verified there before its incident counts are
+   trusted.
+
+This completes the §1 invariants "`dt = min(half_life)/10`", "no numeric literal in engine code", and
+"constants from calibration": the remaining tick-anchored magic numbers become real-time-specced,
+`Ts`-derived constants with a single conversion site.
+
 ---
 
 ## 3. Canonical types (shared vocabulary)
