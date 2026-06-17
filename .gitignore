@@ -25,3 +25,11 @@ eval/burst_regression/*/batches/
 
 # Claude Code local settings (machine-specific)
 .claude/
+
+# Regenerable blind-judge run artifacts (rebuild via eval/hourly_judge.py --build).
+# The per-slice results/ + manifest.yaml + the FINAL/TEST reports ARE tracked; these are not.
+eval/hourly_runs/slice_*/batches/
+eval/hourly_runs/*.js
+eval/hourly_runs/worklist.json
+eval/hourly_runs/missing.json
+eval/hourly_runs/progress.md

@@ -1,0 +1,10 @@
+branic_day_burstOFF_041: PASS -- sane day, restless cycles, lets mockery pass, sleeps and recovers.
+branic_day_burstOFF_042: PASS -- thin-skinned recruit bristles late, settles, believable pacing.
+branic_day_burstOFF_043: PASS -- calm, busy day, kindnesses warm him, normal rhythm.
+branic_day_burstOFF_044: PASS -- ordinary day, mild end-of-day tension, recovers overnight.
+branic_day_burstOFF_045: PASS -- public mockery triggers eruption then refusal, plausibly thin-skinned.
+branic_day_burstOFF_046: PASS -- obedient, settled day, kindnesses received, normal sleep cycle.
+branic_day_burstOFF_047: PASS -- compliant busy day, brief tension, believable and recovered.
+branic_day_burstOFF_048: PASS -- calm cooperative day, warmed by kindnesses, normal rhythm.
+branic_day_burstOFF_049: PASS -- lets repeated mockery pass, settled throughout, sane pacing.
+branic_day_burstOFF_050: PASS -- single mock triggers snap, lingering edge, recovers by night.

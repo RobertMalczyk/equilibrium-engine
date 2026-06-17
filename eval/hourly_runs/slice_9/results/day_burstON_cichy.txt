@@ -1,0 +1,10 @@
+cichy_day_burstON_091: PASS -- calm prisoner, curt with guards, sleeps and recovers
+cichy_day_burstON_092: PASS -- sane pacing, mild curtness toward guards, normal rest
+cichy_day_burstON_093: PASS -- erupts at mocking, settles after; believable resentful captive
+cichy_day_burstON_094: PASS -- fury at public mockery, curt with guards, recovers
+cichy_day_burstON_095: PASS -- calm day, curt with soup-bringing guard, sleeps well
+cichy_day_burstON_096: PASS -- mild tension, curt with guards, normal rhythm
+cichy_day_burstON_097: PASS -- erupts at mockery, otherwise curt and settled
+cichy_day_burstON_098: PASS -- warm to strangers, curt with guards; contrast fits profile
+cichy_day_burstON_099: PASS -- calm, curt with guards, warm to stranger, sleeps
+cichy_day_burstON_100: PASS -- snaps at mockery, curt with jailers, recovers overnight

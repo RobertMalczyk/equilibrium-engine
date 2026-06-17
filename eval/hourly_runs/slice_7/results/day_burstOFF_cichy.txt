@@ -1,0 +1,10 @@
+cichy_day_burstOFF_071: PASS -- sane day; mocks anger, soup unmoved, sleeps and recovers
+cichy_day_burstOFF_072: PASS -- believable pacing; curt to soup, fury at mock, rests
+cichy_day_burstOFF_073: PASS -- coherent arc; resentment toward guards, calm overnight recovery
+cichy_day_burstOFF_074: PASS -- sane day; eruptions at mocks, eased soup, normal sleep
+cichy_day_burstOFF_075: PASS -- believable; mostly settled, evening flare, recovers by morning
+cichy_day_burstOFF_076: PASS -- calm day, no mocks, soup unmoved, sane rhythm
+cichy_day_burstOFF_077: PASS -- coherent; guard anger, stranger kindness warm, recovers overnight
+cichy_day_burstOFF_078: PASS -- sane; early bristle, soup curt, stranger neutral, sleeps
+cichy_day_burstOFF_079: PASS -- believable; stranger kindness warm, guards resented, calm recovery
+cichy_day_burstOFF_080: PASS -- sane pacing; eruptions at mocks, eased soup, normal sleep

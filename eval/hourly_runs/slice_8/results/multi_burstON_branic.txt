@@ -1,0 +1,10 @@
+branic_multi_burstON_081: PASS -- clean arc, single evening burst, recovers well
+branic_multi_burstON_082: PASS -- post-burst refusals Day 2 plausible, Day 5 burst earned
+branic_multi_burstON_083: PASS -- burst on kindness reads as displaced aggression, borderline
+branic_multi_burstON_084: PASS -- warm Day 2 recovery after Day 1 outburst convincing
+branic_multi_burstON_085: FLAG -- erupts twice from plain orders not provocations, same evening
+branic_multi_burstON_086: PASS -- resentment refusals and rain tension arc coherent
+branic_multi_burstON_087: PASS -- soup-triggered fury is displaced aggression, burstON plausible
+branic_multi_burstON_088: PASS -- burst after two tense days, good recovery arc Days 4-6
+branic_multi_burstON_089: PASS -- tension-recovery cycle across 6 days reads naturally
+branic_multi_burstON_090: PASS -- morning snap at mock after tense start, clean 3-day arc

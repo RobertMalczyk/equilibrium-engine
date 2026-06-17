@@ -1,0 +1,10 @@
+edda_day_burstON_021: PASS -- calm composed castellan, sane pacing, sleeps and wakes recovered
+edda_day_burstON_022: PASS -- settled day, warm to kindness, lets a stranger's order pass
+edda_day_burstON_023: PASS -- composed, ignores mockery and orders, takes charge at night
+edda_day_burstON_024: PASS -- calm day, refuses a stranger's order, fitting her authority
+edda_day_burstON_025: PASS -- warm to kindnesses, settled throughout, normal sleep cycle
+edda_day_burstON_026: PASS -- composed, shrugs off mockery and order, sane pacing
+edda_day_burstON_027: PASS -- lets repeated mockery pass, refuses order, stays composed
+edda_day_burstON_028: PASS -- settled day, complies once, warm to staff kindnesses
+edda_day_burstON_029: PASS -- warm to many kindnesses, calm, takes charge nightly
+edda_day_burstON_030: PASS -- quiet settled day, normal meals, sleeps and wakes

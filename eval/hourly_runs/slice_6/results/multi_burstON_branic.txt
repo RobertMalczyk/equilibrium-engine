@@ -1,0 +1,10 @@
+branic_multi_burstON_061: PASS -- sane cycles, escalating defiance to Halgrim, nightly recovery
+branic_multi_burstON_062: PASS -- believable boredom/rest/sleep rhythm, proportionate flares
+branic_multi_burstON_063: FLAG -- erupts in fury at Halgrim's kindness (Day5 07:10)
+branic_multi_burstON_064: PASS -- calm compliant stretch, warm to soup, sane pacing
+branic_multi_burstON_065: PASS -- restless cycles, occasional flares, recovers overnight
+branic_multi_burstON_066: FLAG -- flares angrily at Halgrim's kindness (Day5 13:21)
+branic_multi_burstON_067: PASS -- bored/restless rhythm, proportionate eruptions, nightly reset
+branic_multi_burstON_068: PASS -- sane days, mounting temper at mockery, recovers
+branic_multi_burstON_069: PASS -- believable pacing, rain endured, defiance builds plausibly
+branic_multi_burstON_070: PASS -- warm to kindness, sane boredom cycles, nightly recovery

@@ -1,0 +1,12 @@
+All records show a restless, easygoing poet: frequent restless/occupy cycles, warm thanks for kindnesses, mockery shrugged off (occasional curt reply but never raging), sleeps at night, wakes settled. All consistent with profile and sane pacing.
+
+lutek_multi_burstON_001: PASS -- restless cycles, shrugs mockery, sleeps and recovers; sane.
+lutek_multi_burstON_002: PASS -- easygoing, warm thanks, one curt reply; believable pacing.
+lutek_multi_burstON_003: PASS -- restless poet, mockery shrugged, nightly sleep; sane.
+lutek_multi_burstON_004: PASS -- curt once but no rage; restless, warm; believable.
+lutek_multi_burstON_005: PASS -- six days, steady restlessness, warm, recovers nightly.
+lutek_multi_burstON_006: PASS -- shrugs mockery, busy cycles, sleeps well; consistent.
+lutek_multi_burstON_007: PASS -- five days easygoing, restless, warm thanks; sane.
+lutek_multi_burstON_008: PASS -- warm, restless, mockery ignored; believable day flow.
+lutek_multi_burstON_009: PASS -- many kindnesses warmly taken, restless, sleeps; sane.
+lutek_multi_burstON_010: PASS -- restless poet, warm, recovers nightly; nothing jars.

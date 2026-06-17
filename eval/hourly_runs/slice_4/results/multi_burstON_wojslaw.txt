@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_041: PASS -- sane pacing, flares at mockery, recovers nightly, fits profile
+wojslaw_multi_burstON_042: PASS -- believable temper arc, refuses orders, sleeps and recovers
+wojslaw_multi_burstON_043: PASS -- proud flares and refusals, warms to kindness, sane days
+wojslaw_multi_burstON_044: PASS -- escalating mockery provokes fury, calm mornings, fits profile
+wojslaw_multi_burstON_045: PASS -- mostly warmed, occasional flare at mockery, sane pacing
+wojslaw_multi_burstON_046: PASS -- prickly flares and refusals, recovers nightly, nothing absurd
+wojslaw_multi_burstON_047: PASS -- mostly content, flares at insults, sane believable days
+wojslaw_multi_burstON_048: PASS -- calm with kindness, flares when mocked, fits profile
+wojslaw_multi_burstON_049: PASS -- heavy flares and refusals under provocation, recovers nightly
+wojslaw_multi_burstON_050: PASS -- warms and flares appropriately, sane pacing, fits profile

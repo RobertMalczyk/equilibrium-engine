@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_061: PASS -- calm steady day, warm to kindness, sleeps well
+halgrim_day_burstOFF_062: PASS -- lets mocks pass, one curt reply, even keel
+halgrim_day_burstOFF_063: PASS -- mounting edge, curt then refuses Wojsław, plausible
+halgrim_day_burstOFF_064: PASS -- cold curtness at Wojsław, otherwise settled and steady
+halgrim_day_burstOFF_065: PASS -- placid uneventful day, calm throughout, sleeps soundly
+halgrim_day_burstOFF_066: PASS -- warm and settled, lets Wojsław mock pass
+halgrim_day_burstOFF_067: PASS -- calm day, refuses Wojsław's order, consistent with resentment
+halgrim_day_burstOFF_068: PASS -- curt to Wojsław, obeys Edda, even tempered
+halgrim_day_burstOFF_069: PASS -- settled day, obeys Edda, warm to Marta
+halgrim_day_burstOFF_070: PASS -- many kindnesses, warm and settled, lets mock pass

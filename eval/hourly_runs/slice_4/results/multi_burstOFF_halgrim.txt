@@ -1,0 +1,12 @@
+All records consistent with calm, controlled veteran: warmth to kindness, curtness/refusal to Wojsław, obeys Edda, sleeps/wakes recovered, no shouting.
+
+halgrim_multi_burstOFF_041: PASS -- calm, warm to kindness, curt only to Wojsław.
+halgrim_multi_burstOFF_042: PASS -- cold curtness escalates under Wojsław, recovers nightly.
+halgrim_multi_burstOFF_043: PASS -- steady, controlled, sensible recovery across days.
+halgrim_multi_burstOFF_044: PASS -- mild complaints, obeys Edda, settled throughout.
+halgrim_multi_burstOFF_045: PASS -- calm, warm, brief curtness to Wojsław.
+halgrim_multi_burstOFF_046: PASS -- steady, obeys Edda, resents Wojsław plausibly.
+halgrim_multi_burstOFF_047: PASS -- cold contempt to Wojsław, never shouts, recovers.
+halgrim_multi_burstOFF_048: PASS -- composed, curt to Wojsław, obeys Edda.
+halgrim_multi_burstOFF_049: PASS -- heavy Wojsław pressure, cold not raging, recovers.
+halgrim_multi_burstOFF_050: PASS -- controlled coldness, tension rises and resets nightly.

@@ -1,0 +1,10 @@
+branic_day_burstON_011: PASS -- restless/settled cycles sane; one snap at Halgrim fits thin-skinned recruit.
+branic_day_burstON_012: PASS -- calm day, lets barbs pass, obeys orders; believable young soldier.
+branic_day_burstON_013: PASS -- one fury at evening mocking fits reactive temper; otherwise composed.
+branic_day_burstON_014: PASS -- restless-bored cycles, kindness warmly received, late sleep plausible.
+branic_day_burstON_015: PASS -- busy obedient day, tension builds, calm sleep; coherent pacing.
+branic_day_burstON_016: PASS -- ordinary day, lets mocking pass, warms to kindness; sane.
+branic_day_burstON_017: PASS -- many kindnesses warmly taken, orders obeyed, tension ebbs; believable.
+branic_day_burstON_018: PASS -- restless cycles, warmth to help, evening edge then calm sleep.
+branic_day_burstON_019: PASS -- repeated mocking let pass, obeys, warms to aid; coherent.
+branic_day_burstON_020: PASS -- bored-restless rhythm, kindness welcomed, late sleep; sane day.

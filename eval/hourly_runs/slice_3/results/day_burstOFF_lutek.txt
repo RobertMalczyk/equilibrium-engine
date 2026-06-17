@@ -1,0 +1,10 @@
+lutek_day_burstOFF_031: PASS -- restless/rest cycles, mockery rolls off, sleeps and recovers
+lutek_day_burstOFF_032: PASS -- calm warm day, insults ignored, sane pacing
+lutek_day_burstOFF_033: PASS -- believable boredom cycles, warm to kindness, sleeps well
+lutek_day_burstOFF_034: PASS -- restless poet, warm thanks, normal sleep recovery
+lutek_day_burstOFF_035: PASS -- many kindnesses welcomed, restless cycles, sane night
+lutek_day_burstOFF_036: PASS -- mockery shrugged off, warm and busy, normal pacing
+lutek_day_burstOFF_037: PASS -- calm restless day, warm thanks, sleeps and wakes
+lutek_day_burstOFF_038: PASS -- insult ignored, busy and warm, recovers overnight
+lutek_day_burstOFF_039: PASS -- mockery passes, many kindnesses, sane day and sleep
+lutek_day_burstOFF_040: PASS -- restless cycles, warm thanks, sleeps near midnight

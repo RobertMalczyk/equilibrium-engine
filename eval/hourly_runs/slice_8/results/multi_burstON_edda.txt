@@ -1,0 +1,10 @@
+edda_multi_burstON_081: PASS -- composed castellan, sane pacing, appropriate authority throughout
+edda_multi_burstON_082: PASS -- steady days, one stranger compliance in good mood, acceptable
+edda_multi_burstON_083: PASS -- calm and well-supported, duplicate soup events minor artefact
+edda_multi_burstON_084: PASS -- two mocks absorbed without reaction, fits composed profile
+edda_multi_burstON_085: PASS -- one early compliance after warm morning, borderline but within range
+edda_multi_burstON_086: PASS -- long quiet run, authority exercised regularly, nothing odd
+edda_multi_burstON_087: PASS -- graduated responses to repeated stranger orders, believable
+edda_multi_burstON_088: PASS -- warm and well-supported throughout, pacing sane
+edda_multi_burstON_089: PASS -- dense kindnesses on day 5 but no structural issue
+edda_multi_burstON_090: PASS -- firm refusal of stranger order fits self-possessed castellan

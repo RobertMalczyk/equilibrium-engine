@@ -1,0 +1,10 @@
+branic_day_burstOFF_001: PASS -- sane pacing, restless/recovers, sleeps, calm responses fit profile
+branic_day_burstOFF_002: PASS -- believable day, lets mockery pass, rests and recovers normally
+branic_day_burstOFF_003: PASS -- coherent day, restlessness and ease alternate sensibly, sleeps well
+branic_day_burstOFF_004: PASS -- normal pacing, mild tension late, recovers after sleep
+branic_day_burstOFF_005: PASS -- believable cycles of restlessness, work, rest, warm thanks
+branic_day_burstOFF_006: PASS -- busy evening but sane, no absurd reactions, sleeps
+branic_day_burstOFF_007: PASS -- steady believable day, eager compliance, rests and wakes recovered
+branic_day_burstOFF_008: PASS -- repeated mockery let pass, calm day, sleeps late but fine
+branic_day_burstOFF_009: PASS -- ordinary day, restlessness and ease, lets barb pass
+branic_day_burstOFF_010: PASS -- public mockery snaps him; fitting for thin-skinned recruit

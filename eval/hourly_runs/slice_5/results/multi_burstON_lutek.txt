@@ -1,0 +1,10 @@
+lutek_multi_burstON_051: PASS -- sane cycles, restless poet, mockery shrugged off
+lutek_multi_burstON_052: PASS -- believable days; one mild curt reply, acceptable
+lutek_multi_burstON_053: PASS -- coherent pacing, warm to kindness, insults pass
+lutek_multi_burstON_054: FLAG -- "curtly and coldly" at mockery jars hard-to-offend profile
+lutek_multi_burstON_055: PASS -- sane day/night, boredom loops, insults shrugged off
+lutek_multi_burstON_056: PASS -- believable pacing, good-humoured, mockery let pass
+lutek_multi_burstON_057: PASS -- coherent, warm, restless; nothing jars
+lutek_multi_burstON_058: PASS -- sane cycles, novelty-seeking, insults pass
+lutek_multi_burstON_059: PASS -- believable days and nights, easy-tempered throughout
+lutek_multi_burstON_060: PASS -- coherent pacing, warm, restless poet; consistent

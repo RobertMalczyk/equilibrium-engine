@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_041: PASS -- Calm day, warm to soup, sleeps and wakes recovered.
+halgrim_day_burstOFF_042: PASS -- Curt cold reply to Wojsław's mockery; otherwise steady.
+halgrim_day_burstOFF_043: PASS -- Brief edge after mockery, cold contempt; recovers, sleeps well.
+halgrim_day_burstOFF_044: PASS -- Declines and grumbles at Wojsław, obeys Edda; steady throughout.
+halgrim_day_burstOFF_045: PASS -- Lets Wojsław's barb pass calmly; even keel all day.
+halgrim_day_burstOFF_046: PASS -- Shrugs off Wojsław's orders and mockery; calm throughout.
+halgrim_day_burstOFF_047: PASS -- Warm to kindnesses, declines Wojsław; steady, sleeps fine.
+halgrim_day_burstOFF_048: PASS -- Declines and grumbles at Wojsław, mild grumble at Edda; sane.
+halgrim_day_burstOFF_049: PASS -- Warm responses, declines Wojsław calmly; even keel throughout.
+halgrim_day_burstOFF_050: PASS -- Lets barbs pass, one shade-curt reply; recovers, sleeps.

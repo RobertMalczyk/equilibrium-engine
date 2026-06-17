@@ -1,0 +1,10 @@
+halgrim_multi_burstON_051: PASS -- calm, mild provoked curtness, sleeps and recovers
+halgrim_multi_burstON_052: PASS -- steady, escalates only under repeated Wojslaw mockery
+halgrim_multi_burstON_053: PASS -- rain plus provocation drives cold contempt, recovers
+halgrim_multi_burstON_054: FLAG -- cold contempt at Marta bringing soup (kindness)
+halgrim_multi_burstON_055: PASS -- calm and warm throughout, well-paced
+halgrim_multi_burstON_056: FLAG -- cold contempt at Marta's soup kindness
+halgrim_multi_burstON_057: PASS -- provoked tension, settles by next day
+halgrim_multi_burstON_058: PASS -- warm baseline, escalates under heavy Wojslaw goading
+halgrim_multi_burstON_059: PASS -- calm, warm, sane pacing across days
+halgrim_multi_burstON_060: FLAG -- curt/cold reply to Marta's soup kindness

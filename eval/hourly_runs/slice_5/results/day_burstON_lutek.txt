@@ -1,0 +1,10 @@
+lutek_day_burstON_051: PASS -- restless seeking, warm to kindness, shrugs mockery, sleeps well
+lutek_day_burstON_052: PASS -- believable pacing, brief edge eases, sleeps and recovers
+lutek_day_burstON_053: PASS -- frequent novelty-seeking, warm, mockery rolls off, sane day
+lutek_day_burstON_054: PASS -- one mild curt reply, otherwise unoffended and easy
+lutek_day_burstON_055: PASS -- restless cycles, warm, lets mockery pass, recovers overnight
+lutek_day_burstON_056: PASS -- busy seeking, warm to kindnesses, unbothered by mockery
+lutek_day_burstON_057: PASS -- mild evening edge fades, warm, sane pacing
+lutek_day_burstON_058: PASS -- some evening tension but never rages, warm, sane
+lutek_day_burstON_059: PASS -- restless, warm, mockery shrugged, brief edge eases
+lutek_day_burstON_060: PASS -- novelty-seeking, warm, lets mockery pass, sleeps recovered

@@ -1,0 +1,10 @@
+welf_day_burstON_051: PASS -- restless/eased cycle, sane sleep, mockery shrugged off
+welf_day_burstON_052: PASS -- calm steady day, boredom rises and eases believably
+welf_day_burstON_053: PASS -- normal idle day, settled rhythm, sleeps and recovers
+welf_day_burstON_054: PASS -- composed cycling of boredom and rest throughout
+welf_day_burstON_055: PASS -- even-keeled day, warm to kindnesses, sane pacing
+welf_day_burstON_056: PASS -- steady boredom/ease rhythm, nothing jarring
+welf_day_burstON_057: PASS -- calm day, gracious to help, believable spans
+welf_day_burstON_058: PASS -- ordinary idle day, settled and recovered after sleep
+welf_day_burstON_059: PASS -- composed restless/rest cycle, warm reactions, sane sleep
+welf_day_burstON_060: FLAG -- snaps angrily at a kindness; contradicts even-tempered profile

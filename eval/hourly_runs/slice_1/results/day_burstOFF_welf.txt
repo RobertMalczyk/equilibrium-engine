@@ -1,0 +1,10 @@
+welf_day_burstOFF_011: PASS -- Restlessness cycles, takes mockery in stride, sleeps and wakes recovered.
+welf_day_burstOFF_012: PASS -- Sane boredom-rest cycle, warm to kindness, recovers overnight.
+welf_day_burstOFF_013: PASS -- Believable pacing, calm, kindness welcomed, sleeps and wakes settled.
+welf_day_burstOFF_014: PASS -- Even-keeled day, boredom rises and falls, recovers overnight.
+welf_day_burstOFF_015: PASS -- Steady cycle of restlessness and rest, calm throughout.
+welf_day_burstOFF_016: PASS -- Normal boredom pacing, settled, no jarring reactions.
+welf_day_burstOFF_017: PASS -- Believable day, brief tension passes, calm and recovered.
+welf_day_burstOFF_018: PASS -- Sane pacing, mild tension fades, sleeps and recovers.
+welf_day_burstOFF_019: PASS -- Calm even day, kindness welcomed, overnight recovery intact.
+welf_day_burstOFF_020: PASS -- Steady, warm to kindness, believable boredom cycle, recovers overnight.

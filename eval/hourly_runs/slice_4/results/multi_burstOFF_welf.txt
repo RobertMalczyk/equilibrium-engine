@@ -1,0 +1,10 @@
+welf_multi_burstOFF_041: PASS -- sane boredom/rest cycle, sleeps, calm under mocks
+welf_multi_burstOFF_042: PASS -- believable pacing, recovers nightly, even-keeled throughout
+welf_multi_burstOFF_043: PASS -- consistent calm, restless then occupies himself, warm to kindness
+welf_multi_burstOFF_044: PASS -- rain/watch wears but no jarring reaction, calm
+welf_multi_burstOFF_045: PASS -- steady boredom cycle, lets mocks pass, sleeps well
+welf_multi_burstOFF_046: PASS -- sane daily rhythm, calm and warm as profiled
+welf_multi_burstOFF_047: PASS -- believable spans, rain handled calmly, recovers nightly
+welf_multi_burstOFF_048: PASS -- one isolated snap after rain+public mock, otherwise calm
+welf_multi_burstOFF_049: PASS -- calm under repeated mocks and rain, sane pacing
+welf_multi_burstOFF_050: PASS -- steady even-keeled days, recovers each night, plausible

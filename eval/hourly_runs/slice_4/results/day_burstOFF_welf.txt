@@ -1,0 +1,10 @@
+welf_day_burstOFF_041: PASS -- calm idle merchant, restless cycles, sleeps and recovers
+welf_day_burstOFF_042: PASS -- steady day, boredom rises, warm thanks, sane sleep
+welf_day_burstOFF_043: PASS -- believable pacing, kindnesses welcomed, restless idleness, nightly recovery
+welf_day_burstOFF_044: PASS -- lets mockery pass, even-keeled, sane day rhythm
+welf_day_burstOFF_045: PASS -- composed idle merchant, normal cycles, recovers after sleep
+welf_day_burstOFF_046: PASS -- shrugs off jibe, calm boredom-driven day, sound pacing
+welf_day_burstOFF_047: PASS -- mockery ignored, settled merchant, believable restless-rest cycles
+welf_day_burstOFF_048: PASS -- calm day, warm to kindness, sleeps and recovers
+welf_day_burstOFF_049: PASS -- even-tempered, restless idleness, mild evening edge, recovers overnight
+welf_day_burstOFF_050: PASS -- composed merchant, well-fed, sane boredom cycles, normal sleep

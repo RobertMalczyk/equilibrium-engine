@@ -1,0 +1,10 @@
+edda_multi_burstON_071: PASS -- calm authority, regular rhythms, nothing jars
+edda_multi_burstON_072: PASS -- varied incidents handled composedly, sane pacing
+edda_multi_burstON_073: PASS -- heavy positive days, mocks absorbed, fits profile
+edda_multi_burstON_074: PASS -- mild irritation builds then recovers, believable arc
+edda_multi_burstON_075: PASS -- composed throughout, orders and mocks let pass cleanly
+edda_multi_burstON_076: PASS -- escalating refusals fit castellan resisting stranger authority
+edda_multi_burstON_077: PASS -- quiet steady days, no friction, sane
+edda_multi_burstON_078: PASS -- occasional compliance and mocks absorbed, fits composed lead
+edda_multi_burstON_079: PASS -- one mutter then settled, sane multi-day arc
+edda_multi_burstON_080: PASS -- busy day one with kindnesses, calm thereafter, sane

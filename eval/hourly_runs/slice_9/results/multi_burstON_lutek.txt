@@ -1,0 +1,10 @@
+lutek_multi_burstON_091: PASS -- restless-seek-settle cycle clean, kindness and tension believable
+lutek_multi_burstON_092: PASS -- soup ignored once plausibly; mocks ignored; pacing sane
+lutek_multi_burstON_093: PASS -- dense kindnesses Day 4 and evening tension believable across 6 days
+lutek_multi_burstON_094: PASS -- past-midnight tinkering fits restless poet; recovery clean
+lutek_multi_burstON_095: PASS -- calm well-paced days, evening tension clears by morning
+lutek_multi_burstON_096: PASS -- mocks ignored fits profile; evening tension lacks clear trigger but tolerable
+lutek_multi_burstON_097: PASS -- morning tension clears with food; mock ignored; Day 5 positive
+lutek_multi_burstON_098: PASS -- dense morning kindnesses Day 3; soup indifference then warmth plausible
+lutek_multi_burstON_099: PASS -- two consecutive evenings tense, clears Day 3 morning; mock ignored correctly
+lutek_multi_burstON_100: PASS -- morning tension pattern consistent; one soup indifference plausible satiation

@@ -1,0 +1,10 @@
+edda_day_burstON_001: PASS -- calm composed day, warm to kindness, lets stranger order pass
+edda_day_burstON_002: PASS -- settled day, warm thanks, ignores stranger's order, sets watch
+edda_day_burstON_003: PASS -- shrugs off mockery and orders, warm to help, composed
+edda_day_burstON_004: PASS -- lets mockery pass, warmed by kindness, sane pacing
+edda_day_burstON_005: PASS -- calm throughout, ignores mockery and orders, recovers overnight
+edda_day_burstON_006: PASS -- quiet composed day, warm thanks, takes charge at watch
+edda_day_burstON_007: PASS -- complaint and refusal to stranger orders fits authority, plausible
+edda_day_burstON_008: PASS -- warm to many kindnesses, mockery passes, composed command
+edda_day_burstON_009: PASS -- calm, warm to help, lets stranger order pass
+edda_day_burstON_010: PASS -- settled day, warm thanks, lets stranger order pass

@@ -1,0 +1,10 @@
+wojslaw_day_burstON_011: PASS -- Flares at mocks, warm to kindness, sleeps and wakes recovered.
+wojslaw_day_burstON_012: PASS -- Believable prickly day, refusals and eruptions, calm night reset.
+wojslaw_day_burstON_013: PASS -- Mostly calm day with proportionate flares; sane pacing.
+wojslaw_day_burstON_014: PASS -- Temper builds over day, eruptions fit; recovers overnight.
+wojslaw_day_burstON_015: PASS -- Hot day, many eruptions but plausible for prickly noble.
+wojslaw_day_burstON_016: PASS -- Mix of warmth, refusals, eruptions; coherent pacing and reset.
+wojslaw_day_burstON_017: PASS -- Calm day, occasional flares; believable and recovers overnight.
+wojslaw_day_burstON_018: PASS -- Sustained edginess after eruptions, plausible; sleeps and recovers.
+wojslaw_day_burstON_019: PASS -- Mostly calm, single late eruption; sane day and reset.
+wojslaw_day_burstON_020: PASS -- Very hot day, many refusals/eruptions; plausible for prickly noble.

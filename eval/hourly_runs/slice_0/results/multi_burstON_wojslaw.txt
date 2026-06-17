@@ -1,0 +1,13 @@
+I have read the full file. I'll judge each record now.
+
+wojslaw_multi_burstON_001: PASS -- proud, prickly, sleeps/wakes, sane swings.
+wojslaw_multi_burstON_002: PASS -- calm warm start, escalating temper, recovers nightly.
+wojslaw_multi_burstON_003: PASS -- believable arc, gratitude then friction, sleeps well.
+wojslaw_multi_burstON_004: PASS -- prickly flares, calm spells, normal pacing.
+wojslaw_multi_burstON_005: PASS -- short temper, on-edge stretches, recovers overnight.
+wojslaw_multi_burstON_006: PASS -- sane mix of thanks and eruptions, nightly reset.
+wojslaw_multi_burstON_007: PASS -- warm and prickly by turns, believable spans.
+wojslaw_multi_burstON_008: PASS -- proud refusals and flares, sleeps and recovers.
+wojslaw_multi_burstON_009: PASS -- escalating irritation, calm mornings, sane pacing.
+
+Note: only 9 records present in the file (001-009); no record 010 exists.

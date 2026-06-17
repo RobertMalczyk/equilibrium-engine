@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_031: PASS -- proud man flares at mockery, calm otherwise, sleeps and recovers
+wojslaw_day_burstOFF_032: PASS -- sane pacing, flares once at insult, settles, rests at night
+wojslaw_day_burstOFF_033: PASS -- multiple flares and refusals fit prickly noble, recovers nightly
+wojslaw_day_burstOFF_034: PASS -- bristles at mockery, warm to kindness, believable calm day
+wojslaw_day_burstOFF_035: PASS -- mostly warm, flares twice late at insults, sane arc
+wojslaw_day_burstOFF_036: PASS -- refusals and flares fit proud temper, recovers overnight
+wojslaw_day_burstOFF_037: PASS -- calm day, lets most pass, believable pacing and sleep
+wojslaw_day_burstOFF_038: PASS -- snaps at mockery, warm to kindness, sane recovery
+wojslaw_day_burstOFF_039: PASS -- flares at barbs, settles between, normal day-night cycle
+wojslaw_day_burstOFF_040: PASS -- warm to kindness, erupts at insult, believable arc

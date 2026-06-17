@@ -1,0 +1,10 @@
+welf_day_burstOFF_031: PASS -- calm, busy day; restless-then-occupied cycle; sleeps and recovers.
+welf_day_burstOFF_032: PASS -- even-keeled, boredom-driven busyness; warm to kindness; sane pacing.
+welf_day_burstOFF_033: PASS -- mockery lets pass, no rage; composed throughout.
+welf_day_burstOFF_034: PASS -- mild evening tension after long idleness; recovers overnight.
+welf_day_burstOFF_035: PASS -- brief edge before mockery, lets it pass; sane.
+welf_day_burstOFF_036: PASS -- mockery shrugged off; steady busy day, recovers.
+welf_day_burstOFF_037: PASS -- composed, boredom-occupation cycle, restful night.
+welf_day_burstOFF_038: PASS -- mockery ignored, mild late tension; believable day.
+welf_day_burstOFF_039: PASS -- many small kindnesses warmly received; calm throughout.
+welf_day_burstOFF_040: PASS -- restless-occupied rhythm, mild evening edge, recovers.

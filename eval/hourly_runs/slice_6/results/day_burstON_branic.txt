@@ -1,0 +1,10 @@
+branic_day_burstON_061: PASS -- sane cycle, sleeps and wakes recovered
+branic_day_burstON_062: PASS -- calm watch, lets barbs pass while worn
+branic_day_burstON_063: PASS -- restless boredom cycle, late sleep but coherent
+branic_day_burstON_064: PASS -- warm to kindness, believable boredom pacing
+branic_day_burstON_065: PASS -- one bristle at provocation, otherwise settled
+branic_day_burstON_066: PASS -- ordinary watch day, tension rises then sleeps
+branic_day_burstON_067: PASS -- coherent boredom and warmth, evening edge
+branic_day_burstON_068: PASS -- snaps once when worn down, plausible
+branic_day_burstON_069: PASS -- flares at mockery when tense, sane otherwise
+branic_day_burstON_070: PASS -- warm, busy, believable day-night rhythm

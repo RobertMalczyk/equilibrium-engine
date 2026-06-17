@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_081: PASS -- restless cycle, mocks roll off, sane pacing throughout
+lutek_multi_burstOFF_082: PASS -- late sleep day 1 fine, brief tension plausible fatigue
+lutek_multi_burstOFF_083: PASS -- sated on kindness believable after dense positive run
+lutek_multi_burstOFF_084: PASS -- evening tension after long work stretch, resolves cleanly
+lutek_multi_burstOFF_085: PASS -- two flat food responses consistent with satiation state
+lutek_multi_burstOFF_086: PASS -- recurring evening tension resolves with rest, mocks ignored
+lutek_multi_burstOFF_087: PASS -- early-morning tension pattern consistent across days, no contradictions
+lutek_multi_burstOFF_088: PASS -- recurring early tension, sated responses plausible, overall sane
+lutek_multi_burstOFF_089: PASS -- tense ignored soup while preoccupied minor, recovers after rest
+lutek_multi_burstOFF_090: PASS -- morning and evening tension states with calm midday, believable

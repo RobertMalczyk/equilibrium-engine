@@ -1,0 +1,10 @@
+cichy_multi_burstON_071: PASS -- calm mornings, tension builds, single snap fits profile
+cichy_multi_burstON_072: PASS -- rainy day stays tense, recovers overnight, sane
+cichy_multi_burstON_073: PASS -- rain plus prior tension earns the morning outburst
+cichy_multi_burstON_074: PASS -- multiple mocks, curt replies only, recovers nightly
+cichy_multi_burstON_075: PASS -- outbursts spread across provocations over five days
+cichy_multi_burstON_076: PASS -- quiet record, curt replies, no outbursts, sane
+cichy_multi_burstON_077: PASS -- public mockery triggers eruption, sustained harassment fits
+cichy_multi_burstON_078: PASS -- two outbursts under sustained harassment, sane pacing
+cichy_multi_burstON_079: PASS -- late-night and rainy-morning outbursts, plausible for captive
+cichy_multi_burstON_080: PASS -- two outbursts on high-harassment day, recovers each morning

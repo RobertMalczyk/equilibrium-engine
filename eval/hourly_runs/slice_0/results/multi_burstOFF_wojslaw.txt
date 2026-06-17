@@ -1,0 +1,12 @@
+All records show: sane day/night cycles, wakes recovered, eruptions tied to provocations (mocks/insults), gratitude to kindnesses, refusals to orders consistent with a proud prickly noble. Nothing absurd. All pass.
+
+wojslaw_multi_burstOFF_001: PASS -- proud man flares at mocks, refuses orders; sane pacing.
+wojslaw_multi_burstOFF_002: PASS -- calm early, warms to kindness, flares on insults; believable.
+wojslaw_multi_burstOFF_003: PASS -- gracious to kindnesses, erupts at barbs; recovers nightly.
+wojslaw_multi_burstOFF_004: PASS -- prickly refusals and eruptions, warms to soup; sane arc.
+wojslaw_multi_burstOFF_005: PASS -- frequent eruptions at mocks, refuses orders; pacing fine.
+wojslaw_multi_burstOFF_006: PASS -- mixed temper and grace, sleeps and recovers; coherent.
+wojslaw_multi_burstOFF_007: PASS -- warm to kindness, flares at insults; believable spans.
+wojslaw_multi_burstOFF_008: PASS -- proud refusals, eruptions on barbs; nightly reset holds.
+wojslaw_multi_burstOFF_009: PASS -- gracious then prickly, flares at mocks; sane pacing.
+wojslaw_multi_burstOFF_010: PASS -- repeated eruptions at provocations, calm nights; nothing jars.

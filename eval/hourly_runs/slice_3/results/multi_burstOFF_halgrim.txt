@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_031: PASS -- calm baseline, cold curtness to Wojsław, recovers nightly
+halgrim_multi_burstOFF_032: PASS -- serene days, mild complaints, fully composed and believable
+halgrim_multi_burstOFF_033: PASS -- steady, cold defiance to Wojsław, sane tension cycles
+halgrim_multi_burstOFF_034: PASS -- even-keeled, brief curtness, warmth to Marta, sleeps recovered
+halgrim_multi_burstOFF_035: PASS -- rain handled steadily, cold replies, calm recovery
+halgrim_multi_burstOFF_036: PASS -- composed across five days, controlled curtness, nightly reset
+halgrim_multi_burstOFF_037: PASS -- placid stretch, single cold refusal, otherwise settled
+halgrim_multi_burstOFF_038: PASS -- six days steady, controlled grumbling, recovers each night
+halgrim_multi_burstOFF_039: PASS -- cold contempt under provocation, no shouting, sane arcs
+halgrim_multi_burstOFF_040: PASS -- repeated Wojsław defiance stays cold and curt, believable

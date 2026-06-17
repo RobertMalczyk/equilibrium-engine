@@ -1,0 +1,10 @@
+branic_multi_burstON_041: PASS -- sane cycles, nightly recovery, one proportionate snap
+branic_multi_burstON_042: PASS -- calm, rain wears him, no unmotivated rage
+branic_multi_burstON_043: PASS -- escalating snaps at mocking, recovers each night
+branic_multi_burstON_044: PASS -- compliant, warm, sane pacing and sleep
+branic_multi_burstON_045: PASS -- mostly settled, believable busy/rest rhythm
+branic_multi_burstON_046: PASS -- mild tension, one snap, sane spans
+branic_multi_burstON_047: PASS -- clustered flare at repeated mocking, then recovers
+branic_multi_burstON_048: PASS -- calm with mild bristles, nightly reset
+branic_multi_burstON_049: PASS -- calm, compliant, ordinary days
+branic_multi_burstON_050: PASS -- hot escalation under repeated mocking, recovers nightly

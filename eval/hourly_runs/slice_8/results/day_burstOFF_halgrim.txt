@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_081: PASS -- slight tension late evening, resolves overnight; fits profile
+halgrim_day_burstOFF_082: PASS -- calm day, tolerates Wojsław early, steady throughout
+halgrim_day_burstOFF_083: PASS -- curt under Wojsław provocation, recovers; consistent
+halgrim_day_burstOFF_084: PASS -- quiet uneventful day, calm and compliant; fits veteran
+halgrim_day_burstOFF_085: PASS -- declines Wojsław orders; lets mock pass; fits iron control
+halgrim_day_burstOFF_086: PASS -- very quiet day, steady and settled throughout
+halgrim_day_burstOFF_087: FLAG -- tension persists hours after Wojsław clears; 16:02 "settled" then tense again
+halgrim_day_burstOFF_088: PASS -- warm day with kindnesses; calm and compliant throughout
+halgrim_day_burstOFF_089: PASS -- steady, responsive to kindness; Wojsław ignored; fits profile
+halgrim_day_burstOFF_090: PASS -- two Wojsław barbs raise tension; lingers but plausible for veteran

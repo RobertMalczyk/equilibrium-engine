@@ -1,0 +1,10 @@
+branic_multi_burstOFF_061: PASS -- Sane cycles; anger escalates only under accumulated strain.
+branic_multi_burstOFF_062: PASS -- Bored loops, defiance and recovery all believable.
+branic_multi_burstOFF_063: PASS -- Calm days, occasional flares, nightly reset fit profile.
+branic_multi_burstOFF_064: PASS -- Eager, busy, mostly compliant; pacing entirely plausible.
+branic_multi_burstOFF_065: PASS -- Early flares then settling; thin-skinned recruit reads true.
+branic_multi_burstOFF_066: PASS -- Repeated mockery builds to fury, otherwise calm; believable.
+branic_multi_burstOFF_067: PASS -- Boredom, warmth, occasional eruptions; sane day rhythm.
+branic_multi_burstOFF_068: PASS -- Compliant stretches and flares both fit, good recovery.
+branic_multi_burstOFF_069: PASS -- Short run, rain, restlessness and flares all plausible.
+branic_multi_burstOFF_070: PASS -- Warm, busy, even-tempered days; nothing jars profile.

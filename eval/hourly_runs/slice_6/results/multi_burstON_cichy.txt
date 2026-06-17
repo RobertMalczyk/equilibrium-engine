@@ -1,0 +1,10 @@
+cichy_multi_burstON_061: PASS -- sane pacing, curt to guards, flares only on mocking
+cichy_multi_burstON_062: PASS -- believable rise/fall, resentful toward guards, recovers nightly
+cichy_multi_burstON_063: PASS -- coherent days, cold to captors, warm to strangers
+cichy_multi_burstON_064: PASS -- steady cycles, curt guard responses, sleeps and recovers
+cichy_multi_burstON_065: PASS -- sane tension arc, occasional flare, consistent grievance
+cichy_multi_burstON_066: PASS -- believable pacing, cold to guards, eruption on public mockery
+cichy_multi_burstON_067: PASS -- coherent multi-day life, resentful captive, recovers each night
+cichy_multi_burstON_068: PASS -- sane rhythms, curt to guards, warm to stranger
+cichy_multi_burstON_069: PASS -- believable arc, flares on mocking, nightly reset
+cichy_multi_burstON_070: PASS -- sane pacing, cold to captors, kindness warmly received

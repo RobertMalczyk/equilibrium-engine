@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_091: PASS -- tension builds daily, resets overnight, Wojslaw refusals earned
+halgrim_multi_burstOFF_092: PASS -- calm stretch, rain absorbed, one late Wojslaw decline fits
+halgrim_multi_burstOFF_093: PASS -- rain plus Wojslaw friction escalates across days believably
+halgrim_multi_burstOFF_094: PASS -- Wojslaw declined from day one, calm days without friction sane
+halgrim_multi_burstOFF_095: PASS -- early-morning grumble to Edda minor, mood recovers quickly
+halgrim_multi_burstOFF_096: PASS -- steady accumulation on rain day, stays contained throughout
+halgrim_multi_burstOFF_097: PASS -- dense Day 3 Wojslaw cluster triggers cold contempt, fits profile
+halgrim_multi_burstOFF_098: PASS -- rain day calm, routine Wojslaw declines, no jarring moments
+halgrim_multi_burstOFF_099: PASS -- Wojslaw cluster Day 1 evening raises tension, sleep resets it
+halgrim_multi_burstOFF_100: PASS -- six days settled, Edda complaint minor, Wojslaw declined appropriately
