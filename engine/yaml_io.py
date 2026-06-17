@@ -361,11 +361,16 @@ def load_persona(
     calibration = dict(merged.get("calibration", {}))
     appraisal = dict(merged.get("appraisal", {}))
 
-    # Resolution refinement (spec section 2.1): scale CONTINUOUS-RATE coefficients by 1/resolution_factor
-    # so their per-second rate is preserved at the finer dt. Guarded: at the default 1.0 this is skipped
-    # entirely, so the canonical config is byte-identical. (k_esc rides the scaled coupling edge and stays
-    # dimensionless; event-impulse gains and thresholds are untouched. Action per-tick effects + count
-    # windows are handled in later stages.)
+    # Resolution refinement (spec section 2.1): convert every time-dependent coefficient from its
+    # real-time meaning to the finer dt. Guarded: at the default 1.0 this is skipped entirely, so the
+    # canonical config is byte-identical. Per kind:
+    #   - CONTINUOUS RATES  (drifts, couplings, burst_extinction, idle_recovery, action per-tick effects)
+    #       -> x 1/resolution_factor   (per-second rate preserved; forward Euler)
+    #   - COUNTS / WINDOWS  (thresholds '*_ticks', action 'cooldown')
+    #       -> x resolution_factor, rounded >=1   (real-time duration preserved)
+    #   - INVARIANT: event-impulse gains (every input channel is an event impulse -- there is no
+    #     sustained per-tick input channel; sustained physiological sources are the drifts above),
+    #     k_esc (rides the scaled coupling edge), thresholds that are LEVELS, all dimensionless params.
     if resolution_factor != 1.0:
         inv = 1.0 / resolution_factor
         drifts = {k: v * inv for k, v in drifts.items()}
@@ -374,6 +379,26 @@ def load_persona(
         }
         burst_extinction = {s: v * inv for s, v in burst_extinction.items()}
         idle_recovery = {s: v * inv for s, v in idle_recovery.items()}
+        # S2: action per-tick effects are rates.
+        scaled_ap: dict = {}
+        for action, ap in action_params.items():
+            ap = dict(ap)
+            if "per_tick" in ap:
+                ap["per_tick"] = {
+                    s: float(v) * inv for s, v in dict(ap["per_tick"]).items()
+                }
+            # S3: per-action cooldown is a count (ticks).
+            if "cooldown" in ap:
+                ap["cooldown"] = max(
+                    1, round(float(ap["cooldown"]) * resolution_factor)
+                )
+            scaled_ap[action] = ap
+        action_params = scaled_ap
+        # S3: tick-count thresholds ('*_ticks') are durations measured in ticks.
+        thresholds = {
+            k: (max(1, round(v * resolution_factor)) if k.endswith("_ticks") else v)
+            for k, v in thresholds.items()
+        }
 
     return PersonaConfig(
         id=persona_id,

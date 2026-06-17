@@ -57,8 +57,52 @@ def test_refine_shrinks_dt_and_scales_rates():
 
     # impulses / dimensionless are NOT scaled.
     assert fine.gains == base.gains
-    assert fine.thresholds == base.thresholds
     assert fine.coupling_escalation == base.coupling_escalation
+    # LEVEL thresholds unchanged; COUNT thresholds ('*_ticks') scale with R (S3).
+    for k, v in base.thresholds.items():
+        if str(k).endswith("_ticks"):
+            assert fine.thresholds[k] == max(1, round(v * 2.0))
+        else:
+            assert fine.thresholds[k] == v
+
+
+def test_refine_scales_action_per_tick_and_cooldowns():
+    """S2: action per-tick effects are rates (×1/R). S3: per-action cooldown is a count (×R)."""
+    base = _cfg()
+    fine = _cfg(2.0)
+    for action, ap in base.action_params.items():
+        fap = fine.action_params[action]
+        for s, v in dict(ap.get("per_tick", {})).items():
+            assert abs(float(fap["per_tick"][s]) - float(v) / 2.0) < 1e-12
+        if "cooldown" in ap:
+            assert fap["cooldown"] == max(1, round(float(ap["cooldown"]) * 2.0))
+
+
+def test_realtime_convergence_free_dynamics():
+    """S4 (smoke): with the half-lives held fixed, a finer dt traces the SAME real-time trajectory.
+    Free relaxation (no events, so no impulse-timing confound) over one fixed game-time horizon: the
+    final smooth states at R=4 match R=1 within Euler tolerance, and stay bounded."""
+    from engine.schema import Scenario
+    from engine.simulation import run_scenario
+
+    init = {
+        "global_state": {"anger": 0.6, "stress": 0.5, "fatigue": 0.4, "hunger": 0.3}
+    }
+
+    def final_state(R, n_ticks):
+        cfg = _cfg(R)
+        sc = Scenario(id="relax", persona="wojslaw", initial_overrides=init, events=())
+        _, tr = run_scenario(cfg, sc, n_ticks=n_ticks)
+        return tr.ticks[-1].state_after_post.global_state, cfg.dt
+
+    g1, dt1 = final_state(1.0, 60)  # 60 ticks of game-time
+    g4, dt4 = final_state(4.0, 240)  # same game-time at 4× resolution
+    assert abs(dt1 - 4.0 * dt4) < 1e-9  # same horizon in seconds
+    for s in ("anger", "stress", "fatigue", "hunger"):
+        assert 0.0 <= g1[s] <= 1.0 and 0.0 <= g4[s] <= 1.0
+        assert (
+            abs(g1[s] - g4[s]) < 2e-2
+        )  # converges (leak exact; rate terms Euler O(Ts))
 
 
 def test_invalid_resolution_factor_rejected():
