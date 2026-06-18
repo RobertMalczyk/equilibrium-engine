@@ -92,6 +92,39 @@ aggregate ~4pp.
 5. **R3, R4** — trait-gating + sleep-onset calibration (after R5 confirms they're real, not labels).
 6. Re-run the full all-Sonnet judge; compare to this 93.5% baseline (same judge model).
 
+## 4b. Triage of the 182 flags (per `docs/eval/fail_triage_playbook.md`) + trace verification
+
+Note-signature + event/burst classification (`eval/triage.py` → `eval/hourly_runs/TRIAGE.md`):
+
+| layer | flags | dominant causes |
+|------|------|-----------------|
+| **L4 expression** | ~45 | positive event mislabeled ("lets it pass"/"no reaction"); mood line ignores anger |
+| **L2/L3 dynamics** | ~58 | burst displaced onto a kind source (31); hostility/non-compliance toward a RESPECTED source (18); high-authority complies with a stranger order (6) |
+| **L3 calibration** | ~34 | sleep-onset too late (18); post-eruption "recovery" (8 → mostly L4, see below); thick-skin over-reply (5); persona-contrast too weak (3) |
+| **L1 corpus** | ~12 | degenerate event cadence (double/triple soup, seconds apart) |
+| **L5 judge-marginal** | ~14 | hedged notes; authority refusing a stranger |
+| L? | ~19 | need cards |
+
+**Verified against traces (3 deep-dives, applying Q1/Q2):**
+1. `welf_multi_burstoff_015` — soup/help → action `positive_response`, low anger; the flagged ones land
+   while he is `rest`/`self_activity` → narration "lets it pass". **State fine → L4 (label), not dynamics.**
+2. `branic_day_burston_025` — two halgrim insults → anger 0.80; then a `help` event → action **`outburst`**.
+   **Real displaced discharge onto a kind source → L2/L3** (valence-gate; the M20.1 target).
+3. `wojslaw_day_burstoff_073` — insult → `outburst`, but **stress 0.04**, so `mood_phrase` prints
+   "settled at ease" minutes later. Anger did NOT decay fast — **`mood_phrase` ignores anger → L4**, not
+   calibration. ⇒ the whole "settles too fast / settled↔fury contradiction" group is largely a **one-spot
+   expression fix** (`render_narration.mood_phrase` must weigh residual anger), not anger-decay re-fit.
+
+**Revised leverage order (cheapest, highest-yield first):**
+- **L4 expression — biggest cheap win.** Two fixes clear a large share: (a) `mood_phrase` consider anger
+  (kills the "too-fast recovery" + settled↔fury contradictions); (b) acknowledge a positive event
+  (soup/help) even when the action is `rest`/`busy`, instead of the mockery-style "lets it pass" label.
+- **L1 corpus dedup** (generator min-spacing) — removes ~12 input-artifact flags.
+- **L2/L3 dynamics (the genuine engine work):** burst displaced-discharge **source-valence gate** (R2 /
+  M20.1); relational **respect→hostility/compliance gate** (R1); high-authority **stranger-command**
+  policy.
+- **L3 calibration:** sleep-onset; thick-skin gain; persona-contrast — after L4 confirms they're real.
+
 ## 5. Guardrails
 
 - Every engine change keeps the golden trace **byte-identical** and goes through the staged
