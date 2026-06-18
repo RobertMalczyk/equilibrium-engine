@@ -1,10 +1,10 @@
-cichy_multi_burstOFF_021: PASS -- sane pacing; resents guards, sleeps and recovers nightly.
-cichy_multi_burstOFF_022: PASS -- believable arc; warm to strangers, hostile to guards.
-cichy_multi_burstOFF_023: PASS -- coherent days, calm baseline punctuated by guard-triggered anger.
-cichy_multi_burstOFF_024: PASS -- consistent resentment, recovers each night, paced well.
-cichy_multi_burstOFF_025: PASS -- believable; warms to strangers, snaps at guards.
-cichy_multi_burstOFF_026: PASS -- sane pacing, guard provocations escalate appropriately.
-cichy_multi_burstOFF_027: PASS -- coherent; many guard frictions but recovers nightly.
-cichy_multi_burstOFF_028: PASS -- believable rhythm, resentful toward guards throughout.
-cichy_multi_burstOFF_029: PASS -- sane days, kindness welcomed, guards resented.
-cichy_multi_burstOFF_030: PASS -- coherent week, consistent grievance, nightly recovery.
+cichy_multi_burstOFF_021: PASS -- sane pacing, guard mocks trigger proportionate anger
+cichy_multi_burstOFF_022: PASS -- three fury peaks on day 4 each have a provocation
+cichy_multi_burstOFF_023: PASS -- well-paced tension, anger only on actual provocations
+cichy_multi_burstOFF_024: PASS -- two rapid rages on day 4 both guard-provoked, sleep resets
+cichy_multi_burstOFF_025: PASS -- four eruptions on day 2 all provoked, calmer days follow
+cichy_multi_burstOFF_026: PASS -- rain day manageable, eruptions match guard provocations
+cichy_multi_burstOFF_027: PASS -- heavy day 5 with four anger events all guard-provoked
+cichy_multi_burstOFF_028: PASS -- days 3-5 no fury despite tension, believable restraint
+cichy_multi_burstOFF_029: PASS -- first mock absorbed quietly, second flare plausible escalation
+cichy_multi_burstOFF_030: PASS -- three day-3 furies each guard-provoked, sleep resets correctly

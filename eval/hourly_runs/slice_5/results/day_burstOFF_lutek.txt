@@ -1,10 +1,10 @@
-lutek_day_burstOFF_051: PASS -- restless cycles, mockery ignored, warm thanks, sleeps and wakes
-lutek_day_burstOFF_052: PASS -- mild on-edge moment, otherwise calm, restless, recovers overnight
-lutek_day_burstOFF_053: PASS -- novelty-seeking, insults roll off, sane pacing, sleeps well
-lutek_day_burstOFF_054: PASS -- repeated mockery shrugged off, easy warmth, normal rhythm
-lutek_day_burstOFF_055: PASS -- restless tinkering, calm throughout, believable day and night
-lutek_day_burstOFF_056: PASS -- normal cycle, warm to kindness, unbothered by mockery
-lutek_day_burstOFF_057: PASS -- steady restless rhythm, warm thanks, sane sleep timing
-lutek_day_burstOFF_058: PASS -- brief on-edge, calm otherwise, insults ignored, recovers
-lutek_day_burstOFF_059: PASS -- tense moment passes, novelty-seeking, mockery shrugged, sleeps
-lutek_day_burstOFF_060: PASS -- mild edge late, calm man, kindness warm, recovers overnight
+lutek_day_burstOFF_051: PASS -- restless cycle, insults shrugged off, normal pacing
+lutek_day_burstOFF_052: PASS -- mild evening tension resolves, consistent with profile
+lutek_day_burstOFF_053: PASS -- steady restless-then-busy rhythm, no jarring moments
+lutek_day_burstOFF_054: PASS -- multiple insults ignored, warm responses intact
+lutek_day_burstOFF_055: PASS -- settled day, late mock ignored, clean sleep
+lutek_day_burstOFF_056: FLAG -- sleeps past midnight at 00:34, late bedtime unusual
+lutek_day_burstOFF_057: FLAG -- sleeps past midnight at 00:22, unusually late bedtime
+lutek_day_burstOFF_058: PASS -- brief evening tension clears, wakes settled
+lutek_day_burstOFF_059: FLAG -- sleeps past midnight at 00:14, late pattern recurring
+lutek_day_burstOFF_060: PASS -- evening tension resolves after kindness, normal arc

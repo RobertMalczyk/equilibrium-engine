@@ -1,10 +1,10 @@
-branic_day_burstON_011: PASS -- restless/settled cycles sane; one snap at Halgrim fits thin-skinned recruit.
-branic_day_burstON_012: PASS -- calm day, lets barbs pass, obeys orders; believable young soldier.
-branic_day_burstON_013: PASS -- one fury at evening mocking fits reactive temper; otherwise composed.
-branic_day_burstON_014: PASS -- restless-bored cycles, kindness warmly received, late sleep plausible.
-branic_day_burstON_015: PASS -- busy obedient day, tension builds, calm sleep; coherent pacing.
-branic_day_burstON_016: PASS -- ordinary day, lets mocking pass, warms to kindness; sane.
-branic_day_burstON_017: PASS -- many kindnesses warmly taken, orders obeyed, tension ebbs; believable.
-branic_day_burstON_018: PASS -- restless cycles, warmth to help, evening edge then calm sleep.
-branic_day_burstON_019: PASS -- repeated mocking let pass, obeys, warms to aid; coherent.
-branic_day_burstON_020: PASS -- bored-restless rhythm, kindness welcomed, late sleep; sane day.
+branic_day_burstON_011: PASS -- calm day builds to late tension, snap at midnight fits
+branic_day_burstON_012: PASS -- multiple barbs absorbed early, mild tension late, sane arc
+branic_day_burstON_013: PASS -- accumulated barbs culminate in evening eruption, recovers after
+branic_day_burstON_014: FLAG -- sleeps past midnight at 00:06, unusually late for this character
+branic_day_burstON_015: PASS -- tension builds through late orders, stays controlled, sleeps fine
+branic_day_burstON_016: PASS -- well-fed day, tension rises in evening, resolves before sleep
+branic_day_burstON_017: PASS -- three stranger kindnesses in quick succession slightly dense but not absurd
+branic_day_burstON_018: PASS -- wound tight by 20:03, settles before midnight, clean arc
+branic_day_burstON_019: PASS -- sustained mockery absorbed all day, tension builds gradually, clean sleep
+branic_day_burstON_020: FLAG -- sleeps past midnight at 00:24, pattern of very late sleep onset

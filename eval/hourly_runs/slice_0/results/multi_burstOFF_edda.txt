@@ -1,10 +1,10 @@
-edda_multi_burstOFF_001: PASS -- calm composed castellan, sane pacing, sleeps and recovers nightly
-edda_multi_burstOFF_002: PASS -- composed throughout, declines or ignores stranger orders, believable
-edda_multi_burstOFF_003: PASS -- settled days, nightly sleep, authority shown, nothing jars
-edda_multi_burstOFF_004: PASS -- mocks ignored, orders declined or done, calm command holds
-edda_multi_burstOFF_005: PASS -- steady composed days, sane rhythm, recovers each night
-edda_multi_burstOFF_006: PASS -- mild complaint at order, otherwise calm and authoritative
-edda_multi_burstOFF_007: PASS -- declines stranger orders firmly, lets mockery pass, composed
-edda_multi_burstOFF_008: PASS -- one curt reply to public mockery, proportionate and composed
-edda_multi_burstOFF_009: PASS -- warm to kindness, settled, nightly recovery, in command
-edda_multi_burstOFF_010: PASS -- calm castellan, ignores barb and order, sane rhythm
+edda_multi_burstOFF_001: PASS -- calm multi-day stretch, varied compliance, sane pacing
+edda_multi_burstOFF_002: PASS -- complaint then compliance across days, fits composed profile
+edda_multi_burstOFF_003: PASS -- quiet uneventful days, regular meals and rest, sane
+edda_multi_burstOFF_004: PASS -- varied stranger-order responses, sane multi-day rhythm
+edda_multi_burstOFF_005: PASS -- declines one order, otherwise settled and well-paced
+edda_multi_burstOFF_006: PASS -- mild complaint then compliance, composed through mockery
+edda_multi_burstOFF_007: PASS -- two mocks let pass, varied order responses, sane
+edda_multi_burstOFF_008: PASS -- curt reply to public mockery fits castellan, sane
+edda_multi_burstOFF_009: PASS -- dense afternoon kindnesses but not implausible, sane
+edda_multi_burstOFF_010: PASS -- quiet composed days, lets friction pass, sane

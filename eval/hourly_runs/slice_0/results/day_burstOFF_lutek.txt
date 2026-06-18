@@ -1,10 +1,10 @@
-lutek_day_burstOFF_001: PASS -- restless-occupy cycles, warm thanks, sleeps and recovers; coherent.
-lutek_day_burstOFF_002: PASS -- mockery rolls off, kindnesses warm him; sane pacing.
-lutek_day_burstOFF_003: PASS -- thick-skinned to mocks, warm to help; believable day.
-lutek_day_burstOFF_004: PASS -- restless novelty-seeking, mockery ignored; recovers after sleep.
-lutek_day_burstOFF_005: PASS -- boredom cycles, insults shrugged off; settled overnight.
-lutek_day_burstOFF_006: PASS -- warm to kindness, mockery unbothered; coherent rhythm.
-lutek_day_burstOFF_007: PASS -- restless seeking, calm acceptance; sleeps and wakes recovered.
-lutek_day_burstOFF_008: PASS -- mockery passes, kindnesses warm; believable settled day.
-lutek_day_burstOFF_009: PASS -- novelty-chasing cycles, warm thanks; sane day.
-lutek_day_burstOFF_010: PASS -- restless seeking, mockery shrugged; coherent pacing into night.
+lutek_day_burstOFF_001: PASS -- restless cycle, eats twice, mild late tension, sleeps fine
+lutek_day_burstOFF_002: PASS -- mocks ignored, kindness warmly met, stays busy, sleeps late but ok
+lutek_day_burstOFF_003: PASS -- sociable day, insults shrugged off, sleeps just past midnight
+lutek_day_burstOFF_004: PASS -- early meal, steady restless-to-settled rhythm, clean sleep
+lutek_day_burstOFF_005: PASS -- boredom cycles, mock ignored, light evening tension clears, sleeps
+lutek_day_burstOFF_006: PASS -- well-fed, sociable, mild evening tension resolves, sleeps on time
+lutek_day_burstOFF_007: PASS -- two meals, restless-work-rest pattern, brief late tension, sleeps
+lutek_day_burstOFF_008: PASS -- early warmth from Marta, mock ignored mid-day, calm close, sleeps
+lutek_day_burstOFF_009: PASS -- well-fed, two helpers, long settled stretches, clean sleep
+lutek_day_burstOFF_010: PASS -- brief tension at 18:00 resolves quickly, sleeps just after midnight

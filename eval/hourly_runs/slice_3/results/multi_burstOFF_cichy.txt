@@ -1,12 +1,10 @@
-All records reviewed. Each shows sane diurnal pacing, sleeps at night, wakes recovered, anger from guard provocations matching the resentful captive profile, calm soup acceptance, warm response to strangers. Nothing jars.
-
-cichy_multi_burstOFF_031: PASS -- sane pacing, anger from mockery, calm nights, recovers
-cichy_multi_burstOFF_032: PASS -- believable day cycle, provocations spark anger, rest restores
-cichy_multi_burstOFF_033: PASS -- coherent days, fury at mockery, nightly recovery
-cichy_multi_burstOFF_034: PASS -- sensible arc, repeated mockery escalates then sleep resets
-cichy_multi_burstOFF_035: PASS -- believable; soup-snap once but mood already elevated, plausible
-cichy_multi_burstOFF_036: PASS -- coherent multi-day, anger tracks provocations, recovers overnight
-cichy_multi_burstOFF_037: PASS -- sane pacing, guard mockery anger, restful calm nights
-cichy_multi_burstOFF_038: PASS -- six days coherent, provocation-driven fury, nightly reset holds
-cichy_multi_burstOFF_039: PASS -- believable, clustered mockery erupts, strangers warm, recovers
-cichy_multi_burstOFF_040: PASS -- sane diurnal arc, anger from guards, calm recovery
+cichy_multi_burstOFF_031: PASS -- sane pacing, anger follows provocation, sleeps normally
+cichy_multi_burstOFF_032: PASS -- rain day mild, stranger warmth natural, days coherent
+cichy_multi_burstOFF_033: PASS -- morning tension without provocation fits captive profile
+cichy_multi_burstOFF_034: PASS -- three evening eruptions each provoked, heavy but plausible
+cichy_multi_burstOFF_035: PASS -- snaps at soup when tense, sane escalation and recovery
+cichy_multi_burstOFF_036: PASS -- lets first mock pass, second breaks him; midnight sleep quirky but minor
+cichy_multi_burstOFF_037: PASS -- anger builds across day, erupts late; recovery by morning
+cichy_multi_burstOFF_038: PASS -- three consecutive eruptions each a fresh mock on primed prisoner
+cichy_multi_burstOFF_039: PASS -- back-to-back furious eruptions 4 min apart slightly mechanical but fits hair-trigger
+cichy_multi_burstOFF_040: PASS -- two eruptions day 1, quieter days follow, coherent arc

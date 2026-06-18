@@ -1,10 +1,10 @@
-edda_day_burstON_081: PASS -- calm day, fed thrice, authority at end, sleeps well
-edda_day_burstON_082: PASS -- absorbs two provocations without reaction, consistent composure
-edda_day_burstON_083: PASS -- early order obeyed quietly, even keel throughout, sane pacing
-edda_day_burstON_084: PASS -- mock and order both let pass, warmth to kindness, normal day
-edda_day_burstON_085: PASS -- generous kindnesses received, mock ignored, well-fed, no jarring notes
-edda_day_burstON_086: PASS -- positive day, order dismissed, remark at night let pass, settled
-edda_day_burstON_087: PASS -- curt reply to mock after two soups, proportionate and credible
-edda_day_burstON_088: PASS -- two soups back-to-back early, minor oddity but no behavioral jarring
-edda_day_burstON_089: PASS -- heavy kindness cluster, order dismissed calmly, composed throughout
-edda_day_burstON_090: PASS -- brief tension at 14:02 after mock, resolves by 16:00, believable
+edda_day_burstON_081: PASS -- calm day, regular meals, commands watch at end
+edda_day_burstON_082: PASS -- absorbs orders and mockery without fuss, fits composed castellan
+edda_day_burstON_083: PASS -- early compliance with stranger order, settled day throughout
+edda_day_burstON_084: PASS -- mockery let pass, kindnesses welcomed, sane pacing
+edda_day_burstON_085: PASS -- well-supported day, mockery absorbed, no jarring moments
+edda_day_burstON_086: PASS -- busy morning with Marta, mockery dismissed, ends composed
+edda_day_burstON_087: PASS -- mild curtness after mockery is believable, recovers quickly
+edda_day_burstON_088: PASS -- two soups close together minor oddity, otherwise sane
+edda_day_burstON_089: PASS -- many kindnesses, no tension spikes, pacing believable
+edda_day_burstON_090: PASS -- brief edge at 14:02 after mockery, resolves by 16:00

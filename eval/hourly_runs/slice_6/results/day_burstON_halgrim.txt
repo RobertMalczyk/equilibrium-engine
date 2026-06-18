@@ -1,10 +1,10 @@
-halgrim_day_burstON_061: PASS -- calm steady day, warm to kindness, lets mockery pass
-halgrim_day_burstON_062: PASS -- even keel, only mild curtness to repeated mockery
-halgrim_day_burstON_063: PASS -- builds tension, cold curtness and refusal to Wojslaw, recovers
-halgrim_day_burstON_064: PASS -- cold contempt to mockery only, otherwise steady, recovers overnight
-halgrim_day_burstON_065: PASS -- placid day, warm thanks, mockery shrugged off
-halgrim_day_burstON_066: PASS -- calm throughout, warm responses, mockery let pass
-halgrim_day_burstON_067: PASS -- steady, refuses Wojslaw order at night, otherwise composed
-halgrim_day_burstON_068: PASS -- mild curtness under pressure, never raised, recovers
-halgrim_day_burstON_069: PASS -- entirely calm, obeys Edda, warm to Marta
-halgrim_day_burstON_070: PASS -- placid warm day, mockery shrugged off, sleeps recovered
+halgrim_day_burstON_061: PASS -- quiet settled day, profile fits throughout
+halgrim_day_burstON_062: PASS -- two barbs, minimal escalation, character-consistent
+halgrim_day_burstON_063: PASS -- accumulating Wojslaw friction, Edda compliance intact
+halgrim_day_burstON_064: PASS -- single provocation, cold contempt, recovery by evening
+halgrim_day_burstON_065: PASS -- uneventful, both Wojslaw barbs ignored, sane pacing
+halgrim_day_burstON_066: PASS -- calm day, late public mock ignored, settled throughout
+halgrim_day_burstON_067: PASS -- late-night Wojslaw order refused post-rest, believable
+halgrim_day_burstON_068: PASS -- irritation spills to Edda order, minor but plausible
+halgrim_day_burstON_069: PASS -- peaceful, three Edda compliances, no friction
+halgrim_day_burstON_070: PASS -- very warm day, Marta generous, one jab ignored

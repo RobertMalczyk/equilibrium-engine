@@ -1,10 +1,10 @@
-halgrim_multi_burstON_051: PASS -- calm, mild provoked curtness, sleeps and recovers
-halgrim_multi_burstON_052: PASS -- steady, escalates only under repeated Wojslaw mockery
-halgrim_multi_burstON_053: PASS -- rain plus provocation drives cold contempt, recovers
-halgrim_multi_burstON_054: FLAG -- cold contempt at Marta bringing soup (kindness)
-halgrim_multi_burstON_055: PASS -- calm and warm throughout, well-paced
-halgrim_multi_burstON_056: FLAG -- cold contempt at Marta's soup kindness
-halgrim_multi_burstON_057: PASS -- provoked tension, settles by next day
-halgrim_multi_burstON_058: PASS -- warm baseline, escalates under heavy Wojslaw goading
-halgrim_multi_burstON_059: PASS -- calm, warm, sane pacing across days
-halgrim_multi_burstON_060: FLAG -- curt/cold reply to Marta's soup kindness
+halgrim_multi_burstON_051: PASS -- steady six days, friction absorbed, mornings reset cleanly
+halgrim_multi_burstON_052: PASS -- Wojsław friction builds to cold contempt believably by Day 3
+halgrim_multi_burstON_053: PASS -- rain plus multi-day wear justifies sustained edge through Day 5
+halgrim_multi_burstON_054: FLAG -- Day 4 cold contempt aimed at Marta for bringing soup, off-character
+halgrim_multi_burstON_055: PASS -- calm positive stretch, Wojsław absorbed, nothing jars
+halgrim_multi_burstON_056: FLAG -- Day 6 cold contempt at Marta bringing soup, displaced wrongly
+halgrim_multi_burstON_057: PASS -- rain day triggers tension, recovers fully; clean three-day arc
+halgrim_multi_burstON_058: PASS -- rain then positive stretch, late Wojsław buildup plausible
+halgrim_multi_burstON_059: PASS -- four settled days, Wojsław refused without drama, fits profile
+halgrim_multi_burstON_060: FLAG -- Day 2 Marta soup met curtly and coldly, displacing onto wrong target

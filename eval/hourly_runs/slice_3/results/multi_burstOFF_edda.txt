@@ -1,12 +1,10 @@
-All records read. Each shows sane pacing: sleeps at night, wakes recovered, kind acts met with warmth, orders/mocks handled with composure (lets pass, declines, mild complaint) fitting an authoritative castellan. Nothing absurd.
-
-edda_multi_burstOFF_031: PASS -- calm, composed, sane daily rhythm; nothing jars.
-edda_multi_burstOFF_032: PASS -- steady composure, believable pacing, authority intact.
-edda_multi_burstOFF_033: PASS -- refuses strangers' orders, warm to kindness; consistent.
-edda_multi_burstOFF_034: PASS -- mild complaints at orders, otherwise composed; sane.
-edda_multi_burstOFF_035: PASS -- calm, well-paced, fitting command and composure.
-edda_multi_burstOFF_036: PASS -- six days steady, recovers nightly, nothing jars.
-edda_multi_burstOFF_037: PASS -- composed, believable spans, authority and reserve intact.
-edda_multi_burstOFF_038: PASS -- soup-heavy but sane; calm composure throughout.
-edda_multi_burstOFF_039: PASS -- mild complaints, warmth, steady command; coherent.
-edda_multi_burstOFF_040: PASS -- six days, sane rhythm, declines orders, composed.
+edda_multi_burstOFF_031: PASS -- settled days, normal rhythm, authority exercised appropriately
+edda_multi_burstOFF_032: PASS -- calm across five days, stranger compliance fits range
+edda_multi_burstOFF_033: PASS -- two refusals of stranger orders fit her authority posture
+edda_multi_burstOFF_034: FLAG -- mutters complaint at stranger orders; jarring for composed castellan
+edda_multi_burstOFF_035: PASS -- minor soup clustering, otherwise sane and consistent
+edda_multi_burstOFF_036: PASS -- six steady days, authority and composure sustained throughout
+edda_multi_burstOFF_037: PASS -- mixed reactions to stranger orders coherent, rhythm sane
+edda_multi_burstOFF_038: PASS -- high soup frequency Day 1 is artifact-level, not absurd
+edda_multi_burstOFF_039: PASS -- Day 5 irritability brief and recovers quickly, within range
+edda_multi_burstOFF_040: PASS -- dense Day 4 kindnesses are clustering artifact, not a character break

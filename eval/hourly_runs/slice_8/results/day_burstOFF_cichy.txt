@@ -1,10 +1,10 @@
-cichy_day_burstOFF_081: PASS -- calm day, guard curtness and stranger warmth both fit
-cichy_day_burstOFF_082: PASS -- quiet uneventful day, sane pacing throughout
-cichy_day_burstOFF_083: PASS -- escalation to fury under mockery when already tense, believable
-cichy_day_burstOFF_084: PASS -- repeated mockery drives two eruptions, proportionate responses
-cichy_day_burstOFF_085: PASS -- low-incident day, mild tension arc, sane
-cichy_day_burstOFF_086: PASS -- snaps at mock, lets later soup pass; anger dissipated naturally
-cichy_day_burstOFF_087: PASS -- morning and afternoon eruptions under provocation, clean recovery
-cichy_day_burstOFF_088: PASS -- stranger warmth then guard eruption, believable contrast
-cichy_day_burstOFF_089: PASS -- morning fury despite prior kindness; guard resentment dominates
-cichy_day_burstOFF_090: PASS -- unusually mild but no contradictions; low-provocation day
+cichy_day_burstOFF_081: PASS -- calm day, curt to guards, warm to strangers, sane arc
+cichy_day_burstOFF_082: PASS -- quiet uneventful day, no jarring beats
+cichy_day_burstOFF_083: PASS -- tension builds through day, erupts under provocation, resets overnight
+cichy_day_burstOFF_084: PASS -- repeated mocks produce escalating anger, credible arc
+cichy_day_burstOFF_085: PASS -- brooding tense day, no outburst without provocation
+cichy_day_burstOFF_086: PASS -- settled-then-snap same minute slightly odd but within margin
+cichy_day_burstOFF_087: PASS -- kindness then guard mock, clean escalation and recovery
+cichy_day_burstOFF_088: PASS -- evening eruption after accumulated tension, plausible
+cichy_day_burstOFF_089: PASS -- early eruption at first provocation, hair-trigger captive fits profile
+cichy_day_burstOFF_090: PASS -- restrained day, low anger keeps responses mild

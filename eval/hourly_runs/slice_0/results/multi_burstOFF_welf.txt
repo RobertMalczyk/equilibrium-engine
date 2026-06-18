@@ -1,10 +1,10 @@
-welf_multi_burstOFF_001: PASS -- calm, occupies idle hours, sleeps/wakes well, ignores mockery
-welf_multi_burstOFF_002: PASS -- composed, restless-then-busy cycle, recovers nightly, shrugs off barb
-welf_multi_burstOFF_003: PASS -- even-keeled, sane boredom/rest rhythm, warm to kindness
-welf_multi_burstOFF_004: PASS -- steady pacing, lets mockery pass, sleeps and recovers
-welf_multi_burstOFF_005: PASS -- calm through rain and idleness, believable daily cycle
-welf_multi_burstOFF_006: PASS -- composed, occupies empty hours, no jarring reactions
-welf_multi_burstOFF_007: PASS -- consistent calm over five days, sane sleep/wake drift
-welf_multi_burstOFF_008: PASS -- six days steady, shrugs off repeated barbs, recovers nightly
-welf_multi_burstOFF_009: PASS -- even-tempered, handles soup/rain/mockery, believable rhythm
-welf_multi_burstOFF_010: PASS -- calm throughout, sane boredom cycle, lets barbs pass
+welf_multi_burstOFF_001: PASS -- settled composed man, boredom cycles and soup warmth believable
+welf_multi_burstOFF_002: PASS -- muted kindness response while tense plausible for composed Welf
+welf_multi_burstOFF_003: PASS -- well-fed calm days, no tension spikes, sane pacing throughout
+welf_multi_burstOFF_004: PASS -- late-night tension from boredom, recovers well each morning
+welf_multi_burstOFF_005: PASS -- rain day absorbed without complaint, regular restless-settle rhythm
+welf_multi_burstOFF_006: PASS -- unusually settled days plausible after good rest, no jarring beats
+welf_multi_burstOFF_007: PASS -- late sleep one night but short gap not absurd, sane 5-day arc
+welf_multi_burstOFF_008: PASS -- two mocks both let pass, dense kindnesses mechanical but not jarring
+welf_multi_burstOFF_009: PASS -- two mocks day 1 both absorbed, boredom tension late nights consistent
+welf_multi_burstOFF_010: FLAG -- day 2 soup received with no reaction despite settled mood

@@ -1,10 +1,10 @@
-halgrim_day_burstON_031: PASS -- calm baseline, cold curtness to Wojsław, sleeps and wakes recovered.
-halgrim_day_burstON_032: PASS -- even keel all day, warm to kindness, normal sleep.
-halgrim_day_burstON_033: PASS -- lets provocations pass calmly, settled throughout, sane pacing.
-halgrim_day_burstON_034: PASS -- curt to mockery, mild tension after, recovers overnight.
-halgrim_day_burstON_035: PASS -- declines arrogant orders, cold curtness, brief tension, calm again.
-halgrim_day_burstON_036: PASS -- steady day, refuses Wojsław's late orders, sleeps normally.
-halgrim_day_burstON_037: PASS -- obeys Edda, refuses Wojsław, curt then tense, recovers.
-halgrim_day_burstON_038: PASS -- calm, curt to mockery, brief edge, settles and sleeps.
-halgrim_day_burstON_039: PASS -- warm to Marta, cold contempt to Wojsław, settled throughout.
-halgrim_day_burstON_040: PASS -- uneventful calm day, warm to kindness, normal rest.
+halgrim_day_burstON_031: PASS -- calm veteran, curtness fits Wojslaw provocation, sane pacing
+halgrim_day_burstON_032: PASS -- quiet settled day, no provocations, appropriate warmth to Marta
+halgrim_day_burstON_033: PASS -- lets single Wojslaw barb pass, fits iron self-control profile
+halgrim_day_burstON_034: PASS -- tension lingers after evening mockery, clears by morning
+halgrim_day_burstON_035: PASS -- declines Wojslaw order, cold response to mockery, sane arc
+halgrim_day_burstON_036: PASS -- grumbles under repeated late orders; mild, fits worn patience
+halgrim_day_burstON_037: PASS -- accumulated Wojslaw friction shows as edge by evening, resets
+halgrim_day_burstON_038: PASS -- cold contempt after repeated mockery, Marta eases tension
+halgrim_day_burstON_039: PASS -- warm day, cold contempt for late Wojslaw barb, sane contrast
+halgrim_day_burstON_040: PASS -- uneventful settled day, Edda orders absorbed without friction

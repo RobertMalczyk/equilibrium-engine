@@ -1,14 +1,10 @@
-Now I have all 10 records. Judging each on sane pacing and consistency with a reactive, easily-bored, thin-skinned young recruit.
-
-Key checks: sleeps at night, wakes recovered, restless/boredom loop, soup well-received, outbursts only after provocation accumulation. Note record 007 day3: "Marta brings soup. He erupts, shouting in fury" — erupting at a kindness from Marta. That's displaced aggression after rain+accumulation, borderline but explainable. Record 009 day1: "Marta lends a hand... He erupts, shouting in fury" at 21:09 — erupting at Marta's kindness with little prior provocation that day (only rain + wound-tight). Borderline. Record 006 day4: "Halgrim lends a hand... He flares up and snaps angrily" then mocks→erupts — flaring at a kindness. These displaced-aggression-at-kindness cases are the most jarring.
-
-branic_multi_burstON_001: PASS -- calm, settled, bored loop; no provocation, no rage.
-branic_multi_burstON_002: PASS -- single eruption after mock, recovers overnight; sane.
-branic_multi_burstON_003: PASS -- escalating refusals after mockery, defiance plausible.
-branic_multi_burstON_004: PASS -- eruptions follow mocks/orders, nights reset; sane.
-branic_multi_burstON_005: PASS -- mostly calm, obeys orders, no unmotivated rage.
-branic_multi_burstON_006: FLAG -- flares at Halgrim's KINDNESS (09:04, 20:05) — jars.
-branic_multi_burstON_007: FLAG -- erupts in fury at Marta's soup (Day3 07:54).
-branic_multi_burstON_008: PASS -- snaps after mocks, recovers nightly; plausible.
-branic_multi_burstON_009: FLAG -- erupts in fury at Marta's kindness (Day1 21:09).
-branic_multi_burstON_010: PASS -- heavy defiance after repeated mocks; recovers, sane.
+branic_multi_burstON_001: PASS -- calm stretch, restless cycles, no burst conditions met
+branic_multi_burstON_002: PASS -- evening burst after rain and tension, clean recovery
+branic_multi_burstON_003: PASS -- burst day 3, rain+refusals day 4, displacement day 6
+branic_multi_burstON_004: PASS -- escalating bursts over 3 days, settles each morning
+branic_multi_burstON_005: PASS -- no burst; heavy day 1, calm positive days 2-4
+branic_multi_burstON_006: PASS -- burst day 1 night, elevated reactivity and refusals days 2-4
+branic_multi_burstON_007: PASS -- displaced burst onto Marta during rain after accumulated stress
+branic_multi_burstON_008: PASS -- burst day 1, recovery day 4, re-escalation day 5
+branic_multi_burstON_009: PASS -- displaced burst onto Marta's kindness after wound-tight evening
+branic_multi_burstON_010: PASS -- day 3 multi-provocation burst, slow multi-day tail of refusals

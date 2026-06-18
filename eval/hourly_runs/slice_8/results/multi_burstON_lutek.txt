@@ -1,10 +1,10 @@
-lutek_multi_burstON_081: PASS -- restless cycle steady, mockery rolls off, pacing sane
-lutek_multi_burstON_082: PASS -- late night Day 1 plausible, evening tension resolves cleanly
-lutek_multi_burstON_083: PASS -- stranger kindness ignored once while tense, minor, acceptable
-lutek_multi_burstON_084: PASS -- morning tension without trigger, recovers well, sane arc
-lutek_multi_burstON_085: PASS -- two muted soup responses when sated, minor, within range
-lutek_multi_burstON_086: PASS -- curt reply to mock under sustained tension, burst-on expected
-lutek_multi_burstON_087: PASS -- repeated morning tension patterns, resolves each day cleanly
-lutek_multi_burstON_088: PASS -- multi-day morning tension on waking, food/kindness recovers it
-lutek_multi_burstON_089: PASS -- curt reply under tension fits thick-skinned man at his limit
-lutek_multi_burstON_090: PASS -- smooth arc, tension appears and resolves, nothing jars
+lutek_multi_burstON_081: PASS -- sane rhythm, mocks ignored, tense resolves overnight
+lutek_multi_burstON_082: PASS -- late-evening tension plausible, wakes recovered, profile consistent
+lutek_multi_burstON_083: PASS -- morning tension after late work, stranger kindness flat once, acceptable
+lutek_multi_burstON_084: PASS -- morning tension pattern, mocks ignored, clean arc
+lutek_multi_burstON_085: PASS -- two flat soup responses minor oddity, not a contradiction
+lutek_multi_burstON_086: PASS -- curt reply under accumulated evening tension, mild and rare
+lutek_multi_burstON_087: PASS -- morning tense pattern, one flat soup response, no outbursts
+lutek_multi_burstON_088: PASS -- recurring morning tension, kindness flat once when tense, sane
+lutek_multi_burstON_089: PASS -- curt reply under tension consistent with prior record pattern
+lutek_multi_burstON_090: PASS -- smooth, mocks ignored, active seeker, sane day-night cycle

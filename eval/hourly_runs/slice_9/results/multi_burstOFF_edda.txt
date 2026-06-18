@@ -1,10 +1,10 @@
-edda_multi_burstOFF_091: PASS -- calm castellan, regular meals, normal sleep/wake cycle
-edda_multi_burstOFF_092: PASS -- composed throughout, plausible variable compliance with orders
-edda_multi_burstOFF_093: PASS -- two rests in quick succession minor, overall sane pacing
-edda_multi_burstOFF_094: PASS -- clustered soup deliveries are world artifact, behavior coherent
-edda_multi_burstOFF_095: PASS -- curt reply to barb then firmer refusals, plausible escalation
-edda_multi_burstOFF_096: PASS -- kindness saturation on day 1 odd but no character contradiction
-edda_multi_burstOFF_097: PASS -- patient composure under repeated orders fits profile well
-edda_multi_burstOFF_098: PASS -- dense early morning events, behavior stays composed and sane
-edda_multi_burstOFF_099: PASS -- quiet days, minimal friction, settled castellan baseline
-edda_multi_burstOFF_100: PASS -- sparse day 3 believable, mocking let pass fits composed authority
+edda_multi_burstOFF_091: PASS -- settled, composed, proportionate curt reply to late barb
+edda_multi_burstOFF_092: PASS -- dense soup/kindness days but pacing sane, no absurdities
+edda_multi_burstOFF_093: FLAG -- castellan complies with stranger orders three times across days
+edda_multi_burstOFF_094: FLAG -- three soups in sixteen minutes Day 4 implausibly dense
+edda_multi_burstOFF_095: PASS -- mocked and curt, declines stranger order; fits profile
+edda_multi_burstOFF_096: PASS -- flat spot on Marta kindness minor; overall settled and firm
+edda_multi_burstOFF_097: PASS -- lets stranger orders pass throughout; sane pacing
+edda_multi_burstOFF_098: PASS -- two stranger-order compliances noted but stable overall
+edda_multi_burstOFF_099: PASS -- sparse, clean, composed throughout all three days
+edda_multi_burstOFF_100: PASS -- composed under mockery, well-structured across four days

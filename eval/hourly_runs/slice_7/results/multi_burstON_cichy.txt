@@ -1,10 +1,10 @@
-cichy_multi_burstON_071: PASS -- calm mornings, tension builds, single snap fits profile
-cichy_multi_burstON_072: PASS -- rainy day stays tense, recovers overnight, sane
-cichy_multi_burstON_073: PASS -- rain plus prior tension earns the morning outburst
-cichy_multi_burstON_074: PASS -- multiple mocks, curt replies only, recovers nightly
-cichy_multi_burstON_075: PASS -- outbursts spread across provocations over five days
-cichy_multi_burstON_076: PASS -- quiet record, curt replies, no outbursts, sane
-cichy_multi_burstON_077: PASS -- public mockery triggers eruption, sustained harassment fits
-cichy_multi_burstON_078: PASS -- two outbursts under sustained harassment, sane pacing
-cichy_multi_burstON_079: PASS -- late-night and rainy-morning outbursts, plausible for captive
-cichy_multi_burstON_080: PASS -- two outbursts on high-harassment day, recovers each morning
+cichy_multi_burstON_071: PASS -- sane pacing, tension rises and falls, sleep resets
+cichy_multi_burstON_072: PASS -- rain day sustained tension, recovers next day, consistent
+cichy_multi_burstON_073: PASS -- eruption after mockery while already worn down, credible
+cichy_multi_burstON_074: PASS -- repeated mockings absorbed curtly, no unearned fury
+cichy_multi_burstON_075: PASS -- Day 1 escalating provocations lead to eruption believably
+cichy_multi_burstON_076: PASS -- quiet days, curtness without eruption, profile consistent
+cichy_multi_burstON_077: PASS -- public mockery triggers eruption, de-escalates appropriately
+cichy_multi_burstON_078: PASS -- eruptions preceded by clear buildup, pattern coherent
+cichy_multi_burstON_079: PASS -- late-night provocations odd but guards are relentless
+cichy_multi_burstON_080: PASS -- six days of grinding pressure, double eruptions on Day 6 earned

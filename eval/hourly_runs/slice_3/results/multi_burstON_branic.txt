@@ -1,23 +1,10 @@
-All 10 records read. Judging each on its own.
-
-branic_multi_burstON_031: PASS -- calm, restless/settle cycles, sleeps, recovers; no jarring anger.
-branic_multi_burstON_032: PASS -- mockery escalates to fury, defiance, resets nightly; believable.
-branic_multi_burstON_033: PASS -- heavy refusal/anger streak but provoked, sleeps and recovers.
-branic_multi_burstON_034: FLAG -- Day5 erupts in fury at Halgrim's kindness (07:46).
-branic_multi_burstON_035: PASS -- one fury at soup is odd but isolated; otherwise sane.
-branic_multi_burstON_036: PASS -- mostly compliant, mild bristling under provocation, recovers nightly.
-branic_multi_burstON_037: PASS -- restless cycles, provoked snaps, rain tension, nightly reset.
-branic_multi_burstON_038: PASS -- compliant with occasional snaps at mockery; sane pacing.
-branic_multi_burstON_039: PASS -- largely obedient, one snap at mockery, recovers; believable.
-branic_multi_burstON_040: PASS -- calm and compliant, one provoked snap, nightly recovery.
-
-branic_multi_burstON_031: PASS -- calm restless/settle cycles, sleeps, wakes recovered
-branic_multi_burstON_032: PASS -- provoked escalation to fury, resets nightly
-branic_multi_burstON_033: PASS -- heavy but provoked defiance, recovers each night
-branic_multi_burstON_034: FLAG -- Day5 erupts in fury at Halgrim's kindness
-branic_multi_burstON_035: PASS -- isolated fury at soup, otherwise sane pacing
-branic_multi_burstON_036: PASS -- mild bristling under provocation, nightly recovery
-branic_multi_burstON_037: PASS -- provoked snaps, rain tension, nightly reset
-branic_multi_burstON_038: PASS -- snaps at mockery, otherwise compliant, sane
-branic_multi_burstON_039: PASS -- mostly obedient, one provoked snap, recovers
-branic_multi_burstON_040: PASS -- calm, compliant, one provoked snap, recovers
+branic_multi_burstON_031: PASS -- calm 3-day stretch, sane pacing, sleeps well
+branic_multi_burstON_032: PASS -- escalating Halgrim friction over 6 days, burst plausible
+branic_multi_burstON_033: PASS -- multi-day refusal buildup after sustained Halgrim pressure
+branic_multi_burstON_034: FLAG -- erupts in fury at Halgrim's kindness, trigger jars
+branic_multi_burstON_035: PASS -- late-evening burst on Marta fits displaced aggression pattern
+branic_multi_burstON_036: PASS -- measured escalation, bristles and snaps, no absurdities
+branic_multi_burstON_037: PASS -- Day 1 outburst at public mock, thin-skinned profile fits
+branic_multi_burstON_038: PASS -- clean 4-day arc, snaps when tense, recovers overnight
+branic_multi_burstON_039: PASS -- steady arc, complies when calm, snaps when tired and mocked
+branic_multi_burstON_040: PASS -- normal restlessness cycles, wound tight Day 3, settles after

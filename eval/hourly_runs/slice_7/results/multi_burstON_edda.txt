@@ -1,10 +1,10 @@
-edda_multi_burstON_071: PASS -- calm authority, regular rhythms, nothing jars
-edda_multi_burstON_072: PASS -- varied incidents handled composedly, sane pacing
-edda_multi_burstON_073: PASS -- heavy positive days, mocks absorbed, fits profile
-edda_multi_burstON_074: PASS -- mild irritation builds then recovers, believable arc
-edda_multi_burstON_075: PASS -- composed throughout, orders and mocks let pass cleanly
-edda_multi_burstON_076: PASS -- escalating refusals fit castellan resisting stranger authority
-edda_multi_burstON_077: PASS -- quiet steady days, no friction, sane
-edda_multi_burstON_078: PASS -- occasional compliance and mocks absorbed, fits composed lead
-edda_multi_burstON_079: PASS -- one mutter then settled, sane multi-day arc
-edda_multi_burstON_080: PASS -- busy day one with kindnesses, calm thereafter, sane
+edda_multi_burstON_071: PASS -- calm steady days, authority exercised, sleeps well
+edda_multi_burstON_072: PASS -- regular cycle, declines stranger orders, warmth intact
+edda_multi_burstON_073: PASS -- very warm run, mocks pass without reaction, stable
+edda_multi_burstON_074: PASS -- gradual friction arc Day 3, curt then warmth returns
+edda_multi_burstON_075: PASS -- settled throughout, lets provocations pass, composed
+edda_multi_burstON_076: PASS -- afternoon refusal cluster under repeated stranger pressure
+edda_multi_burstON_077: PASS -- calm four days, well-fed, authority at regular intervals
+edda_multi_burstON_078: PASS -- compliant then dismissive variation across days, believable
+edda_multi_burstON_079: PASS -- morning grumble, recovers composure, sane arc
+edda_multi_burstON_080: PASS -- kindness-rich Day 1, quieter later, warmth consistent

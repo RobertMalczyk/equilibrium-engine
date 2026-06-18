@@ -1,10 +1,10 @@
-edda_multi_burstON_011: PASS -- calm, composed, warm to kindness; sane sleep cycle
-edda_multi_burstON_012: PASS -- mild escalation to provocation by day 6, recovers nightly
-edda_multi_burstON_013: PASS -- composed authority, declines orders, warm otherwise
-edda_multi_burstON_014: PASS -- settled days, sensible meals and rest, sleeps well
-edda_multi_burstON_015: PASS -- firm with strangers' orders, warm to staff, sane pacing
-edda_multi_burstON_016: PASS -- consistently composed, warm, good day/night rhythm
-edda_multi_burstON_017: PASS -- refuses strangers' orders firmly, otherwise settled and warm
-edda_multi_burstON_018: PASS -- mostly settled, brief edge day 4, recovers overnight
-edda_multi_burstON_019: PASS -- curt to mockery, refuses orders, resets each night
-edda_multi_burstON_020: PASS -- calm composed castellan, sensible rhythm throughout
+edda_multi_burstON_011: PASS -- calm settled days, regular sleep, sane pacing
+edda_multi_burstON_012: PASS -- irritant buildup on day 5-6 earns escalation plausibly
+edda_multi_burstON_013: PASS -- very positive days, authority firm but warm throughout
+edda_multi_burstON_014: PASS -- mild provocations met calmly, clean sane record
+edda_multi_burstON_015: PASS -- variable compliance with strangers orders is believable
+edda_multi_burstON_016: PASS -- uniformly calm, many kindnesses, consistent with profile
+edda_multi_burstON_017: PASS -- day 4 defiant refusal early without buildup slightly thin
+edda_multi_burstON_018: PASS -- mild tension day 4 evening, resolves overnight cleanly
+edda_multi_burstON_019: PASS -- two consecutive refusals within 2 min minor artifact
+edda_multi_burstON_020: PASS -- calm throughout, lean day 5 food gap unremarkable

@@ -1,10 +1,10 @@
-edda_multi_burstOFF_051: PASS -- sane pacing, composed, lets mockery pass
-edda_multi_burstOFF_052: PASS -- settled, sleeps nightly, refuses strangers' orders fittingly
-edda_multi_burstOFF_053: PASS -- calm, warm to kindness, composed under barbs
-edda_multi_burstOFF_054: PASS -- believable spans, recovers overnight, reserved authority
-edda_multi_burstOFF_055: PASS -- settled days, gracious thanks, nothing absurd
-edda_multi_burstOFF_056: PASS -- composed, mild grumble at stranger's order plausible
-edda_multi_burstOFF_057: PASS -- sane rhythm, declines orders, warm to help
-edda_multi_burstOFF_058: PASS -- refuses strangers, composed, sleeps and recovers
-edda_multi_burstOFF_059: PASS -- settled, declines unwanted orders, takes charge
-edda_multi_burstOFF_060: PASS -- calm reserved command, lets barbs pass
+edda_multi_burstOFF_051: PASS -- calm multi-day run, composed throughout, sane pacing
+edda_multi_burstOFF_052: PASS -- authority pushback and mild late-day grumble both fit
+edda_multi_burstOFF_053: PASS -- steady days, mocks absorbed without reaction, consistent
+edda_multi_burstOFF_054: PASS -- two close rest-sits day 1 minor, overall sane
+edda_multi_burstOFF_055: PASS -- day 3 dense social activity, pacing and sleep intact
+edda_multi_burstOFF_056: PASS -- grumble after second order in quick succession is plausible
+edda_multi_burstOFF_057: PASS -- many kindnesses days 3-4, stays composed, sleep regular
+edda_multi_burstOFF_058: PASS -- outright refusal of stranger's order fits castellan authority
+edda_multi_burstOFF_059: PASS -- brief rest-sit interruption odd but not jarring
+edda_multi_burstOFF_060: PASS -- quiet uneventful run, orders absorbed calmly, sane

@@ -1,12 +1,10 @@
-All records read. Record 030 has Welf snapping angrily at a stranger bringing soup (Day 2, 09:30) — contradicts the calm, even-keeled profile and is an unprovoked rage at a kindness.
-
-welf_multi_burstON_021: PASS -- sane restlessness/rest/sleep cycle, calm, lets mockery pass.
-welf_multi_burstON_022: PASS -- believable idleness-driven restlessness, recovers nightly, stays composed.
-welf_multi_burstON_023: PASS -- coherent 6-day cadence, calm under mockery and rain.
-welf_multi_burstON_024: PASS -- sane pacing, warm to kindness, unrattled by barbs.
-welf_multi_burstON_025: PASS -- believable rhythm; one neutral soup response, otherwise composed.
-welf_multi_burstON_026: PASS -- normal restless/settle cycle, sleeps and recovers, stays calm.
-welf_multi_burstON_027: PASS -- coherent days, idleness restlessness, composed throughout.
-welf_multi_burstON_028: PASS -- sane sleep/wake cadence, warm and even-tempered.
-welf_multi_burstON_029: PASS -- believable pacing, lets mockery pass, calm in rain.
-welf_multi_burstON_030: FLAG -- snaps angrily at stranger offering soup; jars with calm profile.
+welf_multi_burstON_021: PASS -- steady rhythm, mocks ignored, sleep normal
+welf_multi_burstON_022: PASS -- even-keeled days, kindnesses received warmly
+welf_multi_burstON_023: PASS -- late-night sleep plausible, rain day settled
+welf_multi_burstON_024: PASS -- clustered kindnesses odd but response stays proportionate
+welf_multi_burstON_025: FLAG -- soup offering met with "lets it pass" like a mock
+welf_multi_burstON_026: FLAG -- soup offering met with "lets it pass" like a mock
+welf_multi_burstON_027: PASS -- normal rhythm across six days, recovers each morning
+welf_multi_burstON_028: PASS -- two soups close together unusual but response proportionate
+welf_multi_burstON_029: PASS -- late evening kindness cluster dense but no wrong reactions
+welf_multi_burstON_030: FLAG -- composed man snaps angrily at soup bearer contradicts profile

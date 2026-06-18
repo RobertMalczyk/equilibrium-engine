@@ -1,12 +1,10 @@
-All records show consistent, sane life patterns: restless-then-occupies cycles, soup, sleeps at night, wakes recovered, mockery rolls off. A few records have a single mildly-curt reply to mockery (026) which still fits a thick-skinned man. Records 029/030 show "lets it pass" to a kindness, minor oddity but harmless.
-
-lutek_multi_burstOFF_021: PASS -- sane cycles, sleeps nightly, mockery rolls off
-lutek_multi_burstOFF_022: PASS -- believable pacing, restful nights, thick-skinned
-lutek_multi_burstOFF_023: PASS -- novelty-seeking loops, calm, insults ignored
-lutek_multi_burstOFF_024: PASS -- normal rhythm, recovers overnight, easygoing
-lutek_multi_burstOFF_025: PASS -- sane days, mockery unbothered, sleeps well
-lutek_multi_burstOFF_026: PASS -- one curt reply, otherwise calm and thick-skinned
-lutek_multi_burstOFF_027: PASS -- believable cycles, restful nights, good-humoured
-lutek_multi_burstOFF_028: PASS -- sane pacing, recovers nightly, insults roll off
-lutek_multi_burstOFF_029: PASS -- normal life rhythm; odd flat response to kindness
-lutek_multi_burstOFF_030: PASS -- believable days, calm, mockery ignored
+lutek_multi_burstOFF_021: PASS -- sane pacing, mockery ignored, wakes settled each day
+lutek_multi_burstOFF_022: PASS -- late sleep day 1 harmless, good warmth pattern throughout
+lutek_multi_burstOFF_023: PASS -- late nights plausible, tension spikes resolve, mockery let pass
+lutek_multi_burstOFF_024: PASS -- early tension resolves after kindness, mockery ignored cleanly
+lutek_multi_burstOFF_025: PASS -- tense evenings resolve overnight, consistent seek-rest cycle
+lutek_multi_burstOFF_026: FLAG -- multiple kindnesses elicit zero warmth, jars for sociable man
+lutek_multi_burstOFF_027: PASS -- double soup minor, mockery ignored, tense spikes resolve
+lutek_multi_burstOFF_028: PASS -- morning tension pattern consistent, resolves with kindness/food
+lutek_multi_burstOFF_029: PASS -- flat soup response twice but not persistent enough to flag
+lutek_multi_burstOFF_030: PASS -- two flat soup responses mild, overall rhythm sane

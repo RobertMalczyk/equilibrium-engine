@@ -1,12 +1,10 @@
-All records show consistent sane patterns: night sleep with recovery, escalation to provocations (fury at mocks), curt/neutral toward soup, warmth to strangers, tense/settled cycling. Profile fit is good. Nothing absurd.
-
-cichy_multi_burstOFF_011: PASS -- Sane cycles; resents guards, fury at mocks, recovers nightly.
-cichy_multi_burstOFF_012: PASS -- Believable pacing; provocation-driven fury, warm to strangers.
-cichy_multi_burstOFF_013: PASS -- Calm baseline, sane escalation to mocks, nightly reset.
-cichy_multi_burstOFF_014: PASS -- Coherent days; tense under rain, fury at provocations.
-cichy_multi_burstOFF_015: PASS -- Many provocations but proportionate fury, recovers each night.
-cichy_multi_burstOFF_016: PASS -- Warm to strangers, fury at guards, sane rhythm.
-cichy_multi_burstOFF_017: PASS -- Heavy mocking clustered believably; settles between, sleeps nightly.
-cichy_multi_burstOFF_018: PASS -- Calm baseline, fury only at mocks, nightly recovery.
-cichy_multi_burstOFF_019: PASS -- Rain tension, provocation fury, warmth to strangers, sane reset.
-cichy_multi_burstOFF_020: PASS -- Believable arc; resents guards, fury at mocks, recovers.
+cichy_multi_burstOFF_011: PASS -- sane 6-day arc, provoked anger, rain and stranger reactions fit
+cichy_multi_burstOFF_012: PASS -- four eruptions Day 4 all guard-provoked, plausible for captive
+cichy_multi_burstOFF_013: PASS -- wakes tense Day 2 without fresh trigger, residual carry plausible
+cichy_multi_burstOFF_014: PASS -- late sleep Day 3 minor, rain escalation consistent
+cichy_multi_burstOFF_015: PASS -- late-night eruption 22:34 before sleep, guard-provoked, acceptable
+cichy_multi_burstOFF_016: PASS -- rain days raise reactivity, public humiliation cluster evening Day 3
+cichy_multi_burstOFF_017: PASS -- heavy Day 3 evening cluster all provoked, quieter Day 4 follows
+cichy_multi_burstOFF_018: PASS -- early morning tension Day 2 without trigger, residual carry plausible
+cichy_multi_burstOFF_019: PASS -- rain and mock accumulation drives reactivity, consistent arc
+cichy_multi_burstOFF_020: PASS -- clean 3-day arc, rain-day soup snap fits elevated tension

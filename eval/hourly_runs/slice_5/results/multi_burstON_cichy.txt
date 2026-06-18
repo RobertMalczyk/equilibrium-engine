@@ -1,10 +1,10 @@
-cichy_multi_burstON_051: PASS -- sane daily rhythm, cool to guards, recovers nightly
-cichy_multi_burstON_052: PASS -- believable pacing, bounded flares, warm to strangers
-cichy_multi_burstON_053: PASS -- coherent days, resentful to guards, anger settles
-cichy_multi_burstON_054: PASS -- normal cycle, curt with captors, sleeps and recovers
-cichy_multi_burstON_055: PASS -- sane spans, eruptions bounded, nightly reset intact
-cichy_multi_burstON_056: PASS -- believable rhythm, warmth to strangers, cool to guards
-cichy_multi_burstON_057: PASS -- coherent three days, curt responses, recovers overnight
-cichy_multi_burstON_058: PASS -- sane pacing, bounded fury, settles and sleeps
-cichy_multi_burstON_059: PASS -- normal days, resentful to captors, nightly recovery
-cichy_multi_burstON_060: PASS -- dense mock-cluster Day2 but bounded, resets overnight
+cichy_multi_burstON_051: PASS -- tension builds credibly across days, bursts on provocation
+cichy_multi_burstON_052: PASS -- morning burst plausible given multi-day accumulation
+cichy_multi_burstON_053: PASS -- rain-day stress explains earlier-than-usual eruptions
+cichy_multi_burstON_054: FLAG -- fury at 22:54 seconds after settled at ease at 22:04
+cichy_multi_burstON_055: FLAG -- settled at ease 22:16 then fury eruption at 22:40
+cichy_multi_burstON_056: PASS -- persistent Day 2 tension without incident is borderline but credible
+cichy_multi_burstON_057: PASS -- clean record, sane pacing, no outbursts warranted
+cichy_multi_burstON_058: PASS -- morning burst after two days of tension is within range
+cichy_multi_burstON_059: PASS -- sustained tension, cold responses, no eruptions, sane arc
+cichy_multi_burstON_060: FLAG -- two fury eruptions minutes apart Day 2, rapid re-escalation

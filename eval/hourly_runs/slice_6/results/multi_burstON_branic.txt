@@ -1,10 +1,10 @@
-branic_multi_burstON_061: PASS -- sane cycles, escalating defiance to Halgrim, nightly recovery
-branic_multi_burstON_062: PASS -- believable boredom/rest/sleep rhythm, proportionate flares
-branic_multi_burstON_063: FLAG -- erupts in fury at Halgrim's kindness (Day5 07:10)
-branic_multi_burstON_064: PASS -- calm compliant stretch, warm to soup, sane pacing
-branic_multi_burstON_065: PASS -- restless cycles, occasional flares, recovers overnight
-branic_multi_burstON_066: FLAG -- flares angrily at Halgrim's kindness (Day5 13:21)
-branic_multi_burstON_067: PASS -- bored/restless rhythm, proportionate eruptions, nightly reset
-branic_multi_burstON_068: PASS -- sane days, mounting temper at mockery, recovers
-branic_multi_burstON_069: PASS -- believable pacing, rain endured, defiance builds plausibly
-branic_multi_burstON_070: PASS -- warm to kindness, sane boredom cycles, nightly recovery
+branic_multi_burstON_061: PASS -- escalation under rain and sustained mockery coherent
+branic_multi_burstON_062: PASS -- gradual buildup to late-night eruption, sleep resets well
+branic_multi_burstON_063: PASS -- kindness-triggers-fury borderline but displaced aggression fits
+branic_multi_burstON_064: PASS -- benign compliant stretch, pacing and recovery sane
+branic_multi_burstON_065: PASS -- repeated morning mocks escalate believably, calm recovery
+branic_multi_burstON_066: PASS -- three evening eruptions under sustained baiting, burst pattern
+branic_multi_burstON_067: PASS -- calm days punctuated by single justified outburst, credible
+branic_multi_burstON_068: PASS -- Day 5 dual eruptions earned by long Halgrim mockery chain
+branic_multi_burstON_069: PASS -- rain day tense, Day 2 full reset, Day 3 clean escalation
+branic_multi_burstON_070: PASS -- kindness-heavy days absorb mockery, calm plausible finish

@@ -1,10 +1,10 @@
-welf_day_burstOFF_021: PASS -- calm, occupied, restful nights, warm to kindnesses
-welf_day_burstOFF_022: PASS -- restlessness rises and eases, brief edge believable
-welf_day_burstOFF_023: PASS -- sane cycle of boredom, occupation, rest
-welf_day_burstOFF_024: PASS -- lets mockery pass, fitting his composed nature
-welf_day_burstOFF_025: PASS -- believable boredom-rest rhythm, mild evening tension
-welf_day_burstOFF_026: PASS -- steady day, warm to help, sleeps well
-welf_day_burstOFF_027: PASS -- even-keeled, restlessness and rest in balance
-welf_day_burstOFF_028: PASS -- normal pacing, mild edge, recovers overnight
-welf_day_burstOFF_029: PASS -- shrugs off mockery, otherwise calm and occupied
-welf_day_burstOFF_030: PASS -- composed throughout, warm responses, sound night
+welf_day_burstOFF_021: PASS -- steady cycle, boredom/rest/kindness rhythm believable
+welf_day_burstOFF_022: PASS -- tense edge at 18:03 resolves; late restlessness fits
+welf_day_burstOFF_023: PASS -- mild tension before sleep, no aggression, sane pacing
+welf_day_burstOFF_024: PASS -- brushes off mockery as expected; calm throughout
+welf_day_burstOFF_025: PASS -- slight edge late evening, recovers; consistent with profile
+welf_day_burstOFF_026: PASS -- multiple kindnesses land warmly; rests and stirs naturally
+welf_day_burstOFF_027: PASS -- tension near midnight eased by kindness; sleeps settled
+welf_day_burstOFF_028: PASS -- tension mid-evening, resolves cleanly; pacing sane
+welf_day_burstOFF_029: PASS -- mock brushed off early, no carry-over; calm day
+welf_day_burstOFF_030: PASS -- well-fed, even-keeled day; sleeps just after kindness

@@ -1,10 +1,10 @@
-cichy_multi_burstOFF_051: PASS -- sane pacing; calm baseline, mocks anger, soup ignored
-cichy_multi_burstOFF_052: PASS -- believable rhythm; recovers nightly, resentment fits profile
-cichy_multi_burstOFF_053: PASS -- sane days; provocations flare, kindness warms, calm baseline
-cichy_multi_burstOFF_054: PASS -- coherent; tension rises and falls, sleeps recovered
-cichy_multi_burstOFF_055: PASS -- plausible; mocks provoke fury, otherwise settled, fits captive
-cichy_multi_burstOFF_056: PASS -- sane; strangers warm him, guards resented, nightly reset
-cichy_multi_burstOFF_057: PASS -- believable pacing; flares at mocks, recovers, soup curt
-cichy_multi_burstOFF_058: PASS -- coherent days; tension cycles, calm baseline holds
-cichy_multi_burstOFF_059: PASS -- sane; provocations anger, kindness warms, sleeps recovered
-cichy_multi_burstOFF_060: FLAG -- Day2 seven near-back-to-back furious eruptions, implausibly relentless
+cichy_multi_burstOFF_051: PASS -- sane arc, outbursts triggered, rain adds tension correctly
+cichy_multi_burstOFF_052: PASS -- early outburst plausible, stranger warmth consistent
+cichy_multi_burstOFF_053: PASS -- rapid escalation on Day 6 morning sequence is believable
+cichy_multi_burstOFF_054: PASS -- late-night outburst then sleep slightly abrupt but acceptable
+cichy_multi_burstOFF_055: PASS -- morning tension after late-night outburst plausible carry-over
+cichy_multi_burstOFF_056: PASS -- two kindnesses in 18 min minor, overall rhythm holds
+cichy_multi_burstOFF_057: PASS -- two outbursts on Day 3 each triggered, de-escalation sane
+cichy_multi_burstOFF_058: PASS -- rapid de-escalation after morning snap acceptable
+cichy_multi_burstOFF_059: PASS -- calm Day 2 with tense afternoon, Day 3 dual outbursts triggered
+cichy_multi_burstOFF_060: FLAG -- Day 2 guard-mock "lets it pass" contradicts profile; 7 mockings in 5h implausible

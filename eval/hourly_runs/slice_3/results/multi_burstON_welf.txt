@@ -1,10 +1,10 @@
-welf_multi_burstON_031: PASS -- restless/occupy/rest cycle, sleeps and recovers; rare snap fits calm man
-welf_multi_burstON_032: PASS -- sane pacing, boredom builds, warm to kindness, rain weathered calmly
-welf_multi_burstON_033: PASS -- believable rhythm, even-keeled, lets mockery pass, sleeps and recovers
-welf_multi_burstON_034: PASS -- steady cycle, rain on watch, neutral courtesy, nights reset
-welf_multi_burstON_035: PASS -- composed throughout, mockery shrugged off, dense kindnesses warmly received
-welf_multi_burstON_036: PASS -- one early snap then composed; restlessness and rest cycle sane
-welf_multi_burstON_037: PASS -- calm, warm to help, boredom rises and resolves naturally
-welf_multi_burstON_038: PASS -- sane days, rain handled, idleness drives restlessness, sleeps well
-welf_multi_burstON_039: PASS -- composed, rain and mockery both let pass, believable pacing
-welf_multi_burstON_040: PASS -- steady idle-restless cycle, warm to kindness, nights recover
+welf_multi_burstON_031: PASS -- snap on day 3 after two days of accumulated tension
+welf_multi_burstON_032: PASS -- five days steady; rain day recovers normally
+welf_multi_burstON_033: PASS -- late sleep on day 3/4 boundary, otherwise sane
+welf_multi_burstON_034: PASS -- three rain episodes; recovers each time via soup
+welf_multi_burstON_035: PASS -- blunted responses after mocks; normalises next day
+welf_multi_burstON_036: PASS -- single snap on tense morning; later mocks shrugged off
+welf_multi_burstON_037: PASS -- calm record, plenty of social warmth, no stress
+welf_multi_burstON_038: PASS -- rain day 1; steady recovery across three days
+welf_multi_burstON_039: PASS -- two rain days wear him down; mocks still shrugged off
+welf_multi_burstON_040: PASS -- late-night tension day 1; four days otherwise normal

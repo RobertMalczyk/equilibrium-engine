@@ -1,12 +1,10 @@
-All records read. Judging each on its own for sane pacing and consistency with a proud, short-tempered noble.
-
-wojslaw_multi_burstOFF_031: PASS -- sane pacing, mocks provoke fury, kindness passes, sleeps and recovers.
-wojslaw_multi_burstOFF_032: PASS -- consistent flares at mockery, calm spells, nightly reset believable.
-wojslaw_multi_burstOFF_033: PASS -- one kindness drew fury mid-rage (11:33), otherwise coherent.
-wojslaw_multi_burstOFF_034: PASS -- believable temper arc, defiant refusals fit, recovers overnight.
-wojslaw_multi_burstOFF_035: PASS -- proud refusals and flares fit, sane rhythm and recovery.
-wojslaw_multi_burstOFF_036: PASS -- warm to kindness, erupts at mockery, paced and consistent.
-wojslaw_multi_burstOFF_037: PASS -- coherent mix of gratitude, defiance, and flares; recovers nightly.
-wojslaw_multi_burstOFF_038: PASS -- mostly calm warm day, no jarring reactions, believable.
-wojslaw_multi_burstOFF_039: PASS -- one kindness bristled (18:43) amid anger, otherwise sane and consistent.
-wojslaw_multi_burstOFF_040: PASS -- believable escalation day 5, warm spells, nightly reset holds.
+wojslaw_multi_burstOFF_031: PASS -- sane arc, public mocks trigger fury, sleep resets well
+wojslaw_multi_burstOFF_032: PASS -- heavy Day 2-3 provocation earns repeated outbursts, recovery holds
+wojslaw_multi_burstOFF_033: PASS -- Day 3 kindness-eruption plausible under high residual anger
+wojslaw_multi_burstOFF_034: PASS -- calm Day 3 after sustained kindness is credible recovery
+wojslaw_multi_burstOFF_035: PASS -- prolonged warmth on Day 2 earned by unbroken kindness streak
+wojslaw_multi_burstOFF_036: PASS -- warm Day 1 baseline shifts under Day 3 mockery escalation
+wojslaw_multi_burstOFF_037: PASS -- Marta's sustained warmth keeps temper low, mocks still bite
+wojslaw_multi_burstOFF_038: PASS -- consistently positive input holds temper down across all days
+wojslaw_multi_burstOFF_039: PASS -- Day 2 public mocks escalate correctly, Day 3 recovers well
+wojslaw_multi_burstOFF_040: PASS -- Day 5 rapid outburst cluster slightly mechanical but tolerable

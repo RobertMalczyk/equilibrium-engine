@@ -1,10 +1,10 @@
-welf_day_burstON_061: PASS -- sane boredom cycle, sleeps and wakes, mild evening tension
-welf_day_burstON_062: PASS -- lets mockery pass, calm busy/rest rhythm, recovers overnight
-welf_day_burstON_063: PASS -- composed throughout, restlessness handled, mockery shrugged off
-welf_day_burstON_064: PASS -- even-keeled day, believable pacing, sleeps and wakes settled
-welf_day_burstON_065: PASS -- two jibes ignored, steady boredom cycle, normal sleep
-welf_day_burstON_066: PASS -- public mockery shrugged, calm rhythm, recovers overnight
-welf_day_burstON_067: PASS -- warm to kindness, mockery passes, sane day and rest
-welf_day_burstON_068: PASS -- believable idleness cycle, mild evening edge, recovers in sleep
-welf_day_burstON_069: PASS -- composed, frequent kindnesses welcomed, normal sleep and waking
-welf_day_burstON_070: PASS -- steady busy/rest cadence, mild tension, recovers overnight
+welf_day_burstON_061: PASS -- calm merchant, boredom cycles, mild evening tension, sane day
+welf_day_burstON_062: PASS -- mock ignored, kindnesses warmly received, evening edge plausible
+welf_day_burstON_063: PASS -- two soups, mock brushed off, steady composed rhythm throughout
+welf_day_burstON_064: PASS -- three kindnesses, boredom cycles, ends settled, clean pacing
+welf_day_burstON_065: PASS -- two mocks let pass, late restlessness into sleep, sane
+welf_day_burstON_066: PASS -- mock ignored mid-afternoon, three soups, ends settled, no issues
+welf_day_burstON_067: PASS -- evening tension resolves with kindness, wakes recovered, believable
+welf_day_burstON_068: PASS -- two soups, boredom cycles, mild late tension, clean arc
+welf_day_burstON_069: FLAG -- kindness at 12:35 logged as "lets it pass" not warmth
+welf_day_burstON_070: PASS -- boredom cycles, kindnesses received warmly, mild late tension

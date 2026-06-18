@@ -1,10 +1,10 @@
-welf_multi_burstON_071: PASS -- calm merchant, boredom cycles, sane pacing across 6 days
-welf_multi_burstON_072: PASS -- heavy kindness cluster Day 1 plausible, night timing marginal but fine
-welf_multi_burstON_073: PASS -- neutral soup reaction odd but composed man; mocks let pass correctly
-welf_multi_burstON_074: FLAG -- Day 2 snap at mocker; profile says not hot-tempered, check burst threshold
-welf_multi_burstON_075: PASS -- clean calm pattern, restlessness managed, all reactions fit profile
-welf_multi_burstON_076: FLAG -- Day 1 18:59 neutral reaction to kindness; Welf usually receives help warmly
-welf_multi_burstON_077: PASS -- rain tension Day 2 sane, kindness clusters Day 4 dense but believable
-welf_multi_burstON_078: PASS -- regular boredom-rest cycles, consistent warm reactions, nothing jars
-welf_multi_burstON_079: PASS -- 6-day arc sane, late-night Day 3 fine, rain days handled with calm
-welf_multi_burstON_080: PASS -- tension mornings resolve by afternoon, mocks let pass, sane pattern
+welf_multi_burstON_071: PASS -- calm boredom cycle, rain tension brief, mocks absorbed
+welf_multi_burstON_072: PASS -- heavy kindnesses day 1, appropriate warmth, late sleep marginal
+welf_multi_burstON_073: PASS -- neutral soup reaction early, mocks brushed off, sane rhythm
+welf_multi_burstON_074: PASS -- one snap after rain plus two mocks, resolves quickly
+welf_multi_burstON_075: PASS -- very settled, late restlessness minor, mock brushed off well
+welf_multi_burstON_076: PASS -- neutral-to-kindness once, rainy days handled calmly
+welf_multi_burstON_077: PASS -- mocks absorbed, rain tension clears, plentiful kindnesses day 4
+welf_multi_burstON_078: PASS -- regular pattern, mock absorbed, redundant sit-down minor artifact
+welf_multi_burstON_079: PASS -- late sleep day 3/4 but only ~6h gap, otherwise settled
+welf_multi_burstON_080: PASS -- morning tension resolves naturally, clean boredom-seek rhythm

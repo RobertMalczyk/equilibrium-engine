@@ -1,12 +1,10 @@
-All records show consistent restless/occupy/rest cycles, calm reactions to mockery, warm thanks for kindness, sleeps at night, wakes recovered. All fit Lutek's profile.
-
-lutek_multi_burstOFF_041: PASS -- restless cycles, warm thanks, sleeps nightly, sane pacing
-lutek_multi_burstOFF_042: PASS -- mockery shrugged off, calm restless rhythm, recovers overnight
-lutek_multi_burstOFF_043: PASS -- novelty-seeking and warmth, insult ignored, believable spans
-lutek_multi_burstOFF_044: PASS -- many kindnesses, mockery unbothered, normal day-night rhythm
-lutek_multi_burstOFF_045: PASS -- restless poet, warm to help, mockery passes, sane sleep
-lutek_multi_burstOFF_046: PASS -- consistent restlessness, calm to barb, recovers nightly
-lutek_multi_burstOFF_047: PASS -- novelty cycles, thick-skinned to mockery, believable pacing
-lutek_multi_burstOFF_048: PASS -- warm, restless, unprovoked by insult, sleeps and recovers
-lutek_multi_burstOFF_049: PASS -- six sane days, calm reactions, nightly sleep recovery
-lutek_multi_burstOFF_050: PASS -- restless and warm, mockery shrugged, normal rhythm
+lutek_multi_burstOFF_041: PASS -- sane pacing, restlessness and warmth consistent throughout
+lutek_multi_burstOFF_042: PASS -- mockery rolls off, brief tensions resolve, sleep normal
+lutek_multi_burstOFF_043: PASS -- frequent soup deliveries but each warmly received, no jars
+lutek_multi_burstOFF_044: PASS -- brief morning tension after kindness clears quickly, profile fine
+lutek_multi_burstOFF_045: PASS -- tensions brief and dissipate, pacing believable across five days
+lutek_multi_burstOFF_046: PASS -- mild overnight tension plausible, resolves on waking, no rage
+lutek_multi_burstOFF_047: FLAG -- kindness met with "no notable reaction" wrong for warm Lutek
+lutek_multi_burstOFF_048: FLAG -- two kindnesses dismissed neutrally, contradicts warm easy profile
+lutek_multi_burstOFF_049: PASS -- clean six-day record, all reactions profile-consistent
+lutek_multi_burstOFF_050: PASS -- mockery deflected, tensions resolve, eating and sleep sane

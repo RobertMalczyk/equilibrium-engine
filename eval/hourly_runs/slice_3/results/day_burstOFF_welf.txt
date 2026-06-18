@@ -1,10 +1,10 @@
-welf_day_burstOFF_031: PASS -- calm, busy day; restless-then-occupied cycle; sleeps and recovers.
-welf_day_burstOFF_032: PASS -- even-keeled, boredom-driven busyness; warm to kindness; sane pacing.
-welf_day_burstOFF_033: PASS -- mockery lets pass, no rage; composed throughout.
-welf_day_burstOFF_034: PASS -- mild evening tension after long idleness; recovers overnight.
-welf_day_burstOFF_035: PASS -- brief edge before mockery, lets it pass; sane.
-welf_day_burstOFF_036: PASS -- mockery shrugged off; steady busy day, recovers.
-welf_day_burstOFF_037: PASS -- composed, boredom-occupation cycle, restful night.
-welf_day_burstOFF_038: PASS -- mockery ignored, mild late tension; believable day.
-welf_day_burstOFF_039: PASS -- many small kindnesses warmly received; calm throughout.
-welf_day_burstOFF_040: PASS -- restless-occupied rhythm, mild evening edge, recovers.
+welf_day_burstOFF_031: PASS -- steady day, restlessness cycles and kindness lift mood sensibly
+welf_day_burstOFF_032: PASS -- calm pacing, boredom rises and settles, sleeps and wakes recovered
+welf_day_burstOFF_033: PASS -- mocks let pass without reaction, fits composed non-hot-tempered profile
+welf_day_burstOFF_034: PASS -- slight evening tension plausible after long idle day, clears overnight
+welf_day_burstOFF_035: PASS -- brief mid-evening tension resolves; pacing and kindness responses sane
+welf_day_burstOFF_036: PASS -- mock let pass, steady rhythm, sleeps a little late but recovers fine
+welf_day_burstOFF_037: PASS -- clean rhythm, boredom cycles managed, no jarring reactions
+welf_day_burstOFF_038: PASS -- late kindness eases evening tension; composed response to mockery holds
+welf_day_burstOFF_039: PASS -- cluster of kindnesses mid-afternoon credible; restlessness cycles normal
+welf_day_burstOFF_040: PASS -- late tension plausible from idle evening; wakes settled, fits profile

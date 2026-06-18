@@ -1,10 +1,10 @@
-cichy_day_burstON_081: PASS -- calm morning to tense evening, snap fits, sleeps clean
-cichy_day_burstON_082: PASS -- low-stimulus quiet day, curt at soup, no flares
-cichy_day_burstON_083: PASS -- two mocks, escalating responses, eventual snap believable
-cichy_day_burstON_084: PASS -- cumulative wearing-down, late snap after repeated mockery
-cichy_day_burstON_085: PASS -- uneventful day, tension without provocation, settles fine
-cichy_day_burstON_086: PASS -- afternoon tension, single mock curt reply, settles
-cichy_day_burstON_087: PASS -- early mock snaps him; resentful captive, within range
-cichy_day_burstON_088: PASS -- stranger warmth, evening mock coldly rebuffed, believable arc
-cichy_day_burstON_089: FLAG -- kindness then fury eruption minutes later, too fast a swing
-cichy_day_burstON_090: PASS -- tension accumulates through evening, no jarring moments
+cichy_day_burstON_081: PASS -- tension builds naturally, snaps at mock, sleeps and recovers
+cichy_day_burstON_082: PASS -- quiet day, baseline tension rises without overt cause, sane
+cichy_day_burstON_083: PASS -- two mocks escalate response across evening, believable arc
+cichy_day_burstON_084: PASS -- progressive escalation across three mocks, snaps on third
+cichy_day_burstON_085: PASS -- unprovoked quiet day, curt to guards only, sane baseline
+cichy_day_burstON_086: PASS -- afternoon tension, curt to mock, eases by evening, sane
+cichy_day_burstON_087: PASS -- snaps at morning mock; captive hair-trigger is plausible
+cichy_day_burstON_088: PASS -- stranger warmth, cold curtness to guard mock, believable
+cichy_day_burstON_089: FLAG -- full fury outburst at 06:54 with no prior tension buildup
+cichy_day_burstON_090: FLAG -- day ends at 22:04 tense with no explicit sleep transition

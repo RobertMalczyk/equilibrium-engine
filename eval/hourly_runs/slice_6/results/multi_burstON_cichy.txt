@@ -1,10 +1,10 @@
-cichy_multi_burstON_061: PASS -- sane pacing, curt to guards, flares only on mocking
-cichy_multi_burstON_062: PASS -- believable rise/fall, resentful toward guards, recovers nightly
-cichy_multi_burstON_063: PASS -- coherent days, cold to captors, warm to strangers
-cichy_multi_burstON_064: PASS -- steady cycles, curt guard responses, sleeps and recovers
-cichy_multi_burstON_065: PASS -- sane tension arc, occasional flare, consistent grievance
-cichy_multi_burstON_066: PASS -- believable pacing, cold to guards, eruption on public mockery
-cichy_multi_burstON_067: PASS -- coherent multi-day life, resentful captive, recovers each night
-cichy_multi_burstON_068: PASS -- sane rhythms, curt to guards, warm to stranger
-cichy_multi_burstON_069: PASS -- believable arc, flares on mocking, nightly reset
-cichy_multi_burstON_070: PASS -- sane pacing, cold to captors, kindness warmly received
+cichy_multi_burstON_061: PASS -- sane pacing, snaps at mocks, guard kindnesses deflected
+cichy_multi_burstON_062: PASS -- tension accumulates across days, bursts appropriately earned
+cichy_multi_burstON_063: PASS -- morning fury after settled calm, plausible for resentful captive
+cichy_multi_burstON_064: PASS -- quiet days without outbursts when not provoked, consistent
+cichy_multi_burstON_065: PASS -- mock escalation handled believably across days
+cichy_multi_burstON_066: PASS -- public humiliation triggers fury, sane day rhythm
+cichy_multi_burstON_067: PASS -- rain plus accumulated tension earns day-6 morning burst
+cichy_multi_burstON_068: PASS -- one mock ignored but single instance in calmer stretch
+cichy_multi_burstON_069: PASS -- heavy provocation day-1, late bursts earned, strangers welcomed
+cichy_multi_burstON_070: PASS -- two soups in quick succession odd but not character-breaking

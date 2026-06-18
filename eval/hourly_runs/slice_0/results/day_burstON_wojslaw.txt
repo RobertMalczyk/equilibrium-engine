@@ -1,10 +1,10 @@
-wojslaw_day_burstON_001: PASS -- proud, prickly, flares at mocks; sane pacing, sleeps and recovers
-wojslaw_day_burstON_002: PASS -- mixed warmth and flares, believable arc, recovers overnight
-wojslaw_day_burstON_003: PASS -- calmer day, flares at mocks, sensible kindness responses
-wojslaw_day_burstON_004: PASS -- hot temper, refuses orders, coherent escalation and recovery
-wojslaw_day_burstON_005: PASS -- mostly warm, flares only at mocks; sane and consistent
-wojslaw_day_burstON_006: PASS -- flares at mocks, defiant refusals, proud man fits profile
-wojslaw_day_burstON_007: PASS -- agitated day, mocks ignite fury, believable rises and falls
-wojslaw_day_burstON_008: PASS -- escalating tension, flares at kindness when primed; plausible
-wojslaw_day_burstON_009: PASS -- warm early, erupts at mocks, settles by night
-wojslaw_day_burstON_010: PASS -- short fuse, refuses orders, recovers overnight; fits profile
+wojslaw_day_burstON_001: PASS -- tense arc, mocking triggers eruptions, sleeps settled
+wojslaw_day_burstON_002: PASS -- variable mood, kindness and insult both land correctly
+wojslaw_day_burstON_003: PASS -- double soup odd but reactions consistent, arc sane
+wojslaw_day_burstON_004: PASS -- morning provocations sustain tension all day believably
+wojslaw_day_burstON_005: PASS -- kindness-heavy morning, erupts on mocking, recovers cleanly
+wojslaw_day_burstON_006: PASS -- proud refusals fit character, mood arc coherent
+wojslaw_day_burstON_007: PASS -- double soup minor, eruptions and bristling on edge fit
+wojslaw_day_burstON_008: PASS -- bad day bleeds onto kindness and soup, wakes reset
+wojslaw_day_burstON_009: PASS -- fast recovery at 16:02 slightly abrupt but within range
+wojslaw_day_burstON_010: PASS -- escalating irritability through day, erupts when wound up

@@ -1,10 +1,10 @@
-welf_day_burstON_071: PASS -- Sane idleness/rest cycle, warm thanks, sleeps and wakes recovered.
-welf_day_burstON_072: PASS -- Calm day, lets mockery pass, believable boredom pacing.
-welf_day_burstON_073: PASS -- Even-keeled, grateful for kindnesses, sane sleep/wake.
-welf_day_burstON_074: PASS -- Restlessness and rest cycle, warm reactions, nothing jars.
-welf_day_burstON_075: PASS -- Composed, ignores mock, mild edge before night, recovers.
-welf_day_burstON_076: PASS -- Believable boredom, gracious thanks, lets barb pass, sleeps.
-welf_day_burstON_077: PASS -- Sane pacing, warm thanks, slight tension then sleep.
-welf_day_burstON_078: PASS -- Idleness cycle, grateful, settled through the day.
-welf_day_burstON_079: PASS -- Calm, warm to kindnesses, normal sleep/wake rhythm.
-welf_day_burstON_080: PASS -- Composed, ignores mockery, grateful, believable day.
+welf_day_burstON_071: PASS -- steady boredom cycle, mild end-of-day tension, sane pacing
+welf_day_burstON_072: PASS -- well-fed, even-keeled, mocking remark brushed off appropriately
+welf_day_burstON_073: PASS -- multiple kindnesses warmly received, restlessness cycling naturally
+welf_day_burstON_074: PASS -- frequent soup visits accepted warmly, settled composure throughout
+welf_day_burstON_075: PASS -- muted second kindness plausible, late tension resolves at sleep
+welf_day_burstON_076: PASS -- barbed remark ignored, late-night tension fitting for idle man
+welf_day_burstON_077: PASS -- consistent rhythm, late tension without cause fits boredom buildup
+welf_day_burstON_078: PASS -- late restlessness past 22:00 slightly unusual but within range
+welf_day_burstON_079: PASS -- calm, well-paced day, no jarring beats
+welf_day_burstON_080: PASS -- two soups close together minor oddity, composure intact throughout

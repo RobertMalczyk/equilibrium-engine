@@ -1,10 +1,10 @@
-halgrim_day_burstON_041: PASS -- Calm steady day, warm to soup, recovers overnight.
-halgrim_day_burstON_042: PASS -- Curt cold to Wojsław's mockery, obeys Edda, even keel.
-halgrim_day_burstON_043: PASS -- Repeated taunts escalate to cold contempt, plausibly tense.
-halgrim_day_burstON_044: PASS -- Declines Wojsław, obeys Edda, settled throughout.
-halgrim_day_burstON_045: PASS -- Lets taunt pass, warm to kindness, calm.
-halgrim_day_burstON_046: PASS -- Steady, ignores Wojsław's barb, obeys Edda.
-halgrim_day_burstON_047: PASS -- Warm and settled, declines Wojsław's order curtly.
-halgrim_day_burstON_048: PASS -- Mutters at orders, warm to Marta, sane.
-halgrim_day_burstON_049: PASS -- Declines Wojsław, warmed by kindness, calm day.
-halgrim_day_burstON_050: PASS -- Mild curtness to taunt, slight tension, recovers.
+halgrim_day_burstON_041: PASS -- calm day, fed thrice, sleeps well, consistent ease
+halgrim_day_burstON_042: PASS -- Wojsław barb met with cold curtness, fits profile
+halgrim_day_burstON_043: PASS -- escalating Wojsław provocation builds tension, resolves overnight
+halgrim_day_burstON_044: PASS -- declines Wojsław order, complies with Edda, sane contrast
+halgrim_day_burstON_045: PASS -- Wojsław barb ignored at day's end, settled throughout
+halgrim_day_burstON_046: FLAG -- Edda order at 21:41 gets "no notable reaction", slightly odd
+halgrim_day_burstON_047: PASS -- declines Wojsław late-night order, otherwise settled and warm
+halgrim_day_burstON_048: FLAG -- mutters complaint at Edda; Edda is respected authority
+halgrim_day_burstON_049: PASS -- warm day, declines Wojsław, calm and consistent throughout
+halgrim_day_burstON_050: PASS -- mild tension late, Wojsław barbs handled, sleeps recovered

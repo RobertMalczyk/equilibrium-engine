@@ -1,10 +1,10 @@
-halgrim_multi_burstON_011: PASS -- calm, cold curtness under Wojsław's needling; sleeps and recovers.
-halgrim_multi_burstON_012: PASS -- steady, controlled curtness escalating only with provocation; nightly reset.
-halgrim_multi_burstON_013: PASS -- even-keeled, tension builds and settles believably over days.
-halgrim_multi_burstON_014: PASS -- cold defiance toward Wojsław, warmth to Marta; sane pacing.
-halgrim_multi_burstON_015: PASS -- controlled curtness, recovers nightly; provocations build tension plausibly.
-halgrim_multi_burstON_016: PASS -- mostly settled, cold only when pushed; believable arc.
-halgrim_multi_burstON_017: PASS -- rain and needling wear him; cold curtness, nightly recovery.
-halgrim_multi_burstON_018: PASS -- steady, cold contempt under mockery; sane day rhythm.
-halgrim_multi_burstON_019: PASS -- calm throughout, mild curtness at most; well-regulated.
-halgrim_multi_burstON_020: PASS -- composed across six days, warmth and measured curtness; recovers nightly.
+halgrim_multi_burstON_011: PASS -- Wojslaw accumulation drives Day 4-5 tension; sleep resets hold
+halgrim_multi_burstON_012: PASS -- Calm days alternate with Wojslaw-provoked tension; pacing sane
+halgrim_multi_burstON_013: PASS -- Day 2-3 tension lingers without much new provocation; plausible carry-over
+halgrim_multi_burstON_014: PASS -- Heavy Day 2 Wojslaw friction; multi-day residual tension coherent
+halgrim_multi_burstON_015: PASS -- Edda cold contempt earned; wound tight by Day 5 from accumulation
+halgrim_multi_burstON_016: PASS -- Calm run; Day 4 tension spike earned by Wojslaw pressure
+halgrim_multi_burstON_017: PASS -- Rain plus Wojslaw drives multi-day tension; Edda snap contextually earned
+halgrim_multi_burstON_018: PASS -- Day 4 tense onset without trigger; carry-over from Day 3 plausible
+halgrim_multi_burstON_019: PASS -- Consistently calm; mild complaints fit low-provocation scenario
+halgrim_multi_burstON_020: PASS -- Rain days handled evenly; stable baseline throughout six days

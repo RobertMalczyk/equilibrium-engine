@@ -1,16 +1,10 @@
-Judging each record on its own against the profile (curious, restless, hard to offend, thick-skinned, easy to amuse).
-
-Record 021 shows two snaps: he "flares up and snaps angrily" at a mock (19:35) and answers a kindness "curtly and coldly" (22:48). For a thick-skinned man mockery rolls off — flaring up jars with the profile.
-
-The rest show restlessness, warm thanks, mockery shrugged off, sleep at night, recovery by morning — all sane and in-character.
-
-lutek_day_burstON_021: FLAG -- flares up at mockery; cold to kindness, contradicts thick-skinned profile
-lutek_day_burstON_022: PASS -- restless, warm, sane pacing, sleeps and recovers
-lutek_day_burstON_023: PASS -- curious and easy; warm thanks; believable rhythm
-lutek_day_burstON_024: PASS -- shrugs off mockery; restless and good-humoured throughout
-lutek_day_burstON_025: PASS -- mockery rolls off; warm, restless, normal day
-lutek_day_burstON_026: PASS -- easy, restless, warm; sane day and night
-lutek_day_burstON_027: PASS -- shrugs mockery; restless, good-humoured, recovers overnight
-lutek_day_burstON_028: PASS -- warm, restless, sane pacing and recovery
-lutek_day_burstON_029: PASS -- mockery let pass; warm and restless throughout
-lutek_day_burstON_030: PASS -- mockery shrugged off; restless, warm, believable
+lutek_day_burstON_021: FLAG -- snaps at mock at 19:35 after rolling off same earlier; curt to kindness at 22:48
+lutek_day_burstON_022: PASS -- easy day, no incidents, pacing sane, wakes settled
+lutek_day_burstON_023: PASS -- mild tension at 18:03, resolves, late sleep fine
+lutek_day_burstON_024: PASS -- two mocks deflected, tense at 20:03 but recovers, sane
+lutek_day_burstON_025: PASS -- sociable generous day, no friction, wakes fresh
+lutek_day_burstON_026: PASS -- steady day, well-fed, warm throughout, normal rhythms
+lutek_day_burstON_027: FLAG -- wound tight at 22:04 with no provoking event visible before sleep
+lutek_day_burstON_028: PASS -- mild evening tension, resolves with soup, sane pacing
+lutek_day_burstON_029: PASS -- two mocks ignored, tense at 20:03, recovers fine
+lutek_day_burstON_030: PASS -- quiet day, mock ignored at 22:26, late sleep acceptable

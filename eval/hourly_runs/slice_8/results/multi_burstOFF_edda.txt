@@ -1,10 +1,10 @@
-edda_multi_burstOFF_081: PASS -- calm authority, sane routine, warmed by kindness
-edda_multi_burstOFF_082: PASS -- one compliance odd but not impossible for a castellan
-edda_multi_burstOFF_083: PASS -- uneventful days, steady composure throughout
-edda_multi_burstOFF_084: PASS -- settled, lets barbs pass, consistent profile
-edda_multi_burstOFF_085: PASS -- early compliance low but not repeated; overall sane
-edda_multi_burstOFF_086: PASS -- social days, warm responses, no jarring moments
-edda_multi_burstOFF_087: PASS -- friction day handled with irritation but not rage
-edda_multi_burstOFF_088: PASS -- abundant kindness, composed throughout, normal pacing
-edda_multi_burstOFF_089: PASS -- warm busy days, authority asserted appropriately
-edda_multi_burstOFF_090: PASS -- firm refusal to stranger fits high-standing castellan
+edda_multi_burstOFF_081: PASS -- settled castellan, mild escalation to refusals fits
+edda_multi_burstOFF_082: PASS -- composed days, one late compliance mildly incongruous but sane
+edda_multi_burstOFF_083: PASS -- very calm, no provocations, doubled soups artifact harmless
+edda_multi_burstOFF_084: PASS -- composed under mockery, well-paced, fits profile
+edda_multi_burstOFF_085: PASS -- early compliance on good day is plausible, otherwise steady
+edda_multi_burstOFF_086: PASS -- positive and steady across six days, sane
+edda_multi_burstOFF_087: PASS -- complaint accumulation under repeated stranger demands is coherent
+edda_multi_burstOFF_088: PASS -- dense kindnesses, no behavioral issues, sane
+edda_multi_burstOFF_089: PASS -- heavily positive, regular rhythms, fits composed castellan
+edda_multi_burstOFF_090: PASS -- flat refusal early morning fits authority profile, sane

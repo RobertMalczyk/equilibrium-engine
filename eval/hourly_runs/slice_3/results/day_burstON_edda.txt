@@ -1,10 +1,10 @@
-edda_day_burstON_031: PASS -- calm, composed, sleeps and wakes naturally; fitting authority.
-edda_day_burstON_032: PASS -- settled day, warmth at kindness, takes charge; coherent.
-edda_day_burstON_033: PASS -- steady, composed, lets stranger orders pass; believable.
-edda_day_burstON_034: PASS -- calm pacing, sane responses to orders and kindness.
-edda_day_burstON_035: PASS -- quiet settled day, normal sleep cycle, fitting.
-edda_day_burstON_036: PASS -- composed throughout, complies or ignores sanely; coherent.
-edda_day_burstON_037: PASS -- warm to kindness, settled, takes charge; believable.
-edda_day_burstON_038: PASS -- calm day, sane pacing, fitting authority.
-edda_day_burstON_039: PASS -- steady warmth, settled, normal sleep; coherent.
-edda_day_burstON_040: PASS -- lets mockery pass with composure; fitting commander reserve.
+edda_day_burstON_031: PASS -- calm day, two soups close together minor but ok
+edda_day_burstON_032: PASS -- steady composed day, fits authority profile
+edda_day_burstON_033: PASS -- well-paced day, appropriate warmth and composure
+edda_day_burstON_034: PASS -- stranger orders twice; compliance odd for castellan but passes
+edda_day_burstON_035: PASS -- quiet uneventful day, pacing fine
+edda_day_burstON_036: PASS -- stranger orders three times; compliance sits low for commander
+edda_day_burstON_037: PASS -- warm day with many kindnesses, consistent and sane
+edda_day_burstON_038: PASS -- composed day, appropriate responses throughout
+edda_day_burstON_039: PASS -- settled calm day, good pacing
+edda_day_burstON_040: PASS -- two public barbed remarks ignored; composure fits profile

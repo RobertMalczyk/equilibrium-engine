@@ -1,10 +1,10 @@
-welf_multi_burstON_061: PASS -- sane boredom cycles, sleeps and recovers, calm throughout
-welf_multi_burstON_062: PASS -- believable pacing, restlessness rises and eases, no jarring rage
-welf_multi_burstON_063: PASS -- lets mockery pass, even-keeled, normal sleep recovery
-welf_multi_burstON_064: PASS -- rain wears mildly, no snapping, composed merchant
-welf_multi_burstON_065: PASS -- shrugs off barb, steady boredom-occupation rhythm, sleeps nightly
-welf_multi_burstON_066: PASS -- public mockery ignored, calm, believable daily cadence
-welf_multi_burstON_067: PASS -- restless idleness, warm to kindness, sane sleep cycles
-welf_multi_burstON_068: PASS -- composed, neutral to soup, boredom builds and eases plausibly
-welf_multi_burstON_069: PASS -- even-keeled, normal hunger/temper spans, recovers overnight
-welf_multi_burstON_070: PASS -- calm transactional sort, boredom cycles, nothing absurd
+welf_multi_burstON_061: PASS -- sane boredom cycles, composed reactions, normal sleep rhythm
+welf_multi_burstON_062: PASS -- regular pacing, mild evening tension, resolves overnight
+welf_multi_burstON_063: PASS -- late night on day 5 but within range, rain day handled calmly
+welf_multi_burstON_064: PASS -- multi-day rain wears him down appropriately, mock ignored correctly
+welf_multi_burstON_065: PASS -- even-keeled throughout, mock let pass, rain tension resolves
+welf_multi_burstON_066: PASS -- quick mock-between-kindnesses mechanical but not a contradiction
+welf_multi_burstON_067: PASS -- late sleep on day 2-3 boundary acceptable, otherwise calm
+welf_multi_burstON_068: FLAG -- soup at 08:18 day 1 gets no reaction; inconsistent with all other soup events
+welf_multi_burstON_069: PASS -- clean boredom cycling, polite responses, sane multi-day pacing
+welf_multi_burstON_070: PASS -- composed throughout, kindnesses received warmly, normal rhythm

@@ -1,10 +1,10 @@
-lutek_day_burstON_001: PASS -- restless/rest cycle, sleeps and wakes recovered, sane pacing.
-lutek_day_burstON_002: PASS -- mockery rolls off, kindness warms; believable day, sleeps well.
-lutek_day_burstON_003: PASS -- warm to kindness, unbothered by mocks; full sane day.
-lutek_day_burstON_004: PASS -- novelty-seeking, thick-skinned to insults, normal rest cycle.
-lutek_day_burstON_005: PASS -- restless cycling, easy with kindness, sleeps and wakes fine.
-lutek_day_burstON_006: PASS -- one curt reply when tense; otherwise unbothered, fits profile.
-lutek_day_burstON_007: PASS -- calm novelty-chasing day, insults absent, normal sleep recovery.
-lutek_day_burstON_008: PASS -- mock ignored, kindness warms, believable pacing and sleep.
-lutek_day_burstON_009: PASS -- warm, restless, easy-going; sane day with proper night.
-lutek_day_burstON_010: PASS -- frequent kindness gladly received, restless cycle, sleeps late sanely.
+lutek_day_burstON_001: PASS -- restless cycle, fed twice, mild tension late, sleeps
+lutek_day_burstON_002: PASS -- insults roll off, stays busy, late kindness soothes, sleeps
+lutek_day_burstON_003: PASS -- active, well-fed, mockery ignored, stays up late but sleeps
+lutek_day_burstON_004: PASS -- steady rhythm, insult shrugged off, mild tension then settles
+lutek_day_burstON_005: PASS -- tension builds evening, kindness resolves it, sleeps fine
+lutek_day_burstON_006: PASS -- curt reply at 19:37 mild but plausible after tiring day
+lutek_day_burstON_007: PASS -- calm productive day, mild tension late, sleeps on time
+lutek_day_burstON_008: PASS -- well-fed, mockery ignored, settled evening, clean sleep
+lutek_day_burstON_009: PASS -- steady, curious, well-fed, no friction, settles naturally
+lutek_day_burstON_010: PASS -- stays up past midnight but settles; mild tension, no issue

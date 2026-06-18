@@ -1,10 +1,10 @@
-cichy_multi_burstON_041: PASS -- sane cycle; curt to guards, recovers nightly
-cichy_multi_burstON_042: FLAG -- stranger's kindness triggers fury (D4 13:19), jars
-cichy_multi_burstON_043: FLAG -- stranger's kindness triggers fury (D2 14:14), jars
-cichy_multi_burstON_044: PASS -- sane pacing; warm to kindness, curt to guards
-cichy_multi_burstON_045: PASS -- believable rhythm, sleeps and recovers
-cichy_multi_burstON_046: PASS -- anger from guard mocks only, plausible
-cichy_multi_burstON_047: PASS -- eruptions all from mocks; warm to strangers
-cichy_multi_burstON_048: PASS -- calm baseline, curt replies, nightly reset
-cichy_multi_burstON_049: PASS -- escalating anger from guard mocks, believable
-cichy_multi_burstON_050: PASS -- sane days, one eruption at guard mock
+cichy_multi_burstON_041: PASS -- tension builds across days, outburst earned, recovery normal
+cichy_multi_burstON_042: PASS -- displaced fury at stranger after sustained mockery and rain
+cichy_multi_burstON_043: PASS -- two displaced-aggression outbursts fit wound-tight prisoner
+cichy_multi_burstON_044: PASS -- mild sustained tension, rain, no outbursts, sane rhythm
+cichy_multi_burstON_045: PASS -- persistent afternoon tension, guard mocks get curt replies
+cichy_multi_burstON_046: PASS -- volatile from day one, two outbursts, sleep resets hold
+cichy_multi_burstON_047: FLAG -- settled at ease 20 min after full fury outburst, too fast
+cichy_multi_burstON_048: PASS -- rain day sustained tension, stranger warmly received, normal
+cichy_multi_burstON_049: PASS -- day two escalation earned, late flares fit accumulated pressure
+cichy_multi_burstON_050: PASS -- day two fury earned by unbroken tension, sleep reset holds

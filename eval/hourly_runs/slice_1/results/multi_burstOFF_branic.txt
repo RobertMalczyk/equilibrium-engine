@@ -1,12 +1,10 @@
-All records reviewed. Each shows sane day/night cadence, restlessness when idle, warmth at kindness, escalating temper toward Halgrim's barbs in the evening, recovery after sleep — consistent with the raw, easily-bored, thin-skinned recruit profile. No absurd pacing or contradictions.
-
-branic_multi_burstOFF_011: PASS -- sane cadence; idle-restlessness, evening flares, sleep recovery fit profile.
-branic_multi_burstOFF_012: PASS -- believable pacing; mild flares, defiance, nightly reset all fit.
-branic_multi_burstOFF_013: PASS -- compliant-then-fraying arc, kindness warmth, sleep recovery all sane.
-branic_multi_burstOFF_014: PASS -- calm obedient stretch with late flares; pacing fully believable.
-branic_multi_burstOFF_015: PASS -- coherent days; rain/mock-driven defiance and recovery fit profile.
-branic_multi_burstOFF_016: PASS -- sane cadence; escalating refusals and evening eruptions fit recruit.
-branic_multi_burstOFF_017: PASS -- believable; morning flares after edge, warmth at kindness, recovers.
-branic_multi_burstOFF_018: PASS -- coherent; clustered Halgrim friction and nightly reset all sane.
-branic_multi_burstOFF_019: PASS -- calm obliging days with occasional flare; pacing fully believable.
-branic_multi_burstOFF_020: PASS -- sane days; rain-day defiance and eruptions fit thin-skinned recruit.
+branic_multi_burstOFF_011: PASS -- evening eruption after accumulated day of mockery
+branic_multi_burstOFF_012: PASS -- calm days, single late-night mock triggers fury
+branic_multi_burstOFF_013: PASS -- multi-day tension builds to eruption, lingers coherently
+branic_multi_burstOFF_014: PASS -- positive baseline, day-6 eruption from public mock
+branic_multi_burstOFF_015: PASS -- rain plus double mock breaks calm baseline cleanly
+branic_multi_burstOFF_016: PASS -- day-by-day erosion arc, each day builds on prior mood
+branic_multi_burstOFF_017: PASS -- two quick morning mocks ignite overnight-carried tension
+branic_multi_burstOFF_018: PASS -- early double mock on tense morning triggers snap and refusals
+branic_multi_burstOFF_019: PASS -- calm baseline, mock-after-soup triggers eruption, recovers
+branic_multi_burstOFF_020: PASS -- multi-day tension build, eruption day 4, clean day-5 recovery

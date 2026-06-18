@@ -1,10 +1,10 @@
-wojslaw_day_burstON_041: PASS -- proud hot-tempered noble, erupts at mockery, sleeps and recovers.
-wojslaw_day_burstON_042: PASS -- flares at mockery, calm otherwise, refuses orders, sane pacing.
-wojslaw_day_burstON_043: PASS -- defiant refusals and eruptions fit proud prickly noble.
-wojslaw_day_burstON_044: PASS -- mostly calm, single eruption at mockery, believable day.
-wojslaw_day_burstON_045: PASS -- repeated eruptions at insults, recovers nightly, fits temper.
-wojslaw_day_burstON_046: PASS -- warm to kindness, erupts at Marta's mockery, sane.
-wojslaw_day_burstON_047: PASS -- calm day, flares at mockery, recovers overnight.
-wojslaw_day_burstON_048: PASS -- single eruption, otherwise settled, believable pacing.
-wojslaw_day_burstON_049: PASS -- erupts at mockery amid calm, gracious to kindness.
-wojslaw_day_burstON_050: PASS -- hot eruptions and refusals fit proud prickly noble.
+wojslaw_day_burstON_041: PASS -- three outbursts across day fit short-tempered noble profile
+wojslaw_day_burstON_042: PASS -- single snap then late eruption, kindnesses land, wakes recovered
+wojslaw_day_burstON_043: PASS -- repeated order refusals and two evening outbursts fit pride profile
+wojslaw_day_burstON_044: PASS -- calm day, single late eruption at mockery, wakes settled
+wojslaw_day_burstON_045: PASS -- multiple provocations produce escalating flare-ups, recovers overnight
+wojslaw_day_burstON_046: PASS -- warm start, later eruptions at mockery, rapid swing plausible
+wojslaw_day_burstON_047: PASS -- clean arc, afternoon public-mock eruption, late snap, wakes calm
+wojslaw_day_burstON_048: PASS -- eruption 4 min after thanks fits public-insult trigger logic
+wojslaw_day_burstON_049: PASS -- warm start, midday eruption, afternoon snap, evening recovery
+wojslaw_day_burstON_050: PASS -- kindness-then-mock trigger believable, bristles while still hot

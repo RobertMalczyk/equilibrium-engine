@@ -1,10 +1,10 @@
-edda_multi_burstON_031: PASS -- composed, warm to kindness, ignores mockery; sane pacing
-edda_multi_burstON_032: PASS -- calm authority, complies or shrugs orders; believable rhythm
-edda_multi_burstON_033: PASS -- composed castellan, refuses stranger orders, takes charge nightly
-edda_multi_burstON_034: PASS -- mild complaints to orders, warm otherwise; steady days
-edda_multi_burstON_035: PASS -- declines orders, warm to staff; well-paced and consistent
-edda_multi_burstON_036: PASS -- composed authority across six days, no jarring reactions
-edda_multi_burstON_037: PASS -- mutters at orders, warm to kindness; sane sleep/wake cycle
-edda_multi_burstON_038: PASS -- consistently composed, warm; orders shrugged; believable pacing
-edda_multi_burstON_039: PASS -- mild complaints under pressure, otherwise steady and composed
-edda_multi_burstON_040: PASS -- composed across six days, declines/shrugs orders, warm rapport
+edda_multi_burstON_031: PASS -- settled, warm, sane rhythm; minor duplicate soup entries
+edda_multi_burstON_032: PASS -- stranger order obeyed once; otherwise sane authority figure
+edda_multi_burstON_033: PASS -- refuses stranger orders; composure under mockery fits profile
+edda_multi_burstON_034: PASS -- mild grumbles at being ordered; appropriate varied responses
+edda_multi_burstON_035: PASS -- morning activity clusters but overall rhythm and tone sane
+edda_multi_burstON_036: PASS -- six days sane; varied responses to orders fit self-possessed profile
+edda_multi_burstON_037: PASS -- four days sane; complaint at stranger order appropriate
+edda_multi_burstON_038: PASS -- dense positive interactions Day 4 but nothing mechanically wrong
+edda_multi_burstON_039: PASS -- Day 5 double-provocation grumble acceptable under pressure
+edda_multi_burstON_040: PASS -- six days sane; dense Day 4 kindnesses but disposition holds

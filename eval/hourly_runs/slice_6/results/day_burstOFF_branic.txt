@@ -1,10 +1,10 @@
-branic_day_burstOFF_061: PASS -- sane idle/work/rest rhythm, sleeps and recovers
-branic_day_burstOFF_062: PASS -- believable day, shrugs off mockery, warm to kindness
-branic_day_burstOFF_063: PASS -- restlessness and rest cycle, nothing jarring
-branic_day_burstOFF_064: PASS -- brief tense moment fits thin-skinned recruit
-branic_day_burstOFF_065: PASS -- repeated mockery let pass, sane pacing
-branic_day_burstOFF_066: PASS -- normal rhythm, mild evening edge plausible
-branic_day_burstOFF_067: PASS -- idle/work/eat/rest cycle, believable
-branic_day_burstOFF_068: PASS -- dense interactions but reactions all sane
-branic_day_burstOFF_069: PASS -- single bristle at mocking, otherwise calm, fits
-branic_day_burstOFF_070: PASS -- believable day, warm to kindness, sleeps well
+branic_day_burstOFF_061: PASS -- steady day, boredom cycles and orders, sane pacing
+branic_day_burstOFF_062: PASS -- kindness unreturned once plausible, overall rhythm holds
+branic_day_burstOFF_063: PASS -- no orders, Marta-heavy day, settles late but sleeps fine
+branic_day_burstOFF_064: PASS -- tense at 18:03 after idle stretch, recovers cleanly
+branic_day_burstOFF_065: PASS -- mocks absorbed, kindnesses warm him, late activity fine
+branic_day_burstOFF_066: PASS -- soup shrugged off early, mild tension at end, sane arc
+branic_day_burstOFF_067: PASS -- tense mid-evening, soup warms him, recovers before sleep
+branic_day_burstOFF_068: PASS -- Halgrim's kindness twice ignored plausible, tense at end recovers
+branic_day_burstOFF_069: PASS -- bristles at mock once, settles, sleeps just past midnight
+branic_day_burstOFF_070: PASS -- sociable day, mild late tension, sane pacing throughout

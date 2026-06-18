@@ -1,10 +1,10 @@
-wojslaw_multi_burstON_051: PASS -- calm baseline, erupts at mocks, recovers nightly
-wojslaw_multi_burstON_052: PASS -- escalation across days, sane recovery and provocations
-wojslaw_multi_burstON_053: PASS -- eruptions cluster on insults, warms when calm
-wojslaw_multi_burstON_054: PASS -- dense anger day stays provocation-driven, recovers overnight
-wojslaw_multi_burstON_055: PASS -- mostly calm, warm; flares tied to mocks
-wojslaw_multi_burstON_056: PASS -- heavy provocation, coherent spillover, nightly reset
-wojslaw_multi_burstON_057: PASS -- coherent escalation, refuses orders, recovers
-wojslaw_multi_burstON_058: PASS -- warm early, anger builds on insults, recovers
-wojslaw_multi_burstON_059: PASS -- flares only when already tense, sane pacing
-wojslaw_multi_burstON_060: PASS -- provocation-driven eruptions, recovers nightly, coherent
+wojslaw_multi_burstON_051: PASS -- steady escalation, sleep resets, plausible arc
+wojslaw_multi_burstON_052: PASS -- calm start builds to multi-day tension naturally
+wojslaw_multi_burstON_053: PASS -- day 4 dense but each eruption has real provocation
+wojslaw_multi_burstON_054: PASS -- day 2 escalation after calm day 1, sleep resets well
+wojslaw_multi_burstON_055: PASS -- clean moderate arc, temper proportionate to provocations
+wojslaw_multi_burstON_056: PASS -- high day 1 intensity driven by five real provocations
+wojslaw_multi_burstON_057: PASS -- gradual build across days, resets after sleep each night
+wojslaw_multi_burstON_058: PASS -- displaced aggression on kindness fits wound-up state
+wojslaw_multi_burstON_059: PASS -- early day 1 eruption fits quick-tempered profile
+wojslaw_multi_burstON_060: PASS -- day 3 intensity warranted by unbroken morning provocation

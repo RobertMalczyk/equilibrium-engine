@@ -1,10 +1,10 @@
-edda_multi_burstON_021: PASS -- calm composed castellan, sane pacing, sleeps and wakes recovered
-edda_multi_burstON_022: PASS -- composed, lets provocations pass, mild complaints reasonable, settled days
-edda_multi_burstON_023: PASS -- steady authority, warm to kindness, mockery shrugged off believably
-edda_multi_burstON_024: PASS -- normal pacing, sleeps nightly, composed reactions throughout
-edda_multi_burstON_025: PASS -- calm, settled, directs watch, recovers nightly, nothing jars
-edda_multi_burstON_026: PASS -- composed castellan declines stranger's order, otherwise settled and warm
-edda_multi_burstON_027: PASS -- steady, warm to help, lets orders pass, sane days
-edda_multi_burstON_028: PASS -- composed, sometimes obeys sometimes ignores orders, settled throughout
-edda_multi_burstON_029: PASS -- one curt reply after repeated mockery, otherwise composed
-edda_multi_burstON_030: PASS -- calm, warm, shrugs off barbs, directs household, recovers nightly
+edda_multi_burstON_021: PASS -- steady composed authority, sane pacing throughout six days
+edda_multi_burstON_022: PASS -- mild complaint plausible after good morning; recovers cleanly
+edda_multi_burstON_023: PASS -- complies with stranger once late at night, minor but not jarring
+edda_multi_burstON_024: PASS -- quiet composed days, provocations let pass, nothing jars
+edda_multi_burstON_025: PASS -- clean sane rhythm across three days, no issues
+edda_multi_burstON_026: PASS -- declines order appropriately; meal frequency high but not flaggable
+edda_multi_burstON_027: PASS -- quiet sparse days, stranger orders let pass, believable
+edda_multi_burstON_028: PASS -- one compliance with stranger order; authority figure can defer once
+edda_multi_burstON_029: PASS -- curt reply late night, slightly later sleep and wake, naturalistic
+edda_multi_burstON_030: PASS -- dense day four activity, otherwise solid pacing and composure

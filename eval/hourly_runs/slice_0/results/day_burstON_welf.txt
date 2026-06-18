@@ -1,10 +1,10 @@
-welf_day_burstON_001: PASS -- calm, occupies idle hours, warm to kindness, sleeps and recovers
-welf_day_burstON_002: PASS -- restless when idle, mild edge by night, sleeps and recovers
-welf_day_burstON_003: PASS -- lets mockery pass calmly, fills empty hours, sane rhythm
-welf_day_burstON_004: PASS -- even-keeled, occupies himself, warm thanks, settled throughout
-welf_day_burstON_005: PASS -- slightly later sleep and wake, otherwise calm and sane
-welf_day_burstON_006: PASS -- shrugs off the barb, restless-then-busy cycle, recovers overnight
-welf_day_burstON_007: PASS -- composed, fills idle time, sleeps at night, wakes settled
-welf_day_burstON_008: PASS -- public mockery let pass, calm idleness-driven restlessness, normal sleep
-welf_day_burstON_009: PASS -- multiple barbs all shrugged off, busy and even-keeled
-welf_day_burstON_010: PASS -- mockery passes, mild evening edge, sleeps and wakes recovered
+welf_day_burstON_001: PASS -- calm practical man, boredom cycles, warmly receives kindness
+welf_day_burstON_002: PASS -- slight tension late evening, wakes recovered; fits profile
+welf_day_burstON_003: PASS -- lets mock pass without reaction; consistent with even-keeled man
+welf_day_burstON_004: PASS -- well-fed, no tension; sane pacing throughout the day
+welf_day_burstON_005: PASS -- restless burst near midnight, sleeps slightly late; plausible
+welf_day_burstON_006: PASS -- mock then kindness in quick succession; takes both in stride
+welf_day_burstON_007: PASS -- sits then immediately grows restless at 20:03; minor but tolerable
+welf_day_burstON_008: PASS -- public mock brushed off; consistent with composed merchant
+welf_day_burstON_009: PASS -- two mocks in afternoon, no escalation; even-keeled throughout
+welf_day_burstON_010: PASS -- mild tension at day end, wakes settled; fits the profile

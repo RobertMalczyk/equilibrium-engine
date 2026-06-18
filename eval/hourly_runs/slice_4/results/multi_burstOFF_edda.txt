@@ -1,10 +1,10 @@
-edda_multi_burstOFF_041: PASS -- calm, composed, sleeps and recovers; fitting for castellan.
-edda_multi_burstOFF_042: PASS -- steady commanding days; lets mockery pass, sane pacing.
-edda_multi_burstOFF_043: PASS -- composed, directs the watch, recovers nightly; coherent.
-edda_multi_burstOFF_044: PASS -- five sane days, in-command, mockery shrugged off.
-edda_multi_burstOFF_045: PASS -- mild complaints/declines to strangers fit a firm castellan.
-edda_multi_burstOFF_046: PASS -- quiet, composed, well-paced days; nothing jars.
-edda_multi_burstOFF_047: PASS -- curt reply to public mockery fits her authority.
-edda_multi_burstOFF_048: PASS -- five settled commanding days, sane recovery.
-edda_multi_burstOFF_049: PASS -- calm, in-command, believable pacing throughout.
-edda_multi_burstOFF_050: PASS -- cold curt reply and refusal under repeated mockery, fitting.
+edda_multi_burstOFF_041: PASS -- settled baseline, sane pacing, appropriate variation across 3 days
+edda_multi_burstOFF_042: PASS -- well-supported days, minor double-soup artifact, consistent profile
+edda_multi_burstOFF_043: PASS -- kindness met with no reaction once, minor oddity, otherwise coherent
+edda_multi_burstOFF_044: PASS -- frequent early soups but sane; calm composure under barbs holds
+edda_multi_burstOFF_045: PASS -- escalating resistance to repeated orders across day 2 is coherent
+edda_multi_burstOFF_046: PASS -- very quiet three days, no evening meal logged day 2, not alarming
+edda_multi_burstOFF_047: PASS -- curt reply to public mock fits; two soups 2min apart is artifact only
+edda_multi_burstOFF_048: PASS -- dense kindness days, quieter day 5, good variation, sane arc
+edda_multi_burstOFF_049: PASS -- four Halgrim helps in day 3 high but plausible; day 4 bare, fine
+edda_multi_burstOFF_050: PASS -- three mocks erode composure then refusal; quick recovery fits profile

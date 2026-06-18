@@ -1,10 +1,10 @@
-branic_multi_burstOFF_031: PASS -- calm green recruit, restless/soup cycle sane, sleeps and recovers
-branic_multi_burstOFF_032: PASS -- escalating defiance to Halgrim believable, resets nightly, bounded
-branic_multi_burstOFF_033: FLAG -- early heavy refusals/defiance toward mentor before much provocation
-branic_multi_burstOFF_034: PASS -- mostly compliant, occasional flare and refusal, recovers nightly
-branic_multi_burstOFF_035: PASS -- warm, compliant, rare mild edge; sane pacing throughout
-branic_multi_burstOFF_036: PASS -- calm, lets mockery pass, one flare; believable recruit
-branic_multi_burstOFF_037: FLAG -- Day1 18:29 full fury eruption to first mild mock
-branic_multi_burstOFF_038: PASS -- compliant with occasional flare/eruption after buildup, recovers nightly
-branic_multi_burstOFF_039: PASS -- compliant, lets barbs pass, calm sane days
-branic_multi_burstOFF_040: PASS -- compliant, one flare after order-mock buildup, recovers nightly
+branic_multi_burstOFF_031: PASS -- calm uneventful days, boredom cycles normal
+branic_multi_burstOFF_032: PASS -- mockery erosion arc, defiance builds, sleep resets
+branic_multi_burstOFF_033: PASS -- sustained refusals under grinding Halgrim pressure
+branic_multi_burstOFF_034: PASS -- escalation then recovery, cold soup response within range
+branic_multi_burstOFF_035: PASS -- low-stress days, even-keeled, rain handled smoothly
+branic_multi_burstOFF_036: PASS -- snap discharges temper, subsequent mocks let pass
+branic_multi_burstOFF_037: PASS -- Day 1 fury slightly abrupt but carry-in state plausible
+branic_multi_burstOFF_038: PASS -- Marta coldness after Halgrim fury minor but acceptable
+branic_multi_burstOFF_039: PASS -- clean cooperative arc, no anomalies
+branic_multi_burstOFF_040: PASS -- positive start, tense mid, calm recovery arc

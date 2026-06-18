@@ -1,10 +1,10 @@
-halgrim_multi_burstON_081: PASS -- quiet days, Wojsław friction handled, sane recovery
-halgrim_multi_burstON_082: PASS -- earned escalation under Wojsław pressure across 4 days
-halgrim_multi_burstON_083: PASS -- very calm run, minimal provocation, fits profile well
-halgrim_multi_burstON_084: PASS -- rain plus Wojsław mocking builds tension credibly
-halgrim_multi_burstON_085: PASS -- long simmering state, Marta blowback reads as displaced irritability
-halgrim_multi_burstON_086: PASS -- rain day absorbed well, good recovery arc across 5 days
-halgrim_multi_burstON_087: PASS -- gradual Wojsław escalation, tension spill to Edda plausible
-halgrim_multi_burstON_088: PASS -- multi-day strain, Marta contempt is displaced but sustained state warrants
-halgrim_multi_burstON_089: PASS -- quiet build over 3 days, Wojsław tension earned gradually
-halgrim_multi_burstON_090: PASS -- Wojsław barrage Day1 earns sustained tension, Edda spill plausible
+halgrim_multi_burstON_081: PASS -- calm days, appropriate warmth and mild friction
+halgrim_multi_burstON_082: PASS -- coherent escalation under repeated Wojsław pressure
+halgrim_multi_burstON_083: PASS -- quiet days, minimal friction handled with composure
+halgrim_multi_burstON_084: PASS -- rain plus Wojsław friction drives tension, sleep resets work
+halgrim_multi_burstON_085: PASS -- multi-day buildup, displaced snap at Marta fits burst logic
+halgrim_multi_burstON_086: PASS -- mostly calm stretch, brief edge recovers, plausible pacing
+halgrim_multi_burstON_087: PASS -- tension builds across days, mornings reset, Edda spillover minor
+halgrim_multi_burstON_088: PASS -- chronic pressure; Marta cold contempt Day 6 is displaced aggression
+halgrim_multi_burstON_089: PASS -- gradual accumulation over days, sleep resets, sane pacing
+halgrim_multi_burstON_090: PASS -- heavy Day 1 Wojsław baiting drives multi-day residual tension

@@ -1,10 +1,10 @@
-wojslaw_multi_burstOFF_051: PASS -- sane cadence, warm to kindness, flares at mockery, sleeps nightly
-wojslaw_multi_burstOFF_052: PASS -- believable arc, recovers each night, anger fits proud temper
-wojslaw_multi_burstOFF_053: PASS -- escalating mockery days plausible, resets overnight, fitting profile
-wojslaw_multi_burstOFF_054: PASS -- normal pacing, warm-then-prickly, no absurd persistence
-wojslaw_multi_burstOFF_055: PASS -- calm baseline with provoked flares, sleeps and recovers
-wojslaw_multi_burstOFF_056: PASS -- heavy mockery met with fury, refusals fit pride
-wojslaw_multi_burstOFF_057: PASS -- sane day/night rhythm, defiant refusals consistent with rank
-wojslaw_multi_burstOFF_058: PASS -- believable buildup of temper, nightly reset, profile-consistent
-wojslaw_multi_burstOFF_059: PASS -- flares at insults, warm to soup, recovers overnight
-wojslaw_multi_burstOFF_060: PASS -- prickly proud noble, provoked anger only, sleeps nightly
+wojslaw_multi_burstOFF_051: PASS -- sane pacing, mocks trigger eruptions, sleep resets
+wojslaw_multi_burstOFF_052: PASS -- escalating mock sequence on Day 3, stable rhythm across 6 days
+wojslaw_multi_burstOFF_053: PASS -- heavy Day 3-4 provocation load, each eruption has a trigger
+wojslaw_multi_burstOFF_054: PASS -- Day 2 escalation coherent; first mock absorbed, later ones break him
+wojslaw_multi_burstOFF_055: PASS -- double mock at 16:58-17:00 Day 4 produces natural back-to-back flare
+wojslaw_multi_burstOFF_056: PASS -- Day 1 four eruptions all provoked; settles between, fits profile
+wojslaw_multi_burstOFF_057: PASS -- Day 6 dense mocking, first absorbed then erupts; believable accumulation
+wojslaw_multi_burstOFF_058: PASS -- Day 1 warmth buffers early Day 2 mock; later eruptions well-earned
+wojslaw_multi_burstOFF_059: PASS -- Day 3 very tense with many refusals; late mock let pass after settling
+wojslaw_multi_burstOFF_060: PASS -- Day 3 kindness met with snap when deeply wound; within profile

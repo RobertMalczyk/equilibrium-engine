@@ -1,10 +1,10 @@
-wojslaw_day_burstOFF_091: PASS -- flares at mocks, calms between, normal pacing
-wojslaw_day_burstOFF_092: PASS -- heavy provocation day, eruptions and defiance fit pride
-wojslaw_day_burstOFF_093: PASS -- four eruptions all mock-triggered, sustained tension plausible
-wojslaw_day_burstOFF_094: PASS -- muted day, late snap at mock, within variable-temper range
-wojslaw_day_burstOFF_095: PASS -- warmth then eruption both provocation-linked, fast swings passable
-wojslaw_day_burstOFF_096: PASS -- quieter day, mocks let pass, no profile violation
-wojslaw_day_burstOFF_097: FLAG -- erupts at soup delivery, no provocation in the act
-wojslaw_day_burstOFF_098: PASS -- inconsistent responses but within variable-temper range
-wojslaw_day_burstOFF_099: PASS -- genuinely kind day, sustained warmth, no insults until late
-wojslaw_day_burstOFF_100: PASS -- erupts at mock, calms quickly, responses fit stimuli
+wojslaw_day_burstOFF_091: PASS -- snaps at mockery, recovers, sane pacing throughout
+wojslaw_day_burstOFF_092: PASS -- fury at insults, refusals to orders, bristles at kindness
+wojslaw_day_burstOFF_093: PASS -- four fury eruptions from mockery, tense evening, plausible
+wojslaw_day_burstOFF_094: PASS -- early tolerance then snaps later, borderline but coherent
+wojslaw_day_burstOFF_095: PASS -- volatile cycling, many warm responses to strangers borderline
+wojslaw_day_burstOFF_096: PASS -- early mocks absorbed, snaps publicly later, acceptable arc
+wojslaw_day_burstOFF_097: PASS -- fury on soup delivery carried from prior mock, tight but passes
+wojslaw_day_burstOFF_098: FLAG -- too passive all day; proud man absorbs mocks with no reaction
+wojslaw_day_burstOFF_099: FLAG -- repeatedly warm and grateful all day; contradicts disdainful profile
+wojslaw_day_burstOFF_100: PASS -- snaps at mockery, recovers between events, sane rhythm

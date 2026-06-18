@@ -1,10 +1,10 @@
-branic_day_burstON_021: PASS -- sane day, restless and bored, lets barbs pass
-branic_day_burstON_022: PASS -- calm productive day, warm to kindnesses, sleeps well
-branic_day_burstON_023: PASS -- believable bored-recruit rhythm, recovers overnight
-branic_day_burstON_024: PASS -- steady day, many kindnesses warmly received
-branic_day_burstON_025: FLAG -- erupts in fury at a stranger's kindness, jarring
-branic_day_burstON_026: PASS -- ordinary busy day, takes mockery in stride
-branic_day_burstON_027: PASS -- quiet bored day, mild tension by evening
-branic_day_burstON_028: PASS -- dense orders day, obeys, sleeps and recovers
-branic_day_burstON_029: PASS -- normal restless day, lets repeated mockery pass
-branic_day_burstON_030: PASS -- bristles at public mockery, plausible thin-skinned reaction
+branic_day_burstON_021: PASS -- Steady day, tension builds late, sleeps and resets fine.
+branic_day_burstON_022: PASS -- Calm well-supported day, no jarring moments, clean sleep.
+branic_day_burstON_023: PASS -- Mild tension arc in evening, soup softens it, sound pacing.
+branic_day_burstON_024: PASS -- Multiple kindnesses keep him settled all day, plausible.
+branic_day_burstON_025: FLAG -- Erupts at stranger's kindness while tense; displaced outburst plausible but jarring target.
+branic_day_burstON_026: PASS -- Marta-heavy support holds temper even under Halgrim's jabs.
+branic_day_burstON_027: PASS -- Quiet day, mild evening tension, wakes easy; coherent.
+branic_day_burstON_028: PASS -- Many Halgrim orders ignored without reaction; ends tense but not absurd.
+branic_day_burstON_029: PASS -- Two public jabs let pass; evening tension without explosion, fine.
+branic_day_burstON_030: PASS -- Bristles at public mock when already tense; soup calms; believable arc.

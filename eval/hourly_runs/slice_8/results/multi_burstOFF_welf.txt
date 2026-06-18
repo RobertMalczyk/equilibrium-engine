@@ -1,10 +1,10 @@
-welf_multi_burstOFF_081: PASS -- steady boredom cycles, mocks ignored, sane pacing throughout
-welf_multi_burstOFF_082: PASS -- composed under mocks, morning tension from early work plausible
-welf_multi_burstOFF_083: PASS -- brief restless flicker at 22:36-42 minor, overall sane
-welf_multi_burstOFF_084: PASS -- tense after kindness at 06:14 slightly odd but boredom dominates
-welf_multi_burstOFF_085: PASS -- recurring morning tension pattern consistent across days
-welf_multi_burstOFF_086: PASS -- stable six-day rhythm, recovers each morning, sane
-welf_multi_burstOFF_087: PASS -- soup ignored on rain watch; all else fits composed merchant
-welf_multi_burstOFF_088: PASS -- midnight sleep transition awkward but not a model failure
-welf_multi_burstOFF_089: PASS -- four kindnesses close together on Day 3 dense but not absurd
-welf_multi_burstOFF_090: PASS -- clean three-day record, boredom and warmth cycling normally
+welf_multi_burstOFF_081: PASS -- steady composed man, boredom cycling, sleeps and resets cleanly
+welf_multi_burstOFF_082: PASS -- even-keeled throughout, mocks brushed off, tension mild and transient
+welf_multi_burstOFF_083: PASS -- sane pacing, kindnesses welcomed, rain day handled without drama
+welf_multi_burstOFF_084: PASS -- composed under rain and mockery, restlessness cycles believably
+welf_multi_burstOFF_085: PASS -- calm merchant profile consistent, restless-then-busy loop plausible
+welf_multi_burstOFF_086: PASS -- six-day run stable, boredom/ease rhythm holds, no jarring spikes
+welf_multi_burstOFF_087: PASS -- multi-day rain days absorbed, tense mornings resolve by midday
+welf_multi_burstOFF_088: PASS -- late-night work then sleep slightly compressed but within range
+welf_multi_burstOFF_089: PASS -- composed throughout, kindnesses register warmly, mockery ignored
+welf_multi_burstOFF_090: PASS -- sane three-day arc, boredom drives restlessness, no contradiction

@@ -1,10 +1,10 @@
-halgrim_day_burstOFF_061: PASS -- calm steady day, warm to kindness, sleeps well
-halgrim_day_burstOFF_062: PASS -- lets mocks pass, one curt reply, even keel
-halgrim_day_burstOFF_063: PASS -- mounting edge, curt then refuses Wojsław, plausible
-halgrim_day_burstOFF_064: PASS -- cold curtness at Wojsław, otherwise settled and steady
-halgrim_day_burstOFF_065: PASS -- placid uneventful day, calm throughout, sleeps soundly
-halgrim_day_burstOFF_066: PASS -- warm and settled, lets Wojsław mock pass
-halgrim_day_burstOFF_067: PASS -- calm day, refuses Wojsław's order, consistent with resentment
-halgrim_day_burstOFF_068: PASS -- curt to Wojsław, obeys Edda, even tempered
-halgrim_day_burstOFF_069: PASS -- settled day, obeys Edda, warm to Marta
-halgrim_day_burstOFF_070: PASS -- many kindnesses, warm and settled, lets mock pass
+halgrim_day_burstOFF_061: PASS -- calm, fed, settled; profile fits perfectly.
+halgrim_day_burstOFF_062: PASS -- Wojsław barbs draw mild curtness; credible escalation.
+halgrim_day_burstOFF_063: PASS -- repeated barbs build tension; refusal of Wojsław order fits.
+halgrim_day_burstOFF_064: PASS -- curtness after provocation, recovers; sane pacing.
+halgrim_day_burstOFF_065: PASS -- very quiet day; Wojsław absorbed without reaction; fits.
+halgrim_day_burstOFF_066: PASS -- calm throughout despite Wojsław; fits iron self-control profile.
+halgrim_day_burstOFF_067: PASS -- late Wojsław order refused; fits accumulated low-grade tension.
+halgrim_day_burstOFF_068: PASS -- two barbs draw mild curtness; sane recovery; fits.
+halgrim_day_burstOFF_069: PASS -- uneventful day; obeys Edda consistently; profile fits.
+halgrim_day_burstOFF_070: PASS -- warm Marta interactions dominate; Wojsław absorbed; fits.

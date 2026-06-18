@@ -1,10 +1,10 @@
-welf_multi_burstOFF_041: PASS -- sane boredom/rest cycle, sleeps, calm under mocks
-welf_multi_burstOFF_042: PASS -- believable pacing, recovers nightly, even-keeled throughout
-welf_multi_burstOFF_043: PASS -- consistent calm, restless then occupies himself, warm to kindness
-welf_multi_burstOFF_044: PASS -- rain/watch wears but no jarring reaction, calm
-welf_multi_burstOFF_045: PASS -- steady boredom cycle, lets mocks pass, sleeps well
-welf_multi_burstOFF_046: PASS -- sane daily rhythm, calm and warm as profiled
-welf_multi_burstOFF_047: PASS -- believable spans, rain handled calmly, recovers nightly
-welf_multi_burstOFF_048: PASS -- one isolated snap after rain+public mock, otherwise calm
-welf_multi_burstOFF_049: PASS -- calm under repeated mocks and rain, sane pacing
-welf_multi_burstOFF_050: PASS -- steady even-keeled days, recovers each night, plausible
+welf_multi_burstOFF_041: PASS -- steady boredom cycles, mocks let pass, sane pacing
+welf_multi_burstOFF_042: PASS -- mild early tension, boredom seeks, recovers each day
+welf_multi_burstOFF_043: PASS -- late-evening kindness cluster unusual but not jarring
+welf_multi_burstOFF_044: PASS -- rain day, tension carries overnight, clears by morning
+welf_multi_burstOFF_045: PASS -- rain on day 5, settles normally, boredom pattern consistent
+welf_multi_burstOFF_046: PASS -- late sleep day 3, tension carry-over, resolves cleanly
+welf_multi_burstOFF_047: PASS -- very late sleep day 4 from restlessness, plausible
+welf_multi_burstOFF_048: FLAG -- snaps at barb day 4; profile says not hot-tempered
+welf_multi_burstOFF_049: PASS -- rain days, mocks let pass, tension from accumulation not anger
+welf_multi_burstOFF_050: FLAG -- kindness at 13:23 day 6 gets no-reaction; contradicts pattern

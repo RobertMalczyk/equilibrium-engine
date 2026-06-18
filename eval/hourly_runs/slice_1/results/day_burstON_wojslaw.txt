@@ -1,10 +1,10 @@
-wojslaw_day_burstON_011: PASS -- Flares at mocks, warm to kindness, sleeps and wakes recovered.
-wojslaw_day_burstON_012: PASS -- Believable prickly day, refusals and eruptions, calm night reset.
-wojslaw_day_burstON_013: PASS -- Mostly calm day with proportionate flares; sane pacing.
-wojslaw_day_burstON_014: PASS -- Temper builds over day, eruptions fit; recovers overnight.
-wojslaw_day_burstON_015: PASS -- Hot day, many eruptions but plausible for prickly noble.
-wojslaw_day_burstON_016: PASS -- Mix of warmth, refusals, eruptions; coherent pacing and reset.
-wojslaw_day_burstON_017: PASS -- Calm day, occasional flares; believable and recovers overnight.
-wojslaw_day_burstON_018: PASS -- Sustained edginess after eruptions, plausible; sleeps and recovers.
-wojslaw_day_burstON_019: PASS -- Mostly calm, single late eruption; sane day and reset.
-wojslaw_day_burstON_020: PASS -- Very hot day, many refusals/eruptions; plausible for prickly noble.
+wojslaw_day_burstON_011: PASS -- fast recovery but afternoon tension arc holds
+wojslaw_day_burstON_012: PASS -- two clear outbursts with recovery, residual bristle fits
+wojslaw_day_burstON_013: PASS -- calm day, positive inputs, one afternoon snap, consistent
+wojslaw_day_burstON_014: PASS -- erupts at kindness after sustained wound-up afternoon
+wojslaw_day_burstON_015: PASS -- heavy friction day, hair-trigger state, kindness also triggers
+wojslaw_day_burstON_016: PASS -- clear trigger points, morning warmth, orders refused as befits noble
+wojslaw_day_burstON_017: PASS -- light day, one public-mock eruption, residual bristle after
+wojslaw_day_burstON_018: PASS -- sustained tension plausible given dense insults, sleep resets
+wojslaw_day_burstON_019: PASS -- quiet day, one late outburst, quick settle, wakes calm
+wojslaw_day_burstON_020: PASS -- full saturation under relentless friction, sleep reset correct

@@ -1,10 +1,10 @@
-welf_day_burstOFF_041: PASS -- calm idle merchant, restless cycles, sleeps and recovers
-welf_day_burstOFF_042: PASS -- steady day, boredom rises, warm thanks, sane sleep
-welf_day_burstOFF_043: PASS -- believable pacing, kindnesses welcomed, restless idleness, nightly recovery
-welf_day_burstOFF_044: PASS -- lets mockery pass, even-keeled, sane day rhythm
-welf_day_burstOFF_045: PASS -- composed idle merchant, normal cycles, recovers after sleep
-welf_day_burstOFF_046: PASS -- shrugs off jibe, calm boredom-driven day, sound pacing
-welf_day_burstOFF_047: PASS -- mockery ignored, settled merchant, believable restless-rest cycles
-welf_day_burstOFF_048: PASS -- calm day, warm to kindness, sleeps and recovers
-welf_day_burstOFF_049: PASS -- even-tempered, restless idleness, mild evening edge, recovers overnight
-welf_day_burstOFF_050: PASS -- composed merchant, well-fed, sane boredom cycles, normal sleep
+welf_day_burstOFF_041: PASS -- steady day, boredom cycles resolved, mild tension before sleep normal
+welf_day_burstOFF_042: PASS -- well-paced, boredom rises and resolves, kindnesses welcomed appropriately
+welf_day_burstOFF_043: PASS -- sane rhythm, frequent soup at odd hours slightly dense but not jarring
+welf_day_burstOFF_044: PASS -- barbed remark let pass fits composed profile, day flows credibly
+welf_day_burstOFF_045: PASS -- calm, settled pattern with restlessness cycling naturally through the day
+welf_day_burstOFF_046: PASS -- mock ignored cleanly, day paced well, late restlessness before sleep fine
+welf_day_burstOFF_047: PASS -- mock let pass, kindness then provocation sequence reads naturally
+welf_day_burstOFF_048: PASS -- no rest break in morning stretch but pace otherwise sane throughout
+welf_day_burstOFF_049: PASS -- slight tension at 22:04 then rests, wakes settled, credible arc
+welf_day_burstOFF_050: FLAG -- two soup deliveries within 34 minutes (08:06 and 08:40) looks like a glitch

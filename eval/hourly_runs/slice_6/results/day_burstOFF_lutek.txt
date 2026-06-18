@@ -1,10 +1,10 @@
-lutek_day_burstOFF_061: PASS -- restless cycles, mockery shrugged off, sane day/night rhythm
-lutek_day_burstOFF_062: PASS -- warm to kindness, restless-busy loop, sleeps and recovers
-lutek_day_burstOFF_063: PASS -- insults pass, easy good humour, believable pacing
-lutek_day_burstOFF_064: PASS -- novelty-seeking cycles, warm thanks, normal sleep recovery
-lutek_day_burstOFF_065: PASS -- restless and amused, kindnesses warmly received, sane rhythm
-lutek_day_burstOFF_066: PASS -- mockery shrugged, busy-rest cycles, ordinary day and night
-lutek_day_burstOFF_067: PASS -- insults roll off, restless tinkering, recovers after sleep
-lutek_day_burstOFF_068: PASS -- late sleep but coherent, warm, restless-busy loop holds
-lutek_day_burstOFF_069: PASS -- warm to help, restless cycles, late but sane sleep
-lutek_day_burstOFF_070: PASS -- mockery passes, novelty-seeking, sleeps and wakes recovered
+lutek_day_burstOFF_061: PASS -- restless-then-settled rhythm, insults ignored, sane pacing
+lutek_day_burstOFF_062: PASS -- warm social day, curiosity-driven, sleeps normally
+lutek_day_burstOFF_063: PASS -- insults roll off, alternates rest and tinkering, coherent
+lutek_day_burstOFF_064: PASS -- kindnesses land warmly, busy-idle rhythm intact throughout
+lutek_day_burstOFF_065: FLAG -- first soup ignored, second accepted; odd flat non-reaction to food
+lutek_day_burstOFF_066: PASS -- mocks ignored, double-rest after kindness minor but plausible
+lutek_day_burstOFF_067: PASS -- insults bounce off, warm to help, sane rhythm and sleep
+lutek_day_burstOFF_068: FLAG -- tense at 18:03 with no prior stressor visible; slight oddity
+lutek_day_burstOFF_069: PASS -- well-supported mood, busy and warm, late sleep plausible
+lutek_day_burstOFF_070: PASS -- tense late but kindness resolves it; insult ignored, sane day

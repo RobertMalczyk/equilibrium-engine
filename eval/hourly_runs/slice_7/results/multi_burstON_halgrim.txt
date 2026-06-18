@@ -1,10 +1,10 @@
-halgrim_multi_burstON_071: PASS -- tension builds across days, sleep resets hold, displaced aggression fits
-halgrim_multi_burstON_072: PASS -- calm uneventful days, measured responses throughout
-halgrim_multi_burstON_073: PASS -- Wojslaw provocation escalation, Edda curt only at peak tension
-halgrim_multi_burstON_074: PASS -- multi-day grind, morning resets work, wound-tight label appropriate
-halgrim_multi_burstON_075: PASS -- Edda contempt at day 4 peak is tight but state supports it
-halgrim_multi_burstON_076: PASS -- quiet until rain day, tension arc clean and believable
-halgrim_multi_burstON_077: PASS -- Marta contempt at day 3 peak is displaced aggression, fits model
-halgrim_multi_burstON_078: PASS -- day 4 tense after Marta soup is minor oddity, overall sane
-halgrim_multi_burstON_079: PASS -- very stoic run, both Wojslaw barbs absorbed, consistent with profile
-halgrim_multi_burstON_080: PASS -- day 3 sustained tension without new input is mild, residual plausible
+halgrim_multi_burstON_071: PASS -- six-day grind under rain and Wojslaw reads cleanly
+halgrim_multi_burstON_072: PASS -- calm uneventful days, single Wojslaw friction handled well
+halgrim_multi_burstON_073: PASS -- Wojslaw pressure accumulates believably across three days
+halgrim_multi_burstON_074: PASS -- rapid morning mockery cascade, wound tight; resets correctly
+halgrim_multi_burstON_075: PASS -- mostly quiet; rain days produce expected low-grade tension
+halgrim_multi_burstON_076: PASS -- calm baseline, Wojslaw friction produces proportionate spikes
+halgrim_multi_burstON_077: PASS -- heavy Wojslaw day erodes control; displaced soup snap plausible
+halgrim_multi_burstON_078: PASS -- tension carries through days with appropriate Wojslaw refusals
+halgrim_multi_burstON_079: PASS -- iron self-control, two Wojslaw mocks absorbed without reaction
+halgrim_multi_burstON_080: PASS -- Wojslaw mockery builds across four days; contempt proportionate

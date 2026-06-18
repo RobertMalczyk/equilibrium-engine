@@ -1,10 +1,10 @@
-welf_multi_burstON_041: PASS -- calm, restless from idleness, lets mocks pass, recovers nightly
-welf_multi_burstON_042: PASS -- even-keeled across five days, sane pacing, mocks shrugged off
-welf_multi_burstON_043: PASS -- composed throughout, restlessness rises and falls believably
-welf_multi_burstON_044: PASS -- rain and mocks taken in stride, sleeps and recovers
-welf_multi_burstON_045: PASS -- steady, idleness-driven restlessness, no jarring reactions
-welf_multi_burstON_046: PASS -- calm pacing, mocks ignored, nights reset temper
-welf_multi_burstON_047: PASS -- composed, restless when idle, weathers rain and barbs
-welf_multi_burstON_048: FLAG -- calm man snaps angrily at a mock (Day 4)
-welf_multi_burstON_049: PASS -- even-tempered, lets all barbs pass, sane days
-welf_multi_burstON_050: FLAG -- composed man flares up and snaps angrily (Day 6)
+welf_multi_burstON_041: PASS -- calm merchant, boredom cycles, mocks let pass, sane pacing
+welf_multi_burstON_042: PASS -- multi-day wear builds tension; sleep resets; all plausible
+welf_multi_burstON_043: PASS -- tense spell resolves; mocks let pass; kindnesses warmly received
+welf_multi_burstON_044: PASS -- rain days add wear; tense mornings settle with soup; sane
+welf_multi_burstON_045: PASS -- rain day handled calmly; tense mornings; no outburst; fits profile
+welf_multi_burstON_046: PASS -- late-night restlessness; tense mornings; recovers each day; sane
+welf_multi_burstON_047: PASS -- fitful late Day 4 but plausible for restless stranded man
+welf_multi_burstON_048: PASS -- Day 4 outburst after 3-day rain/boredom build; recovers; sane
+welf_multi_burstON_049: PASS -- mocks let pass across rainy days; no outburst; patient profile fits
+welf_multi_burstON_050: PASS -- Day 6 snap plausible after six days; post-burst flat kindness minor
