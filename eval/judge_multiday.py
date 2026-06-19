@@ -25,6 +25,7 @@ from eval.calibrated import believable_day_layout, load_eval_persona_timescale
 from eval.render_narration import (
     ACTION_PLAIN,
     DISPLAY,
+    POSITIVE_EVENTS,
     PRON,
     REACTIVE,
     event_phrase,
@@ -166,6 +167,9 @@ def narrate(persona: str, cfg, sc, n_days: int) -> str:
             tail = reaction_phrase(reaction, score)
             if tail:
                 add(t, f"{phrase}. {Subj} {tail.format(r=refl)}.")
+            elif ev.type in POSITIVE_EVENTS:
+                # M2: a kindness with no hostile reaction is acknowledged, never the slight-style phrase.
+                add(t, f"{phrase}. {Subj} takes it without fuss, a small nod.")
             else:
                 add(t, f"{phrase}. {Subj} lets it pass, no notable reaction.")
             prev_act = reaction
