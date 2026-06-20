@@ -1,0 +1,10 @@
+welf_multi_burstOFF_071: PASS -- steady composure across 6 days, cycles sane
+welf_multi_burstOFF_072: PASS -- kindness-heavy day 1 but Welf receives it naturally
+welf_multi_burstOFF_073: PASS -- two mocks accumulate mild evening tension, fits profile
+welf_multi_burstOFF_074: PASS -- rain and mocks taken in stride, composed throughout
+welf_multi_burstOFF_075: PASS -- late-night micro-flicker unremarkable, settles and sleeps
+welf_multi_burstOFF_076: PASS -- rain days and mock handled without complaint, consistent
+welf_multi_burstOFF_077: PASS -- two mocks build mild tension by evening, resolves overnight
+welf_multi_burstOFF_078: PASS -- morning tension each day fades after breakfast, believable
+welf_multi_burstOFF_079: PASS -- late sleep day 3 and accumulated edge day 4, sane arc
+welf_multi_burstOFF_080: PASS -- clean three days, mock near bedtime let pass, no issues

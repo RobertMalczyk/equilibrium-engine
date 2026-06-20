@@ -1,0 +1,10 @@
+branic_day_burstON_031: PASS -- Day flows naturally; temper lingers after barb, clears by sleep.
+branic_day_burstON_032: FLAG -- Lingering temper at 18:03 and 20:03 with no preceding provocation shown.
+branic_day_burstON_033: PASS -- Mild tension builds evening with no trigger; plausible restless buildup.
+branic_day_burstON_034: PASS -- Smooth day, kindnesses stack, brief edge at 20:03 resolves naturally.
+branic_day_burstON_035: PASS -- Mocks absorbed quietly; tension accumulates into evening, believable.
+branic_day_burstON_036: PASS -- Snaps at order after long tense evening; lingers, sleeps clear.
+branic_day_burstON_037: FLAG -- Erupts at 14:00, looks settled at ease moments later at 14:02.
+branic_day_burstON_038: PASS -- Quiet day, mild edge late evening, nothing jarring.
+branic_day_burstON_039: FLAG -- Erupts at 21:47, then bristles at Halgrim's kindness; displaced-anger plausible but bristle at kindness needs scrutiny.
+branic_day_burstON_040: FLAG -- Snaps angrily at Halgrim's kindness at 19:23 with no prior provocation in the record.

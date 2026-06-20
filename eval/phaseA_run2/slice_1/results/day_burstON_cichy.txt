@@ -1,0 +1,10 @@
+cichy_day_burstON_011: PASS -- calm day, guard kindness taken neutrally, fits captive.
+cichy_day_burstON_012: PASS -- morning snap fades slowly, sustained edge fits resentful prisoner.
+cichy_day_burstON_013: PASS -- morning flare, lingering tension, settles by night; coherent arc.
+cichy_day_burstON_014: FLAG -- erupts at guard mock minutes after calm soup receipt; too abrupt reset.
+cichy_day_burstON_015: PASS -- tension builds mid-day after mock, lingers plausibly into evening.
+cichy_day_burstON_016: PASS -- evening escalation under repeated mocking; flare-up fits accumulated edge.
+cichy_day_burstON_017: PASS -- stranger warmth softens nothing lasting; guard curtness fits the grudge.
+cichy_day_burstON_018: PASS -- sustained tension under repeated guard mockery; pacing believable.
+cichy_day_burstON_019: PASS -- steady simmering, curt to guards, settles only late; fits profile.
+cichy_day_burstON_020: FLAG -- "hasn't shaken temper" at 20:03 with no provocation since 09:50; gap too long.

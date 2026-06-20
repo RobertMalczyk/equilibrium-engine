@@ -1,0 +1,10 @@
+edda_multi_burstOFF_091: PASS -- composed castellan, steady days, plausible pacing throughout
+edda_multi_burstOFF_092: PASS -- calm authority, tolerates strangers' orders, sane rhythm
+edda_multi_burstOFF_093: PASS -- quiet days, brief rests, settles strangers well, coherent
+edda_multi_burstOFF_094: PASS -- steady warmth, ignores mock, frequent soup unremarkable
+edda_multi_burstOFF_095: PASS -- curt reply to mockery, then settles; pacing believable
+edda_multi_burstOFF_096: PASS -- sociable day one, declines stranger late; fits her standing
+edda_multi_burstOFF_097: PASS -- multiple strangers ordering her; lets them pass; fits composure
+edda_multi_burstOFF_098: PASS -- very busy day one, then settles; stranger compliance occasional
+edda_multi_burstOFF_099: PASS -- quiet steady days, sane pacing, nothing jars
+edda_multi_burstOFF_100: PASS -- brief tension after mock, quickly resolved; wholly plausible

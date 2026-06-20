@@ -1,0 +1,10 @@
+cichy_day_burstOFF_051: PASS -- mocked mid-afternoon, erupts, then settles by night
+cichy_day_burstOFF_052: PASS -- tense afternoon, erupts at evening mock, recovers before sleep
+cichy_day_burstOFF_053: PASS -- bristles at mock but contains it; day paces believably
+cichy_day_burstOFF_054: PASS -- curt at morning mock, erupts at evening mock, sane arc
+cichy_day_burstOFF_055: PASS -- accepts stranger's kindness; curtness at late guard soup fits
+cichy_day_burstOFF_056: FLAG -- two full eruptions plus a flare in four hours; escalation dense
+cichy_day_burstOFF_057: PASS -- erupts once at public mock, settles, ends calm
+cichy_day_burstOFF_058: PASS -- single eruption mid-evening; stranger kindness warmly taken fits
+cichy_day_burstOFF_059: PASS -- lets first mock pass, erupts at humiliating second, plausible
+cichy_day_burstOFF_060: PASS -- no guard provocation; accepts stranger warmly; day quiet and sane

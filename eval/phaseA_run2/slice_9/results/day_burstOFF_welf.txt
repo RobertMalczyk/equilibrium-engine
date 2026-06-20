@@ -1,0 +1,10 @@
+welf_day_burstOFF_091: PASS -- steady day, boredom cycles, kindness received warmly
+welf_day_burstOFF_092: PASS -- calm pacing, restlessness resolved, sleeps normally
+welf_day_burstOFF_093: PASS -- mocks let pass without reaction, fits composed profile
+welf_day_burstOFF_094: PASS -- late-night edge plausible after long idle day
+welf_day_burstOFF_095: PASS -- even day, no tension, kindness welcomed appropriately
+welf_day_burstOFF_096: PASS -- restlessness resurges after kindness, believable boredom cycle
+welf_day_burstOFF_097: PASS -- many kindnesses, warmth builds naturally, pacing sane
+welf_day_burstOFF_098: PASS -- stays up past midnight, brief tension, then settles
+welf_day_burstOFF_099: PASS -- calm day, boredom returns predictably, sleeps on time
+welf_day_burstOFF_100: PASS -- two soups in minutes, second met with mere nod

@@ -1,0 +1,10 @@
+lutek_day_burstOFF_061: PASS -- restless-then-settled rhythm fits; insults roll off cleanly
+lutek_day_burstOFF_062: PASS -- warm day, kindnesses received gracefully, pacing sane
+lutek_day_burstOFF_063: PASS -- mockery ignored twice, curiosity sustained, natural flow
+lutek_day_burstOFF_064: PASS -- kindnesses warm him, restlessness cycles believably all day
+lutek_day_burstOFF_065: PASS -- two soups close together odd but not jarring; tension resolves
+lutek_day_burstOFF_066: PASS -- mock ignored, rests after kindness, easy-going pacing holds
+lutek_day_burstOFF_067: PASS -- two mocks brushed off, warmth from Marta, sane rhythm
+lutek_day_burstOFF_068: PASS -- slight tension at 18:03 resolves; late night but still credible
+lutek_day_burstOFF_069: PASS -- tense at 18:03, settles by 20:03; sleeps past midnight, fine
+lutek_day_burstOFF_070: PASS -- tense late evening, kindness at 22:40 eases it; clean arc

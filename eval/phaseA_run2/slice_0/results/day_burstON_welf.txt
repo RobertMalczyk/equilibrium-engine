@@ -1,0 +1,10 @@
+welf_day_burstON_001: PASS -- steady day, boredom cycles, kindnesses received warmly
+welf_day_burstON_002: PASS -- mild tension at day's end, plausible for idle man
+welf_day_burstON_003: PASS -- barbed remark let pass, fits composed temperament
+welf_day_burstON_004: PASS -- well-fed day, calm and settled throughout
+welf_day_burstON_005: PASS -- late restlessness before sleep, believable pacing
+welf_day_burstON_006: PASS -- mock let pass, kindness warms him, sane rhythm
+welf_day_burstON_007: PASS -- boredom cycles, evening work burst, natural flow
+welf_day_burstON_008: PASS -- public mock ignored, steady composure fits profile
+welf_day_burstON_009: PASS -- two mocks let pass without reaction, consistent
+welf_day_burstON_010: PASS -- tense at day's end despite kindnesses, plausible buildup

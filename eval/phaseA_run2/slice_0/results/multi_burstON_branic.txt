@@ -1,0 +1,10 @@
+branic_multi_burstON_001: PASS -- calm idle watch days, sane pacing, no absurdities
+branic_multi_burstON_002: PASS -- evening eruption after accumulated tension, clean recovery
+branic_multi_burstON_003: PASS -- multi-day escalation from repeated mockery, plausible refusals
+branic_multi_burstON_004: PASS -- recurring eruptions tied to Halgrim provocations each time
+branic_multi_burstON_005: PASS -- cooperative days with positive inputs, no burst needed
+branic_multi_burstON_006: PASS -- late-night eruption, displaced anger onto Halgrim kindness next day
+branic_multi_burstON_007: PASS -- displaced fury at Marta soup is burst discharge, recovers by afternoon
+branic_multi_burstON_008: PASS -- accumulated tension drives eruptions, rain days add plausible stress
+branic_multi_burstON_009: PASS -- eruption at Marta kindness is displaced discharge, days 2-3 settle
+branic_multi_burstON_010: PASS -- heavy Day 3 provocation cluster explains multi-day residual tension

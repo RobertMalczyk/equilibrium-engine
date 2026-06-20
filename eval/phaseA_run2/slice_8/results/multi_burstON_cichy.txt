@@ -1,0 +1,10 @@
+cichy_multi_burstON_081: PASS -- calm mornings, afternoon tension, resets nightly
+cichy_multi_burstON_082: PASS -- rain and mockery build tension plausibly across six days
+cichy_multi_burstON_083: PASS -- heavy provocation days produce outbursts, mornings reset
+cichy_multi_burstON_084: PASS -- wakes briefly tense day two, residual from late mockery
+cichy_multi_burstON_085: PASS -- multiple eruptions on heavily mocked days, all triggered
+cichy_multi_burstON_086: PASS -- mockery cascade day one, late night eruptions, believable
+cichy_multi_burstON_087: PASS -- duplicate soup lines odd but arc holds across three days
+cichy_multi_burstON_088: PASS -- rain day eruptions, calm day two, consistent pattern
+cichy_multi_burstON_089: PASS -- erupts despite kindnesses when guard provokes, plausible
+cichy_multi_burstON_090: PASS -- quiet grinding tension, moderate curtness, no false notes

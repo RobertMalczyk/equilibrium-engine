@@ -1,0 +1,10 @@
+edda_multi_burstON_071: PASS -- steady castellan, eats, rests, commands; sane pacing
+edda_multi_burstON_072: PASS -- composed across 4 days; stranger mockery brushed off correctly
+edda_multi_burstON_073: PASS -- well-supported days, absorbs barbs calmly, authority intact
+edda_multi_burstON_074: PASS -- brief tension on Day 3 evening resolves; plausible arc
+edda_multi_burstON_075: PASS -- calm authority throughout; pacing and rest intervals believable
+edda_multi_burstON_076: FLAG -- Day 3 refuses repeated stranger orders then mutters; escalation plausible but burst-ON warrants a look
+edda_multi_burstON_077: PASS -- quiet, well-fed days; authority moments natural, no jarring beats
+edda_multi_burstON_078: PASS -- complies with stranger orders from composed baseline; consistent
+edda_multi_burstON_079: PASS -- Day 3 mild grumble at order, quickly settles; sane
+edda_multi_burstON_080: PASS -- busy kindness-rich Day 1, calm Days 2-3; barbs absorbed

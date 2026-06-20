@@ -1,0 +1,10 @@
+welf_day_burstON_041: PASS -- steady day, boredom cycles, slight tension at night fine
+welf_day_burstON_042: PASS -- calm paced day, kindnesses warmly received, plausible
+welf_day_burstON_043: PASS -- frequent soup deliveries but responses coherent, sane rhythm
+welf_day_burstON_044: PASS -- barb ignored as expected, mild edge at night fits
+welf_day_burstON_045: PASS -- even day, boredom and rest cycle naturally, no jarring notes
+welf_day_burstON_046: PASS -- early barb shrugged off, settled day, plausible pacing
+welf_day_burstON_047: PASS -- mock ignored mid-afternoon, grateful for kindness, sane arc
+welf_day_burstON_048: PASS -- no rest before 11:27 but early kindnesses plausibly explain it
+welf_day_burstON_049: PASS -- edge late evening, rests then sleeps, believable wind-down
+welf_day_burstON_050: PASS -- two soups close together odd but accepted graciously, sane day

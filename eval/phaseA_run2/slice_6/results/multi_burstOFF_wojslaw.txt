@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_061: PASS -- pacing sane, eruptions follow provocation buildup
+wojslaw_multi_burstOFF_062: PASS -- storm day recovers overnight, rhythm believable
+wojslaw_multi_burstOFF_063: PASS -- escalating provocations drive eruptions, settles cleanly
+wojslaw_multi_burstOFF_064: PASS -- Day 2 kindness flood plausible, anger spikes on cue
+wojslaw_multi_burstOFF_065: PASS -- tension builds across Day 2, wakes recovered Day 3
+wojslaw_multi_burstOFF_066: PASS -- double-mock eruptions, multi-day pattern sane
+wojslaw_multi_burstOFF_067: PASS -- three evening eruptions Day 1 fit provocation density
+wojslaw_multi_burstOFF_068: PASS -- Day 1 heavy, Day 2 calm recovery, Day 3 moderate
+wojslaw_multi_burstOFF_069: PASS -- displaced anger at soup after morning eruptions fits
+wojslaw_multi_burstOFF_070: PASS -- calm Day 6 situationally justified, no provocations

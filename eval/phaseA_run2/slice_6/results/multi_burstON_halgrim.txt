@@ -1,0 +1,10 @@
+halgrim_multi_burstON_061: PASS -- steady build from Wojslaw friction, wakes settled, coherent arc
+halgrim_multi_burstON_062: PASS -- six-day Wojslaw grind, tension accumulates and resets each morning
+halgrim_multi_burstON_063: FLAG -- Day 4: snaps at Marta's soup with contempt; displaced anger onto warm figure
+halgrim_multi_burstON_064: PASS -- Day 2 simmers without new provocation, plausible for a bottler
+halgrim_multi_burstON_065: PASS -- calm Day 1, rain Day 2, Wojslaw escalation Day 3; wakes settled each morning
+halgrim_multi_burstON_066: PASS -- quiet baseline, Wojslaw friction escalates cleanly over three days
+halgrim_multi_burstON_067: PASS -- four-day accumulation, Edda gets contempt only at peak seething
+halgrim_multi_burstON_068: FLAG -- Day 3: snaps curtly at Marta's soup while seething; displaced aggression
+halgrim_multi_burstON_069: FLAG -- Day 3: snaps at helpful stranger with contempt; jarring displaced aggression
+halgrim_multi_burstON_070: FLAG -- Day 5: cold contempt to Marta bringing soup; displacement onto warm figure

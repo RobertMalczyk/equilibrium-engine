@@ -1,0 +1,10 @@
+edda_day_burstON_001: PASS -- composed castellan, eats, rests, commands; sane pacing
+edda_day_burstON_002: PASS -- steady day, meals spaced, authority at end, no jarring moments
+edda_day_burstON_003: PASS -- barbs absorbed without reaction, fitting for composed commander
+edda_day_burstON_004: PASS -- warm start, mock let pass; disciplined settled day
+edda_day_burstON_005: PASS -- double rest at 13:41/13:55 minor but not absurd; day holds
+edda_day_burstON_006: PASS -- quiet orderly day, fits composed authority figure well
+edda_day_burstON_007: FLAG -- stranger orders her; she refuses at 21:45, then complains again at 22:28; tension unresolved before sleep
+edda_day_burstON_008: FLAG -- tense at 14:02 after resting, no trigger visible; mild pacing gap
+edda_day_burstON_009: PASS -- two soups before 08:30 slightly dense but not absurd; day coherent
+edda_day_burstON_010: PASS -- two soups at 07:46/07:56 very close; otherwise settled and credible

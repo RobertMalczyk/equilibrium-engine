@@ -1,0 +1,10 @@
+edda_multi_burstON_031: PASS -- calm steady days, mocks absorbed, sane pacing throughout
+edda_multi_burstON_032: PASS -- five quiet days, stranger compliance plausible for a superior
+edda_multi_burstON_033: PASS -- authority challenges declined appropriately, recovers well each day
+edda_multi_burstON_034: PASS -- mild friction from orders, brief tension resolves, sane arc
+edda_multi_burstON_035: PASS -- dense early kindnesses but days otherwise calm and coherent
+edda_multi_burstON_036: PASS -- six steady days, mocks and orders handled with composure
+edda_multi_burstON_037: PASS -- two soups before 08:00 mechanical but days otherwise sane
+edda_multi_burstON_038: FLAG -- Marta delivers soup six-plus times Day 1; frequency strains believability
+edda_multi_burstON_039: PASS -- Day 5 irritation from back-to-back provocations clears quickly, sane
+edda_multi_burstON_040: PASS -- Day 4 very dense with kindnesses and soup but contained

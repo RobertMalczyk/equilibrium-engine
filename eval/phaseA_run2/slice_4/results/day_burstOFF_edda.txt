@@ -1,0 +1,10 @@
+edda_day_burstOFF_041: PASS -- settled day, mild complaint at late order, sane
+edda_day_burstOFF_042: PASS -- escalating stranger friction, curt reply late, recovers well
+edda_day_burstOFF_043: PASS -- calm day, complies with stranger once, no tension
+edda_day_burstOFF_044: PASS -- repeated mocks build edge, soup softens, recovers by night
+edda_day_burstOFF_045: PASS -- kindness-heavy day, consistently warm, no friction, sane
+edda_day_burstOFF_046: PASS -- tense briefly after order, Halgrim kindness settles her
+edda_day_burstOFF_047: PASS -- steady day, lets stranger order pass, no issues
+edda_day_burstOFF_048: PASS -- quiet uneventful day, calm throughout, sane pacing
+edda_day_burstOFF_049: PASS -- busy start, double rest at midday odd but minor
+edda_day_burstOFF_050: PASS -- late refusal after mocks fits authority; sane arc

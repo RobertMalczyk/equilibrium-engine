@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_091: PASS -- settled day, tension dip mid-afternoon resolves cleanly
+halgrim_day_burstOFF_092: PASS -- Wojsław barb absorbed without reaction, fits iron control
+halgrim_day_burstOFF_093: PASS -- declines Wojsław order, sane and consistent with profile
+halgrim_day_burstOFF_094: PASS -- multiple Wojsław declines, Edda compliance, believable pattern
+halgrim_day_burstOFF_095: PASS -- escalating Wojsław provocation met with curt cold replies
+halgrim_day_burstOFF_096: PASS -- tension from Wojsław mock resolves; kindness eases him back
+halgrim_day_burstOFF_097: PASS -- calm productive day, Edda orders followed throughout
+halgrim_day_burstOFF_098: PASS -- early Wojsław pressure raises tension, fades by evening
+halgrim_day_burstOFF_099: PASS -- very quiet day, even keel throughout, fits veteran profile
+halgrim_day_burstOFF_100: PASS -- Wojsław barb gets curt reply, Marta soup restores calm

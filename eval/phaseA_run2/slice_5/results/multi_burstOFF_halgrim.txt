@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_051: PASS -- calm multi-day arc, Wojslaw curtness fits profile
+halgrim_multi_burstOFF_052: PASS -- tension builds day 3 via mockery, cold anger fits
+halgrim_multi_burstOFF_053: PASS -- rain day 4 erodes composure, sleeps and resets cleanly
+halgrim_multi_burstOFF_054: PASS -- sustained Wojslaw pressure, defiant refusals, believable arc
+halgrim_multi_burstOFF_055: PASS -- positive days, Wojslaw brushed off, stays settled throughout
+halgrim_multi_burstOFF_056: PASS -- day 6 accumulated tension, cold contempt, wakes recovered
+halgrim_multi_burstOFF_057: PASS -- rain plus Wojslaw, mild tension, recovers well
+halgrim_multi_burstOFF_058: PASS -- day 5 morning mockery spike, seething then recovery
+halgrim_multi_burstOFF_059: PASS -- few provocations, many kindnesses, calm and compliant
+halgrim_multi_burstOFF_060: PASS -- heavy day 1 Wojslaw mockery, cold contempt, residual tension carries

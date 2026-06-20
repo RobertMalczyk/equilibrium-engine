@@ -1,0 +1,10 @@
+edda_multi_burstOFF_051: PASS -- settled multi-day, proportionate reactions, sane pacing
+edda_multi_burstOFF_052: PASS -- occasional provocations handled with composure throughout
+edda_multi_burstOFF_053: PASS -- brief tension after public mock, resolves quickly and naturally
+edda_multi_burstOFF_054: PASS -- steady positive days, appropriate rest and meals
+edda_multi_burstOFF_055: PASS -- dense kindnesses day 3 but each response individually appropriate
+edda_multi_burstOFF_056: PASS -- grumble after two rapid orders, proportionate friction
+edda_multi_burstOFF_057: PASS -- heavily positive day 3, stays warm throughout, no jarring notes
+edda_multi_burstOFF_058: PASS -- brief tension after mocks clears each day, refusals fit authority
+edda_multi_burstOFF_059: PASS -- minor rest-doubling oddity, overall sane and composed
+edda_multi_burstOFF_060: PASS -- quiet uneventful days, calm castellan, nothing jars

@@ -1,0 +1,10 @@
+edda_multi_burstON_091: PASS -- settled authority figure, sane pacing, sleeps nightly
+edda_multi_burstON_092: PASS -- composed, regular meals, commands issued, days flow normally
+edda_multi_burstON_093: PASS -- calm throughout, mild stranger compliance fits context
+edda_multi_burstON_094: PASS -- steady and composed, occasional kindness, sane daily rhythm
+edda_multi_burstON_095: PASS -- brief tension after mockery resolves quickly, plausible arc
+edda_multi_burstON_096: PASS -- busy social day, declines late stranger order plausibly
+edda_multi_burstON_097: PASS -- edge after multiple stranger demands, resolves by evening
+edda_multi_burstON_098: PASS -- heavy kindness day, declines early stranger order, sane
+edda_multi_burstON_099: PASS -- quiet days, composed authority, regular meals and rest
+edda_multi_burstON_100: PASS -- brief tension after mockery fades fast, clean recovery

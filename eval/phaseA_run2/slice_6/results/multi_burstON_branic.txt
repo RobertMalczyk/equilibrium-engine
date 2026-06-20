@@ -1,0 +1,10 @@
+branic_multi_burstON_061: FLAG -- erupts at Marta's soup Day 5, kindness triggers outburst
+branic_multi_burstON_062: PASS -- escalating eruption after three rapid orders, coherent arc
+branic_multi_burstON_063: FLAG -- erupts at Halgrim's kindness Day 5, unprovoked discharge
+branic_multi_burstON_064: PASS -- calm days, warm interactions, no jarring moments
+branic_multi_burstON_065: PASS -- tension builds from mocking, slow decay plausible
+branic_multi_burstON_066: FLAG -- erupts at Halgrim's kindness Day 5, displaced discharge
+branic_multi_burstON_067: PASS -- eruptions driven by mocks, recovery pattern believable
+branic_multi_burstON_068: PASS -- two evening eruptions from repeated mocking, burst plausible
+branic_multi_burstON_069: PASS -- rain and double-mock escalation, refusals fit tension level
+branic_multi_burstON_070: PASS -- warm Day 1, steady arc, rain Day 4 handled believably

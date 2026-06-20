@@ -1,0 +1,10 @@
+lutek_day_burstOFF_001: PASS -- restless cycle, insults absent, sleeps, wakes settled
+lutek_day_burstOFF_002: PASS -- mockery rolls off, kindnesses accepted warmly, sane pacing
+lutek_day_burstOFF_003: PASS -- busy social day, insults shrugged off, late sleep fine
+lutek_day_burstOFF_004: PASS -- steady restless rhythm, kindnesses warm, clean sleep cycle
+lutek_day_burstOFF_005: PASS -- boredom cycles natural, mock ignored, wakes recovered
+lutek_day_burstOFF_006: PASS -- abundant kindnesses, mock ignored, slight evening edge resolves
+lutek_day_burstOFF_007: PASS -- regular restless pattern, fed twice, mild late tension fine
+lutek_day_burstOFF_008: PASS -- active day, insult shrugged off, wakes immediately busy
+lutek_day_burstOFF_009: PASS -- well-fed, warmly social, long evening rest, normal cycle
+lutek_day_burstOFF_010: PASS -- brief late tension resolves, stays up past midnight, sane

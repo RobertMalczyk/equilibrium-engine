@@ -1,0 +1,10 @@
+branic_day_burstOFF_041: PASS -- Calm day, restlessness cycles and orders handled normally.
+branic_day_burstOFF_042: PASS -- Tension builds from repeated mockery, bristles plausibly.
+branic_day_burstOFF_043: PASS -- Steady day with kindnesses, settled throughout, sane pacing.
+branic_day_burstOFF_044: PASS -- Slight tension at end, sleep resets; coherent arc.
+branic_day_burstOFF_045: FLAG -- Erupts at mockery then refuses order; burst flag OFF yet full outburst.
+branic_day_burstOFF_046: PASS -- Early busy start, settles well, warm day overall.
+branic_day_burstOFF_047: PASS -- Tense evening without clear trigger, but plausible wear.
+branic_day_burstOFF_048: PASS -- Calm positive day, ignores mockery, sane rhythm throughout.
+branic_day_burstOFF_049: PASS -- Two mocks absorbed, tense briefly then settles; believable.
+branic_day_burstOFF_050: FLAG -- Snaps at Halgrim, stays tense for hours; burst mode OFF.

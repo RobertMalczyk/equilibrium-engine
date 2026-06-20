@@ -1,0 +1,10 @@
+welf_multi_burstOFF_041: PASS -- steady pacing, mocks pass, sleeps normally
+welf_multi_burstOFF_042: PASS -- boredom cycles, late night Day 3, sane overall
+welf_multi_burstOFF_043: PASS -- many kindnesses Day 3 but responds warmly each time
+welf_multi_burstOFF_044: PASS -- rain Day 1, mocks pass, tense mornings from boredom
+welf_multi_burstOFF_045: PASS -- consistent boredom cycles, rain absorbed without reaction
+welf_multi_burstOFF_046: PASS -- late nights, early tension, kindnesses warm him
+welf_multi_burstOFF_047: PASS -- rain Day 3, very late Day 4 but not absurd
+welf_multi_burstOFF_048: PASS -- single snap after 3 days rain plus public mock, quickly settles
+welf_multi_burstOFF_049: PASS -- repeated mocks and rain, stays composed throughout
+welf_multi_burstOFF_050: PASS -- six days, rain Days 5-6, cooler response late in run plausible

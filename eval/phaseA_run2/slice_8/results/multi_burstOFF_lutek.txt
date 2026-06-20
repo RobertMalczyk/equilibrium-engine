@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_081: PASS -- steady cycle, mockery ignored, sleeps nightly, clean
+lutek_multi_burstOFF_082: PASS -- late Day 1 night activity, brief tension, resolves fine
+lutek_multi_burstOFF_083: PASS -- two soups close together minor, otherwise sane
+lutek_multi_burstOFF_084: PASS -- evening tension without trigger, plausible accumulation
+lutek_multi_burstOFF_085: PASS -- same evening tension pattern, resolves normally
+lutek_multi_burstOFF_086: PASS -- early morning tension spikes, brief and resolve each time
+lutek_multi_burstOFF_087: PASS -- recurring early-morning tension, consistent pattern, resolves
+lutek_multi_burstOFF_088: PASS -- early-morning tension recurring, always resolves by midday
+lutek_multi_burstOFF_089: PASS -- unprovoked tension spells brief, mockery brushed off correctly
+lutek_multi_burstOFF_090: PASS -- evening and morning tension spikes, brief, sane pacing

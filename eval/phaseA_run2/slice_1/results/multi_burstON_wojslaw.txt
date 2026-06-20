@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_011: PASS -- sane arc, burst followed by rapid calm
+wojslaw_multi_burstON_012: FLAG -- erupts at stranger's kindness, no provocation
+wojslaw_multi_burstON_013: PASS -- sustained anger from heavy mockery, displaced plausible
+wojslaw_multi_burstON_014: PASS -- extreme provocation load justifies sustained fury
+wojslaw_multi_burstON_015: FLAG -- erupts at stranger's kindness unprovoked
+wojslaw_multi_burstON_016: PASS -- heavy mockery input, displaced discharge plausible
+wojslaw_multi_burstON_017: PASS -- anger carry-over and displaced responses credible
+wojslaw_multi_burstON_018: FLAG -- repeated eruptions at kindnesses across multiple days
+wojslaw_multi_burstON_019: PASS -- calm-to-tense arc, sane pacing throughout
+wojslaw_multi_burstON_020: PASS -- displaced anger on Marta after sustained fury

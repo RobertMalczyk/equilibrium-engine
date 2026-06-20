@@ -1,0 +1,10 @@
+edda_multi_burstON_011: PASS -- calm settled days, sane pacing and sleep reset
+edda_multi_burstON_012: PASS -- tension builds plausibly under repeated provocations, resets overnight
+edda_multi_burstON_013: PASS -- abundant kindnesses, authority maintained, sane arc
+edda_multi_burstON_014: PASS -- calm throughout, absorbs provocations without jarring reaction
+edda_multi_burstON_015: PASS -- stranger-order escalation arc across day is coherent
+edda_multi_burstON_016: PASS -- calm positive days, lets orders pass, nothing jarring
+edda_multi_burstON_017: PASS -- refusal pattern under stranger orders consistent with profile
+edda_multi_burstON_018: PASS -- Day 4 tension from mock-plus-order combo, sleep resets cleanly
+edda_multi_burstON_019: PASS -- escalating refusals under pressure believable, recovery after sleep clean
+edda_multi_burstON_020: PASS -- mostly calm, minor morning irritation recovers quickly

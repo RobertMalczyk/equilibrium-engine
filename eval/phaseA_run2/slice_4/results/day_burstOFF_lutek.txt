@@ -1,0 +1,10 @@
+lutek_day_burstOFF_041: PASS -- restless poet, kindness received warmly, mock ignored, sane arc
+lutek_day_burstOFF_042: PASS -- steady restless cycle, evening tension fades, sleeps late but fine
+lutek_day_burstOFF_043: PASS -- mock brushed off, food warmly received, pacing natural
+lutek_day_burstOFF_044: PASS -- well-fed, active, evening edge passes, clean sleep and wake
+lutek_day_burstOFF_045: PASS -- mock ignored, many small kindnesses, lively day, recovers well
+lutek_day_burstOFF_046: PASS -- mock rolled off, tension at 18:00 fades by 20:00, sane
+lutek_day_burstOFF_047: PASS -- heavy Marta warmth, no conflict, very settled day, plausible
+lutek_day_burstOFF_048: PASS -- evening tension resolves, restless bursts throughout, sleeps and wakes well
+lutek_day_burstOFF_049: PASS -- two mocks ignored, evening edge passes after kindness, coherent
+lutek_day_burstOFF_050: PASS -- calm day, restlessness returns predictably, sleeps and wakes settled

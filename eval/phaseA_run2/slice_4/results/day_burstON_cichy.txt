@@ -1,0 +1,10 @@
+cichy_day_burstON_041: PASS -- calm day, curtness at evening meals fits the profile
+cichy_day_burstON_042: PASS -- escalating taunts drive fury; sleeps settled, sane arc
+cichy_day_burstON_043: PASS -- morning outburst fades; lingering edge through afternoon credible
+cichy_day_burstON_044: PASS -- single taunt leaves residual tension; pacing and rest believable
+cichy_day_burstON_045: PASS -- stranger's kindness warmly taken; guard still met with cold curtness
+cichy_day_burstON_046: PASS -- quiet morning, rising edge by afternoon, settles before sleep
+cichy_day_burstON_047: PASS -- accepts soup without fuss when calm; curtness only when on edge
+cichy_day_burstON_048: PASS -- early snap colours the whole day; gradual wind-down coherent
+cichy_day_burstON_049: PASS -- uneventful day, tension rises naturally through afternoon, sane
+cichy_day_burstON_050: PASS -- stranger's kindness absorbed; guard's soup still met curtly

@@ -1,0 +1,10 @@
+lutek_day_burstON_071: PASS -- restless curiosity, kindness received warmly, mocks ignored
+lutek_day_burstON_072: PASS -- well-paced day, many kindnesses, eases into settled mood
+lutek_day_burstON_073: PASS -- boredom cycles, Marta interactions warm, settles at night
+lutek_day_burstON_074: PASS -- fed well, restless spikes, wakes settled next morning
+lutek_day_burstON_075: PASS -- mocks shrugged off, evening edge fades, fits profile
+lutek_day_burstON_076: PASS -- easy day, mock ignored, mild evening edge, sleeps fine
+lutek_day_burstON_077: PASS -- lingering temper at 20:03 fades by 22:04, consistent
+lutek_day_burstON_078: PASS -- frequent Marta warmth, mild evening edge, recovers cleanly
+lutek_day_burstON_079: PASS -- mocks shrugged off, evening tension persists late but fades
+lutek_day_burstON_080: PASS -- mock at 20:23 ignored, soup soothes, settles and sleeps

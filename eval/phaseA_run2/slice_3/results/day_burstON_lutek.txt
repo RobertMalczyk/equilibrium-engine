@@ -1,0 +1,10 @@
+lutek_day_burstON_031: PASS -- restless cycle, kindness warmly received, sleeps well
+lutek_day_burstON_032: PASS -- pacing and rest natural, mocks deflected, clean sleep
+lutek_day_burstON_033: PASS -- boredom-driven activity, tense late but settles, sleeps
+lutek_day_burstON_034: PASS -- active curious day, mild evening tension, resolves fine
+lutek_day_burstON_035: PASS -- multiple kindnesses, restless seeking, smooth overnight reset
+lutek_day_burstON_036: PASS -- mocks shrugged off, busy evening, clean sleep onset
+lutek_day_burstON_037: PASS -- warm interactions, slight tension near midnight, sleeps fine
+lutek_day_burstON_038: PASS -- tense late then warmed by Marta, still active near midnight
+lutek_day_burstON_039: PASS -- tense at 20:03 lifted quickly by kindnesses, good recovery
+lutek_day_burstON_040: PASS -- sleeps just after midnight, slightly late but not jarring

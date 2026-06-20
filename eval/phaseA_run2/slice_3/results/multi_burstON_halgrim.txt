@@ -1,0 +1,10 @@
+halgrim_multi_burstON_031: PASS -- temper from Wojsław mocks fades; Edda obeyed throughout
+halgrim_multi_burstON_032: PASS -- calm days, principled Wojsław refusals, Edda respected
+halgrim_multi_burstON_033: FLAG -- sustained cold contempt directed at Edda twice Day 5
+halgrim_multi_burstON_034: PASS -- Wojsław provokes seething; Edda curtness marginal but plausible
+halgrim_multi_burstON_035: PASS -- rain as stressor, Wojsław mock triggers temper, sleep resets
+halgrim_multi_burstON_036: PASS -- Day 5 Wojsław pressure; Edda gets mild curtness only
+halgrim_multi_burstON_037: PASS -- calm days; principled Wojsław refusal even when settled
+halgrim_multi_burstON_038: PASS -- Day 6 seething from morning cluster; Edda curtness explained
+halgrim_multi_burstON_039: FLAG -- cold snap at kind stranger offering help, Day 6
+halgrim_multi_burstON_040: PASS -- rain day, Wojsław escalation; Edda gets only mild curtness

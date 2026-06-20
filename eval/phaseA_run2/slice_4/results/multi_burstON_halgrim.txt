@@ -1,0 +1,10 @@
+halgrim_multi_burstON_041: PASS -- calm days, sane pacing, Wojsław resentment appropriate
+halgrim_multi_burstON_042: PASS -- progressive accumulation under rain and mockery, sleep resets work
+halgrim_multi_burstON_043: PASS -- largely calm, brief tension spikes recover correctly
+halgrim_multi_burstON_044: PASS -- Day 2 friction builds plausibly, recovery days follow
+halgrim_multi_burstON_045: PASS -- calm until Wojsław escalates; sane single-day arc
+halgrim_multi_burstON_046: PASS -- workload and rain wear him down believably across days
+halgrim_multi_burstON_047: FLAG -- Day 4: Marta's soup met with cold contempt, jars against profile
+halgrim_multi_burstON_048: PASS -- Wojsław friction accumulates; sleep resets consistent
+halgrim_multi_burstON_049: PASS -- heavy sustained pressure; Marta warmth intact throughout
+halgrim_multi_burstON_050: PASS -- two-day Wojsław barrage; carry-over tension plausible

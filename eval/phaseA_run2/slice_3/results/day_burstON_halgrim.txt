@@ -1,0 +1,10 @@
+halgrim_day_burstON_031: PASS -- settled day, curt to Wojsław, sleeps clean
+halgrim_day_burstON_032: PASS -- calm uneventful day, no provocations, sensible arc
+halgrim_day_burstON_033: PASS -- lets Wojsław pass, steady throughout, fits profile
+halgrim_day_burstON_034: PASS -- morning mock leaves edge, fades by evening, believable
+halgrim_day_burstON_035: PASS -- declines Wojsław twice, tense by evening, fits
+halgrim_day_burstON_036: PASS -- grumbles at late Wojsław demand, within character
+halgrim_day_burstON_037: PASS -- repeated Wojsław friction, stays controlled, tense end
+halgrim_day_burstON_038: PASS -- curt under pressure, settles after Marta soup, clean
+halgrim_day_burstON_039: PASS -- cold contempt at Wojsław mock, warms back to Marta
+halgrim_day_burstON_040: PASS -- quiet day, no provocations, Edda orders let slide

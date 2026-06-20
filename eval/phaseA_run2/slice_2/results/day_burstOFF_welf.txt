@@ -1,0 +1,10 @@
+welf_day_burstOFF_021: PASS -- calm merchant, boredom cycles, soup kindnesses, sane pacing
+welf_day_burstOFF_022: PASS -- restlessness cycles, late-night work stint, wakes settled
+welf_day_burstOFF_023: PASS -- late tension after rest sane, day paces well, no jarring moments
+welf_day_burstOFF_024: PASS -- barbed remark shrugged off fits composed profile perfectly
+welf_day_burstOFF_025: PASS -- mild evening tension, sane boredom loops, wakes recovered
+welf_day_burstOFF_026: PASS -- multiple kindnesses, rests after soup, even-keeled throughout
+welf_day_burstOFF_027: PASS -- late tension eased by kindness, sane rhythm, wakes settled
+welf_day_burstOFF_028: PASS -- tension mid-evening, resolved by kindness, pacing believable
+welf_day_burstOFF_029: PASS -- mock shrugged off immediately, fits composed profile well
+welf_day_burstOFF_030: PASS -- steady kind day, no tension, composed merchant throughout

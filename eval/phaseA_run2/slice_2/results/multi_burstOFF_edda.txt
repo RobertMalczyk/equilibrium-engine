@@ -1,0 +1,10 @@
+edda_multi_burstOFF_021: PASS -- calm authority, sane pacing, sleeps and wakes clean
+edda_multi_burstOFF_022: PASS -- mild friction, mutters once, recovers; fits profile
+edda_multi_burstOFF_023: PASS -- busy Day 3 with clustered events, still believable
+edda_multi_burstOFF_024: PASS -- steady calm, mocks brushed off, sane across 6 days
+edda_multi_burstOFF_025: PASS -- short record, clean rhythm, dense meals but not absurd
+edda_multi_burstOFF_026: PASS -- five soups Day 1 dense but pacing otherwise fine
+edda_multi_burstOFF_027: PASS -- sparse, clean, authority intact throughout
+edda_multi_burstOFF_028: PASS -- once does as asked; clustered Day 4 morning still sane
+edda_multi_burstOFF_029: PASS -- tense briefly after barb, recovers; believable arc
+edda_multi_burstOFF_030: PASS -- barbs brushed off, dense Day 4 meals, otherwise clean

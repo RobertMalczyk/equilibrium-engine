@@ -1,0 +1,10 @@
+cichy_multi_burstON_021: PASS -- tension rises mid-day, mocks met curtly, nights reset cleanly
+cichy_multi_burstON_022: PASS -- stranger kindness accepted warmly; guard provocation met coldly
+cichy_multi_burstON_023: PASS -- two eruptions on day 1; burst from settled baseline fits burstON
+cichy_multi_burstON_024: PASS -- post-eruption calm at day 5 night consistent with burst discharge
+cichy_multi_burstON_025: PASS -- heavy mock load met with curt replies; stranger warmth intact
+cichy_multi_burstON_026: PASS -- erupts at morning mock; temper dissipates before next guard contact
+cichy_multi_burstON_027: PASS -- two bursts day 1; repeated eruptions fit sustained high tension
+cichy_multi_burstON_028: PASS -- tense accumulation across days; wakes recovered each morning
+cichy_multi_burstON_029: PASS -- stranger kindness warm; guard food still met curtly; consistent
+cichy_multi_burstON_030: PASS -- eruption day 3, lingering temper day 4; overall arc believable

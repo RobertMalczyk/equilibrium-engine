@@ -1,0 +1,10 @@
+cichy_day_burstOFF_001: PASS -- mock provokes snap then fury; sane arc, fits profile
+cichy_day_burstOFF_002: PASS -- mock triggers fury, soup snapped at; believable resentful day
+cichy_day_burstOFF_003: PASS -- quiet day, curt to guard; calm prisoner rhythm, no jarring
+cichy_day_burstOFF_004: PASS -- stranger's kindness taken well; guard mock erupts; sane contrast
+cichy_day_burstOFF_005: PASS -- mock erupts midday, stays tense; settles by night; fits captive
+cichy_day_burstOFF_006: FLAG -- early mock "lets it pass" with no reaction; jarring for Cichy
+cichy_day_burstOFF_007: PASS -- mock erupts, stranger's kindness taken warmly; sane day arc
+cichy_day_burstOFF_008: PASS -- two mocks, two snaps; soup neutral between; consistent edge
+cichy_day_burstOFF_009: PASS -- curt to guard soup, mock snap late evening; sane pacing
+cichy_day_burstOFF_010: PASS -- bristle then fury at mocks; soup curt; settled recovery arc

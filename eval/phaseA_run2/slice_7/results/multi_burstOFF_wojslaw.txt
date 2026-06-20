@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_071: PASS -- sane arc, flares on mockery, sleep resets
+wojslaw_multi_burstOFF_072: PASS -- heavy day 4 but matches sustained provocation
+wojslaw_multi_burstOFF_073: PASS -- dense mockery day 1, appropriate repeated eruptions
+wojslaw_multi_burstOFF_074: PASS -- mostly warm days, fits low-provocation run
+wojslaw_multi_burstOFF_075: PASS -- quiet stretch, one bristle, one eruption, believable
+wojslaw_multi_burstOFF_076: PASS -- rough days, many eruptions, fits profile under pressure
+wojslaw_multi_burstOFF_077: PASS -- back-to-back eruptions day 2, heavy mockery explains it
+wojslaw_multi_burstOFF_078: PASS -- six days, soup bristles when angry, plausible
+wojslaw_multi_burstOFF_079: PASS -- calm day 3 with no provocations, acceptable contrast
+wojslaw_multi_burstOFF_080: PASS -- very pleasant day 1, eruption only when eventually mocked

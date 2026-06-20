@@ -1,0 +1,10 @@
+welf_multi_burstOFF_001: PASS -- steady merchant, boredom cycles, mocks brush off fine
+welf_multi_burstOFF_002: PASS -- sane rhythm, rain day, stays composed throughout
+welf_multi_burstOFF_003: PASS -- consistent ease with kindnesses, boredom cycling naturally
+welf_multi_burstOFF_004: PASS -- well-fed days, restless cycles, calm under mockery
+welf_multi_burstOFF_005: PASS -- rain day handled, boredom builds late, sleeps and resets
+welf_multi_burstOFF_006: PASS -- heavily social days, stays even-keeled and grateful
+welf_multi_burstOFF_007: PASS -- five days, rain, mocks ignored, steady practical man
+welf_multi_burstOFF_008: PASS -- six days, mocks let pass, tense then settles, believable
+welf_multi_burstOFF_009: PASS -- rain days, mocks brushed off, boredom drives late work
+welf_multi_burstOFF_010: PASS -- late-night work extends sleep, wakes later, sane recovery

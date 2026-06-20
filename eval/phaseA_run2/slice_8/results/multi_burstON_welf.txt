@@ -1,0 +1,10 @@
+welf_multi_burstON_081: PASS -- steady cycles, minor unexplained temper trace, overall sane
+welf_multi_burstON_082: PASS -- bristles at late barb, overnight tension clears, fits profile
+welf_multi_burstON_083: PASS -- boredom builds to mild tension, kindness relieves, sane arc
+welf_multi_burstON_084: PASS -- day-5 snap after four days rain and boredom, recovers fast
+welf_multi_burstON_085: PASS -- mock absorbed, morning tensions decay, pacing believable
+welf_multi_burstON_086: PASS -- six clean days, restless cycles and soup relief working well
+welf_multi_burstON_087: PASS -- rain-watch temper lingers to morning, clears after soup
+welf_multi_burstON_088: PASS -- midnight boundary artefact harmless, three-day arc sane
+welf_multi_burstON_089: PASS -- overnight temper residual from tense day-1 end, clears by noon
+welf_multi_burstON_090: PASS -- rain-morning tension pattern repeats across days, resolves cleanly

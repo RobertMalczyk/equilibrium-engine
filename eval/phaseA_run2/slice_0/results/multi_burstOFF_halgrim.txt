@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_001: PASS -- calm baseline, Wojslaw friction absorbed, sane resets
+halgrim_multi_burstOFF_002: PASS -- rain day mild, even keel throughout, fits stoic profile
+halgrim_multi_burstOFF_003: PASS -- Day 3 load draws grumbles, Edda obeyed, Wojslaw declined
+halgrim_multi_burstOFF_004: PASS -- Wojslaw escalation earns cold contempt, morning resets hold
+halgrim_multi_burstOFF_005: PASS -- early cluster of mocks absorbed, tension ebbs naturally
+halgrim_multi_burstOFF_006: PASS -- very settled, even rainy day barely moves him, fits profile
+halgrim_multi_burstOFF_007: PASS -- Day 4 seething after sustained barrage, resets next morning
+halgrim_multi_burstOFF_008: PASS -- extreme Wojslaw pressure across days, holds via cold contempt
+halgrim_multi_burstOFF_009: PASS -- snaps curtly at Edda once under sustained multi-day friction
+halgrim_multi_burstOFF_010: PASS -- cold curtness to Edda Day 4 mild under rain plus Wojslaw load

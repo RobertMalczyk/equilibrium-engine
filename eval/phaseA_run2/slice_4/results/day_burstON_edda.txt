@@ -1,0 +1,10 @@
+edda_day_burstON_041: PASS -- settled day, mild complaint at stranger, sane arc
+edda_day_burstON_042: PASS -- tension builds under repeated stranger provocations, resolves overnight
+edda_day_burstON_043: PASS -- calm day, compliant once, consistent with composed authority
+edda_day_burstON_044: PASS -- mocks absorbed coolly, curtness after third barb, reasonable escalation
+edda_day_burstON_045: PASS -- generous day of kindnesses, steady ease throughout
+edda_day_burstON_046: PASS -- brief tension after stranger order, warm responses dominate
+edda_day_burstON_047: PASS -- quiet day, stranger order let pass, no issues
+edda_day_burstON_048: PASS -- uneventful, well-fed, composed throughout
+edda_day_burstON_049: PASS -- active morning, double rest near soup plausible, settled
+edda_day_burstON_050: PASS -- flush of kindnesses, late refusal after mockery fits

@@ -1,0 +1,10 @@
+wojslaw_day_burstON_061: PASS -- calm day, flares at mockery, settles naturally
+wojslaw_day_burstON_062: FLAG -- kindness triggers bristling/anger mid-day after outburst
+wojslaw_day_burstON_063: FLAG -- erupts at soup delivery twice, no provocation
+wojslaw_day_burstON_064: PASS -- generous warmth from kindness, single flare at mockery
+wojslaw_day_burstON_065: FLAG -- erupts at kindness late-night, sustained fury all day
+wojslaw_day_burstON_066: PASS -- calm morning, flares at mockery, recovers by evening
+wojslaw_day_burstON_067: PASS -- settled day, two late provocations trigger appropriate anger
+wojslaw_day_burstON_068: PASS -- gradual tension, single outburst at mockery, recovers well
+wojslaw_day_burstON_069: FLAG -- erupts at Marta's kindness twice, displaced rage on help
+wojslaw_day_burstON_070: PASS -- tense after mockery cluster, recovers by afternoon

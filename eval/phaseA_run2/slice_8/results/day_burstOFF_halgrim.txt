@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_081: PASS -- curtness after Wojsław mockery fits; recovers well
+halgrim_day_burstOFF_082: PASS -- steady day, Wojsław orders absorbed without drama
+halgrim_day_burstOFF_083: PASS -- late-evening edge after two Wojsław barbs, plausible
+halgrim_day_burstOFF_084: PASS -- quiet uneventful day, consistent baseline calm
+halgrim_day_burstOFF_085: PASS -- declines Wojsław order; brushes off mock; fits profile
+halgrim_day_burstOFF_086: PASS -- calm throughout, no provocations, sane pacing
+halgrim_day_burstOFF_087: PASS -- repeated Wojsław pressure builds tension; cold contempt fits
+halgrim_day_burstOFF_088: PASS -- morning kindnesses smooth later mock; recovers cleanly
+halgrim_day_burstOFF_089: PASS -- settled day, Wojsław order absorbed quietly, sane
+halgrim_day_burstOFF_090: PASS -- two mocks leave him on edge rest of evening; plausible

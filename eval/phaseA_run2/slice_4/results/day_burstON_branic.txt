@@ -1,0 +1,10 @@
+branic_day_burstON_041: PASS -- Calm day, restless cycles, mild edge at night, sensible.
+branic_day_burstON_042: FLAG -- Snaps at Halgrim's kindness with no build-up; displaced burst jars.
+branic_day_burstON_043: PASS -- Steady rhythm, tense by evening, sleeps and resets fine.
+branic_day_burstON_044: PASS -- Good day, mild lingering temper at night, believable arc.
+branic_day_burstON_045: PASS -- Erupts after repeated mocks; refuses order while still angry, fits.
+branic_day_burstON_046: PASS -- Busy early, settles well, tense late but no outburst, sane.
+branic_day_burstON_047: PASS -- Persistent tension evening onward, stays controlled, plausible grind.
+branic_day_burstON_048: PASS -- Mostly easy day, residual temper late, wakes recovered, fine.
+branic_day_burstON_049: PASS -- Two mocks build edge, bristles but holds, lingers overnight, believable.
+branic_day_burstON_050: PASS -- Snaps at mock mid-afternoon, stays tense, settles late, coherent.

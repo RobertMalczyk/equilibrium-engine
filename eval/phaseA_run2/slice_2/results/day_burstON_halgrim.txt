@@ -1,0 +1,10 @@
+halgrim_day_burstON_021: PASS -- steady day, Wojsław barb absorbed quietly, fits profile
+halgrim_day_burstON_022: PASS -- slight tension mid-afternoon, resolves; refuses Wojsław, obeys Edda
+halgrim_day_burstON_023: PASS -- calm day, one barb absorbed, even keel throughout
+halgrim_day_burstON_024: PASS -- late-day tension after evening orders, plausible accumulation
+halgrim_day_burstON_025: PASS -- repeated Wojsław provocations build curt responses, night resets
+halgrim_day_burstON_026: PASS -- declines Wojsław twice, obeys Edda; tension at end, sensible
+halgrim_day_burstON_027: FLAG -- mutters complaint at Edda order; too unlike his iron self-control
+halgrim_day_burstON_028: PASS -- two barbs absorbed quietly, warmth from kindnesses, calm close
+halgrim_day_burstON_029: PASS -- multiple barbs let pass, tension rises then eases with kindness
+halgrim_day_burstON_030: PASS -- ignores Edda twice late on, curt at Wojsław; plausible worn-down

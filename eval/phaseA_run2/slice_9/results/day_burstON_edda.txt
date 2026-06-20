@@ -1,0 +1,10 @@
+edda_day_burstON_091: PASS -- calm day, warmth to kindness, authority at end
+edda_day_burstON_092: PASS -- mild complaint at order fits composed but not saintly
+edda_day_burstON_093: PASS -- steady day, eats, rests, takes charge at night
+edda_day_burstON_094: PASS -- ignores two mockeries, fits composed authority figure
+edda_day_burstON_095: PASS -- brief tension after taunt resolves quickly, plausible
+edda_day_burstON_096: PASS -- positive day, warmth to repeated kindnesses, no issues
+edda_day_burstON_097: PASS -- quiet settled day, appropriate authority close of night
+edda_day_burstON_098: PASS -- ignores late-night taunt, stays settled, fits profile
+edda_day_burstON_099: PASS -- tension after two taunts, resolves, consistent castellan
+edda_day_burstON_100: PASS -- two rests close together minor, day otherwise sane

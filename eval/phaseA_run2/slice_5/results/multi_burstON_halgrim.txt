@@ -1,0 +1,10 @@
+halgrim_multi_burstON_051: PASS -- steady 6 days, provocation-driven tension resolves nightly
+halgrim_multi_burstON_052: PASS -- Wojslaw escalation day 3, cold contempt fits profile
+halgrim_multi_burstON_053: PASS -- rain+provocation day 4 drives peak anger, plausible arc
+halgrim_multi_burstON_054: FLAG -- contempt at Marta for bringing soup, wrong target
+halgrim_multi_burstON_055: PASS -- positive days, ignores Wojslaw, sane and calm
+halgrim_multi_burstON_056: FLAG -- cold cutting contempt at Marta for bringing soup day 6
+halgrim_multi_burstON_057: PASS -- rain day 2, Wojslaw barb, lingering temper, believable
+halgrim_multi_burstON_058: PASS -- dense kindnesses buffer Wojslaw; day 5 seething earned
+halgrim_multi_burstON_059: PASS -- calm three days, friction deflected, sane pacing
+halgrim_multi_burstON_060: FLAG -- seething persists all day 3 with no new provocations after sleep reset

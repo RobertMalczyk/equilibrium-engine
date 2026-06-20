@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_041: PASS -- active curious days, sleeps well, insults roll off
+lutek_multi_burstOFF_042: PASS -- mocks ignored, late sleep once, pacing sane
+lutek_multi_burstOFF_043: PASS -- many soups day 3 but accepted warmly each time
+lutek_multi_burstOFF_044: PASS -- mock ignored, evening tension clears before sleep
+lutek_multi_burstOFF_045: PASS -- mock ignored, tensions resolve, days sane throughout
+lutek_multi_burstOFF_046: PASS -- mock ignored, evening edge dissolves, sane pacing
+lutek_multi_burstOFF_047: PASS -- tensions brief and resolve, mocks let pass, good rhythm
+lutek_multi_burstOFF_048: PASS -- midnight sleep once, sociable days, pacing fine
+lutek_multi_burstOFF_049: PASS -- six days, early tensions resolve, active and warm
+lutek_multi_burstOFF_050: PASS -- two mocks ignored, tensions clear, days believable

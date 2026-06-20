@@ -1,0 +1,10 @@
+branic_day_burstOFF_031: PASS -- calm day, one snap after repeated mockery, recovers well
+branic_day_burstOFF_032: PASS -- even day, mild tension at evening, no jarring moments
+branic_day_burstOFF_033: PASS -- well-paced, slight tension near midnight, recovers overnight
+branic_day_burstOFF_034: PASS -- sociable day, brief evening tension, settles before sleep
+branic_day_burstOFF_035: PASS -- repeated mockery absorbed, evening tension fades, sane arc
+branic_day_burstOFF_036: PASS -- quiet day, late-night tension, sleeps and wakes recovered
+branic_day_burstOFF_037: PASS -- escalating mockery drives two eruptions and refusal, believable
+branic_day_burstOFF_038: PASS -- steady day, mild evening tension, clean overnight reset
+branic_day_burstOFF_039: PASS -- late snap after long day, grudging nod from Halgrim, sane
+branic_day_burstOFF_040: PASS -- low-key day, repeated mockery absorbed, late tension, recovers

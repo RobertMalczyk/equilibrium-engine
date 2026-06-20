@@ -1,0 +1,10 @@
+edda_multi_burstOFF_041: PASS -- settled and composed across three days
+edda_multi_burstOFF_042: PASS -- calm multi-day, authority and gratitude intact
+edda_multi_burstOFF_043: PASS -- brief public mock ignored, fits composed castellan
+edda_multi_burstOFF_044: PASS -- five days sane, positive tone throughout
+edda_multi_burstOFF_045: PASS -- order accumulation Day 2 erodes then resets after sleep
+edda_multi_burstOFF_046: PASS -- quiet three days, normal pacing
+edda_multi_burstOFF_047: PASS -- public mock triggers brief curtness, resolves by night
+edda_multi_burstOFF_048: PASS -- busy with kindnesses, stays settled throughout
+edda_multi_burstOFF_049: PASS -- well-supported days, calm and authoritative
+edda_multi_burstOFF_050: PASS -- triple mockery erodes composure briefly, recovers by evening

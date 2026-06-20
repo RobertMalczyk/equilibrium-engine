@@ -1,0 +1,10 @@
+welf_day_burstON_081: PASS -- calm man, restless cycles, mocks let pass, sane pacing
+welf_day_burstON_082: PASS -- steady day, boredom/rest cycles, kindnesses received warmly
+welf_day_burstON_083: PASS -- sane pacing, soup at 21:05 unusual hour but plausible
+welf_day_burstON_084: PASS -- even-keeled throughout, mocks brushed off, good rhythm
+welf_day_burstON_085: PASS -- two mocks let pass, boredom cycles, fits composed profile
+welf_day_burstON_086: PASS -- no meals gap midday fine, generous evening kindnesses
+welf_day_burstON_087: PASS -- tense at day-end without trigger, minor but within range
+welf_day_burstON_088: PASS -- steady, composed, soup welcomed, nothing jarring
+welf_day_burstON_089: PASS -- mock at 19:33 let pass, tension late-night plausible boredom
+welf_day_burstON_090: PASS -- late-night tension after idle evening, fits boredom profile

@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_071: PASS -- sane pacing, appropriate guard wariness throughout
+cichy_multi_burstOFF_072: PASS -- rain day sustained tension, double mockings produce double fury
+cichy_multi_burstOFF_073: PASS -- calm baseline, erupts only when mocked, recovers overnight
+cichy_multi_burstOFF_074: PASS -- two eruptions Day 4 each provoked, settles by evening
+cichy_multi_burstOFF_075: FLAG -- erupts at 10:21 then settled at ease just four minutes later
+cichy_multi_burstOFF_076: PASS -- quiet days, mild guard friction, no unearned outbursts
+cichy_multi_burstOFF_077: PASS -- back-to-back mockings two minutes apart, both provoke fury
+cichy_multi_burstOFF_078: PASS -- three eruptions Day 2 each from a separate mocking
+cichy_multi_burstOFF_079: PASS -- rain plus mockings keep him on edge; stranger kindness calms him
+cichy_multi_burstOFF_080: PASS -- dense Day 3 provocations sustain anger; wakes settled Day 4

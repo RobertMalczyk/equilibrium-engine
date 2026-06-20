@@ -1,0 +1,10 @@
+halgrim_day_burstON_071: PASS -- calm day, grateful for kindnesses, sleeps well
+halgrim_day_burstON_072: PASS -- uneventful, even-keeled, nothing jars
+halgrim_day_burstON_073: PASS -- Wojsław barbs absorbed, late tension resolves overnight
+halgrim_day_burstON_074: PASS -- seething late after Wojslaw pressure, clears by morning
+halgrim_day_burstON_075: PASS -- quiet steady day, warmly receives kindnesses
+halgrim_day_burstON_076: FLAG -- tense at 14:02 after warmth/rest, no clear trigger
+halgrim_day_burstON_077: PASS -- Wojsław order tolerated, tension fades with Marta kindness
+halgrim_day_burstON_078: PASS -- cold contempt after repeated Wojslaw mocks, fits profile
+halgrim_day_burstON_079: PASS -- brief post-rest tension, settles without incident
+halgrim_day_burstON_080: PASS -- sustained tension from repeated Wojslaw barbs, plausible accumulation

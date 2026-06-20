@@ -1,0 +1,10 @@
+cichy_day_burstON_091: PASS -- calm day, tension builds naturally, sleeps and recovers fine
+cichy_day_burstON_092: PASS -- restlessness cycles, curt to guards, pacing believable for captive
+cichy_day_burstON_093: PASS -- erupts at mockery, simmers, settles by night; fits profile well
+cichy_day_burstON_094: PASS -- bursts at public mockery, carries grudge hours, fades by sleep
+cichy_day_burstON_095: PASS -- mild residual temper evening with no trigger; plausible slow burn
+cichy_day_burstON_096: PASS -- persistent tension through afternoon and evening, no sharp event needed
+cichy_day_burstON_097: PASS -- erupts at mockery, lingers, winds down; sane arc for Cichy
+cichy_day_burstON_098: PASS -- stranger kindnesses register warmly; guard hostility holds; coherent split
+cichy_day_burstON_099: PASS -- stranger kindness lifts mood briefly; guard soup still gets curtness
+cichy_day_burstON_100: PASS -- early snap, long slow burn, cold replies; fits watchful captive

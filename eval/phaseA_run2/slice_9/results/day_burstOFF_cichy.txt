@@ -1,0 +1,10 @@
+cichy_day_burstOFF_091: PASS -- calm captive day, curt at afternoon soup, sane pacing
+cichy_day_burstOFF_092: PASS -- restless spells, curt at afternoon meal, settles by night
+cichy_day_burstOFF_093: PASS -- mocks escalate anger through day, snaps then erupts believably
+cichy_day_burstOFF_094: PASS -- erupts at midday taunt, recovers; accepts later meals neutrally
+cichy_day_burstOFF_095: PASS -- quiet day, two meals accepted without fuss, sane rhythm
+cichy_day_burstOFF_096: PASS -- tense afternoon, curt at meal, settles before sleep
+cichy_day_burstOFF_097: PASS -- erupts at taunt, curt at meal soon after, recovers
+cichy_day_burstOFF_098: PASS -- stranger kindness lands; erupts twice at guards same evening
+cichy_day_burstOFF_099: PASS -- stranger kindness, three guard meals taken without fuss, low-key day
+cichy_day_burstOFF_100: PASS -- morning snap, evening fury at two rapid taunts, sane arc

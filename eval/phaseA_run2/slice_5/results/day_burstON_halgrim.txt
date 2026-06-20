@@ -1,0 +1,10 @@
+halgrim_day_burstON_051: PASS -- steady day, curt response to late mockery fits profile
+halgrim_day_burstON_052: PASS -- calm day with Marta warmth, brief edge fades naturally
+halgrim_day_burstON_053: PASS -- quiet routine, mild tension after Edda order resolves
+halgrim_day_burstON_054: PASS -- declines Wojslaw, accepts Edda's kindly, even-keeled throughout
+halgrim_day_burstON_055: PASS -- burst of contempt at public mockery, slow decay, recovers
+halgrim_day_burstON_056: PASS -- steady compliance with Edda, ignores Wojslaw, settles by evening
+halgrim_day_burstON_057: PASS -- accumulating edge from two mocks, seething briefly, calms by afternoon
+halgrim_day_burstON_058: PASS -- calm day, curt cold reply to late-night mockery fits
+halgrim_day_burstON_059: PASS -- productive morning, mild tension after mockery, settles by night
+halgrim_day_burstON_060: PASS -- many Edda orders handled, cold reply to public mockery, recovers

@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_051: PASS -- steady day, curt response to late mockery fits profile
+halgrim_day_burstOFF_052: PASS -- warm day with Marta, Wojsław's jab absorbed without fuss
+halgrim_day_burstOFF_053: PASS -- brief tension after mockery, settles quickly; consistent
+halgrim_day_burstOFF_054: PASS -- declines Wojsław, ignores Edda order once; plausible friction
+halgrim_day_burstOFF_055: PASS -- Wojsław's public jab draws curt reply, seethes briefly then recovers
+halgrim_day_burstOFF_056: PASS -- declines Wojsław, obeys Edda; correct authority gradient
+halgrim_day_burstOFF_057: PASS -- two barbs absorbed, second gets shade curt; gradual buildup fits
+halgrim_day_burstOFF_058: PASS -- quiet day, late-night jab gets curt reply; appropriate
+halgrim_day_burstOFF_059: PASS -- positive morning, mild curt reply to evening jab; well-paced
+halgrim_day_burstOFF_060: PASS -- busy Edda-order day, public jab answered coldly, then settles

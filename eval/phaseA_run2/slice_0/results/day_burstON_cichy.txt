@@ -1,0 +1,10 @@
+cichy_day_burstON_001: PASS -- mock triggers snap, second mock triggers fury; plausible escalation
+cichy_day_burstON_002: PASS -- curt to mock and soup after; temper lingers, sleep resets
+cichy_day_burstON_003: PASS -- steady tension through afternoon, settles before sleep; sane pacing
+cichy_day_burstON_004: PASS -- stranger kindness taken warmly; guard mock only draws curtness
+cichy_day_burstON_005: PASS -- mock draws curtness, tension builds afternoon, fades by night
+cichy_day_burstON_006: FLAG -- mocked at 08:12, lets it pass with no reaction; too mild for Cichy
+cichy_day_burstON_007: PASS -- single mock draws curtness, stranger kindness late; sane rhythm
+cichy_day_burstON_008: PASS -- mock at 11:31 triggers snap, temper persists hours; believable
+cichy_day_burstON_009: FLAG -- erupts in fury at 21:21 then looks settled at ease by 22:04; too fast
+cichy_day_burstON_010: PASS -- escalating mocks produce bristle then fury; pacing fits

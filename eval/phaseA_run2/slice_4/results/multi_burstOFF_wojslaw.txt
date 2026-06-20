@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_041: PASS -- sane pacing, eruptions triggered, sleeps and recovers
+wojslaw_multi_burstOFF_042: PASS -- heavy provocation days, each eruption triggered, recovers nightly
+wojslaw_multi_burstOFF_043: PASS -- mix of calm and tense days, refusals and snaps fit profile
+wojslaw_multi_burstOFF_044: PASS -- warm start, provoked fury, two late-night eruptions triggered
+wojslaw_multi_burstOFF_045: PASS -- no provocations, warm throughout; absence of friction, not contradiction
+wojslaw_multi_burstOFF_046: PASS -- three rapid late-night eruptions triggered by Marta, coherent
+wojslaw_multi_burstOFF_047: PASS -- three calm warm days then one eruption on Day 4; no unprovoked anger
+wojslaw_multi_burstOFF_048: PASS -- mostly calm, single afternoon eruption on Day 4 when provoked
+wojslaw_multi_burstOFF_049: PASS -- escalating abuse over Days 2-3 drives eruption cluster, input-driven
+wojslaw_multi_burstOFF_050: PASS -- displaced anger at kindness on Day 3 plausible given sustained fury

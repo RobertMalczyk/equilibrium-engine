@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_001: PASS -- restless cycle, mocks shrugged off, sane pacing
+lutek_multi_burstOFF_002: PASS -- tense spells resolve after rest and food, fits profile
+lutek_multi_burstOFF_003: PASS -- dense kindness cluster minor but profile intact
+lutek_multi_burstOFF_004: PASS -- three mocks all rolled off, tense evening resolves
+lutek_multi_burstOFF_005: PASS -- late nights plausible for restless poet, all tensions resolve
+lutek_multi_burstOFF_006: PASS -- cooler soup response once, tense spells recover normally
+lutek_multi_burstOFF_007: PASS -- dawn-tense pattern across days, resolves with rest each time
+lutek_multi_burstOFF_008: PASS -- cooler soup response Day 3, dense kindnesses, sane overall
+lutek_multi_burstOFF_009: PASS -- very dense kindnesses Day 1, minor muted responses, acceptable
+lutek_multi_burstOFF_010: PASS -- two soups two minutes apart Day 4 mechanical but not disqualifying

@@ -1,0 +1,10 @@
+halgrim_multi_burstON_001: PASS -- tension builds from Wojslaw friction, resets nightly, sane arc
+halgrim_multi_burstON_002: PASS -- rain day adds edge, mutters under load, recovers fine
+halgrim_multi_burstON_003: PASS -- peaceful days, busy Day 3 with many orders, tension oscillates
+halgrim_multi_burstON_004: PASS -- accumulated Wojslaw strain makes Marta soup reply cold, defensible
+halgrim_multi_burstON_005: PASS -- morning barrage builds fast tension, sustained but no absurd snapping
+halgrim_multi_burstON_006: PASS -- mostly serene, Day 4 rain plus Wojslaw friction, stays controlled
+halgrim_multi_burstON_007: PASS -- Day 1 midnight contempt at Edda plausible given peak anger cluster
+halgrim_multi_burstON_008: FLAG -- multi-day rage from Wojslaw saturation never resets despite sleep
+halgrim_multi_burstON_009: FLAG -- Marta kindness answered with complaint; burst spillover onto non-provocateurs
+halgrim_multi_burstON_010: FLAG -- Marta soup answered with contempt repeatedly; clear burst spillover

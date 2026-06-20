@@ -1,0 +1,10 @@
+cichy_day_burstON_051: PASS -- tense afternoon after mockery, eases by night, normal arc
+cichy_day_burstON_052: PASS -- mockery late evening, restless then settles; coherent day
+cichy_day_burstON_053: PASS -- bristles at mockery mid-afternoon, carries tension to sleep
+cichy_day_burstON_054: PASS -- mock early, temper lingers all day, second mock adds cold reply
+cichy_day_burstON_055: PASS -- stranger kindness warmly taken; guard soup curtly; fits profile
+cichy_day_burstON_056: PASS -- three mocks, accumulated edge all afternoon, sane pacing
+cichy_day_burstON_057: PASS -- two mocks mid-day, tense through evening, settles late; believable
+cichy_day_burstON_058: FLAG -- erupts in fury at stranger's kindness with no provocation shown
+cichy_day_burstON_059: PASS -- snaps at third mock after two prior barbs; escalation fits
+cichy_day_burstON_060: PASS -- stranger nod neutral; guard soup curt; tense afternoon, recovers

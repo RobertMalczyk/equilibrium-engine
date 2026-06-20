@@ -1,0 +1,10 @@
+welf_multi_burstON_031: PASS -- snap after two mocks while already tense, plausible
+welf_multi_burstON_032: PASS -- steady pattern across five days, sane pacing
+welf_multi_burstON_033: PASS -- late night on day three, otherwise consistent
+welf_multi_burstON_034: PASS -- rain days wear him down, recovers as expected
+welf_multi_burstON_035: PASS -- muted responses day two fit residual carryover tension
+welf_multi_burstON_036: PASS -- snap while already on edge, quick recovery, believable
+welf_multi_burstON_037: PASS -- quiet peaceful run, no jarring moments
+welf_multi_burstON_038: PASS -- sane across three days, rain handled well
+welf_multi_burstON_039: PASS -- three mocks let pass under stress, fits composed profile
+welf_multi_burstON_040: PASS -- consistent morning tension pattern, resolves each day

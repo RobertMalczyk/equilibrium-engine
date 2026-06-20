@@ -1,0 +1,10 @@
+lutek_day_burstOFF_011: PASS -- restless cycle, mocks shrugged off, settles by night
+lutek_day_burstOFF_012: PASS -- active day, three meals, wakes early and moving
+lutek_day_burstOFF_013: PASS -- slight evening tension resolves after soup, sane pacing
+lutek_day_burstOFF_014: PASS -- two soups at 08:26 and 08:56 slightly odd but harmless
+lutek_day_burstOFF_015: PASS -- tense at 20:00 eased by kindness and soup, fits profile
+lutek_day_burstOFF_016: PASS -- public mock ignored, evening tension settles, clean arc
+lutek_day_burstOFF_017: PASS -- late night but sleeps, tense evening lifted by Marta
+lutek_day_burstOFF_018: PASS -- many kindnesses, stays settled throughout, no jarring note
+lutek_day_burstOFF_019: PASS -- brief tension eases, restless late but sleeps, sane day
+lutek_day_burstOFF_020: PASS -- quiet well-paced day, settled throughout, clean sleep

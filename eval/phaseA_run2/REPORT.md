@@ -1,0 +1,253 @@
+# Phase-A (M1/M2) re-judge -- all-Sonnet, judge model held constant
+
+- Baseline (committed):  2618/2800 PASS
+- Phase A (this run):    2662/2800 PASS
+- Net: +44 PASS  |  fixed (FLAG->PASS): 132  |  regressed (PASS->FLAG): 88
+
+## Fixed (132)
+- branic_day_burstoff_036
+- branic_day_burstoff_039
+- branic_day_burstoff_040
+- branic_day_burstoff_078
+- branic_day_burstoff_100
+- branic_day_burston_014
+- branic_day_burston_020
+- branic_day_burston_099
+- branic_day_burston_100
+- branic_multi_burstoff_010
+- branic_multi_burstoff_058
+- branic_multi_burstoff_087
+- branic_multi_burston_028
+- branic_multi_burston_034
+- branic_multi_burston_048
+- branic_multi_burston_083
+- branic_multi_burston_087
+- cichy_day_burstoff_058
+- cichy_day_burstoff_094
+- cichy_day_burston_069
+- cichy_day_burston_080
+- cichy_day_burston_090
+- cichy_multi_burstoff_060
+- cichy_multi_burstoff_067
+- cichy_multi_burstoff_068
+- cichy_multi_burstoff_099
+- cichy_multi_burston_047
+- cichy_multi_burston_054
+- cichy_multi_burston_055
+- cichy_multi_burston_060
+- cichy_multi_burston_087
+- edda_day_burstoff_020
+- edda_day_burstoff_024
+- edda_day_burstoff_027
+- edda_day_burstoff_079
+- edda_day_burston_009
+- edda_day_burston_010
+- edda_day_burston_020
+- edda_day_burston_056
+- edda_day_burston_066
+- edda_day_burston_079
+- edda_multi_burstoff_019
+- edda_multi_burstoff_034
+- edda_multi_burstoff_069
+- edda_multi_burstoff_093
+- edda_multi_burstoff_094
+- edda_multi_burston_068
+- edda_multi_burston_069
+- halgrim_day_burstoff_017
+- halgrim_day_burstoff_018
+- halgrim_day_burstoff_036
+- halgrim_day_burstoff_046
+- halgrim_day_burstoff_048
+- halgrim_day_burstoff_055
+- halgrim_day_burston_010
+- halgrim_day_burston_048
+- halgrim_day_burston_054
+- halgrim_day_burston_057
+- halgrim_multi_burstoff_030
+- halgrim_multi_burstoff_079
+- halgrim_multi_burstoff_088
+- halgrim_multi_burston_007
+- halgrim_multi_burston_025
+- halgrim_multi_burston_027
+- halgrim_multi_burston_042
+- lutek_day_burstoff_046
+- lutek_day_burstoff_056
+- lutek_day_burstoff_057
+- lutek_day_burstoff_059
+- lutek_day_burstoff_065
+- lutek_day_burstoff_068
+- lutek_day_burstoff_089
+- lutek_day_burston_027
+- lutek_day_burston_046
+- lutek_day_burston_056
+- lutek_day_burston_057
+- lutek_day_burston_059
+- lutek_day_burston_065
+- lutek_day_burston_087
+- lutek_day_burston_089
+- lutek_multi_burstoff_017
+- lutek_multi_burstoff_026
+- lutek_multi_burstoff_032
+- lutek_multi_burstoff_047
+- lutek_multi_burstoff_048
+- lutek_multi_burstoff_053
+- lutek_multi_burstoff_054
+- lutek_multi_burstoff_059
+- lutek_multi_burstoff_060
+- lutek_multi_burston_026
+- lutek_multi_burston_028
+- lutek_multi_burston_030
+- lutek_multi_burston_045
+- lutek_multi_burston_047
+- lutek_multi_burston_048
+- lutek_multi_burston_049
+- lutek_multi_burston_053
+- lutek_multi_burston_076
+- lutek_multi_burston_079
+- welf_day_burstoff_017
+- welf_day_burstoff_018
+- welf_day_burstoff_050
+- welf_day_burstoff_069
+- welf_day_burstoff_098
+- welf_day_burston_069
+- welf_multi_burstoff_010
+- welf_multi_burstoff_015
+- welf_multi_burstoff_019
+- welf_multi_burstoff_025
+- welf_multi_burstoff_026
+- welf_multi_burstoff_048
+- welf_multi_burstoff_050
+- welf_multi_burstoff_058
+- welf_multi_burstoff_068
+- welf_multi_burstoff_093
+- welf_multi_burstoff_095
+- welf_multi_burstoff_099
+- welf_multi_burston_015
+- welf_multi_burston_019
+- welf_multi_burston_025
+- welf_multi_burston_026
+- welf_multi_burston_058
+- welf_multi_burston_068
+- welf_multi_burston_099
+- wojslaw_day_burstoff_057
+- wojslaw_day_burstoff_069
+- wojslaw_day_burstoff_073
+- wojslaw_day_burstoff_077
+- wojslaw_day_burstoff_090
+- wojslaw_multi_burstoff_074
+- wojslaw_multi_burston_022
+- wojslaw_multi_burston_045
+
+## Regressed (88) -- investigate any of these
+- branic_day_burstoff_006
+- branic_day_burstoff_013
+- branic_day_burstoff_045
+- branic_day_burstoff_050
+- branic_day_burstoff_086
+- branic_day_burston_032
+- branic_day_burston_053
+- branic_multi_burstoff_089
+- branic_multi_burston_060
+- branic_multi_burston_061
+- branic_multi_burston_063
+- branic_multi_burston_066
+- cichy_day_burstoff_006
+- cichy_day_burstoff_025
+- cichy_day_burston_009
+- cichy_day_burston_020
+- cichy_day_burston_029
+- cichy_day_burston_058
+- cichy_multi_burstoff_075
+- cichy_multi_burston_068
+- edda_day_burstoff_066
+- edda_day_burston_007
+- edda_day_burston_008
+- edda_multi_burston_038
+- edda_multi_burston_076
+- halgrim_day_burstoff_027
+- halgrim_day_burstoff_076
+- halgrim_day_burston_009
+- halgrim_day_burston_027
+- halgrim_day_burston_067
+- halgrim_day_burston_076
+- halgrim_multi_burstoff_040
+- halgrim_multi_burston_008
+- halgrim_multi_burston_033
+- halgrim_multi_burston_039
+- halgrim_multi_burston_063
+- halgrim_multi_burston_068
+- halgrim_multi_burston_070
+- lutek_day_burston_005
+- lutek_day_burston_006
+- lutek_day_burston_060
+- lutek_multi_burston_003
+- lutek_multi_burston_006
+- lutek_multi_burston_025
+- welf_day_burston_060
+- welf_day_burston_098
+- wojslaw_day_burstoff_025
+- wojslaw_day_burstoff_029
+- wojslaw_day_burstoff_035
+- wojslaw_day_burstoff_046
+- wojslaw_day_burstoff_048
+- wojslaw_day_burstoff_056
+- wojslaw_day_burstoff_064
+- wojslaw_day_burstoff_086
+- wojslaw_day_burstoff_094
+- wojslaw_day_burstoff_096
+- wojslaw_day_burstoff_097
+- wojslaw_day_burston_001
+- wojslaw_day_burston_007
+- wojslaw_day_burston_008
+- wojslaw_day_burston_014
+- wojslaw_day_burston_015
+- wojslaw_day_burston_017
+- wojslaw_day_burston_020
+- wojslaw_day_burston_021
+- wojslaw_day_burston_023
+- wojslaw_day_burston_025
+- wojslaw_day_burston_030
+- wojslaw_day_burston_032
+- wojslaw_day_burston_035
+- wojslaw_day_burston_048
+- wojslaw_day_burston_055
+- wojslaw_day_burston_056
+- wojslaw_day_burston_057
+- wojslaw_day_burston_062
+- wojslaw_day_burston_063
+- wojslaw_day_burston_065
+- wojslaw_day_burston_069
+- wojslaw_day_burston_072
+- wojslaw_day_burston_074
+- wojslaw_day_burston_077
+- wojslaw_day_burston_079
+- wojslaw_day_burston_091
+- wojslaw_day_burston_092
+- wojslaw_day_burston_097
+- wojslaw_multi_burston_012
+- wojslaw_multi_burston_015
+- wojslaw_multi_burston_018
+
+---
+
+## Phase-A FINAL — M1 refined (recency-gated seething), all-Sonnet, judge held constant
+
+| run | PASS / 2800 | rate |
+|---|---|---|
+| baseline | 2618 | 93.5% |
+| run1 (M1 v1, unconditional seething) | 2594 | 92.6% |
+| **run2 (M1 refined, recency-gated)** | **2662** | **95.1%** |
+
+- **run2 vs baseline: net +44** (132 FLAG→PASS fixed, 88 PASS→FLAG regressed).
+- **run2 vs run1: net +68** (106 fixed, 38 regressed) — the recency gate recovered the
+  over-surfaced-anger regressions that sank run1.
+
+### Residual 88 regressions vs baseline (what's left)
+- By burst: ON 64 / OFF 24 — still burst-skewed.
+- Only **25/88 seething/tense-themed** (down from 66 in run1) — the M1 over-surfacing is largely resolved.
+- **48/88 kindness/displacement-themed** ("bristles/snaps at soup", "displacement overdone") — these are
+  the **M3 (Phase C) burst source-valence gate** target, NOT an M1 bug; expected to clear when M3 lands.
+
+**Conclusion:** Phase A (M1 recency-gated + M2) is a net believability gain (+1.6pp over baseline, judge
+model held constant). The dominant remaining defect is burst displaced-discharge onto kind sources →
+Phase C / M20.1.

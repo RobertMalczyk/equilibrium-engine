@@ -1,0 +1,10 @@
+branic_multi_burstON_011: PASS -- anger builds across day, erupts at evening mocks, resets overnight
+branic_multi_burstON_012: PASS -- calm days, single eruption per evening, credible arc
+branic_multi_burstON_013: PASS -- burst displaces onto Marta on rain day, known burst-ON pattern
+branic_multi_burstON_014: PASS -- kindness-heavy days, one outburst late, sane pacing
+branic_multi_burstON_015: PASS -- rain and grudge drive Day 4 eruption, cascades plausibly
+branic_multi_burstON_016: PASS -- escalating friction over days, many outbursts but burst-ON scenario
+branic_multi_burstON_017: PASS -- two quick mocks trigger eruption, vents and recovers cleanly
+branic_multi_burstON_018: PASS -- minor overnight temper with no clear cause, otherwise sane
+branic_multi_burstON_019: PASS -- mocks accumulate on Day 6, eruption well-earned, resets clean
+branic_multi_burstON_020: PASS -- heavy Day 4 eruptions after carried grudge, Day 5 fully reset

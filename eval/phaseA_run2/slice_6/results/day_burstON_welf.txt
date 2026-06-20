@@ -1,0 +1,10 @@
+welf_day_burstON_061: PASS -- calm merchant, boredom cycles, mild evening tension, sane day
+welf_day_burstON_062: PASS -- mock ignored, kindnesses welcomed, restlessness cycles naturally
+welf_day_burstON_063: PASS -- two kindnesses then a mock, lets it pass, steady throughout
+welf_day_burstON_064: PASS -- well-fed day, boredom addressed, settles by evening, no issues
+welf_day_burstON_065: PASS -- mocks brushed off, good cheer from food and kindness, sane pacing
+welf_day_burstON_066: PASS -- public mock ignored, resumes tinkering, settled close of day
+welf_day_burstON_067: PASS -- tense at 18:00 but kindness restores ease, believable arc
+welf_day_burstON_068: PASS -- mild evening tension, wakes settled, consistent with profile
+welf_day_burstON_069: PASS -- well-supported day, restless late but occupied, sleeps a bit late
+welf_day_burstON_070: PASS -- boredom cycles with rest, mild late tension, wakes fine

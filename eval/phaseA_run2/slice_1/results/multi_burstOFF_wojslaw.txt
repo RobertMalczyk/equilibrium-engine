@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_011: PASS -- calm days, fury on public mock, sleep resets reliably
+wojslaw_multi_burstOFF_012: PASS -- provocation triggers eruptions, tense carry-over fades overnight
+wojslaw_multi_burstOFF_013: PASS -- repeated mocking accumulates tension, sleep resets each morning
+wojslaw_multi_burstOFF_014: PASS -- heavy provocation day, dense eruptions consistent with short temper
+wojslaw_multi_burstOFF_015: PASS -- low-provocation day calm, escalates under mocking, plausible arc
+wojslaw_multi_burstOFF_016: PASS -- afternoon fury cluster fits mocking barrage, exhaustion lets one pass
+wojslaw_multi_burstOFF_017: PASS -- steady rhythm of flares and recovery across six days
+wojslaw_multi_burstOFF_018: PASS -- Marta's repeated mockery drives bristle at her later kindness
+wojslaw_multi_burstOFF_019: PASS -- calm days turn volatile under mocking, temper carry-over noted
+wojslaw_multi_burstOFF_020: PASS -- early morning mocks set tense tone, day two recovers well

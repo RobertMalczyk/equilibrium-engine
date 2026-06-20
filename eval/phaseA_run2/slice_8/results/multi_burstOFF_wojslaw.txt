@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_081: PASS -- escalating eruptions across days, sleep resets hold
+wojslaw_multi_burstOFF_082: PASS -- public insult triggers eruption, kindnesses calm him
+wojslaw_multi_burstOFF_083: PASS -- repeated Marta mocks drive eruptions, plausible arc
+wojslaw_multi_burstOFF_084: PASS -- heavy provocation load across six days, coherent escalation
+wojslaw_multi_burstOFF_085: PASS -- kind-heavy days explain tolerance, arc believable
+wojslaw_multi_burstOFF_086: PASS -- warm days with one mild jarring moment, acceptable
+wojslaw_multi_burstOFF_087: PASS -- bad-luck run of mocks keeps him wound across days
+wojslaw_multi_burstOFF_088: PASS -- tension compounds across days, bristles under load
+wojslaw_multi_burstOFF_089: PASS -- calm start, mocks trigger eruptions, mornings reset
+wojslaw_multi_burstOFF_090: PASS -- kind provocation-free days explain settled behaviour

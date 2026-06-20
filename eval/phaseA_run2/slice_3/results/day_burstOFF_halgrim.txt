@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_031: PASS -- calm day, curt cold responses to Wojsław fit profile
+halgrim_day_burstOFF_032: PASS -- quiet settled day, no friction, sane pacing
+halgrim_day_burstOFF_033: PASS -- Wojsław's jab absorbed without reaction, fits iron control
+halgrim_day_burstOFF_034: PASS -- early Wojsław jab leaves mild edge, fades by evening
+halgrim_day_burstOFF_035: PASS -- declines Wojsław orders, cold response later, consistent
+halgrim_day_burstOFF_036: PASS -- grumbles at repeated late Wojsław demands, reasonable friction
+halgrim_day_burstOFF_037: PASS -- residual edge from Wojsław mock fades, refusal fits
+halgrim_day_burstOFF_038: PASS -- cold contempt after repeated Wojsław prodding, well-paced
+halgrim_day_burstOFF_039: PASS -- contempt at Wojsław despite Marta warmth, cold not hot
+halgrim_day_burstOFF_040: PASS -- uneventful day, two Edda orders let pass without reaction

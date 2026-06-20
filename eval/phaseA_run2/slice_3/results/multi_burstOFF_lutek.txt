@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_031: PASS -- sane pacing, mockery ignored, warmth consistent
+lutek_multi_burstOFF_032: PASS -- steady rhythm, muted kindness response plausible day six
+lutek_multi_burstOFF_033: PASS -- late sleep day three odd but within range
+lutek_multi_burstOFF_034: PASS -- midnight sleep after late work, muted response once acceptable
+lutek_multi_burstOFF_035: PASS -- early tension resolves, consistent warmth and restlessness
+lutek_multi_burstOFF_036: PASS -- clean rhythm, mockery shrugged off, pacing believable
+lutek_multi_burstOFF_037: PASS -- evening tension resolved by kindness, late activity fine
+lutek_multi_burstOFF_038: PASS -- midnight working days plausible, mockery ignored throughout
+lutek_multi_burstOFF_039: FLAG -- curt reply to mockery jars; profile says it rolls off
+lutek_multi_burstOFF_040: PASS -- mockery ignored consistently, evening tension resolves normally

@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_011: PASS -- sane rhythm, mocks roll off, recovers each morning
+lutek_multi_burstOFF_012: PASS -- consistent pattern, well-fed, tension clears with kindness
+lutek_multi_burstOFF_013: PASS -- public mock brushed off, dense soup unremarkable
+lutek_multi_burstOFF_014: PASS -- curt reply under accumulated tension, recovers same evening
+lutek_multi_burstOFF_015: PASS -- positive days, evening tension resolves, mocks ignored
+lutek_multi_burstOFF_016: PASS -- late-night sleep timing odd but behaviour sane throughout
+lutek_multi_burstOFF_017: PASS -- multiple mocks all let pass, dense kindness fits profile
+lutek_multi_burstOFF_018: PASS -- two evening tense spells, both resolve; mocks ignored
+lutek_multi_burstOFF_019: PASS -- very dense morning kindnesses Day 5, otherwise sane
+lutek_multi_burstOFF_020: PASS -- clean three days, brief evening tension resolves quickly

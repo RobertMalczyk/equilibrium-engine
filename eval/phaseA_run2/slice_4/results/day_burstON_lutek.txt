@@ -1,0 +1,10 @@
+lutek_day_burstON_041: PASS -- restless-to-settled rhythm, insults roll off, sleeps late but sane
+lutek_day_burstON_042: PASS -- pacing natural, mild evening edge resolves, sleeps after midnight
+lutek_day_burstON_043: PASS -- insult ignored, kindnesses warmly received, sleeps near midnight
+lutek_day_burstON_044: PASS -- steady restless cycle, evening tension, wakes settled next morning
+lutek_day_burstON_045: PASS -- thick-skinned about mockery, warmly social, clean sleep and wake
+lutek_day_burstON_046: PASS -- mockery ignored twice, mild evening tension eases, sleeps at midnight
+lutek_day_burstON_047: PASS -- many Marta kindnesses, natural restlessness, wakes refreshed
+lutek_day_burstON_048: PASS -- restless rhythm consistent, evening tension, clean sleep and wake
+lutek_day_burstON_049: PASS -- two insults brushed off, evening edge clears, wakes at ease
+lutek_day_burstON_050: PASS -- restless-settle pattern, brief evening tension, clean sleep and wake

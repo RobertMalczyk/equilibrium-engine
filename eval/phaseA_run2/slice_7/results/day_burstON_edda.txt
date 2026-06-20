@@ -1,0 +1,10 @@
+edda_day_burstON_071: PASS -- calm day, appropriate warmth to kindnesses, sane pacing
+edda_day_burstON_072: PASS -- steady day, stranger order let pass, credible composure
+edda_day_burstON_073: PASS -- mock let pass without reaction, fits composed authority
+edda_day_burstON_074: PASS -- early mock ignored, day settles warmly, coherent
+edda_day_burstON_075: PASS -- two soups at 07:40 and 07:52 close but not absurd
+edda_day_burstON_076: PASS -- quiet day, appropriate responses, sane rhythm
+edda_day_burstON_077: PASS -- two rest entries two minutes apart slightly odd but minor
+edda_day_burstON_078: PASS -- stranger order let pass, warmth to helpers, credible
+edda_day_burstON_079: PASS -- stranger order complied with once, fits castellan role
+edda_day_burstON_080: PASS -- two soups 34 min apart early, otherwise fully sane

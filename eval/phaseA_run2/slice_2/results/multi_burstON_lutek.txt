@@ -1,0 +1,10 @@
+lutek_multi_burstON_021: PASS -- restless-seek cycle sane, mocks roll off, sleeps well
+lutek_multi_burstON_022: PASS -- tension clears with food/kindness, profile fits
+lutek_multi_burstON_023: PASS -- curt reply only when already tense, recovers fine
+lutek_multi_burstON_024: PASS -- multi-evening tension buildup, clears by midday next day
+lutek_multi_burstON_025: FLAG -- "still seething, jaw tight" overnight feels too intense for Lutek
+lutek_multi_burstON_026: PASS -- cold replies only when tense, burst-ON context explains it
+lutek_multi_burstON_027: PASS -- smooth pacing, kindness received warmly, mocks let pass
+lutek_multi_burstON_028: PASS -- morning tension clears reliably, food/kindness restores ease
+lutek_multi_burstON_029: PASS -- mock-tense-recover arc sane, positive Day 3 and 4 believable
+lutek_multi_burstON_030: PASS -- evening tension pattern consistent, curt reply when pre-tense

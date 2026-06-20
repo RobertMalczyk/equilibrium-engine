@@ -1,0 +1,10 @@
+edda_day_burstOFF_051: PASS -- calm day, authority shown at end, sane pacing
+edda_day_burstOFF_052: PASS -- steady day, appropriate warmth to helpers, normal rhythm
+edda_day_burstOFF_053: PASS -- barbed remark ignored fits composed castellan, sane day
+edda_day_burstOFF_054: PASS -- quiet productive day, settled throughout, normal cadence
+edda_day_burstOFF_055: PASS -- early kindnesses, settled through afternoon, authority at end
+edda_day_burstOFF_056: PASS -- stranger orders tolerated calmly, fits composed authority figure
+edda_day_burstOFF_057: PASS -- mock ignored, double rest mid-afternoon plausible, sane day
+edda_day_burstOFF_058: PASS -- late stranger order ignored gracefully, sane pacing throughout
+edda_day_burstOFF_059: PASS -- cluster of helpers late evening unusual but not absurd
+edda_day_burstOFF_060: PASS -- two soups at 07:02/07:04 slightly odd but not jarring

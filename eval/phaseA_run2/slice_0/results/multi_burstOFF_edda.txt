@@ -1,0 +1,10 @@
+edda_multi_burstOFF_001: PASS -- steady calm, sane pacing, fits composed castellan
+edda_multi_burstOFF_002: PASS -- mild complaint then recovery, authority-fitting responses
+edda_multi_burstOFF_003: PASS -- quiet days, regular routine, nothing jarring
+edda_multi_burstOFF_004: PASS -- variable stranger compliance plausible, calm baseline holds
+edda_multi_burstOFF_005: PASS -- declines stranger order, fits castellan standing
+edda_multi_burstOFF_006: PASS -- complaint then compliance, different moments different states
+edda_multi_burstOFF_007: PASS -- absorbs two provocations, mixed compliance pattern plausible
+edda_multi_burstOFF_008: PASS -- curt reply to public mockery, proportionate for commander
+edda_multi_burstOFF_009: PASS -- dense afternoon kindnesses unusual but not impossible
+edda_multi_burstOFF_010: PASS -- very quiet record, sane minimal activity

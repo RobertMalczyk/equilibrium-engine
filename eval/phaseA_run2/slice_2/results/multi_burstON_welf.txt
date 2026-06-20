@@ -1,0 +1,10 @@
+welf_multi_burstON_021: PASS -- steady composed man, restlessness cycles, normal sleep
+welf_multi_burstON_022: PASS -- clean 3-day run, appropriate kindness responses
+welf_multi_burstON_023: PASS -- 6-day run, late sleep Day 3 but not absurd
+welf_multi_burstON_024: PASS -- rain-watch temper carry-over resolves plausibly by afternoon
+welf_multi_burstON_025: PASS -- muted soup response on rain day fits composed profile
+welf_multi_burstON_026: PASS -- kindness-dense Day 1 unusual but no character contradiction
+welf_multi_burstON_027: PASS -- multi-day consistent, normal restlessness-seek cycle
+welf_multi_burstON_028: PASS -- late Day 1 sleep, morning edge, resolves normally
+welf_multi_burstON_029: PASS -- rain temper carry-over fades; late kindness cluster minor
+welf_multi_burstON_030: FLAG -- composed man snaps angrily at soup-bearer; burst fires on kindness

@@ -1,0 +1,10 @@
+welf_day_burstON_071: PASS -- steady day, mild end-of-evening tension fits idle boredom
+welf_day_burstON_072: PASS -- even-keeled, late soup warmth plausible, sleeps settled
+welf_day_burstON_073: PASS -- several kindnesses, warmth reasonable, no jarring shifts
+welf_day_burstON_074: PASS -- well-fed day, consistently composed, fits profile well
+welf_day_burstON_075: PASS -- mock ignored, slight late tension, fits composed merchant
+welf_day_burstON_076: PASS -- late tension after long day of idleness, plausible
+welf_day_burstON_077: PASS -- quiet day, late edge credible, wakes settled
+welf_day_burstON_078: PASS -- restless burst at 22:42 late-night plausible for bored man
+welf_day_burstON_079: PASS -- calm, well-paced, no anomalies
+welf_day_burstON_080: PASS -- two soups close together odd but no behavioural jar

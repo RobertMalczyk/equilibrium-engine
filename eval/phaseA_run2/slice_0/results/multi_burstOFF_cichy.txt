@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_001: PASS -- steady captive, mocks trigger anger, nights reset well
+cichy_multi_burstOFF_002: PASS -- four Day-1 eruptions but guards kept provoking each time
+cichy_multi_burstOFF_003: PASS -- stranger warmth fits; guard-provoked eruptions consistent
+cichy_multi_burstOFF_004: PASS -- single stoic non-reaction morning; rest coherent
+cichy_multi_burstOFF_005: PASS -- clean arc, mock triggers eruption, quiet Day 3 believable
+cichy_multi_burstOFF_006: PASS -- rainy Day 2 grinds him down; sustained tension fits
+cichy_multi_burstOFF_007: PASS -- repeated same-hour mocks escalate; recovery normal
+cichy_multi_burstOFF_008: PASS -- heavy Day 2 provocation run; sleep resets hold
+cichy_multi_burstOFF_009: PASS -- guards relentlessly taunt; each eruption has a cause
+cichy_multi_burstOFF_010: PASS -- multi-day rain and mocks grind him; pacing believable

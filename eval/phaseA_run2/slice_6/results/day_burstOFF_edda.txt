@@ -1,0 +1,10 @@
+edda_day_burstOFF_061: PASS -- composed castellan, brief tension after mockery, resolves cleanly
+edda_day_burstOFF_062: PASS -- calm day, warm to kindnesses, sane pacing throughout
+edda_day_burstOFF_063: PASS -- mockery absorbed, brief edge at midday, quickly settled
+edda_day_burstOFF_064: PASS -- quiet day, steady ease, fits composed authority figure
+edda_day_burstOFF_065: PASS -- settled throughout, responds warmly to kindnesses, normal rhythm
+edda_day_burstOFF_066: FLAG -- obeys stranger's orders early morning, jarring for a castellan
+edda_day_burstOFF_067: PASS -- tranquil day, lets mockery pass, warm to Marta
+edda_day_burstOFF_068: PASS -- early mockery ignored, warm to kindnesses, sane arc
+edda_day_burstOFF_069: PASS -- brief tension after second mock, soup restores ease
+edda_day_burstOFF_070: PASS -- quiet steady day, authority exercised at end, fits well

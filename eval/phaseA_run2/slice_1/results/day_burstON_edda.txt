@@ -1,0 +1,10 @@
+edda_day_burstON_011: PASS -- calm day, appropriate warmth, routine holds
+edda_day_burstON_012: PASS -- stranger's order draws mild complaint, resolves fine
+edda_day_burstON_013: PASS -- steady day, warmth to kindnesses, composed throughout
+edda_day_burstON_014: PASS -- mocks ignored, pacing and tone fit the castellan
+edda_day_burstON_015: PASS -- brief tension after mock, recovers quickly, credible
+edda_day_burstON_016: PASS -- early slight, mild complaint, settles; day coherent
+edda_day_burstON_017: PASS -- quiet uneventful day, stranger order brushed off
+edda_day_burstON_018: PASS -- declines stranger's order after provocation; fits authority
+edda_day_burstON_019: PASS -- mock ignored, warm to helpers, composed and steady
+edda_day_burstON_020: PASS -- multiple mocks ignored, refusal of order plausible for castellan

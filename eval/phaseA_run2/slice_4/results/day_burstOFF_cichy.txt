@@ -1,0 +1,10 @@
+cichy_day_burstOFF_041: PASS -- calm prisoner day, soup accepted neutrally, sane pacing
+cichy_day_burstOFF_042: PASS -- mocking escalates anger, two eruptions fit provocation sequence
+cichy_day_burstOFF_043: PASS -- early eruption fades, day settles, believable recovery arc
+cichy_day_burstOFF_044: PASS -- mild mock gets curt reply, rest of day sane
+cichy_day_burstOFF_045: PASS -- stranger kindness warmly met, guard mock still triggers fury
+cichy_day_burstOFF_046: PASS -- quiet day, curtness at afternoon soup fits tension build
+cichy_day_burstOFF_047: PASS -- three soups, curt only at evening one, fits fatigue
+cichy_day_burstOFF_048: PASS -- two mocks produce snap then fury, anger lingers plausibly
+cichy_day_burstOFF_049: PASS -- calm day, no provocations, settled throughout, sane rhythm
+cichy_day_burstOFF_050: PASS -- stranger kindness absorbed, guard soup gets curtness, coherent day

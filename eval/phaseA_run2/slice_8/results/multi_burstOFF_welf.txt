@@ -1,0 +1,10 @@
+welf_multi_burstOFF_081: PASS -- steady merchant, boredom cycles, sleeps, wakes recovered
+welf_multi_burstOFF_082: PASS -- even-keeled, restless bouts, mild edge at night, clears by morning
+welf_multi_burstOFF_083: PASS -- composed pacing, rain day handled calmly, no jarring moments
+welf_multi_burstOFF_084: PASS -- slight edge some mornings, recovers; mocks ignored; fits profile
+welf_multi_burstOFF_085: PASS -- boredom-driven rhythm, kindnesses received warmly, no anger spikes
+welf_multi_burstOFF_086: PASS -- six days, steady throughout, transactional warmth, sane pacing
+welf_multi_burstOFF_087: PASS -- rain days, tense mornings clearing quickly; consistent merchant
+welf_multi_burstOFF_088: PASS -- mild edge late Day 3, no escalation; sane sleep/wake rhythm
+welf_multi_burstOFF_089: PASS -- composed across five days, surplus kindnesses absorbed without issue
+welf_multi_burstOFF_090: PASS -- restless boredom pattern, calm responses to mocks, clean pacing

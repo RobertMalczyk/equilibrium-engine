@@ -1,0 +1,10 @@
+cichy_multi_burstON_041: PASS -- sane arc, guard mockery earns Day 3 eruption
+cichy_multi_burstON_042: PASS -- displaced burst at stranger fits burst-ON under high tension
+cichy_multi_burstON_043: PASS -- displacement bursts at strangers fit burst-ON pattern
+cichy_multi_burstON_044: PASS -- steady simmering, no unearned eruptions, sane reset
+cichy_multi_burstON_045: PASS -- sustained tension contained below eruption, believable
+cichy_multi_burstON_046: PASS -- earned Day 1 eruption; Day 4 displacement fits burst-ON
+cichy_multi_burstON_047: PASS -- early Day 1 eruption fits hair-trigger profile, sane overall
+cichy_multi_burstON_048: PASS -- rain and mockery keep him simmering, no unearned blow-ups
+cichy_multi_burstON_049: PASS -- dense Day 2 provocation earns escalating eruption sequence
+cichy_multi_burstON_050: PASS -- late-night Day 2 eruption earned; Day 3 reset to let-pass

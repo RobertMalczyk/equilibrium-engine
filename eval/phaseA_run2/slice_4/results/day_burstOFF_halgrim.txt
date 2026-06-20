@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_041: PASS -- uneventful day, steady calm throughout, fits profile
+halgrim_day_burstOFF_042: PASS -- Wojsław mock met with cold curtness, sane recovery
+halgrim_day_burstOFF_043: PASS -- repeated provocations accumulate tension, gradual rise fits
+halgrim_day_burstOFF_044: PASS -- declines Wojsław orders, mild tension end of day, plausible
+halgrim_day_burstOFF_045: PASS -- Wojsław mock absorbed with no reaction, slight late edge fits
+halgrim_day_burstOFF_046: PASS -- tension after Wojsław mock, clears by evening, sane arc
+halgrim_day_burstOFF_047: PASS -- quiet positive day, late Wojsław order declined, fits
+halgrim_day_burstOFF_048: PASS -- Edda complaint mild but plausible under accumulated friction
+halgrim_day_burstOFF_049: PASS -- warm day, declines Wojsław, stays settled throughout
+halgrim_day_burstOFF_050: PASS -- Wojsław mocks absorbed then shade curt, tension lingers, fits

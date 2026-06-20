@@ -1,0 +1,10 @@
+branic_day_burstON_091: PASS -- restless recruit, steady compliance, evening tension resolves fine
+branic_day_burstON_092: PASS -- calm day with kindnesses, mild late tension, sane arc
+branic_day_burstON_093: PASS -- active day, positive events, no friction, plausible pacing
+branic_day_burstON_094: PASS -- quiet day, growing evening tension, no outburst, believable
+branic_day_burstON_095: PASS -- tension builds through evening, erupts under pressure, sleeps reset
+branic_day_burstON_096: PASS -- long productive day, late-evening eruption at order, plausible buildup
+branic_day_burstON_097: PASS -- mocks absorbed early, snaps at evening taunt, refuses order
+branic_day_burstON_098: PASS -- steady compliant day, mild late tension, no incident
+branic_day_burstON_099: PASS -- busy morning, calm midday, lingers tense at night, sane
+branic_day_burstON_100: PASS -- snaps at second mock, refuses orders, lingers tense evening

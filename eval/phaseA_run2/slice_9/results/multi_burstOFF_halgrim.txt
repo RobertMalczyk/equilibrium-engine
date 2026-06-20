@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_091: PASS -- tension rises with Wojslaw, sleeps reset cleanly
+halgrim_multi_burstOFF_092: PASS -- largely unfazed, iron self-control throughout
+halgrim_multi_burstOFF_093: PASS -- accumulated rain and Wojslaw friction, plausible escalation
+halgrim_multi_burstOFF_094: PASS -- early Wojslaw refusals fit resentment, calm days follow
+halgrim_multi_burstOFF_095: PASS -- mild Edda grumble in tension context, otherwise sane
+halgrim_multi_burstOFF_096: PASS -- rain plus Wojslaw day 5 raises tension, recovers overnight
+halgrim_multi_burstOFF_097: PASS -- heavy Wojslaw day 3 escalates to contempt, sleep resets
+halgrim_multi_burstOFF_098: PASS -- calm baseline, declines Wojslaw orders, no jarring notes
+halgrim_multi_burstOFF_099: PASS -- evening Wojslaw friction drains him, mornings clear
+halgrim_multi_burstOFF_100: PASS -- very settled throughout, light reactions to low provocation

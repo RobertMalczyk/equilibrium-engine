@@ -1,0 +1,10 @@
+branic_multi_burstOFF_041: PASS -- steady accumulation, eruption at day-2 barb fits profile
+branic_multi_burstOFF_042: PASS -- calm rhythm, late-day eruption after Halgrim's second mock
+branic_multi_burstOFF_043: PASS -- day-6 refusals follow days of repeated barbs and grinding
+branic_multi_burstOFF_044: PASS -- quiet, well-paced, no absurdity across three days
+branic_multi_burstOFF_045: PASS -- day-4 rapid escalation plausible after accumulated day-3 pressure
+branic_multi_burstOFF_046: PASS -- calm record, stranger kindnesses, sane pacing throughout
+branic_multi_burstOFF_047: PASS -- day-4 fury under consecutive mocks, recovery within hours acceptable
+branic_multi_burstOFF_048: PASS -- day-5 barrage of mocks drives escalating snaps, residual day-6 defiance
+branic_multi_burstOFF_049: PASS -- orderly and calm, no jarring moments across three days
+branic_multi_burstOFF_050: PASS -- day-5 relentless mocks earn defiance; day-6 morning recovery sane
