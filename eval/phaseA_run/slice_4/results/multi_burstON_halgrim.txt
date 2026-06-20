@@ -1,0 +1,10 @@
+halgrim_multi_burstON_041: PASS -- calm days, Wojslaw declined, profile fits
+halgrim_multi_burstON_042: PASS -- rain plus escalating Wojslaw, credible multi-day build
+halgrim_multi_burstON_043: PASS -- mild barb Day 1, Marta resets, Day 4 curt response apt
+halgrim_multi_burstON_044: PASS -- Edda order-load builds tension, Days 3-4 calm reset
+halgrim_multi_burstON_045: PASS -- very calm, refuses Wojslaw cleanly, Day 3 brief spike
+halgrim_multi_burstON_046: PASS -- seething jump after rest plausible given Day 1 buildup
+halgrim_multi_burstON_047: FLAG -- cold contempt directed at Marta's soup, contradicts profile
+halgrim_multi_burstON_048: PASS -- Wojslaw escalation, Edda snapped at while seething, recovers
+halgrim_multi_burstON_049: PASS -- relentless Wojslaw, Marta still warms him throughout
+halgrim_multi_burstON_050: PASS -- sustained rage; Edda contempt borderline but burst-context fits

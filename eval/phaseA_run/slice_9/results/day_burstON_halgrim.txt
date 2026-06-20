@@ -1,0 +1,10 @@
+halgrim_day_burstON_091: PASS -- calm day, warmth to Marta, settles easily
+halgrim_day_burstON_092: PASS -- Wojsław barb absorbed, kindnesses received well
+halgrim_day_burstON_093: PASS -- declines Wojsław order, stays composed throughout
+halgrim_day_burstON_094: PASS -- declines Wojsław twice, complies with Edda, sane
+halgrim_day_burstON_095: PASS -- cold contempt after repeated Wojsław mocks, fits
+halgrim_day_burstON_096: PASS -- seething briefly after barb, settles by evening
+halgrim_day_burstON_097: PASS -- quiet dutiful day, complies with Edda throughout
+halgrim_day_burstON_098: PASS -- tense from morning Wojsław barrages, recovers by night
+halgrim_day_burstON_099: PASS -- uneventful, even-keeled, no friction at all
+halgrim_day_burstON_100: PASS -- mild curtness at Wojsław, slight edge by bedtime

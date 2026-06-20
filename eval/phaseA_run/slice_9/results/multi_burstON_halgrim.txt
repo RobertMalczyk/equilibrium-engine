@@ -1,0 +1,10 @@
+halgrim_multi_burstON_091: PASS -- sustained Wojslaw pressure builds to refusal; sleep resets cleanly
+halgrim_multi_burstON_092: PASS -- calm run, Wojslaw brushed off, rain day normal
+halgrim_multi_burstON_093: PASS -- escalating provocation; contempt toward Edda once under heavy anger
+halgrim_multi_burstON_094: PASS -- quiet days, Wojslaw declined without seething, plausible
+halgrim_multi_burstON_095: PASS -- minor grumble at Edda order; Day 3 seething after rain and Wojslaw
+halgrim_multi_burstON_096: PASS -- calm until rain+Wojslaw day 5; controlled escalation
+halgrim_multi_burstON_097: PASS -- heavy Wojslaw days; muted Marta warmth under anger fits
+halgrim_multi_burstON_098: PASS -- rain day tension, recovers overnight, sane pacing
+halgrim_multi_burstON_099: PASS -- burst discharge onto Marta (22:20) noted but overall arc sane
+halgrim_multi_burstON_100: PASS -- very calm six days, light provocations absorbed well

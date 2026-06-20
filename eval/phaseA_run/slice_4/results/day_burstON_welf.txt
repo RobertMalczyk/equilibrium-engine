@@ -1,0 +1,10 @@
+welf_day_burstON_041: PASS -- calm day, boredom cycles, slight tension at night fine
+welf_day_burstON_042: PASS -- steady day, kindnesses received warmly, clean sleep
+welf_day_burstON_043: PASS -- boredom spikes resolved, late restlessness then sleep
+welf_day_burstON_044: PASS -- mock let pass, kindnesses warm him, slight edge at night
+welf_day_burstON_045: PASS -- even-keeled day, boredom cycles, settles clean
+welf_day_burstON_046: PASS -- early mock shrugged off, pleasant day, late restlessness fine
+welf_day_burstON_047: PASS -- mock ignored, boredom cycles, settles well at night
+welf_day_burstON_048: PASS -- boredom cycles, slight tension late evening, clean sleep
+welf_day_burstON_049: PASS -- tense late evening, rests before sleep, consistent
+welf_day_burstON_050: PASS -- two soups close together minor, otherwise sane day

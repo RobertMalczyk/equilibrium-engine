@@ -1,0 +1,10 @@
+lutek_day_burstON_051: PASS -- restless poet, insults roll off, warm to kindness, sane pacing
+lutek_day_burstON_052: PASS -- mild tension late evening, resolves before sleep, fits character
+lutek_day_burstON_053: PASS -- busy sociable day, insults ignored, good rhythm throughout
+lutek_day_burstON_054: FLAG -- curt reply to mock after earlier insults rolled off; mild incongruity
+lutek_day_burstON_055: FLAG -- unexplained tension at 18:03 with no prior provocation visible
+lutek_day_burstON_056: PASS -- two soups close together odd but otherwise sane day
+lutek_day_burstON_057: FLAG -- tension persists 18:03 and 20:03 with no visible trigger in record
+lutek_day_burstON_058: FLAG -- tension grows through evening with no clear provocations in record
+lutek_day_burstON_059: FLAG -- tension at 18:03 and 22:04 with no visible cause in record
+lutek_day_burstON_060: FLAG -- seething at 20:03 after mock that he earlier let pass without reaction

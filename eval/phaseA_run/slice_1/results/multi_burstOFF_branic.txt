@@ -1,0 +1,10 @@
+branic_multi_burstOFF_011: PASS -- buildup through mocks, evening eruption, grudge carries to Day 2
+branic_multi_burstOFF_012: PASS -- calm days, late-Day 4 eruption after accumulated quiet tension
+branic_multi_burstOFF_013: PASS -- positive early days, Day 5 aftermath of Day 4 eruption plausible
+branic_multi_burstOFF_014: PASS -- kindness-heavy but consistent; friction handled believably
+branic_multi_burstOFF_015: PASS -- rain Day 4 eruption, Day 5 residual refusals, clean recovery
+branic_multi_burstOFF_016: PASS -- Day 1 evening eruption, Day 5 friction-heavy day, sane pacing
+branic_multi_burstOFF_017: PASS -- gentle 3-day run, Day 3 morning snaps after accumulated edge
+branic_multi_burstOFF_018: PASS -- mostly positive, Day 5 morning double-mock snap, coherent arc
+branic_multi_burstOFF_019: PASS -- very calm 6 days, one Day 6 snap, plausible good-stretch run
+branic_multi_burstOFF_020: PASS -- Day 4 double-mock eruption after prior tension, Day 5 recovery

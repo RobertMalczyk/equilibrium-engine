@@ -1,0 +1,10 @@
+edda_multi_burstOFF_001: PASS -- steady, well-fed days; authority exercised; consistent composure
+edda_multi_burstOFF_002: PASS -- stranger commands handled variably; sane pacing across three days
+edda_multi_burstOFF_003: PASS -- calm routine; meals, rest, authority; nothing jars across four days
+edda_multi_burstOFF_004: PASS -- six days consistent; stranger commands deflected; meals and watch set
+edda_multi_burstOFF_005: PASS -- settled tone throughout; rest, meals, occasional deflection; credible
+edda_multi_burstOFF_006: PASS -- mild grumble at stranger command; composed recovery; sane across days
+edda_multi_burstOFF_007: PASS -- mocks ignored calmly; authority firm; no absurdity across six days
+edda_multi_burstOFF_008: PASS -- curt reply to public mockery believable; otherwise settled and steady
+edda_multi_burstOFF_009: PASS -- well-supported days; many kindnesses absorbed; authority exercised nightly
+edda_multi_burstOFF_010: PASS -- quiet days; mocks and commands let pass; castellan composure intact

@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_041: PASS -- temper arc and sleep resets sane across three days
+wojslaw_multi_burstON_042: PASS -- heavy provocation days drive eruptions, resets hold
+wojslaw_multi_burstON_043: PASS -- warm open, outbursts track insult density correctly
+wojslaw_multi_burstON_044: PASS -- seething without visible trigger plausible from carry
+wojslaw_multi_burstON_045: PASS -- calm days with sparse provocation; warmth fits inputs
+wojslaw_multi_burstON_046: PASS -- rough days driven by dense insults, sleep partially resets
+wojslaw_multi_burstON_047: PASS -- three benign days keep him warm; D4-5 insults trigger flares
+wojslaw_multi_burstON_048: PASS -- calm stretch then D4 provocation lands appropriate eruptions
+wojslaw_multi_burstON_049: PASS -- sustained assault sustains anger; daily reset only partial
+wojslaw_multi_burstON_050: PASS -- escalating provocation across days, partial nightly resets

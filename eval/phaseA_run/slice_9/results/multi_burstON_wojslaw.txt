@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_091: PASS -- calm day, erupts on public mockery, sleep resets
+wojslaw_multi_burstON_092: PASS -- heavy provocation load drives escalating fury across days
+wojslaw_multi_burstON_093: PASS -- kind days buffer temper; mocking triggers sharp eruption
+wojslaw_multi_burstON_094: FLAG -- erupts repeatedly at kindness and food, burst saturation
+wojslaw_multi_burstON_095: PASS -- anger rises and falls with provocation, sleep resets hold
+wojslaw_multi_burstON_096: FLAG -- erupts at kindness and soup delivery multiple times day 5
+wojslaw_multi_burstON_097: FLAG -- sustained burst displaces fury onto food and kindness
+wojslaw_multi_burstON_098: PASS -- heavy mockery load drives anger, discharge on-target
+wojslaw_multi_burstON_099: FLAG -- erupts at kindness and soup repeatedly, burst saturation
+wojslaw_multi_burstON_100: PASS -- anger tracks provocation, no displaced discharge on kindness

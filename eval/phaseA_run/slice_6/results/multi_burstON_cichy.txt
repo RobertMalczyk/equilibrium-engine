@@ -1,0 +1,10 @@
+cichy_multi_burstON_061: PASS -- guard provocations drive anger, night resets, stranger warmth correct
+cichy_multi_burstON_062: PASS -- day4 double outburst plausible after accumulated rain and mockery
+cichy_multi_burstON_063: PASS -- burst on calm baseline fits quick-to-bridle profile with burst enabled
+cichy_multi_burstON_064: PASS -- accumulated seething across days without single clear trigger plausible
+cichy_multi_burstON_065: PASS -- slow-burn to seething after paired mocks, no eruption on heavy day
+cichy_multi_burstON_066: PASS -- early eruption under rain plus prior tension; guard vs stranger filter correct
+cichy_multi_burstON_067: PASS -- day6 pre-dawn burst after rainy accumulated stress; sleep resets hold
+cichy_multi_burstON_068: FLAG -- guard mock let pass without reaction while already seething (day5 15:48)
+cichy_multi_burstON_069: PASS -- late-night eruption after hours of simmering fits; stranger softening correct
+cichy_multi_burstON_070: FLAG -- two soup deliveries 22 minutes apart day4; seething after stranger kindness

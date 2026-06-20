@@ -1,0 +1,10 @@
+edda_multi_burstON_071: PASS -- calm settled days, authority intact, sleeps well
+edda_multi_burstON_072: PASS -- tension spike recovers quickly, refusals fit authority
+edda_multi_burstON_073: PASS -- very positive run, stable and coherent across five days
+edda_multi_burstON_074: PASS -- friction builds to refusal, then resolves believably
+edda_multi_burstON_075: PASS -- uneventful positive days, no jarring moments
+edda_multi_burstON_076: PASS -- escalating stranger friction, declines orders, recovers fine
+edda_multi_burstON_077: PASS -- quiet routine, no events of concern
+edda_multi_burstON_078: PASS -- steady baseline, complies and deflects in turn
+edda_multi_burstON_079: PASS -- brief complaint then settles; day four busy but sane
+edda_multi_burstON_080: PASS -- dense morning cluster but no contradictions, stable days

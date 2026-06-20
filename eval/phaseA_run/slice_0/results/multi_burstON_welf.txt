@@ -1,0 +1,10 @@
+welf_multi_burstON_001: PASS -- boredom cycles, rain tension, late mock snap plausible
+welf_multi_burstON_002: PASS -- calm pattern, slight evening tension, nothing jarring
+welf_multi_burstON_003: PASS -- predominantly settled, boredom cycling, no anger issues
+welf_multi_burstON_004: PASS -- smooth rhythm, many kindnesses, consistent composed character
+welf_multi_burstON_005: PASS -- rain watch seething, recovers by noon, normal cycling
+welf_multi_burstON_006: PASS -- very calm across four days, no jarring moments
+welf_multi_burstON_007: PASS -- late seething without rain odd but boredom accumulation plausible
+welf_multi_burstON_008: PASS -- six-day run stays believable, mocks let pass consistently
+welf_multi_burstON_009: PASS -- two rain days back-to-back, seething on both, just credible
+welf_multi_burstON_010: PASS -- mild evening tension after mock, late-night work slightly unusual

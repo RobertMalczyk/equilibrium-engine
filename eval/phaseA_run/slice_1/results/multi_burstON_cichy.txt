@@ -1,0 +1,10 @@
+cichy_multi_burstON_011: PASS -- calm mornings, afternoon tension, bursts on provocation, resets nightly
+cichy_multi_burstON_012: PASS -- single mock triggers outburst day 3, cumulative wear day 4, coherent
+cichy_multi_burstON_013: PASS -- wound up from day 1 bleeds into day 2 morning, stranger kindness softens day 3
+cichy_multi_burstON_014: PASS -- morning seething simultaneous with mock, outburst day 4 fits deep resentment
+cichy_multi_burstON_015: PASS -- early fury clears by 08:00, double soup minor, burst arc believable
+cichy_multi_burstON_016: PASS -- stranger kindness briefly lowers guard; consecutive public taunts produce cascading outbursts
+cichy_multi_burstON_017: PASS -- burst-heavy day 3 with three rapid eruptions; heavy but burstON scenario
+cichy_multi_burstON_018: PASS -- bristling at soup delivery, prolonged day 4 seething; no morning sleep carryover issue
+cichy_multi_burstON_019: PASS -- sustained afternoons of seething without explicit trigger; captive baseline hostility credible
+cichy_multi_burstON_020: PASS -- six-hour afternoon seethe day 3, no outburst, ends settled; fits grinding tension

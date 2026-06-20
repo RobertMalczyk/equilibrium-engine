@@ -1,0 +1,10 @@
+cichy_day_burstON_091: PASS -- calm captive day, curt at soup, sane pacing
+cichy_day_burstON_092: PASS -- restless spells, curt to guards, believable rhythm
+cichy_day_burstON_093: PASS -- mocking provokes eruption, settles by night, fits profile
+cichy_day_burstON_094: PASS -- public mockery triggers fury, seething persists hours, coherent
+cichy_day_burstON_095: FLAG -- seething at 20:03 with no provocation shown that afternoon
+cichy_day_burstON_096: PASS -- tension builds through afternoon, curt at soup, sane
+cichy_day_burstON_097: PASS -- erupts at mockery, seething lingers hours, settles by night
+cichy_day_burstON_098: PASS -- stranger kindness warms him; guard mockery kept curt, credible
+cichy_day_burstON_099: PASS -- stranger kindness, seething mid-day, no provocation shown but plausible
+cichy_day_burstON_100: PASS -- early snap at mockery, long seething, cold responses fit

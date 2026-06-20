@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_001: PASS -- calm baseline, controlled curt response to Wojsław pressure
+halgrim_multi_burstOFF_002: PASS -- quiet days, mild grumble under load, recovers well
+halgrim_multi_burstOFF_003: PASS -- uneventful first days, grumbles under repeated Edda demands
+halgrim_multi_burstOFF_004: PASS -- escalating contempt under repeated Wojsław mocks, stays controlled
+halgrim_multi_burstOFF_005: PASS -- heavy early provocation, curt not explosive, coherent recovery
+halgrim_multi_burstOFF_006: PASS -- very calm throughout, rain day still settled, fits iron self-control
+halgrim_multi_burstOFF_007: PASS -- declines Wojsław orders, grumbles late day, recovers overnight
+halgrim_multi_burstOFF_008: PASS -- sustained Wojsław day 4 seething, wakes recovered, profile intact
+halgrim_multi_burstOFF_009: PASS -- seething after contempt, settled next morning, minor Edda spillover
+halgrim_multi_burstOFF_010: PASS -- heavy day 2 Wojsław pressure, Edda curtness day 4 under tension

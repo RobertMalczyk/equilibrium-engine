@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_061: PASS -- calm baseline, friction from Wojslaw, clean recovery
+halgrim_multi_burstOFF_062: PASS -- gradual Wojslaw erosion over 6 days, sane sleep resets
+halgrim_multi_burstOFF_063: PASS -- sustained mocking drives seething, Edda spillover plausible
+halgrim_multi_burstOFF_064: PASS -- quiet stretch, Day 2 tension without events minor
+halgrim_multi_burstOFF_065: PASS -- calm days, rain, Wojslaw barrage builds seething cleanly
+halgrim_multi_burstOFF_066: PASS -- Day 3 rain plus mock triggers seething, Edda spillover fits
+halgrim_multi_burstOFF_067: PASS -- 4-day accumulation under Wojslaw mocks, logical arc
+halgrim_multi_burstOFF_068: PASS -- 6-day slow burn, Wojslaw defiance escalates believably
+halgrim_multi_burstOFF_069: PASS -- very quiet stretch, minimal provocation, equanimity holds
+halgrim_multi_burstOFF_070: PASS -- rain plus repeated Wojslaw provocation sustains tension

@@ -1,0 +1,10 @@
+cichy_day_burstOFF_061: PASS -- anger from mockery, settles reasonably, normal pacing
+cichy_day_burstOFF_062: PASS -- stranger kindness warmly received, guard interactions appropriately cool
+cichy_day_burstOFF_063: PASS -- fury at mockery, calms over hours, believable rhythm
+cichy_day_burstOFF_064: PASS -- no provocations, quiet day, curtness at evening soup fits
+cichy_day_burstOFF_065: PASS -- curt to guard, warm to stranger, consistent with profile
+cichy_day_burstOFF_066: PASS -- snaps at late-night mockery just before sleep, plausible
+cichy_day_burstOFF_067: PASS -- erupts mid-afternoon at mockery, tense evening, settles by sleep
+cichy_day_burstOFF_068: PASS -- uneventful day, tense in evening, no incidents, sane
+cichy_day_burstOFF_069: PASS -- early morning fury, calms within hour, rest of day normal
+cichy_day_burstOFF_070: PASS -- snaps at morning mockery, afternoon tense, evening calm

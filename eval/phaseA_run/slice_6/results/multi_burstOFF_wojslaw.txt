@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_061: PASS -- erupts on mockery, calms overnight, sane arc
+wojslaw_multi_burstOFF_062: PASS -- heavy day-2 fury from stacked provocations, resets cleanly
+wojslaw_multi_burstOFF_063: PASS -- warm day-1, heavy day-2 eruptions, plausible escalation
+wojslaw_multi_burstOFF_064: PASS -- day-2 warmth after day-1 mock credible after overnight reset
+wojslaw_multi_burstOFF_065: PASS -- orders refused, mocks trigger eruptions, day-3 calm recovery
+wojslaw_multi_burstOFF_066: PASS -- periodic anger spikes on mockery, calm days between, fits profile
+wojslaw_multi_burstOFF_067: PASS -- three late-night eruptions day-1, day-3 calm, day-4 spike believable
+wojslaw_multi_burstOFF_068: PASS -- escalating day-1, calm day-2, day-3 tense with late eruption
+wojslaw_multi_burstOFF_069: PASS -- displaced anger at soup during fury fits prickly character
+wojslaw_multi_burstOFF_070: FLAG -- day-6 too placid; orders let pass all day, warm thanks uncharacteristic

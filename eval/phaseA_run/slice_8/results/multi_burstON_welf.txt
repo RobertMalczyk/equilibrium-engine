@@ -1,0 +1,10 @@
+welf_multi_burstON_081: FLAG -- seething at 20:03 with no visible provocation beforehand
+welf_multi_burstON_082: PASS
+welf_multi_burstON_083: PASS
+welf_multi_burstON_084: PASS
+welf_multi_burstON_085: PASS
+welf_multi_burstON_086: PASS
+welf_multi_burstON_087: PASS
+welf_multi_burstON_088: PASS
+welf_multi_burstON_089: PASS
+welf_multi_burstON_090: PASS

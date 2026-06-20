@@ -1,0 +1,10 @@
+cichy_day_burstOFF_041: PASS -- calm day, meals accepted neutrally, tension rises by afternoon
+cichy_day_burstOFF_042: PASS -- mocking provokes flare-ups; settles overnight; sane arc
+cichy_day_burstOFF_043: PASS -- fury at dawn fades; day settles; pacing believable
+cichy_day_burstOFF_044: PASS -- mild curt response to mock; quiet day otherwise fits
+cichy_day_burstOFF_045: PASS -- stranger kindness taken warmly; guard mock still triggers fury
+cichy_day_burstOFF_046: PASS -- curt at afternoon soup; otherwise steady; sane rhythm
+cichy_day_burstOFF_047: PASS -- three meals, curt only when tense; no absurdities
+cichy_day_burstOFF_048: PASS -- two mocks escalate anger; settles by evening; coherent
+cichy_day_burstOFF_049: PASS -- quiet day, meals accepted without fuss; sane and fitting
+cichy_day_burstOFF_050: PASS -- curt at tense moment; stranger kindness warmly taken; believable

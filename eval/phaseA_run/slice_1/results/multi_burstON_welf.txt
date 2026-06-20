@@ -1,0 +1,10 @@
+welf_multi_burstON_011: PASS
+welf_multi_burstON_012: PASS
+welf_multi_burstON_013: PASS
+welf_multi_burstON_014: PASS
+welf_multi_burstON_015: PASS
+welf_multi_burstON_016: PASS
+welf_multi_burstON_017: PASS
+welf_multi_burstON_018: PASS
+welf_multi_burstON_019: FLAG -- seething at 22:16 with no visible trigger shown
+welf_multi_burstON_020: PASS

@@ -1,0 +1,10 @@
+edda_multi_burstOFF_071: PASS -- settled days, orderly command, sane pacing throughout
+edda_multi_burstOFF_072: PASS -- multi-day, authority held, minor duplicate soups not alarming
+edda_multi_burstOFF_073: PASS -- smooth arc, mocks absorbed, composed throughout
+edda_multi_burstOFF_074: PASS -- Day 3 tension arc mock-to-edge-to-refusal believable for castellan
+edda_multi_burstOFF_075: PASS -- clean days, well-fed, authority exercised naturally
+edda_multi_burstOFF_076: PASS -- repeated stranger commands escalate refusals plausibly, ends settled
+edda_multi_burstOFF_077: PASS -- very clean, sparse events, settled and composed
+edda_multi_burstOFF_078: PASS -- compliance then mock absorbed, orderly multi-day rhythm
+edda_multi_burstOFF_079: PASS -- complaint at order then warmed, plausible recovery
+edda_multi_burstOFF_080: PASS -- busy Day 1 kindness cluster, quieter thereafter, sane contrast

@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_091: PASS -- calm restless rhythm, sleeps and wakes recovered
+lutek_multi_burstOFF_092: PASS -- consistent pacing, neutral nod at evening soup fine
+lutek_multi_burstOFF_093: PASS -- 6 days, mockery let pass, kindness clusters absorbed
+lutek_multi_burstOFF_094: PASS -- late sleep day 2 plausible, mockery ignored throughout
+lutek_multi_burstOFF_095: PASS -- clean rhythm, mild tension resolves, profile consistent
+lutek_multi_burstOFF_096: PASS -- two public mockeries passed, evening tension within range
+lutek_multi_burstOFF_097: PASS -- 5 days, kind-heavy mornings, all warmly received
+lutek_multi_burstOFF_098: PASS -- tension resolves with rest, kindness cluster day 3 fine
+lutek_multi_burstOFF_099: PASS -- tension late evenings and early morning, resolves by day
+lutek_multi_burstOFF_100: FLAG -- waking tense after sleep three mornings running

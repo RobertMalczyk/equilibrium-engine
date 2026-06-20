@@ -1,0 +1,10 @@
+edda_day_burstOFF_081: PASS -- settled, fed, rests, commands watch; sane day
+edda_day_burstOFF_082: PASS -- stranger orders ignored, barb ignored; composed throughout
+edda_day_burstOFF_083: PASS -- early order obeyed without fuss; calm day
+edda_day_burstOFF_084: PASS -- barb ignored, kindnesses received warmly; settled end
+edda_day_burstOFF_085: PASS -- multiple kindnesses, barb let pass; consistent composure
+edda_day_burstOFF_086: PASS -- orders ignored, barb ignored; steady throughout
+edda_day_burstOFF_087: PASS -- barb earns slight curtness; proportionate, resolves quickly
+edda_day_burstOFF_088: PASS -- two soups close together odd but accepted gracefully
+edda_day_burstOFF_089: PASS -- many kindnesses, one order ignored; warm but composed
+edda_day_burstOFF_090: PASS -- brief tension after mock clears by afternoon; fine

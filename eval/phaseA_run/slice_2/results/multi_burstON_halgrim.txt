@@ -1,0 +1,10 @@
+halgrim_multi_burstON_021: PASS -- tension builds through Wojslaw friction, fits profile
+halgrim_multi_burstON_022: PASS -- sustained pressure overflows to Edda, plausible under burst
+halgrim_multi_burstON_023: PASS -- prolonged seething with sparse triggers, burst-ON sustained
+halgrim_multi_burstON_024: PASS -- calm record, mild friction, coherent throughout
+halgrim_multi_burstON_025: PASS -- displaced snap at Marta mid-seething, burst-ON expected
+halgrim_multi_burstON_026: PASS -- heavy Day 1 provocation, seething carries across days
+halgrim_multi_burstON_027: PASS -- burst carryover sustains seething into Wojslaw-free Day 2
+halgrim_multi_burstON_028: PASS -- Day 5 persistent tension without active triggers, burst residue
+halgrim_multi_burstON_029: PASS -- escalation pattern coherent, refuses Wojslaw, respects Edda
+halgrim_multi_burstON_030: FLAG -- contempt toward respected Edda twice, exceeds curtness expected

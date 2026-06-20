@@ -1,0 +1,10 @@
+welf_day_burstON_091: PASS -- steady day, boredom cycles, kindness received warmly
+welf_day_burstON_092: PASS -- calm pacing, boredom and rest cycle believably
+welf_day_burstON_093: PASS -- mocks brushed off, fits composed even-keeled profile
+welf_day_burstON_094: PASS -- mild tension late evening, resolves before sleep
+welf_day_burstON_095: PASS -- well-fed, boredom cycles, settled throughout
+welf_day_burstON_096: PASS -- restlessness resurges briefly after kindness, plausible
+welf_day_burstON_097: PASS -- many kindnesses, warmly received each time, sane pacing
+welf_day_burstON_098: FLAG -- tension builds evening with no trigger, sleeps past midnight
+welf_day_burstON_099: PASS -- boredom cycles, kindness received well, calm sleep
+welf_day_burstON_100: PASS -- two soups in four minutes, second muted; rest plausible

@@ -1,0 +1,10 @@
+branic_day_burstON_011: PASS -- builds tension late, snaps at order, sleeps reset clean
+branic_day_burstON_012: PASS -- seething at rest plausible after mocks, recovers overnight
+branic_day_burstON_013: PASS -- erupts at evening mock after accumulated friction, settles
+branic_day_burstON_014: PASS -- quiet day, tension builds late, sleeps past midnight fine
+branic_day_burstON_015: PASS -- wound tight by night but complies; sleep resets cleanly
+branic_day_burstON_016: PASS -- edgy evening with no outburst; sane pacing throughout
+branic_day_burstON_017: PASS -- three stranger kindnesses in a row feels dense but harmless
+branic_day_burstON_018: FLAG -- seething at 20:03 with no prior provocation visible that day
+branic_day_burstON_019: PASS -- many mocks absorbed quietly; tension rises naturally by night
+branic_day_burstON_020: FLAG -- seething at 22:04 after calm afternoon, no trigger shown

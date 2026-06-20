@@ -1,0 +1,10 @@
+cichy_day_burstOFF_011: PASS -- Calm morning, guard provocation triggers fury, settles by evening.
+cichy_day_burstOFF_012: PASS -- Two guard provocations across the day, anger rises and fades naturally.
+cichy_day_burstOFF_013: PASS -- Early snap at guard, afternoon tension, evening settles before sleep.
+cichy_day_burstOFF_014: PASS -- Two fury eruptions from guards, stranger warmth accepted, believable arc.
+cichy_day_burstOFF_015: PASS -- Morning calm, afternoon provocation triggers fury, evening recovers fine.
+cichy_day_burstOFF_016: PASS -- Two back-to-back evening eruptions after calm day, plausible accumulation.
+cichy_day_burstOFF_017: PASS -- Midday guard mockery triggers fury, evening curtness fits resentful captive.
+cichy_day_burstOFF_018: PASS -- Evening and late-night eruptions, curtness to guard meals, coherent day.
+cichy_day_burstOFF_019: PASS -- Single snap at guard in evening, otherwise tense but contained.
+cichy_day_burstOFF_020: PASS -- Muted response to morning mockery, tense afternoon, quiet evening, sane.

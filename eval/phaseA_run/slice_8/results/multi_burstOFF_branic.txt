@@ -1,0 +1,10 @@
+branic_multi_burstOFF_081: PASS -- calm days, snap at evening mock, plausible arc
+branic_multi_burstOFF_082: PASS -- sustained defiance follows bad night, internally coherent
+branic_multi_burstOFF_083: PASS -- eruption after tense buildup, compliance restored next days
+branic_multi_burstOFF_084: PASS -- positive stretch after snap, good rise-and-fall rhythm
+branic_multi_burstOFF_085: PASS -- long friction streak after eruption, plausible if unresolved
+branic_multi_burstOFF_086: PASS -- refusals mid-tension, recovery by day four, credible
+branic_multi_burstOFF_087: PASS -- late night Day 1 runs past midnight, otherwise sane
+branic_multi_burstOFF_088: PASS -- extended peaceful stretch, mocks pass without reaction
+branic_multi_burstOFF_089: PASS -- very good Day 4 buffers Day 5 mocks, believable
+branic_multi_burstOFF_090: PASS -- snap at early mock while already tense, settles after soup

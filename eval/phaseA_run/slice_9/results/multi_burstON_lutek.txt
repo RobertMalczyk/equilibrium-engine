@@ -1,0 +1,10 @@
+lutek_multi_burstON_091: PASS -- unprovoked evening tension fits burst-ON pattern
+lutek_multi_burstON_092: PASS -- calm active days, sane pacing throughout
+lutek_multi_burstON_093: PASS -- day 2 seething resolves overnight, burst-consistent
+lutek_multi_burstON_094: PASS -- multi-day tension spikes resolve, sane overall
+lutek_multi_burstON_095: PASS -- evening tension each day, clears by morning
+lutek_multi_burstON_096: FLAG -- "seething" twice with minimal provocation, strong for thick-skinned man
+lutek_multi_burstON_097: PASS -- sane pacing, tension spikes brief and resolved
+lutek_multi_burstON_098: PASS -- calm days, no flags
+lutek_multi_burstON_099: PASS -- day 1 unprovoked seething fits burst-ON, recovers
+lutek_multi_burstON_100: PASS -- tense mornings resolve, kindness-then-tense burst pattern

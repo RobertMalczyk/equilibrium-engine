@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_001: PASS -- flares on mockery, calm mornings, consistent refusals
+wojslaw_multi_burstOFF_002: PASS -- unusually warm day 1 but mocks at night still trigger fury
+wojslaw_multi_burstOFF_003: PASS -- positive opening turns to fury on provocation, believable arc
+wojslaw_multi_burstOFF_004: PASS -- warmth on kind days, eruptions when mocked, fits profile
+wojslaw_multi_burstOFF_005: PASS -- seething noted explicitly, eruptions from mockery, coherent
+wojslaw_multi_burstOFF_006: PASS -- quiet day 4 with no mockery reads naturally, pacing sane
+wojslaw_multi_burstOFF_007: PASS -- day 5 triple Marta mocks cause three eruptions, in character
+wojslaw_multi_burstOFF_008: PASS -- escalation and decay across days, refusals consistent
+wojslaw_multi_burstOFF_009: PASS -- calm day 4 balances heavy provocation on day 3, sane
+wojslaw_multi_burstOFF_010: PASS -- three rapid mocks at 09:36-40 feels mechanical but not wrong

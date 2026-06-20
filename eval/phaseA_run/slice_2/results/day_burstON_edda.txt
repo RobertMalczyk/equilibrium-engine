@@ -1,0 +1,10 @@
+edda_day_burstON_021: PASS -- calm day, kindnesses received graciously, minor complaint fits
+edda_day_burstON_022: PASS -- steady pleasant day, composed authority figure throughout
+edda_day_burstON_023: PASS -- quiet day, composed under mockery and orders, fits profile
+edda_day_burstON_024: PASS -- refusal of stranger's order fits castellan's standing well
+edda_day_burstON_025: PASS -- warm settled day, regular meals and rest, believable pacing
+edda_day_burstON_026: PASS -- composed under mockery and demands, calm authority throughout
+edda_day_burstON_027: PASS -- refusal of stranger's order mid-rest fits her authority well
+edda_day_burstON_028: PASS -- complies once then settled; believable day for a castellan
+edda_day_burstON_029: PASS -- warm busy day, many kindnesses, composed and in command
+edda_day_burstON_030: PASS -- quiet orderly day, calm authority, sane pacing throughout

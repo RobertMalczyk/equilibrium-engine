@@ -1,0 +1,10 @@
+halgrim_multi_burstON_081: PASS -- calm days, brief tension from Wojsław, clean recovery
+halgrim_multi_burstON_082: PASS -- Wojsław pressure builds across days, sleep resets work
+halgrim_multi_burstON_083: PASS -- very quiet, minimal provocation, settled throughout
+halgrim_multi_burstON_084: PASS -- rain plus mockery escalates cleanly, mornings reset
+halgrim_multi_burstON_085: PASS -- sustained harassment, displaced snap at Marta fits burst
+halgrim_multi_burstON_086: PASS -- moderate arc, rain day mild, good recovery by Day 5
+halgrim_multi_burstON_087: PASS -- Day 3 seething from mocks, Day 4 lingers plausibly
+halgrim_multi_burstON_088: PASS -- long slow burn, Marta contempt during seething fits burst
+halgrim_multi_burstON_089: PASS -- modest tension, Day 3 mocks build seething, clean reset
+halgrim_multi_burstON_090: FLAG -- Day 2 seething all day with zero new provocations after heavy Day 1

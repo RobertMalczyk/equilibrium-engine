@@ -1,0 +1,10 @@
+halgrim_day_burstON_011: PASS -- calm day, warm responses to Marta, fits profile
+halgrim_day_burstON_012: PASS -- Wojsław friction builds tension, curt to Edda late, believable
+halgrim_day_burstON_013: FLAG -- cold contempt at Edda twice in quick succession, jarring for her
+halgrim_day_burstON_014: PASS -- settled day, declines Wojsław, warm to strangers, coherent
+halgrim_day_burstON_015: PASS -- quiet day, late Wojsław jab draws mild curtness, fits
+halgrim_day_burstON_016: PASS -- uneventful calm day, Marta kindness received warmly throughout
+halgrim_day_burstON_017: PASS -- Edda orders pile up, brief tension, resolves by night
+halgrim_day_burstON_018: PASS -- repeated Wojsław mocks wear him down to curt reply, believable
+halgrim_day_burstON_019: PASS -- cooperative with Edda, warm to Marta, settled throughout
+halgrim_day_burstON_020: PASS -- Wojsław barb causes brief tension, Marta soup settles him

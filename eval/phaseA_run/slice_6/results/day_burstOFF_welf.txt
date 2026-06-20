@@ -1,0 +1,10 @@
+welf_day_burstOFF_061: PASS -- calm merchant, boredom cycles, mild tension at day's end
+welf_day_burstOFF_062: PASS -- brushes off mockery, steady pacing, settles well at night
+welf_day_burstOFF_063: PASS -- sane rhythms, kindnesses received warmly, mild late-day edge
+welf_day_burstOFF_064: PASS -- composed throughout, boredom rises and resolves, even-keeled
+welf_day_burstOFF_065: PASS -- repeated mockery let pass, stays calm, late restlessness fits
+welf_day_burstOFF_066: PASS -- practical, steady, mock shrugged off, day ends settled
+welf_day_burstOFF_067: PASS -- brief tension at 18:00 eases with kindness, believable arc
+welf_day_burstOFF_068: PASS -- quiet day, boredom cycles cleanly, no agitation, plausible
+welf_day_burstOFF_069: PASS -- well-fed and helped, restless late but not agitated, fine
+welf_day_burstOFF_070: PASS -- mild tension near midnight, rests, wakes settled, coherent

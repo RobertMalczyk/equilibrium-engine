@@ -1,0 +1,10 @@
+branic_day_burstOFF_081: PASS -- restless recruit, steady meals, tense late night, recovers after sleep
+branic_day_burstOFF_082: PASS -- mocks land flat early, bristles at late barb, pacing believable
+branic_day_burstOFF_083: PASS -- quiet day, no Halgrim friction, easy rhythm, settles fine
+branic_day_burstOFF_084: PASS -- cumulative mocks build to snap at evening, recovers overnight
+branic_day_burstOFF_085: PASS -- Marta warmth softens day, public barb stings, evening tense but holds
+branic_day_burstOFF_086: FLAG -- obedience order met with "lets it pass" at 08:42, odd non-response
+branic_day_burstOFF_087: PASS -- kind day, Halgrim lends hand, stranger kindness, ends well
+branic_day_burstOFF_088: PASS -- two soups close together early, otherwise sane restless day
+branic_day_burstOFF_089: FLAG -- orders ignored twice ("lets it pass"), odd for eager willing recruit
+branic_day_burstOFF_090: PASS -- public mock shrugged off, Marta kindness steadies him, plausible arc

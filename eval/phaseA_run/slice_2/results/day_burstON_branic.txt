@@ -1,0 +1,10 @@
+branic_day_burstON_021: PASS -- steady day, evening tension, clean sleep reset
+branic_day_burstON_022: PASS -- calm well-fed day, restlessness cycling naturally
+branic_day_burstON_023: PASS -- gradual evening edge, kindness received warmly throughout
+branic_day_burstON_024: PASS -- sociable day, multiple kindnesses, settled end
+branic_day_burstON_025: FLAG -- erupts at stranger's kindness with no prior provocation
+branic_day_burstON_026: PASS -- tense evening resolves after soup, believable arc
+branic_day_burstON_027: PASS -- late-day tension, wakes settled, plausible pacing
+branic_day_burstON_028: FLAG -- seething at 20:03 with no visible trigger preceding
+branic_day_burstON_029: FLAG -- seething at 22:04 after Marta kindness; no clear cause
+branic_day_burstON_030: PASS -- commands pile up, bristles under Halgrim, soup soothes

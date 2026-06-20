@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_011: PASS -- tension builds through day, resets overnight, coherent arc
+cichy_multi_burstOFF_012: PASS -- repeated guard mockings on day 4 escalate plausibly
+cichy_multi_burstOFF_013: PASS -- sane pacing, stranger kindness lands warmly, fits profile
+cichy_multi_burstOFF_014: PASS -- residual seething after sleep is borderline but fits deep resentment
+cichy_multi_burstOFF_015: PASS -- multi-day arc steady, fury then sleep, wakes calm each time
+cichy_multi_burstOFF_016: PASS -- evening harassment cluster triggers eruptions, night resets hold
+cichy_multi_burstOFF_017: PASS -- dense mocking cluster day 3 evening, all eruptions, wakes calm
+cichy_multi_burstOFF_018: PASS -- day 2 double eruption under guard pressure, stranger warmth intact
+cichy_multi_burstOFF_019: PASS -- rain plus mockings accumulate tension, eruptions proportionate
+cichy_multi_burstOFF_020: PASS -- two mocking eruptions day 1, rain wears down day 2, day 3 quiet

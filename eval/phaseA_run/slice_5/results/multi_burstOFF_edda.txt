@@ -1,0 +1,10 @@
+edda_multi_burstOFF_051: PASS -- calm multi-day, composed under barb, good pacing
+edda_multi_burstOFF_052: PASS -- grumbles once after repeated stranger orders, recovers
+edda_multi_burstOFF_053: PASS -- brief tension after public barb, resolves quickly, sleeps settled
+edda_multi_burstOFF_054: PASS -- settled five days, minor double-rest artifact unremarkable
+edda_multi_burstOFF_055: PASS -- dense kindnesses day three, all responses consistent
+edda_multi_burstOFF_056: PASS -- grumbles after two successive stranger orders, fits authority
+edda_multi_burstOFF_057: PASS -- very dense positive events days three-four, responses consistent
+edda_multi_burstOFF_058: PASS -- tense after barbs, recovers via kindness, refuses order once
+edda_multi_burstOFF_059: PASS -- declines stranger orders, double-rest minor artifact, wakes settled
+edda_multi_burstOFF_060: PASS -- very quiet record, calm authority, lets orders pass without reaction

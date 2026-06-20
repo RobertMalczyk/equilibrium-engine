@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_051: PASS -- Steady restless cycles, mocks ignored, sane sleep rhythm
+lutek_multi_burstOFF_052: PASS -- Late Day 1 bedtime acceptable, mocks roll off fine
+lutek_multi_burstOFF_053: PASS -- Frequent soup deliveries dense but pacing otherwise credible
+lutek_multi_burstOFF_054: PASS -- Routine days, mocks ignored, mild evening tension resolves
+lutek_multi_burstOFF_055: PASS -- Repeated early-morning tension mechanical but not implausible
+lutek_multi_burstOFF_056: PASS -- Late Day 1 midnight tinkering fine for restless poet
+lutek_multi_burstOFF_057: PASS -- Kindness-dense Day 2 but warm responses fit profile
+lutek_multi_burstOFF_058: PASS -- Day 4 ends tense before sleep, wakes settled next day
+lutek_multi_burstOFF_059: PASS -- Evening tension cycles resolve predictably, mocks ignored
+lutek_multi_burstOFF_060: PASS -- Day 5 kindness cluster dense but character responses consistent

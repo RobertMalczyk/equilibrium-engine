@@ -1,0 +1,10 @@
+lutek_day_burstOFF_051: PASS -- active restless cycle, kindness warmly received, insults ignored
+lutek_day_burstOFF_052: PASS -- mild tension at 20:00 resolves naturally, fits profile
+lutek_day_burstOFF_053: PASS -- steady restless-settle rhythm, mockery brushed off cleanly
+lutek_day_burstOFF_054: PASS -- two late mocks ignored, easy warmth throughout, sane pacing
+lutek_day_burstOFF_055: PASS -- quiet day, good restless cycle, late mock ignored, sleeps fine
+lutek_day_burstOFF_056: FLAG -- two soups 08:12 and 08:32, sleeps past midnight at 00:34
+lutek_day_burstOFF_057: FLAG -- sleeps at 00:22, late-night active stretch past midnight
+lutek_day_burstOFF_058: PASS -- mild tension at 20:03 resolved by kindness, fits thick-skinned poet
+lutek_day_burstOFF_059: FLAG -- sleeps at 00:14, tension at 18:03 with no clear trigger
+lutek_day_burstOFF_060: PASS -- tension at 20:03 after two mocks, resolves with kindness, sleeps 23:20

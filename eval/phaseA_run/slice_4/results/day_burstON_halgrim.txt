@@ -1,0 +1,10 @@
+halgrim_day_burstON_041: PASS -- Quiet uneventful day, steady and calm throughout.
+halgrim_day_burstON_042: PASS -- Curt response to Wojsław's mockery fits profile well.
+halgrim_day_burstON_043: PASS -- Repeated Wojsław provocations build tension, cold contempt fits.
+halgrim_day_burstON_044: PASS -- Declines Wojsław's orders; slight edge at end, plausible.
+halgrim_day_burstON_045: PASS -- Lets Wojsław's mockery pass once, tense but contained.
+halgrim_day_burstON_046: PASS -- Brief tension mid-afternoon, resolves; pacing sane.
+halgrim_day_burstON_047: PASS -- Declines Wojsław late at night; otherwise settled day.
+halgrim_day_burstON_048: PASS -- Mutters at Wojsław and Edda; Marta soothes, recovers.
+halgrim_day_burstON_049: PASS -- Tense after rest, resolves; warm responses to Marta throughout.
+halgrim_day_burstON_050: PASS -- Mild tension after evening mockery, contained and believable.

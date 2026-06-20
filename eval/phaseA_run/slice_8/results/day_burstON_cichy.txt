@@ -1,0 +1,10 @@
+cichy_day_burstON_081: PASS -- tension builds through day, settles after sleep
+cichy_day_burstON_082: PASS -- calm morning, edge rises afternoon, seethes then settles
+cichy_day_burstON_083: FLAG -- snaps angrily at 22:38 then sleeps at 23:00 with no wind-down
+cichy_day_burstON_084: PASS -- mounting provocations accumulate to late snap, believable arc
+cichy_day_burstON_085: PASS -- seething at 18:03 without prior provocation that day is mild flag but plausible baseline
+cichy_day_burstON_086: PASS -- seething mid-evening, mock at 18:03 met curtly, settles by night
+cichy_day_burstON_087: FLAG -- seething jaw-tight at 14:02 with no provocation since morning snap
+cichy_day_burstON_088: PASS -- stranger kindness accepted warmly, guard mock met coldly, coherent arc
+cichy_day_burstON_089: PASS -- erupts at morning mock right after stranger kindness, displaced discharge fits profile
+cichy_day_burstON_090: PASS -- tension climbs through afternoon mocks, seething by evening, pacing sane

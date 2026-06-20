@@ -1,0 +1,10 @@
+lutek_day_burstOFF_091: PASS -- restless cycle, insults roll off, wakes settled
+lutek_day_burstOFF_092: PASS -- mild evening tension resolves, sane pacing throughout
+lutek_day_burstOFF_093: PASS -- active day, mock ignored, tension clears with soup
+lutek_day_burstOFF_094: PASS -- mock ignored, brief evening edge, wakes fresh
+lutek_day_burstOFF_095: PASS -- busy sociable day, brief tension clears by evening
+lutek_day_burstOFF_096: PASS -- Marta attentive, evening edge resolves, wakes settled
+lutek_day_burstOFF_097: PASS -- mock brushed off, calm even day, wakes at ease
+lutek_day_burstOFF_098: PASS -- brief evening tension, resolves cleanly, wakes fresh
+lutek_day_burstOFF_099: PASS -- well-supported day, no tension, wakes settled
+lutek_day_burstOFF_100: PASS -- evening edge clears before sleep, wakes at ease

@@ -1,0 +1,10 @@
+lutek_day_burstON_001: PASS -- sane pacing, restlessness cycles, mild evening edge resolves
+lutek_day_burstON_002: PASS -- insults roll off, kindnesses welcomed, late restlessness fits
+lutek_day_burstON_003: PASS -- busy social day, mockery ignored, evening tense then settled
+lutek_day_burstON_004: PASS -- steady rhythm, warmth to kindnesses, evening edge clears by sleep
+lutek_day_burstON_005: PASS -- prolonged evening tension plausible, Marta's kindness softens him
+lutek_day_burstON_006: FLAG -- seething jaw-tight at 20:03 after single barb; too strong for Lutek
+lutek_day_burstON_007: PASS -- calm day, boredom cycles, mild late-evening edge, wakes settled
+lutek_day_burstON_008: PASS -- tension appears then passes; mockery ignored; good arc
+lutek_day_burstON_009: PASS -- settled generous day, kindnesses land well, no jarring notes
+lutek_day_burstON_010: PASS -- late sleep plausible, evening edge mild, wakes settled

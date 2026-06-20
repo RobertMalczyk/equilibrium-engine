@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_041: PASS -- calm mornings, provoked eruptions, sleep resets, sane pacing
+cichy_multi_burstOFF_042: PASS -- four rapid mocks on day 2 escalate naturally, recovers overnight
+cichy_multi_burstOFF_043: PASS -- lets mock pass when calm, erupts after stranger warmth worn off
+cichy_multi_burstOFF_044: PASS -- rain days grind him down, eruptions tied to provocations
+cichy_multi_burstOFF_045: PASS -- soup right after mock triggers bristle, anger decays by evening
+cichy_multi_burstOFF_046: PASS -- four provocations day 1 brutal but consistent with captive's profile
+cichy_multi_burstOFF_047: PASS -- back-to-back stranger kindnesses odd but not disqualifying
+cichy_multi_burstOFF_048: PASS -- one eruption per day when provoked, otherwise contained
+cichy_multi_burstOFF_049: PASS -- late-night mock before sleep unusual but plausible guard behaviour
+cichy_multi_burstOFF_050: PASS -- rested morning lets first mock pass, anger builds correctly across day

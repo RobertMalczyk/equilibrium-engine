@@ -1,0 +1,10 @@
+welf_multi_burstON_021: PASS -- settled merchant, boredom cycles, mocks shrugged off
+welf_multi_burstON_022: PASS -- consistent rhythm, tense mornings resolve, no jarring notes
+welf_multi_burstON_023: PASS -- six days steady, late-night activity plausible, rain handled
+welf_multi_burstON_024: PASS -- burst spike from rain watch, dissipates believably over day
+welf_multi_burstON_025: PASS -- flat soup response when settled, tense mornings ease normally
+welf_multi_burstON_026: PASS -- heavy kindness day one; tense mornings clear; late nights plausible
+welf_multi_burstON_027: PASS -- six days stable, rain tense but no outburst, mocks let pass
+welf_multi_burstON_028: PASS -- tense morning clears quickly with soup; restlessness cycles right
+welf_multi_burstON_029: PASS -- burst seething after rain watch, kindness warms, settles by noon
+welf_multi_burstON_030: PASS -- snaps at soup during burst peak, resolves; displaced discharge fits

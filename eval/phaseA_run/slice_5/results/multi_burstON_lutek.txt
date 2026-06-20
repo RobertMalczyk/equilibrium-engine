@@ -1,0 +1,10 @@
+lutek_multi_burstON_051: PASS -- sane cycling, mockery rolls off, recovers each morning
+lutek_multi_burstON_052: PASS -- accumulated taunts breach threshold once; burst-ON context fits
+lutek_multi_burstON_053: PASS -- clean warm days, tense mornings resolved by midday
+lutek_multi_burstON_054: PASS -- curt responses under tension; wakes Day 5 fully recovered
+lutek_multi_burstON_055: PASS -- consistent restless-warm pattern across six days
+lutek_multi_burstON_056: PASS -- routine cycling, late-day tension clears overnight
+lutek_multi_burstON_057: PASS -- warm supportive record, mild evening tension only
+lutek_multi_burstON_058: PASS -- Day 4 evening tension; Day 5 wakes recovered and warm
+lutek_multi_burstON_059: PASS -- clean pacing, mild evening edges, solid sleep resets
+lutek_multi_burstON_060: PASS -- very high soup density Day 5 but character reads sane

@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_001: PASS -- sane pacing, mocks roll off, sleeps well
+lutek_multi_burstOFF_002: PASS -- mild tension flickers, no escalation, fits profile
+lutek_multi_burstOFF_003: PASS -- tense after mock clears fast, thick-skinned confirmed
+lutek_multi_burstOFF_004: PASS -- repeated mocks ignored, tension from fatigue not insult
+lutek_multi_burstOFF_005: PASS -- six days stable, evening tension clears each morning
+lutek_multi_burstOFF_006: PASS -- boredom builds evenings, resets with food and rest
+lutek_multi_burstOFF_007: PASS -- consistent restless cycles, mocks ignored, recovers well
+lutek_multi_burstOFF_008: PASS -- kindness saturation explains muted soup response day 3
+lutek_multi_burstOFF_009: PASS -- high kindness density day 1, cooler responses plausible
+lutek_multi_burstOFF_010: PASS -- tense patches from fatigue, clears by morning each day

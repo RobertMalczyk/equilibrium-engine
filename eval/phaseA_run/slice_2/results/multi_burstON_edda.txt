@@ -1,0 +1,10 @@
+edda_multi_burstON_021: PASS -- calm steady days, authority and warmth both present
+edda_multi_burstON_022: PASS -- mild friction and recovery arc, fits composed castellan
+edda_multi_burstON_023: PASS -- complies once near midnight, slight but not absurd
+edda_multi_burstON_024: PASS -- uniformly composed, mocking ignored, no jars
+edda_multi_burstON_025: PASS -- quiet days, consistent rhythm, authority at end
+edda_multi_burstON_026: PASS -- high meal density but behavior stays appropriate throughout
+edda_multi_burstON_027: PASS -- calm and regular, orders deflected, warmth accepted
+edda_multi_burstON_028: PASS -- one compliance moment, otherwise firm and settled
+edda_multi_burstON_029: PASS -- curt after late mockery, sleeps slightly late, believable
+edda_multi_burstON_030: PASS -- busy day four but no behavioral fault, steady throughout

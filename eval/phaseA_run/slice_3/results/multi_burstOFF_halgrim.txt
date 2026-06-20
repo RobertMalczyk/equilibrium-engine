@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_031: PASS -- steady accumulation, Edda/Wojslaw contrast holds
+halgrim_multi_burstOFF_032: PASS -- quiet days, calm veteran, plausible throughout
+halgrim_multi_burstOFF_033: PASS -- 5-day tension build, Edda curtness under duress acceptable
+halgrim_multi_burstOFF_034: PASS -- calm pacing, mild Wojslaw friction, sane arc
+halgrim_multi_burstOFF_035: PASS -- rain days, moderate curtness, clean recovery
+halgrim_multi_burstOFF_036: PASS -- rain plus Wojslaw pressure, wakes settled each day
+halgrim_multi_burstOFF_037: PASS -- mostly peaceful, late refusal plausible from resentment
+halgrim_multi_burstOFF_038: PASS -- 6 days calm baseline, escalation under repeated mocks
+halgrim_multi_burstOFF_039: PASS -- heavy Wojslaw days, sustained anger, resets at dawn
+halgrim_multi_burstOFF_040: FLAG -- Day 4 "mutters complaint" then immediately "still seething" mismatch

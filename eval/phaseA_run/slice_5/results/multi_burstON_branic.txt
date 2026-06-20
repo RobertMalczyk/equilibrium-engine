@@ -1,0 +1,10 @@
+branic_multi_burstON_051: PASS -- calm arc, tension builds, snaps credibly on day 3
+branic_multi_burstON_052: PASS -- eruption after rain and mockery, displaced bristle at kindness
+branic_multi_burstON_053: PASS -- accumulation plausible, burst residual carries across days
+branic_multi_burstON_054: PASS -- escalating refusals, rain plus mockery drive day 6 snap
+branic_multi_burstON_055: PASS -- sustained crisis arc across days 4-6, sleep resets hold
+branic_multi_burstON_056: PASS -- mocks absorbed then eruption late, seething without trigger minor
+branic_multi_burstON_057: PASS -- bristles at kindness while on edge, escalation evening day 3
+branic_multi_burstON_058: FLAG -- day 3 has four full fury eruptions, near-continuous max anger
+branic_multi_burstON_059: FLAG -- day 2 opens seething with no visible provocation on day 1
+branic_multi_burstON_060: FLAG -- day 1 ends seething with zero Halgrim contact or stress

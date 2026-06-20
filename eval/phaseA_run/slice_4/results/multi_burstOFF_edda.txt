@@ -1,0 +1,10 @@
+edda_multi_burstOFF_041: PASS -- settled, regular routine, fits composed castellan
+edda_multi_burstOFF_042: PASS -- escalates mildly under repeated orders, recovers
+edda_multi_burstOFF_043: PASS -- morning mock ignored, warm to kindness, consistent
+edda_multi_burstOFF_044: PASS -- heavy kindness days, sane pacing, mock handled calmly
+edda_multi_burstOFF_045: PASS -- repeated orders day 2 escalate to decline, believable arc
+edda_multi_burstOFF_046: PASS -- quiet routine days, calm authority, no contradictions
+edda_multi_burstOFF_047: PASS -- public mock triggers brief tension, sleep resets cleanly
+edda_multi_burstOFF_048: PASS -- positive days, minor soup clustering, no character jarring
+edda_multi_burstOFF_049: PASS -- two soups seconds apart minor, rest of record sane
+edda_multi_burstOFF_050: PASS -- three mocks tip cold refusal, settles after; believable arc

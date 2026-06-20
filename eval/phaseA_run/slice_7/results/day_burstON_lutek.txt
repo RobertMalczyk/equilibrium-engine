@@ -1,0 +1,10 @@
+lutek_day_burstON_071: PASS -- restless poet, mocks roll off, settles at night fine
+lutek_day_burstON_072: PASS -- steady easy day, warmth received well, sane pacing
+lutek_day_burstON_073: PASS -- typical day, boredom cycles, warmly responsive to kindness
+lutek_day_burstON_074: PASS -- well-fed, active, settles; wakes recovered next morning
+lutek_day_burstON_075: PASS -- mocks ignored, tense evenings dissipate, sleeps settled
+lutek_day_burstON_076: PASS -- calm day, mock bounces off, mild evening edge fades
+lutek_day_burstON_077: FLAG -- seething at 20:03 with no clear provocation visible
+lutek_day_burstON_078: PASS -- warm day, mild evening tension, sleeps and wakes easy
+lutek_day_burstON_079: PASS -- mocks ignored, evening tension, settles before sleep
+lutek_day_burstON_080: PASS -- mock at 20:23 let pass cleanly, tension resolves, sane arc

@@ -1,0 +1,10 @@
+edda_day_burstON_041: PASS -- Settled day, mild complaint at stranger order, sensible arc.
+edda_day_burstON_042: PASS -- Irritants accumulate into edge; cold contempt at late mock fits Edda.
+edda_day_burstON_043: PASS -- Calm day with kindnesses; compliant once, then settled throughout.
+edda_day_burstON_044: PASS -- Repeated mocks erode composure gradually; food restores calm plausibly.
+edda_day_burstON_045: PASS -- Generous day of kindnesses; consistently warm and settled throughout.
+edda_day_burstON_046: PASS -- Brief tension after stranger order fades with Halgrim kindness.
+edda_day_burstON_047: PASS -- Quiet day; lets stranger order pass without friction, composed.
+edda_day_burstON_048: PASS -- Uneventful calm day; eats, rests, sets watch, sleeps normally.
+edda_day_burstON_049: PASS -- Early activity, two rest events close together but not jarring.
+edda_day_burstON_050: PASS -- Well-fed day; refuses late-night stranger order appropriately for castellan.

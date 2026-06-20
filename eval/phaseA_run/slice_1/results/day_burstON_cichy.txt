@@ -1,0 +1,10 @@
+cichy_day_burstON_011: PASS -- quiet day, curt after mock, sane pacing
+cichy_day_burstON_012: PASS -- early snap, grudge lingers all day, decays overnight
+cichy_day_burstON_013: PASS -- snaps at morning mock, seething fades by evening
+cichy_day_burstON_014: FLAG -- "settled at ease" only 23 min after screaming eruption
+cichy_day_burstON_015: PASS -- accumulated seething, no explosion, calm recovery overnight
+cichy_day_burstON_016: PASS -- cumulative evening escalation to snap, settles after
+cichy_day_burstON_017: PASS -- simmers internally, warms to strangers not guards
+cichy_day_burstON_018: PASS -- tension builds unprovoked, mock met coldly, wakes calm
+cichy_day_burstON_019: PASS -- clean tension arc, mock at dusk, seething, then settles
+cichy_day_burstON_020: FLAG -- anger resurges at 20:03 with no new trigger after calm window

@@ -1,0 +1,10 @@
+edda_day_burstON_061: PASS -- settled day, mocked once, absorbs it, recovers cleanly
+edda_day_burstON_062: PASS -- kind day, warm responses throughout, pacing sane
+edda_day_burstON_063: PASS -- repeated barbs cause mild edge, kindness restores composure
+edda_day_burstON_064: PASS -- quiet positive day, calm and settled throughout
+edda_day_burstON_065: PASS -- calm day with small kindnesses, no jarring moments
+edda_day_burstON_066: PASS -- ordered about early, lets it pass, stays composed
+edda_day_burstON_067: PASS -- uneventful settled day, mock absorbed without reaction
+edda_day_burstON_068: PASS -- mocked at dawn, kindness follows, resolves to ease
+edda_day_burstON_069: PASS -- two mocks accumulate mild edge, soup restores calm
+edda_day_burstON_070: PASS -- quiet day, ordered around once, no notable reaction

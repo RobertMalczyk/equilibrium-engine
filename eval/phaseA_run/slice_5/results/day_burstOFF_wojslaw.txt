@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_051: PASS -- flares at insults, calms between, sleeps normally
+wojslaw_day_burstOFF_052: PASS -- erupts at mockery, settles, pacing and rhythm sane
+wojslaw_day_burstOFF_053: PASS -- anger at insults, warmed by kindness, believable arc
+wojslaw_day_burstOFF_054: PASS -- lets orders pass when calm, snaps when provoked, coherent
+wojslaw_day_burstOFF_055: PASS -- repeated mockery draws repeated fury, rhythm holds
+wojslaw_day_burstOFF_056: FLAG -- lets first mock pass, erupts at second; inconsistent threshold
+wojslaw_day_burstOFF_057: PASS -- escalating fury after repeated insults, soup bristles plausible
+wojslaw_day_burstOFF_058: PASS -- absorbs first mock, builds, erupts later; sane pacing
+wojslaw_day_burstOFF_059: PASS -- unusually warm day, single bristle at mock, believable
+wojslaw_day_burstOFF_060: PASS -- flares at insults, kindness softens him, sane overall

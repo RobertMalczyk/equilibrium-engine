@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_061: PASS -- sane 3-day rhythm, mocks roll off, sleeps well
+lutek_multi_burstOFF_062: PASS -- 6 days, tense evenings resolve, mocks ignored
+lutek_multi_burstOFF_063: PASS -- early-work tension pattern, recovers each morning
+lutek_multi_burstOFF_064: PASS -- 3 days, mocks ignored, warm to kindnesses throughout
+lutek_multi_burstOFF_065: PASS -- double tense spell day 1 plausible fatigue, resolves
+lutek_multi_burstOFF_066: PASS -- clean rhythm, tense spells resolved by soup or rest
+lutek_multi_burstOFF_067: PASS -- muted affect day 3 evening, no contradictions
+lutek_multi_burstOFF_068: PASS -- sleeps while still tense, wakes settled, consistent
+lutek_multi_burstOFF_069: PASS -- clean 4 days, tense evening resolves before sleep
+lutek_multi_burstOFF_070: PASS -- soup-then-tense ordering odd but within plausible range

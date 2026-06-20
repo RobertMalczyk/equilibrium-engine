@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_081: PASS -- calm day, one late snap at a taunt, fits profile
+wojslaw_day_burstOFF_082: PASS -- morning flare, escalating evening, sane arc
+wojslaw_day_burstOFF_083: PASS -- mostly settled, resists orders, one snap fits
+wojslaw_day_burstOFF_084: PASS -- early eruption, calm recovery, evening flare, sane
+wojslaw_day_burstOFF_085: PASS -- good-natured morning, two eruptions later, believable
+wojslaw_day_burstOFF_086: PASS -- calm morning, two eruptions, still tense at night
+wojslaw_day_burstOFF_087: PASS -- quiet day, one refusal, one snap, measured
+wojslaw_day_burstOFF_088: PASS -- escalating evening with two eruptions, fits prickly noble
+wojslaw_day_burstOFF_089: PASS -- warm morning, three eruptions in evening, consistent
+wojslaw_day_burstOFF_090: PASS -- many kindnesses balanced by snapping at taunts, sane

@@ -1,0 +1,10 @@
+branic_multi_burstON_011: PASS -- tension builds across day, eruptions earned, sleep resets hold
+branic_multi_burstON_012: PASS -- day-1 eruption seeds day-2 grudge; recovery arc believable
+branic_multi_burstON_013: FLAG -- snaps angrily at Marta bringing soup, no provocation
+branic_multi_burstON_014: PASS -- positive days, single late eruption after public barb, sane
+branic_multi_burstON_015: PASS -- burst-ON carry-over tension plausible; sleep resets hold
+branic_multi_burstON_016: PASS -- seething states link to prior-day eruptions; arc coherent
+branic_multi_burstON_017: PASS -- two days calm, day-3 morning mocks trigger eruptions, recovers
+branic_multi_burstON_018: PASS -- day-5 morning snaps abrupt but accumulated stress evident
+branic_multi_burstON_019: PASS -- mostly positive arc; one eruption after persistent public mockery
+branic_multi_burstON_020: PASS -- day-4 double eruption heavy but rain plus carry-over explains it

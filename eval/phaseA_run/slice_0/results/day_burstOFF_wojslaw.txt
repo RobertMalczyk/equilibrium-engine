@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_001: PASS -- prickly man flares at mocks, calms between, sleeps and wakes easy
+wojslaw_day_burstOFF_002: PASS -- warm start, fury at public Marta mock, settles believably
+wojslaw_day_burstOFF_003: PASS -- snaps at mocks, calm between, pacing and rest feel natural
+wojslaw_day_burstOFF_004: PASS -- early fury, accumulating refusals by evening, fits proud chafing guest
+wojslaw_day_burstOFF_005: PASS -- kindness-heavy day, mild bristle at mock, temper restrained but present
+wojslaw_day_burstOFF_006: PASS -- refuses orders, erupts at public mock, defiant refusals fit profile
+wojslaw_day_burstOFF_007: PASS -- multiple eruptions, kindness met with bristle mid-anger, tense but coherent
+wojslaw_day_burstOFF_008: FLAG -- Marta kindness met with bristle while anger still up; plausible but slightly jarring
+wojslaw_day_burstOFF_009: PASS -- warm morning, three eruptions at insults, settles each time, sleeps fine
+wojslaw_day_burstOFF_010: PASS -- repeated orders tolerated, snaps at mocks, refusals late when worn down

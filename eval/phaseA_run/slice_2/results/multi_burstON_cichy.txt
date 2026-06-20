@@ -1,0 +1,10 @@
+cichy_multi_burstON_021: PASS -- sane pacing, mocks trigger appropriate curtness and anger
+cichy_multi_burstON_022: PASS -- escalating responses to repeated mocks, stranger warmth fits
+cichy_multi_burstON_023: PASS -- burst from settled to eruption on provocation credible burst-ON
+cichy_multi_burstON_024: PASS -- rapid double-mock escalation plausible under burst-ON
+cichy_multi_burstON_025: PASS -- heavy mock day, no eruption, stays curtly throughout
+cichy_multi_burstON_026: PASS -- morning flare then afternoon tension build is believable
+cichy_multi_burstON_027: FLAG -- Day 5 22:22 erupts then 22:28 settled; 6-minute calm too fast
+cichy_multi_burstON_028: PASS -- accumulated tension across days, sane pacing, no odd snaps
+cichy_multi_burstON_029: PASS -- escalation across days, stranger warmth fits profile
+cichy_multi_burstON_030: PASS -- sustained seething, stranger warmth briefly pierces resentment

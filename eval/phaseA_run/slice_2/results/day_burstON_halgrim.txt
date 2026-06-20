@@ -1,0 +1,10 @@
+halgrim_day_burstON_021: PASS -- calm day, Wojsław jab absorbed without reaction
+halgrim_day_burstON_022: PASS -- brief tension mid-afternoon resolves; ignores Wojsław order
+halgrim_day_burstON_023: PASS -- even keel throughout; Wojsław mock absorbed cleanly
+halgrim_day_burstON_024: PASS -- ignores Edda order early; late tension plausible after long duty
+halgrim_day_burstON_025: PASS -- repeated Wojsław provocations build curt coldness; seething by night
+halgrim_day_burstON_026: PASS -- refuses Wojsław twice; late tension after final Edda order
+halgrim_day_burstON_027: PASS -- complains at late Edda order; mild tension fits worn-down arc
+halgrim_day_burstON_028: PASS -- Wojsław mocks absorbed; brief tension resolves with Marta kindness
+halgrim_day_burstON_029: PASS -- multiple Wojsław mocks absorbed; residual tension at day's end
+halgrim_day_burstON_030: PASS -- Wojsław mock draws curt reply; tension at close, wakes settled

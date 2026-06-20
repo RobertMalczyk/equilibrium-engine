@@ -1,0 +1,10 @@
+cichy_multi_burstON_071: PASS -- calm mornings, afternoon tension, guard mocks met curtly
+cichy_multi_burstON_072: PASS -- rain day stays tense, stranger warmth accepted, sane arc
+cichy_multi_burstON_073: PASS -- burst after accumulated overnight strain, mornings reset cleanly
+cichy_multi_burstON_074: PASS -- prolonged seething plausible under rain and captive pressure
+cichy_multi_burstON_075: PASS -- post-burst snap-to-settled fast but within burst discharge model
+cichy_multi_burstON_076: PASS -- moderate tension, no eruptions, sane multi-day accumulation
+cichy_multi_burstON_077: PASS -- eruption after public mockery, sustained anger fits captive profile
+cichy_multi_burstON_078: PASS -- seething morning carries over from prior day pressure
+cichy_multi_burstON_079: PASS -- rain plus mockery drives eruption, nights reset well
+cichy_multi_burstON_080: FLAG -- lets guard mockery pass at 06:32, contradicts resentful profile

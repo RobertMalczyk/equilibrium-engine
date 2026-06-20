@@ -1,0 +1,10 @@
+edda_day_burstOFF_061: PASS -- composed castellan, mocked twice, lets it pass, settled day
+edda_day_burstOFF_062: PASS -- warm day, many kindnesses, stays at ease throughout
+edda_day_burstOFF_063: PASS -- mocked several times, brief tension, recovers; fits her composure
+edda_day_burstOFF_064: PASS -- quiet supportive day, settled and warm throughout
+edda_day_burstOFF_065: PASS -- calm day with kindnesses, steady and composed
+edda_day_burstOFF_066: PASS -- ordered around early, lets it pass; settled day fits profile
+edda_day_burstOFF_067: PASS -- uneventful calm day, mocked once, no reaction; fits castellan
+edda_day_burstOFF_068: PASS -- mocked at dawn, recovers quickly; warm and composed rest of day
+edda_day_burstOFF_069: PASS -- two mocks, brief tension at 18:03, soup soothes; believable arc
+edda_day_burstOFF_070: PASS -- quiet day, ordered around once, lets it pass; fits profile

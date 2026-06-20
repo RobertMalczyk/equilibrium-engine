@@ -1,0 +1,10 @@
+lutek_day_burstON_091: PASS -- restless-settle cycle fits; insult rolls off; sleeps cleanly
+lutek_day_burstON_092: PASS -- warm start, boredom cycles, mild evening edge, clean sleep
+lutek_day_burstON_093: PASS -- insult ignored; evening soup resolves tension; pacing sane
+lutek_day_burstON_094: PASS -- insult brushed off; consistent restless-seek pattern throughout
+lutek_day_burstON_095: PASS -- many kindnesses; tense patch resolves by soup; fits profile
+lutek_day_burstON_096: PASS -- frequent Marta kindnesses; tension appears late, resolves naturally
+lutek_day_burstON_097: PASS -- mock ignored; tense evening settles; sane pacing throughout
+lutek_day_burstON_098: PASS -- double tense stretch plausible; kindness resolves; clean recovery
+lutek_day_burstON_099: PASS -- busy helpful day; tense peak resolves via soup and kindness
+lutek_day_burstON_100: PASS -- warm morning, steady restlessness, tense eve resolves; clean

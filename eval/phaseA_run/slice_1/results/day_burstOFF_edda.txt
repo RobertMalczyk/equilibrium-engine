@@ -1,0 +1,10 @@
+edda_day_burstOFF_011: PASS -- calm day, kindness received warmly, authority exercised at close
+edda_day_burstOFF_012: PASS -- stranger order draws mild complaint, then settles; sane arc
+edda_day_burstOFF_013: PASS -- steady day, multiple kindnesses, composed throughout
+edda_day_burstOFF_014: PASS -- barbed remark ignored, day even-keeled, authority asserted at end
+edda_day_burstOFF_015: PASS -- two soups early not absurd, orders ignored, calm throughout
+edda_day_burstOFF_016: PASS -- brief tension after mockery and order, resolves quickly
+edda_day_burstOFF_017: PASS -- quiet day, order brushed off, composed and settled
+edda_day_burstOFF_018: PASS -- declines stranger order; fits authority profile, sane pacing
+edda_day_burstOFF_019: PASS -- mockery let pass, warmth to known folk, settled day
+edda_day_burstOFF_020: PASS -- refuses stranger order; four mocks ignored; fits composed authority

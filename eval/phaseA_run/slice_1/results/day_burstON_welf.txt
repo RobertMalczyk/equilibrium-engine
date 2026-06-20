@@ -1,0 +1,10 @@
+welf_day_burstON_011: PASS -- calm day; late mock provokes brief snap, fits profile
+welf_day_burstON_012: PASS -- steady day, kindnesses warmly received, tense edge dissolves
+welf_day_burstON_013: PASS -- two soups early morning feels dense but not absurd
+welf_day_burstON_014: PASS -- well-paced, multiple kindnesses, settles smoothly each time
+welf_day_burstON_015: PASS -- sane rhythm, boredom cycles, kindnesses land warmly
+welf_day_burstON_016: PASS -- brief late tension, no cause shown but fades before sleep
+welf_day_burstON_017: PASS -- brief tension mid-evening, resolves; late restlessness fits
+welf_day_burstON_018: PASS -- mid-evening tension with no trigger; minor but not jarring
+welf_day_burstON_019: PASS -- smooth day, boredom and kindnesses in believable cadence
+welf_day_burstON_020: PASS -- dense afternoon kindnesses; stays warm throughout, no issue

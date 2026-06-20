@@ -1,0 +1,10 @@
+cichy_multi_burstON_031: PASS -- sane arc, mocks trigger snaps, sleep resets hold
+cichy_multi_burstON_032: PASS -- rain day, curt under mocks, stranger warmth fine
+cichy_multi_burstON_033: PASS -- day 2 morning tension plausible from prior night edge
+cichy_multi_burstON_034: PASS -- repeated evening mocks answered curtly, no escalation believable
+cichy_multi_burstON_035: PASS -- sustained low-level seething, curt throughout, pacing holds
+cichy_multi_burstON_036: PASS -- eruptions earned by accumulation, daily rhythm consistent
+cichy_multi_burstON_037: PASS -- rain wears him down, mocks met with curtness, plausible
+cichy_multi_burstON_038: PASS -- six-day arc coherent, public mock only curt is minor
+cichy_multi_burstON_039: PASS -- eruption then deflation on back-to-back mocks is credible
+cichy_multi_burstON_040: PASS -- tension builds across days, stranger warmth and mock snaps fit

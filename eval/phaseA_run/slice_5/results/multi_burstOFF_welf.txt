@@ -1,0 +1,10 @@
+welf_multi_burstOFF_051: PASS -- steady rhythm, mocks brushed off, sleep resets cleanly
+welf_multi_burstOFF_052: PASS -- restlessness cycles well, kindness warms him, pacing sane
+welf_multi_burstOFF_053: PASS -- multi-day boredom loop holds, two rapid kindnesses minor
+welf_multi_burstOFF_054: PASS -- generous day one, composed under mock, rain day fine
+welf_multi_burstOFF_055: PASS -- six days coherent, late sleep once, tension clears by morning
+welf_multi_burstOFF_056: PASS -- late-night restlessness day three fits idle stranded man
+welf_multi_burstOFF_057: FLAG -- two soup events two minutes apart day four looks like artifact
+welf_multi_burstOFF_058: PASS -- three mock events all absorbed quietly, consistent with profile
+welf_multi_burstOFF_059: PASS -- two soups 26 min apart day one minor, overall sane
+welf_multi_burstOFF_060: PASS -- two mocks brushed off, rain day settles, six days coherent

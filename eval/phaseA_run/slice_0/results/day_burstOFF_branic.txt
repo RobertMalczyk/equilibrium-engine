@@ -1,0 +1,10 @@
+branic_day_burstOFF_001: PASS -- Steady day, restless cycles, kind responses, sleeps normally.
+branic_day_burstOFF_002: PASS -- Calm pacing, barb ignored early, meals land, sleep clean.
+branic_day_burstOFF_003: PASS -- Two barbs absorbed quietly, kindnesses warm him, tense late then kind soothes.
+branic_day_burstOFF_004: PASS -- Uneventful day, boredom cycles, mild tension late, sleeps fine.
+branic_day_burstOFF_005: PASS -- Good rhythm, orders obeyed, Marta's warmth received well, clean sleep.
+branic_day_burstOFF_006: FLAG -- Halgrim order at 20:53 gets "lets it pass" not compliance; odd.
+branic_day_burstOFF_007: PASS -- Routine day, boredom and tasks alternate, meals welcomed, settles to sleep.
+branic_day_burstOFF_008: PASS -- Three barbs absorbed, tension rises then fades, wakes settled; plausible thin-skinned restraint.
+branic_day_burstOFF_009: PASS -- Barb ignored, good pacing, meals warm him, clean sleep.
+branic_day_burstOFF_010: PASS -- Barb in front of others draws a snap; tension lingers then Marta soothes; sleeps reset.

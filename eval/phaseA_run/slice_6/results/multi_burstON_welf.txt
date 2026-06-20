@@ -1,0 +1,10 @@
+welf_multi_burstON_061: PASS -- boredom cycles cleanly, evening tension, sleep resets fine
+welf_multi_burstON_062: PASS -- evening tension from idleness, no provocation needed, sleep resets
+welf_multi_burstON_063: PASS -- late seething from boredom buildup, wakes settled next day
+welf_multi_burstON_064: FLAG -- seething persists multiple mornings after sleep, rain days compound
+welf_multi_burstON_065: PASS -- seething after rain watch isolated, otherwise sane pacing
+welf_multi_burstON_066: PASS -- clean arc, mockery brushed off, tension and rest well paced
+welf_multi_burstON_067: PASS -- late sleep Day 2 credible, Days 3-6 settled and sane
+welf_multi_burstON_068: PASS -- gradual warming to strangers Day 1, clean boredom cycling
+welf_multi_burstON_069: PASS -- consistent boredom and rest cycles, kindnesses received warmly
+welf_multi_burstON_070: PASS -- clean three days, pacing and tone consistent with profile

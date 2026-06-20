@@ -1,0 +1,10 @@
+branic_day_burstOFF_021: PASS -- Restless recruit, mocks absorbed, settles at night.
+branic_day_burstOFF_022: PASS -- Steady day, kindnesses warmly received, sane pacing.
+branic_day_burstOFF_023: PASS -- Calm rhythm, boredom cycles, kindnesses land well.
+branic_day_burstOFF_024: PASS -- Afternoon kindnesses lift mood, ignores one order, plausible.
+branic_day_burstOFF_025: PASS -- Two barbs absorbed, tension rises then eases by evening.
+branic_day_burstOFF_026: PASS -- Busy day, tension at 18:00 resolves, wakes settled.
+branic_day_burstOFF_027: PASS -- Quiet day, mild evening tension, soup soothes, clean sleep.
+branic_day_burstOFF_028: PASS -- Many orders, some ignored, mild tension, resolves by night.
+branic_day_burstOFF_029: PASS -- Mocks absorbed, tense afternoon, settles then tense again at 22:00.
+branic_day_burstOFF_030: PASS -- Three rapid orders handled, evening tense then soup settles him.

@@ -1,0 +1,10 @@
+welf_day_burstOFF_001: PASS -- calm merchant, boredom cycles and warmth fit profile
+welf_day_burstOFF_002: PASS -- slight tension late evening, recovers; sane pacing
+welf_day_burstOFF_003: PASS -- brushes off barb without reaction; fits composed character
+welf_day_burstOFF_004: PASS -- well-fed day, restless cycles, nothing jarring
+welf_day_burstOFF_005: PASS -- late-night restlessness before sleep; believable
+welf_day_burstOFF_006: PASS -- mocked, unbothered, then warmed by kindness; coherent
+welf_day_burstOFF_007: PASS -- sits and rises restlessly near sleep; sane rhythm
+welf_day_burstOFF_008: PASS -- public barb ignored; warm evening; fits profile
+welf_day_burstOFF_009: PASS -- two barbs both brushed off; even-keeled throughout
+welf_day_burstOFF_010: PASS -- mild tension at day's end; wakes settled; plausible

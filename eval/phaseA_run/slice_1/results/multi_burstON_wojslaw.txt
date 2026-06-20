@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_011: PASS -- calm days, one public-mock burst, sane pacing
+wojslaw_multi_burstON_012: PASS -- kindness triggers eruption; burst displacement, tension earned
+wojslaw_multi_burstON_013: PASS -- heavy Day 4-6 cascade; displaced anger on soup fits burstON
+wojslaw_multi_burstON_014: PASS -- dense mockery barrage; eruption rate matches provocations
+wojslaw_multi_burstON_015: PASS -- erupts at kindness Day 4; burst displacement, plausible
+wojslaw_multi_burstON_016: PASS -- escalating 5-day arc; sleeps reset each morning as expected
+wojslaw_multi_burstON_017: PASS -- 6-day grind; morning mock cascade and soup rage fit burstON
+wojslaw_multi_burstON_018: PASS -- chronic stress arc; kindness eruptions are displaced discharge
+wojslaw_multi_burstON_019: PASS -- calm Days 1-2 then Day 4 evening escalation; event-driven
+wojslaw_multi_burstON_020: PASS -- Day 1 early cascade; seething at 16:08 plausible burst latch

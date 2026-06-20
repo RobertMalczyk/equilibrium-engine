@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_041: PASS -- steady rhythm, meals, sleep, evening tension resolves naturally
+lutek_multi_burstOFF_042: PASS -- mockery brushed off, pacing sane, no jarring moments
+lutek_multi_burstOFF_043: PASS -- double soup morning cluttered but not absurd, fits profile
+lutek_multi_burstOFF_044: PASS -- tense briefly after kindness but small morning-window effect
+lutek_multi_burstOFF_045: PASS -- recurring morning tension pattern consistent across days
+lutek_multi_burstOFF_046: PASS -- evening tension without soup that night, plausible accumulation
+lutek_multi_burstOFF_047: PASS -- two restless triggers minutes apart mechanical but not jarring
+lutek_multi_burstOFF_048: PASS -- stays past midnight once, brief morning tension, sane overall
+lutek_multi_burstOFF_049: PASS -- muted responses to kindness twice unusual but within range
+lutek_multi_burstOFF_050: PASS -- mockery let pass, evening tension resolves, consistent pacing

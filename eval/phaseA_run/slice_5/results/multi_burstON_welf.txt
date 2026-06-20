@@ -1,0 +1,10 @@
+welf_multi_burstON_051: FLAG -- seething at 22:04 with no prior provocation that evening
+welf_multi_burstON_052: PASS
+welf_multi_burstON_053: PASS
+welf_multi_burstON_054: FLAG -- seething persists through soup and kindness for two hours
+welf_multi_burstON_055: PASS
+welf_multi_burstON_056: FLAG -- seething at 22:16 Day 3 with no visible trigger that evening
+welf_multi_burstON_057: PASS
+welf_multi_burstON_058: PASS
+welf_multi_burstON_059: PASS
+welf_multi_burstON_060: PASS

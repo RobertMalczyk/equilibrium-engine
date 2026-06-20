@@ -1,0 +1,10 @@
+lutek_day_burstOFF_071: PASS -- restless poet, mocks roll off, sleeps late but sanely
+lutek_day_burstOFF_072: PASS -- warm day, kindnesses received well, pacing believable
+lutek_day_burstOFF_073: PASS -- steady rhythm, boredom-seek cycle natural, sleeps on time
+lutek_day_burstOFF_074: PASS -- busy day, wakes early next morning settled and restless
+lutek_day_burstOFF_075: PASS -- mocks shrugged off, slight tension at 20:03 then resolved
+lutek_day_burstOFF_076: PASS -- mild evening tension, sleeps and wakes recovered
+lutek_day_burstOFF_077: PASS -- mocks bounce off, warm interactions, clean sleep and wake
+lutek_day_burstOFF_078: PASS -- kind day, brief evening edge, resolves before sleep
+lutek_day_burstOFF_079: PASS -- early mock ignored, good day, late sleep plausible
+lutek_day_burstOFF_080: PASS -- mock at 20:03 shrugged off, soup helps, sleeps soundly

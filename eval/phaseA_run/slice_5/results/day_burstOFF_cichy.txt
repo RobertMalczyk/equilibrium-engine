@@ -1,0 +1,10 @@
+cichy_day_burstOFF_051: PASS -- calm morning, erupts at mockery, settles overnight
+cichy_day_burstOFF_052: PASS -- tense afternoon, erupts at mockery, recovers and sleeps
+cichy_day_burstOFF_053: PASS -- mild bristle at mockery, no full eruption, sane pacing
+cichy_day_burstOFF_054: PASS -- muted response to early mock, erupts later under tension
+cichy_day_burstOFF_055: PASS -- warmth toward stranger fits; guard still gets curtness
+cichy_day_burstOFF_056: FLAG -- takes soup calmly moments after erupting twice in fury
+cichy_day_burstOFF_057: PASS -- erupts at public mockery, settles; pacing credible
+cichy_day_burstOFF_058: PASS -- erupts under tension, stranger warmth at 22:04 acceptable
+cichy_day_burstOFF_059: FLAG -- lets first mock pass, then erupts at second; odd gap
+cichy_day_burstOFF_060: PASS -- curter to guard, warm to stranger; no jarring moments

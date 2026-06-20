@@ -1,0 +1,10 @@
+lutek_multi_burstON_061: PASS -- sane pacing, mocks ignored, curtness plausible after repeated baiting
+lutek_multi_burstON_062: PASS -- six days steady, tense mornings after hard early work, profile fits
+lutek_multi_burstON_063: PASS -- tense wakeups from early work, mocks roll off, rhythm believable
+lutek_multi_burstON_064: PASS -- three days sane, mocks ignored throughout, pacing good
+lutek_multi_burstON_065: FLAG -- answers mock curtly while tense; Lutek is thick-skinned, should let it pass
+lutek_multi_burstON_066: PASS -- positive-heavy days, sane pacing, no aggression, fits profile
+lutek_multi_burstON_067: PASS -- mocks ignored, kindness welcomed, rhythm consistent across five days
+lutek_multi_burstON_068: PASS -- tense mornings from early work, resolves well, mocks absent
+lutek_multi_burstON_069: PASS -- tense accumulation without mocks, resolves after rest and food
+lutek_multi_burstON_070: PASS -- tense mornings pattern, overall sane arc, no character violations

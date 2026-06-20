@@ -1,0 +1,10 @@
+edda_multi_burstON_041: PASS -- calm 3-day stretch, sane pacing, fits profile
+edda_multi_burstON_042: PASS -- 4 days positive, late refusal under pressure coherent
+edda_multi_burstON_043: PASS -- cooler response to one kindness plausible, no jars
+edda_multi_burstON_044: PASS -- 5 days, dense kindnesses, pacing believable throughout
+edda_multi_burstON_045: PASS -- escalating push-back under repeated orders, resets after sleep
+edda_multi_burstON_046: PASS -- quiet 3 days, composed, regular meals, no issues
+edda_multi_burstON_047: PASS -- public mock draws curt reply, tension fades within 2h
+edda_multi_burstON_048: PASS -- 5 busy days, settled throughout, helpers frequent but fine
+edda_multi_burstON_049: PASS -- 4 clean days, positive events, sane arc
+edda_multi_burstON_050: PASS -- burst under triple mock, refusal, warms to soup, recovers by morning

@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_011: PASS -- restless poet, kindnesses warm, mockery ignored, sane pacing
+lutek_multi_burstOFF_012: PASS -- normal rhythm, early tension resolves after morning kindness
+lutek_multi_burstOFF_013: PASS -- public and private mockery both pass, mild evening tensions clear
+lutek_multi_burstOFF_014: PASS -- curt reply to public barb after tense afternoon, within range
+lutek_multi_burstOFF_015: PASS -- standard restless pattern, evening tension resolves overnight
+lutek_multi_burstOFF_016: PASS -- late nights plausible given evening activity, mockery rolls off
+lutek_multi_burstOFF_017: PASS -- multiple mockeries absorbed, sane multi-day pacing throughout
+lutek_multi_burstOFF_018: PASS -- two mockeries pass cleanly, tension episodes short-lived
+lutek_multi_burstOFF_019: PASS -- dense morning kindnesses externally driven, all received warmly
+lutek_multi_burstOFF_020: PASS -- clean three-day arc, evening tension brief and self-resolving

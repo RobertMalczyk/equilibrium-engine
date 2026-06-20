@@ -1,0 +1,10 @@
+cichy_day_burstOFF_021: PASS -- settled day, guard taunts trigger fury, sleep resets fine
+cichy_day_burstOFF_022: PASS -- sane arc, morning snap and afternoon flare both earned
+cichy_day_burstOFF_023: PASS -- quiet day, evening guard mock triggers fury, plausible
+cichy_day_burstOFF_024: PASS -- two guard insults, two eruptions, curt soup acceptance fits
+cichy_day_burstOFF_025: FLAG -- seething at 22:04 then settled at 20:03 before it; order jars
+cichy_day_burstOFF_026: PASS -- no provocations, restless-and-settle rhythm, believable quiet day
+cichy_day_burstOFF_027: PASS -- tension builds through afternoon, late guard snap, sane
+cichy_day_burstOFF_028: PASS -- morning bristle then midday eruption, recovery plausible
+cichy_day_burstOFF_029: PASS -- heavy guard provocation day, three eruptions across full span
+cichy_day_burstOFF_030: PASS -- stranger kindness warm, guard soup curt, mock eruption earned

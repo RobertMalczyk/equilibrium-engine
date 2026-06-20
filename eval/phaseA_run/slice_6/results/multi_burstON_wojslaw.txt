@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_061: PASS -- sane arc, displaced discharge on kindness fits burst pattern
+wojslaw_multi_burstON_062: PASS -- anger accumulates sensibly, sleep resets hold
+wojslaw_multi_burstON_063: PASS -- day-to-day oscillation believable, morning resets consistent
+wojslaw_multi_burstON_064: PASS -- calmer days with single sharp eruptions, arc makes sense
+wojslaw_multi_burstON_065: PASS -- heavy provocation days, sustained seething plausible for burst-ON
+wojslaw_multi_burstON_066: PASS -- positive mornings followed by afternoon flares, sane rhythm
+wojslaw_multi_burstON_067: PASS -- triple evening eruption heavy but fits hothead under burst
+wojslaw_multi_burstON_068: PASS -- intense day-1 provocation, displaced discharge on kindness fits
+wojslaw_multi_burstON_069: PASS -- multi-day anger saturation with consistent sleep resets
+wojslaw_multi_burstON_070: PASS -- oscillating arc across 6 days, calmer late days believable

@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_011: PASS -- calm baseline, fury on public insult, sleep resets cleanly
+wojslaw_multi_burstOFF_012: PASS -- two eruptions day 1 on public mocks, tension lingers believably
+wojslaw_multi_burstOFF_013: PASS -- day 4 dense mocks drive sustained anger, sleeps off overnight
+wojslaw_multi_burstOFF_014: PASS -- high provocation density, proportional eruptions throughout
+wojslaw_multi_burstOFF_015: PASS -- day 1 calm with good spirits, escalation across days believable
+wojslaw_multi_burstOFF_016: PASS -- sustained fury under repeated baiting, snap at kindness defensible
+wojslaw_multi_burstOFF_017: PASS -- three early-morning eruptions then settles; sleep resets hold
+wojslaw_multi_burstOFF_018: PASS -- opening eruption valid, bristle-at-soup marginal but acceptable
+wojslaw_multi_burstOFF_019: PASS -- day 1 all calm no provocations, fury builds day 4 appropriately
+wojslaw_multi_burstOFF_020: PASS -- brutal day 1 from mocks, calm day 2 with no provocations shows stimulus-driven anger

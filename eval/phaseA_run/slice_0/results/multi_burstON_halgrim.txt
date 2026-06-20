@@ -1,0 +1,10 @@
+halgrim_multi_burstON_001: PASS -- steady man, Wojslaw friction escalates tension plausibly
+halgrim_multi_burstON_002: FLAG -- Day 3 seething from Edda order, then Wojslaw order; Edda compliance should not trigger anger
+halgrim_multi_burstON_003: FLAG -- Day 3 grumbles at Edda twice with no prior provocation that day
+halgrim_multi_burstON_004: PASS -- Wojslaw battering accumulates; rain adds edge; sleep resets well
+halgrim_multi_burstON_005: PASS -- four morning Wojslaw mocks drive tension; recovers each dawn credibly
+halgrim_multi_burstON_006: PASS -- calm baseline, rain plus Wojslaw late in run edges him up
+halgrim_multi_burstON_007: FLAG -- Day 1 answers Edda with cold contempt at 22:46 after only Wojslaw provoked
+halgrim_multi_burstON_008: FLAG -- Days 5-6 unbroken seething with no new provocation; slow drain rings false
+halgrim_multi_burstON_009: FLAG -- Day 4 answers Edda with cold contempt twice; Edda spillover too strong
+halgrim_multi_burstON_010: FLAG -- Marta's soup met with cutting contempt Day 2 and Day 4; displaced aggression at wrong target

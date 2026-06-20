@@ -1,0 +1,10 @@
+edda_multi_burstON_081: PASS -- composed castellan, mild tension on Day 4 resolves cleanly
+edda_multi_burstON_082: PASS -- positive days, one compliance with stranger order within range
+edda_multi_burstON_083: PASS -- uneventful six days, steady and settled throughout
+edda_multi_burstON_084: PASS -- public mockery dismissed without reaction, fits composed profile
+edda_multi_burstON_085: PASS -- complies once in good temper, otherwise appropriate authority
+edda_multi_burstON_086: PASS -- very positive environment, consistently settled six days
+edda_multi_burstON_087: PASS -- repeated stranger demands; complaint responses believable under pressure
+edda_multi_burstON_088: PASS -- sustained kindness, stable and settled throughout four days
+edda_multi_burstON_089: PASS -- positive stimulus-heavy days, composed and functional throughout
+edda_multi_burstON_090: PASS -- tenses briefly after mock, recovers; flat refusal on Day 5 fits

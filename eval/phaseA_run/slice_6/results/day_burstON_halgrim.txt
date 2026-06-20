@@ -1,0 +1,10 @@
+halgrim_day_burstON_061: PASS -- calm day, kindnesses received warmly, sleeps well
+halgrim_day_burstON_062: PASS -- two mocks build edge, curt reply, settles overnight
+halgrim_day_burstON_063: PASS -- repeated mocks escalate to refusal of Wojsław, fits profile
+halgrim_day_burstON_064: PASS -- cold contempt after mock, seething then settles, believable arc
+halgrim_day_burstON_065: PASS -- quiet steady day, mocks absorbed, no tension accumulates
+halgrim_day_burstON_066: PASS -- calm day, mocks ignored late, Marta warmth throughout
+halgrim_day_burstON_067: FLAG -- refuses Wojsław after resting settled; low tension makes refusal odd
+halgrim_day_burstON_068: PASS -- mock triggers curt reply, displaces onto Edda briefly, recovers
+halgrim_day_burstON_069: PASS -- mild tension after rest, dissolves by evening, cooperative with Edda
+halgrim_day_burstON_070: PASS -- warm day, Marta kindnesses, lone mock absorbed, settled throughout

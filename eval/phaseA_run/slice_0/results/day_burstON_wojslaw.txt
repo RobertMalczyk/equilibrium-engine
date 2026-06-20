@@ -1,0 +1,10 @@
+wojslaw_day_burstON_001: FLAG -- bristles at kindness after fury; displaced anger plausible but repeated
+wojslaw_day_burstON_002: PASS
+wojslaw_day_burstON_003: PASS
+wojslaw_day_burstON_004: FLAG -- snaps angrily at soup delivery mid-day; bristles reasonable but soup=food not insult
+wojslaw_day_burstON_005: PASS
+wojslaw_day_burstON_006: PASS
+wojslaw_day_burstON_007: FLAG -- bristles at kindness from Marta after already seething; sustained fury colours kindness
+wojslaw_day_burstON_008: FLAG -- snaps at Marta's kindness and soup multiple times; anger-displacement overdone
+wojslaw_day_burstON_009: PASS
+wojslaw_day_burstON_010: PASS

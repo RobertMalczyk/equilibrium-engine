@@ -1,0 +1,10 @@
+edda_day_burstON_011: PASS -- calm day, kindness received warmly, authority exercised at close
+edda_day_burstON_012: PASS -- stranger's order draws mild complaint, recovered by evening
+edda_day_burstON_013: PASS -- steady day, multiple kindnesses received gracefully, no jarring moments
+edda_day_burstON_014: PASS -- mocks absorbed without reaction, day ends composed and in command
+edda_day_burstON_015: PASS -- tension after mock fades with kindness, plausible arc
+edda_day_burstON_016: PASS -- early mock absorbed, stranger's order draws complaint, recovers fully
+edda_day_burstON_017: PASS -- quiet day, order let pass, wakes composed
+edda_day_burstON_018: PASS -- curt reply to mock then declines order; fits authority under pressure
+edda_day_burstON_019: PASS -- mock absorbed without reaction, warm day overall
+edda_day_burstON_020: PASS -- four mocks absorbed, firm refusal to order; composed castellan

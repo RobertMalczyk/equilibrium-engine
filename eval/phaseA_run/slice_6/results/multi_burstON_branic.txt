@@ -1,0 +1,10 @@
+branic_multi_burstON_061: PASS -- displaced discharge at Marta fits burst-ON; sane arc
+branic_multi_burstON_062: PASS -- accumulation-to-eruption well-paced; sleep resets hold
+branic_multi_burstON_063: PASS -- erupts at Halgrim's kindness; burst displaced pattern plausible
+branic_multi_burstON_064: PASS -- calm record; Day 4 morning seething minor unexplained carryover
+branic_multi_burstON_065: FLAG -- seething Day 3 morning and evening with no visible anger source
+branic_multi_burstON_066: FLAG -- three fury eruptions within two hours Day 1 evening; over-saturated
+branic_multi_burstON_067: FLAG -- Day 1 ends seething with no anger event shown that day
+branic_multi_burstON_068: PASS -- good multi-day arc; Day 5 escalation well-motivated
+branic_multi_burstON_069: PASS -- clean 3-day arc; rain plus mocks drive tension credibly
+branic_multi_burstON_070: PASS -- Day 5 residual seething minor; overall positive arc believable

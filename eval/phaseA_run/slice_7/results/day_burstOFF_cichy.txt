@@ -1,0 +1,10 @@
+cichy_day_burstOFF_071: PASS -- anger rises under repeated mockery, settles overnight
+cichy_day_burstOFF_072: PASS -- one provocation triggers fury, evening calm restored
+cichy_day_burstOFF_073: PASS -- midday eruption, gradual settling, sane pacing throughout
+cichy_day_burstOFF_074: PASS -- two eruptions under repeated taunts, curt to soup delivery
+cichy_day_burstOFF_075: PASS -- calm day, single late eruption, soup after anger still curt
+cichy_day_burstOFF_076: PASS -- quiet day, no provocations, tension builds then fades naturally
+cichy_day_burstOFF_077: PASS -- stranger warmth accepted, guard hostility consistent throughout
+cichy_day_burstOFF_078: PASS -- early bristle, muted day without eruption, sane arc
+cichy_day_burstOFF_079: PASS -- stranger kindness accepted warmly, guard mock met with bristle only
+cichy_day_burstOFF_080: PASS -- two eruptions under direct mockery, sustained tension believable

@@ -1,0 +1,10 @@
+welf_multi_burstON_041: PASS -- calm merchant, boredom cycles, mocks brushed off cleanly
+welf_multi_burstON_042: PASS -- multi-day wear shows as morning tension, resolves normally
+welf_multi_burstON_043: PASS -- day 3 tense morning clears quickly with kindnesses
+welf_multi_burstON_044: PASS -- rain day 1, tension accumulates by day 3-4, resolves plausibly
+welf_multi_burstON_045: PASS -- rain day 5 no spike, steady even-keeled throughout
+welf_multi_burstON_046: PASS -- day 1 late tension, day 2 morning edge, overall sane arc
+welf_multi_burstON_047: PASS -- rain day 3, stays composed, late night work then sleeps
+welf_multi_burstON_048: PASS -- day 4 snap under rain plus multi-day load, clears fast
+welf_multi_burstON_049: PASS -- seething day 3 morning after rain and mock, resolves by afternoon
+welf_multi_burstON_050: PASS -- two snaps under rain plus accumulated tension, each clears promptly

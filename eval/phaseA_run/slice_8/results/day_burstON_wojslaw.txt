@@ -1,0 +1,10 @@
+wojslaw_day_burstON_081: PASS -- calm day, erupts at night barb, fits profile
+wojslaw_day_burstON_082: FLAG -- snaps at soup delivery unprovoked, odd after settled morning
+wojslaw_day_burstON_083: PASS -- insults met with flares, refuses orders, sane pacing
+wojslaw_day_burstON_084: PASS -- early fury, settles, erupts again at evening insult
+wojslaw_day_burstON_085: PASS -- irritable afternoon, erupts at public mock, consistent temper
+wojslaw_day_burstON_086: PASS -- good morning, erupts at public taunt, stays on edge
+wojslaw_day_burstON_087: PASS -- quiet day, mild deflections, muted complaint, no excess
+wojslaw_day_burstON_088: PASS -- escalating evening insults, fury at late-night public taunt
+wojslaw_day_burstON_089: PASS -- kind morning, erupts twice at evening public insults
+wojslaw_day_burstON_090: PASS -- repeated orders tolerated, snaps at barbed remarks, believable

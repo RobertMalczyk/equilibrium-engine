@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_031: PASS -- sane pacing, guard resentment consistent across 4 days
+cichy_multi_burstOFF_032: PASS -- rhythms normal, stranger warmth vs guard coldness correct
+cichy_multi_burstOFF_033: PASS -- tensions build believably, no absurdities
+cichy_multi_burstOFF_034: PASS -- three evening eruptions from sustained mockery, plausible
+cichy_multi_burstOFF_035: PASS -- soup snap and mock outburst fit resentful captive
+cichy_multi_burstOFF_036: PASS -- first mock ignored, second breaks him; late sleep believable
+cichy_multi_burstOFF_037: PASS -- eruption just before sleep unusual but not impossible
+cichy_multi_burstOFF_038: PASS -- 6-day arc coherent, clustered mockery drives fury correctly
+cichy_multi_burstOFF_039: PASS -- stranger warmth vs guard fury contrast clear and correct
+cichy_multi_burstOFF_040: PASS -- calm 5-day run, resentment modulated by events correctly

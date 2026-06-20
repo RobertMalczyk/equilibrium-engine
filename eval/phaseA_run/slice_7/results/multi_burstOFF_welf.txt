@@ -1,0 +1,10 @@
+welf_multi_burstOFF_071: PASS -- composed man, restless cycles, mocks let pass, sane 6 days
+welf_multi_burstOFF_072: PASS -- many kindnesses Day 1 but responds warmly each time, sane
+welf_multi_burstOFF_073: PASS -- two mocks let pass, morning tension recovers after rest, sane
+welf_multi_burstOFF_074: PASS -- rain watch, two mocks ignored, tense morning recovers, sane
+welf_multi_burstOFF_075: PASS -- uneventful, restless cycles normal, late mock let pass, sane
+welf_multi_burstOFF_076: PASS -- rain days, mock ignored, morning tension resolves, sane
+welf_multi_burstOFF_077: PASS -- two mocks ignored, rain Day 2, heavy kindnesses Day 4, sane
+welf_multi_burstOFF_078: PASS -- morning tension pattern, two mocks let pass, sane 4 days
+welf_multi_burstOFF_079: PASS -- late Day 3 night, morning tension recovers, mocks let pass, sane
+welf_multi_burstOFF_080: PASS -- clean pattern, morning tension, mock let pass, sane 3 days

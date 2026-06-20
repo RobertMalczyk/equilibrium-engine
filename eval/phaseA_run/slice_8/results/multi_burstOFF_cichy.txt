@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_081: PASS -- calm days, curt to guards, resets nightly, sane pacing
+cichy_multi_burstOFF_082: PASS -- repeated mocks drive eruptions, rain wears him down, recovers
+cichy_multi_burstOFF_083: PASS -- Day 2 heavy provocation cascade, anger carries, sleep resets
+cichy_multi_burstOFF_084: PASS -- rain and mocks escalate tension, resolves nightly as expected
+cichy_multi_burstOFF_085: PASS -- Day 4 exhaustion plausibly numbs late mock, arc coherent
+cichy_multi_burstOFF_086: PASS -- Day 1 five mocks five eruptions, intense but guard-driven
+cichy_multi_burstOFF_087: PASS -- two soups two minutes apart odd but not a character failure
+cichy_multi_burstOFF_088: PASS -- rain plus mocks escalate, stranger kindness accepted, sane arc
+cichy_multi_burstOFF_089: PASS -- stranger warmth then guard eruption fits resentment pattern
+cichy_multi_burstOFF_090: PASS -- rain and double mock mid-day, evening lingers, coherent reset

@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_071: PASS -- calm mornings, tension builds, public insults trigger eruptions
+wojslaw_multi_burstON_072: PASS -- early double-eruption plausible given back-to-back public mocks
+wojslaw_multi_burstON_073: PASS -- heavy-provocation run, burst-ON displaced anger fits profile
+wojslaw_multi_burstON_074: PASS -- positive run with valid eruptions at public slights
+wojslaw_multi_burstON_075: PASS -- quiet run, single eruptions on public mocks, sane pacing
+wojslaw_multi_burstON_076: PASS -- sustained heavy anger, displaced burst on kindnesses when seething
+wojslaw_multi_burstON_077: PASS -- escalating days, soup and kindness trigger anger while seething
+wojslaw_multi_burstON_078: PASS -- six-day heavy-provocation run, wakes calm each morning
+wojslaw_multi_burstON_079: PASS -- mixed days, Day 3 calm recovery plausible after Day 2 seething
+wojslaw_multi_burstON_080: PASS -- unusually warm days 1-3 but not impossible, eruptions on provocation

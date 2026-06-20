@@ -1,0 +1,10 @@
+lutek_multi_burstON_001: PASS -- restless cycle, mockery rolls off, sane pacing
+lutek_multi_burstON_002: PASS -- curt reply when already tense, recovers plausibly
+lutek_multi_burstON_003: FLAG -- seething after mock with no prior anger escalation
+lutek_multi_burstON_004: PASS -- curt reply tied to tense morning, rest rolls off
+lutek_multi_burstON_005: PASS -- calm multi-day arc, mild evening tension clears overnight
+lutek_multi_burstON_006: FLAG -- three unprompted seething episodes with no visible trigger
+lutek_multi_burstON_007: PASS -- repeated morning tension mild, resolves with food/kindness
+lutek_multi_burstON_008: PASS -- positive arc, mockery ignored, well-fed, fully sane
+lutek_multi_burstON_009: PASS -- dense kindnesses day 1, minor tension, overall sane
+lutek_multi_burstON_010: PASS -- rhythmic, clean; duplicate soup at 08:16/08:18 minor artifact

@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_051: PASS -- calm start, erupts on provocation, resets nightly
+wojslaw_multi_burstOFF_052: PASS -- kindness-heavy days, erupts reliably on each mock
+wojslaw_multi_burstOFF_053: PASS -- escalating mocks accumulate to cascading fury appropriately
+wojslaw_multi_burstOFF_054: PASS -- first mock let past in good mood, escalates thereafter
+wojslaw_multi_burstOFF_055: PASS -- sane arc, double mock triggers dual reaction day four
+wojslaw_multi_burstOFF_056: PASS -- very hostile environment, each provocation triggers response
+wojslaw_multi_burstOFF_057: PASS -- early mock let past, later cluster escalates correctly
+wojslaw_multi_burstOFF_058: PASS -- warm day one, anger builds across days two and three
+wojslaw_multi_burstOFF_059: PASS -- displaced anger at kindness when seething fits profile
+wojslaw_multi_burstOFF_060: PASS -- relentless day three mocking, erupts each time, settles
