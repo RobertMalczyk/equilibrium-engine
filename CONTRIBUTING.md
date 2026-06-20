@@ -39,6 +39,13 @@ pytest -q                   # test suite
   persona-contrast tests over hard-coded numbers.
 - **Less is more.** The MVP contains only what does something; name and defer the rest.
 
+## AI-assisted contributions
+
+AI-assisted contributions are allowed. If you used an AI tool, you are responsible for the result exactly
+as if you had written it by hand: understand it, review it, test it, and confirm it is correctly licensed
+for submission. Do not submit AI-generated output blindly — it must meet the same spec-first, deterministic,
+test-passing bar as any other change. See [AI_USAGE.md](AI_USAGE.md) for the project's policy.
+
 ## Reporting issues
 
 Use GitHub Issues for bugs, questions, and proposals. For behavioural claims, a small reproducing

@@ -133,6 +133,15 @@ corpora, blind-judge) are in place and green.
 Because of the above, **treat the spec, config schema, and calibrated constants as moving targets.**
 Contributions and issue reports are welcome, but expect churn.
 
+## AI-Assisted Development
+
+This repository uses AI-assisted coding tools, including Claude Code, openly and as a normal part of the
+implementation workflow. AI may help draft implementation code, tests, refactors, and documentation, but
+it is treated as an *untrusted implementation draft* — reviewed, tested, and checked against the spec
+before it lands. The conceptual model, architecture decisions, validation, and final responsibility
+remain human-owned, and every change is held to the same spec-driven, deterministic, test-validated bar
+as the rest of the project. See [AI_USAGE.md](AI_USAGE.md) for the full policy.
+
 ## License
 
 [Apache License 2.0](LICENSE) — © 2026 Robert Malczyk. A permissive license: use, modify, and
