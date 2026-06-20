@@ -22,7 +22,7 @@ carried himself through it. (Times are the clock on the wall.)
 - **10:18** -- He sits down to rest.
 - **10:30** -- He looks tense, a little on edge.
 - **10:38** -- He sits down to rest.
-- **11:00** -- He is still seething, jaw tight.
+- **11:00** -- He still hasn't quite shaken off an earlier temper.
 - **11:20** -- He sits down to rest.
 - **11:30** -- He looks tense, a little on edge.
 - **11:41** -- He sits down to rest.

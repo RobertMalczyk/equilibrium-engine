@@ -53,6 +53,22 @@ def test_high_anger_composes_with_boredom():
     assert "seething" in out and "restless" in out
 
 
+def test_high_anger_fresh_reads_seething():
+    # An explicit recent provocation -> the active "seething" read is justified.
+    g = {"stress": 0.10, "anger": ANGER_SEETHING + 0.10}
+    assert "seething" in mood_phrase(g, anger_fresh=True)
+
+
+def test_high_anger_stale_reads_lingering_not_seething():
+    # M1 refinement: high anger with NO recent provocation must read as a lingering temper, not
+    # active fury -> never "seething at nothing", and still never "settled/at ease".
+    g = {"stress": 0.10, "anger": ANGER_SEETHING + 0.10}
+    out = mood_phrase(g, anger_fresh=False)
+    assert "seething" not in out
+    assert "settled" not in out and "at ease" not in out
+    assert "earlier temper" in out
+
+
 # --- M2: positive events are acknowledged ---------------------------------------------------------
 
 

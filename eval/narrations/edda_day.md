@@ -30,7 +30,7 @@ carried herself through it. (Times are the clock on the wall.)
 - **10:30** -- She looks tense, a little on edge.
 - **10:38** -- She sits down to rest.
 - **10:42** -- She takes charge -- sets the watch in order and directs the others to their tasks.
-- **11:00** -- She is still seething, jaw tight.
+- **11:00** -- She still hasn't quite shaken off an earlier temper.
 - **11:05** -- She takes charge -- sets the watch in order and directs the others to their tasks.
 - **11:20** -- She sits down to rest.
 - **11:30** -- She looks tense, a little on edge.

@@ -42,7 +42,7 @@ carried himself through it. (Times are the clock on the wall.)
 - **11:03** -- He busies himself with work.
 - **11:05** -- He sits down to rest.
 - **11:11** -- He occupies himself -- tinkering, pacing, passing the time.
-- **11:30** -- He is still seething, jaw tight.
+- **11:30** -- He still hasn't quite shaken off an earlier temper.
 - **11:36** -- He grows restless, casting about for something to do.
 - **11:36** -- He occupies himself -- tinkering, pacing, passing the time.
 - **11:38** -- He sits down to rest.
