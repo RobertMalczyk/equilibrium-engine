@@ -1,0 +1,10 @@
+lutek_day_burstON_081: PASS -- restless poet cycles naturally, sleeps late but settles fine
+lutek_day_burstON_082: PASS -- active day, mild tension at end, wakes fresh and settled
+lutek_day_burstON_083: PASS -- mock rolls off him, warmth from Marta, sane pacing
+lutek_day_burstON_084: PASS -- well-fed, busy, calm throughout, clean sleep and wake
+lutek_day_burstON_085: PASS -- evening edge dissolves with soup, consistent with profile
+lutek_day_burstON_086: PASS -- generous kindnesses, tense evening resolved, believable rhythm
+lutek_day_burstON_087: PASS -- mocks bounce off, residual temper at night plausible given burst-ON
+lutek_day_burstON_088: PASS -- tense spikes mid-evening but settles; late night but sane
+lutek_day_burstON_089: FLAG -- curtly answers mock at 18:15 then stays tense; thick-skinned Lutek shouldn't snap
+lutek_day_burstON_090: PASS -- temper lingers into evening but clears; fits restless profile

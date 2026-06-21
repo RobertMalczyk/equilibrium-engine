@@ -1,0 +1,10 @@
+halgrim_multi_burstON_061: PASS -- steady arc, Wojslaw friction escalates cleanly, sleep resets
+halgrim_multi_burstON_062: PASS -- six-day accumulation under Wojslaw, mornings clear, sane pacing
+halgrim_multi_burstON_063: PASS -- heavy Wojslaw siege bleeds to Edda by day five, at limit but earned
+halgrim_multi_burstON_064: PASS -- residual tension day two without new triggers, fades correctly
+halgrim_multi_burstON_065: PASS -- calm day one, rain plus Wojslaw cluster day three, believable arc
+halgrim_multi_burstON_066: PASS -- rain plus Wojslaw mock triggers seething, Edda curtness marginal but earned
+halgrim_multi_burstON_067: PASS -- four days, Wojslaw ratchets anger across days, mornings reset cleanly
+halgrim_multi_burstON_068: PASS -- six-day buildup, day six residual long but multi-day burst-ON plausible
+halgrim_multi_burstON_069: PASS -- low-provocation run, mild tension responses, calm recovery throughout
+halgrim_multi_burstON_070: PASS -- day five contempt toward Edda at limit; two rain days plus burst earns it

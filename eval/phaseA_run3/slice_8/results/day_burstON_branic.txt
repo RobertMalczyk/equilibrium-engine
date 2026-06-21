@@ -1,0 +1,10 @@
+branic_day_burstON_081: PASS -- restless cycle, evening tension, sleeps and resets cleanly
+branic_day_burstON_082: PASS -- mocks absorbed until late snap under accumulation, believable
+branic_day_burstON_083: PASS -- quiet day, evening tension rises naturally, no jarring events
+branic_day_burstON_084: PASS -- three mocks escalate to fury, pacing and trigger plausible
+branic_day_burstON_085: FLAG -- snaps angrily at Halgrim's kindness, eruption lacks provocation
+branic_day_burstON_086: PASS -- day of warmth, late mock triggers fury, arc coherent
+branic_day_burstON_087: PASS -- steady day, evening tension stays managed, wakes settled
+branic_day_burstON_088: PASS -- fed repeatedly, grows tense by evening, no outburst, sane
+branic_day_burstON_089: PASS -- orders ignored oddly early but snap at mock earns it
+branic_day_burstON_090: PASS -- mild mock absorbed, tension rises, no eruption, believable

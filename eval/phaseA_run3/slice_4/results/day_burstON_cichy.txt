@@ -1,0 +1,10 @@
+cichy_day_burstON_041: PASS -- calm day, curtness after tension builds naturally
+cichy_day_burstON_042: PASS -- escalating mocks produce escalating fury, fits profile
+cichy_day_burstON_043: PASS -- morning eruption fades, residual tension through day
+cichy_day_burstON_044: PASS -- single mock lingers hours, sane pacing and recovery
+cichy_day_burstON_045: PASS -- stranger kindness accepted warmly, guard still gets cold shoulder
+cichy_day_burstON_046: PASS -- uneventful day, tension rises naturally by evening
+cichy_day_burstON_047: PASS -- three meals, curtness on last; temper arc believable
+cichy_day_burstON_048: PASS -- early mock sets sour tone persisting most of day
+cichy_day_burstON_049: PASS -- quiet day, mild evening tension, clean sleep and reset
+cichy_day_burstON_050: PASS -- stranger kindness doesn't soften guard-directed curtness

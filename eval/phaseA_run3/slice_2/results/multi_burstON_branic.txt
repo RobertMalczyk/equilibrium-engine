@@ -1,0 +1,10 @@
+branic_multi_burstON_021: PASS -- sane 6-day arc, mild snaps under fatigue, recovers nightly
+branic_multi_burstON_022: PASS -- burst builds across days, defiance escalates under rain and pressure
+branic_multi_burstON_023: PASS -- heavy Halgrim pressure drives repeated eruptions, calm after reset
+branic_multi_burstON_024: PASS -- gradual escalation across days, mornings reset, coherent arc
+branic_multi_burstON_025: PASS -- rain and mocks drive eruptions, day 3 calms after sleep
+branic_multi_burstON_026: PASS -- eruption cluster under sustained Halgrim pressure, plausible
+branic_multi_burstON_027: PASS -- day 3 heavily provoked multiple eruptions, recovery by day 6
+branic_multi_burstON_028: PASS -- calm arc with light provocation, single snap on rain day
+branic_multi_burstON_029: FLAG -- day 6 morning snaps at Halgrim kindness, displaced-discharge on wake
+branic_multi_burstON_030: PASS -- mild two-day arc, flares only on second public mock in sequence

@@ -1,0 +1,10 @@
+cichy_multi_burstON_001: PASS -- tense captive, builds and erupts credibly over 5 days
+cichy_multi_burstON_002: PASS -- accumulating provocations, eruptions well-placed, resets nightly
+cichy_multi_burstON_003: PASS -- stranger warmth accepted, guard eruptions earned, pacing sound
+cichy_multi_burstON_004: FLAG -- Day 6 morning mock passes with no reaction, inconsistent with profile
+cichy_multi_burstON_005: PASS -- 3 days, tension arc and Day 2 eruption well supported
+cichy_multi_burstON_006: PASS -- rain day stressor, outburst earned, post-burst de-escalation plausible
+cichy_multi_burstON_007: PASS -- early Day 1 snap then recovery, guard interactions consistent
+cichy_multi_burstON_008: PASS -- four eruptions across two days, high but burst-ON and guards relentless
+cichy_multi_burstON_009: PASS -- very early Day 1 eruption, burst-ON permits low threshold
+cichy_multi_burstON_010: PASS -- rain days wear him down, gradient of responses coherent

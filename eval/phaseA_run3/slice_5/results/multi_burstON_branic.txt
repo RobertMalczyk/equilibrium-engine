@@ -1,0 +1,10 @@
+branic_multi_burstON_051: PASS -- calm days, builds tension, believable snap and refusal
+branic_multi_burstON_052: PASS -- rain plus barbs triggers burst; bristles at kindness while simmering
+branic_multi_burstON_053: PASS -- multi-day arc, residual temper plausible, good positive recovery
+branic_multi_burstON_054: PASS -- two snap episodes on separate days, rain amplifies Day 6 tension
+branic_multi_burstON_055: PASS -- heavy burst saturation, displaced discharge at Halgrim kindness believable
+branic_multi_burstON_056: PASS -- slow boil under repeated mocks, erupts once, carryover next day
+branic_multi_burstON_057: PASS -- bristles at kindness while tense, escalates to eruption end of Day 3
+branic_multi_burstON_058: FLAG -- anger barely decays across 5 days despite ample positive inputs
+branic_multi_burstON_059: PASS -- Day 2 residual temper slightly sourceless but otherwise coherent arc
+branic_multi_burstON_060: PASS -- Day 1 residual temper minor oddity; Day 5 refusals follow snap and rain

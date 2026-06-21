@@ -1,0 +1,10 @@
+lutek_multi_burstON_071: PASS -- regular cycles, insults ignored, sleep resets clean
+lutek_multi_burstON_072: PASS -- morning carryover tension resolves after food and kindness
+lutek_multi_burstON_073: PASS -- late evening tension fits burst-ON, sleep resets fine
+lutek_multi_burstON_074: PASS -- busy kindness load, morning tension resolves, mockery ignored
+lutek_multi_burstON_075: PASS -- evening tension without trigger, soup resolves it plausibly
+lutek_multi_burstON_076: PASS -- late sleep timing odd but not absurd, pattern holds
+lutek_multi_burstON_077: PASS -- clean multi-day pattern, tension resolves after food and rest
+lutek_multi_burstON_078: PASS -- residual temper at day's end plausible for burst-ON mode
+lutek_multi_burstON_079: PASS -- lingering temper evening and morning, burst-ON accounts for it
+lutek_multi_burstON_080: PASS -- evening tension persists despite kindness, resolves after sleep

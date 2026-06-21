@@ -1,0 +1,10 @@
+edda_multi_burstON_011: PASS -- settled days, good pacing, sleeps and wakes correctly
+edda_multi_burstON_012: PASS -- escalation arc over 6 days credible, sleep resets hold
+edda_multi_burstON_013: PASS -- warm positive run, authority-appropriate refusals consistent
+edda_multi_burstON_014: PASS -- composed throughout, mocks absorbed without drama
+edda_multi_burstON_015: PASS -- variable responses to orders across day are plausible
+edda_multi_burstON_016: PASS -- sustained positive stretch, orders brushed off naturally
+edda_multi_burstON_017: PASS -- refusals build under mocks, recovery after sleep intact
+edda_multi_burstON_018: PASS -- single tension spike Day 4 night fits provocation load
+edda_multi_burstON_019: PASS -- tension rises under repeated orders, kindness restores calm
+edda_multi_burstON_020: PASS -- brief complaint Day 4, otherwise settled and consistent

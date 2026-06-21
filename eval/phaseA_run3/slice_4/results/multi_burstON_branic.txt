@@ -1,0 +1,10 @@
+branic_multi_burstON_041: PASS -- calm build, snap after evening pressure, clean sleep reset
+branic_multi_burstON_042: PASS -- mild tension arc, residual morning temper, nothing jarring
+branic_multi_burstON_043: PASS -- slow-burn refusal escalation under sustained mocking plausible
+branic_multi_burstON_044: PASS -- quiet three days, morning carry-over lifts with kindness
+branic_multi_burstON_045: PASS -- mocks let pass early, Day 4 positive flush convincing
+branic_multi_burstON_046: PASS -- Day 3 morning snap earns its trigger, arc settles
+branic_multi_burstON_047: PASS -- Day 4 burst cluster follows two-day provocation build-up
+branic_multi_burstON_048: PASS -- Day 3 kindness-bristle odd but within tense-state logic
+branic_multi_burstON_049: FLAG -- residual temper signal Day 1 evening lacks triggering event
+branic_multi_burstON_050: PASS -- Day 5 saturation driven by relentless Halgrim mocking run

@@ -1,0 +1,10 @@
+branic_day_burstON_011: PASS -- late-night snapping after a long day fits profile
+branic_day_burstON_012: PASS -- sane pacing, mild residual temper, nothing jars
+branic_day_burstON_013: PASS -- outburst after repeated evening barbs, recovers by morning
+branic_day_burstON_014: PASS -- tense evenings, compliant all day, sleeps past midnight fine
+branic_day_burstON_015: PASS -- wound tight late but holds; Halgrim kindness mid-day plausible
+branic_day_burstON_016: PASS -- tension builds through evening, no trigger needed for edge
+branic_day_burstON_017: PASS -- three stranger kindnesses in 20 min slightly dense but not absurd
+branic_day_burstON_018: PASS -- lingers tense into evening without provocation, fits restless profile
+branic_day_burstON_019: PASS -- five mocks absorbed without reaction; within profile for good-day baseline
+branic_day_burstON_020: PASS -- sleeps well past midnight, residual temper at 22:04 without trigger

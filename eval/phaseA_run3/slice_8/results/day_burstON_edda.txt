@@ -1,0 +1,10 @@
+edda_day_burstON_081: PASS -- calm day, kindness received well, sane pacing
+edda_day_burstON_082: PASS -- stranger orders and mocks; she holds composure throughout
+edda_day_burstON_083: PASS -- ordered early, complies; steady composed day
+edda_day_burstON_084: PASS -- barb and order absorbed; recovers with kindness, settled close
+edda_day_burstON_085: PASS -- warmth-heavy day; mocks pass without reaction, coherent
+edda_day_burstON_086: PASS -- brief tension at 22:04 resolves with Marta's kindness
+edda_day_burstON_087: PASS -- curt reply to barb after good day, proportionate
+edda_day_burstON_088: PASS -- two soups in quick succession minor; day otherwise sane
+edda_day_burstON_089: PASS -- kindness-rich day; order absorbed quietly, coherent pacing
+edda_day_burstON_090: PASS -- brief tension mid-afternoon clears; day sane end-to-end

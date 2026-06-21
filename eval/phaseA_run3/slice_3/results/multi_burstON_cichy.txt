@@ -1,0 +1,10 @@
+cichy_multi_burstON_031: PASS -- steady provocation-anger cycle, sleep resets hold
+cichy_multi_burstON_032: PASS -- rain as stressor, guard mocks draw curt not explosive replies
+cichy_multi_burstON_033: PASS -- tension accumulates without provocation, erupts when guards press
+cichy_multi_burstON_034: PASS -- eruption then curt recovery is fast but within burst-mode range
+cichy_multi_burstON_035: PASS -- low-provocation days show slow tension build, no jarring spikes
+cichy_multi_burstON_036: FLAG -- Day 6 lingering temper at 12:31 with no visible provocation after kindness
+cichy_multi_burstON_037: PASS -- rain day pacing sane, mocks draw proportionate curt responses
+cichy_multi_burstON_038: PASS -- six-day arc believable; kindness accepted, guard pressure dominates
+cichy_multi_burstON_039: PASS -- burst on Day 3 spent; subsequent mock draws only curt reply
+cichy_multi_burstON_040: PASS -- daily tension cycle consistent; sleep resets hold across five days

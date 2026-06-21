@@ -1,0 +1,10 @@
+welf_day_burstON_031: PASS -- steady day, boredom cycles, kindnesses received, sane sleep
+welf_day_burstON_032: PASS -- calm pacing, restlessness addressed, settled evenings, clean sleep
+welf_day_burstON_033: PASS -- mocks let pass without reaction, fits composed profile
+welf_day_burstON_034: PASS -- slight tension late evening, resolves overnight, sane arc
+welf_day_burstON_035: PASS -- brief tension at 18:03 dissolves, restlessness cycles believably
+welf_day_burstON_036: PASS -- mock ignored, kindnesses warm him, settled pacing throughout
+welf_day_burstON_037: PASS -- clean rhythmic day, boredom rises and falls, sane sleep
+welf_day_burstON_038: PASS -- late tension eased by kindness, wakes recovered and settled
+welf_day_burstON_039: PASS -- late-evening tension with multiple kindnesses; wakes calm, coherent
+welf_day_burstON_040: PASS -- late tension without prior provocation; plausible accumulated idleness

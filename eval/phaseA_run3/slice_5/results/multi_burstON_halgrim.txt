@@ -1,0 +1,10 @@
+halgrim_multi_burstON_051: PASS -- calm baseline, Wojslaw friction handled with appropriate curtness
+halgrim_multi_burstON_052: PASS -- sustained Wojslaw pressure builds to cold contempt; sleep resets
+halgrim_multi_burstON_053: PASS -- rain plus mockery wears him down; residual Day 5 tension plausible
+halgrim_multi_burstON_054: PASS -- Day 3 sustained tension with no input is mechanical but within burst latch
+halgrim_multi_burstON_055: PASS -- positive-dominated days; calm holds throughout, fits profile
+halgrim_multi_burstON_056: PASS -- 6-day arc of accumulation; seething end reasonable under burst
+halgrim_multi_burstON_057: PASS -- rain day sharpens temper; recovers cleanly Day 3
+halgrim_multi_burstON_058: PASS -- evening Wojslaw mocks trigger latch despite daytime positives
+halgrim_multi_burstON_059: PASS -- very calm, many kindnesses; Wojslaw refused quietly throughout
+halgrim_multi_burstON_060: FLAG -- cold contempt directed at respected Edda; 2-day anger carry-over excessive

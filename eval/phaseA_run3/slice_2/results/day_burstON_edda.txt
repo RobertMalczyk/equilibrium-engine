@@ -1,0 +1,10 @@
+edda_day_burstON_021: PASS -- settled day, mild complaint at stranger's order fits
+edda_day_burstON_022: PASS -- calm day, lets stranger's order pass, consistent
+edda_day_burstON_023: PASS -- composed throughout, ignores barbs and orders, fits profile
+edda_day_burstON_024: PASS -- refuses stranger's order, plausible for authority figure
+edda_day_burstON_025: PASS -- even-keeled day, warmly receives kindnesses, sane pacing
+edda_day_burstON_026: PASS -- composed, ignores mock and order, routine day
+edda_day_burstON_027: PASS -- refuses order at rest, absorbs two mocks, credible
+edda_day_burstON_028: PASS -- complies with one order, otherwise settled, no tension
+edda_day_burstON_029: PASS -- warm day, many kindnesses received, consistent and sane
+edda_day_burstON_030: PASS -- quiet day, no friction, steady and believable

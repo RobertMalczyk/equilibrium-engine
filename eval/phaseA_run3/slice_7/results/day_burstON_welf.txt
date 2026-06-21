@@ -1,0 +1,10 @@
+welf_day_burstON_071: PASS -- calm day, boredom cycles, mild evening tension, sane
+welf_day_burstON_072: PASS -- even-keeled, mock ignored, social warmth appropriate
+welf_day_burstON_073: PASS -- well-paced, multiple kindnesses warmly received, settled
+welf_day_burstON_074: PASS -- steady day, fed well, no friction, consistent composure
+welf_day_burstON_075: PASS -- mock brushed off, mild late tension, sane pacing
+welf_day_burstON_076: PASS -- mock ignored, late tension, wakes recovered, all sane
+welf_day_burstON_077: PASS -- boredom cycles normal, late edge, sleeps and recovers
+welf_day_burstON_078: PASS -- restless at 22:42 but settles; pacing slightly late but fine
+welf_day_burstON_079: PASS -- calm, well-fed, no friction, consistent composure throughout
+welf_day_burstON_080: PASS -- two soups early is odd but he takes both calmly, sane

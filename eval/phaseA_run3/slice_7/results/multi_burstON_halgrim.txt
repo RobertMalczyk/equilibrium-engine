@@ -1,0 +1,10 @@
+halgrim_multi_burstON_071: PASS -- sustained Wojslaw pressure builds tension plausibly across days
+halgrim_multi_burstON_072: PASS -- calm uneventful stretch, brief tension from Wojslaw clears normally
+halgrim_multi_burstON_073: PASS -- Wojslaw escalation on days 2-3 triggers cold anger, sane arc
+halgrim_multi_burstON_074: PASS -- heavy Wojslaw harassment, cold contempt and refusals, wakes settled
+halgrim_multi_burstON_075: PASS -- mostly quiet days, evening Edda pressure triggers late-day seething
+halgrim_multi_burstON_076: PASS -- calm baseline, Wojslaw evening provocations raise controlled anger
+halgrim_multi_burstON_077: PASS -- four Wojslaw provocations day 1 produce seething, residual next day
+halgrim_multi_burstON_078: PASS -- burst anger from Wojslaw afternoon, bleeds across days, wakes settled
+halgrim_multi_burstON_079: PASS -- near-calm three days, Wojslaw largely ignored, fits iron self-control
+halgrim_multi_burstON_080: PASS -- Wojslaw morning mock on day 4 triggers sustained cold anger, sane

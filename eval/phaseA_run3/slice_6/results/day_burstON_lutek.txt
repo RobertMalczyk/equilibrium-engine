@@ -1,0 +1,10 @@
+lutek_day_burstON_061: PASS -- restless cycle, insults deflected, evening tension plausible
+lutek_day_burstON_062: PASS -- easy warm day, kindnesses received well, sane pacing
+lutek_day_burstON_063: PASS -- slight evening tension after mock, resolves cleanly
+lutek_day_burstON_064: PASS -- steady day, multiple kindnesses, no jarring notes
+lutek_day_burstON_065: PASS -- two soups close together odd but not absurd, fits
+lutek_day_burstON_066: PASS -- mock brushed off, day calm and well-paced
+lutek_day_burstON_067: PASS -- two mocks deflected, warm evening, coherent arc
+lutek_day_burstON_068: FLAG -- lingering temper at 22:04 with no prior provocation shown
+lutek_day_burstON_069: PASS -- warm morning, mild evening edge, resolves by night
+lutek_day_burstON_070: FLAG -- residual temper at 22:04 after mock he just brushed off

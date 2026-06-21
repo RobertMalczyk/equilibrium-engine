@@ -1,0 +1,10 @@
+branic_multi_burstON_091: PASS -- displaced anger on kindness; burst arc coherent over 6 days
+branic_multi_burstON_092: PASS -- calm baseline, burst discharge Day 4 night, good recovery
+branic_multi_burstON_093: PASS -- accumulating refusals Day 2-3, burst discharge then quick reset
+branic_multi_burstON_094: PASS -- sustained mockery drives escalating snaps and burst on Day 3-4
+branic_multi_burstON_095: PASS -- quiet build, clean burst discharge late Day 3, immediate reset
+branic_multi_burstON_096: PASS -- overnight tension discharges at morning order Day 4, recovers
+branic_multi_burstON_097: PASS -- rapid mockery sequence triggers burst on Day 5, coherent arc
+branic_multi_burstON_098: PASS -- very calm run, morning residual temper minor and plausible
+branic_multi_burstON_099: PASS -- kindness triggers burst Day 5 night, displaced anger expected
+branic_multi_burstON_100: PASS -- Day 4 defiance builds to eruption, Day 5 recovery sensible

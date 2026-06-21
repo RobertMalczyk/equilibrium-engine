@@ -1,0 +1,10 @@
+cichy_multi_burstON_021: PASS -- sane 3-day arc, mocks met with escalating curt responses
+cichy_multi_burstON_022: PASS -- persistent simmer day 2, triple-mock escalation day 4 believable
+cichy_multi_burstON_023: PASS -- burst eruptions fit resentful captive; sleep resets hold
+cichy_multi_burstON_024: PASS -- double-mock escalation to eruption on day 2 sane
+cichy_multi_burstON_025: PASS -- correctly distinguishes stranger kindness from guard interactions
+cichy_multi_burstON_026: PASS -- morning eruption on mock while settled fits burst-ON profile
+cichy_multi_burstON_027: PASS -- two eruptions day 1 and post-burst calm consistent with burst-ON
+cichy_multi_burstON_028: PASS -- persistent tension without dramatic peaks, sane captive baseline
+cichy_multi_burstON_029: PASS -- escalating mock responses day 2, stranger warmth intact
+cichy_multi_burstON_030: PASS -- eruption day 3, long temper carry day 4 plausible after blow-up

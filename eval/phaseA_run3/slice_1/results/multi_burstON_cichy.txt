@@ -1,0 +1,10 @@
+cichy_multi_burstON_011: PASS -- steady build, eruption on provocation, nights reset
+cichy_multi_burstON_012: PASS -- four-day arc, eruption proportionate, curt under pressure
+cichy_multi_burstON_013: PASS -- tension lingers across days, late snap believable
+cichy_multi_burstON_014: PASS -- eruption slightly abrupt but burst threshold plausible
+cichy_multi_burstON_015: PASS -- day-opening eruption plausible for captive already on edge
+cichy_multi_burstON_016: FLAG -- two full eruptions back-to-back 10 min apart, burst not draining
+cichy_multi_burstON_017: FLAG -- four escalations day 3, two eruptions within 34 min, burst saturated
+cichy_multi_burstON_018: PASS -- controlled build, bristles once, settles with stranger kindness
+cichy_multi_burstON_019: PASS -- sustained curt tension, no eruptions, believable controlled captive
+cichy_multi_burstON_020: PASS -- persistent lingering temper day 3, no eruption, plausible

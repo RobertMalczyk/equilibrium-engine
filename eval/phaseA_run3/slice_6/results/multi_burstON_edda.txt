@@ -1,0 +1,10 @@
+edda_multi_burstON_061: PASS -- settled four days, sane pacing, normal sleep
+edda_multi_burstON_062: PASS -- calm uneventful days, composed under minimal friction
+edda_multi_burstON_063: PASS -- six days, equanimity under repeated stranger orders
+edda_multi_burstON_064: PASS -- public mock draws curt reply, quickly settled by kindness
+edda_multi_burstON_065: PASS -- mutters at second order, otherwise steady and sane
+edda_multi_burstON_066: PASS -- refuses order while resting, fits castellan authority
+edda_multi_burstON_067: PASS -- three mocks in succession, stays composed, briefly tense
+edda_multi_burstON_068: PASS -- one complaint, mocks absorbed, Marta support stabilises her
+edda_multi_burstON_069: PASS -- public mock triggers brief tension, settles with rest
+edda_multi_burstON_070: PASS -- six calm days, consistent composure, normal rhythm throughout

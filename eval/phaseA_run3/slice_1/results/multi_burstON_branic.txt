@@ -1,0 +1,10 @@
+branic_multi_burstON_011: PASS -- tension builds across day, eruptions earned, defiance next morning plausible
+branic_multi_burstON_012: PASS -- calm arc, single late eruption, recovery clean
+branic_multi_burstON_013: PASS -- positive day 2, eruption on rainy day 5, residual defiance follows
+branic_multi_burstON_014: PASS -- dense kindnesses day 1 but no logic violations, arc holds
+branic_multi_burstON_015: FLAG -- residual temper at 00:04 but no prior eruption on day 1 to carry
+branic_multi_burstON_016: PASS -- week-long arc of friction and eruptions, recovery credible
+branic_multi_burstON_017: PASS -- two morning bursts on day 3 abrupt but burst-ON profile allows it
+branic_multi_burstON_018: PASS -- days 1-4 compliant, escalation on days 5-6 believable
+branic_multi_burstON_019: PASS -- slow-burn six days, single late eruption well-earned
+branic_multi_burstON_020: PASS -- back-to-back eruptions expected with burst-ON, recovery on day 5 clean

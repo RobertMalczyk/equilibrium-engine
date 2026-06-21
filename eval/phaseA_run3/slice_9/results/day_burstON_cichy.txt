@@ -1,0 +1,10 @@
+cichy_day_burstON_091: PASS -- calm captive day, curt at second meal, sane arc
+cichy_day_burstON_092: PASS -- restless midday, curt with guard, pacing and settling plausible
+cichy_day_burstON_093: PASS -- erupts at barbed mock, then fades; guard-fed curt, sane recovery
+cichy_day_burstON_094: PASS -- public mockery triggers fury, temper lingers hours, believable
+cichy_day_burstON_095: PASS -- quiet day, curt at afternoon meal, no incidents, sane pacing
+cichy_day_burstON_096: PASS -- tense afternoon through evening, no trigger needed for smouldering
+cichy_day_burstON_097: PASS -- mock erupts fury, residual temper hours later, wakes settled
+cichy_day_burstON_098: PASS -- stranger kindnesses land warmly; guards still get curtness; coherent
+cichy_day_burstON_099: PASS -- stranger warmth eases morning, guard meals draw curtness, sane
+cichy_day_burstON_100: PASS -- early snap at mock, long-simmering temper, wakes fresh next day

@@ -1,0 +1,10 @@
+halgrim_day_burstON_051: PASS -- steady day, Wojsław friction absorbed, curt at end
+halgrim_day_burstON_052: PASS -- calm day, warmth from Marta, no friction issues
+halgrim_day_burstON_053: PASS -- quiet day, ignores Wojsław mock, brief tension resolves
+halgrim_day_burstON_054: PASS -- declines Wojsław order early, stays even-keeled throughout
+halgrim_day_burstON_055: PASS -- Wojsław public mock triggers cold contempt, tension fades
+halgrim_day_burstON_056: PASS -- declines Wojsław, complies Edda, settles well
+halgrim_day_burstON_057: PASS -- accumulates irritation, seething after second mock, recovers
+halgrim_day_burstON_058: PASS -- even day, late curt reply to Wojsław, consistent
+halgrim_day_burstON_059: PASS -- positive morning, cold reply to Wojsław, brief residue
+halgrim_day_burstON_060: PASS -- busy day obeying Edda, crisp reply to Wojsław, settles

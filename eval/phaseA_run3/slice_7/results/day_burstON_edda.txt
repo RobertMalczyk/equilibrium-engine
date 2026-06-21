@@ -1,0 +1,10 @@
+edda_day_burstON_071: PASS -- settled day, appropriate warmth to kindness, sane pacing
+edda_day_burstON_072: PASS -- calm day, stranger order let pass fits composed authority
+edda_day_burstON_073: PASS -- barbed remark let pass, steady composure throughout fits Edda
+edda_day_burstON_074: PASS -- mock let pass, warm to Marta's help, sane day
+edda_day_burstON_075: PASS -- two soups close together odd but day coherent overall
+edda_day_burstON_076: PASS -- quiet day, warmth to kindness, authority at close fits
+edda_day_burstON_077: PASS -- two rest events close together minor but not alarming
+edda_day_burstON_078: PASS -- stranger order let pass, warm to help, sane pacing
+edda_day_burstON_079: FLAG -- stranger orders her and she complies; castellan obeys a stranger
+edda_day_burstON_080: PASS -- two soups within 34 min odd, day otherwise coherent

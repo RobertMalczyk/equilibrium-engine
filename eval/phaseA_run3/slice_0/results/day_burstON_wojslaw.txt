@@ -1,0 +1,10 @@
+wojslaw_day_burstON_001: FLAG -- kindness met with bristling anger repeated twice, no provocation
+wojslaw_day_burstON_002: PASS
+wojslaw_day_burstON_003: PASS
+wojslaw_day_burstON_004: PASS
+wojslaw_day_burstON_005: PASS
+wojslaw_day_burstON_006: PASS
+wojslaw_day_burstON_007: FLAG -- soup and kindness met with anger repeatedly, no prior insult
+wojslaw_day_burstON_008: FLAG -- kindness from Marta met with snapping anger, no provocation
+wojslaw_day_burstON_009: PASS
+wojslaw_day_burstON_010: PASS

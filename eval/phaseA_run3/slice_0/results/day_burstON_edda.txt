@@ -1,0 +1,10 @@
+edda_day_burstON_001: PASS -- composed day, eats, rests, commands watch at night
+edda_day_burstON_002: PASS -- steady routine, lets stranger's order pass, sleeps well
+edda_day_burstON_003: PASS -- absorbs barb and two stranger orders without fuss, settled
+edda_day_burstON_004: PASS -- well-fed, kind support received, composed throughout
+edda_day_burstON_005: PASS -- busy supportive day, brief rest bursts, composed end
+edda_day_burstON_006: PASS -- quiet settled day, three meals, commands watch, sleeps
+edda_day_burstON_007: FLAG -- refuses stranger's order at 21:45 then complains again at 22:28; escalation without clear provocation buildup
+edda_day_burstON_008: FLAG -- tense at 14:02 after only a mild midday barb; tension feels disproportionate
+edda_day_burstON_009: PASS -- two soups close together at dawn but otherwise sane settled day
+edda_day_burstON_010: PASS -- tense midafternoon resolves quickly with kindness, recovers, commands watch

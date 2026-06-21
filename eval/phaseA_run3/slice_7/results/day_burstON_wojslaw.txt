@@ -1,0 +1,10 @@
+wojslaw_day_burstON_071: PASS -- calm day, one snap at a barb, settles normally
+wojslaw_day_burstON_072: FLAG -- kindness at 19:53 triggers bristling anger right after eruption
+wojslaw_day_burstON_073: PASS -- two outbursts at insults, temper fades, pacing believable
+wojslaw_day_burstON_074: FLAG -- kindness at 21:57 met with anger, no prior provocation
+wojslaw_day_burstON_075: PASS -- insults draw fury, temper lingers then fades, sane arc
+wojslaw_day_burstON_076: PASS -- repeated insults keep edge up, kindnesses soften him plausibly
+wojslaw_day_burstON_077: FLAG -- soup delivery at 13:05 met with anger, no fresh insult
+wojslaw_day_burstON_078: PASS -- mostly kind day, muted reactions to slights, settles well
+wojslaw_day_burstON_079: FLAG -- soup at 13:55 and 19:27 met with anger, no fresh provocation
+wojslaw_day_burstON_080: PASS -- two heavy insult clusters, displaced snap at soup, clears by afternoon

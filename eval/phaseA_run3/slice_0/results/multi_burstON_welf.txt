@@ -1,0 +1,10 @@
+welf_multi_burstON_001: PASS -- steady merchant, boredom cycles, one late snap plausible
+welf_multi_burstON_002: PASS -- even-keeled days, boredom managed, rain wears him down naturally
+welf_multi_burstON_003: PASS -- calm progression, kindnesses land warmly, no jarring moments
+welf_multi_burstON_004: PASS -- well-paced, many kindnesses received graciously, consistent composure
+welf_multi_burstON_005: PASS -- rain erodes mood briefly, recovers well, sane daily rhythm
+welf_multi_burstON_006: PASS -- generous days, mock ignored calmly, settled merchant throughout
+welf_multi_burstON_007: PASS -- five days, rain on day one lingers, recovers next day
+welf_multi_burstON_008: PASS -- six days, mocks brushed off, warmth to kindnesses, sane arc
+welf_multi_burstON_009: PASS -- rain days wear him, recovers each morning, no aberrant reactions
+welf_multi_burstON_010: PASS -- tense evenings from idleness, mocks ignored, sane four-day stretch

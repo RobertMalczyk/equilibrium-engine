@@ -1,0 +1,10 @@
+edda_day_burstON_091: PASS -- settled day, appropriate warmth to kindnesses
+edda_day_burstON_092: PASS -- mild complaint at stranger's order fits composed authority
+edda_day_burstON_093: PASS -- calm day, reasonable reactions to soup and help
+edda_day_burstON_094: PASS -- lets barbed remarks pass, fits composed castellan
+edda_day_burstON_095: PASS -- brief tension after mock resolves quickly, believable
+edda_day_burstON_096: PASS -- positive day, no jarring notes
+edda_day_burstON_097: PASS -- quiet settled day, consistent with profile
+edda_day_burstON_098: PASS -- ignores late evening mockery, stays settled
+edda_day_burstON_099: PASS -- two mocks, brief tension, recovers fully by evening
+edda_day_burstON_100: PASS -- two rest entries close together minor but not jarring

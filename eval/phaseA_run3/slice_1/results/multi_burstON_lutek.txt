@@ -1,0 +1,10 @@
+lutek_multi_burstON_011: PASS -- restless cycle clean, mocks roll off, sleep resets
+lutek_multi_burstON_012: PASS -- healthy rhythm, morning tension resolves with food
+lutek_multi_burstON_013: PASS -- public mock let pass, tension arcs believable
+lutek_multi_burstON_014: FLAG -- seething jaw-tight after public slight; profile says mocks roll off
+lutek_multi_burstON_015: PASS -- mocks ignored, tension resolves, sleep resets normally
+lutek_multi_burstON_016: PASS -- late nights fine, mock let pass, pattern consistent
+lutek_multi_burstON_017: PASS -- curt reply while already tense; borderline but defensible
+lutek_multi_burstON_018: PASS -- clean multi-day, all mocks ignored, end-day tension fades
+lutek_multi_burstON_019: PASS -- well-supported days, morning tension resolves normally
+lutek_multi_burstON_020: PASS -- sane pacing, mocks absent, slight late tension unremarkable

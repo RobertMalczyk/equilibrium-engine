@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_041: PASS -- calm mornings, proportional eruptions on mockery, sleep resets
+wojslaw_multi_burstON_042: PASS -- day 3 barrage of insults yields sustained fury, coherent
+wojslaw_multi_burstON_043: PASS -- displaced anger at kindness on tense days, believable arc
+wojslaw_multi_burstON_044: PASS -- day 2 escalation from accumulated mocks reads plausibly
+wojslaw_multi_burstON_045: FLAG -- three days zero fury; too saintly for a hot-tempered noble
+wojslaw_multi_burstON_046: PASS -- warmth in calm days, fury under provocation, sleep resets
+wojslaw_multi_burstON_047: FLAG -- days 1-3 entirely calm and warm, no outbursts; too mild
+wojslaw_multi_burstON_048: FLAG -- days 1-3 almost no anger; prickly noble implausibly placid
+wojslaw_multi_burstON_049: PASS -- sustained fury under heavy mockery, displacement visible
+wojslaw_multi_burstON_050: PASS -- day 4 displaced aggression at kindness fits accumulated tension

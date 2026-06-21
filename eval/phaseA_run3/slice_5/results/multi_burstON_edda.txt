@@ -1,0 +1,10 @@
+edda_multi_burstON_051: PASS -- steady routine, composed under barb, normal pacing
+edda_multi_burstON_052: PASS -- escalating refusals to repeated stranger orders believable
+edda_multi_burstON_053: PASS -- brief tension after public barb resolves within hours
+edda_multi_burstON_054: PASS -- quiet days, mocks and orders handled without drama
+edda_multi_burstON_055: PASS -- dense kindnesses Day 3 but no structural contradiction
+edda_multi_burstON_056: PASS -- grumble after two rapid stranger orders plausible
+edda_multi_burstON_057: PASS -- high kindness density Days 3-4 but no absurdity
+edda_multi_burstON_058: PASS -- repeated mockery causes tension, resolves; fits profile
+edda_multi_burstON_059: PASS -- mixed responses to stranger orders, sane progression
+edda_multi_burstON_060: PASS -- quiet Day 1, orders let pass, normal throughout
