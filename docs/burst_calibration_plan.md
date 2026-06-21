@@ -41,8 +41,11 @@ the anger⇄stress loop is deliberately driven *locally unstable* in rare drive-
    does not regress below the M20 baseline (**day 698/700, multi 626/630**); the multiday sanity
    gate stays at its current pass rate with burst calibrated on.
 5. **The episode texture is right.** Spike→plateau→slow-cool over ~"an hour" of game time;
-   displacement lands on the bystander as transient (no durable grudge); kindness suppressed
-   above the bar, honoured below it.
+   displacement lands on the bystander as transient (no durable grudge); a *neutral/negative* source
+   above the bar can catch the displacement, but a **genuine kindness is honoured even above the bar**
+   (M3 source-valence gate, `appraisal.displace_valence_gate`) — only a kindness from a *resented*
+   source (which galls, `kindness_pressure = 0`) is still a discharge target. (This refines the original
+   "kindness suppressed above the bar" criterion; evidence: `eval/phaseA_run2/REPORT.md`.)
 
 **Non-goals (explicitly deferred):** the stage-2 authority↔resentment back-edge, mood contagion,
 leveled grievance, and the affinity-field people-seeding — all tracked separately. M20.1 does not

@@ -97,6 +97,13 @@
               │     SUPPRESSED -> fury past the bar no longer     │
               │     hears the kindness; below the bar appraisal   │
               │     wins unchanged (theta_displace = THE dial)    │
+              │   M3 source-valence gate (cfg displace_valence_   │
+              │     gate, default off): a GENUINE kindness        │
+              │     (kindness_pressure>0: gesture from a NON-     │
+              │     resented source) does NOT open the gate ->    │
+              │     warmth wins, no lash-out at the kind giver.   │
+              │     A kindness from a RESENTED source (kp=0,      │
+              │     galls) still catches it (Cichy intact).       │
               └───────────────────────────────────────────────────┘
 
  [0,1] clamp = the saturation ceiling: when the escalated loop goes locally unstable (rare input
