@@ -99,7 +99,9 @@ def narrate(persona: str, cfg, sc, n_days: int) -> str:
     rained_day = -1  # collapse the day's drizzle to one note (keyed on the DISPLAY day)
     prev_act = "neutral"
     last_win = -1
-    last_prov_secs: float | None = None  # game-time of the last visible provocation (M1 recency gate)
+    last_prov_secs: float | None = (
+        None  # game-time of the last visible provocation (M1 recency gate)
+    )
     in_sleep = False
     header_day = (
         0  # lazily emit "## Day N" before the first real line of each display-day
@@ -157,7 +159,15 @@ def narrate(persona: str, cfg, sc, n_days: int) -> str:
             continue
         elif ev is not None:
             reaction, score = "neutral", 0.0
-            for j in range(i, min(i + 4, len(ticks))):
+            # A POSITIVE event's reply is immediate (positive_response fires AT the event tick via
+            # kindness_pressure). Scanning ahead for a positive event mis-attaches a LATER residual/
+            # displaced discharge (from an earlier provocation) onto the kindness line -> reads as "snaps
+            # at the soup" when the kindness tick itself was not a lash-out (diagnosed: 48 such cases).
+            # So a kindness reads ONLY its own tick; a hostile event keeps the i..i+3 lag window.
+            react_end = (
+                (i + 1) if ev.type in POSITIVE_EVENTS else min(i + 4, len(ticks))
+            )
+            for j in range(i, react_end):
                 # Don't reach PAST a later forcing event -- its reaction belongs to IT (Theme A: stops a
                 # subsequent insult's outburst being stapled onto an earlier benign soup line).
                 if (

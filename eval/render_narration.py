@@ -175,13 +175,17 @@ def event_phrase(ev: RawEvent, obj: str) -> str:
 # flare-up (the settled<->fury contradiction the blind judge flagged). These bands are EXPRESSION constants
 # (presentation cutoffs on the observable state), not engine parameters: a body still carrying high anger
 # reads as seething regardless of a low stress base; a moderate residual keeps the bearing off "settled".
-ANGER_SEETHING = 0.60  # residual anger this high reads as still-seething whatever the stress base
+ANGER_SEETHING = (
+    0.60  # residual anger this high reads as still-seething whatever the stress base
+)
 ANGER_TENSE = 0.30  # this much residual anger keeps the bearing off "settled, at ease"
 # M1 refinement -- "still seething" is ACTIVE fury and only reads right when a provocation is RECENT.
 # A slow-decaying residual sampled by the ~hourly mood heartbeat, far from any visible cause, must read as
 # a LINGERING temper, not seething-at-nothing (the over-surfacing the re-judge flagged: 117/144 burst-ON
 # "seething with no visible provocation"). Freshness window + what counts as a provocation, expression-side.
-ANGER_FRESH_SECS = 3600.0  # a provocation within ~1 game-hour justifies the active "seething" read
+ANGER_FRESH_SECS = (
+    3600.0  # a provocation within ~1 game-hour justifies the active "seething" read
+)
 HOSTILE_REACTIONS = {"outburst", "cold_response", "complain", "refuse"}
 
 
@@ -306,7 +310,9 @@ def render(persona: str) -> tuple[str, int]:
     prev_act = "neutral"
     last_window = -1
     window_emitted: set[str] = set()
-    last_prov_secs: float | None = None  # game-time of the last visible provocation (M1 recency gate)
+    last_prov_secs: float | None = (
+        None  # game-time of the last visible provocation (M1 recency gate)
+    )
 
     for i, tk in enumerate(ticks):
         t = tk.t
@@ -332,8 +338,14 @@ def render(persona: str) -> tuple[str, int]:
         if ev is not None and ev.type != "activity":
             # the visible reaction: the first REACTIVE action at/within ~3 ticks of the event
             # (a coincidental proactive action nearby is NOT a response -> "lets it pass").
+            # A POSITIVE event reads ONLY its own tick (its warm reply is immediate) -- scanning ahead
+            # mis-attaches a later residual/displaced discharge onto the kindness line ("snaps at the
+            # soup" when the kindness tick was not a lash-out). A hostile event keeps the i..i+3 lag.
             reaction, reaction_score = "neutral", 0.0
-            for j in range(i, min(i + 4, len(ticks))):
+            react_end = (
+                (i + 1) if ev.type in POSITIVE_EVENTS else min(i + 4, len(ticks))
+            )
+            for j in range(i, react_end):
                 # Don't reach PAST a later forcing event -- its reaction belongs to IT, not to this one.
                 # (Theme A: stops a subsequent insult's outburst being stapled onto an earlier benign soup.)
                 if (

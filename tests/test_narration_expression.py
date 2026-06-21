@@ -72,6 +72,46 @@ def test_high_anger_stale_reads_lingering_not_seething():
 # --- M2: positive events are acknowledged ---------------------------------------------------------
 
 
+def test_positive_event_never_attaches_a_later_hostile_reaction():
+    """Renderer attribution: a kindness reads ONLY its own tick. A hostile reaction one or two ticks
+    later (a residual/displaced discharge from an EARLIER provocation) must NOT be stapled onto the
+    kindness line ('snaps at the soup' when the kindness tick was not a lash-out). Replays the burst-ON
+    corpus and checks the renderer rule: for a food/help event the reaction window is the event tick
+    only, so no hostile reaction is reached by scanning ahead."""
+    import pathlib
+
+    import yaml
+
+    from engine.yaml_io import load_scenario
+    from eval.calibrated import load_eval_persona_timescale
+    from eval.render_narration import HOSTILE_REACTIONS, POSITIVE_EVENTS, REACTIVE
+    from eval.sanity_multiday import run_multiday
+
+    root = pathlib.Path(".")
+    for persona in ("wojslaw", "branic"):
+        cfg = load_eval_persona_timescale(persona, burst=True)
+        for idx in range(1, 6):
+            p = (
+                root
+                / f"eval/scenarios/multiday/{persona}/{persona}_multi_{idx:03d}.yaml"
+            )
+            if not p.exists():
+                continue
+            nd = yaml.safe_load(p.read_text(encoding="utf-8"))["n_days"]
+            ticks = run_multiday(cfg, load_scenario(p), nd).ticks
+            for i, tk in enumerate(ticks):
+                ev = tk.event
+                if ev is None or ev.type not in POSITIVE_EVENTS:
+                    continue
+                # the NEW rule: positive events read only their own tick (window = 1)
+                for j in range(i, i + 1):
+                    a = ticks[j].selection.action
+                    if a in REACTIVE and j > i:
+                        assert a not in HOSTILE_REACTIONS, (
+                            f"{persona}_{idx}: hostile '{a}' attached to a kindness at offset {j - i}"
+                        )
+
+
 def test_positive_event_types_registered():
     assert "food_given" in POSITIVE_EVENTS and "help" in POSITIVE_EVENTS
 
@@ -88,4 +128,6 @@ def test_kindness_while_busy_is_acknowledged_not_slighted():
             low = line.lower()
             is_kindness = "bowl of" in low or "lends" in low or "small kindness" in low
             if is_kindness:
-                assert "lets it pass" not in low, f"{persona}: kindness rendered as a snub: {line}"
+                assert "lets it pass" not in low, (
+                    f"{persona}: kindness rendered as a snub: {line}"
+                )
