@@ -40,9 +40,12 @@ def _arg(name: str, default: str) -> str:
 def scan(rd: Path):
     """Batches are read from the (gitignored, rebuilt) BATCHDIR; results are written under the run dir
     `rd`. So the committed footprint is only the verdict files -- never the 18MB of regenerable batches."""
+    only = _arg("--filter", "")  # optional substring filter on the batch stem (e.g. "burstON")
     allb, done = {}, set()
     for p in glob.glob(str(BATCHDIR / "slice_*" / "batches" / "*.md")):
         pp = Path(p)
+        if only and only not in pp.stem:
+            continue
         s = int(pp.parts[-3].split("_")[1])
         allb[(s, pp.stem)] = pp
     for p in glob.glob(str(rd / "slice_*" / "results" / "*.txt")):
