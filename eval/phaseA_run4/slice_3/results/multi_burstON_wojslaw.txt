@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_031: PASS -- anger arc and sleep reset both sane
+wojslaw_multi_burstON_032: PASS -- heavy burst day 2, displaced aggression coherent
+wojslaw_multi_burstON_033: PASS -- multi-day anger accumulation, pacing fine
+wojslaw_multi_burstON_034: PASS -- early outburst, burst displacement on kindness, sane
+wojslaw_multi_burstON_035: PASS -- day 2 warmth plausible after sleep reset, marginal
+wojslaw_multi_burstON_036: PASS -- calm day 1 (no provocations), burst discharge day 4
+wojslaw_multi_burstON_037: PASS -- displaced aggression on kindness during high anger, sane
+wojslaw_multi_burstON_038: FLAG -- too uniformly warm and grateful; profile says not a grateful man
+wojslaw_multi_burstON_039: PASS -- moderate arc, eruptions from mockery, pacing fine
+wojslaw_multi_burstON_040: PASS -- calm middle days, heavy mockery barrage day 5 sane

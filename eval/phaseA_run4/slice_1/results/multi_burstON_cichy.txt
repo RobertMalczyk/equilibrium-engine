@@ -1,0 +1,10 @@
+cichy_multi_burstON_011: PASS -- calm mornings, afternoon tension, eruption on mockery, sleeps and resets
+cichy_multi_burstON_012: PASS -- burst on day 3 after building tension; curt days follow logically
+cichy_multi_burstON_013: PASS -- chronic daytime tension without explicit trigger plausible for prisoner
+cichy_multi_burstON_014: PASS -- eruption from calm on direct mockery fits burst-ON profile
+cichy_multi_burstON_015: PASS -- early morning public mockery triggers opening burst; day 2 escalation believable
+cichy_multi_burstON_016: PASS -- two eruptions 10 min apart after heavily provoked evening
+cichy_multi_burstON_017: PASS -- three outbursts day 3 heavy but sustained guard mockery warrants it
+cichy_multi_burstON_018: PASS -- persistent low-grade tension without eruptions; resentment wears him down
+cichy_multi_burstON_019: PASS -- multi-day carry-over temper and curt guard replies coherent throughout
+cichy_multi_burstON_020: PASS -- sustained afternoon temper without fresh trigger plausible for captive

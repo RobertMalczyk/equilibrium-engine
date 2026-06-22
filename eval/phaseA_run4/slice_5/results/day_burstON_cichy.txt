@@ -1,0 +1,10 @@
+cichy_day_burstON_051: PASS -- Morning ease, afternoon mock triggers edge, sleep resets cleanly.
+cichy_day_burstON_052: PASS -- Tense afternoon, mock late triggers restlessness, settles before sleep.
+cichy_day_burstON_053: PASS -- Mock bristles him, temper lingers into evening, sane arc.
+cichy_day_burstON_054: PASS -- Early mock sets edge, repeated mocks sustain tension all day.
+cichy_day_burstON_055: PASS -- Stranger kindness warms him briefly, guard soup still draws curtness.
+cichy_day_burstON_056: PASS -- Three mocks across day, each met curtly; pacing believable.
+cichy_day_burstON_057: PASS -- Mock mid-morning sets edge, temper sustained, settles late evening.
+cichy_day_burstON_058: PASS -- Stranger kindness at 22:04 while still tense; fits captive openness to non-guards.
+cichy_day_burstON_059: FLAG -- Snaps hard at 15:24 then looks settled at ease by 16:02; recovery too fast after flare.
+cichy_day_burstON_060: PASS -- Stranger kindness met neutrally; afternoon tension, settles before sleep.

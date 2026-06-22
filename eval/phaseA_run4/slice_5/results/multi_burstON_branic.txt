@@ -1,0 +1,10 @@
+branic_multi_burstON_051: PASS -- steady build to snap, proportionate arc over 3 days
+branic_multi_burstON_052: PASS -- rain plus mocks drive burst, calms naturally after
+branic_multi_burstON_053: PASS -- mostly positive days, minor unresolved temper plausible
+branic_multi_burstON_054: PASS -- escalating defiance under rain and repeated provocation
+branic_multi_burstON_055: PASS -- intense burstON saturation coherent across 6 hard days
+branic_multi_burstON_056: PASS -- mocks absorbed until late burst, proportionate Day 3 arc
+branic_multi_burstON_057: PASS -- positive Day 2 recovery, Day 3 escalation well-motivated
+branic_multi_burstON_058: FLAG -- Day 1 fury arrives early; sustained defiant-refusal saturation days 1-3
+branic_multi_burstON_059: PASS -- overnight temper carry from calm Day 1 minor but readable
+branic_multi_burstON_060: PASS -- sane multi-day arc, brief snaps proportionate to triggers

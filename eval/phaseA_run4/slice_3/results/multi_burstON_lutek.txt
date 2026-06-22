@@ -1,0 +1,10 @@
+lutek_multi_burstON_031: PASS -- steady rhythm, insults ignored, recovers well each day
+lutek_multi_burstON_032: PASS -- good pacing, clustered kindnesses absorbed naturally
+lutek_multi_burstON_033: PASS -- evening tension plausible as boredom accumulation
+lutek_multi_burstON_034: FLAG -- "still hasn't shaken an earlier temper" after mockery jars profile
+lutek_multi_burstON_035: PASS -- clean cycle of restlessness and recovery across days
+lutek_multi_burstON_036: PASS -- morning tension clears with company, insults dismissed
+lutek_multi_burstON_037: PASS -- slight late tension Day 2, acceptable without resolution
+lutek_multi_burstON_038: PASS -- late nights fit restless poet, insults correctly ignored
+lutek_multi_burstON_039: FLAG -- public insult met with curt cold response, against thick-skinned profile
+lutek_multi_burstON_040: PASS -- multiple insults all deflected correctly, tension arcs natural

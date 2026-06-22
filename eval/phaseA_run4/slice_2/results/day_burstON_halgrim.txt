@@ -1,0 +1,10 @@
+halgrim_day_burstON_021: PASS -- calm day, Wojsław jab absorbed without fuss
+halgrim_day_burstON_022: PASS -- mild tension mid-afternoon, resolves; Wojsław rebuffed plausibly
+halgrim_day_burstON_023: PASS -- quiet day, barb absorbed, settled throughout
+halgrim_day_burstON_024: PASS -- late-day tension after multiple orders, fades overnight
+halgrim_day_burstON_025: PASS -- repeated Wojsław jabs accumulate to curt replies, sleeps it off
+halgrim_day_burstON_026: PASS -- Wojsław refused twice, tense by evening, wakes settled
+halgrim_day_burstON_027: PASS -- complaint at Edda late-day plausible given fatigue buildup
+halgrim_day_burstON_028: PASS -- two barbs absorbed, brief tension, kindness soothes, wakes settled
+halgrim_day_burstON_029: PASS -- multiple barbs, tension lingers into evening, clears by sleep
+halgrim_day_burstON_030: PASS -- curt reply to Wojsław after ignored Edda order, settles

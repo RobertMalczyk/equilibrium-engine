@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_011: PASS -- calm days with one public mock eruption, sane recovery
+wojslaw_multi_burstON_012: PASS -- mock triggers anger, lingers credibly, fits prickly profile
+wojslaw_multi_burstON_013: PASS -- displaced fury at kindness fits burst-ON, overall sane arc
+wojslaw_multi_burstON_014: PASS -- heavy provocation drives sustained fury, consistent profile
+wojslaw_multi_burstON_015: PASS -- escalating tension across days, displaced soup anger plausible
+wojslaw_multi_burstON_016: PASS -- mock cascade fuels eruptions, burst displacement consistent
+wojslaw_multi_burstON_017: PASS -- kindness triggers fit burst-ON displacement, sane overall
+wojslaw_multi_burstON_018: PASS -- heavy burst saturation throughout, provocation always present
+wojslaw_multi_burstON_019: PASS -- peaceful start deteriorates as mocks accumulate, sane arc
+wojslaw_multi_burstON_020: PASS -- dawn mocks prime anger, displaced soup fury fits burst-ON

@@ -1,0 +1,10 @@
+cichy_day_burstON_061: PASS -- settles quickly after mockery, plausible arc
+cichy_day_burstON_062: PASS -- anger lingers after mockery, stranger kindness welcomed
+cichy_day_burstON_063: PASS -- curt to guard mock, calm resumes, sane pacing
+cichy_day_burstON_064: PASS -- mild curtness to guard, stranger warmly received
+cichy_day_burstON_065: PASS -- residual edge mid-day, stranger kindness taken warmly
+cichy_day_burstON_066: PASS -- snaps at late-night mockery then sleeps, believable
+cichy_day_burstON_067: PASS -- sustained tension, curt to guards throughout, no jarring peaks
+cichy_day_burstON_068: PASS -- tense afternoon, settles by night, sane rhythm
+cichy_day_burstON_069: PASS -- early fury at mockery, slow wind-down across day
+cichy_day_burstON_070: PASS -- snaps at mockery post-meal, temper lingers, evening calms

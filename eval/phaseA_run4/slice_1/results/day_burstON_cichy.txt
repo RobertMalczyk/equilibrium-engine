@@ -1,0 +1,10 @@
+cichy_day_burstON_011: PASS -- calm day, guard kindness taken neutrally, no jarring notes
+cichy_day_burstON_012: PASS -- morning snap, sustained edge, curt to guard meals, plausible arc
+cichy_day_burstON_013: PASS -- early snap, lingering tension through afternoon, settles by night
+cichy_day_burstON_014: FLAG -- erupts at guard mock minutes after warm stranger thanks; abrupt pivot
+cichy_day_burstON_015: PASS -- mild provocation, curt responses, tension lingers, clean recovery
+cichy_day_burstON_016: PASS -- two mocks escalate to snap; curt to guard food; coherent buildup
+cichy_day_burstON_017: PASS -- stranger warmth early, guard mock draws curt reply, settles at night
+cichy_day_burstON_018: PASS -- tense afternoon, curt to mocks, sustained edge, wakes recovered
+cichy_day_burstON_019: PASS -- afternoon tension, curt to mock, lingers, settles before sleep
+cichy_day_burstON_020: FLAG -- "looks settled" at 18:03 then "earlier temper" at 20:03 with no trigger

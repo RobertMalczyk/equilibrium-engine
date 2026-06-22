@@ -1,0 +1,10 @@
+lutek_multi_burstON_091: PASS -- sane rhythm, mild late-night temper plausible
+lutek_multi_burstON_092: PASS -- clean 3-day pattern, warmth consistent
+lutek_multi_burstON_093: PASS -- recurring morning tension clears with kindness
+lutek_multi_burstON_094: PASS -- late sleep day 1, mock ignored correctly
+lutek_multi_burstON_095: PASS -- tense evenings resolve, fits burst-ON
+lutek_multi_burstON_096: PASS -- two mocks ignored, persistent edginess fits burst
+lutek_multi_burstON_097: PASS -- morning tension clears, social warmth consistent
+lutek_multi_burstON_098: PASS -- clustered morning kindnesses odd but not jarring
+lutek_multi_burstON_099: PASS -- recurring late-night temper, mock ignored correctly
+lutek_multi_burstON_100: PASS -- morning tension across days clears with warmth

@@ -1,0 +1,10 @@
+edda_multi_burstON_081: PASS -- composed throughout, tension on Day 4 resolves naturally
+edda_multi_burstON_082: PASS -- heavy positive input, stays settled, sane pacing
+edda_multi_burstON_083: PASS -- very frequent soup deliveries but rhythm is sane
+edda_multi_burstON_084: PASS -- calm, mocks ignored composedly, fits authority profile
+edda_multi_burstON_085: PASS -- early compliance with order mildly odd but within range
+edda_multi_burstON_086: PASS -- calm, positive, sane day rhythm across six days
+edda_multi_burstON_087: PASS -- pressured Day 2 with repeated orders, measured escalation
+edda_multi_burstON_088: PASS -- many kindnesses, mock let pass calmly, sane arc
+edda_multi_burstON_089: PASS -- positive throughout, crowded Day 5 but nothing jarring
+edda_multi_burstON_090: PASS -- Day 3 tension from mocks resolves, Day 5 firm refusal fits

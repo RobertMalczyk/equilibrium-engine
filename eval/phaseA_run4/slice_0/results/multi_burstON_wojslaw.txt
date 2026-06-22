@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_001: PASS -- volatile arc, mocks drive eruptions, sleep resets hold
+wojslaw_multi_burstON_002: PASS -- calm opening shifts to tension, displaced anger plausible
+wojslaw_multi_burstON_003: PASS -- warmth early, provocations build anger across days credibly
+wojslaw_multi_burstON_004: PASS -- volatile days offset by calm stretches, pacing believable
+wojslaw_multi_burstON_005: PASS -- eruptions track provocations, overnight resets consistent
+wojslaw_multi_burstON_006: PASS -- tensions escalate and release plausibly across four days
+wojslaw_multi_burstON_007: PASS -- warm days turn volatile under sustained mockery, arc sane
+wojslaw_multi_burstON_008: PASS -- mock-heavy days produce eruptions, lingering temper coherent
+wojslaw_multi_burstON_009: PASS -- heavy provocation days, eruptions stack then resolve overnight
+wojslaw_multi_burstON_010: PASS -- three rapid mocks de-escalate after first eruption, credible

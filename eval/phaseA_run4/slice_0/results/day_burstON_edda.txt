@@ -1,0 +1,10 @@
+edda_day_burstON_001: PASS -- calm authority, regular meals, settles watch at night
+edda_day_burstON_002: PASS -- composed day, eats well, stranger order ignored, sleeps normally
+edda_day_burstON_003: PASS -- barb ignored, kindnesses welcomed, steady throughout the day
+edda_day_burstON_004: PASS -- early barb absorbed, warm to helpers, ends day in charge
+edda_day_burstON_005: PASS -- multiple kindnesses, stranger order let pass, composed close
+edda_day_burstON_006: PASS -- quiet steady day, no friction, eats and sleeps normally
+edda_day_burstON_007: PASS -- tension builds under repeated stranger orders, recovers by sleep
+edda_day_burstON_008: PASS -- brief tension after barb, soup restores ease, calm close
+edda_day_burstON_009: PASS -- two soups close together early, otherwise sane and settled day
+edda_day_burstON_010: PASS -- two soups in ten minutes early, mild post-rest tension then eases

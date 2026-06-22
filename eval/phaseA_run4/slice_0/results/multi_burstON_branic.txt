@@ -1,0 +1,10 @@
+branic_multi_burstON_001: PASS -- steady boredom/rest cycle, no friction, sane pacing
+branic_multi_burstON_002: PASS -- evening eruption after tension build, sleep resets well
+branic_multi_burstON_003: PASS -- multi-day burst escalation, defiance follows visible build-up
+branic_multi_burstON_004: PASS -- repeated bursts each follow visible tension arc, believable
+branic_multi_burstON_005: PASS -- pleasant days, no provocation sufficient to tip burst
+branic_multi_burstON_006: PASS -- night eruption, carry-over refusals, recovery arc coherent
+branic_multi_burstON_007: PASS -- two rapid eruptions same person plausible given rain and carry-over
+branic_multi_burstON_008: PASS -- multi-day rain/tension/burst arc, recovery days believable
+branic_multi_burstON_009: PASS -- unexplained Day 1 residual minor, Days 2-3 settle cleanly
+branic_multi_burstON_010: PASS -- Day 3 dense-refusals intense but burstON; Day 4-6 recovery arc holds

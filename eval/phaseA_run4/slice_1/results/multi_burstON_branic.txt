@@ -1,0 +1,10 @@
+branic_multi_burstON_011: PASS -- tension builds across day, erupts at night, recovers
+branic_multi_burstON_012: PASS -- calm arc with plausible late-day burst
+branic_multi_burstON_013: PASS -- positive days, eruption on rain day, coherent arc
+branic_multi_burstON_014: PASS -- dense kindnesses early, normal snaps later
+branic_multi_burstON_015: PASS -- burst escalation over days, sleep resets each morning
+branic_multi_burstON_016: PASS -- escalating refusal and eruption pattern across six days
+branic_multi_burstON_017: PASS -- good day no full reset, morning eruption plausible
+branic_multi_burstON_018: PASS -- unexplained morning carryover day 3 minor, not disqualifying
+branic_multi_burstON_019: PASS -- extended calm then single eruption, coherent low-provocation run
+branic_multi_burstON_020: PASS -- mild day-2 carryover oddity, overall arc believable

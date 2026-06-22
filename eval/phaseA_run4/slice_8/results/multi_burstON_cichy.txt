@@ -1,0 +1,10 @@
+cichy_multi_burstON_081: PASS -- steady tension builds daily, resets overnight, fits profile
+cichy_multi_burstON_082: PASS -- rain wears him down, curtly cold with guards, warm to strangers
+cichy_multi_burstON_083: PASS -- eruptions under public mocking, sleeps and recovers each night
+cichy_multi_burstON_084: PASS -- persistent day-2 tension eased by stranger kindness, sane arc
+cichy_multi_burstON_085: PASS -- relentless guard baiting drives multiple eruptions, plausible
+cichy_multi_burstON_086: PASS -- rapid provocation cluster triggers burst, consistent thereafter
+cichy_multi_burstON_087: PASS -- double soup at 08:16/08:18 artifact, not a character problem
+cichy_multi_burstON_088: PASS -- burst days followed by calmer recovery, coherent pattern
+cichy_multi_burstON_089: PASS -- morning burst carries prior-day anger, late burst on provocation
+cichy_multi_burstON_090: PASS -- sustained low-level hostility to guards, no eruptions, sane

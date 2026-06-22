@@ -1,0 +1,10 @@
+branic_multi_burstON_021: PASS -- calm rhythm, gradual tension, believable snap on Day 3
+branic_multi_burstON_022: PASS -- sustained insubordination fits accumulated abuse burst-ON
+branic_multi_burstON_023: PASS -- two eruptions Day 1 and repeated Day 2, sleep resets Day 3
+branic_multi_burstON_024: PASS -- mild escalation, Day 4 eruption after buildup, coherent
+branic_multi_burstON_025: PASS -- stormy Days 1-2, calm Day 3 after sleep reset plausible
+branic_multi_burstON_026: PASS -- two quick eruptions from rapid-fire mocking, believable
+branic_multi_burstON_027: PASS -- Day 3 intense but Halgrim mocks him four times in one day
+branic_multi_burstON_028: PASS -- calm Days 2-3 with no provocations, eruption Day 5 on mock
+branic_multi_burstON_029: PASS -- moderate pattern, burst on kindness-then-mock, settles well
+branic_multi_burstON_030: PASS -- mild overall, second mock in front of others triggers snap

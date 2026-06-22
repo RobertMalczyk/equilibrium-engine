@@ -1,0 +1,10 @@
+edda_multi_burstON_031: PASS -- settled composed days, sleeps well, fits castellan profile
+edda_multi_burstON_032: PASS -- sane multi-day, authority composure intact across friction
+edda_multi_burstON_033: PASS -- mocked twice, refuses orders, recovers warmth next days
+edda_multi_burstON_034: PASS -- mild friction with complaint, tension briefly, recovers cleanly
+edda_multi_burstON_035: PASS -- kindness clusters early but daily arc sane throughout
+edda_multi_burstON_036: PASS -- six steady days, mocks pass without reaction, consistent
+edda_multi_burstON_037: PASS -- one complaint at stranger order, otherwise warm and settled
+edda_multi_burstON_038: PASS -- dense soup deliveries but each response fits, no jarring moments
+edda_multi_burstON_039: PASS -- back-to-back friction causes brief tetchiness, kindnesses restore
+edda_multi_burstON_040: PASS -- day four kindness-heavy but responses appropriate throughout

@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_091: PASS -- calm days, erupts only at public mockery, sane arc
+wojslaw_multi_burstON_092: PASS -- burst saturation escalates across days, threshold plausibly lowered
+wojslaw_multi_burstON_093: PASS -- warm days then public mock triggers eruption, clean arc
+wojslaw_multi_burstON_094: PASS -- six-day escalation with sleep resets, consistent burst saturation
+wojslaw_multi_burstON_095: PASS -- good days then Marta mocks trigger eruptions, sane pattern
+wojslaw_multi_burstON_096: FLAG -- erupts at Marta's kindness (no preceding mock), displaced discharge
+wojslaw_multi_burstON_097: FLAG -- erupts at food delivery and kindness with no proximate provocation
+wojslaw_multi_burstON_098: FLAG -- erupts at soup delivery, anger displaced onto neutral act
+wojslaw_multi_burstON_099: FLAG -- erupts at food delivery repeatedly, kindness triggers fury
+wojslaw_multi_burstON_100: PASS -- anger fades over days, erupts only at actual mocking

@@ -1,0 +1,10 @@
+wojslaw_day_burstON_041: PASS -- tense day with multiple provocations, plausible arc
+wojslaw_day_burstON_042: PASS -- mock at 20:55 eruption after calm evening, believable
+wojslaw_day_burstON_043: PASS -- repeated orders refused, two late eruptions, fits profile
+wojslaw_day_burstON_044: PASS -- quiet day, single late mock triggers fury, sane
+wojslaw_day_burstON_045: PASS -- morning eruptions, tense afternoon, recovers by evening
+wojslaw_day_burstON_046: FLAG -- mock at 10:11 lets it pass; proud prickly man unlikely
+wojslaw_day_burstON_047: PASS -- good day soured by two mocks, sleeps settled
+wojslaw_day_burstON_048: FLAG -- two late mocks both let pass; too passive for Wojslaw
+wojslaw_day_burstON_049: PASS -- kindnesses warm him, mocks still trigger flares, coherent
+wojslaw_day_burstON_050: PASS -- eruptions at mocks, refuses orders, tense close, fits

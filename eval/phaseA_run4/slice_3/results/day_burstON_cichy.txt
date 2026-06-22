@@ -1,0 +1,10 @@
+cichy_day_burstON_031: PASS -- Settles after mock, curt at second soup, sleeps calm.
+cichy_day_burstON_032: PASS -- Escalating mocks drive fury; wakes recovered next day.
+cichy_day_burstON_033: PASS -- Quiet day, tension builds through afternoon, settles by night.
+cichy_day_burstON_034: PASS -- Stranger kindness taken warmly; guard soup still gets curtness.
+cichy_day_burstON_035: PASS -- Mock answered curtly; stranger kindness warmly amid lingering temper.
+cichy_day_burstON_036: PASS -- Repeated mocks, sustained tension, bristles late; wakes reset.
+cichy_day_burstON_037: PASS -- Tension midday, settles by evening; sane pacing throughout.
+cichy_day_burstON_038: PASS -- Stranger kindness fine; guards get cold curtness; sleeps tense.
+cichy_day_burstON_039: PASS -- Flares at mock after building tension; curt late soup delivery.
+cichy_day_burstON_040: PASS -- Temper lingers from morning mock; bristles at late-night barb.

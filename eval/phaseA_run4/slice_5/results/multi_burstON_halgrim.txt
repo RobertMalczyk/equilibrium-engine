@@ -1,0 +1,10 @@
+halgrim_multi_burstON_051: PASS -- calm baseline, mild Wojslaw friction, clean resets
+halgrim_multi_burstON_052: PASS -- Day 3 contempt earned by accumulation, wakes clear
+halgrim_multi_burstON_053: PASS -- rain plus Wojslaw builds justified sustained tension
+halgrim_multi_burstON_054: PASS -- Day 2 slow burn carries into rain day plausibly
+halgrim_multi_burstON_055: PASS -- quiet three days, ignores provocations, fits profile well
+halgrim_multi_burstON_056: PASS -- long Wojslaw accumulation drives Day 6 seething coherently
+halgrim_multi_burstON_057: PASS -- rain day curtness, recovery by Day 3, clean arc
+halgrim_multi_burstON_058: PASS -- Day 5 burst from dense Wojslaw provocation, well-earned
+halgrim_multi_burstON_059: PASS -- very calm, minimal friction, Wojslaw ignored, plausible
+halgrim_multi_burstON_060: FLAG -- Day 3 residual temper lingers all day with no new trigger

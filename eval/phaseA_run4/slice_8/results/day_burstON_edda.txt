@@ -1,0 +1,10 @@
+edda_day_burstON_081: PASS -- calm day, routine kindnesses, sane pacing
+edda_day_burstON_082: PASS -- absorbs mockery and orders without reaction, fits composed authority
+edda_day_burstON_083: PASS -- complies early, settles into routine, nothing jars
+edda_day_burstON_084: PASS -- shrugs off barb, warms to kindnesses, steady throughout
+edda_day_burstON_085: PASS -- multiple kindnesses, mocking let pass, well-paced day
+edda_day_burstON_086: PASS -- tension at 22:04 resolves after kindness, plausible late-day edge
+edda_day_burstON_087: PASS -- curt reply to mockery after food, proportionate and believable
+edda_day_burstON_088: PASS -- two soups early may be surplus but no behavioral issue
+edda_day_burstON_089: PASS -- many kindnesses, remains settled, routine pacing
+edda_day_burstON_090: PASS -- brief tension at 14:02 after mock/rest cluster, clears naturally

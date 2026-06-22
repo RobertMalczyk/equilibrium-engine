@@ -1,0 +1,10 @@
+halgrim_multi_burstON_081: PASS -- calm days, sane pacing, fits steady profile
+halgrim_multi_burstON_082: PASS -- Wojsław pressure builds tension across days, sleep resets
+halgrim_multi_burstON_083: PASS -- very calm, minimal friction, fits hard-to-rattle profile
+halgrim_multi_burstON_084: PASS -- rain plus mockery escalates believably, sleep resets
+halgrim_multi_burstON_085: PASS -- heavy burst across 6 days, Edda spillover plausible under burst
+halgrim_multi_burstON_086: PASS -- moderate tension, good recovery on quiet days
+halgrim_multi_burstON_087: PASS -- escalation arc fits, Edda spillover under sustained Wojslaw pressure
+halgrim_multi_burstON_088: PASS -- sustained tension across 6 days, sane decay and reset pattern
+halgrim_multi_burstON_089: PASS -- calm building to Wojslaw escalation Day 3, profile-consistent
+halgrim_multi_burstON_090: FLAG -- Day 2 sustained anger all day with zero new provocations

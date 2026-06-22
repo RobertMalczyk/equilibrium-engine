@@ -1,0 +1,10 @@
+halgrim_day_burstON_031: PASS -- steady day, Wojsław barbs met with cold curtness
+halgrim_day_burstON_032: PASS -- calm uneventful day, no friction, consistent ease
+halgrim_day_burstON_033: PASS -- Wojsław mock ignored early, settled throughout
+halgrim_day_burstON_034: PASS -- morning barb lingers as edge, fades by evening
+halgrim_day_burstON_035: PASS -- declines Wojsław, cold to mocks, tension fades overnight
+halgrim_day_burstON_036: PASS -- late-night Wojsław orders met with grumble, fits
+halgrim_day_burstON_037: PASS -- multiple Wojsław provocations, controlled curtness throughout
+halgrim_day_burstON_038: PASS -- escalating Wojsław friction, curt cold response, settles
+halgrim_day_burstON_039: PASS -- many Marta kindnesses, late Wojsław contempt fits tension
+halgrim_day_burstON_040: PASS -- quiet day, Edda orders let pass, fully settled

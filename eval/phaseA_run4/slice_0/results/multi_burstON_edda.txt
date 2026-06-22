@@ -1,0 +1,10 @@
+edda_multi_burstON_001: PASS -- steady, well-fed, authority exercised; sane 5 days
+edda_multi_burstON_002: PASS -- composed throughout; mocks and orders met with composure
+edda_multi_burstON_003: PASS -- calm days, regular meals, directs watch; nothing jars
+edda_multi_burstON_004: PASS -- 6 days settled; declines stranger orders plausibly
+edda_multi_burstON_005: PASS -- routine days, declines one order, warmth to staff
+edda_multi_burstON_006: PASS -- small complaints then recovery; pacing believable across 5 days
+edda_multi_burstON_007: PASS -- mocks brushed off; varied days; authority clear
+edda_multi_burstON_008: PASS -- curt reply to public barb; recovers quickly; sane
+edda_multi_burstON_009: PASS -- high-kindness day 2 flood, stays warm; no absurdity
+edda_multi_burstON_010: PASS -- quiet low-event days; steady castellan; nothing contradicts profile

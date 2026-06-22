@@ -1,0 +1,10 @@
+welf_day_burstON_061: PASS -- sane pacing, restlessness cycles, mild tension at day end
+welf_day_burstON_062: PASS -- mocks brushed off, kindnesses warmly taken, plausible day
+welf_day_burstON_063: PASS -- composed through barbs and kindnesses, evening edge fits
+welf_day_burstON_064: PASS -- well-fed, settled, restlessness managed, clean sleep
+welf_day_burstON_065: PASS -- repeated mocks let pass, evening still settled, fits profile
+welf_day_burstON_066: PASS -- rests immediately after soup, sane; mock brushed off calmly
+welf_day_burstON_067: PASS -- evening tension resolves with kindness, wakes easy
+welf_day_burstON_068: PASS -- mild tension late evening, otherwise steady and sane
+welf_day_burstON_069: PASS -- late-night restlessness plausible, wakes settled next morning
+welf_day_burstON_070: PASS -- tension at 22:04 brief, rests and sleeps; fits even-keeled man

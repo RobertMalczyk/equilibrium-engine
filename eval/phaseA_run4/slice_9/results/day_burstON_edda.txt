@@ -1,0 +1,10 @@
+edda_day_burstON_091: PASS -- settled day, appropriate warmth, sane pacing
+edda_day_burstON_092: PASS -- mild complaint at order fits composed character under strain
+edda_day_burstON_093: PASS -- calm day, good rhythm, nothing jars
+edda_day_burstON_094: PASS -- mockery brushed off fits composed authority figure
+edda_day_burstON_095: PASS -- brief edge after barb resolves quickly, believable
+edda_day_burstON_096: PASS -- steady, positive day, sane pacing throughout
+edda_day_burstON_097: PASS -- quiet calm day, consistent with composed castellan
+edda_day_burstON_098: PASS -- mockery late evening brushed off, settled recovery
+edda_day_burstON_099: PASS -- two barbs absorbed, brief tension, recovers cleanly
+edda_day_burstON_100: PASS -- sane day, mockery ignored, appropriate warmth to kindness

@@ -1,0 +1,10 @@
+welf_multi_burstON_011: PASS -- steady boredom-seek cycle, composed throughout
+welf_multi_burstON_012: PASS -- rain days build tension, resolves cleanly each night
+welf_multi_burstON_013: PASS -- late sleep Day 2 acceptable, sane pacing overall
+welf_multi_burstON_014: PASS -- dense kindnesses Day 5 eve, not jarring
+welf_multi_burstON_015: PASS -- rain and tension pattern consistent, resolves nightly
+welf_multi_burstON_016: FLAG -- snaps angrily at barb under rain; against composed profile
+welf_multi_burstON_017: PASS -- mocking ignored both times, fully consistent with profile
+welf_multi_burstON_018: PASS -- morning tensions resolve, no outbursts, sane rhythm
+welf_multi_burstON_019: FLAG -- "earlier temper" lingers at 22:16 with no visible incident
+welf_multi_burstON_020: PASS -- six days stable, rain tension resolves, mocking ignored

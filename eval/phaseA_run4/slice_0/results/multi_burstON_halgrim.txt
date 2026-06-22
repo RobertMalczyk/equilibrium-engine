@@ -1,0 +1,10 @@
+halgrim_multi_burstON_001: PASS -- calm start, curt Wojslaw responses, sleep resets hold
+halgrim_multi_burstON_002: PASS -- rain wears him down day 3, recovers after sleep
+halgrim_multi_burstON_003: PASS -- day 3 overloaded but grumbles not contempt at Edda
+halgrim_multi_burstON_004: PASS -- escalating contempt under repeated Wojslaw mocks, believable arc
+halgrim_multi_burstON_005: PASS -- heavy day 1 provocation, sustained simmering, morning resets hold
+halgrim_multi_burstON_006: PASS -- low-friction days, mild Wojslaw friction handled correctly
+halgrim_multi_burstON_007: FLAG -- contempt toward respected Edda at 22:46 strains character profile
+halgrim_multi_burstON_008: PASS -- relentless Wojslaw rebuilds anger each day, resets work
+halgrim_multi_burstON_009: FLAG -- contempt toward respected Edda on day 4 under Wojslaw spillover
+halgrim_multi_burstON_010: PASS -- Edda curtness mild and contextualised by heavy Wojslaw provocation

@@ -1,0 +1,10 @@
+cichy_multi_burstON_001: PASS -- tension builds over days, burst on late mock believable
+cichy_multi_burstON_002: PASS -- repeated mocking drives escalation, sleep resets each night
+cichy_multi_burstON_003: PASS -- day 2 morning edge minor, bursts earned by accumulation
+cichy_multi_burstON_004: PASS -- day 6 lets mock pass is mildest oddity, overall sane
+cichy_multi_burstON_005: PASS -- three days coherent, snap earned, stranger warmth fits
+cichy_multi_burstON_006: PASS -- double soup quirk minor, burst and stranger warmth in order
+cichy_multi_burstON_007: PASS -- rapid post-snap recovery slightly fast, rest of arc sane
+cichy_multi_burstON_008: PASS -- four eruptions across two days high but guards mock heavily
+cichy_multi_burstON_009: FLAG -- erupts at 07:36 day 1 with no prior tension built up
+cichy_multi_burstON_010: PASS -- early snap fits quick-to-bridle profile, pattern otherwise sane

@@ -1,0 +1,10 @@
+branic_day_burstON_061: PASS -- steady day, boredom-seek cycle, settled sleep
+branic_day_burstON_062: PASS -- mild mock weathered, kindness received, sane arc
+branic_day_burstON_063: PASS -- no Halgrim orders, positive day, plausible late night
+branic_day_burstON_064: PASS -- multiple kindnesses lift mood, evening tension fades
+branic_day_burstON_065: PASS -- mocks absorbed, late bristle after long wear, recovers
+branic_day_burstON_066: PASS -- quiet day, edge creeps in evening, clean sleep
+branic_day_burstON_067: PASS -- residual temper at 22:04 plausible given evening tension
+branic_day_burstON_068: PASS -- flare after accumulated mocks and late-night tension fits
+branic_day_burstON_069: PASS -- snaps mid-afternoon after mock, stays edgy into night
+branic_day_burstON_070: PASS -- well-supported day, late tension with no prior provocation noted

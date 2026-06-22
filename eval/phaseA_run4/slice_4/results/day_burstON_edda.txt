@@ -1,0 +1,10 @@
+edda_day_burstON_041: PASS -- calm day, mild irritation at stranger order, sane pacing
+edda_day_burstON_042: PASS -- tension builds under repeated stranger provocations, cold contempt fits
+edda_day_burstON_043: PASS -- settled day, compliant to stranger once, no friction accumulation
+edda_day_burstON_044: PASS -- repeated mockery builds edge, Marta's soup softens it, sane arc
+edda_day_burstON_045: PASS -- very warm day, many kindnesses, consistently settled throughout
+edda_day_burstON_046: PASS -- tense briefly after stranger order, recovers with help from others
+edda_day_burstON_047: PASS -- steady day, lets stranger order pass, no notable friction
+edda_day_burstON_048: PASS -- quiet uneventful day, composed throughout, routine pacing
+edda_day_burstON_049: PASS -- early kindnesses set positive tone, stranger orders absorbed without reaction
+edda_day_burstON_050: PASS -- well-fed day, refuses late stranger order at day's end, fits

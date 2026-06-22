@@ -1,0 +1,10 @@
+halgrim_multi_burstON_011: PASS -- sustained cold contempt fits repeated Wojslaw provocation
+halgrim_multi_burstON_012: PASS -- calm baseline, anger scales with Wojslaw, resets nightly
+halgrim_multi_burstON_013: PASS -- burst carry-over explains Day 3 tension without new provocation
+halgrim_multi_burstON_014: PASS -- heavy Day 2 friction, sane recovery, Day 6 burst pattern coherent
+halgrim_multi_burstON_015: PASS -- Day 5 contempt at Edda is burst displacement, within profile
+halgrim_multi_burstON_016: PASS -- very calm, appropriate; Day 4 morning tension modest anomaly
+halgrim_multi_burstON_017: PASS -- rain plus Wojslaw drives burst; Edda displaced contempt plausible
+halgrim_multi_burstON_018: PASS -- Day 4 pre-provocation tension mild; multi-day carry fits burst
+halgrim_multi_burstON_019: PASS -- mostly calm, minor friction handled proportionately throughout
+halgrim_multi_burstON_020: PASS -- rain erosion and Wojslaw declines plausible; Edda handled well

@@ -1,0 +1,10 @@
+welf_multi_burstON_071: PASS -- steady cycle, rain wears, mocks brushed off, recovers fine
+welf_multi_burstON_072: PASS -- dense kindnesses day 1, calm rain days, late sleep minor
+welf_multi_burstON_073: PASS -- two mocks let pass, tense evening, clean recovery each day
+welf_multi_burstON_074: PASS -- snap after accumulated mocks fits burst, quick recovery after
+welf_multi_burstON_075: PASS -- calm throughout, late mock brushed off, sane pacing
+welf_multi_burstON_076: PASS -- rain leaves lingering edge, soup resolves it, believable arc
+welf_multi_burstON_077: PASS -- mocks let pass, rain day tense then eases, social day 4
+welf_multi_burstON_078: PASS -- tense mornings, mocks brushed off, consistent composed rhythm
+welf_multi_burstON_079: PASS -- short night day 3-4 edge case, rain calm, multi-day arc holds
+welf_multi_burstON_080: PASS -- tense morning without early soup, seeks, resolves cleanly

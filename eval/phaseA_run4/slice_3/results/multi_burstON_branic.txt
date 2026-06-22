@@ -1,0 +1,10 @@
+branic_multi_burstON_031: PASS -- calm days, mild residual temper, sane pacing
+branic_multi_burstON_032: PASS -- believable escalation across days under repeated mockery
+branic_multi_burstON_033: PASS -- early refusals plausible given burst-ON reactive profile
+branic_multi_burstON_034: PASS -- snap then calm recovery, normal daily rhythm
+branic_multi_burstON_035: PASS -- steady positive run, one late snap, sane pacing
+branic_multi_burstON_036: PASS -- rough patch but not explosive, believable mixed days
+branic_multi_burstON_037: PASS -- Day 1 eruption without build-up fits burst-ON mode
+branic_multi_burstON_038: PASS -- mild escalation evenings, calm mornings, plausible arc
+branic_multi_burstON_039: PASS -- cooperative days, minor unexplained residual temper Day 1
+branic_multi_burstON_040: PASS -- positive recovery arc, clear daily rhythm, sane pacing

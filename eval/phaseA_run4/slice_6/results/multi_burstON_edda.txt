@@ -1,0 +1,10 @@
+edda_multi_burstON_061: PASS -- settled days, mild complaint at end fits pacing
+edda_multi_burstON_062: PASS -- quiet positive run, sane rhythm throughout
+edda_multi_burstON_063: PASS -- declines order as castellan, coherent across six days
+edda_multi_burstON_064: PASS -- curt reply to public mock, tension resolves by night
+edda_multi_burstON_065: PASS -- variable compliance with orders, plausible and bounded
+edda_multi_burstON_066: PASS -- tensions tied to provocations, resolve with kindness
+edda_multi_burstON_067: PASS -- three rapid mocks in one afternoon, tension response sane
+edda_multi_burstON_068: PASS -- complaint on order, warmth restores; clean four days
+edda_multi_burstON_069: PASS -- subdued response to kindness after tense day, believable
+edda_multi_burstON_070: PASS -- settled six days, routine warmth, no jarring moments

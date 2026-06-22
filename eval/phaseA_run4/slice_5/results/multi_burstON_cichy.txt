@@ -1,0 +1,10 @@
+cichy_multi_burstON_051: PASS -- anger spikes on mocks, quick post-burst settle plausible
+cichy_multi_burstON_052: PASS -- two separate bursts on separate provocations, sane pacing
+cichy_multi_burstON_053: PASS -- eruptions spread across days, each tied to a provocation
+cichy_multi_burstON_054: PASS -- guard-soup burst fits resentment; morning snap coherent
+cichy_multi_burstON_055: PASS -- day-two carryover tension without new trigger is plausible
+cichy_multi_burstON_056: PASS -- stranger warmth fine; guard hostility consistent throughout
+cichy_multi_burstON_057: PASS -- quieter record, simmers without full eruption, believable
+cichy_multi_burstON_058: PASS -- burst then quick reset after; second burst later fits pattern
+cichy_multi_burstON_059: PASS -- sustained simmer, no burst, consistent resentful captive
+cichy_multi_burstON_060: PASS -- dense mock cluster day 2 but reactions scale with provocation

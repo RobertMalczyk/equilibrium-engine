@@ -1,0 +1,10 @@
+wojslaw_day_burstON_011: PASS -- prickly man, erupts at mockery, calms by evening
+wojslaw_day_burstON_012: PASS -- morning calm, erupts at Marta's barb, tense afternoon
+wojslaw_day_burstON_013: PASS -- good-natured day, single snap at afternoon taunt, settles
+wojslaw_day_burstON_014: PASS -- ignores first insult, erupts at second, carries temper hours
+wojslaw_day_burstON_015: FLAG -- erupts at soup delivery; Marta's kindness met with bristling
+wojslaw_day_burstON_016: PASS -- warm morning, defiant refusals, erupts at evening mockery
+wojslaw_day_burstON_017: PASS -- calm morning, erupts at public insult, recovers by night
+wojslaw_day_burstON_018: PASS -- snaps early, erupts at public mock, stays tense all evening
+wojslaw_day_burstON_019: PASS -- calm day, single late eruption, settles before sleep
+wojslaw_day_burstON_020: PASS -- barrage of mockery/orders; repeated eruptions, sustained temper

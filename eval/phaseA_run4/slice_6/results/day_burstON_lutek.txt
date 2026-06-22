@@ -1,0 +1,10 @@
+lutek_day_burstON_061: PASS -- restless-then-settled rhythm, mockery shrugged off, sane pacing
+lutek_day_burstON_062: PASS -- warm day, kindnesses welcomed, natural boredom-seek cycle
+lutek_day_burstON_063: PASS -- mockery ignored, mild evening tension, recovers cleanly
+lutek_day_burstON_064: PASS -- steady day, multiple kindnesses, no jarring beats
+lutek_day_burstON_065: PASS -- two soups close together odd but not absurd, evening tension resolves
+lutek_day_burstON_066: PASS -- mockery deflected, sits twice in quick succession but plausible
+lutek_day_burstON_067: PASS -- mockery ignored twice, warmth from Marta, sane evening wind-down
+lutek_day_burstON_068: FLAG -- lingering temper at 22:04 with no visible provocation to explain it
+lutek_day_burstON_069: PASS -- early kindnesses, mild evening edge, resolves; sleeps past midnight but plausible
+lutek_day_burstON_070: FLAG -- residual temper at 22:04 after shrugging off a mock; inconsistent with profile

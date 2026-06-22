@@ -1,0 +1,10 @@
+cichy_multi_burstON_091: PASS -- sane 4-day arc, resets nightly, curt with guards
+cichy_multi_burstON_092: PASS -- eruption when mocked publicly fits burst-ON pattern
+cichy_multi_burstON_093: PASS -- fury under sustained mocking, recovers after sleep
+cichy_multi_burstON_094: PASS -- burst eruption from settled state fits burst-ON profile
+cichy_multi_burstON_095: PASS -- heavy-mock day drives multiple outbursts, resets nightly
+cichy_multi_burstON_096: PASS -- fury cascade under provocation, overnight resets hold
+cichy_multi_burstON_097: PASS -- post-burst quick recovery then residual tension, sane
+cichy_multi_burstON_098: PASS -- eruption from settled state, takes soup calmly after
+cichy_multi_burstON_099: PASS -- two eruptions on high-provocation day, profile consistent
+cichy_multi_burstON_100: PASS -- fury from mock on borderline-calm state, clean recovery

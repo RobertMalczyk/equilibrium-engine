@@ -1,0 +1,10 @@
+lutek_day_burstON_001: PASS -- restless cycle, fed twice, mild tension at night, sleeps fine
+lutek_day_burstON_002: PASS -- insults roll off, kindnesses land warmly, late activity then sleep
+lutek_day_burstON_003: PASS -- active social day, stays warm, insults ignored, sleeps past midnight
+lutek_day_burstON_004: PASS -- steady restless-busy rhythm, mocks ignored, tense then settled, sleeps
+lutek_day_burstON_005: PASS -- tense spell late evening but recovers, consistent restless character
+lutek_day_burstON_006: FLAG -- seething/jaw-tight after one barb; too strong for thick-skinned Lutek
+lutek_day_burstON_007: PASS -- calm varied day, fed twice, mild tension at night, sleeps well
+lutek_day_burstON_008: PASS -- tense at 18:00 but eases, mock ignored, well-fed, sleeps on time
+lutek_day_burstON_009: PASS -- sociable day, many kindnesses, restless bursts, easy settled sleep
+lutek_day_burstON_010: PASS -- late sleep past midnight but settled; tension spikes mild, fits profile

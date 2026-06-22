@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_021: PASS -- volatile arc with clear triggers, sleep resets well
+wojslaw_multi_burstON_022: PASS -- day 2 warmth toward Marta borderline but within burst calm
+wojslaw_multi_burstON_023: PASS -- consistent angry noble, displaced fury on kindness plausible
+wojslaw_multi_burstON_024: PASS -- proud refusals and displaced anger on soup fit profile
+wojslaw_multi_burstON_025: FLAG -- day 1 excessively warm and grateful, unlike proud prickly Wojsław
+wojslaw_multi_burstON_026: PASS -- calm then provoked pattern, nothing contradicts profile
+wojslaw_multi_burstON_027: PASS -- day 1 warm but escalates plausibly across later days
+wojslaw_multi_burstON_028: PASS -- high provocation day 1, eruption-at-soup displaced anger sane
+wojslaw_multi_burstON_029: PASS -- late sleep after seething acceptable, resets by morning
+wojslaw_multi_burstON_030: PASS -- sustained mockery cascade and recovery across days believable

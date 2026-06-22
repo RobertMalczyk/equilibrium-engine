@@ -1,0 +1,10 @@
+lutek_multi_burstON_071: PASS -- sane pacing, mocks ignored, nights restful
+lutek_multi_burstON_072: PASS -- morning tension resolves with food and kindness
+lutek_multi_burstON_073: PASS -- tense mornings clear by midday, mocks dismissed
+lutek_multi_burstON_074: PASS -- recurring tense mornings resolve; no rage or grudges
+lutek_multi_burstON_075: PASS -- evening tension plausible fatigue, no jars
+lutek_multi_burstON_076: PASS -- evening accumulation mild, wakes clean next day
+lutek_multi_burstON_077: PASS -- clean record, regular cycles, mocks let pass
+lutek_multi_burstON_078: PASS -- lingering temper mild and brief, fits profile
+lutek_multi_burstON_079: PASS -- day-end tension without clear cause, within noise
+lutek_multi_burstON_080: PASS -- tense persists despite kindness but resolves next day

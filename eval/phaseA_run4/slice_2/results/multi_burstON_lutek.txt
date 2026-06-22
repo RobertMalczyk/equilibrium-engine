@@ -1,0 +1,10 @@
+lutek_multi_burstON_021: PASS -- sane pacing, warmth to kindness, mockery deflected cleanly
+lutek_multi_burstON_022: PASS -- regular rhythm, evening tension resolves, fits profile
+lutek_multi_burstON_023: PASS -- one curt reply when already tense, burst context explains it
+lutek_multi_burstON_024: PASS -- evening tension without provocation, clears after rest
+lutek_multi_burstON_025: FLAG -- seething after single mock; unusually sharp for thick-skinned Lutek
+lutek_multi_burstON_026: FLAG -- two curt-cold replies across days; runs hotter than profile allows
+lutek_multi_burstON_027: PASS -- clean sane pacing, tension accumulates and resolves naturally
+lutek_multi_burstON_028: PASS -- positive days, morning tension clears, fits burstON pattern
+lutek_multi_burstON_029: PASS -- clean rhythm, brief evening tension, no jarring moments
+lutek_multi_burstON_030: PASS -- curt reply when already tense, food restores ease quickly

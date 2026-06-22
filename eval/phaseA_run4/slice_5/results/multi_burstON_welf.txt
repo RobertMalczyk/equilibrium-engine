@@ -1,0 +1,10 @@
+welf_multi_burstON_051: PASS -- temper lingers after mock; sane boredom cycles
+welf_multi_burstON_052: PASS -- rain-day residual tension clears by afternoon
+welf_multi_burstON_053: PASS -- mild morning tension resolves; pacing credible
+welf_multi_burstON_054: PASS -- rain slows temper recovery; stays within profile
+welf_multi_burstON_055: PASS -- six days steady; boredom and ease well balanced
+welf_multi_burstON_056: PASS -- evening tension after late work; clears on waking
+welf_multi_burstON_057: PASS -- positive-heavy days; morning tensions clear promptly
+welf_multi_burstON_058: PASS -- three mocks absorbed; residual temper credible
+welf_multi_burstON_059: PASS -- rain tension lingers morning only; profile intact
+welf_multi_burstON_060: PASS -- mocks let pass; boredom cycles sane across six days
