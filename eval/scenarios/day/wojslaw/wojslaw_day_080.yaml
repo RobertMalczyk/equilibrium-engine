@@ -17,15 +17,15 @@ events:
 - type: insult
   t: 104
   source: player
-  intensity: 0.927
+  intensity: 0.486
   context:
     public: true
 - type: insult
   t: 158
-  source: marta
-  intensity: 0.786
+  source: player
+  intensity: 0.368
   context:
-    public: false
+    public: true
 - type: help
   t: 162
   source: marta
@@ -56,8 +56,8 @@ events:
     has_authority: true
 - type: insult
   t: 462
-  source: marta
-  intensity: 0.698
+  source: player
+  intensity: 0.901
   context:
     public: true
 - type: help

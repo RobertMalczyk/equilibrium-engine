@@ -16,14 +16,14 @@ events:
     public: false
 - type: insult
   t: 49
-  source: marta
-  intensity: 1.0
+  source: player
+  intensity: 0.903
   context:
     public: true
 - type: insult
   t: 59
   source: player
-  intensity: 0.614
+  intensity: 0.706
   context:
     public: true
 - type: help
@@ -40,10 +40,10 @@ events:
     public: false
 - type: insult
   t: 312
-  source: marta
-  intensity: 0.613
+  source: player
+  intensity: 0.365
   context:
-    public: true
+    public: false
 - type: help
   t: 378
   source: marta

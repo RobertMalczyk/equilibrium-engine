@@ -136,7 +136,7 @@ events:
   intensity: 1.0
 - type: help
   t: 2171
-  source: halgrim
+  source: marta
   intensity: 0.988
   context: {}
 - type: command
@@ -166,7 +166,7 @@ events:
     has_authority: true
 - type: help
   t: 2358
-  source: halgrim
+  source: marta
   intensity: 0.987
   context: {}
 - type: insult
@@ -201,7 +201,7 @@ events:
   context: {}
 - type: help
   t: 2503
-  source: halgrim
+  source: marta
   intensity: 0.968
   context: {}
 - type: command
@@ -223,7 +223,7 @@ events:
     has_authority: true
 - type: help
   t: 2655
-  source: halgrim
+  source: marta
   intensity: 0.996
   context: {}
 - type: nightfall
@@ -268,7 +268,7 @@ events:
     public: false
 - type: help
   t: 3124
-  source: marta
+  source: player
   intensity: 0.618
   context: {}
 - type: weather

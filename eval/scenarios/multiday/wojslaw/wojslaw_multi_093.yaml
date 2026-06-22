@@ -189,7 +189,7 @@ events:
 - type: insult
   t: 1835
   source: player
-  intensity: 0.527
+  intensity: 0.978
   context:
     public: true
 - type: nightfall

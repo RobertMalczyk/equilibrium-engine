@@ -23,7 +23,7 @@ events:
 - type: insult
   t: 66
   source: player
-  intensity: 0.884
+  intensity: 0.926
   context:
     public: true
 - type: help
@@ -50,8 +50,8 @@ events:
   context: {}
 - type: insult
   t: 465
-  source: marta
-  intensity: 0.678
+  source: player
+  intensity: 1.0
   context:
     public: true
 - type: help
@@ -61,10 +61,10 @@ events:
   context: {}
 - type: insult
   t: 505
-  source: marta
-  intensity: 0.481
+  source: player
+  intensity: 0.516
   context:
-    public: false
+    public: true
 - type: nightfall
   t: 508
   intensity: 1.0

@@ -33,7 +33,7 @@ events:
     has_authority: true
 - type: insult
   t: 87
-  source: marta
+  source: player
   intensity: 0.768
   context:
     public: true
@@ -63,8 +63,8 @@ events:
     has_authority: true
 - type: insult
   t: 250
-  source: marta
-  intensity: 0.663
+  source: player
+  intensity: 0.746
   context:
     public: false
 - type: command
@@ -81,7 +81,7 @@ events:
 - type: insult
   t: 367
   source: player
-  intensity: 0.942
+  intensity: 0.639
   context:
     public: false
 - type: command

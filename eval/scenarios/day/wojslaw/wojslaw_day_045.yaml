@@ -17,12 +17,12 @@ events:
 - type: insult
   t: 75
   source: player
-  intensity: 0.695
+  intensity: 0.994
   context:
-    public: true
+    public: false
 - type: insult
   t: 161
-  source: marta
+  source: player
   intensity: 0.356
   context:
     public: false
@@ -51,7 +51,7 @@ events:
 - type: insult
   t: 329
   source: player
-  intensity: 0.781
+  intensity: 0.845
   context:
     public: false
 - type: command

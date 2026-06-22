@@ -47,13 +47,13 @@ events:
 - type: insult
   t: 252
   source: player
-  intensity: 1.0
+  intensity: 0.666
   context:
-    public: false
+    public: true
 - type: insult
   t: 270
   source: player
-  intensity: 0.26
+  intensity: 0.736
   context:
     public: true
 - type: command

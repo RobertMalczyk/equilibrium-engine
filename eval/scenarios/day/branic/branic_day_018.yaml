@@ -18,12 +18,12 @@ events:
     public: false
 - type: help
   t: 57
-  source: halgrim
+  source: marta
   intensity: 0.834
   context: {}
 - type: help
   t: 132
-  source: halgrim
+  source: marta
   intensity: 0.326
   context: {}
 - type: command
@@ -47,7 +47,7 @@ events:
     has_authority: true
 - type: help
   t: 341
-  source: marta
+  source: player
   intensity: 0.957
   context: {}
 - type: nightfall

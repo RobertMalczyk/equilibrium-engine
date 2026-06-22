@@ -23,7 +23,7 @@ events:
   context: {}
 - type: help
   t: 145
-  source: marta
+  source: player
   intensity: 0.776
   context: {}
 - type: command
@@ -47,7 +47,7 @@ events:
     public: false
 - type: help
   t: 299
-  source: marta
+  source: player
   intensity: 0.598
   context: {}
 - type: command
@@ -64,7 +64,7 @@ events:
     public: true
 - type: help
   t: 370
-  source: halgrim
+  source: marta
   intensity: 0.551
   context: {}
 - type: command

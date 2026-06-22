@@ -26,14 +26,14 @@ events:
   context: {}
 - type: insult
   t: 56
-  source: marta
-  intensity: 0.873
+  source: player
+  intensity: 0.765
   context:
     public: false
 - type: insult
   t: 85
   source: player
-  intensity: 0.336
+  intensity: 0.988
   context:
     public: true
 - type: food_given
@@ -67,10 +67,10 @@ events:
   context: {}
 - type: insult
   t: 361
-  source: marta
-  intensity: 0.514
+  source: player
+  intensity: 0.633
   context:
-    public: true
+    public: false
 - type: food_given
   t: 397
   source: marta

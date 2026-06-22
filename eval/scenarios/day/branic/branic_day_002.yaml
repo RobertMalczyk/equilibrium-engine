@@ -24,7 +24,7 @@ events:
     has_authority: true
 - type: help
   t: 42
-  source: halgrim
+  source: marta
   intensity: 0.725
   context: {}
 - type: insult
@@ -41,7 +41,7 @@ events:
     has_authority: true
 - type: help
   t: 227
-  source: halgrim
+  source: marta
   intensity: 0.676
   context: {}
 - type: food_given

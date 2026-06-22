@@ -9,7 +9,7 @@ initial_overrides: {}
 events:
 - type: insult
   t: 38
-  source: marta
+  source: player
   intensity: 0.807
   context:
     public: false
@@ -55,14 +55,14 @@ events:
   context: {}
 - type: insult
   t: 303
-  source: marta
-  intensity: 0.657
+  source: player
+  intensity: 0.638
   context:
     public: true
 - type: insult
   t: 326
   source: player
-  intensity: 0.421
+  intensity: 1.0
   context:
     public: false
 - type: command
@@ -74,9 +74,9 @@ events:
 - type: insult
   t: 425
   source: player
-  intensity: 0.584
+  intensity: 0.655
   context:
-    public: false
+    public: true
 - type: command
   t: 461
   source: player

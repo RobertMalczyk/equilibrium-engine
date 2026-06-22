@@ -16,16 +16,16 @@ events:
     public: false
 - type: insult
   t: 113
-  source: marta
+  source: player
   intensity: 0.672
   context:
     public: true
 - type: insult
   t: 129
-  source: marta
-  intensity: 0.71
+  source: player
+  intensity: 0.318
   context:
-    public: true
+    public: false
 - type: command
   t: 145
   source: player
@@ -51,10 +51,10 @@ events:
   context: {}
 - type: insult
   t: 281
-  source: marta
-  intensity: 0.394
+  source: player
+  intensity: 0.903
   context:
-    public: false
+    public: true
 - type: command
   t: 325
   source: player

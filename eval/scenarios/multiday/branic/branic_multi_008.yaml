@@ -95,7 +95,7 @@ events:
   intensity: 0.644
 - type: help
   t: 799
-  source: halgrim
+  source: marta
   intensity: 1.0
   context: {}
 - type: weather
@@ -151,7 +151,7 @@ events:
     has_authority: true
 - type: help
   t: 1464
-  source: halgrim
+  source: marta
   intensity: 0.911
   context: {}
 - type: help
@@ -168,7 +168,7 @@ events:
     public: false
 - type: help
   t: 1520
-  source: halgrim
+  source: marta
   intensity: 1.0
   context: {}
 - type: food_given
@@ -180,12 +180,12 @@ events:
     public: false
 - type: help
   t: 1567
-  source: marta
+  source: player
   intensity: 0.877
   context: {}
 - type: help
   t: 1679
-  source: halgrim
+  source: marta
   intensity: 0.516
   context: {}
 - type: food_given
@@ -204,7 +204,7 @@ events:
     public: false
 - type: help
   t: 1804
-  source: halgrim
+  source: marta
   intensity: 0.64
   context: {}
 - type: food_given
@@ -216,7 +216,7 @@ events:
     public: false
 - type: help
   t: 1899
-  source: marta
+  source: player
   intensity: 0.972
   context: {}
 - type: command

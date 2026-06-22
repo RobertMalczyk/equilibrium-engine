@@ -102,7 +102,7 @@ events:
     has_authority: true
 - type: help
   t: 863
-  source: halgrim
+  source: marta
   intensity: 0.643
   context: {}
 - type: insult
@@ -132,7 +132,7 @@ events:
     has_authority: true
 - type: help
   t: 1158
-  source: halgrim
+  source: marta
   intensity: 0.721
   context: {}
 - type: food_given
@@ -144,7 +144,7 @@ events:
     public: false
 - type: help
   t: 1190
-  source: halgrim
+  source: marta
   intensity: 0.72
   context: {}
 - type: help
@@ -171,7 +171,7 @@ events:
     public: false
 - type: help
   t: 1574
-  source: marta
+  source: player
   intensity: 1.0
   context: {}
 - type: food_given
@@ -224,7 +224,7 @@ events:
   context: {}
 - type: help
   t: 2307
-  source: halgrim
+  source: marta
   intensity: 0.962
   context: {}
 - type: food_given

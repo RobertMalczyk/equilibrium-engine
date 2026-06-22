@@ -22,7 +22,7 @@ events:
 - type: insult
   t: 103
   source: player
-  intensity: 0.904
+  intensity: 0.785
   context:
     public: false
 - type: help
@@ -39,7 +39,7 @@ events:
 - type: insult
   t: 211
   source: player
-  intensity: 0.646
+  intensity: 0.947
   context:
     public: true
 - type: food_given

@@ -22,9 +22,9 @@ events:
 - type: insult
   t: 111
   source: player
-  intensity: 0.719
+  intensity: 0.488
   context:
-    public: false
+    public: true
 - type: help
   t: 198
   source: player
@@ -52,7 +52,7 @@ events:
 - type: insult
   t: 335
   source: player
-  intensity: 0.642
+  intensity: 0.535
   context:
     public: true
 - type: help

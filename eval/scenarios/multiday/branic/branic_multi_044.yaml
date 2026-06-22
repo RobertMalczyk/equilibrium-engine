@@ -87,7 +87,7 @@ events:
     has_authority: true
 - type: help
   t: 1628
-  source: marta
+  source: player
   intensity: 0.942
   context: {}
 - type: command
@@ -141,7 +141,7 @@ events:
     has_authority: true
 - type: help
   t: 1916
-  source: marta
+  source: player
   intensity: 0.437
   context: {}
 - type: nightfall
