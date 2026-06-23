@@ -58,8 +58,9 @@ is not scripted.
 
 **How a test is judged (blind).** Records are batched 10 at a time (same persona). One FRESH LLM
 agent judges each batch with no answer key and no comparison between records — it sees only the
-persona profile, the observable narration, and the rubric below. (Judge model: Opus for the first
-222 batches, Sonnet for the final 58.)
+persona profile, the observable narration, and the rubric below. (Judge model: **Claude Sonnet, held
+constant** across all batches. This report = the final run with M1+M2+M3+renderer fix+corpus coherence:
+**2686/2800 = 95.9%**; see `eval/BELIEVABILITY_REPORT.md` for the full method + run-by-run history.)
 
 **Assertion criteria (applied to EVERY test).**
 1. **Sane as a day / days in a life** — believable pacing: not starving within minutes, not enraged
@@ -114,8 +115,12 @@ def _stimulus(persona: str, corpus: str, idx: int) -> list[str]:
     return lines
 
 
-def _collect():
-    """-> {(corpus,burst): {persona: [ (idx, sid, verdict, note, stimulus[], narration) ]}}, plus totals."""
+def _collect(results_base: Path = BASE):
+    """-> {(corpus,burst): {persona: [ (idx, sid, verdict, note, stimulus[], narration) ]}}, plus totals.
+
+    Manifests + batches (narrations) come from BASE (eval/hourly_runs); VERDICTS come from
+    ``results_base`` (e.g. a phaseA_run* dir), so the report can pair the current narrations with any
+    judged run."""
     data = {s: {p: [] for p in PERSONAS} for s in SUBS}
     totals = {s: [0, 0] for s in SUBS}
     per_persona = {p: [0, 0] for p in PERSONAS}
@@ -127,7 +132,7 @@ def _collect():
         man = yaml.safe_load(man_f.read_text(encoding="utf-8"))
         for b in man["batches"]:
             corpus, burst, persona = b["corpus"], b["burst"], b["persona"]
-            verds = _verdicts(sdir / "results", b["batch"])
+            verds = _verdicts(results_base / f"slice_{s}" / "results", b["batch"])
             narrs = _narrations(sdir / "batches" / f"{b['batch']}.md")
             for sid in b["scenarios"]:
                 key = sid.lower()
@@ -267,11 +272,19 @@ def render_html(data, totals, per_persona) -> str:
 
 
 def main() -> None:
-    data, totals, per_persona = _collect()
+    import sys
+
+    def _arg(name, default):
+        return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
+
+    results_base = Path(_arg("--results", str(BASE)))
+    out_prefix = Path(_arg("--out", str(BASE / "TEST_REPORT")))
+    data, totals, per_persona = _collect(results_base)
     md = render_md(data, totals, per_persona)
     html = render_html(data, totals, per_persona)
-    (BASE / "TEST_REPORT.md").write_text(md, encoding="utf-8")
-    (BASE / "TEST_REPORT.html").write_text(html, encoding="utf-8")
+    out_prefix.parent.mkdir(parents=True, exist_ok=True)
+    out_prefix.with_suffix(".md").write_text(md, encoding="utf-8")
+    out_prefix.with_suffix(".html").write_text(html, encoding="utf-8")
     gp = sum(v[0] for v in totals.values())
     gt = sum(v[1] for v in totals.values())
     print(
