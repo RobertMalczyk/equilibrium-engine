@@ -607,7 +607,17 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
    feed-forward (no moral→moral return edge), so the anger⇄stress Jury margin is unchanged.
    NOTE: one event per tick today (the deferred **M-MEM**), so the micro-scenario stages wrongdoing then
    probe on separate ticks; simultaneous moral fan-out waits on M-MEM.
-2. **M-J.1 lie loop** — `LieRecord`, `cognitive_load`, `consistency_debt`, `lie`/`deflect`, detection.
+2. **M-J.1 lie loop — ✅ IMPLEMENTED (internal cognitive-load loop; ledger + detection DEFERRED).**
+   State `cognitive_load_from_lies` (opt-in, 6h placeholder); actions `lie` (rises with `exposure_anxiety`
+   × (1−`honesty_humility`), SELF-LIMITED by −`cognitive_load` and −`guilt`) and `deflect`; `lie`
+   `post_effects` book a finite `cognitive_load`/guilt/exposure deposit; couplings
+   `cognitive_load→stress(+)`/`fatigue(+)` (the self-tightening noose). **Litmus PROVEN**
+   (`tests/test_moral_lie_loop.py`): on the SAME probing a habitual liar (low `honesty_humility`, low
+   `guilt_proneness`) LIES while a guilt-prone honest persona CONFESSES; the load is finite, bounded, and
+   self-limiting (no runaway). Same opt-in overlay / byte-identical discipline as M-J.0.
+   **DEFERRED (documented, not built):** `LieRecord` ledger, `consistency_debt`, and cross-agent lie
+   DETECTION (lie-detected → target anger/resentment/trust-damage) — detection needs the multi-agent
+   driver / M-MEM. This slice is the LIAR's internal loop only.
 3. **M-J.2 repair/confide** — `repair_drive`, `rumination`, `confide`/`apologize`/`reparation`.
 4. **M-J.3 accusation/suspicion** — `perceived_injustice`, `suspicion`, multi-agent driver (**needs M-MEM**).
 5. **M-J.4 full ledger + calibration grid + scoped corpus**.

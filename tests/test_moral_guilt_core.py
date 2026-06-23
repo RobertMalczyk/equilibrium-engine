@@ -24,10 +24,14 @@ SCENARIO = ROOT / "data" / "scenarios" / "moral_probe.yaml"
 
 
 def _moral_cfg(guilt_proneness: float):
+    # Hold honesty_humility HIGH so the guilt axis is isolated from the M-J.1 lie axis: an honest persona
+    # never lies, so the only contrast here is guilt_proneness -> confess vs remain_silent.
     return load_persona(
         HALGRIM,
         DEFAULTS,
-        param_overrides=moral_overrides({"guilt_proneness": guilt_proneness}),
+        param_overrides=moral_overrides(
+            {"guilt_proneness": guilt_proneness, "honesty_humility": 0.9}
+        ),
     )
 
 

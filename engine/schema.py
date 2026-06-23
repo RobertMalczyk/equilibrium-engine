@@ -33,6 +33,9 @@ GLOBAL_STATES: tuple[str, ...] = (
     # so dt is unchanged. Both are standard leaky integrators (spec section 14) -- no new block type.
     "guilt",  # violated own moral frame: lie/harm/betrayal. Long half-life; couples -> stress, anger (-).
     "exposure_anxiety",  # afraid of being found out: probe/accusation/suspicion. Couples -> stress.
+    "cognitive_load_from_lies",  # M-J.1: the burden of maintaining a lie. Rises when the persona LIES;
+    # couples -> stress, fatigue (the self-tightening noose). Self-limits lying (a high load makes the
+    # next lie harder). Medium half-life. Opt-in like the other moral states.
 )
 
 RELATION_DIMS: tuple[str, ...] = ("trust", "respect", "resentment")
@@ -70,14 +73,21 @@ POTENTIAL_NAMES: tuple[str, ...] = (
     # configures weights for them (the moral overlay); absent -> omitted from the trace -> goldens unchanged.
     "confess",  # own up: relieves guilt + exposure_anxiety in post_effects.
     "remain_silent",  # keep concealing: rises with exposure_anxiety.
+    "lie",  # M-J.1: actively deceive. Books cognitive_load_from_lies (+ guilt + exposure risk); rises with
+    # exposure_anxiety and low honesty_humility, self-limited by the load it creates.
+    "deflect",  # M-J.1: dodge the question without an outright lie. Rises with cognitive_load + exposure_anxiety.
 )
 
 # --- M-J moral vocab subsets (used by the loader/guards to keep the overlay opt-in and byte-identical).
-MORAL_STATES: frozenset[str] = frozenset({"guilt", "exposure_anxiety"})
+MORAL_STATES: frozenset[str] = frozenset(
+    {"guilt", "exposure_anxiety", "cognitive_load_from_lies"}
+)
 MORAL_TRAITS: frozenset[str] = frozenset(
     {"empathy", "guilt_proneness", "shame_sensitivity", "honesty_humility"}
 )
-MORAL_POTENTIALS: frozenset[str] = frozenset({"confess", "remain_silent"})
+MORAL_POTENTIALS: frozenset[str] = frozenset(
+    {"confess", "remain_silent", "lie", "deflect"}
+)
 
 # --- Enums -------------------------------------------------------------------------
 

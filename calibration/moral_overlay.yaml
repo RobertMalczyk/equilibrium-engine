@@ -12,6 +12,7 @@
 half_lives:
   guilt: 64800            # 18h placeholder -- slow moral memory (>> anger 30s, so dt is unchanged)
   exposure_anxiety: 3600  # 60min placeholder -- medium anxiety
+  cognitive_load_from_lies: 21600  # 6h placeholder -- the lie-maintenance burden (M-J.1)
 
 gains:
   guilt:
@@ -34,12 +35,20 @@ couplings:
   stress:
     guilt: 0.03               # guilt -> stress (+). PLACEHOLDER.
     exposure_anxiety: 0.03    # exposure_anxiety -> stress (+). PLACEHOLDER.
+    cognitive_load_from_lies: 0.03  # M-J.1: lie burden -> stress (+) (the noose tightens). PLACEHOLDER.
   anger:
     guilt: -0.02              # guilt -> anger (-): remorse DAMPS the outburst (empathy-gated topology). PLACEHOLDER.
+  fatigue:
+    cognitive_load_from_lies: 0.02  # M-J.1: maintaining the lie is tiring -> fatigue (+). PLACEHOLDER.
 
 potential_terms:
   moral_guilt:    [{kind: state, name: guilt}]
   moral_exposure: [{kind: state, name: exposure_anxiety}]
+  moral_load:     [{kind: state, name: cognitive_load_from_lies}]
+  # M-J.1: the urge to lie = feeling exposed AND being a habitual liar (low honesty_humility). The
+  # complement (1 - honesty_humility) is the "bad-habit" knob -- distinct from machiavellianism (a later
+  # slice). A scrupulous persona (high honesty_humility) has ~0 lie drive even when exposed.
+  lie_dishonesty: [{kind: state, name: exposure_anxiety}, {kind: trait, name: honesty_humility, complement: true}]
 
 potential_weights:
   confess:
@@ -47,12 +56,23 @@ potential_weights:
     moral_exposure: -0.6      # exposure anxiety inhibits confessing (fear of consequences). PLACEHOLDER.
   remain_silent:
     moral_exposure: 1.0       # exposure anxiety drives continued concealment
+  lie:
+    lie_dishonesty: 1.5       # exposed + dishonest -> deceive. PLACEHOLDER.
+    moral_load: -0.8          # SELF-LIMITING: a high lie-burden makes the next lie harder (the noose). PLACEHOLDER.
+    moral_guilt: -0.5         # guilt inhibits lying. PLACEHOLDER.
+  deflect:
+    moral_load: 0.8           # when the lie-burden is high, dodge rather than add a fresh lie. PLACEHOLDER.
+    moral_exposure: 0.4       # and when exposed. PLACEHOLDER.
 
 thresholds:
   react.confess: 0.30
   react.remain_silent: 0.30
+  react.lie: 0.30
+  react.deflect: 0.35
   interrupt.confess: 0.80
   interrupt.remain_silent: 0.80
+  interrupt.lie: 0.80
+  interrupt.deflect: 0.80
 
 action_params:
   confess:
@@ -63,3 +83,13 @@ action_params:
   remain_silent:
     post_effects:
       global: {}                # silence maintains the secret -- no relief
+  lie:
+    post_effects:
+      global:
+        cognitive_load_from_lies: 0.20  # M-J.1: each lie adds maintenance burden (finite deposit). PLACEHOLDER.
+        guilt: 0.08                     # lying adds a little guilt. PLACEHOLDER.
+        exposure_anxiety: 0.06          # ...and a little more risk of being caught. PLACEHOLDER.
+  deflect:
+    post_effects:
+      global:
+        cognitive_load_from_lies: 0.05  # dodging is lighter than a fresh lie, but not free. PLACEHOLDER.
