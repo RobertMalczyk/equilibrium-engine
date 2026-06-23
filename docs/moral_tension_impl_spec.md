@@ -618,7 +618,14 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
    **DEFERRED (documented, not built):** `LieRecord` ledger, `consistency_debt`, and cross-agent lie
    DETECTION (lie-detected → target anger/resentment/trust-damage) — detection needs the multi-agent
    driver / M-MEM. This slice is the LIAR's internal loop only.
-3. **M-J.2 repair/confide** — `repair_drive`, `rumination`, `confide`/`apologize`/`reparation`.
+3. **M-J.2 repair/rumination — ✅ IMPLEMENTED (`apologize`; `confide` split DEFERRED).** States
+   `repair_drive` + `rumination` (opt-in); couplings guilt→repair_drive(+), guilt→rumination(+),
+   rumination→stress(+)/fatigue(+); action `apologize` keyed on `guilt`×`empathy` (the empathic-repair
+   impulse) + `repair_drive`, relieving guilt/repair_drive/exposure in `post_effects`. **Litmus PROVEN**
+   (`tests/test_moral_repair.py`): on the SAME scenario an EMPATHIC guilt-prone persona APOLOGIZES (makes
+   amends) while a DETACHED one merely CONFESSES; rumination builds from guilt as a bounded integrator that
+   couples to stress/fatigue (feed-forward → anger⇄stress Jury margin unchanged). **DEFERRED:** the
+   `confide` safe-vs-gossip-prone split (needs a confidant target + `gossip_tendency`) and `reparation`.
 4. **M-J.3 accusation/suspicion** — `perceived_injustice`, `suspicion`, multi-agent driver (**needs M-MEM**).
 5. **M-J.4 full ledger + calibration grid + scoped corpus**.
 

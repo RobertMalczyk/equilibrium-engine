@@ -5,8 +5,9 @@
 > with the spec `moral_tension_impl_spec.md` and (once implemented) `engine/update.py` /
 > `engine/potentials.py` / `engine/simulation.py`.
 >
-> **Status: M-J.0 (guilt core) + M-J.1 (lie loop: `cognitive_load_from_lies`, `lie`/`deflect`) IMPLEMENTED
-> as an opt-in overlay; M-J.2–.4 are topology-only (the `LieRecord` ledger + lie detection are deferred).** Per
+> **Status: M-J.0 (guilt core) + M-J.1 (lie loop) + M-J.2 (`repair_drive`/`rumination`/`apologize`)
+> IMPLEMENTED as an opt-in overlay; M-J.3–.4 are topology-only (the `LieRecord` ledger, lie detection,
+> and the `confide` safe-vs-gossip split are deferred).** Per
 > "topology now, constants from calibration" every gain/half-life is a **named config placeholder**, not a
 > chosen number. The full moral topology (all of M-J.0–.4) is drawn here so calibration tunes a fixed
 > structure; the ★ nodes/edges are wired and litmus-proven (`tests/test_moral_guilt_core.py`,

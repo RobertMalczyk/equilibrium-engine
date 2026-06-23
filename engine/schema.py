@@ -36,6 +36,9 @@ GLOBAL_STATES: tuple[str, ...] = (
     "cognitive_load_from_lies",  # M-J.1: the burden of maintaining a lie. Rises when the persona LIES;
     # couples -> stress, fatigue (the self-tightening noose). Self-limits lying (a high load makes the
     # next lie harder). Medium half-life. Opt-in like the other moral states.
+    "repair_drive",  # M-J.2: the urge to make amends. Rises from guilt; drives apologize/repair. Slow.
+    "rumination",  # M-J.2: replaying the moral conflict. Rises from guilt; couples -> stress, fatigue
+    # (keeps the burden alive between events -- "can't stop thinking about it"). Slow.
 )
 
 RELATION_DIMS: tuple[str, ...] = ("trust", "respect", "resentment")
@@ -76,17 +79,24 @@ POTENTIAL_NAMES: tuple[str, ...] = (
     "lie",  # M-J.1: actively deceive. Books cognitive_load_from_lies (+ guilt + exposure risk); rises with
     # exposure_anxiety and low honesty_humility, self-limited by the load it creates.
     "deflect",  # M-J.1: dodge the question without an outright lie. Rises with cognitive_load + exposure_anxiety.
+    "apologize",  # M-J.2: make amends. Rises with repair_drive (empathy-gated); relieves guilt + repair_drive.
 )
 
 # --- M-J moral vocab subsets (used by the loader/guards to keep the overlay opt-in and byte-identical).
 MORAL_STATES: frozenset[str] = frozenset(
-    {"guilt", "exposure_anxiety", "cognitive_load_from_lies"}
+    {
+        "guilt",
+        "exposure_anxiety",
+        "cognitive_load_from_lies",
+        "repair_drive",
+        "rumination",
+    }
 )
 MORAL_TRAITS: frozenset[str] = frozenset(
     {"empathy", "guilt_proneness", "shame_sensitivity", "honesty_humility"}
 )
 MORAL_POTENTIALS: frozenset[str] = frozenset(
-    {"confess", "remain_silent", "lie", "deflect"}
+    {"confess", "remain_silent", "lie", "deflect", "apologize"}
 )
 
 # --- Enums -------------------------------------------------------------------------
