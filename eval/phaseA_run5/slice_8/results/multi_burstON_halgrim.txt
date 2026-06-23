@@ -1,0 +1,10 @@
+halgrim_multi_burstON_081: PASS -- calm days, kindnesses received warmly, sleeps and resets fine
+halgrim_multi_burstON_082: PASS -- Wojsław pressure accumulates over days, cold responses fit profile
+halgrim_multi_burstON_083: PASS -- quiet days, minimal provocation, settled and sane throughout
+halgrim_multi_burstON_084: PASS -- rain plus mockery build tension, wakes settled after sleep
+halgrim_multi_burstON_085: PASS -- sustained Wojsław pressure over days, residual tension plausible
+halgrim_multi_burstON_086: PASS -- varied days, rain and commands cause edge, recovers well
+halgrim_multi_burstON_087: PASS -- Wojsław mockery escalates seething, residual carry-over believable
+halgrim_multi_burstON_088: PASS -- multi-day Wojsław mockery accumulates, sustained tension fits
+halgrim_multi_burstON_089: PASS -- calm then Wojsław builds tension day three, pacing sane
+halgrim_multi_burstON_090: PASS -- four rapid mockeries seething day one, residual next day plausible

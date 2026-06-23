@@ -1,0 +1,10 @@
+edda_multi_burstON_051: PASS -- calm authority, sane pacing, mock absorbed without escalation
+edda_multi_burstON_052: PASS -- orders refused or grumbled; mild complaint Day 6 plausible
+edda_multi_burstON_053: PASS -- mock causes brief tension, resolves naturally within hours
+edda_multi_burstON_054: PASS -- positive days, mock absorbed, sane sleep/wake cycle
+edda_multi_burstON_055: PASS -- dense kindnesses Day 3 but pacing otherwise sane
+edda_multi_burstON_056: PASS -- two rapid orders Day 4 morning; second draws grumble, recovers
+edda_multi_burstON_057: PASS -- kindness-heavy but no absurdities; declines orders composedly
+edda_multi_burstON_058: PASS -- mock triggers brief edge, clears; firm refusal fits castellan
+edda_multi_burstON_059: PASS -- varied order responses, settled baseline, sane across 4 days
+edda_multi_burstON_060: PASS -- very calm; strangers ordering castellan handled with reserve

@@ -1,0 +1,10 @@
+branic_day_burstON_031: PASS -- Temper builds through Halgrim mockery, fades overnight.
+branic_day_burstON_032: PASS -- Calm day with kindnesses; evening edge plausible.
+branic_day_burstON_033: PASS -- Steady day, tension drifts up late, sleeps it off.
+branic_day_burstON_034: PASS -- Marta-heavy kindness day; mild evening edge, recovers.
+branic_day_burstON_035: PASS -- Mockery absorbed quietly; residual temper at night believable.
+branic_day_burstON_036: PASS -- Snaps at Halgrim order after long tension build; fits profile.
+branic_day_burstON_037: FLAG -- Erupts twice then refuses an order; escalation steep for one day.
+branic_day_burstON_038: PASS -- Quiet day, mild evening edge, no jarring events.
+branic_day_burstON_039: PASS -- Late eruption after accumulation of mockery; warms quickly after.
+branic_day_burstON_040: PASS -- No trigger visible for evening temper residual, but plausible drift.

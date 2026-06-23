@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_081: PASS -- flares early, settles, erupts at night; coherent arc
+wojslaw_day_burstOFF_082: PASS -- escalating provocations drive fury; recovery and sleep clean
+wojslaw_day_burstOFF_083: PASS -- morning bristle, midday calm, evening defiance; sane pacing
+wojslaw_day_burstOFF_084: FLAG -- ignores early mock then erupts later with no clear trigger escalation
+wojslaw_day_burstOFF_085: PASS -- multiple provocations accumulate; fury rises plausibly through evening
+wojslaw_day_burstOFF_086: PASS -- lets first mock pass, erupts at second in public; fits profile
+wojslaw_day_burstOFF_087: PASS -- quiet day, declines order, snaps at mock; proportionate and sane
+wojslaw_day_burstOFF_088: PASS -- repeated evening provocations drive escalating fury; coherent
+wojslaw_day_burstOFF_089: PASS -- warm morning, afternoon eruption, evening spiral; believable arc
+wojslaw_day_burstOFF_090: PASS -- absorbs several orders calmly, erupts at public mock; fits character

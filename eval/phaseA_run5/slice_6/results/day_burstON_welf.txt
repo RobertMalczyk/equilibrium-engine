@@ -1,0 +1,10 @@
+welf_day_burstON_061: PASS -- steady day, boredom cycles, late-night mild tension plausible
+welf_day_burstON_062: PASS -- mock let pass, kindnesses received well, late tension fits idle man
+welf_day_burstON_063: PASS -- two soups, mock shrugged off, pacing and rest credible
+welf_day_burstON_064: PASS -- well-fed day, boredom rises and resolves, no jarring moments
+welf_day_burstON_065: PASS -- mocks ignored, stays even-keeled, late restlessness fits the profile
+welf_day_burstON_066: PASS -- mock in public let pass cleanly, rhythm of rest and ease solid
+welf_day_burstON_067: PASS -- evening tension resolves after kindness, pacing and recovery sane
+welf_day_burstON_068: PASS -- late-night edge without provocation mild, overall credible idle day
+welf_day_burstON_069: PASS -- well-supported day, late restlessness pushes bedtime slightly, sane
+welf_day_burstON_070: PASS -- late tension without obvious trigger but within idle-man profile

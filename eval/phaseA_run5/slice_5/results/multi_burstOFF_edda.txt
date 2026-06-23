@@ -1,0 +1,10 @@
+edda_multi_burstOFF_051: PASS -- settled castellan, warm to kindness, authority shown daily
+edda_multi_burstOFF_052: PASS -- composed across six days, mild complaint after repeated orders
+edda_multi_burstOFF_053: PASS -- brief tension after public mock resolves naturally
+edda_multi_burstOFF_054: PASS -- consistently settled, deflects demands, no jarring moments
+edda_multi_burstOFF_055: PASS -- sane pacing, public mock ignored, warmth to kindness
+edda_multi_burstOFF_056: PASS -- grumble after two rapid orders in ten minutes plausible
+edda_multi_burstOFF_057: PASS -- composed throughout, declines orders asserting authority
+edda_multi_burstOFF_058: PASS -- brief tension after mocks resolves quickly each time
+edda_multi_burstOFF_059: PASS -- graduated responses to orders, settled baseline maintained
+edda_multi_burstOFF_060: PASS -- quiet days, placid but consistent with composed castellan

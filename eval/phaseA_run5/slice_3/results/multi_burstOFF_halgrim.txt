@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_031: PASS -- tension builds through Wojslaw, cold responses, correct hierarchy
+halgrim_multi_burstOFF_032: PASS -- calm baseline, appropriate Wojslaw declines, sane pacing
+halgrim_multi_burstOFF_033: PASS -- Day 5 grind bleeds into Edda curtness, earned by accumulated pressure
+halgrim_multi_burstOFF_034: PASS -- clean rhythm, calm baseline, Wojslaw declines without escalation
+halgrim_multi_burstOFF_035: PASS -- rain stressor and Wojslaw handled credibly, Day 3 quiet recovery
+halgrim_multi_burstOFF_036: PASS -- 5-day grind arc convincing, Edda curtness late earned by Day 5 load
+halgrim_multi_burstOFF_037: PASS -- very calm multi-day, peaceful but not implausible, sane
+halgrim_multi_burstOFF_038: PASS -- 6-day arc sound, double seething Day 6 after two rapid provocations
+halgrim_multi_burstOFF_039: PASS -- heavy Day 5-6 Wojslaw pressure; escalation arc believable
+halgrim_multi_burstOFF_040: FLAG -- mutter followed immediately by "still seething" mismatched intensity

@@ -1,0 +1,10 @@
+cichy_day_burstOFF_031: PASS -- calm day, mild bristle at mock, settles by night
+cichy_day_burstOFF_032: PASS -- provoked twice late evening, fury fits accumulated tension
+cichy_day_burstOFF_033: PASS -- quiet day, curt at afternoon soup, settles without incident
+cichy_day_burstOFF_034: PASS -- stranger's kindness taken warmly, guards met neutrally
+cichy_day_burstOFF_035: PASS -- erupts at mock after tense afternoon, stranger softens him
+cichy_day_burstOFF_036: PASS -- repeated mocking drives escalating anger through evening
+cichy_day_burstOFF_037: PASS -- tense afternoon, no provocation, settles quietly by night
+cichy_day_burstOFF_038: PASS -- two fury eruptions under sustained mocking, believable arc
+cichy_day_burstOFF_039: PASS -- snaps once at mock, curt at later soup, tense but contained
+cichy_day_burstOFF_040: PASS -- mild throughout, curt responses, bristles at late-night mock

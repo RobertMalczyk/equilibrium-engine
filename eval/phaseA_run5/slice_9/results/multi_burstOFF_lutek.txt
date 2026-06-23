@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_091: PASS -- sane restless-seek cycle, mild late tension, recovers
+lutek_multi_burstOFF_092: PASS -- warmth to kindnesses throughout, pacing believable
+lutek_multi_burstOFF_093: PASS -- dense kindness cluster day 4 eventful but not absurd
+lutek_multi_burstOFF_094: PASS -- late sleep day 1 fits restless poet, tension resolves
+lutek_multi_burstOFF_095: PASS -- late tension from restless buildup, wakes recovered
+lutek_multi_burstOFF_096: PASS -- mocks ignored correctly, tension resolves after help
+lutek_multi_burstOFF_097: PASS -- morning kindness cluster warmly received, pacing sane
+lutek_multi_burstOFF_098: PASS -- tension resolves with soup and rest, day 3 cluster fine
+lutek_multi_burstOFF_099: PASS -- consistent late-night tension pattern, resolves each day
+lutek_multi_burstOFF_100: PASS -- tense display before kindness registers, resolves quickly

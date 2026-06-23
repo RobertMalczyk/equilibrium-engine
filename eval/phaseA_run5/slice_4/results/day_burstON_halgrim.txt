@@ -1,0 +1,10 @@
+halgrim_day_burstON_041: PASS -- calm day, fed thrice, sleeps well, no issues
+halgrim_day_burstON_042: PASS -- Wojsław barb met with cold curtness, fits profile
+halgrim_day_burstON_043: PASS -- repeated Wojsław provocations escalate tension, resolves overnight
+halgrim_day_burstON_044: PASS -- declines Wojsław orders, slight late tension, believable
+halgrim_day_burstON_045: PASS -- lets Wojsław mock pass, tension rises briefly, plausible
+halgrim_day_burstON_046: PASS -- tension after rest oddly quick but within range
+halgrim_day_burstON_047: PASS -- quiet day, kindnesses received warmly, declines Wojsław late
+halgrim_day_burstON_048: PASS -- mutters at Edda order; slight edge, recovers by end
+halgrim_day_burstON_049: PASS -- tense after rest mid-day, settles; soup helps, fits
+halgrim_day_burstON_050: PASS -- Wojsław barbs accumulate tension by evening, sleeps it off

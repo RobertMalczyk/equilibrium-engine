@@ -1,0 +1,10 @@
+halgrim_multi_burstON_011: PASS -- credible Wojslaw-driven buildup, appropriate cold responses
+halgrim_multi_burstON_012: PASS -- quiet days punctuated by Wojslaw, sane recovery each morning
+halgrim_multi_burstON_013: PASS -- escalating mocks handled with rising curtness, resets overnight
+halgrim_multi_burstON_014: PASS -- burst bleeds onto Edda mid-escalation, within burst-ON tolerance
+halgrim_multi_burstON_015: FLAG -- contempt at Edda order (Day 5 14:16) jars with his respect for her
+halgrim_multi_burstON_016: PASS -- four calm days, controlled refusals of Wojslaw, sane pacing
+halgrim_multi_burstON_017: PASS -- rain stressor plus Wojslaw, burst bleeds onto Edda once, plausible
+halgrim_multi_burstON_018: PASS -- long residual seething after Wojslaw consistent with burst-ON
+halgrim_multi_burstON_019: PASS -- mostly settled, minor grumbles at provocations, fits iron control
+halgrim_multi_burstON_020: PASS -- rain watch builds tension quietly, recovery sane, no jarring moments

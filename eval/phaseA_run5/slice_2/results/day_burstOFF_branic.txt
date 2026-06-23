@@ -1,0 +1,10 @@
+branic_day_burstOFF_021: PASS -- Restless young recruit, normal boredom cycles, sleeps well.
+branic_day_burstOFF_022: PASS -- Active day, kindness received warmly, sane pacing throughout.
+branic_day_burstOFF_023: PASS -- Steady rhythm, boredom and rest cycles plausible, wakes settled.
+branic_day_burstOFF_024: PASS -- Multiple kindnesses lift mood, ignores one order believably.
+branic_day_burstOFF_025: PASS -- Two barbed remarks, tension rises then eases after kindness.
+branic_day_burstOFF_026: PASS -- Busy day, Marta frequent, tension spike then settles normally.
+branic_day_burstOFF_027: PASS -- Quiet day, mild tension at 20:03, soup settles him back.
+branic_day_burstOFF_028: PASS -- Many orders, tense mid-morning, recovers by afternoon, sane arc.
+branic_day_burstOFF_029: PASS -- Mocks build tension midday, Marta's soup restores ease by night.
+branic_day_burstOFF_030: PASS -- Three rapid orders create tension, kindnesses restore calm, normal close.

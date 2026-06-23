@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_051: PASS -- calm start, mocks trigger fury, recovers and sleeps normally
+wojslaw_multi_burstON_052: PASS -- kindness-heavy days, eruptions on provocation, sane multi-day arc
+wojslaw_multi_burstON_053: PASS -- burst-dense but all eruptions provoked, wakes settled each day
+wojslaw_multi_burstON_054: PASS -- quiet day one, escalates on day two mocks, sane recovery
+wojslaw_multi_burstON_055: PASS -- single eruptions per day, proportionate to provocation, sane pacing
+wojslaw_multi_burstON_056: PASS -- heavy provocation load, many eruptions, wakes calm each morning
+wojslaw_multi_burstON_057: PASS -- escalating days, grumbles at kindness when wound up, believable
+wojslaw_multi_burstON_058: PASS -- calm day one, burst day two, quiet recovery on day three
+wojslaw_multi_burstON_059: PASS -- alternating heavy and calm days, eruptions all provoked by mocks
+wojslaw_multi_burstON_060: PASS -- relentless mockery across three days, sustained temper fits profile

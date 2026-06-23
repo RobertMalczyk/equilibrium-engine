@@ -1,0 +1,10 @@
+halgrim_multi_burstON_001: PASS -- steady accumulation, Marta warmth offsets, resets each morning
+halgrim_multi_burstON_002: PASS -- rain wears him down, Edda/Wojslaw orders draw complaints, recovers
+halgrim_multi_burstON_003: PASS -- quiet stretch then busy Day 3, complaints under load, sane arc
+halgrim_multi_burstON_004: PASS -- Wojslaw escalation earns cold contempt, rain day sustains tension
+halgrim_multi_burstON_005: PASS -- four quick mocks yield escalating curtness, burst plausible
+halgrim_multi_burstON_006: PASS -- mostly calm, Day 4 rain and Wojslaw draw declines and murmur
+halgrim_multi_burstON_007: FLAG -- cold contempt directed at respected Edda, Day 1 22:46 burst spillover
+halgrim_multi_burstON_008: PASS -- heavy Wojslaw barrage, seething sustained, wakes settled, burst-ON fits
+halgrim_multi_burstON_009: PASS -- rain plus Wojslaw accumulate; Edda spillover borderline but within burst
+halgrim_multi_burstON_010: FLAG -- contempt at Edda repeated across days 3-5, too frequent for man who respects her

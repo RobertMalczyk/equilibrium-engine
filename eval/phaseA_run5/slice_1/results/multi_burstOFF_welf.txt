@@ -1,0 +1,10 @@
+welf_multi_burstOFF_011: PASS -- steady merchant, boredom cycles, kindness received warmly
+welf_multi_burstOFF_012: PASS -- multi-day rhythm holds, rain/tension brief, recovers well
+welf_multi_burstOFF_013: PASS -- even-keeled throughout, barb at 22:52 brushed off correctly
+welf_multi_burstOFF_014: PASS -- late-night tension passes, sane pacing across five days
+welf_multi_burstOFF_015: PASS -- rain day handled, boredom/rest cycles believable throughout
+welf_multi_burstOFF_016: PASS -- brief bristle under rain+barb plausible, settles quickly
+welf_multi_burstOFF_017: PASS -- calm three days, barbs ignored, restlessness cycles normal
+welf_multi_burstOFF_018: PASS -- steady rhythm, no anger, boredom and kindness balanced
+welf_multi_burstOFF_019: PASS -- six days, rain days handled, mild tension resolves cleanly
+welf_multi_burstOFF_020: PASS -- long run, composed throughout, barbs ignored, sane pacing

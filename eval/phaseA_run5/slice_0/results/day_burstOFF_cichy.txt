@@ -1,0 +1,10 @@
+cichy_day_burstOFF_001: PASS -- tense captive, mocks trigger anger, night resets fine
+cichy_day_burstOFF_002: PASS -- anger at mock, bristles at soup after; believable arc
+cichy_day_burstOFF_003: PASS -- quiet day, curt at soup, sane pacing throughout
+cichy_day_burstOFF_004: PASS -- warms to stranger, still erupts at guard mock; coherent
+cichy_day_burstOFF_005: PASS -- midday eruption, sustained tension after, sane recovery
+cichy_day_burstOFF_006: FLAG -- lets mock pass with no reaction; too mild for this captive
+cichy_day_burstOFF_007: PASS -- fury at mock, warms to stranger later; fits profile
+cichy_day_burstOFF_008: PASS -- two mocks, two flare-ups; accepts soup calmly in between
+cichy_day_burstOFF_009: PASS -- curt at soup, snaps at late-night mock; sane day arc
+cichy_day_burstOFF_010: PASS -- bristles then erupts at mocks; guard soup still raises edge

@@ -1,0 +1,10 @@
+halgrim_multi_burstON_041: PASS -- calm days, Wojsław friction resolved, fits profile
+halgrim_multi_burstON_042: PASS -- escalating Wojsław pressure, slow burn carries plausibly
+halgrim_multi_burstON_043: PASS -- rain day mild, Day 2 resets, clean arc
+halgrim_multi_burstON_044: PASS -- busy Day 2 tension, full reset Day 3, sane
+halgrim_multi_burstON_045: PASS -- mostly positive, late Wojsław mocks get measured response
+halgrim_multi_burstON_046: PASS -- rain Day 2 carry long but within burst tolerance
+halgrim_multi_burstON_047: PASS -- sustained Wojsław campaign, wakes fresh, degrades each day
+halgrim_multi_burstON_048: PASS -- Edda cross-bleed at peak tension is consistent
+halgrim_multi_burstON_049: PASS -- relentless Wojsław harassment, latch sustained, morning resets hold
+halgrim_multi_burstON_050: PASS -- escalating multi-day, Edda bleed at high tension plausible

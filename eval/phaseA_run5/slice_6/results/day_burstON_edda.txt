@@ -1,0 +1,10 @@
+edda_day_burstON_061: PASS -- composed castellan absorbs mockery and orders without breaking
+edda_day_burstON_062: PASS -- steady day, warm to repeated kindnesses, no jarring notes
+edda_day_burstON_063: PASS -- mild tension under repeated barbs, settles by evening, fits profile
+edda_day_burstON_064: PASS -- uneventful positive day, calm authority at end of night
+edda_day_burstON_065: PASS -- quiet day, warmth to staff, composed throughout
+edda_day_burstON_066: PASS -- obeys stranger early then settles; sane pacing, no contradiction
+edda_day_burstON_067: PASS -- steady day, ignores single barb, warm to Marta late
+edda_day_burstON_068: PASS -- brushes off early mock, warms through day, settled close
+edda_day_burstON_069: PASS -- mild edge after second barb, soup softens it, recovers
+edda_day_burstON_070: PASS -- calm day, ignores order, takes charge at night as expected

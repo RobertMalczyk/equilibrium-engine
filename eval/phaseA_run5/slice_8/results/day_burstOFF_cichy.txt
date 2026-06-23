@@ -1,0 +1,10 @@
+cichy_day_burstOFF_081: PASS -- calm morning, curt by afternoon, plausible arc
+cichy_day_burstOFF_082: PASS -- quiet day, mild tension builds, settles before sleep
+cichy_day_burstOFF_083: PASS -- erupts at evening mock, snaps again late, believable
+cichy_day_burstOFF_084: PASS -- two fury eruptions after repeated mocking, fits profile
+cichy_day_burstOFF_085: PASS -- uneventful day, tension mid-afternoon, calm return
+cichy_day_burstOFF_086: PASS -- snaps at evening mock, settles after soup, coherent
+cichy_day_burstOFF_087: PASS -- early snap, full eruption midday, calms by evening
+cichy_day_burstOFF_088: PASS -- erupts at guard mock after stranger's kindness, plausible
+cichy_day_burstOFF_089: PASS -- early fury, second eruption evening, soup taken calmly
+cichy_day_burstOFF_090: PASS -- two curt responses to guard, no full eruption, fine

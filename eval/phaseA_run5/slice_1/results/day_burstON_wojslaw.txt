@@ -1,0 +1,10 @@
+wojslaw_day_burstON_011: PASS -- erupts at public insults, thanks Marta, temper fades by evening
+wojslaw_day_burstON_012: PASS -- stays tense after public mockery, settles naturally by night
+wojslaw_day_burstON_013: PASS -- calm morning with kindnesses, single public insult triggers fury, recovers
+wojslaw_day_burstON_014: PASS -- multiple public insults pile up, stays irritable through evening
+wojslaw_day_burstON_015: PASS -- snaps at mockery, defies orders, residual temper at 20:03 believable
+wojslaw_day_burstON_016: FLAG -- mutters complaints at kindnesses (15:24, 15:28); prickly man but odd reaction
+wojslaw_day_burstON_017: PASS -- mild day, flares at public mockery, orders declined without explosion
+wojslaw_day_burstON_018: PASS -- morning mockery escalates to fury, long-lasting edge, recovers after sleep
+wojslaw_day_burstON_019: PASS -- unusually calm day; late-evening insult triggers fury, coherent pacing
+wojslaw_day_burstON_020: PASS -- storm of insults and orders mid-day, sustained temper, wakes settled

@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_071: PASS -- calm days, tension from mocks, sleep resets, coherent arc
+cichy_multi_burstOFF_072: PASS -- rain day spikes irritability, double mock eruption plausible
+cichy_multi_burstOFF_073: PASS -- rain and mocks raise tension, days 3-4 recover normally
+cichy_multi_burstOFF_074: PASS -- two eruptions on mock-heavy day, stranger warmth intact
+cichy_multi_burstOFF_075: PASS -- heavy mock load across days, rapid post-eruption calm borderline
+cichy_multi_burstOFF_076: PASS -- quiet stretch, tense afternoons, no provocations, coherent
+cichy_multi_burstOFF_077: PASS -- two eruptions 2 minutes apart unusual but guards piling on
+cichy_multi_burstOFF_078: PASS -- two soup deliveries 34 min apart minor, overall arc coherent
+cichy_multi_burstOFF_079: PASS -- rain day eruptions, stranger calms him, late mock only bristles
+cichy_multi_burstOFF_080: PASS -- heavy day-3 mock barrage, two close soups recur, arc holds

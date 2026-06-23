@@ -1,0 +1,10 @@
+welf_multi_burstON_031: PASS -- snap under accumulated tension after multi-day wear, recovers well
+welf_multi_burstON_032: PASS -- steady rhythm, rain and boredom cycle resolves each day
+welf_multi_burstON_033: PASS -- late night work, sane pacing, mornings tense from boredom
+welf_multi_burstON_034: PASS -- one snap under mockery after idleness buildup, quick recovery
+welf_multi_burstON_035: PASS -- two mockeries leave residual temper, dampened warmth next day, recovers
+welf_multi_burstON_036: PASS -- Day 2 snap plausible, late nights coherent, calm Days 3 and 6
+welf_multi_burstON_037: PASS -- kindness-rich Day 1, routine boredom tension Day 2, clean Day 3
+welf_multi_burstON_038: PASS -- short sleep Day 3 but not absurd, tense morning resolves with soup
+welf_multi_burstON_039: PASS -- rain plus boredom plus mockeries, composed man holds throughout
+welf_multi_burstON_040: PASS -- good Day 2 streak, rain Day 3 wears him down, steady recovery

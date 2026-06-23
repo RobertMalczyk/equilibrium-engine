@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_091: PASS -- calm stretch, flares only when publicly mocked
+wojslaw_multi_burstON_092: PASS -- barrage of mocks drives escalating eruptions, resets nightly
+wojslaw_multi_burstON_093: PASS -- mostly positive stretch, flares appropriately when mocked
+wojslaw_multi_burstON_094: PASS -- six-day provocation arc, sleep resets, sustained tension fits
+wojslaw_multi_burstON_095: PASS -- day-to-day variation, erupts under public mocks, resets nightly
+wojslaw_multi_burstON_096: PASS -- calm days punctuated by eruptions when publicly mocked
+wojslaw_multi_burstON_097: PASS -- heavy provocation each day, erupts repeatedly, sleep resets work
+wojslaw_multi_burstON_098: PASS -- mocks drive eruptions, tense afternoons, calm Day 3 fits
+wojslaw_multi_burstON_099: PASS -- dense Day 2 mocking produces multiple eruptions, plausible
+wojslaw_multi_burstON_100: PASS -- calm Day 2 respite believable, erupts when mocked Days 1 and 3

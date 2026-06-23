@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_031: PASS -- erupts at public slights, calms between, sleep resets correctly
+wojslaw_multi_burstOFF_032: PASS -- repeated provocations build sustained tension across days
+wojslaw_multi_burstOFF_033: PASS -- erupts early when mocked twice in quick succession, fits profile
+wojslaw_multi_burstOFF_034: PASS -- seething noted after mockery, calm day 3 plausible with no provocations
+wojslaw_multi_burstOFF_035: PASS -- moderate arc, snaps when mocked, calms between incidents
+wojslaw_multi_burstOFF_036: PASS -- peaceful day 1 with no provocations, erupts when mocked later
+wojslaw_multi_burstOFF_037: PASS -- Marta's kindnesses soften him; erupts when mocked despite goodwill
+wojslaw_multi_burstOFF_038: PASS -- unusually calm stretch but Marta attentive; erupts once when provoked publicly
+wojslaw_multi_burstOFF_039: PASS -- kindness buffers him; still erupts at public mockery as expected
+wojslaw_multi_burstOFF_040: PASS -- day 5 barrage of eruptions driven by relentless provocations, plausible

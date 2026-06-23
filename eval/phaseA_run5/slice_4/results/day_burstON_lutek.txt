@@ -1,0 +1,10 @@
+lutek_day_burstON_041: PASS -- restless poet, easy warmth, mock rolls off, sleeps late
+lutek_day_burstON_042: PASS -- steady rhythm, mild evening tension resolves, believable pacing
+lutek_day_burstON_043: PASS -- mock ignored, warmth to soup, tense spell clears, sane day
+lutek_day_burstON_044: PASS -- active restless cycle, evening tension, sleeps and wakes settled
+lutek_day_burstON_045: PASS -- mock shrugged off, warm responses, good day rhythm, early wake
+lutek_day_burstON_046: PASS -- tension evening, mocks ignored, settles by midnight, sane arc
+lutek_day_burstON_047: PASS -- Marta-heavy day, warmth throughout, tense evening clears, normal
+lutek_day_burstON_048: PASS -- active morning, tense evening resolves, sleeps and wakes fresh
+lutek_day_burstON_049: PASS -- mocks pass without bite, tension at dusk, clears by night
+lutek_day_burstON_050: PASS -- restless bursts, tension mid-eve resolves with kindness, clean arc

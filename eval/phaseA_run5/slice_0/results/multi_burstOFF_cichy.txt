@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_001: PASS -- calm mornings, provoked eruptions, sleep resets hold
+cichy_multi_burstOFF_002: PASS -- heavy mock day one, each eruption guard-triggered, plausible
+cichy_multi_burstOFF_003: PASS -- stranger kindness warmly taken, guard resentment separate
+cichy_multi_burstOFF_004: PASS -- early calm absorbs mock, fury later when worn down
+cichy_multi_burstOFF_005: PASS -- quiet three days, reactions proportional to provocations
+cichy_multi_burstOFF_006: PASS -- double soup delivery minor, reactions fit guard resentment
+cichy_multi_burstOFF_007: PASS -- escalating day one mocks, calm mornings reset correctly
+cichy_multi_burstOFF_008: PASS -- heavy day two provocations, anger decays overnight cleanly
+cichy_multi_burstOFF_009: PASS -- extreme day three mocks drive five outbursts, each triggered
+cichy_multi_burstOFF_010: PASS -- four mock-heavy days, morning calm absorbs early taunts

@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_071: PASS -- sane 6-day arc, Wojsław friction escalates appropriately
+halgrim_multi_burstOFF_072: PASS -- calm uneventful days, one curt reply to Wojsław fits
+halgrim_multi_burstOFF_073: PASS -- Wojsław orders met with escalating resistance, plausible
+halgrim_multi_burstOFF_074: PASS -- sustained Wojsław friction, cold contempt fits worn-down profile
+halgrim_multi_burstOFF_075: PASS -- mostly calm, late-night Edda grumble after many orders believable
+halgrim_multi_burstOFF_076: PASS -- quiet then rain-day tension, Wojsław contempt coherent
+halgrim_multi_burstOFF_077: PASS -- heavy Wojsław barrage, escalating coldness, recovers next day
+halgrim_multi_burstOFF_078: PASS -- midday Wojsław cluster causes seething, Edda spillover plausible
+halgrim_multi_burstOFF_079: PASS -- very calm stretch, two Wojsław mocks let pass, fits profile
+halgrim_multi_burstOFF_080: PASS -- day 4 Wojsław barrage escalates to contempt, Edda spillover fits

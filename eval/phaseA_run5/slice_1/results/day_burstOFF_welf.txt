@@ -1,0 +1,10 @@
+welf_day_burstOFF_011: PASS -- calm man, boredom cycles, mild tension after mockery, sane
+welf_day_burstOFF_012: PASS -- steady pacing, kindnesses warmly received, sleeps on time
+welf_day_burstOFF_013: PASS -- two soups close together early but otherwise sane day
+welf_day_burstOFF_014: PASS -- even-keeled, boredom rises and resolves, no jarring moments
+welf_day_burstOFF_015: PASS -- calm rhythm, kindnesses lift him, rest and work balanced
+welf_day_burstOFF_016: PASS -- predictable boredom cycles, no aggression, sane pacing throughout
+welf_day_burstOFF_017: PASS -- brief tension at 20:00 fades; still working at 22:46, plausible
+welf_day_burstOFF_018: PASS -- mild tension evening, resolves quickly; late work but sleeps fine
+welf_day_burstOFF_019: PASS -- smooth day, kindnesses received graciously, no anomalies
+welf_day_burstOFF_020: PASS -- several kindnesses clustered late afternoon, warmly taken, no issue

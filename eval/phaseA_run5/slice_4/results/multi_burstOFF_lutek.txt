@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_041: PASS -- sane 5-day cycle, kindnesses warm, tensions resolve nightly
+lutek_multi_burstOFF_042: PASS -- mockery rolls off, late sleep Day 3 fine for restless poet
+lutek_multi_burstOFF_043: PASS -- repeated soups slightly dense but not absurd, profile intact
+lutek_multi_burstOFF_044: PASS -- kindness then tension marginal but restless character plausible
+lutek_multi_burstOFF_045: PASS -- carry-over tension resolves within a day, active cycle sane
+lutek_multi_burstOFF_046: PASS -- tensions linger into sleep occasionally but recover by morning
+lutek_multi_burstOFF_047: PASS -- tense episodes brief and self-resolving, mocks ignored correctly
+lutek_multi_burstOFF_048: PASS -- past-midnight sleep Day 1 fine, sane pacing across 4 days
+lutek_multi_burstOFF_049: PASS -- muted kindness responses fit thick-skinned profile, pacing sane
+lutek_multi_burstOFF_050: PASS -- evening tensions resolve, mockery ignored, consistent across 4 days

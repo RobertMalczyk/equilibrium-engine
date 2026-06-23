@@ -1,0 +1,10 @@
+edda_multi_burstON_001: PASS -- settled days, regular meals, sane pacing throughout
+edda_multi_burstON_002: PASS -- mild complaint fits; composed under mockery; normal rhythm
+edda_multi_burstON_003: PASS -- steady and warm, authority exercised, nothing jars
+edda_multi_burstON_004: PASS -- variable stranger-order responses plausible across shifting mood
+edda_multi_burstON_005: PASS -- consistent authority, warm to staff, sane multi-day arc
+edda_multi_burstON_006: PASS -- brief complaint appropriate; composed recovery; normal days
+edda_multi_burstON_007: PASS -- double mockery absorbed; varied order responses across long run
+edda_multi_burstON_008: PASS -- curt reply to public mockery fits castellan; otherwise steady
+edda_multi_burstON_009: PASS -- dense afternoon kindnesses unusual but not absurd; sane overall
+edda_multi_burstON_010: PASS -- quiet Day 1 fine; composed under barb and order on Day 3

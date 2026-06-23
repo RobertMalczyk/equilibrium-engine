@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_061: PASS -- Calm day, Wojsław barb absorbed, settles well.
+halgrim_day_burstOFF_062: PASS -- Two Wojsław barbs build mild edge, fades by evening.
+halgrim_day_burstOFF_063: PASS -- Repeated mockery causes curt replies, refuses Wojsław order credibly.
+halgrim_day_burstOFF_064: PASS -- Ignores early barb, answers curtly later; consistent steady character.
+halgrim_day_burstOFF_065: PASS -- Quiet, uneventful day; Wojsław barb absorbed without reaction.
+halgrim_day_burstOFF_066: PASS -- Calm throughout; Wojsław late-evening barb ignored plausibly.
+halgrim_day_burstOFF_067: PASS -- Mid-afternoon edge fades; refuses Wojsław order after rest.
+halgrim_day_burstOFF_068: PASS -- Two Wojsław barbs produce curt replies; slight edge at bedtime.
+halgrim_day_burstOFF_069: PASS -- Steady all day, Edda orders handled, calm throughout.
+halgrim_day_burstOFF_070: PASS -- Marta-rich day, stays settled; Wojsław barb easily absorbed.

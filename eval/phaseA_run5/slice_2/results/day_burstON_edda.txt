@@ -1,0 +1,10 @@
+edda_day_burstON_021: PASS -- settled day, mild irritation at stranger's order, reasonable
+edda_day_burstON_022: PASS -- calm day, consistent warmth to kindnesses, no issues
+edda_day_burstON_023: PASS -- composed throughout, lets barbs pass, fits her character
+edda_day_burstON_024: PASS -- refuses stranger's order plausibly; otherwise settled
+edda_day_burstON_025: PASS -- steady day, receptive to kindness, pacing sane
+edda_day_burstON_026: PASS -- calm, lets orders and mockery pass without reaction
+edda_day_burstON_027: PASS -- refuses order mid-rest; mockery absorbed; overall coherent
+edda_day_burstON_028: PASS -- complies once with order, otherwise calm and warm
+edda_day_burstON_029: PASS -- positive day, many kindnesses acknowledged, pacing fine
+edda_day_burstON_030: PASS -- quiet day, steady warmth, nothing jars

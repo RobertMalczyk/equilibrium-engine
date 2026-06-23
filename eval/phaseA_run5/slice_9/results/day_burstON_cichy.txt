@@ -1,0 +1,10 @@
+cichy_day_burstON_091: PASS -- calm morning, rising tension afternoon, settles by night
+cichy_day_burstON_092: PASS -- sane pacing, curt to guard at midday, settles by evening
+cichy_day_burstON_093: PASS -- mocking provokes fury, cools after, consistent with captive temper
+cichy_day_burstON_094: PASS -- public mockery triggers outburst, residual edge fades plausibly
+cichy_day_burstON_095: PASS -- no incidents, tension builds and ebbs naturally across day
+cichy_day_burstON_096: PASS -- steady low-grade tension all afternoon, settles before sleep
+cichy_day_burstON_097: PASS -- mockery erupts fury, residual temper lingers hours, fits profile
+cichy_day_burstON_098: PASS -- stranger kindness welcomed, guard hostility maintained; coherent dual response
+cichy_day_burstON_099: PASS -- stranger warmth accepted, guards met curtly; tension holds late
+cichy_day_burstON_100: PASS -- morning snap, long-held temper, cold deflection evening; fits captive

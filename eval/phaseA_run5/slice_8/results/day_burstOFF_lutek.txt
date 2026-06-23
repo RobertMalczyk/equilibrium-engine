@@ -1,0 +1,10 @@
+lutek_day_burstOFF_081: PASS -- restless cycle, kindnesses warmly received, sleeps late but reasonable
+lutek_day_burstOFF_082: PASS -- active day, mild tension near midnight, wakes recovered
+lutek_day_burstOFF_083: PASS -- mockery rolls off, warm to kindnesses, evening tension clears before sleep
+lutek_day_burstOFF_084: PASS -- well-fed, steady mood, busy and settled throughout
+lutek_day_burstOFF_085: PASS -- evening tension resolves after soup, sane pacing all day
+lutek_day_burstOFF_086: PASS -- many kindnesses, tension at 20:00 clears, sleeps and wakes easy
+lutek_day_burstOFF_087: PASS -- insults ignored twice, tense late evening, recovers after sleep
+lutek_day_burstOFF_088: PASS -- stays up past midnight but sleeps and pacing is sane
+lutek_day_burstOFF_089: PASS -- mockery shrugged off, tension at 20:00 eases with kindness
+lutek_day_burstOFF_090: PASS -- afternoon tension, no food noted but otherwise coherent pacing

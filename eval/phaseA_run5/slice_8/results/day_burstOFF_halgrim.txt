@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_081: PASS -- tense late after two Wojslaw barbs, recovers cleanly
+halgrim_day_burstOFF_082: PASS -- steady day, mild grumble at Wojslaw, otherwise compliant
+halgrim_day_burstOFF_083: PASS -- late tension after evening mocking, pacing believable
+halgrim_day_burstOFF_084: PASS -- quiet uneventful day, warm to Marta, settled throughout
+halgrim_day_burstOFF_085: PASS -- declines Wojslaw order, lets mock pass; fits iron control
+halgrim_day_burstOFF_086: PASS -- calm day, no provocations, compliant with Edda
+halgrim_day_burstOFF_087: PASS -- sustained Wojslaw pressure builds cold contempt, night resets
+halgrim_day_burstOFF_088: PASS -- brief afternoon edge resolves with kindnesses, settled close
+halgrim_day_burstOFF_089: PASS -- quiet dutiful day, warm to strangers, no tension
+halgrim_day_burstOFF_090: PASS -- two late mocks leave him tense into evening, wakes clear

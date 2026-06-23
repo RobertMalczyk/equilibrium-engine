@@ -1,0 +1,10 @@
+cichy_day_burstON_081: PASS -- tense afternoon, guard mock triggers snap, settles by night
+cichy_day_burstON_082: PASS -- quiet day, mild curtness at guards, sane pacing
+cichy_day_burstON_083: FLAG -- snaps furiously at 22:38 then sleeps calmly two minutes later
+cichy_day_burstON_084: PASS -- repeated mockery accumulates; late snap plausible, recovers overnight
+cichy_day_burstON_085: PASS -- low-key tension building through afternoon, no events, believable drift
+cichy_day_burstON_086: PASS -- mock mid-evening, curtness fits; evening soup accepted, settles fine
+cichy_day_burstON_087: PASS -- early snap after kindness primed him; lingers, eases by night
+cichy_day_burstON_088: PASS -- stranger kindness early, guard mock cold response, sane arc
+cichy_day_burstON_089: FLAG -- erupts in full fury at 06:54, then looks settled at ease by 08:00
+cichy_day_burstON_090: PASS -- slow tension build, curtness at guards, no rest before sleep noted

@@ -1,0 +1,10 @@
+welf_day_burstOFF_041: PASS -- steady day, boredom cycles, slight tension at day's end
+welf_day_burstOFF_042: PASS -- calm pacing, kindnesses received warmly, sleeps settled
+welf_day_burstOFF_043: PASS -- restless cycles, well-fed, composed throughout
+welf_day_burstOFF_044: PASS -- mock let pass easily, stays even-keeled all day
+welf_day_burstOFF_045: PASS -- steady rhythm, boredom rises and falls, no issues
+welf_day_burstOFF_046: PASS -- mock at dawn shrugged off, calm day, late restlessness
+welf_day_burstOFF_047: PASS -- mock let pass after earlier kindness, composed throughout
+welf_day_burstOFF_048: PASS -- boredom cycles well-spaced, rests appropriately, no jarring notes
+welf_day_burstOFF_049: PASS -- mild tension late evening, wakes recovered, fits profile
+welf_day_burstOFF_050: PASS -- two soups close together slightly odd but not absurd

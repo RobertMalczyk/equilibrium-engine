@@ -1,0 +1,10 @@
+branic_multi_burstOFF_091: PASS -- steady escalation from compliance to defiance over six days
+branic_multi_burstOFF_092: PASS -- two eruptions on day 4 each triggered plausibly by public mockery
+branic_multi_burstOFF_093: PASS -- patience holds then frays; refusals accumulate over three days
+branic_multi_burstOFF_094: PASS -- three escalating responses to mocks within hours on day 4
+branic_multi_burstOFF_095: PASS -- quiet cooperative run; late bristle earned by end-of-day pressure
+branic_multi_burstOFF_096: PASS -- snap from public mockery; defiance carries over from day 3 tension
+branic_multi_burstOFF_097: PASS -- triple eruption cluster dense but each individually triggered by Halgrim
+branic_multi_burstOFF_098: PASS -- high-kindness run; cooperative and warm throughout three days
+branic_multi_burstOFF_099: PASS -- slow friction build over five days; refusals deepen believably
+branic_multi_burstOFF_100: PASS -- day 4 near-total defiance steep but earned by accumulated friction

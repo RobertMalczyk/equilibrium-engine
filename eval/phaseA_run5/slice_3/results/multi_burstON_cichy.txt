@@ -1,0 +1,10 @@
+cichy_multi_burstON_031: PASS -- tense captive, mocks trigger anger, sleep resets cleanly
+cichy_multi_burstON_032: PASS -- rain day, tension builds without incident, coherent rhythm
+cichy_multi_burstON_033: PASS -- residual morning tension, Day 3 mocks escalate anger correctly
+cichy_multi_burstON_034: PASS -- public mock eruption, subsequent mocks met curtly after discharge
+cichy_multi_burstON_035: PASS -- carries evening tension into morning, guards met with curtness
+cichy_multi_burstON_036: PASS -- rain and mocks accumulate, eruptions spaced believably across days
+cichy_multi_burstON_037: PASS -- late mock before sleep, wakes settled, Day 3 snap fits
+cichy_multi_burstON_038: PASS -- six days of grinding tension, burst discharges plausible
+cichy_multi_burstON_039: PASS -- stranger kindness noted warmly, guard mocks drive eruption Day 3
+cichy_multi_burstON_040: PASS -- Day 5 residual tension without new provocation fits baseline resentment

@@ -1,0 +1,10 @@
+branic_day_burstON_001: PASS -- restless day, kindnesses received warmly, mild evening irritation, sleeps fine
+branic_day_burstON_002: PASS -- ordinary day, tension rises by evening, settles before sleep
+branic_day_burstON_003: PASS -- calm day with boredom spikes, kindnesses soften late tension, sleeps well
+branic_day_burstON_004: PASS -- quiet day, tension builds late without provocation, sleeps and resets
+branic_day_burstON_005: PASS -- well-fed, busy day, stays settled throughout, sleeps calm
+branic_day_burstON_006: PASS -- steady day, late tension with ignored order, resolves before sleep
+branic_day_burstON_007: PASS -- routine day, late tension eases, wakes recovered
+branic_day_burstON_008: FLAG -- refuses order at 22:14 after barbs; refusal arc plausible but abrupt
+branic_day_burstON_009: PASS -- mocked once, shrugs it off, mild evening tension, wakes settled
+branic_day_burstON_010: PASS -- snaps at Halgrim's public barb, stays tense but complies later

@@ -1,0 +1,10 @@
+branic_multi_burstON_021: PASS -- gradual pressure arc, eruption earned on day 6
+branic_multi_burstON_022: PASS -- rain plus relentless mockery drives sustained defiance
+branic_multi_burstON_023: PASS -- dense day 2 eruptions match dense provocations
+branic_multi_burstON_024: FLAG -- day 1 eruption at calm order with no prior provocation
+branic_multi_burstON_025: PASS -- two-evening burst density matched by heavy provocation load
+branic_multi_burstON_026: PASS -- mid-day provocation cluster earns eruptions, day 3 recovers
+branic_multi_burstON_027: PASS -- slow multi-day pressure buildup, eruptions well-earned
+branic_multi_burstON_028: PASS -- low-provocation run, stays calm and cooperative throughout
+branic_multi_burstON_029: PASS -- day 6 cluster dense but Halgrim hammers him all day
+branic_multi_burstON_030: PASS -- single snap after back-to-back mocks, recovers cleanly

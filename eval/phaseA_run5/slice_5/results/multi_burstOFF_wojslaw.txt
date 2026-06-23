@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_051: PASS -- eruptions follow mocks, days recover cleanly
+wojslaw_multi_burstOFF_052: PASS -- provocation-response proportionate across six days
+wojslaw_multi_burstOFF_053: PASS -- heavy mocking density drives high eruption count
+wojslaw_multi_burstOFF_054: PASS -- calm day one with kindnesses, escalates believably
+wojslaw_multi_burstOFF_055: PASS -- back-to-back mocks trigger rapid escalation plausibly
+wojslaw_multi_burstOFF_056: PASS -- high eruption rate matches relentless provocation pace
+wojslaw_multi_burstOFF_057: PASS -- grumbles at kindness when agitated, night resets hold
+wojslaw_multi_burstOFF_058: PASS -- peaceful day one, turbulence follows when mocks arrive
+wojslaw_multi_burstOFF_059: PASS -- calm day two contrast with provoked days rings true
+wojslaw_multi_burstOFF_060: PASS -- within-day escalation arc and night recovery both sound

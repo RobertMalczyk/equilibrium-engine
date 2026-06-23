@@ -1,0 +1,10 @@
+edda_multi_burstOFF_031: PASS -- composed castellan, sane pacing, sleeps and wakes recovered
+edda_multi_burstOFF_032: PASS -- steady days, mild compliance with strangers fits diplomatic reserve
+edda_multi_burstOFF_033: PASS -- refuses stranger orders twice, fits authority; calm days two and three
+edda_multi_burstOFF_034: PASS -- mild complaints at stranger orders, recovered quickly each time
+edda_multi_burstOFF_035: PASS -- dense kindness clusters early but pacing otherwise sane throughout
+edda_multi_burstOFF_036: PASS -- six calm days, consistent authority, declines or ignores stranger orders
+edda_multi_burstOFF_037: PASS -- one mild complaint day two, otherwise settled and sane
+edda_multi_burstOFF_038: PASS -- many meals but character reactions and pacing remain believable
+edda_multi_burstOFF_039: PASS -- brief morning irritation day five after two provocations, then recovers
+edda_multi_burstOFF_040: PASS -- dense day four activity but all reactions consistent and settled

@@ -1,0 +1,10 @@
+branic_day_burstON_011: PASS -- day winds down naturally, late snap fits tired edge
+branic_day_burstON_012: PASS -- multiple barbs absorbed, mild lingering temper, sane arc
+branic_day_burstON_013: PASS -- eruption after accumulated barbs, settles overnight
+branic_day_burstON_014: PASS -- growing edge evening-ward, midnight sleep, no incident needed
+branic_day_burstON_015: PASS -- repeated late-night orders, holds temper, sleeps clean
+branic_day_burstON_016: PASS -- steady day, evening tension, no outburst, believable
+branic_day_burstON_017: PASS -- bristles at barb, kindness softens, lingers tense, fine
+branic_day_burstON_018: PASS -- well-fed morning, evening edge persists, quiet overnight
+branic_day_burstON_019: PASS -- two barbs too many, erupts, declines order, recovers by dawn
+branic_day_burstON_020: PASS -- uneventful day, evening simmers, very late sleep, sane

@@ -1,0 +1,10 @@
+branic_day_burstON_081: PASS -- restless cycle settles, sleep resets cleanly
+branic_day_burstON_082: PASS -- mocks build tension, late-night snap is earned
+branic_day_burstON_083: PASS -- calm day, tension rises naturally toward night
+branic_day_burstON_084: PASS -- three mocks accumulate to fury, believable escalation
+branic_day_burstON_085: PASS -- kindness-rich day, single bristle at public mockery fits
+branic_day_burstON_086: FLAG -- order at 08:42 gets "lets it pass" not compliance; odd
+branic_day_burstON_087: PASS -- well-supported day, late kindnesses ease tension credibly
+branic_day_burstON_088: PASS -- quiet day, two soups early are odd but harmless
+branic_day_burstON_089: FLAG -- two orders ignored mid-day with "lets it pass"; inconsistent
+branic_day_burstON_090: PASS -- steady tension arc, mock shrugged off, night closes tense

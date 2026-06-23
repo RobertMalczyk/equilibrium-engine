@@ -1,0 +1,10 @@
+cichy_day_burstOFF_021: PASS -- sane arc, guard taunts at night trigger fury credibly
+cichy_day_burstOFF_022: PASS -- calm morning, two guard barbs cause snaps, settles by night
+cichy_day_burstOFF_023: PASS -- quiet day, single late guard eruption, tense close
+cichy_day_burstOFF_024: PASS -- two fury eruptions from guard mocks, soup taken calmly
+cichy_day_burstOFF_025: FLAG -- three fury eruptions including 22:04, recovery to settled mid-day jars
+cichy_day_burstOFF_026: PASS -- no provocations, restless cycles and rest, calm day plausible
+cichy_day_burstOFF_027: PASS -- two soup deliveries taken quietly, evening snap from guard barb
+cichy_day_burstOFF_028: PASS -- bristle then later fury, recovery pattern believable
+cichy_day_burstOFF_029: PASS -- three guard provocations across the day, each triggers eruption sensibly
+cichy_day_burstOFF_030: PASS -- curt to guard soup, fury after evening mock, coherent arc

@@ -1,0 +1,10 @@
+branic_multi_burstON_041: PASS -- tension builds across days, refusals and snaps earned
+branic_multi_burstON_042: PASS -- quiet four days, sane pacing, wakes recovered each morning
+branic_multi_burstON_043: PASS -- eruptions provoked by Halgrim mockery, sleep resets each night
+branic_multi_burstON_044: PASS -- calm three days, mild restlessness, no contradictions
+branic_multi_burstON_045: PASS -- burst day earns heavy refusal cluster next morning
+branic_multi_burstON_046: PASS -- morning snap follows prior-day tension, days recover normally
+branic_multi_burstON_047: PASS -- Day 4 fury cluster intense but provoked and resolves by afternoon
+branic_multi_burstON_048: PASS -- mostly calm, minor residual-temper note plausible carry from Day 3
+branic_multi_burstON_049: PASS -- very calm run, single mock leaves mild trace, believable
+branic_multi_burstON_050: PASS -- Day 5 burst saturation extreme but each eruption has Halgrim provocation

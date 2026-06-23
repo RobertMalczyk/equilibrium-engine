@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_051: PASS -- tension builds through day, mocks trigger fury, sleep resets
+cichy_multi_burstOFF_052: PASS -- anger discharges after eruption, afternoon tension consistent
+cichy_multi_burstOFF_053: PASS -- rapid escalation on double mock believable, recovery plausible
+cichy_multi_burstOFF_054: PASS -- fury before sleep and fast recovery both within range
+cichy_multi_burstOFF_055: PASS -- double soup delivery odd but not a character fault
+cichy_multi_burstOFF_056: PASS -- heavy tense day with single eruption, stranger kindness sane
+cichy_multi_burstOFF_057: PASS -- repeated provocations yield repeated fury, stranger softens him
+cichy_multi_burstOFF_058: PASS -- anger discharges, stranger kindness accepted warmly, consistent
+cichy_multi_burstOFF_059: PASS -- two eruptions on heavy afternoon, calm days believable
+cichy_multi_burstOFF_060: FLAG -- seven consecutive fury eruptions Day 2 afternoon, no recovery gap

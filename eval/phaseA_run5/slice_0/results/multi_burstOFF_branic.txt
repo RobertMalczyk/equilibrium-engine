@@ -1,0 +1,10 @@
+branic_multi_burstOFF_001: PASS -- steady routine, boredom cycles, sane pacing throughout
+branic_multi_burstOFF_002: PASS -- rain day, evening snap after buildup, clean recovery
+branic_multi_burstOFF_003: PASS -- repeated mockery drives snaps and refusals plausibly
+branic_multi_burstOFF_004: PASS -- Day 4 eruption after accumulated mockery and refusals
+branic_multi_burstOFF_005: PASS -- heavy orders Day 1, tense evenings, calm recovery follows
+branic_multi_burstOFF_006: PASS -- escalating spiral across days, refusals earned by provocation
+branic_multi_burstOFF_007: PASS -- Day 2 Halgrim barrage drives snaps and refusals naturally
+branic_multi_burstOFF_008: PASS -- dense kindness cluster minor quirk, overall arc sane
+branic_multi_burstOFF_009: PASS -- mild tension, two soups six minutes apart minor oddity
+branic_multi_burstOFF_010: PASS -- midnight day-boundary quirk, friction arc otherwise believable

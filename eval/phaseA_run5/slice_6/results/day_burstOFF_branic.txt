@@ -1,0 +1,10 @@
+branic_day_burstOFF_061: PASS -- restless young recruit, steady rhythm, sleeps, wakes fine
+branic_day_burstOFF_062: PASS -- barbed remark let pass, warmth received, sane pacing throughout
+branic_day_burstOFF_063: PASS -- boredom cycles, kindness taken warmly, sleep and recovery normal
+branic_day_burstOFF_064: PASS -- brief evening edge, resolves; meals, rest, orders all handled
+branic_day_burstOFF_065: PASS -- Halgrim mocks twice, both let pass; warm to Marta; believable
+branic_day_burstOFF_066: PASS -- slight tension at day's end before sleep, sane overall arc
+branic_day_burstOFF_067: PASS -- tense at 20:03, soup soothes, settles by 22:04, sleeps late
+branic_day_burstOFF_068: FLAG -- erupts at 20:41 after mocks, then calm at 00:04; burst resolution oddly fast
+branic_day_burstOFF_069: PASS -- bristles at mock, settles, tense evening, sleeps past midnight fine
+branic_day_burstOFF_070: PASS -- calm day, many kindnesses, slight edge near midnight, wakes settled

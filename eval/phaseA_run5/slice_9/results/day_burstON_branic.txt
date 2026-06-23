@@ -1,0 +1,10 @@
+branic_day_burstON_091: PASS -- steady day, tension builds late, kindness softens it
+branic_day_burstON_092: PASS -- calm day with mild lingering edge late, sane pacing
+branic_day_burstON_093: PASS -- positive day, many kindnesses, settles well through evening
+branic_day_burstON_094: PASS -- quiet day, tension drifts up through evening, no trigger
+branic_day_burstON_095: PASS -- tension builds to burst under repeated provocation, resets overnight
+branic_day_burstON_096: PASS -- busy day, lingering temper evening, Marta soothes, settles late
+branic_day_burstON_097: PASS -- mockery accumulates, snaps once at evening, declines order, credible
+branic_day_burstON_098: PASS -- calm productive day, mild edge at close, no incidents
+branic_day_burstON_099: PASS -- early orders ignored then obeyed, tension rises quietly at night
+branic_day_burstON_100: PASS -- snaps after second mock, refuses order twice, credible burst arc

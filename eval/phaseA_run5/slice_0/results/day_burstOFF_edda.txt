@@ -1,0 +1,10 @@
+edda_day_burstOFF_001: PASS -- settled day, appropriate warmth, orderly command at night
+edda_day_burstOFF_002: PASS -- calm day, stranger order shrugged off, routine holds
+edda_day_burstOFF_003: PASS -- mocks and orders absorbed; composed authority throughout
+edda_day_burstOFF_004: PASS -- mock absorbed, warm to helpers, ends with command
+edda_day_burstOFF_005: PASS -- two brief rests close together but otherwise coherent day
+edda_day_burstOFF_006: PASS -- quiet steady day, authority exercised at close
+edda_day_burstOFF_007: FLAG -- refuses stranger order at 21:45 then complains again at 22:28; escalation without buildup
+edda_day_burstOFF_008: PASS -- well-disposed day, mocks shrugged off, command at close
+edda_day_burstOFF_009: PASS -- two soups within 90 min early; minor oddity, rest coherent
+edda_day_burstOFF_010: PASS -- two soups within 10 min at dawn; slight oddity, day otherwise sound

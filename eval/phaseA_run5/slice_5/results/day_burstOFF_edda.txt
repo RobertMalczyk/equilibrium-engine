@@ -1,0 +1,10 @@
+edda_day_burstOFF_051: PASS -- settled day, kindnesses received warmly, authority exercised at night
+edda_day_burstOFF_052: PASS -- calm day, regular meals, reasonable pacing, commands watch at end
+edda_day_burstOFF_053: PASS -- mock ignored composedly, warmth from Marta fits her authority role
+edda_day_burstOFF_054: PASS -- uneventful day, consistent ease, appropriate rest and nightly command
+edda_day_burstOFF_055: PASS -- early kindness, settled through day, authority held at close
+edda_day_burstOFF_056: FLAG -- stranger orders castellan twice; she simply complies, no authority friction
+edda_day_burstOFF_057: PASS -- mock absorbed, settled demeanor, commands watch, sane pacing
+edda_day_burstOFF_058: PASS -- stranger order ignored, composed throughout, nightly authority maintained
+edda_day_burstOFF_059: PASS -- positive day, multiple helpers, settled and authoritative at close
+edda_day_burstOFF_060: PASS -- two soups in two minutes odd but minor, otherwise sane day

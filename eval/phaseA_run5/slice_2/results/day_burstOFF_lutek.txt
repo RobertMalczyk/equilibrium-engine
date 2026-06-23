@@ -1,0 +1,10 @@
+lutek_day_burstOFF_021: PASS -- restless cycle natural; curt reply late after fatigue plausible
+lutek_day_burstOFF_022: PASS -- steady warm day, pacing and rest sensible throughout
+lutek_day_burstOFF_023: PASS -- mild tension at 18:00 then settles; late sleep fine
+lutek_day_burstOFF_024: PASS -- mockery rolls off twice; tension rises late, resolves cleanly
+lutek_day_burstOFF_025: PASS -- well-fed sociable day, ends settled; fully consistent
+lutek_day_burstOFF_026: PASS -- generous day with Marta; pacing and rest believable
+lutek_day_burstOFF_027: PASS -- tension at day-end after long active stretch; fits character
+lutek_day_burstOFF_028: PASS -- mild tension mid-evening, soup settles it; sane arc
+lutek_day_burstOFF_029: PASS -- mocks ignored, warmth throughout; active sociable day fits Lutek
+lutek_day_burstOFF_030: PASS -- quiet steady day; mockery at 22:26 ignored; clean sleep

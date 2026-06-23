@@ -1,0 +1,10 @@
+lutek_multi_burstON_061: PASS -- curt replies after repeated mockery accumulate plausibly
+lutek_multi_burstON_062: PASS -- steady multi-day rhythm, sane pacing throughout
+lutek_multi_burstON_063: PASS -- tense mornings resolve well, mockery ignored as expected
+lutek_multi_burstON_064: PASS -- clean arc, mockery deflected, profile consistent
+lutek_multi_burstON_065: PASS -- curt reply after prolonged tension, marginal but plausible
+lutek_multi_burstON_066: PASS -- calm sustained rhythm, no out-of-profile moments
+lutek_multi_burstON_067: PASS -- sociable days balanced, tense mornings resolve normally
+lutek_multi_burstON_068: PASS -- sane pacing, tense day-3 morning clears by midday
+lutek_multi_burstON_069: PASS -- mild unexplained end-of-day edge, not alarming
+lutek_multi_burstON_070: PASS -- tense spells resolve, very late sleep on final night
