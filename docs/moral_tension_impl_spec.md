@@ -27,6 +27,30 @@ The moral layer inserts only at existing seams:
 **Invariant preserved:** state mutates in exactly two places — `update` (dynamics) and `post_effects`
 (the selector's booked effects). The ledger is read-only everywhere `update` runs.
 
+### 1.1 Design decision — one-tick moral latency (intentional)
+
+Because the ledger is read-only during `update` and mutated only in `post_effects`, and because
+`potentials`/`selector` read the frozen start-of-tick state, a cue event that changes secret salience
+cannot influence action selection in the same tick. **This is intentional, not a defect.**
+
+**Decision: use one-tick moral latency.**
+- A moral cue event observed in tick `T` is mapped and booked in tick `T`.
+- Persistent `MoralLedger` changes (salience, exposure_risk, consistency_debt, …) are written in
+  `post_effects` of tick `T`.
+- `potentials` and action selection observe that ledger change starting in tick `T+1`.
+- This preserves deterministic single-commit tick semantics — no mid-tick ledger mutation, no
+  order-dependence.
+
+Same-tick moral reflexes are allowed **only** through existing global-state couplings already available
+on the frozen/update path (e.g. an `accusation` channel deposits into `stress`/`anger` in `update` of
+tick `T`, visible to potentials of `T` via the post-commit state, exactly like any other channel). The
+*ledger* never moves mid-tick to produce a reflex.
+
+**Future-work note (do NOT implement now):** if same-tick *ledger-derived* reflexes are ever needed,
+introduce a **read-only transient `moral_view`** derived from `Snapshot` + the current
+`SemanticInputVector`, consumed by `potentials` without mutating the ledger before `post_effects`. This
+keeps the single-commit invariant. It is explicitly deferred.
+
 ---
 
 ## 2. State extensions (schema.py)
@@ -48,17 +72,24 @@ other three. Default 0. **This is the only `RELATION_DIMS` edit; it is a one-lin
 
 ### 2.3 Traits (append to `TRAIT_NAMES`, after de-dup)
 Reuse existing where semantics match — **do not** re-add:
-- `anxiety` → use existing `threat_sensitivity`
-- `empathy` → modeled via existing `gratitude` + a new `empathy` only if contrast tests need separation
-- `conscientiousness`, `norm_rigidity` → fold into existing `patience`/`base_self_control` unless a test
-  proves they must separate.
+- `anxiety` → use existing `threat_sensitivity` (anxiety semantics are served by threat_sensitivity).
+- `conscientiousness`, `norm_rigidity` → fold into existing `patience`/`base_self_control` unless a
+  contrast test proves they must separate.
+
+**`empathy` is a SEPARATE moral trait — added now, NOT aliased to `gratitude`.** Empathy and gratitude
+are orthogonal: empathy is the capacity to feel a target's harm; gratitude is owed-debt for received
+benefit. Guilt, repair, and harm-to-target reasoning depend on *empathy* even when no gratitude exists.
+Examples: Halgrim can feel guilt toward Cichy without being grateful to him; Edda can empathize with
+Cichy without owing him gratitude. `gratitude` remains a separate existing affect/relation-derived
+modifier and is untouched.
 
 Genuinely-new traits to add (each a static `[0,1]` gain-modulator):
 ```
-honesty_humility, guilt_proneness, machiavellianism, shame_sensitivity,
+empathy, honesty_humility, guilt_proneness, machiavellianism, shame_sensitivity,
 lie_skill, gossip_tendency, injustice_sensitivity, conflict_avoidance
 ```
-The spec delta carries the full de-dup map (proposed→canonical).
+The spec delta carries the full de-dup map (proposed→canonical), including the explicit
+`empathy ≠ gratitude` and `anxiety → threat_sensitivity` entries.
 
 ---
 
@@ -74,8 +105,9 @@ owner_id        : AgentId
 topic           : str               # semantic label (string key, used for cue matching)
 category        : enum{ surprise, self_protection, betrayal, crime,
                         shameful_fact, protect_other, social_strategy, false_blame }
-hidden_from      : list[AgentId]
-known_by         : list[AgentId]
+hidden_from      : list[AgentId]      # targets the owner is ACTIVELY hiding the secret from
+known_by         : list[AgentId]      # CONFIRMED knowledge of the secret
+rumor_by         : map[AgentId, float] # UNCONFIRMED belief / partial info / gossip exposure (strength)
 created_at       : int (tick)
 # --- authored scenario constants (like persona traits; not emergent) ---
 stakes               : [0,1]
@@ -109,6 +141,48 @@ witnesses : list[AgentId]
 Ledger is serialized into the trace with canonical key order; deep-copied at `freeze()`; never carries
 RNG. All ledger writes are booked in `post_effects` and appear in the trace's `relation_delta`/ledger-delta
 summary.
+
+### 3.4 Secret lifecycle
+- `known_by` = **confirmed** knowledge of the secret. `hidden_from` = targets the owner is **actively**
+  trying to hide it from. `rumor_by` = **unconfirmed/partial** belief or gossip exposure (with strength).
+- **Gossip or suspicion must NOT automatically add a character to `known_by`** — they add to `rumor_by`
+  and/or raise relational `suspicion`. Knowledge and pressure are distinct.
+- **Confession** to a target: remove that target from `hidden_from`, add to `known_by`.
+- **Public exposure** (`secret_exposed`): add all relevant witnesses to `known_by`.
+- **Safe confiding**: add the confidant to `known_by`, but the harmed/deceived target may remain in
+  `hidden_from`.
+- **Successful repair** reduces `unresolvedness`. **Rejected repair** may reduce guilt slightly but can
+  raise `shame`/`exposure_anxiety`/`resentment` depending on target response (booked via the repair
+  channel's effects).
+- **Inactivation:** if `hidden_from` is empty **and** `unresolvedness` is low, the secret becomes
+  **inactive** — it stays in trace/history but **must not continue to drive salience loops** (salience
+  impulse gated to 0 for inactive secrets).
+
+### 3.5 LieRecord lifecycle
+- `lie_created` → new `LieRecord`.
+- `lie_reinforced` → refresh `maintenance_load`, increase/refresh `consistency_debt`.
+- `lie_detected` → raise `detected_risk`; emit betrayal/anger/resentment/trust-damage on the target;
+  may raise `suspicion` in witnesses.
+- `lie_confessed` (confession involving the lie) → reduce `cognitive_load_from_lies` and
+  `maintenance_load`, but may create a short-term trust shock.
+- **Stale** `LieRecords` decay and become **inactive**; they remain in trace/history but no longer drive
+  `cognitive_load_from_lies` or `exposure_risk`.
+- **Repeated lies about the same secret accumulate `consistency_debt` on the existing record** — do NOT
+  spawn a fresh unrelated `LieRecord` each time.
+
+### 3.6 Knowledge propagation (knowledge vs. pressure)
+A strict separation, important for later Inn-side multi-agent behavior:
+- `known_by` = **confirmed truth**.
+- `rumor_by` = **unconfirmed/partial belief**; can raise `suspicion` and gossip dynamics **without
+  becoming knowledge**.
+- relational `suspicion` = **pressure, not knowledge**.
+- `secret_exposed` can move agents from `rumor_by` → `known_by`.
+- `direct_question` and `suspicion_raised` raise **pressure** (exposure_anxiety / suspicion) **without
+  necessarily revealing truth**.
+- Therefore: a character can spread/react to a rumor without knowing the real secret (Welf spreads a
+  half-truth), leak a detail without understanding the whole (Lutek), detect inconsistency without
+  knowing the truth (Branic), or *look* suspicious from avoidance without being guilty (Cichy). None of
+  these promote anyone to `known_by`.
 
 ---
 
@@ -271,22 +345,84 @@ The trace must answer: why avoid / why lie / why confess / why angry / why repai
 boredom for a gossip-prone persona but raised stress for an anxious one — all readable from
 `coupling_output` + the term breakdown, without narration.
 
+### 8.1 Trace / schema compatibility & migration
+
+Because `GLOBAL_STATES`, `RELATION_DIMS`, `Snapshot`, and `TickTrace` change, byte-identical legacy
+output is preserved by **versioned serialization, not by avoiding the schema change**:
+- Introduce **`trace_v2`** (or a moral feature flag on trace serialization). The new moral trace block
+  (§8) is emitted **only** when the moral feature is enabled or `trace_v2` is requested.
+- **Legacy trace mode remains available** and, when requested, **omits all moral fields** → existing
+  golden hashes unchanged.
+- The new relation dimension **`suspicion` defaults to 0** and **must not appear in legacy relation
+  output** when the moral feature is disabled (legacy serialization writes only the original three dims).
+- Frozen field orders are extended **append-only**; any appended field is documented here and has a
+  **deterministic default** (moral states default 0; `rumor_by` default empty; ledger default empty).
+- No schema field may be reordered or removed; migration is additive only.
+
 ---
 
-## 9. Tests — scope-expansion of the 2800 (see `moral_tension_test_plan.md`)
+## 9. Tests — scope-expansion within a bounded corpus (see `moral_tension_test_plan.md`)
 
-- **Baseline (most important):** moral layer present, all moral gains = 0 → existing ~2800 day/multiday
-  goldens **byte-identical** (hash gate). Proof the layer is inert until wired.
-- **`moral` variant axis:** same personas/seeds/day structures + a deterministic moral overlay
-  (secret/lie/accusation thread seeded from `_seed_for`), judged by the expanded invariant set. Scope
-  grows, file-count does not balloon to 1400.
-- **Small isolated micro-suite** (tens of cases, not 700) for mechanism unit-proofs (clean attribution).
-- **Invariants** folded into `sanity_multiday.py` + judge prompt: guilt-prone confesses earlier; mach
-  lies more/guilts less; close target → more guilt + trust damage; white_lie < antisocial_lie; safe
-  confide ↓rumination; gossip confide ↑exposure_risk; detected lie → target anger+resentment; false
-  accusation → accused anger/resentment/injustice; active secret stress↑(anxious)/boredom↓(gossip);
-  serious guilt survives night; relation damage persists; **no degenerate loop; outburst ≠ guilt alone.**
-- **Stability tests:** Jury check on the expanded coupling matrix (5.1 + §6 loops) as a property test.
+M-J is a **deterministic moral overlay / variant axis inside the existing day and multi-day generation
+strategy** — NOT an additional corpus. The M-J test strategy **keeps the total generated corpus bounded
+at 1400 one-day cases and 1400 multi-day cases.** Within that fixed budget the generator emits clearly
+labeled case categories (a partition of the budget, not an addition to it):
+
+| Label | Category | Judged by |
+|---|---|---|
+| `M-J-LEGACY-COMPATIBILITY` | legacy / non-moral baseline | byte-identical legacy hashes (gate A) |
+| `M-J-ZERO-GAIN-EQUIVALENCE` | moral enabled, all gains 0 | behavioral equivalence (gate B) |
+| `M-J-MORAL-OVERLAY-ONE-DAY` | moral enabled, non-zero overlay (1-day) | moral invariants + trace explainability (gate C) |
+| `M-J-MORAL-OVERLAY-MULTI-DAY` | moral enabled, non-zero overlay (multi-day) | moral invariants + trace explainability (gate C) |
+
+The **`M-J-MORAL-OVERLAY-*` cases are the actual M-J behavioral validation** and cover both one-day and
+multi-day dynamics — but are generated **within** the existing 1400 + 1400 budget, with reproducible
+seeds and case IDs. Each overlay case reports its overlay type, moral config, invariant list, and
+pass/fail reason.
+
+Implementation rules:
+- M-J may be implemented as a moral overlay axis over the existing day/multiday generators.
+- Total generated corpus **must not exceed 1400 one-day + 1400 multi-day**. Do **not** create 1400
+  additional moral cases; do **not** create thousands of hand-written tests.
+- Existing non-moral corpora remain intact; existing corpus names and semantics are not replaced.
+- A **small isolated micro-suite** (tens of cases) for mechanism unit-proofs is permitted and is counted
+  *inside* the budget partition, not on top of it.
+
+### 9.1 Three separate compatibility / validation gates (replaces the old "byte-identical goldens" line)
+
+Adding moral fields to `GLOBAL_STATES`/`RELATION_DIMS`/`Snapshot`/`TickTrace` makes a single
+"byte-identical with gains=0" requirement impossible. Split it into three explicit gates:
+
+**Gate A — Legacy disabled (byte-identical):**
+- Moral feature disabled → legacy trace serialization **omits all moral fields** (§8.1).
+- Existing legacy goldens remain **byte-identical** where legacy trace mode is requested.
+
+**Gate B — Moral enabled, zero-gain behavioral equivalence:**
+- Moral feature enabled, **all moral gains = 0** → legacy behavior remains *equivalent* (not necessarily
+  byte-identical, since `trace_v2` may carry inert moral fields):
+  - same selected actions
+  - same non-moral state curves
+  - same non-moral relation curves
+  - **no moral action selected**
+  - **no ledger writes** except inert/default ledger initialization if required
+- `trace_v2` may contain inert moral fields; the gate compares behavior, not raw hashes.
+
+**Gate C — Moral enabled, non-zero overlay:**
+- The `M-J-MORAL-OVERLAY-*` slice runs with a non-zero moral config overlay.
+- Judged by **moral invariants + trace explainability**, **not** by byte-identical legacy hashes.
+- Runs within the same bounded 1400 + 1400 corpus strategy.
+
+Compatibility gates (A, B) are kept **separate** from moral-on behavioral validation (C).
+
+### 9.2 Moral invariants (asserted in the overlay slice, folded into `sanity_multiday.py` + judge prompt)
+guilt-prone confesses earlier; mach lies more/guilts less; close target → more guilt + trust damage;
+white_lie < antisocial_lie; safe confide ↓rumination; gossip confide ↑exposure_risk; detected lie →
+target anger+resentment; false accusation → accused anger/resentment/injustice; active secret
+stress↑(anxious)/boredom↓(gossip); serious guilt survives night; relation damage persists;
+inactive secrets / stale lies stop driving dynamics; **no degenerate loop; outburst ≠ guilt alone.**
+
+### 9.3 Stability tests
+Jury check on the expanded coupling matrix (5.1 + §6 loops) as a property test.
 
 ## 10. Calibration
 
@@ -305,7 +441,8 @@ concealment_pressure_half_life   : 30min   repair_drive_half_life            : 2
 weak_suspicion_half_life         : 48h     evidence_suspicion_half_life      : 14d
 trust_damage_half_life           : 30d (or reuse relation memory)
 ```
-All ≥30min → none beats anger(30s); **dt unchanged**, non-moral traces bit-identical.
+All ≥30min → none beats anger(30s); **dt unchanged**, so non-moral dynamics are preserved (Gate A
+byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain — §9.1).
 
 ## 12. Build order (vertical slices, diagram-per-slice — CLAUDE.md directive)
 1. **M-J.0 guilt core** — one config-seeded secret, `guilt`+`exposure_anxiety`, couple→stress/anger/trust,
@@ -319,7 +456,46 @@ All ≥30min → none beats anger(30s); **dt unchanged**, non-moral traces bit-i
 Architecture: no LLM in loop ✦ no behavior-shaping literals in code ✦ all tunables in config ✦ synchronous
 single-commit preserved ✦ no event→action scripting (potentials only) ✦ moral layer coupled to existing
 states ✦ trace explains every moral outcome ✦ ledger read-only in `update`, written only in `post_effects`
-✦ no RNG / deterministic potentials ✦ existing 2800 goldens byte-identical with gains=0 ✦ Jury-stable
-coupling matrix ✦ diagram (both forms) synced with code.
+✦ no RNG / deterministic potentials ✦ Jury-stable coupling matrix ✦ diagram (both forms) synced with code.
+
+**Compatibility:**
+- [ ] legacy/disabled mode preserves **byte-identical** goldens (Gate A)
+- [ ] moral-enabled + zero gains preserves non-moral behavior (Gate B: same actions/curves, no moral
+      action, no ledger writes beyond inert defaults)
+- [ ] `trace_v2` / moral trace mode is explicit; legacy trace omits moral fields
+- [ ] every new schema field (moral states, `suspicion`, `rumor_by`, ledger) has a deterministic default
+
+**Latency:**
+- [ ] one-tick moral latency documented (§1.1)
+- [ ] ledger not mutated before `post_effects`
+- [ ] no same-tick ledger mutation hidden in `potentials`
+
+**Corpus:**
+- [ ] `M-J-MORAL-OVERLAY-ONE-DAY` = 700 deterministic moral-on cases, generated **within** the 1400
+      one-day budget (not on top)
+- [ ] `M-J-MORAL-OVERLAY-MULTI-DAY` = 700 deterministic moral-on cases, generated **within** the 1400
+      multi-day budget (not on top)
+- [ ] total generated corpus ≤ 1400 one-day + 1400 multi-day; existing non-moral corpora intact
+- [ ] each overlay case has reproducible seed + case id + labeled overlay type/config/invariants/result
+
+**Knowledge lifecycle:**
+- [ ] `known_by` = confirmed truth; `rumor_by` = partial/unconfirmed; `suspicion` = pressure not knowledge
+- [ ] confession/exposure/confiding update knowledge correctly (§3.4–3.6)
+- [ ] inactive secrets and stale lies stop driving dynamics
+
+**Trait semantics:**
+- [ ] `empathy` is a separate trait (not aliased to `gratitude`)
+- [ ] `threat_sensitivity` may still serve anxiety semantics
+- [ ] trait de-dup map remains documented
+
 Coupling coverage + test/eval checklist: as enumerated in the original proposal, asserted via §6 edges and
 §9 invariants.
+
+---
+
+## 14. Engine / Inn boundary (scope note)
+
+**This document is engine-only.** `equilibrium-inn` must NOT implement moral equations. The Inn only:
+consumes the engine's public surface, configures moral profiles/scenarios, renders moral traces, and
+validates the observatory scenario. The Inn branch is handled **separately, after** this engine feature
+has a stable public surface and a commit pin. No moral dynamics live in the Inn.
