@@ -1,0 +1,65 @@
+# M-J.0 moral overlay (OPT-IN) -- guilt core.
+#
+# Deep-merged onto calibration/defaults.yaml ONLY for a moral persona (eval/moral.py::moral_overrides).
+# The PRESENCE of the moral half_lives below is the enable signal (engine/yaml_io): without this overlay a
+# persona carries none of the moral states/actions and is byte-identical to a legacy run (Gate A).
+#
+# TOPOLOGY is fixed (docs/moral_tension_impl_spec.md, docs/diagrams/moral_tension.md). Every magnitude here
+# is a CALIBRATION PLACEHOLDER -- only ORDERING is authorized (the litmus: a guilt-prone persona confesses
+# earlier than a low-guilt one). Events are finite single-tick deposits into bounded leaky integrators,
+# never Dirac spikes (docs/control_interpretation.md).
+
+half_lives:
+  guilt: 64800            # 18h placeholder -- slow moral memory (>> anger 30s, so dt is unchanged)
+  exposure_anxiety: 3600  # 60min placeholder -- medium anxiety
+
+gains:
+  guilt:
+    wrongdoing: 0.30      # finite guilt deposit per wrongdoing cue; SCALED by guilt_proneness below. PLACEHOLDER.
+  exposure_anxiety:
+    probe: 0.05           # being questioned raises exposure anxiety (slow build, not saturating). PLACEHOLDER.
+  frustration:
+    probe: 0.01           # tiny interrogation pressure -- the sourced provocation that OPENS the reply window
+                          # (so confess/remain_silent can be selected). Small enough never to fire complain/
+                          # outburst on its own. PLACEHOLDER.
+
+gain_modulators:
+  guilt:
+    wrongdoing:
+      trait: guilt_proneness
+      ref: 1.0
+      k: 1.0              # mod = max(0, 1+(gp-1)) = gp -> a guilt-prone persona feels the wrong more; gp=0 -> none
+
+couplings:
+  stress:
+    guilt: 0.03               # guilt -> stress (+). PLACEHOLDER.
+    exposure_anxiety: 0.03    # exposure_anxiety -> stress (+). PLACEHOLDER.
+  anger:
+    guilt: -0.02              # guilt -> anger (-): remorse DAMPS the outburst (empathy-gated topology). PLACEHOLDER.
+
+potential_terms:
+  moral_guilt:    [{kind: state, name: guilt}]
+  moral_exposure: [{kind: state, name: exposure_anxiety}]
+
+potential_weights:
+  confess:
+    moral_guilt: 1.0          # guilt drives owning up
+    moral_exposure: -0.6      # exposure anxiety inhibits confessing (fear of consequences). PLACEHOLDER.
+  remain_silent:
+    moral_exposure: 1.0       # exposure anxiety drives continued concealment
+
+thresholds:
+  react.confess: 0.30
+  react.remain_silent: 0.30
+  interrupt.confess: 0.80
+  interrupt.remain_silent: 0.80
+
+action_params:
+  confess:
+    post_effects:
+      global:
+        guilt: -0.50            # owning up relieves guilt. PLACEHOLDER.
+        exposure_anxiety: -0.40 # and the dread of being found out
+  remain_silent:
+    post_effects:
+      global: {}                # silence maintains the secret -- no relief

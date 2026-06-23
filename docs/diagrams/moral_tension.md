@@ -5,10 +5,11 @@
 > with the spec `moral_tension_impl_spec.md` and (once implemented) `engine/update.py` /
 > `engine/potentials.py` / `engine/simulation.py`.
 >
-> **Status: TOPOLOGY (decided now), pre-implementation.** Per "topology now, constants from calibration"
-> every gain/half-life shown is a **named config placeholder**, not a chosen number. The full moral
-> topology (all of M-J.0–.4) is drawn here so calibration tunes a fixed structure; **only the M-J.0
-> guilt-core slice (highlighted ★) is implemented first.**
+> **Status: M-J.0 (★ guilt core) IMPLEMENTED as an opt-in overlay; M-J.1–.4 are topology-only.** Per
+> "topology now, constants from calibration" every gain/half-life is a **named config placeholder**, not a
+> chosen number. The full moral topology (all of M-J.0–.4) is drawn here so calibration tunes a fixed
+> structure; the ★ nodes/edges are wired and litmus-proven (`tests/test_moral_guilt_core.py`,
+> `calibration/moral_overlay.yaml`), the rest stay drawn-but-unwired until their slice lands.
 >
 > **Invariants made visible:**
 > - Every moral state is the *same* generic leaky integrator (spec §14) — `update.compute` already

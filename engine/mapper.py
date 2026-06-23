@@ -170,5 +170,34 @@ def map_event(
         )
         return out
 
+    if event.type == "wrongdoing":
+        # M-J.0 moral cue: the persona did (or is reminded of) a wrong it is responsible for -- a lie,
+        # a harm, a kept secret. SELF channel (no source): it deposits GUILT, scaled in config by the
+        # `guilt_proneness` trait (gain_modulator) so a guilt-prone persona feels it more. A finite
+        # single-tick deposit into the leaky `guilt` integrator -- NOT a Dirac spike. Inert unless the
+        # moral overlay supplies `gains.guilt.wrongdoing` (legacy personas have no such gain).
+        out["wrongdoing"] = SemanticInput(
+            name="wrongdoing",
+            value=event.intensity,
+            cls=InputClass.SELF,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type == "probe":
+        # M-J.0 moral cue: being questioned / accused by SOMEONE (source = the questioner). It deposits
+        # EXPOSURE_ANXIETY (afraid of being revealed) and a little frustration (interrogation pressure) --
+        # the small sourced provocation is what OPENS the reactive reply window (a confession is a reply
+        # to being probed; cf. _event_is_provocation). RELATIONAL, so it routes through the relation_filter
+        # like any sourced event. Inert unless the overlay supplies its gains.
+        out["probe"] = SemanticInput(
+            name="probe",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
     # Unknown event types decompose to nothing in MVP (no guessed channels).
     return out

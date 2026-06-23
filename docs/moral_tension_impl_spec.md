@@ -591,8 +591,22 @@ All ≥30min → none beats anger(30s); **dt unchanged**, so non-moral dynamics 
 byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain — §9.1).
 
 ## 12. Build order (vertical slices, diagram-per-slice — CLAUDE.md directive)
-1. **M-J.0 guilt core** — one config-seeded secret, `guilt`+`exposure_anxiety`, couple→stress/anger/trust,
-   actions `confess`/`remain_silent`. Litmus: guilt-prone confesses earlier. `docs/diagrams/moral_tension.md`.
+1. **M-J.0 guilt core — ✅ IMPLEMENTED (opt-in overlay).** `guilt`+`exposure_anxiety` states, cues
+   `wrongdoing`→guilt (×`guilt_proneness`) and `probe`→exposure_anxiety (sourced → opens the reply
+   window), couplings guilt→stress(+)/anger(−) and exposure_anxiety→stress(+), actions
+   `confess`(relieves guilt+exposure_anxiety in `post_effects`)/`remain_silent`. **Litmus PROVEN**
+   (`tests/test_moral_guilt_core.py`): a guilt-prone persona confesses, a low-guilt one stays silent on
+   the SAME scenario — contrast from `guilt_proneness` alone. Diagram `docs/diagrams/moral_tension.md`.
+   **Mechanism (Gate A byte-identical):** the moral layer is an **opt-in overlay**
+   (`calibration/moral_overlay.yaml`, loaded via `eval/moral.py::moral_overrides` as deep-merged
+   `param_overrides`). "Enabled" = the overlay supplies the moral half-lives; without it a persona carries
+   NONE of the moral states/actions, so every legacy persona loads and traces **byte-identically** (proven:
+   all goldens unchanged). Conditional presence is enforced by 7 small guards (yaml_io/runtime/update/
+   potentials/metrics/stability) — each neutral for legacy (which has exactly the canonical states). All
+   magnitudes are calibration placeholders; only the litmus ORDERING is asserted. Couplings are
+   feed-forward (no moral→moral return edge), so the anger⇄stress Jury margin is unchanged.
+   NOTE: one event per tick today (the deferred **M-MEM**), so the micro-scenario stages wrongdoing then
+   probe on separate ticks; simultaneous moral fan-out waits on M-MEM.
 2. **M-J.1 lie loop** — `LieRecord`, `cognitive_load`, `consistency_debt`, `lie`/`deflect`, detection.
 3. **M-J.2 repair/confide** — `repair_drive`, `rumination`, `confide`/`apologize`/`reparation`.
 4. **M-J.3 accusation/suspicion** — `perceived_injustice`, `suspicion`, multi-agent driver (**needs M-MEM**).
