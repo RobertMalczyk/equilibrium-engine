@@ -103,6 +103,8 @@ def compute(
 
     delta_global: dict[str, float] = {}
     for x in GLOBAL_STATES:
+        if x not in g:
+            continue  # opt-in moral state not present for this persona (overlay absent) -> skip cleanly
         old = g[x]
         new = (
             decay[x] * old

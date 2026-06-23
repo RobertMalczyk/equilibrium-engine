@@ -97,9 +97,12 @@ def test_state_response_record_shape_and_clamp_flag():
 def test_state_response_report_covers_all_global_states():
     cfg = load_persona("data/personas/halgrim.yaml", "calibration/defaults.yaml")
     rows = state_response_report(cfg)
-    from engine.schema import GLOBAL_STATES
+    from engine.schema import GLOBAL_STATES, MORAL_STATES
 
-    assert {r["state"] for r in rows} == set(GLOBAL_STATES)
+    # The report covers exactly the states PRESENT for this persona. A legacy (non-moral) persona has
+    # the canonical states and NONE of the opt-in moral states (the moral overlay is absent).
+    expected = {s for s in GLOBAL_STATES if s not in MORAL_STATES}
+    assert {r["state"] for r in rows} == expected
     for r in rows:
         assert r["x_inf_drift"] == pytest.approx(
             steady_state_drift(r["decay"], r["drift"])

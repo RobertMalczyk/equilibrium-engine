@@ -9,7 +9,6 @@ from __future__ import annotations
 
 from engine.clamp import clamp01
 from engine.schema import (
-    GLOBAL_STATES,
     RELATION_DIMS,
     Mode,
     PersonaConfig,
@@ -22,9 +21,11 @@ def init_runtime(
 ) -> PersonaRuntime:
     overrides = overrides or {}
 
-    global_state = {
-        name: config.initial_global_state.get(name, 0.0) for name in GLOBAL_STATES
-    }
+    # Copy the loader's initial map verbatim (it already conditionally OMITS opt-in moral states when the
+    # moral overlay is absent) -- do NOT re-iterate GLOBAL_STATES, which would re-inject moral keys at 0.0
+    # into every legacy runtime and diverge the goldens. Canonical order is preserved (the loader built it
+    # in GLOBAL_STATES order).
+    global_state = dict(config.initial_global_state)
     for name, val in dict(overrides.get("global_state", {})).items():
         if name in global_state:
             global_state[name] = clamp01(float(val))

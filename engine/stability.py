@@ -132,6 +132,8 @@ def state_response_report(config, n: int = 8) -> list[dict]:
 
     out = []
     for s in GLOBAL_STATES:
+        if s not in config.half_lives:
+            continue  # opt-in moral state absent for this persona (overlay off) -> no response row
         out.append(
             state_response(
                 name=s,

@@ -80,6 +80,8 @@ def compute(trace) -> dict:
 
     init_global = ticks[0].snapshot.global_state
     for s in GLOBAL_STATES:
+        if s not in init_global:
+            continue  # opt-in moral state absent for this persona (overlay off) -> no curve to build
         series = [tk.state_after_post.global_state[s] for tk in ticks]
         m[f"{s}_curve"] = series
         m[f"peak_{s}"] = max(series)
@@ -115,6 +117,8 @@ def compute(trace) -> dict:
     # a level metric would test the wrong calibration layer. If it never settles within the run, the
     # value is the elapsed game-time from the peak to the end (a long, comparable "did not settle").
     for s in GLOBAL_STATES:
+        if s not in init_global:
+            continue  # opt-in moral state absent -> skip
         m[f"settle_seconds_{s}"] = _settle_seconds(
             [tk.state_after_post.global_state[s] for tk in ticks], dt
         )

@@ -27,6 +27,12 @@ GLOBAL_STATES: tuple[str, ...] = (
     # Decoupled (in no coupling), long half-life so dt unchanged; drift 0 unless authority.
     "sleep_pressure",  # sleep drive state (M7.5 Part B): raised by the `night` channel, discharged in SLEEP.
     # Decoupled, long half-life (dt unchanged), setpoint 0, no drift -> 0 unless nightfall.
+    # --- M-J.0 moral states (OPT-IN overlay; appended last). Present in a persona's state map ONLY when
+    # the moral overlay supplies their half_lives (see yaml_io); ABSENT for every legacy persona, so
+    # `_global_map`/runtime omit them and all prior goldens stay byte-identical. Long half-lives (>=60min)
+    # so dt is unchanged. Both are standard leaky integrators (spec section 14) -- no new block type.
+    "guilt",  # violated own moral frame: lie/harm/betrayal. Long half-life; couples -> stress, anger (-).
+    "exposure_anxiety",  # afraid of being found out: probe/accusation/suspicion. Couples -> stress.
 )
 
 RELATION_DIMS: tuple[str, ...] = ("trust", "respect", "resentment")
@@ -42,6 +48,13 @@ TRAIT_NAMES: tuple[str, ...] = (
     "trust_disposition",
     "gratitude",
     "stoicism",
+    # --- M-J.0 moral traits (OPT-IN). Default 0.0 when a persona omits them (yaml_io) -- traits never
+    # appear in the trace, so defaulting is golden-safe. `empathy` is a SEPARATE trait (not gratitude);
+    # `honesty_humility` (lie-as-bad-habit) and machiavellianism (a later slice) are distinct knobs.
+    "empathy",
+    "guilt_proneness",
+    "shame_sensitivity",
+    "honesty_humility",
 )
 
 # Reactive potential channels (spec section 3: PotentialVector).
@@ -53,7 +66,18 @@ POTENTIAL_NAMES: tuple[str, ...] = (
     "refuse",
     "positive_response",  # Theme A: warm reply to an appraised kindness (gesture-gated). Appended last so
     # the existing canonical tie-break order (and thus all prior goldens) is unchanged.
+    # --- M-J.0 moral actions (OPT-IN; appended last). Emitted by potentials.compute ONLY when the persona
+    # configures weights for them (the moral overlay); absent -> omitted from the trace -> goldens unchanged.
+    "confess",  # own up: relieves guilt + exposure_anxiety in post_effects.
+    "remain_silent",  # keep concealing: rises with exposure_anxiety.
 )
+
+# --- M-J moral vocab subsets (used by the loader/guards to keep the overlay opt-in and byte-identical).
+MORAL_STATES: frozenset[str] = frozenset({"guilt", "exposure_anxiety"})
+MORAL_TRAITS: frozenset[str] = frozenset(
+    {"empathy", "guilt_proneness", "shame_sensitivity", "honesty_humility"}
+)
+MORAL_POTENTIALS: frozenset[str] = frozenset({"confess", "remain_silent"})
 
 # --- Enums -------------------------------------------------------------------------
 
