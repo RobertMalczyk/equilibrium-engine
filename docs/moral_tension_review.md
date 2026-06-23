@@ -164,7 +164,7 @@ Key relational decisions:
   `closeness` is an authored relation modifier (config), not new memory.
 - **Add `suspicion` as the 4th relation dim** (cleanest) — it decays per source with its own half-life,
   filters per source exactly like the other three.
-- **Relation modifiers** (closeness, fear, dependency, rivalry, authority_gradient, …) are **authored
+- **Relation modifiers** (closeness, source_threat, dependency, rivalry, authority_gradient, …) are **authored
   per-relation config**, like persona `initial_relations`, NOT dynamic states. They modulate gains
   (`right_to_know_multiplier` scales the guilt gain; `gossip_risk` scales exposure_risk gain). This is
   the existing gain-modulator pattern, just keyed on a relation field instead of a trait.
@@ -224,7 +224,7 @@ mitigation.
 - [ ] sigmoid probabilities → deterministic potentials + thresholds (no RNG).
 - [ ] every coefficient → named config key; zero literals in code.
 - [ ] `suspicion` added as 4th relation dim (decision) vs. parallel map.
-- [ ] relation modifiers (closeness/fear/…) authored as relation config, modulating gains — not states.
+- [ ] relation modifiers (closeness/source_threat/…) authored as relation config, modulating gains — not states.
 - [ ] traits de-duplicated against the existing 10 before adding 8 genuinely-new.
 - [ ] all moral couplings default 0 → existing goldens byte-identical (dormant layer).
 - [ ] the two stability loops (salience self-amp; rumination↔stress↔fatigue) linearized + Jury-passed.

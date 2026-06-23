@@ -34,7 +34,7 @@ secret.salience→stress(anxious)/boredom(−, curious), lie-detected→target a
 
 **F. Traits**: reuse the existing 10 where semantics match; add only the genuinely-new
 (honesty_humility, guilt_proneness, machiavellianism, shame_sensitivity, lie_skill, gossip_tendency,
-injustice_sensitivity, conflict_avoidance). Relation modifiers (closeness/fear/authority_gradient/…) are
+injustice_sensitivity, conflict_avoidance). Relation modifiers (closeness/source_threat/authority_gradient/…) are
 **authored relation config that modulates gains**, not new states.
 
 **Build order** (vertical slices, each with its own `docs/diagrams/*.md`): M-J.0 guilt core → M-J.1 lie

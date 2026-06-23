@@ -134,6 +134,89 @@ This is a persona-contrast assertion (per CLAUDE.md litmus), not a hard number.
 
 ---
 
+## 2bis. Control-system reading: events are finite deposits, states are leaky integrators
+
+Moral dynamics use the **same discrete first-order control form as every other state** (see
+`docs/control_interpretation.md` for the full treatment). Nothing here is special-cased; the wording
+below exists only to prevent a recurring misreading.
+
+**An event is NOT a Dirac delta.** A moral cue (a `direct_question`, an `accusation`, a `lie_committed`)
+is a **finite single-tick event deposit** into a bounded leaky state — a *discrete impulse-like* input of
+bounded magnitude, never the continuous-time `D·δ(t)` of an idealized spike, and never stored *as* a spike
+inside the state. The state itself is a **first-order bounded leaky integrator**:
+
+```
+x[n+1] = decay·x[n] + gain·event[n] + couplings + drift        decay = 2**(-dt/half_life), clamp [0,1]
+```
+
+- **Fast rise** is modeled by a **high finite event gain** (a big bounded jump on the tick the cue lands).
+- **Slow fall** is modeled by a **long half-life** (slow decay back toward rest).
+- A **one-time** event → the state rises immediately by a bounded amount, then decays along its half-life
+  tail. **Repeated** events → a step-like input; the state accumulates toward a bounded level (clamped at 1).
+- Unconstrained drift-only steady state is `x_inf = drift/(1−decay)` (before couplings/setpoints/clamp) —
+  computed per state by the diagnostic `eval/state_response_report.py` (see `docs/control_interpretation.md`).
+
+So "a guilt that spikes on the lie and lingers for days" is **high `g_lie_guilt` + long `serious_guilt_half_life`**,
+not a delta function — fully bounded, fully decaying.
+
+### 2bis.1 Four quantities that are easy to conflate — keep them distinct
+
+| Name | Kind | Meaning | Lives in |
+|---|---|---|---|
+| `exposure_anxiety` | **global internal state** | the character's own anxiety about being exposed, accused, punished, or morally revealed — accumulates from cues, decays with a long half-life | `GLOBAL_STATES` |
+| `source_threat(target)` / `expected_punishment(target)` | **relational/contextual modifier** | how threatening a *specific* observer/source is (perceived threat / fear of consequences from that person) — authored or derived `f(authority_gradient, respect, resentment)`, modulates gains; **not a stored state** | relation config / derived |
+| `suspicion[target]` | **relation dimension** | how much that target currently *suspects* the character — per-source, decays with its own half-life | 4th `RELATION_DIMS` |
+| `moral_tension` | **emergent conflict signal, NOT a state, NOT fear** | the normative-conflict pressure *between* the moral drives — it is the configuration of guilt vs exposure_anxiety vs loyalty vs injustice, never a single scalar and never just "fear" | emergent (read off the state vector) |
+
+**`source_threat` vs `expected_punishment`:** same relational-modifier slot, two readings — use
+`source_threat(target)` when the meaning is *perceived threat from a person/source*, and
+`expected_punishment(target)` when the meaning is specifically *fear of consequences*. Both are
+relation-keyed gain modulators, **never** stored states. (This replaces the earlier ambiguous
+`fear(target)`.)
+
+### 2bis.2 Moral tension is a normative conflict, not fear
+
+`moral_tension` is the **conflict pressure between competing moral drives**, read off the state vector —
+not a synonym for fear/anxiety. Its constituent pushes:
+
+- `guilt` → pushes toward **confession / repair** (`+confess`, `+apologize`, `+repair`).
+- `exposure_anxiety` → pushes toward **concealment / avoidance** (`+remain_silent`, `+avoid`, `+deflect`).
+- loyalty / `trust[target]` → **reduces lying**, increases confession.
+- `perceived_injustice` → **reduces guilt**, increases **anger/resentment** (shifts the response away from
+  remorse toward grievance).
+- `suspicion[src]` + authority → **raise exposure pressure** (source-gated `exposure_anxiety`).
+- `cognitive_load_from_lies` → raises **stress** and **rumination** (the self-tightening lie noose).
+
+The visible behavior is the *resolution* of these opposed pushes by the existing argmax selector — that is
+the "tension," and it is emergent, not a stored or scripted quantity.
+
+### 2bis.3 Half-life policy — moral states are SLOW; no new ultra-fast global state
+
+The moral states (`exposure_anxiety`, `guilt`, `rumination`, `repair_drive`, `avoidance_drive`,
+`cognitive_load_from_lies`, `perceived_injustice`) all take **long half-lives** relative to the fast
+emotions (anger ≈ 30s). Every proposed moral half-life is ≥ 30 min, so **none becomes the new
+`min(half_life)` → `dt` is unchanged and non-moral goldens stay bit-identical** (§review (a)).
+
+**Do NOT introduce a new ultra-fast persistent global state** (e.g. a `startle`) to model a same-tick
+shock: it would lower `min(half_life)`, shrink `dt`, and re-time the whole simulation. If a same-tick
+shock is ever needed for action selection, model it as a **transient event channel** that deposits into
+existing states on the frozen/update path (like `accusation` → `stress`/`anger`), **not** as a new
+persistent state. (Cf. the `command_pressure`/`kindness_pressure` transient-channel pattern.)
+
+### 2bis.4 Event → state worked examples (topology; gains are calibration placeholders)
+
+| Event (cue channel) | Primary deposits (finite, single-tick) | Reading |
+|---|---|---|
+| `direct_question` / `accusation` / `suspicion_raised` | `exposure_anxiety +=`, (`accusation` also `stress/anger +=`) | being probed/accused raises exposure anxiety |
+| `lie_committed` | `guilt +=`, `cognitive_load_from_lies +=`, `exposure_anxiety +=` (risk) | a fresh lie deposits guilt + maintenance load + exposure risk |
+| `confess` / `repair` (action, booked in `post_effects`) | `guilt −=`, `exposure_anxiety −=` | owning up / making amends relieves guilt and exposure anxiety |
+| `perceived_injustice` high (state) | shifts selection toward `resentment`/`anger`, **away from** guilt/confession | injustice converts remorse into grievance |
+
+Each row is a finite bounded deposit on the tick the cue lands, then the standard leaky decay — never a
+stored spike.
+
+---
+
 ## 3. The MoralLedger (the one genuinely-new structure)
 
 A per-runtime store held beside `global_state`/`relations`, **deep-copied into `Snapshot.freeze()`**,
@@ -269,7 +352,7 @@ salience self-amplification loop (review R4). Decay: `minor_secret_salience_half
 ```
 need     = secret.salience · target_presence · topic_relevance · exposure_risk
 resist   = w_hh·honesty_humility + w_g·guilt + w_rel·relationship_value(target)
-         + w_fear·fear(target) · suspicion[target]
+         + w_pun·expected_punishment(target) · suspicion[target]
 lie_potential = clamp01( w_benefit·concealment_benefit + w_self·self_protection
                        + w_mach·machiavellianism + w_need·need − resist )
 ```
@@ -356,7 +439,7 @@ biases requested in the proposal become signed weight edges (no `if`-scripting):
 
 - exposure_anxiety high → +avoid/+remain_silent/+deflect, +nervous-lie term
 - guilt high ∧ trust[target] high → +confess/+apologize/+repair
-- guilt high ∧ shame/fear high → +avoid/+remain_silent (shame term inhibits confess)
+- guilt high ∧ shame/exposure_anxiety high → +avoid/+remain_silent (shame term inhibits confess)
 - cognitive_load high ∧ probed → +deflect (inhibited by `lie_skill`)
 - secret threatened ∧ machiavellianism high → +lie/+blame_other
 - gossip opportunity ∧ gossip_tendency high → +ask/+gossip/+provoke (boredom-gated)

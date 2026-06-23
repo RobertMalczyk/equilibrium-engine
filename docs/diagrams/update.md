@@ -107,3 +107,27 @@ magnitude pending Level-3, spec §17).
 `boredom` is both an emotion (fast decay to 0) and now carries a drift (idleness bores) — a parameter
 preset, not a separate type. Its drift competes with that fast decay, so its idle equilibrium =
 drift/(1−decay_boredom): a calibration quantity, not asserted by tests.
+
+## Parameter units — what is time-scaled, what is per-tick (read before calibrating)
+
+The control reading of these equations is in `docs/control_interpretation.md`. One subtlety matters for
+calibration and must not be misread:
+
+- **`decay` is the ONLY term derived from time.** `decay = 2 ** (-dt / half_life)` (`engine/yaml_io.py`),
+  with `dt = min(half_life) / nyquist_factor`. So decay *is* a continuous-time quantity: change `dt` (or
+  `half_life`) and decay re-scales automatically, preserving the real-time decay envelope. This is what the
+  `time_scale` knob ([[timescale]]) relies on.
+- **All the additive terms are currently calibrated PER TICK / PER EVENT, NOT as `per_second · dt` rates.**
+  `drift`, `coupling`, `gain·event`, `per_tick` (action effects), and `idle_recovery` are each applied once
+  per tick at their configured magnitude. The implementation does **not** multiply them by `dt`. They are
+  per-tick increments, and an event gain is a per-event deposit.
+- **Therefore `time_scale` is NOT a full continuous-time resampling of every gain.** It re-scales the
+  decay/timing envelope (via half-lives → `dt`), but the additive per-tick terms are not automatically
+  re-expressed as `per_second · dt`. Treat the additive terms as per-tick quantities calibrated against the
+  current `dt`; if a future change makes them true continuous rates, it must explicitly multiply them by
+  `dt` and this note must be updated. Do not assume the additive gains are already continuous-time rates.
+
+Consequence for steady state: the unconstrained drift-only fixed point is `x_inf = drift / (1 − decay)`
+(per-tick drift over per-tick leak) — the same `drift/(1−decay_boredom)` used above for boredom. The
+`eval/state_response_report.py` diagnostic reports this per state and flags any state whose drift would
+rely on clamp saturation.
