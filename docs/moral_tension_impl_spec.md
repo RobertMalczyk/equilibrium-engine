@@ -91,6 +91,47 @@ lie_skill, gossip_tendency, injustice_sensitivity, conflict_avoidance
 The spec delta carries the full de-dup map (proposed→canonical), including the explicit
 `empathy ≠ gratitude` and `anxiety → threat_sensitivity` entries.
 
+**`honesty_humility` ≠ `machiavellianism` — kept as two separate knobs (NOT one signed axis).**
+They look like opposite poles of one dimension but model two *different aspects* of a person:
+- `honesty_humility` (low) = a **bad habit** — a disposition to lie/deceive as the easy way out. The
+  person still has a normal conscience: lying creates internal cost (cognitive_load, exposure_anxiety),
+  they *can* feel guilt, and being forced to reveal the secret is **frustrating** (a thwarted goal).
+  It gates the **lie / deflect** potentials.
+- `machiavellianism` (high) = a **strategic, manipulative disposition** — calculated long-game
+  manipulation with the moral-emotional cost suppressed. It does NOT merely flip honesty's sign: it
+  **suppresses the guilt pathway** (low effective `empathy`/`guilt_proneness` response) so manipulation
+  carries no remorse — the literature's *"Machiavellian cool syndrome"* (callousness + low anxiousness
+  *during the act* avoid the guilt of harming others). It gates the **lie / blame_other** potentials on
+  the *cold-calculation* side.
+
+  **NOT identical to psychopathy (literature-checked, Dark Triad).** Machiavellianism and psychopathy
+  are distinct facets. Psychopathy is impulsive, reckless, thrill-seeking and **low-anxiety**;
+  Machiavellianism is calculated, patient, control-driven and — counter-intuitively — **uniquely
+  associated with *higher* anxiety/stress and neuroticism**. So a Machiavellian is guilt-free but **not
+  fearless**: they feel real `exposure_anxiety`/`stress` about being caught and about losing control.
+  A fearless, anxiety-free, remorse-free profile is **psychopathy** — reserve that for a *separate
+  future trait*, do not fold it into `machiavellianism`.
+
+Because they touch different actions and different internal costs, a persona can sit low on **both**
+(the conflicted coward who neither confesses nor schemes — just stays silent and avoids), which a single
+collapsed axis could not represent. **Add per-slice, not all at once:** M-J.0 introduces only the four it
+uses — `empathy, guilt_proneness, shame_sensitivity, honesty_humility`. `machiavellianism` + `lie_skill`
+land with M-J.1, `gossip_tendency`/`conflict_avoidance` with M-J.2, `injustice_sensitivity` with M-J.3.
+
+**Calibration / test expectation (machiavellian persona):** a high-`machiavellianism` persona feels
+**no `guilt`** and **no guilt-derived `frustration`** — manipulation carries no moral cost (cool
+syndrome), so the guilt→frustration path stays near-zero. But — per the literature correction above —
+they are **not emotionally flat**: they **do** feel `exposure_anxiety`/`stress` about being caught and
+about losing control, and on exposure they show **cold/calculated `anger`** rather than an impulsive
+blow-up. Any frustration is *instrumental* (thwarted control), not *moral*, and is expressed as cold
+anger. Contrast targets on the SAME exposure event:
+- **habitual liar** (`honesty_humility` low, normal conscience): some `guilt` + moral `frustration`.
+- **machiavellian** (guilt-suppressed, anxious): `exposure_anxiety` + cold `anger`, **no guilt**, no
+  *moral* frustration.
+- *(future)* **psychopath**: low anxiety, anger without guilt or frustration — a SEPARATE trait, not
+  machiavellianism.
+This is a persona-contrast assertion (per CLAUDE.md litmus), not a hard number.
+
 ---
 
 ## 3. The MoralLedger (the one genuinely-new structure)
@@ -487,6 +528,14 @@ states ✦ trace explains every moral outcome ✦ ledger read-only in `update`, 
 - [ ] `empathy` is a separate trait (not aliased to `gratitude`)
 - [ ] `threat_sensitivity` may still serve anxiety semantics
 - [ ] trait de-dup map remains documented
+- [ ] `honesty_humility` (lie-as-bad-habit) and `machiavellianism` (psychopathic, guilt-suppressing)
+      kept as two separate knobs; differentiation documented in §2.3
+- [ ] **machiavellian persona: guilt-no / anxiety-yes / cold-anger** — high-`machiavellianism` shows no
+      `guilt` and no *moral* `frustration` (cool syndrome), but DOES show `exposure_anxiety`/`stress`
+      and cold `anger` on exposure (NOT fearless — that's psychopathy, a future trait). Contrast vs a
+      habitual liar (`honesty_humility` low) who shows guilt + moral frustration on the same event
+- [ ] traits introduced per-slice (M-J.0 = empathy/guilt_proneness/shame_sensitivity/honesty_humility),
+      not all nine at once
 
 Coupling coverage + test/eval checklist: as enumerated in the original proposal, asserted via §6 edges and
 §9 invariants.
