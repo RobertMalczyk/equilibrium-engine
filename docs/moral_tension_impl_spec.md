@@ -190,6 +190,28 @@ not a synonym for fear/anxiety. Its constituent pushes:
 The visible behavior is the *resolution* of these opposed pushes by the existing argmax selector — that is
 the "tension," and it is emergent, not a stored or scripted quantity.
 
+**Derived observable (topology fixed; weights are calibration placeholders).** When a single scalar is
+needed (trace, diagnostics, the future Inn panel), `moral_tension` is **computed read-only** from the
+committed state vector — never integrated, never stored as a state, never mutated:
+
+```
+P_confess = w1·guilt + w2·repair_drive + w3·trust[target]                       # pull: own up
+P_conceal = w4·exposure_anxiety + w5·avoidance_drive
+          + w6·source_threat(target) + w7·cognitive_load_from_lies              # pull: hide
+P_defend  = w8·perceived_injustice                                              # pull: it's unfair
+
+moral_tension = clamp01( g_mt · CONFLICT(P_confess, P_conceal) + g_inj · P_defend · guilt )
+    where CONFLICT(a,b) = 2ab / (a + b + ε)        # harmonic-style: ≈0 if EITHER pull ≈0; large only if BOTH large
+```
+
+The `CONFLICT` operator is the topology decision: tension is high **only when opposing pulls are
+simultaneously strong** (guilt-high ∧ exposure-anxiety-high; repair-drive ∧ avoidance-drive both high;
+trust-toward-honesty fighting source_threat-toward-concealment), plus a cross-term for injustice fighting
+guilt. It is therefore **not** `max`/sum of the drives and **not** equal to fear, guilt, or stress. All
+`w*`/`g_*` are named config keys (`moral.tension.*`), calibrated later; with them at default the observable
+reads 0. Implementation lands as a pure read-only helper (alongside `eval/observe.py`) **once the M-J.0
+states exist** — it has nothing to read before then.
+
 ### 2bis.3 Half-life policy — moral states are SLOW; no new ultra-fast global state
 
 The moral states (`exposure_anxiety`, `guilt`, `rumination`, `repair_drive`, `avoidance_drive`,
@@ -595,10 +617,10 @@ states ✦ trace explains every moral outcome ✦ ledger read-only in `update`, 
 - [ ] no same-tick ledger mutation hidden in `potentials`
 
 **Corpus:**
-- [ ] `M-J-MORAL-OVERLAY-ONE-DAY` = 700 deterministic moral-on cases, generated **within** the 1400
-      one-day budget (not on top)
-- [ ] `M-J-MORAL-OVERLAY-MULTI-DAY` = 700 deterministic moral-on cases, generated **within** the 1400
-      multi-day budget (not on top)
+- [ ] `M-J-MORAL-OVERLAY-ONE-DAY` (short label `M-J-ONE-DAY-700`) = 700 deterministic moral-on cases,
+      generated **within** the 1400 one-day budget (not on top)
+- [ ] `M-J-MORAL-OVERLAY-MULTI-DAY` (short label `M-J-MULTI-DAY-700`) = 700 deterministic moral-on cases,
+      generated **within** the 1400 multi-day budget (not on top)
 - [ ] total generated corpus ≤ 1400 one-day + 1400 multi-day; existing non-moral corpora intact
 - [ ] each overlay case has reproducible seed + case id + labeled overlay type/config/invariants/result
 
