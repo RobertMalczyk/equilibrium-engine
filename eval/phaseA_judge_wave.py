@@ -22,12 +22,16 @@ import re
 import sys
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_RUNDIR = ROOT / "eval" / "phaseA_run"  # holds ONLY results + REPORT (committed footprint)
-BATCHDIR = ROOT / "eval" / "hourly_runs"  # rebuilt M1/M2 batches live here (gitignored, regenerable)
-BASELINE = ROOT / "eval" / "hourly_runs"  # the committed all-Sonnet baseline verdicts (2618/2800)
+DEFAULT_RUNDIR = (
+    ROOT / "eval" / "phaseA_run"
+)  # holds ONLY results + REPORT (committed footprint)
+BATCHDIR = (
+    ROOT / "eval" / "hourly_runs"
+)  # rebuilt M1/M2 batches live here (gitignored, regenerable)
+BASELINE = (
+    ROOT / "eval" / "hourly_runs"
+)  # the committed all-Sonnet baseline verdicts (2618/2800)
 _LINE = re.compile(r"^\s*([a-z_]+_\d{3})\s*:\s*(PASS|FLAG)\s*(?:--?\s*(.*))?$", re.I)
 
 
@@ -40,7 +44,9 @@ def _arg(name: str, default: str) -> str:
 def scan(rd: Path):
     """Batches are read from the (gitignored, rebuilt) BATCHDIR; results are written under the run dir
     `rd`. So the committed footprint is only the verdict files -- never the 18MB of regenerable batches."""
-    only = _arg("--filter", "")  # optional substring filter on the batch stem (e.g. "burstON")
+    only = _arg(
+        "--filter", ""
+    )  # optional substring filter on the batch stem (e.g. "burstON")
     allb, done = {}, set()
     for p in glob.glob(str(BATCHDIR / "slice_*" / "batches" / "*.md")):
         pp = Path(p)
@@ -124,7 +130,9 @@ def aggregate(rd: Path) -> None:
     n = len(new)
     npass = sum(1 for v in new.values() if v == "PASS")
     fixed = sorted(s for s, v in new.items() if v == "PASS" and base.get(s) == "FLAG")
-    regressed = sorted(s for s, v in new.items() if v == "FLAG" and base.get(s) == "PASS")
+    regressed = sorted(
+        s for s, v in new.items() if v == "FLAG" and base.get(s) == "PASS"
+    )
     bpass = sum(1 for v in base.values() if v == "PASS")
     lines = [
         "# Phase-A (M1/M2) re-judge -- all-Sonnet, judge model held constant",
