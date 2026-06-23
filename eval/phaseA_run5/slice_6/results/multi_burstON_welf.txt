@@ -1,0 +1,10 @@
+welf_multi_burstON_061: PASS -- steady boredom cycles, composed responses, sane pacing
+welf_multi_burstON_062: PASS -- lingering evening temper fits restless idleness pattern
+welf_multi_burstON_063: PASS -- late-night tension accumulates, recovers each morning
+welf_multi_burstON_064: PASS -- rain wears him down, residual tension, warmly accepts kindness
+welf_multi_burstON_065: PASS -- lets mockery pass, boredom cycles consistent with profile
+welf_multi_burstON_066: PASS -- composed under mockery, late-night restlessness believable
+welf_multi_burstON_067: PASS -- midnight transition artifact, character behavior consistently sane
+welf_multi_burstON_068: PASS -- cooler first response, gradual warming through day believable
+welf_multi_burstON_069: PASS -- well-supported Day 1 stays settled, morning tension pattern holds
+welf_multi_burstON_070: PASS -- clean arc, tense evenings resolve with rest and kindness

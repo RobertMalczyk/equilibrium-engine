@@ -1,10 +1,10 @@
-wojslaw_multi_burstON_071: PASS -- temper builds daily, sleep resets, public insults erupt
-wojslaw_multi_burstON_072: PASS -- erupts at mockings, quick evening settle after burst plausible
-wojslaw_multi_burstON_073: PASS -- heavy provocation day one, volatile but sleep resets hold
-wojslaw_multi_burstON_074: PASS -- days 3-5 warm due to absent provocation, not contradictory
-wojslaw_multi_burstON_075: PASS -- low-provocation run, rare eruptions fit profile fine
-wojslaw_multi_burstON_076: PASS -- sustained hostile environment, consistent volatility and resets
-wojslaw_multi_burstON_077: PASS -- calm day one, builds to displaced aggression by day three
-wojslaw_multi_burstON_078: PASS -- intense multi-day burst scenario, resets each morning intact
-wojslaw_multi_burstON_079: PASS -- day three calm after rough day two, sleep reset plausible
-wojslaw_multi_burstON_080: PASS -- sparse provocation yields warm stretch, erupts when mocked publicly
+wojslaw_multi_burstON_071: PASS -- calm mornings, provocations drive eruptions, sane recovery
+wojslaw_multi_burstON_072: PASS -- back-to-back mockings escalate plausibly; evenings settle
+wojslaw_multi_burstON_073: PASS -- heavy provocation day drives multiple eruptions; calms by evening
+wojslaw_multi_burstON_074: PASS -- variable days track provocation level; warm Day 3 believable
+wojslaw_multi_burstON_075: PASS -- low-provocation run, measured reactions, erupts on public mockery
+wojslaw_multi_burstON_076: PASS -- sustained heavy mocking; accumulated irritability across days
+wojslaw_multi_burstON_077: PASS -- calm Day 1, escalates Day 2 on mockings, pacing sound
+wojslaw_multi_burstON_078: PASS -- extreme provocation load; consistent reactivity, wakes calm each day
+wojslaw_multi_burstON_079: PASS -- Day 3 calm after heavy Day 2; renewed tension Day 4 credible
+wojslaw_multi_burstON_080: PASS -- few provocations, mostly warm; erupts only at public mockery

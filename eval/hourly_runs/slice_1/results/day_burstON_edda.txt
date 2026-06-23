@@ -1,10 +1,10 @@
-edda_day_burstON_011: PASS -- calm castellan, warmth to kindness, lets mockery pass
-edda_day_burstON_012: PASS -- composed, mild complaint at being ordered, sleeps and recovers
-edda_day_burstON_013: PASS -- settled, warm to help, unbothered by stranger's order
-edda_day_burstON_014: PASS -- calm day, kindness welcomed, barb ignored, recovers overnight
-edda_day_burstON_015: PASS -- composed throughout, warm thanks, mockery passes without reaction
-edda_day_burstON_016: PASS -- settled, mild complaint at order, otherwise calm and warm
-edda_day_burstON_017: PASS -- calm, gracious to kindness, order let pass, recovers
-edda_day_burstON_018: PASS -- curt answer and refusal to stranger's order, in-command
-edda_day_burstON_019: PASS -- consistently settled, warm to help, mockery ignored
-edda_day_burstON_020: PASS -- authoritative refusal of stranger's order, otherwise calm and warm
+edda_day_burstON_011: PASS -- calm, well-fed, authority exercised at day's end
+edda_day_burstON_012: PASS -- stranger ordering her yields mild complaint, plausible
+edda_day_burstON_013: PASS -- settled day, warmth from kindnesses, no anomalies
+edda_day_burstON_014: PASS -- barb ignored, composed throughout, sane pacing
+edda_day_burstON_015: PASS -- two soups at dawn odd but harmless, else sane
+edda_day_burstON_016: PASS -- early public slight let go, small grumble later, fine
+edda_day_burstON_017: PASS -- quiet day, stranger's order ignored, no issues
+edda_day_burstON_018: PASS -- declines stranger's order after warm day, fits authority
+edda_day_burstON_019: PASS -- barb dismissed, warmth throughout, sane rhythm
+edda_day_burstON_020: FLAG -- refuses stranger's order then ignores Marta's soup; mood inconsistent

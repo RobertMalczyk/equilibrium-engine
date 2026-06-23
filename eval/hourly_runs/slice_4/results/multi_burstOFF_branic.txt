@@ -1,12 +1,10 @@
-All records reviewed. Each shows sane day cycles, sleeps at night, restless/boredom-seeking, warm reactions to kindness, and proportionate escalation to repeated mocking. Nothing jars for a green, thin-skinned recruit.
-
-branic_multi_burstOFF_041: PASS -- sane cycles; rare eruption after repeated mocking, fits.
-branic_multi_burstOFF_042: PASS -- calm, believable pacing; sleeps and recovers.
-branic_multi_burstOFF_043: PASS -- escalating defiance on day 6 builds plausibly.
-branic_multi_burstOFF_044: PASS -- ordinary days, warm to kindness, well-paced.
-branic_multi_burstOFF_045: PASS -- mostly compliant, calm; nothing jars.
-branic_multi_burstOFF_046: PASS -- long stretch, sane rhythm, no excess anger.
-branic_multi_burstOFF_047: PASS -- day 4 fury after repeated barbs is proportionate.
-branic_multi_burstOFF_048: PASS -- believable boredom-seeking and recovery throughout.
-branic_multi_burstOFF_049: PASS -- calm, ordinary days; sleeps and resets.
-branic_multi_burstOFF_050: PASS -- day 5-6 mocking pile-up escalates believably.
+branic_multi_burstOFF_041: PASS -- eruption after rain day and mocking; recovery clean
+branic_multi_burstOFF_042: PASS -- calm run, no provocations, sane pacing throughout
+branic_multi_burstOFF_043: PASS -- slow buildup over 6 days; defiance and snapping earned
+branic_multi_burstOFF_044: PASS -- quiet 3 days, cooperative, nothing jars
+branic_multi_burstOFF_045: PASS -- heavy Day 1 mocking absorbed; Day 4 warmth plausible
+branic_multi_burstOFF_046: PASS -- uneventful; many kindnesses yield calm; nothing wrong
+branic_multi_burstOFF_047: PASS -- bristling builds; Day 4 eruption after repeated mocking
+branic_multi_burstOFF_048: PASS -- dense Day 5 provocations drive dense reactions; sleeps reset
+branic_multi_burstOFF_049: PASS -- clean 3 days, no tension, sane rhythm
+branic_multi_burstOFF_050: PASS -- heavy Day 5-6 mocking cluster; reactions match provocation density

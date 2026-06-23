@@ -1,0 +1,10 @@
+lutek_multi_burstON_081: PASS -- restless cycle, mocks ignored, sleep resets, sane pacing
+lutek_multi_burstON_082: PASS -- recurring evening tension fades overnight, fits character
+lutek_multi_burstON_083: PASS -- mild morning residual temper, resolves with kindness
+lutek_multi_burstON_084: PASS -- clean rhythm, mocks ignored, evening tension settles
+lutek_multi_burstON_085: PASS -- very clean, morning tension resolves with soup and activity
+lutek_multi_burstON_086: PASS -- multi-day morning tension pattern, curt once while on edge
+lutek_multi_burstON_087: PASS -- same morning tension arc, single curt reply while tense
+lutek_multi_burstON_088: PASS -- recurring morning tension across days, sleeps settled
+lutek_multi_burstON_089: PASS -- curt reply to mock while tense, resolves with kindness
+lutek_multi_burstON_090: PASS -- tense evenings resolve, mocks ignored, sane multi-day arc

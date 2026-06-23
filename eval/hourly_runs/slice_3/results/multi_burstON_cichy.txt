@@ -1,12 +1,10 @@
-All records reviewed. Each shows sane day/night pacing, sleep recovery, escalating anger to repeated mocks (consistent with a resentful captive), neutral/curt reaction to guard soup, warmth to strangers. No contradictions.
-
-cichy_multi_burstON_031: PASS -- sane pacing, anger to mocks, calm nights, warm to stranger
-cichy_multi_burstON_032: PASS -- believable spans, bristles at mocks, recovers nightly
-cichy_multi_burstON_033: PASS -- coherent days, escalating anger to repeated mocks
-cichy_multi_burstON_034: PASS -- sane rhythm, fury to public mock, curt to soup
-cichy_multi_burstON_035: PASS -- calm baseline, curt to guards, sleeps and recovers
-cichy_multi_burstON_036: PASS -- believable, eruptions to mocks, warm to stranger
-cichy_multi_burstON_037: PASS -- sane pacing, curt and snapping at guards
-cichy_multi_burstON_038: PASS -- six days coherent, mocks escalate, nights reset
-cichy_multi_burstON_039: PASS -- believable spans, fury to mocks, thanks strangers
-cichy_multi_burstON_040: PASS -- sane rhythm, curt to captors, warm to kindness
+cichy_multi_burstON_031: PASS -- sane pacing, erupts on provocation, sleep resets cleanly
+cichy_multi_burstON_032: PASS -- rain day contained, bristles but no fury, sleep cycles clean
+cichy_multi_burstON_033: PASS -- Day2 tension builds plausibly from prior evening provocation
+cichy_multi_burstON_034: PASS -- public mock triggers fury; evening mocks answered curtly, believable
+cichy_multi_burstON_035: PASS -- sustained Day2 tension coherent after Day1 evening taunt
+cichy_multi_burstON_036: PASS -- burst mid-day, stranger softens him, later mocks handled coldly
+cichy_multi_burstON_037: PASS -- late-night mock before sleep unusual but not impossible
+cichy_multi_burstON_038: PASS -- Day5 fury resolves to ease in 20 min, fast but plausible
+cichy_multi_burstON_039: PASS -- fury then curtly 4 min later is quick but within burst model
+cichy_multi_burstON_040: PASS -- snap then settled in 41 min acceptable, multi-day arc clean

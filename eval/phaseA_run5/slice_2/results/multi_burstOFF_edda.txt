@@ -1,0 +1,10 @@
+edda_multi_burstOFF_021: PASS -- composed castellan, steady baseline, sane pacing across six days
+edda_multi_burstOFF_022: PASS -- mild complaint under repeated orders fits composed authority
+edda_multi_burstOFF_023: PASS -- late compliance with stranger order odd but not a hard fail
+edda_multi_burstOFF_024: PASS -- quiet composed days, public mock absorbed without reaction
+edda_multi_burstOFF_025: PASS -- brief three days, repeated soup deliveries minor but plausible
+edda_multi_burstOFF_026: PASS -- busy kindness clusters, declines stranger order, sane rhythm
+edda_multi_burstOFF_027: PASS -- calm three days, regular meals, commands watch consistently
+edda_multi_burstOFF_028: PASS -- one compliance with stranger order unusual but not impossible
+edda_multi_burstOFF_029: PASS -- brief tension after mock resolves quickly, plausible response
+edda_multi_burstOFF_030: PASS -- activity-dense day four but nothing absurd, settled baseline holds

@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_061: PASS -- anger builds through day, sleep resets cleanly
+wojslaw_multi_burstON_062: PASS -- mocks drive eruptions, overnight recovery intact
+wojslaw_multi_burstON_063: PASS -- heavy burst days but provocation warrants it
+wojslaw_multi_burstON_064: PASS -- measured arc, Marta kindness buffers tension
+wojslaw_multi_burstON_065: PASS -- calm morning, erupts at public mock, sane reset
+wojslaw_multi_burstON_066: PASS -- Marta's goodwill moderates; erupts only when mocked
+wojslaw_multi_burstON_067: PASS -- early eruption sets tone; sleep reset holds each day
+wojslaw_multi_burstON_068: PASS -- heavy Day 1 provocation, clean Day 2 reset
+wojslaw_multi_burstON_069: PASS -- Day 1 cascade, Day 6 quiet; reset pattern solid
+wojslaw_multi_burstON_070: PASS -- three burst days alternate with calm; coherent rhythm

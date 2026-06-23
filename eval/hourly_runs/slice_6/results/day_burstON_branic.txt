@@ -1,10 +1,10 @@
-branic_day_burstON_061: PASS -- sane cycle, sleeps and wakes recovered
-branic_day_burstON_062: PASS -- calm watch, lets barbs pass while worn
-branic_day_burstON_063: PASS -- restless boredom cycle, late sleep but coherent
-branic_day_burstON_064: PASS -- warm to kindness, believable boredom pacing
-branic_day_burstON_065: PASS -- one bristle at provocation, otherwise settled
-branic_day_burstON_066: PASS -- ordinary watch day, tension rises then sleeps
-branic_day_burstON_067: PASS -- coherent boredom and warmth, evening edge
-branic_day_burstON_068: PASS -- snaps once when worn down, plausible
-branic_day_burstON_069: PASS -- flares at mockery when tense, sane otherwise
-branic_day_burstON_070: PASS -- warm, busy, believable day-night rhythm
+branic_day_burstON_061: PASS -- calm day, good rhythm, mild evening tension, normal sleep
+branic_day_burstON_062: PASS -- flat affect to Halgrim's kindness late evening is odd but passable
+branic_day_burstON_063: PASS -- sane pacing, tense by evening, late midnight sleep believable
+branic_day_burstON_064: PASS -- warm day with kindnesses, mild evening edge, clean sleep
+branic_day_burstON_065: PASS -- bristles briefly at kindness then warms; late-night restlessness fits
+branic_day_burstON_066: PASS -- indifferent to early soup, grows tense by night, sane arc
+branic_day_burstON_067: PASS -- tense by evening, stays wound through midnight, believable pattern
+branic_day_burstON_068: PASS -- snaps at mock when already on edge; wakes recovered next morning
+branic_day_burstON_069: PASS -- snaps mid-afternoon, settles by night; overnight into midnight plausible
+branic_day_burstON_070: PASS -- sociable afternoon, tension creeps back by evening, clean arc

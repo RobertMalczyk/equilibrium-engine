@@ -1,10 +1,10 @@
-welf_multi_burstON_091: PASS -- calm man manages boredom, one earned bristle, sane arc
-welf_multi_burstON_092: PASS -- steady rhythm, mocks let pass, no jarring moments
-welf_multi_burstON_093: PASS -- composed throughout, two mocks both let pass cleanly
-welf_multi_burstON_094: FLAG -- soup rendered as "lets it pass" (insult phrasing), rendering glitch
-welf_multi_burstON_095: FLAG -- soup on Day 4 rendered as "lets it pass", same glitch as 094
-welf_multi_burstON_096: PASS -- quiet three days, boredom cycles, no contradictions
-welf_multi_burstON_097: PASS -- Day 5 snap earned by rain accumulation, second mock let pass
-welf_multi_burstON_098: PASS -- rain adds tension, mocks let pass, sane recovery
-welf_multi_burstON_099: FLAG -- kindness rendered as "lets it pass" on Day 5, rendering glitch
-welf_multi_burstON_100: PASS -- late sleep Day 4 but record cuts off, otherwise sane
+welf_multi_burstON_091: PASS -- calm man, boredom cycles sane, one bristle plausible
+welf_multi_burstON_092: PASS -- routine days, sparse but coherent, mocks shrugged off
+welf_multi_burstON_093: PASS -- soup met neutrally once; marginal but not a clear violation
+welf_multi_burstON_094: PASS -- well-fed positive days, sustained ease fits settled profile
+welf_multi_burstON_095: PASS -- rain-day snap plausible after two wet days of idleness
+welf_multi_burstON_096: PASS -- clean three days, calm pacing, no jarring moments
+welf_multi_burstON_097: PASS -- burst on rain day plausible, second mock shrugged off, recovers
+welf_multi_burstON_098: PASS -- two rain days raise tension, mocks absorbed, normal rhythm
+welf_multi_burstON_099: FLAG -- Day 3 sleep past midnight; kindness shrugged on rainy Day 5
+welf_multi_burstON_100: PASS -- rain tension Day 3, mocks ignored, late sleep but not absurd

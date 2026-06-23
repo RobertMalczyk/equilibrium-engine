@@ -1,10 +1,10 @@
-cichy_day_burstOFF_041: PASS -- calm day, curt to guards, sleeps and wakes recovered.
-cichy_day_burstOFF_042: PASS -- mockery provokes anger, escalating fury, settles by night.
-cichy_day_burstOFF_043: PASS -- early eruption at mockery, otherwise calm, sane pacing.
-cichy_day_burstOFF_044: PASS -- curt to mockery and soup, calm throughout, recovers overnight.
-cichy_day_burstOFF_045: PASS -- warm to stranger, fury at guard mockery, sensible.
-cichy_day_burstOFF_046: PASS -- calm day, curt to guard soup, normal pacing.
-cichy_day_burstOFF_047: PASS -- placid day, curt to guards, sleeps and recovers.
-cichy_day_burstOFF_048: PASS -- mockery sparks anger and fury, calms, sane arc.
-cichy_day_burstOFF_049: PASS -- quiet calm day, lets guard kindness pass, normal.
-cichy_day_burstOFF_050: PASS -- warm to stranger, curt to guards, calm throughout.
+cichy_day_burstOFF_041: PASS -- quiet day, sane pacing, guard meals met with indifference
+cichy_day_burstOFF_042: PASS -- three provocations, escalating fury, settles overnight
+cichy_day_burstOFF_043: PASS -- early outburst then long calm, plausible vent-and-move-on
+cichy_day_burstOFF_044: PASS -- single mock, curt response, tension rises naturally
+cichy_day_burstOFF_045: PASS -- stranger warmth contrasts guard hostility coherently
+cichy_day_burstOFF_046: PASS -- routine day, curt when tense, otherwise indifferent
+cichy_day_burstOFF_047: PASS -- stays tense before bed but not absurd for on-edge captive
+cichy_day_burstOFF_048: PASS -- rough two-provocation day, worn but wakes calm
+cichy_day_burstOFF_049: PASS -- low-incident quiet day, believable for a captive
+cichy_day_burstOFF_050: PASS -- stranger kindness fits guard-specific hostility pattern

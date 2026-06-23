@@ -24,7 +24,7 @@ events:
     public: false
 - type: help
   t: 107
-  source: marta
+  source: player
   intensity: 0.265
   context: {}
 - type: command
@@ -48,7 +48,7 @@ events:
     public: false
 - type: help
   t: 358
-  source: marta
+  source: player
   intensity: 0.847
   context: {}
 - type: command

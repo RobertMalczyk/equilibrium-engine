@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_091: PASS -- Calm day, brief tension eased by kindness, fits profile.
+halgrim_day_burstOFF_092: PASS -- Mocking brushed off, steady throughout, consistent veteran.
+halgrim_day_burstOFF_093: PASS -- Declines Wojsław's order, warmly receives kindness, sane pacing.
+halgrim_day_burstOFF_094: PASS -- Declines Wojsław twice, flat with Edda, all coherent.
+halgrim_day_burstOFF_095: PASS -- Two barbs answered curtly, settles back; fits iron self-control.
+halgrim_day_burstOFF_096: PASS -- Tension after Wojsław's barb fades with food and kindness.
+halgrim_day_burstOFF_097: PASS -- Quiet day, compliant with Edda, settled throughout.
+halgrim_day_burstOFF_098: PASS -- Morning barbs raise tension, slowly eases; pacing believable.
+halgrim_day_burstOFF_099: PASS -- Uneventful, even-keeled all day; fits low-stimulation tolerance.
+halgrim_day_burstOFF_100: PASS -- Brief curt reply to Wojsław, quickly settled; fits profile.

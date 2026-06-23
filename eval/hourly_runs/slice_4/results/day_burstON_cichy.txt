@@ -1,10 +1,10 @@
-cichy_day_burstON_041: PASS -- calm captive, curt to guards, sane pacing, sleeps well.
-cichy_day_burstON_042: PASS -- mockery escalates to fury then settles; recovers overnight.
-cichy_day_burstON_043: PASS -- morning eruption at mocking guard, then calm day, sleeps.
-cichy_day_burstON_044: PASS -- curt to guard, sane tension cycles, recovers overnight.
-cichy_day_burstON_045: PASS -- warm to stranger, cold to mocking guard; believable.
-cichy_day_burstON_046: PASS -- calm day, curt to guards, normal rest and sleep.
-cichy_day_burstON_047: PASS -- settled day, mild curtness, sane pacing throughout.
-cichy_day_burstON_048: PASS -- early mock snaps, lingering tension all day; plausible.
-cichy_day_burstON_049: PASS -- calm captive, soup ignored, normal rhythm, sleeps well.
-cichy_day_burstON_050: PASS -- warm to stranger, curt to guards, sane tension cycles.
+cichy_day_burstON_041: PASS -- calm day, mild tension, curtness fits mood state
+cichy_day_burstON_042: PASS -- repeated mocks escalate to fury, believable burst
+cichy_day_burstON_043: PASS -- early fury plausible, rest of day settles normally
+cichy_day_burstON_044: PASS -- mild day, late restlessness, sane pacing throughout
+cichy_day_burstON_045: PASS -- stranger warmth vs guard coldness correctly differentiated
+cichy_day_burstON_046: PASS -- quiet day, curtness tracks mood, normal sleep cycle
+cichy_day_burstON_047: PASS -- three soups, responses track mood state correctly
+cichy_day_burstON_048: PASS -- morning snap, sustained tension, recovers overnight
+cichy_day_burstON_049: PASS -- quiet day, indifference when calm, sane rhythm
+cichy_day_burstON_050: PASS -- stranger warmth, guard curtness, tension holds into evening

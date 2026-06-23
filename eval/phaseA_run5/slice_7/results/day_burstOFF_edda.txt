@@ -1,0 +1,10 @@
+edda_day_burstOFF_071: PASS -- composed, warm to kindness, ignores stranger's order
+edda_day_burstOFF_072: PASS -- settled day, stranger's order brushed off, sane pacing
+edda_day_burstOFF_073: PASS -- barbed remark let pass, fits disciplined reserve
+edda_day_burstOFF_074: PASS -- mock ignored, day settles normally, coherent
+edda_day_burstOFF_075: PASS -- two soups in 12 min odd but not absurd
+edda_day_burstOFF_076: PASS -- quiet settled day, routine kindnesses warmly received
+edda_day_burstOFF_077: PASS -- two rest entries two minutes apart, minor but not jarring
+edda_day_burstOFF_078: PASS -- complies with stranger once; boarderline but not contradictory
+edda_day_burstOFF_079: PASS -- complies with stranger once; single event, rest coherent
+edda_day_burstOFF_080: PASS -- two soups 34 min apart, minor oddity, day otherwise fine

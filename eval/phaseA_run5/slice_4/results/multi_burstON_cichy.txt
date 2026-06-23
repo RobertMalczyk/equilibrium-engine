@@ -1,0 +1,10 @@
+cichy_multi_burstON_041: PASS -- sane arc, outburst earned after repeated mockery day 3
+cichy_multi_burstON_042: PASS -- sustained mockery met curtly, no unearned eruption
+cichy_multi_burstON_043: PASS -- burst after stranger-then-jab sequence fits hair-trigger profile
+cichy_multi_burstON_044: PASS -- rain adds wear, seething-then-curt sequence coherent
+cichy_multi_burstON_045: PASS -- no eruptions, moderate stimulus, nights reset cleanly
+cichy_multi_burstON_046: PASS -- two eruptions one day, both provoked, burst-ON warrants it
+cichy_multi_burstON_047: PASS -- multiple bursts across 6 days, each guard-provoked, resets hold
+cichy_multi_burstON_048: PASS -- rain day, sustained tension, stranger warmth, guards cold throughout
+cichy_multi_burstON_049: PASS -- heavy day 2 with stacked provocations, burst density fits burst-ON
+cichy_multi_burstON_050: PASS -- late-night eruption, wakes settled, first mock next day let pass

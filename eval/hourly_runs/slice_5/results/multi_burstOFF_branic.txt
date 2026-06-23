@@ -1,10 +1,10 @@
-branic_multi_burstOFF_051: PASS -- sane days, nightly reset, single justified eruption
-branic_multi_burstOFF_052: PASS -- calm life, lone snap after rain, recovers
-branic_multi_burstOFF_053: PASS -- pleasant calm six days, no jarring escalation
-branic_multi_burstOFF_054: PASS -- mostly calm, one public eruption after rain
-branic_multi_burstOFF_055: FLAG -- persistent defiance/fury snowballs, bristles at kindness, no reset
-branic_multi_burstOFF_056: PASS -- calm with one night flare, resets
-branic_multi_burstOFF_057: PASS -- calm with isolated flares, recovers nightly
-branic_multi_burstOFF_058: FLAG -- relentless flat refusals and eruptions, no overnight reset
-branic_multi_burstOFF_059: PASS -- refusals build but interspersed calm, fury isolated
-branic_multi_burstOFF_060: PASS -- refusals cluster on one stressed rainy day
+branic_multi_burstOFF_051: PASS -- calm days, believable Day 3 eruption after buildup
+branic_multi_burstOFF_052: PASS -- rain day snap with prior mockery is plausible
+branic_multi_burstOFF_053: PASS -- well-supported days, no escalation fits the inputs
+branic_multi_burstOFF_054: PASS -- eruption then quick compliance slightly abrupt but passable
+branic_multi_burstOFF_055: PASS -- sustained friction spiral, heavy but internally consistent
+branic_multi_burstOFF_056: PASS -- classic patience arc, eruption after repeated mocks
+branic_multi_burstOFF_057: PASS -- variable days, snap and bristle fit the profile
+branic_multi_burstOFF_058: FLAG -- Day 2 near-total refusal of every order feels extreme
+branic_multi_burstOFF_059: PASS -- friction then partial recovery over six days
+branic_multi_burstOFF_060: PASS -- Day 5 snap then refusals, settled/refuse juxtaposition minor

@@ -1,10 +1,10 @@
-wojslaw_day_burstOFF_081: PASS -- calm day with one late snap; fits a proud man having good day
-wojslaw_day_burstOFF_082: PASS -- morning flare, builds through evening, escalating refusals fit profile
-wojslaw_day_burstOFF_083: PASS -- kind morning, brief snap mid-day, proud refusals to orders at dusk
-wojslaw_day_burstOFF_084: PASS -- early fury, settles, two clean outbursts spaced believably apart
-wojslaw_day_burstOFF_085: PASS -- generous morning, two evening eruptions, late refusal; pacing coherent
-wojslaw_day_burstOFF_086: PASS -- warm start, two public-insult eruptions, tense late night; sensible arc
-wojslaw_day_burstOFF_087: PASS -- quiet day, single evening flare after order then mock; clean reset
-wojslaw_day_burstOFF_088: PASS -- accumulating provocations, escalating fury by late evening; fits well
-wojslaw_day_burstOFF_089: PASS -- kind morning, afternoon fury, two evening eruptions, late snap; coherent
-wojslaw_day_burstOFF_090: PASS -- multiple orders absorbed, mild flares at mocks, no outsized escalation
+wojslaw_day_burstOFF_081: PASS -- calm day with one late snap; plausible recovery arc
+wojslaw_day_burstOFF_082: PASS -- morning flare, afternoon eruption, escalating evening; coherent
+wojslaw_day_burstOFF_083: PASS -- mostly settled day, refuses orders, snaps at mock; fits profile
+wojslaw_day_burstOFF_084: PASS -- early fury, calm midday, evening eruption; sane pacing
+wojslaw_day_burstOFF_085: PASS -- good day turns sour by evening; two eruptions fit a proud man
+wojslaw_day_burstOFF_086: PASS -- pleasant morning, two afternoon eruptions, tense close; believable
+wojslaw_day_burstOFF_087: PASS -- quiet day, late provocation draws snappy response; fits profile
+wojslaw_day_burstOFF_088: PASS -- accumulating provocations lead to evening eruptions; sane arc
+wojslaw_day_burstOFF_089: PASS -- warm morning, afternoon provocations trigger repeated fury; fits
+wojslaw_day_burstOFF_090: FLAG -- tolerates repeated orders without refusal; unusually compliant for Wojslaw

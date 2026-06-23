@@ -1,0 +1,10 @@
+cichy_day_burstOFF_061: PASS -- snaps and erupts under mockery, settles between, believable
+cichy_day_burstOFF_062: PASS -- stranger kindness warmly received, guard mockery bristles, coherent
+cichy_day_burstOFF_063: PASS -- erupts at midday mockery, settles and rests, pacing sane
+cichy_day_burstOFF_064: PASS -- quiet day, curt with guards, warms to stranger, believable
+cichy_day_burstOFF_065: PASS -- curt with guards, warm to stranger, pacing and rest sane
+cichy_day_burstOFF_066: PASS -- snaps at late-night mockery before sleep, day otherwise settled
+cichy_day_burstOFF_067: PASS -- erupts mid-afternoon, tense evening, settles before sleep, coherent
+cichy_day_burstOFF_068: PASS -- quiet day, no provocations, tense afternoon, settled night, sane
+cichy_day_burstOFF_069: PASS -- early fury at mockery, calms within hour, day sane
+cichy_day_burstOFF_070: PASS -- snaps at morning mock, tense afternoon, recovers by evening

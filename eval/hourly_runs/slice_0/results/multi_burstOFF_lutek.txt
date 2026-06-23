@@ -1,12 +1,10 @@
-All ten records show consistent, sane behavior: restless/occupy cycles fitting the novelty-craving poet, warm thanks for kindness, mockery let pass, sleeps at night and wakes recovered, mild tension passing.
-
-lutek_multi_burstOFF_001: PASS -- sane restless cycles, warm, mockery ignored, sleeps nightly
-lutek_multi_burstOFF_002: PASS -- believable pacing, easy-going, brief tension only
-lutek_multi_burstOFF_003: PASS -- restless poet, hard to offend, recovers overnight
-lutek_multi_burstOFF_004: PASS -- mockery rolls off, settled mostly, sane rhythm
-lutek_multi_burstOFF_005: PASS -- six days coherent, restless, warm, never rages
-lutek_multi_burstOFF_006: PASS -- consistent cycles, thick-skinned, sleeps and recovers
-lutek_multi_burstOFF_007: PASS -- believable days, novelty-seeking, mild fleeting tension
-lutek_multi_burstOFF_008: PASS -- warm thanks, mockery ignored, sane day rhythm
-lutek_multi_burstOFF_009: PASS -- many kindnesses, easy-going, restless, recovers nightly
-lutek_multi_burstOFF_010: PASS -- settled poet, hard to offend, sane pacing
+lutek_multi_burstOFF_001: PASS -- steady boredom cycles, mocks roll off, clean sleep
+lutek_multi_burstOFF_002: PASS -- brief tension fades without cause, otherwise sane pacing
+lutek_multi_burstOFF_003: PASS -- double soup four minutes apart mechanical but not absurd
+lutek_multi_burstOFF_004: PASS -- three mocks all let pass, fits thick-skinned profile
+lutek_multi_burstOFF_005: PASS -- six days, tension spikes brief and self-resolving, fine
+lutek_multi_burstOFF_006: PASS -- one muted soup response, isolated, easy temperament fits
+lutek_multi_burstOFF_007: PASS -- early-morning tension clears with food, boredom cycles healthy
+lutek_multi_burstOFF_008: PASS -- one muted soup response Day 3, otherwise clean three days
+lutek_multi_burstOFF_009: PASS -- muted soup after already eating plausible, pacing sane
+lutek_multi_burstOFF_010: PASS -- two soups two minutes apart redundant but not absurd

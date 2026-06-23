@@ -1,12 +1,10 @@
-All records reviewed. Most show calm Welf cycling boredom/occupation/rest, settled mood, sleeping at night, letting mocks pass. Record 016 has an outburst at Day 3 06:58 ("flares up and snaps angrily") plus bristling — out of character for a composed, even-keeled man whose trouble is idleness not people.
-
-welf_multi_burstON_011: PASS -- calm restless-occupy cycle, sleeps nightly, lets mock pass
-welf_multi_burstON_012: PASS -- sane boredom/rest cycle, brief rain-edge tension, mocks ignored
-welf_multi_burstON_013: PASS -- believable pacing, recovers nightly, neutral to barbs
-welf_multi_burstON_014: PASS -- steady idleness cycle, calm, sleeps and wakes recovered
-welf_multi_burstON_015: PASS -- composed throughout, rain edge mild, lets mock pass
-welf_multi_burstON_016: FLAG -- Day3 snaps angrily/bristles at mocks; jars for even-keeled Welf
-welf_multi_burstON_017: PASS -- calm restless cycle, mild morning tension, mocks shrugged off
-welf_multi_burstON_018: PASS -- believable days, recovers nightly, neutral to barb
-welf_multi_burstON_019: PASS -- sane pacing across six days, calm, sleeps nightly
-welf_multi_burstON_020: PASS -- composed throughout, rain tension mild, lets mocks pass
+welf_multi_burstON_011: PASS -- steady boredom cycle, kindness received warmly, clean sleep
+welf_multi_burstON_012: PASS -- rain tension plausible, resolves by mid-morning each time
+welf_multi_burstON_013: PASS -- late night on day 2 but not absurd, otherwise consistent
+welf_multi_burstON_014: PASS -- evening tension from boredom accumulation, resolves normally
+welf_multi_burstON_015: FLAG -- soup met with no reaction (day 1, 19:25); muted response to food unusual
+welf_multi_burstON_016: PASS -- burst under rain+mock compound stress, recovers; fits burstON
+welf_multi_burstON_017: PASS -- clean 3-day cycle, mocks ignored, morning tension resolves
+welf_multi_burstON_018: PASS -- consistent morning tension pattern, resolves with food/rest
+welf_multi_burstON_019: FLAG -- soup met with no reaction (day 4, 13:35); muted response to food unusual
+welf_multi_burstON_020: PASS -- steady 6-day run, boredom/kindness cycle intact throughout

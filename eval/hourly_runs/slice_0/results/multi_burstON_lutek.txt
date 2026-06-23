@@ -1,12 +1,10 @@
-All records show a restless, easygoing poet: frequent restless/occupy cycles, warm thanks for kindnesses, mockery shrugged off (occasional curt reply but never raging), sleeps at night, wakes settled. All consistent with profile and sane pacing.
-
-lutek_multi_burstON_001: PASS -- restless cycles, shrugs mockery, sleeps and recovers; sane.
-lutek_multi_burstON_002: PASS -- easygoing, warm thanks, one curt reply; believable pacing.
-lutek_multi_burstON_003: PASS -- restless poet, mockery shrugged, nightly sleep; sane.
-lutek_multi_burstON_004: PASS -- curt once but no rage; restless, warm; believable.
-lutek_multi_burstON_005: PASS -- six days, steady restlessness, warm, recovers nightly.
-lutek_multi_burstON_006: PASS -- shrugs mockery, busy cycles, sleeps well; consistent.
-lutek_multi_burstON_007: PASS -- five days easygoing, restless, warm thanks; sane.
-lutek_multi_burstON_008: PASS -- warm, restless, mockery ignored; believable day flow.
-lutek_multi_burstON_009: PASS -- many kindnesses warmly taken, restless, sleeps; sane.
-lutek_multi_burstON_010: PASS -- restless poet, warm, recovers nightly; nothing jars.
+lutek_multi_burstON_001: PASS -- clean cycle, mockery ignored, normal rest and meals
+lutek_multi_burstON_002: FLAG -- curt cold reply to mockery contradicts thick-skinned profile
+lutek_multi_burstON_003: PASS -- late-night sleep fine, double soup trivial, profile consistent
+lutek_multi_burstON_004: FLAG -- curt cold reply to mockery while tense contradicts profile
+lutek_multi_burstON_005: PASS -- 6 days well-paced, mockery absorbed, minor double soup trivial
+lutek_multi_burstON_006: PASS -- flat kindness responses while preoccupied, not a sharp contradiction
+lutek_multi_burstON_007: PASS -- morning tension resolves, flat kindness minor, overall consistent
+lutek_multi_burstON_008: PASS -- mockery brushed off, flat soup response minor, cycle clean
+lutek_multi_burstON_009: PASS -- dense kindness cluster and rapid mocks both handled per profile
+lutek_multi_burstON_010: PASS -- two-minute double soup quirky but no profile contradiction

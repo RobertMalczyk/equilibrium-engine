@@ -1,12 +1,10 @@
-All records reviewed. Welf is calm, boredom-driven, mostly lets mocks pass. One snap in 084 (Day 5) — single, brief, recovers; acceptable for a composed man under accumulated rain/tension, not raging all day.
-
-welf_multi_burstON_081: PASS -- Sane idle cycle; mocks shrugged off; sleeps and recovers.
-welf_multi_burstON_082: PASS -- Brief edge after mock, mostly composed; believable boredom pacing.
-welf_multi_burstON_083: PASS -- Even-keeled, restless-then-occupied loop; mocks pass without flaring.
-welf_multi_burstON_084: PASS -- One mild snap after rain/tension, recovers; otherwise calm.
-welf_multi_burstON_085: PASS -- Calm, boredom-driven, kindnesses warm him; nothing jars.
-welf_multi_burstON_086: PASS -- Steady six-day rhythm; tension rises and resets nightly.
-welf_multi_burstON_087: PASS -- Composed throughout; restless cycles and sleep recovery believable.
-welf_multi_burstON_088: PASS -- Sane pacing across nights; mocks ignored, sleeps and wakes settled.
-welf_multi_burstON_089: PASS -- Even-tempered; rain tension mild, mocks shrugged; coherent days.
-welf_multi_burstON_090: PASS -- Calm idle loops, nightly reset; nothing contradicts the profile.
+welf_multi_burstON_081: PASS -- steady boredom cycles, calm throughout, brief edge clears
+welf_multi_burstON_082: PASS -- overnight tension carries forward, one bristle late in strained day
+welf_multi_burstON_083: PASS -- routine boredom and relief, minor tense patch clears normally
+welf_multi_burstON_084: PASS -- multi-day edge culminates in single snap, quick recovery follows
+welf_multi_burstON_085: PASS -- generous soup supply, no anger, mocks brushed off throughout
+welf_multi_burstON_086: PASS -- six days calm, tense mornings clear reliably by midday
+welf_multi_burstON_087: PASS -- neutral soup response Day 1 plausible; tense mornings clear normally
+welf_multi_burstON_088: PASS -- works past midnight once, minor oddity; otherwise sane pacing
+welf_multi_burstON_089: PASS -- very calm five days, mocks ignored, overnight resets consistent
+welf_multi_burstON_090: PASS -- clean three days, tense mornings clear, no anger throughout

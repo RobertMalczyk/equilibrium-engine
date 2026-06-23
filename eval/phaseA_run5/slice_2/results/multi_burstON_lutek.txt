@@ -1,0 +1,10 @@
+lutek_multi_burstON_021: PASS -- settled restless poet, warmth and mockery handled correctly
+lutek_multi_burstON_022: PASS -- consistent pacing, kindness warmth, insults roll off
+lutek_multi_burstON_023: PASS -- one mild curt reply under stress, within profile range
+lutek_multi_burstON_024: PASS -- evening tension without cause but plausible fatigue pattern
+lutek_multi_burstON_025: FLAG -- "still seething" after mild mockery; too intense for thick-skinned Lutek
+lutek_multi_burstON_026: FLAG -- "curtly and coldly" twice; sharper than profile allows for insults
+lutek_multi_burstON_027: PASS -- warm and settled across days, tension brief and mild
+lutek_multi_burstON_028: PASS -- good rhythm, morning tension resolves, insults ignored
+lutek_multi_burstON_029: PASS -- steady pacing, warmth consistent, no jarring reactions
+lutek_multi_burstON_030: PASS -- one shade-curt reply in context of prior tension, acceptable

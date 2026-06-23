@@ -1,10 +1,10 @@
-cichy_multi_burstON_091: PASS -- sane pacing, curtness toward guards fits captive profile
-cichy_multi_burstON_092: PASS -- escalating fury on public mockery, stranger warmth coherent
-cichy_multi_burstON_093: PASS -- outbursts triggered by guard mockery, nightly reset holds
-cichy_multi_burstON_094: PASS -- calm baseline, eruption from accumulated tension, sane
-cichy_multi_burstON_095: PASS -- dense Day 2/3 provocation warrants multiple flare-ups
-cichy_multi_burstON_096: PASS -- late-night double-provocation stretch believable, recovers
-cichy_multi_burstON_097: PASS -- eruption in morning after stacked rain and mockery, sane
-cichy_multi_burstON_098: PASS -- morning eruption while settled is abrupt but triggered
-cichy_multi_burstON_099: PASS -- two outbursts in Day 3 heavy but each guard-triggered
-cichy_multi_burstON_100: PASS -- wound tight by evening without event; plausible residual tension
+cichy_multi_burstON_091: PASS -- sane pacing, curtness fits resentful captive profile
+cichy_multi_burstON_092: PASS -- escalation tracks repeated harassment, stranger warmth consistent
+cichy_multi_burstON_093: PASS -- burst after afternoon accumulation, day resets hold
+cichy_multi_burstON_094: PASS -- mid-morning eruption plausible after multi-day guard pressure
+cichy_multi_burstON_095: PASS -- high provocation density drives multiple flares, resets acceptable
+cichy_multi_burstON_096: PASS -- post-eruption calm within range, overall arc coherent
+cichy_multi_burstON_097: PASS -- rain plus evening mock triggers snap, quick recovery plausible
+cichy_multi_burstON_098: PASS -- rain-day eruption, 28-min calm afterward within tolerance
+cichy_multi_burstON_099: PASS -- two eruptions on heavily provoked day, escalation earned
+cichy_multi_burstON_100: PASS -- wound-tight evening builds naturally from day's quiet tension

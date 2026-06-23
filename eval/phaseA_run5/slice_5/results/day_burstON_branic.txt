@@ -1,0 +1,10 @@
+branic_day_burstON_051: PASS -- calm day, boredom cycles, kindness received warmly, sleeps fine
+branic_day_burstON_052: PASS -- settled day, residual temper at night plausible, wakes calm
+branic_day_burstON_053: FLAG -- refuses orders then defies twice late at night; escalation steep with no clear trigger
+branic_day_burstON_054: PASS -- steady compliance all day, erupts at late order under tension, believable arc
+branic_day_burstON_055: PASS -- heavy drill morning, snaps at public mockery, lingering temper at night
+branic_day_burstON_056: PASS -- quiet day, late mock stings but he absorbs it, tension rises plausibly
+branic_day_burstON_057: PASS -- simmering residual temper, barb tips him over, refuses after outburst
+branic_day_burstON_058: PASS -- calm uneventful day, late tension with no triggering event is mild flag but acceptable
+branic_day_burstON_059: PASS -- multiple mocks absorbed, bristles once, evening tension, wakes settled
+branic_day_burstON_060: PASS -- boredom cycles, mocks shrugged off, evening edge, no jarring elements

@@ -667,7 +667,20 @@ saturation + a self-extinguishing burst latch**:
   `positive_response` out-argmaxed the displaced outburst even at anger ≈ 1 (0.50 vs 0.159 at the
   placeholders), so no calibration could ever realize the spec'd "the burst may catch a kind giver" —
   the qualitative behaviour had to be a gate, per the topology-now rule. `theta_displace` is thereby
-  the *single* dial separating "warmth still gets through" from "anyone present can catch it". **A displaced lash-out must NOT
+  the *single* dial separating "warmth still gets through" from "anyone present can catch it".
+  **Source-valence gate (M3, refines the 2026-06-12 decision; config `appraisal.displace_valence_gate`,
+  default off → bit-identical).** Blind-judge evidence (the all-Sonnet believability re-judge:
+  `eval/phaseA_run2/REPORT.md`, 48/88 residual regressions = "snaps at soup / displacement overdone")
+  showed that suppressing a *genuine kindness* above the bar overshoots believability. When the gate is
+  enabled, a **positive-valence** event is **not** an admissible discharge trigger: the displaced gate
+  does not open for it, so its `kindness_pressure` is **not** suppressed and the appraisal route wins
+  (warmth/neutral, never a lash-out at the kind giver). "Positive valence" reuses the existing kindness
+  appraisal exactly — `kindness_pressure > 0` (a pro-social gesture from a **non-resented** source with a
+  net-positive contribution). A "kindness" from a **resented** source has `kindness_pressure = 0` (it
+  galls — a provocation), so it still qualifies as a discharge target: Cichy is unaffected by
+  construction. Neutral/negative sources above the bar still catch the displacement (the "kick the dog"
+  on the bystander is unchanged). The gate is a deterministic boolean conjunct on the frozen snapshot —
+  no new state or feedback edge, so the linearized poles are unchanged. **A displaced lash-out must NOT
   mint a durable grudge on the innocent:** its relational cost is booked **transiently / heavily
   discounted** (a flash of "snapped at her", not "now hates her") — the measured pathology (wojsław/Marta:
   each discharge booked `+resentment` on the giver, her resentment ran to 1.0, then her every kindness

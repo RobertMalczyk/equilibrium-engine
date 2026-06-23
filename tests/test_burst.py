@@ -539,6 +539,91 @@ def test_refractory_fires_WITHOUT_the_latch():
     )  # without the gate, it re-explodes
 
 
+# --- M3: source-valence gate (Phase C) — a genuine kindness is not a discharge target --------------
+
+
+def test_valence_gate_honours_a_genuine_kindness_above_the_bar():
+    """M3 (the win): with `appraisal.displace_valence_gate` ON, a GENUINE kindness above the bar
+    (a gesture from a NON-resented source, kindness_pressure>0) is NOT a discharge target — the
+    appraisal route wins (positive_response, trust booked), instead of the lash-out that fires with
+    the gate OFF (test_above_the_bar_displacement_overrides_kindness). Same scenario, one flag flipped."""
+    cfg = _burst_cfg(
+        extinction={"anger": 0.02, "stress": 0.02},
+        appraisal={
+            "displace_valence_gate": True
+        },  # deep-merged onto the kindness-ON default
+    )
+    events = [
+        RawEvent(
+            t=5, type="food_given", source="marta", item="warm_meal", intensity=0.8
+        )
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=HOT_START), n_ticks=8)
+    tk = tr.ticks[5]
+    assert tk.burst_latched is True  # still above the bar in the episode
+    assert (
+        tk.state_after_post.global_state["anger"] >= BURST_THRESHOLDS["theta_displace"]
+    )
+    assert (
+        tk.selection.action == "positive_response"
+    )  # warmth wins, no lash-out at the kind giver
+    assert "[DISPLACED" not in tk.selection.explanation
+    assert tk.selection.post_effects.relations.get("marta", {}).get("trust", 0.0) > 0.0
+
+
+def test_valence_gate_still_catches_a_neutral_sourced_event():
+    """M3 does not over-suppress: with the gate ON, a sourced event that is NOT a genuine kindness
+    (kindness_pressure 0 — gesture appraisal off here) is still an admissible discharge target above
+    the bar. The 'kick the dog' on a neutral bystander is unchanged."""
+    cfg = _burst_cfg(
+        extinction={"anger": 0.02, "stress": 0.02},
+        appraisal={
+            "gesture_channels": [],
+            "kindness_pressure": 0.0,
+            "displace_valence_gate": True,
+        },
+    )
+    events = [
+        RawEvent(
+            t=5, type="food_given", source="marta", item="warm_meal", intensity=0.8
+        )
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=HOT_START), n_ticks=8)
+    tk = tr.ticks[5]
+    assert tk.burst_latched is True
+    assert (
+        tk.selection.action == "outburst"
+    )  # still caught — only a GENUINE kindness is spared
+    assert "[DISPLACED" in tk.selection.explanation
+
+
+def test_valence_gate_still_catches_a_kindness_from_a_resented_source():
+    """Cichy-intact-by-construction: a 'kindness' from a deeply RESENTED source has kindness_pressure 0
+    (it galls — a provocation), so even with the valence gate ON it is NOT spared; the persona does
+    not warm to the jailer's meal. Only a genuine (non-resented) kindness draws warmth."""
+    cfg = _burst_cfg(
+        extinction={"anger": 0.02, "stress": 0.02},
+        appraisal={
+            "displace_valence_gate": True
+        },  # kindness appraisal ON (default gesture_channels)
+    )
+    initial = {
+        "global_state": {"anger": 0.95, "stress": 0.90},
+        "relations": {"marta": {"resentment": 0.95}},
+    }
+    events = [
+        RawEvent(
+            t=5, type="food_given", source="marta", item="warm_meal", intensity=0.8
+        )
+    ]
+    _, tr = run_scenario(cfg, _scenario(events, initial=initial), n_ticks=8)
+    tk = tr.ticks[5]
+    assert tk.burst_latched is True
+    assert (
+        tk.selection.action != "positive_response"
+    )  # the resented giver's gesture does not warm him
+
+
 # --- determinism ------------------------------------------------------------------------------------
 
 

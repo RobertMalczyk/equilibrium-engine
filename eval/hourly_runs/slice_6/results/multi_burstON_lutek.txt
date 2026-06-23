@@ -1,10 +1,10 @@
-lutek_multi_burstON_061: PASS -- restless-busy cycle, warm to kindness, shrugs mockery, sleeps well.
-lutek_multi_burstON_062: PASS -- sane pacing, sleeps nightly, wakes recovered, mockery shrugged.
-lutek_multi_burstON_063: PASS -- believable boredom-rest rhythm, warm and thick-skinned throughout.
-lutek_multi_burstON_064: PASS -- coherent days, kindness welcomed, mockery let pass, night sleep.
-lutek_multi_burstON_065: PASS -- restless poet, mild curt reply once, otherwise easy and calm.
-lutek_multi_burstON_066: PASS -- sane multi-day arc, warm responses, no absurd swings.
-lutek_multi_burstON_067: PASS -- believable rhythm, sociable, unoffended, recovers each night.
-lutek_multi_burstON_068: PASS -- coherent pacing, warm to help, shrugs barbs, sleeps nightly.
-lutek_multi_burstON_069: PASS -- calm restless cycle, kindness welcomed, nothing jarring.
-lutek_multi_burstON_070: PASS -- sane days and nights, warm, unbothered, well-paced.
+lutek_multi_burstON_061: PASS -- sane pacing, evening mocks roll off, curt reply under tiredness fits
+lutek_multi_burstON_062: PASS -- clean 6-day arc, boredom cycles, mocks ignored, overnight recovery holds
+lutek_multi_burstON_063: PASS -- early-work tension pattern believable, mocks pass, days resolve cleanly
+lutek_multi_burstON_064: PASS -- multiple mocks absorbed, day 3 tension clears quickly with kindness
+lutek_multi_burstON_065: PASS -- one curt reply under sustained tension borderline but not jarring
+lutek_multi_burstON_066: PASS -- gentle 5 days, boredom satisfied quickly, mild evening tension only
+lutek_multi_burstON_067: PASS -- rich social days, mocks ignored, early tension resolves with food
+lutek_multi_burstON_068: PASS -- flat first soup minor, day 3 tension clears, day 4 fully settled
+lutek_multi_burstON_069: PASS -- day 1 ends tense but recovers overnight, subsequent days calm and sane
+lutek_multi_burstON_070: PASS -- recurring morning tension pattern consistent, all resolve with food or rest

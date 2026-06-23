@@ -1,10 +1,10 @@
-welf_multi_burstON_001: PASS -- calm baseline, single justified snap at mockery, sleeps and recovers.
-welf_multi_burstON_002: PASS -- even-keeled, lets mockery pass, sane rest/boredom cadence.
-welf_multi_burstON_003: PASS -- composed throughout, mockery shrugged off, believable pacing.
-welf_multi_burstON_004: PASS -- steady, warm to kindness, mockery ignored, recovers nightly.
-welf_multi_burstON_005: PASS -- calm rain-watch tension fades, sane daily rhythm.
-welf_multi_burstON_006: PASS -- composed, lets barbs pass, believable boredom-rest cycle.
-welf_multi_burstON_007: PASS -- mild rain-driven edge, recovers overnight, drifting wake times.
-welf_multi_burstON_008: PASS -- six days steady, mockery shrugged, plausible sleep drift.
-welf_multi_burstON_009: PASS -- transactional calm, ignores barbs, hunger/temper rise and fall believably.
-welf_multi_burstON_010: PASS -- even-keeled, lets mockery pass, sane recovery and pacing.
+welf_multi_burstON_001: PASS -- rain tension, one snap Day 3, sleep resets; sane arc
+welf_multi_burstON_002: PASS -- composed, mild tense-to-settled rhythm across three days
+welf_multi_burstON_003: PASS -- calm stretch, regular boredom cycles, no jarring moments
+welf_multi_burstON_004: PASS -- many kindnesses, stays settled, boredom recurs naturally
+welf_multi_burstON_005: PASS -- rain Day 2 raises tension, resolves; consistent pacing
+welf_multi_burstON_006: PASS -- kindness-heavy stretch, very settled; plausible good days
+welf_multi_burstON_007: PASS -- Day 1 wound tight after no relief; sleep resets; sane
+welf_multi_burstON_008: PASS -- six days, repeated mocks brushed off; fits calm profile
+welf_multi_burstON_009: PASS -- two rain days, mocks ignored; tense mornings clear by noon
+welf_multi_burstON_010: PASS -- soup ignored once when content; late boredom ends Day 4 tense

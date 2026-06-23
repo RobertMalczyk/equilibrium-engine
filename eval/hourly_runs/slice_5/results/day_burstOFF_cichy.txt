@@ -1,10 +1,10 @@
-cichy_day_burstOFF_051: PASS -- erupts at mock, calm baseline, sleeps and recovers
-cichy_day_burstOFF_052: PASS -- fury at taunt, settles, normal day, recovers overnight
-cichy_day_burstOFF_053: PASS -- bristles at mock, calm pacing, sane recovery
-cichy_day_burstOFF_054: PASS -- escalating reactions to mockery, believable arc, recovers
-cichy_day_burstOFF_055: PASS -- curt to guard, warm to stranger, fitting resentment
-cichy_day_burstOFF_056: PASS -- repeated taunts, repeated fury, plausible tense day
-cichy_day_burstOFF_057: PASS -- public mock triggers fury, otherwise calm, recovers
-cichy_day_burstOFF_058: PASS -- erupts at taunt, warm to stranger, sane recovery
-cichy_day_burstOFF_059: PASS -- escalating anger to mocks, calms, recovers overnight
-cichy_day_burstOFF_060: PASS -- calm day, warm to stranger, no jarring reactions
+cichy_day_burstOFF_051: PASS -- sane day, fury on mock, settles, wakes recovered
+cichy_day_burstOFF_052: PASS -- tension builds, fury on evening mock, recovers overnight
+cichy_day_burstOFF_053: PASS -- bristles but holds back on single mock, believable restraint
+cichy_day_burstOFF_054: PASS -- morning curt, evening fury on repeated provocation, sane
+cichy_day_burstOFF_055: PASS -- stranger kindness accepted warmly, guard food curt, fits profile
+cichy_day_burstOFF_056: FLAG -- three mocks trigger fury twice in 34 min, tense at sleep with no wind-down
+cichy_day_burstOFF_057: PASS -- fury on afternoon mock, settles cleanly, wakes recovered
+cichy_day_burstOFF_058: FLAG -- kindness warmly received at same timestamp as peak tension, jarring
+cichy_day_burstOFF_059: PASS -- early mock ignored, later mock fury; plausible variable threshold
+cichy_day_burstOFF_060: PASS -- quiet provocation-free day, appropriate mild tension, sane

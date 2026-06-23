@@ -1,0 +1,10 @@
+lutek_multi_burstON_031: PASS -- steady restless rhythm, mockery rolls off, clean recovery
+lutek_multi_burstON_032: PASS -- good pacing, tension resolves with food and kindness each day
+lutek_multi_burstON_033: PASS -- late nights fit restless poet, morning tension clears cleanly
+lutek_multi_burstON_034: PASS -- mild lingering temper after mock, clears with soup and kindness
+lutek_multi_burstON_035: PASS -- stable rhythm, morning tension resolves, nothing jarring
+lutek_multi_burstON_036: PASS -- smooth days, mockery ignored, boredom cycle intact
+lutek_multi_burstON_037: PASS -- late kindness cluster busy but profile intact throughout
+lutek_multi_burstON_038: PASS -- late nights plausible, mocks roll off, morning tension cycles fine
+lutek_multi_burstON_039: FLAG -- answers mock curtly and coldly; profile says mockery rolls off
+lutek_multi_burstON_040: PASS -- mocks ignored throughout, tension cycles resolve without incident

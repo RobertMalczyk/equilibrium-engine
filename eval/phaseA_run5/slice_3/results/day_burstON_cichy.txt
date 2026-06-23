@@ -1,0 +1,10 @@
+cichy_day_burstON_031: PASS -- Mild irritation from mock, settles by evening, sane arc.
+cichy_day_burstON_032: PASS -- Escalating mocks drive eruption late at night, fits profile.
+cichy_day_burstON_033: PASS -- Low-level tension through afternoon, no jarring moments.
+cichy_day_burstON_034: PASS -- Stranger kindness welcomed, guard soup met curtly, believable contrast.
+cichy_day_burstON_035: PASS -- Tension builds across day, stranger warmth amid guard resentment.
+cichy_day_burstON_036: FLAG -- Bristles at mock at 21:55 then looks settled at ease at 22:04.
+cichy_day_burstON_037: PASS -- Tension rises midday, dissipates by evening, sane pacing.
+cichy_day_burstON_038: PASS -- Guard mocks met coldly, stranger warmth accepted, consistent.
+cichy_day_burstON_039: PASS -- Lingers tense after snap, stranger kindness absorbed, believable day.
+cichy_day_burstON_040: PASS -- Slow burn through day, bristles at late mock, plausible arc.

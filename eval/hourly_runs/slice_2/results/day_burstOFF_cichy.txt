@@ -1,10 +1,10 @@
-cichy_day_burstOFF_021: PASS -- sensible day; mocks anger, soup curtness, sleeps and wakes calm
-cichy_day_burstOFF_022: PASS -- believable pacing; snaps at mockery, warm to stranger, recovers
-cichy_day_burstOFF_023: PASS -- calm stretches with curt soup and one furious eruption
-cichy_day_burstOFF_024: PASS -- coherent day; fury at mocks, curt soup, rests and sleeps
-cichy_day_burstOFF_025: PASS -- mocks provoke fury, soup bristle, settles overnight, fine
-cichy_day_burstOFF_026: PASS -- quiet day; no provocation, no anger, sane pacing
-cichy_day_burstOFF_027: PASS -- mostly calm, one snap at mockery, recovers overnight
-cichy_day_burstOFF_028: PASS -- graded reactions to mocks, calm intervals, sleeps recovered
-cichy_day_burstOFF_029: PASS -- repeated mocks bring fury, soup curtness, calm between
-cichy_day_burstOFF_030: PASS -- warm to stranger, curt soup, fury at mock, sleeps
+cichy_day_burstOFF_021: PASS -- two guard provocations escalate coherently, settles before sleep
+cichy_day_burstOFF_022: PASS -- moderate provocation, sane pacing, fits resentful captive
+cichy_day_burstOFF_023: PASS -- fury spike followed by quick calm; plausible for volatile man
+cichy_day_burstOFF_024: PASS -- public humiliation triggers fury, day pacing sane
+cichy_day_burstOFF_025: PASS -- three outbursts each triggered; high provocation day, fits profile
+cichy_day_burstOFF_026: PASS -- quiet unprovoked day, boredom cycles, sane
+cichy_day_burstOFF_027: PASS -- moderate snap at late provocation, appropriate tension level
+cichy_day_burstOFF_028: PASS -- gradual escalation to fury on public mockery, coherent
+cichy_day_burstOFF_029: PASS -- fury just after waking is abrupt but fits hair-trigger captive
+cichy_day_burstOFF_030: PASS -- tension builds through evening, mock triggers fury, sane arc

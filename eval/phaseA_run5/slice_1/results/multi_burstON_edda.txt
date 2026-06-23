@@ -1,0 +1,10 @@
+edda_multi_burstON_011: PASS -- calm three days, sane pacing, fits profile
+edda_multi_burstON_012: PASS -- friction escalates day 6, resets overnight, believable
+edda_multi_burstON_013: PASS -- socially rich day 3, warm responses, authority intact
+edda_multi_burstON_014: PASS -- settled days, appropriate mild reactions to provocations
+edda_multi_burstON_015: PASS -- graduated compliance responses to repeated orders, sane
+edda_multi_burstON_016: PASS -- calm throughout, lets stranger orders pass, fits profile
+edda_multi_burstON_017: PASS -- multiple mocks absorbed; early defiant refusal day 4 borderline but tolerable
+edda_multi_burstON_018: PASS -- tension builds day 4 end, resets after sleep, believable
+edda_multi_burstON_019: PASS -- two rapid-fire orders day 4 produce escalating refusals, odd but sane
+edda_multi_burstON_020: PASS -- early morning complaint day 4 unprovoked but mild, overall sane

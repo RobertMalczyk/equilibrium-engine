@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_061: PASS -- prickly man, anger spikes at evening mockery, settles overnight
+wojslaw_day_burstOFF_062: PASS -- escalating anger through repeated mockery, plausible refusals, recovers by night
+wojslaw_day_burstOFF_063: PASS -- rough morning, settles by afternoon, calm evening arc believable
+wojslaw_day_burstOFF_064: PASS -- warmth from Marta, two eruptions at public mockery, fits profile
+wojslaw_day_burstOFF_065: PASS -- two early provocations set sour tone, lingers tense all day
+wojslaw_day_burstOFF_066: FLAG -- lets first public mockery pass entirely, too lenient for Wojsław
+wojslaw_day_burstOFF_067: PASS -- calm day, mild bristling late evening, fits a quieter day
+wojslaw_day_burstOFF_068: PASS -- accumulating irritation, erupts mid-afternoon, settles by evening
+wojslaw_day_burstOFF_069: PASS -- heavy mockery cascade morning, stays tense all day, gradual ease
+wojslaw_day_burstOFF_070: PASS -- two public eruptions morning, sustained tension, fits proud prickly man

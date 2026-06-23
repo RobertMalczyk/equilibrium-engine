@@ -1,0 +1,10 @@
+edda_multi_burstON_091: PASS -- settled castellan, regular meals, commands watch, sane pacing
+edda_multi_burstON_092: PASS -- steady days, kindnesses received warmly, authority exercised normally
+edda_multi_burstON_093: PASS -- calm baseline, strangers ordering her tolerated, composed throughout
+edda_multi_burstON_094: PASS -- well-fed, warmly social, mock brushed off, consistent authority
+edda_multi_burstON_095: PASS -- brief tension after mock resolves quickly, back to ease
+edda_multi_burstON_096: PASS -- busy social Day 1, then calmer days, authority intact
+edda_multi_burstON_097: PASS -- mild edge under pressure, recovers well, composed castellan
+edda_multi_burstON_098: PASS -- warm day one, then steady; declining strangers credibly
+edda_multi_burstON_099: PASS -- quiet uneventful days, steady composure, no jarring moments
+edda_multi_burstON_100: PASS -- mock causes brief tension, kindness restores ease quickly

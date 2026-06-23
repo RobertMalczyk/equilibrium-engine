@@ -1,0 +1,10 @@
+edda_multi_burstOFF_061: PASS -- settled authority figure, mild complaint fits repeated demands
+edda_multi_burstOFF_062: PASS -- quiet days, calm deflection of orders and mockery
+edda_multi_burstOFF_063: PASS -- mixed compliance across 6 days, sane pacing throughout
+edda_multi_burstOFF_064: PASS -- curt reply to mockery, brief tension, then recovery
+edda_multi_burstOFF_065: PASS -- mild escalation on repeated orders, then settles
+edda_multi_burstOFF_066: PASS -- tension shows after mockery, firm refusal fits castellan
+edda_multi_burstOFF_067: PASS -- three barbs accumulate to visible tension, recovers after
+edda_multi_burstOFF_068: PASS -- dense morning kindnesses plausible, barbs deflected calmly
+edda_multi_burstOFF_069: PASS -- muted response to kindness while already settled, believable
+edda_multi_burstOFF_070: PASS -- smooth settled days, consistent composed authority

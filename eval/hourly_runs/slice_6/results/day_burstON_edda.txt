@@ -1,10 +1,10 @@
-edda_day_burstON_061: PASS -- calm, composed; sane pacing, recovers after sleep.
-edda_day_burstON_062: PASS -- warm, settled day; believable rhythm and recovery.
-edda_day_burstON_063: PASS -- brief curt reply, mild edge, otherwise composed.
-edda_day_burstON_064: PASS -- settled, warm responses; sane day and recovery.
-edda_day_burstON_065: PASS -- composed and at ease throughout; believable pacing.
-edda_day_burstON_066: PASS -- calm, lets mockery pass; sane day, recovers.
-edda_day_burstON_067: PASS -- settled, warm; believable rhythm and overnight recovery.
-edda_day_burstON_068: PASS -- composed, warm to kindness; sane pacing throughout.
-edda_day_burstON_069: PASS -- calm, lets jabs pass; believable day, recovers.
-edda_day_burstON_070: PASS -- quiet, settled day; sane pacing and recovery.
+edda_day_burstON_061: PASS -- castellan compliance with strangers muted but within composed profile
+edda_day_burstON_062: PASS -- very positive day, sane pacing, minor soup frequency
+edda_day_burstON_063: PASS -- four provocations absorbed, brief tension resolves naturally
+edda_day_burstON_064: PASS -- calm positive day, no issues
+edda_day_burstON_065: PASS -- calm day, sane arc throughout
+edda_day_burstON_066: FLAG -- castellan complies with stranger order at pre-dawn without pushback
+edda_day_burstON_067: PASS -- quiet day, no stressors, sane
+edda_day_burstON_068: PASS -- early mock absorbed, warm day overall, sane
+edda_day_burstON_069: PASS -- two soups 36min apart minor, mocks absorbed, sane
+edda_day_burstON_070: PASS -- clean quiet day, sane

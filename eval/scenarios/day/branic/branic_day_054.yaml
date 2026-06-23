@@ -60,7 +60,7 @@ events:
     has_authority: true
 - type: help
   t: 491
-  source: marta
+  source: player
   intensity: 0.888
   context: {}
 - type: nightfall

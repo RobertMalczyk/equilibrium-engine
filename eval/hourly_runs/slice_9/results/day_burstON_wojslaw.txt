@@ -1,10 +1,10 @@
-wojslaw_day_burstON_091: PASS -- displaced anger at kindness after two provocations, plausible
-wojslaw_day_burstON_092: PASS -- erupts at mockery and defies orders; fury at helper after rough day ok
-wojslaw_day_burstON_093: PASS -- twice-mocked then snaps at soup; evening reactions diminish sensibly
-wojslaw_day_burstON_094: PASS -- calm day, lets early barb pass, erupts at afternoon insult
-wojslaw_day_burstON_095: PASS -- sustained anger displacing onto kindnesses; wakes reset
-wojslaw_day_burstON_096: FLAG -- fury at 20:03 then visibly warmed and grateful twice within 30 min
-wojslaw_day_burstON_097: PASS -- overflow fury at soup after barb; sustained tension fits profile
-wojslaw_day_burstON_098: PASS -- quiet day, muted reactions; bristles only late; sane pacing
-wojslaw_day_burstON_099: FLAG -- proud prickly man warmly grateful all day; too saintly for profile
-wojslaw_day_burstON_100: PASS -- morning flare, calms, erupts at public insult, accepts kindness when settled
+wojslaw_day_burstON_091: PASS -- flares at insults, calms through afternoon, sane arc
+wojslaw_day_burstON_092: PASS -- eruptions fit provocations, defiance fits pride
+wojslaw_day_burstON_093: PASS -- displaced snap at soup plausible while still simmering
+wojslaw_day_burstON_094: PASS -- low-provocation day, one burst, otherwise calm
+wojslaw_day_burstON_095: PASS -- heavy provocation, sustained tension, fits profile
+wojslaw_day_burstON_096: PASS -- early mocks pass, late burst, slight fast-swing but acceptable
+wojslaw_day_burstON_097: PASS -- soup-fury fits displaced aggression in a wound-up man
+wojslaw_day_burstON_098: PASS -- quiet day, muted responses, plausible low-tension run
+wojslaw_day_burstON_099: FLAG -- full day of repeated warm thanks, zero edge, jars proud prickly profile
+wojslaw_day_burstON_100: PASS -- morning snap, recovery, second burst, reasonable arc

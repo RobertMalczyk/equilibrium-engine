@@ -1,10 +1,10 @@
-lutek_multi_burstON_041: PASS -- restless cycles, warm thanks, sleeps and recovers
-lutek_multi_burstON_042: PASS -- mockery let pass, sane pacing, calm throughout
-lutek_multi_burstON_043: PASS -- boredom-driven activity, thick-skinned, believable rhythm
-lutek_multi_burstON_044: PASS -- warm to kindness, unbothered by mockery, sane days
-lutek_multi_burstON_045: PASS -- restless poet pattern, calm, nightly reset holds
-lutek_multi_burstON_046: PASS -- mockery shrugged off, believable day cycles
-lutek_multi_burstON_047: PASS -- novelty-seeking activity, warm, no jarring reactions
-lutek_multi_burstON_048: PASS -- sane pacing, calm, kindnesses warmly received
-lutek_multi_burstON_049: PASS -- six days steady, restless and good-humoured
-lutek_multi_burstON_050: PASS -- mockery let pass, warm thanks, sleeps well
+lutek_multi_burstON_041: PASS -- sane pacing, nights clear, mockery let pass correctly
+lutek_multi_burstON_042: PASS -- late sleep day 3 minor, mockery handled correctly
+lutek_multi_burstON_043: PASS -- two soups in one hour slightly odd, otherwise clean
+lutek_multi_burstON_044: PASS -- kindness cluster dense but not impossible, character consistent
+lutek_multi_burstON_045: FLAG -- two soups ten minutes apart day 4, implausible double serving
+lutek_multi_burstON_046: PASS -- morning tension before food, clears on eating, fits
+lutek_multi_burstON_047: FLAG -- restless twice within two minutes day 5 looks mechanical
+lutek_multi_burstON_048: FLAG -- kindness met with "no notable reaction" twice, wrong for Lutek
+lutek_multi_burstON_049: FLAG -- kindness met with "no notable reaction" day 5, wrong warmth response
+lutek_multi_burstON_050: PASS -- busy day 1 but sane, mockery let pass correctly throughout

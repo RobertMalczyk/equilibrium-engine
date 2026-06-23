@@ -1,10 +1,10 @@
-wojslaw_multi_burstON_061: PASS -- proud temper flares, calm recovery, nightly reset believable
-wojslaw_multi_burstON_062: PASS -- sane arc, eruptions at mocks, gracious mornings, sleeps well
-wojslaw_multi_burstON_063: PASS -- warm to kindness, flares at insults, coherent pacing
-wojslaw_multi_burstON_064: PASS -- mostly calm, appropriate refusals and warmth, believable days
-wojslaw_multi_burstON_065: PASS -- hot temper consistent with proud prickly noble
-wojslaw_multi_burstON_066: PASS -- gracious then souring under provocation, recovers nightly
-wojslaw_multi_burstON_067: PASS -- accumulating temper, refusals, calm waking, sane span
-wojslaw_multi_burstON_068: PASS -- prickly flares and refusals, coherent daily rhythm
-wojslaw_multi_burstON_069: PASS -- frequent eruptions fit hot proud profile, sleeps resets
-wojslaw_multi_burstON_070: PASS -- balanced flares and warmth, believable recovery and pacing
+wojslaw_multi_burstON_061: PASS -- calm start, escalating tension, sleep resets hold well
+wojslaw_multi_burstON_062: PASS -- rapid Day 2 cluster after accumulated insults, plausible
+wojslaw_multi_burstON_063: PASS -- warmth from Marta offsets tensions; mornings reset cleanly
+wojslaw_multi_burstON_064: PASS -- kindness-dominant run; proud man responds well to respect
+wojslaw_multi_burstON_065: PASS -- Day 1-2 escalation with many insults, fury fits the load
+wojslaw_multi_burstON_066: PASS -- gradual multi-day accumulation, consistent pacing
+wojslaw_multi_burstON_067: PASS -- three late-evening Marta-mockery eruptions, high but plausible
+wojslaw_multi_burstON_068: PASS -- heavy Day 1 insult load, sustained tension, night resets
+wojslaw_multi_burstON_069: PASS -- recurring mockery pattern, eruptions proportionate to load
+wojslaw_multi_burstON_070: PASS -- Day 2 morning snap at soup after heavy Day 1, borderline but ok

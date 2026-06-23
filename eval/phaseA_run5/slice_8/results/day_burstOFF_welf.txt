@@ -1,0 +1,10 @@
+welf_day_burstOFF_081: PASS -- steady day, boredom cycles, mild tension late evening normal
+welf_day_burstOFF_082: PASS -- calm pacing, kindnesses received warmly, settled overnight
+welf_day_burstOFF_083: PASS -- sane rhythm, double rest at 08:00 minor but not jarring
+welf_day_burstOFF_084: PASS -- well-fed day, mock let pass, no overnight restlessness
+welf_day_burstOFF_085: PASS -- two mocks brushed off, boredom cycles resolve cleanly
+welf_day_burstOFF_086: PASS -- early kindness, regular rest, late soup unremarkable
+welf_day_burstOFF_087: PASS -- boredom spikes resolve, no food noted but not absurd
+welf_day_burstOFF_088: PASS -- routine day, kindnesses warm him, settled close of night
+welf_day_burstOFF_089: PASS -- busy with kindnesses, public mock brushed off, sane close
+welf_day_burstOFF_090: PASS -- mild tension at 22:04 minor, wakes recovered as expected

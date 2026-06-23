@@ -9,10 +9,10 @@ initial_overrides: {}
 events:
 - type: insult
   t: 14
-  source: marta
-  intensity: 0.464
+  source: player
+  intensity: 0.576
   context:
-    public: false
+    public: true
 - type: insult
   t: 27
   source: player
@@ -34,7 +34,7 @@ events:
 - type: insult
   t: 138
   source: player
-  intensity: 0.837
+  intensity: 0.752
   context:
     public: false
 - type: food_given
@@ -52,10 +52,10 @@ events:
     has_authority: true
 - type: insult
   t: 369
-  source: marta
-  intensity: 0.631
+  source: player
+  intensity: 0.43
   context:
-    public: true
+    public: false
 - type: food_given
   t: 396
   source: marta

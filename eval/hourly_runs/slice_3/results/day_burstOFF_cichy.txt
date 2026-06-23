@@ -1,10 +1,10 @@
-cichy_day_burstOFF_031: PASS -- calm captive, mild bristling, sane pacing and sleep.
-cichy_day_burstOFF_032: PASS -- multiple eruptions at guard mockery, fits resentful temper.
-cichy_day_burstOFF_033: PASS -- quiet day, curt at soup, recovers overnight.
-cichy_day_burstOFF_034: PASS -- warm to stranger's kindness, neutral toward guards, believable.
-cichy_day_burstOFF_035: PASS -- fury at mockery, warmth to stranger, sensible arc.
-cichy_day_burstOFF_036: PASS -- escalating anger at guards, settles, sleeps, recovers.
-cichy_day_burstOFF_037: PASS -- low-key tense day, curt to guards, calm sleep.
-cichy_day_burstOFF_038: PASS -- two eruptions, restless evening, slightly late sleep, fine.
-cichy_day_burstOFF_039: PASS -- snaps once, otherwise settled, warmth to stranger.
-cichy_day_burstOFF_040: PASS -- mostly settled, curt and bristling at guards, recovers.
+cichy_day_burstOFF_031: PASS -- quiet day, appropriate bristle at mock, sane pacing
+cichy_day_burstOFF_032: PASS -- two late-night mocks escalate to fury, fits wound-up captive
+cichy_day_burstOFF_033: PASS -- calm day, mild curt replies, nothing jars
+cichy_day_burstOFF_034: PASS -- stranger warmth fine, soup ignored, believable quiet day
+cichy_day_burstOFF_035: PASS -- tense build, fury on mock, stranger warmth resets, sane arc
+cichy_day_burstOFF_036: PASS -- three mocks, fury then snap then bristle, de-escalation fits
+cichy_day_burstOFF_037: PASS -- no provocations, quiet accumulation and settling, plausible
+cichy_day_burstOFF_038: PASS -- two fury peaks with guard mocks, wakes settled next day
+cichy_day_burstOFF_039: PASS -- snap not fury at mock when not maximally wound, sane
+cichy_day_burstOFF_040: PASS -- restrained reactions when calm, bristle late when settled

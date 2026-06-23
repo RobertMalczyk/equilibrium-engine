@@ -1,0 +1,10 @@
+lutek_multi_burstON_011: PASS -- restless, warm, mocks roll off, healthy rhythm
+lutek_multi_burstON_012: PASS -- active days, kindness received well, mocks ignored
+lutek_multi_burstON_013: PASS -- mild tension passes, thick-skinned throughout
+lutek_multi_burstON_014: FLAG -- "still seething, jaw tight" after mock jars with thick-skinned profile
+lutek_multi_burstON_015: PASS -- mocks pass, warmed by kindness, good daily rhythm
+lutek_multi_burstON_016: PASS -- mocks roll off, evening tension resolves, sane pacing
+lutek_multi_burstON_017: FLAG -- answers mock "curtly and coldly" contradicts thick-skinned profile
+lutek_multi_burstON_018: PASS -- mocks ignored, restless but settles, steady rhythm
+lutek_multi_burstON_019: PASS -- warm active days, mocks pass, kindness welcomed throughout
+lutek_multi_burstON_020: PASS -- morning tension resolves quickly, sane food and rest pattern

@@ -1,12 +1,10 @@
-All records show: sane day/night cycles, wakes recovered, eruptions tied to provocations (mocks/insults), gratitude to kindnesses, refusals to orders consistent with a proud prickly noble. Nothing absurd. All pass.
-
-wojslaw_multi_burstOFF_001: PASS -- proud man flares at mocks, refuses orders; sane pacing.
-wojslaw_multi_burstOFF_002: PASS -- calm early, warms to kindness, flares on insults; believable.
-wojslaw_multi_burstOFF_003: PASS -- gracious to kindnesses, erupts at barbs; recovers nightly.
-wojslaw_multi_burstOFF_004: PASS -- prickly refusals and eruptions, warms to soup; sane arc.
-wojslaw_multi_burstOFF_005: PASS -- frequent eruptions at mocks, refuses orders; pacing fine.
-wojslaw_multi_burstOFF_006: PASS -- mixed temper and grace, sleeps and recovers; coherent.
-wojslaw_multi_burstOFF_007: PASS -- warm to kindness, flares at insults; believable spans.
-wojslaw_multi_burstOFF_008: PASS -- proud refusals, eruptions on barbs; nightly reset holds.
-wojslaw_multi_burstOFF_009: PASS -- gracious then prickly, flares at mocks; sane pacing.
-wojslaw_multi_burstOFF_010: PASS -- repeated eruptions at provocations, calm nights; nothing jars.
+wojslaw_multi_burstOFF_001: PASS -- sane pacing, eruptions follow provocation, sleeps reset
+wojslaw_multi_burstOFF_002: PASS -- warm opening plausible before insults, normal thereafter
+wojslaw_multi_burstOFF_003: PASS -- day 1 warmth heavy but no insults; later days normalise
+wojslaw_multi_burstOFF_004: PASS -- recurring warm soup responses but within plausible range
+wojslaw_multi_burstOFF_005: PASS -- tense multi-day run, eruptions provoked, wakes recovered
+wojslaw_multi_burstOFF_006: PASS -- three soups in 24 min odd but not a character breach
+wojslaw_multi_burstOFF_007: PASS -- day 5 heavy mock density but each eruption individually justified
+wojslaw_multi_burstOFF_008: PASS -- bristle after eruption minor oddity, overall sane
+wojslaw_multi_burstOFF_009: PASS -- morning escalation on day 3 well-paced, recovery intact
+wojslaw_multi_burstOFF_010: PASS -- three rapid consecutive Marta mocks unusual but provocations justify eruptions

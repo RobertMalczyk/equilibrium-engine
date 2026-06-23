@@ -91,7 +91,7 @@ events:
     has_authority: true
 - type: help
   t: 1150
-  source: marta
+  source: player
   intensity: 0.79
   context: {}
 - type: insult
@@ -152,7 +152,7 @@ events:
   context: {}
 - type: help
   t: 2256
-  source: halgrim
+  source: marta
   intensity: 0.952
   context: {}
 - type: insult
@@ -277,7 +277,7 @@ events:
     public: false
 - type: help
   t: 3930
-  source: halgrim
+  source: marta
   intensity: 0.909
   context: {}
 - type: insult

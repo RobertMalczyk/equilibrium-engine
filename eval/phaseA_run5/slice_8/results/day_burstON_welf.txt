@@ -1,0 +1,10 @@
+welf_day_burstON_081: PASS -- restless-to-settled rhythm, mocks brushed off, sane arc
+welf_day_burstON_082: PASS -- boredom cycles, kindnesses received warmly, late-night edge credible
+welf_day_burstON_083: PASS -- two soups, steady composure, no jarring moments
+welf_day_burstON_084: PASS -- mock ignored, three soups plausible, calm throughout
+welf_day_burstON_085: PASS -- two mocks deflected, boredom cycles, settled close of day
+welf_day_burstON_086: PASS -- early kindness, settled mid-day, evening soups, no tension
+welf_day_burstON_087: PASS -- restless spells resolved, mild late tension, sane pacing
+welf_day_burstON_088: PASS -- calm day, boredom cycling, warmly receives food and help
+welf_day_burstON_089: PASS -- mock ignored while resting, generous kindnesses, mild late edge
+welf_day_burstON_090: PASS -- boredom cycles, late-night tension credible for idle man

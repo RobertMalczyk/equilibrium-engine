@@ -1,10 +1,10 @@
-cichy_day_burstOFF_061: PASS -- believable day; resentful flares at mockery, recovers, sleeps
-cichy_day_burstOFF_062: PASS -- sane pacing; warm to strangers, curt to guards
-cichy_day_burstOFF_063: PASS -- coherent day; fury at mockery, settles, recovers overnight
-cichy_day_burstOFF_064: PASS -- believable; tense stretches, curt to guards, warm to stranger
-cichy_day_burstOFF_065: PASS -- calm day, curt soup reactions, sane sleep cycle
-cichy_day_burstOFF_066: PASS -- believable pacing; late flare at mockery before sleep
-cichy_day_burstOFF_067: PASS -- coherent; fury at mockery, curt to guards, recovers
-cichy_day_burstOFF_068: PASS -- calm day, curt to guards, sane rhythm
-cichy_day_burstOFF_069: PASS -- early fury at mockery, settles, normal night
-cichy_day_burstOFF_070: PASS -- believable; flare at mockery, curt soup, recovers
+cichy_day_burstOFF_061: PASS -- mocked twice, snaps both times, settles between; sane day
+cichy_day_burstOFF_062: PASS -- stranger kindness warmly received, guard mock bristles; fits profile
+cichy_day_burstOFF_063: PASS -- fury at mock, calm returns, pacing and rest plausible
+cichy_day_burstOFF_064: PASS -- no provocations, mild evening edge, curtness to guard fits
+cichy_day_burstOFF_065: PASS -- curtness to guard, warmth to stranger; day pacing sane
+cichy_day_burstOFF_066: PASS -- late mock triggers snap just before sleep; pacing fine
+cichy_day_burstOFF_067: PASS -- fury at mock mid-afternoon, settles after; credible captive day
+cichy_day_burstOFF_068: PASS -- quiet day, no provocations, tension rises at dusk; sane
+cichy_day_burstOFF_069: PASS -- early fury, recovers fully by 08:00; rest of day calm
+cichy_day_burstOFF_070: PASS -- snaps at morning mock, settles; curtness at lunch; sane

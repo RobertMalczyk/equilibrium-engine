@@ -1,10 +1,10 @@
-branic_day_burstOFF_021: PASS -- sane pacing, boredom cycles, sleeps and wakes recovered
-branic_day_burstOFF_022: PASS -- believable day, warm to kindness, restful night
-branic_day_burstOFF_023: PASS -- coherent boredom/rest rhythm, recovers overnight
-branic_day_burstOFF_024: PASS -- consistent warmth and restlessness, normal sleep cycle
-branic_day_burstOFF_025: PASS -- sane day, mild tension, recovers after sleep
-branic_day_burstOFF_026: PASS -- believable rhythm, warm responses, settled overnight
-branic_day_burstOFF_027: PASS -- coherent pacing, obeys orders, sleeps and recovers
-branic_day_burstOFF_028: PASS -- normal duty cycle, compliant, restful night
-branic_day_burstOFF_029: PASS -- sane day, warm to soup, recovers overnight
-branic_day_burstOFF_030: PASS -- believable rhythm, obeys orders, settled after sleep
+branic_day_burstOFF_021: PASS -- calm day, restless cycles normal, tense at end fine
+branic_day_burstOFF_022: PASS -- well-paced, kindness warms him, sleeps and wakes recovered
+branic_day_burstOFF_023: PASS -- steady rhythm, no absurdities, mocks absorbed without reaction
+branic_day_burstOFF_024: PASS -- busy afternoon with kindness, ignores one order plausibly
+branic_day_burstOFF_025: PASS -- mocks let pass, tension builds then eases by evening
+branic_day_burstOFF_026: PASS -- active day, Halgrim kindness coolly received fits thin-skinned youth
+branic_day_burstOFF_027: PASS -- quiet midday long settled stretch, tense evening, soup soothes
+branic_day_burstOFF_028: PASS -- many orders, some ignored, tense at 20:00 then settles
+branic_day_burstOFF_029: PASS -- two mocks absorbed, tense near midnight, wakes settled fine
+branic_day_burstOFF_030: PASS -- busy afternoon, Halgrim mock let pass at 18:41, sane

@@ -1,10 +1,10 @@
-welf_multi_burstON_051: PASS -- boredom cycles, sleeps and recovers, lets mockery pass
-welf_multi_burstON_052: PASS -- calm restless-busy rhythm, mockery shrugged off, sane sleep
-welf_multi_burstON_053: PASS -- composed, idleness-driven restlessness, recovers nightly, nothing jars
-welf_multi_burstON_054: PASS -- even-keeled, rain mild tension, mockery ignored, good pacing
-welf_multi_burstON_055: PASS -- steady boredom-occupy loop over six days, sleeps well
-welf_multi_burstON_056: PASS -- calm rhythm, brief edge after rain, recovers fully
-welf_multi_burstON_057: PASS -- composed and warm to kindness, sane daily pacing
-welf_multi_burstON_058: PASS -- repeated mockery all let pass, calm throughout, recovers
-welf_multi_burstON_059: PASS -- even-tempered, rain-tension mild, believable boredom cycles
-welf_multi_burstON_060: PASS -- mockery shrugged off, steady restless-busy rhythm, sleeps nightly
+welf_multi_burstON_051: PASS -- sane boredom cycles, meals and rain handled correctly
+welf_multi_burstON_052: PASS -- consistent rhythm, two close soups minor but not absurd
+welf_multi_burstON_053: PASS -- clean three-day arc, profile fits throughout
+welf_multi_burstON_054: PASS -- rain day tension lingers believably, resolves by afternoon
+welf_multi_burstON_055: PASS -- six days stable, rain and late tension credible
+welf_multi_burstON_056: PASS -- late rainy day, short sleep, tense eve all plausible
+welf_multi_burstON_057: PASS -- two soups two minutes apart odd but not disqualifying
+welf_multi_burstON_058: FLAG -- Day 3 18:15 kindness gets no reaction, contradicts profile
+welf_multi_burstON_059: PASS -- two soups close on Day 1, otherwise clean and warm
+welf_multi_burstON_060: PASS -- mocks let pass, tension on work-mornings, rain day credible

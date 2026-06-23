@@ -1,10 +1,10 @@
-wojslaw_multi_burstON_021: PASS -- proud temper flares, calms, sleeps and wakes recovered; believable
-wojslaw_multi_burstON_022: PASS -- mostly calm with sharp flares at mocking; sane pacing
-wojslaw_multi_burstON_023: PASS -- flares at insults, refuses orders, recovers nightly; believable
-wojslaw_multi_burstON_024: PASS -- proud defiance and temper, calm mornings, recovers; coherent
-wojslaw_multi_burstON_025: PASS -- warms to kindness, erupts at mockery; believable proud man
-wojslaw_multi_burstON_026: PASS -- largely gracious, flares at barbs; sane day-to-day arc
-wojslaw_multi_burstON_027: PASS -- temper builds afternoons, recovers each night; coherent
-wojslaw_multi_burstON_028: PASS -- hot-tempered day, defiant, calms overnight; consistent with profile
-wojslaw_multi_burstON_029: PASS -- prickly, refuses orders, sleeps and recovers; believable
-wojslaw_multi_burstON_030: PASS -- flares at insults, warms to kindness, recovers nightly; coherent
+wojslaw_multi_burstON_021: PASS -- pacing sane, sleep resets work, provocations drive flares
+wojslaw_multi_burstON_022: FLAG -- Day 2 sustained warmth toward Marta jars with servant-disdain profile
+wojslaw_multi_burstON_023: PASS -- calm mornings, tension builds, eruptions on provocation, resets fine
+wojslaw_multi_burstON_024: PASS -- volatile but believable; defiant refusals fit highborn pride
+wojslaw_multi_burstON_025: PASS -- warm Day 1 followed by provocation-heavy Day 3 arc is credible
+wojslaw_multi_burstON_026: PASS -- eruptions reliable on mocking; calm stretches plausible
+wojslaw_multi_burstON_027: PASS -- Day 1 calm, Day 6 hard; multi-day arc believable
+wojslaw_multi_burstON_028: PASS -- volatile run, bad stretch, no implausibilities
+wojslaw_multi_burstON_029: PASS -- late night on Day 1 unusual but within bounds
+wojslaw_multi_burstON_030: PASS -- short fuse across days, provocations drive arc, resets clean

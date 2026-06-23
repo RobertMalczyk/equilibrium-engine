@@ -24,7 +24,10 @@ from engine.yaml_io import load_scenario
 from eval.calibrated import believable_day_layout, load_eval_persona_timescale
 from eval.render_narration import (
     ACTION_PLAIN,
+    ANGER_FRESH_SECS,
     DISPLAY,
+    HOSTILE_REACTIONS,
+    POSITIVE_EVENTS,
     PRON,
     REACTIVE,
     event_phrase,
@@ -96,6 +99,9 @@ def narrate(persona: str, cfg, sc, n_days: int) -> str:
     rained_day = -1  # collapse the day's drizzle to one note (keyed on the DISPLAY day)
     prev_act = "neutral"
     last_win = -1
+    last_prov_secs: float | None = (
+        None  # game-time of the last visible provocation (M1 recency gate)
+    )
     in_sleep = False
     header_day = (
         0  # lazily emit "## Day N" before the first real line of each display-day
@@ -129,7 +135,14 @@ def narrate(persona: str, cfg, sc, n_days: int) -> str:
         if win != last_win:
             last_win = win
             if t % DAY_TICKS > 2:
-                add(t, f"{Subj} {mood_phrase(tk.state_after_post.global_state)}.")
+                anger_fresh = (
+                    last_prov_secs is not None
+                    and (t * DT - last_prov_secs) <= ANGER_FRESH_SECS
+                )
+                add(
+                    t,
+                    f"{Subj} {mood_phrase(tk.state_after_post.global_state, anger_fresh)}.",
+                )
         ev = tk.event
         act = tk.selection.action
         if ev is not None and ev.type == "activity":
@@ -146,7 +159,15 @@ def narrate(persona: str, cfg, sc, n_days: int) -> str:
             continue
         elif ev is not None:
             reaction, score = "neutral", 0.0
-            for j in range(i, min(i + 4, len(ticks))):
+            # A POSITIVE event's reply is immediate (positive_response fires AT the event tick via
+            # kindness_pressure). Scanning ahead for a positive event mis-attaches a LATER residual/
+            # displaced discharge (from an earlier provocation) onto the kindness line -> reads as "snaps
+            # at the soup" when the kindness tick itself was not a lash-out (diagnosed: 48 such cases).
+            # So a kindness reads ONLY its own tick; a hostile event keeps the i..i+3 lag window.
+            react_end = (
+                (i + 1) if ev.type in POSITIVE_EVENTS else min(i + 4, len(ticks))
+            )
+            for j in range(i, react_end):
                 # Don't reach PAST a later forcing event -- its reaction belongs to IT (Theme A: stops a
                 # subsequent insult's outburst being stapled onto an earlier benign soup line).
                 if (
@@ -161,11 +182,18 @@ def narrate(persona: str, cfg, sc, n_days: int) -> str:
                         ticks[j].selection.score,
                     )
                     break
+            # M1 recency: a visible provocation (an insult, or a hostile reaction) refreshes the
+            # window in which "still seething" reads as motivated.
+            if ev.type == "insult" or reaction in HOSTILE_REACTIONS:
+                last_prov_secs = t * DT
             phrase = event_phrase(ev, obj)
             phrase = phrase[0].upper() + phrase[1:]
             tail = reaction_phrase(reaction, score)
             if tail:
                 add(t, f"{phrase}. {Subj} {tail.format(r=refl)}.")
+            elif ev.type in POSITIVE_EVENTS:
+                # M2: a kindness with no hostile reaction is acknowledged, never the slight-style phrase.
+                add(t, f"{phrase}. {Subj} takes it without fuss, a small nod.")
             else:
                 add(t, f"{phrase}. {Subj} lets it pass, no notable reaction.")
             prev_act = reaction

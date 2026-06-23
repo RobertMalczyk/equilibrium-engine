@@ -1,10 +1,10 @@
-branic_day_burstOFF_071: PASS -- sane rhythm, restless cycles, calm day, sleeps and recovers
-branic_day_burstOFF_072: PASS -- believable; late-evening snaps at repeated mockery when frayed
-branic_day_burstOFF_073: PASS -- calm, varied kindnesses, lets jabs pass, normal pacing
-branic_day_burstOFF_074: PASS -- public mockery erupts once when worn; otherwise composed
-branic_day_burstOFF_075: PASS -- steady day, lets early jab pass, sleeps well
-branic_day_burstOFF_076: PASS -- calm, warm to kindnesses, no jarring reactions
-branic_day_burstOFF_077: PASS -- composed, lets repeated jabs pass, sane pacing
-branic_day_burstOFF_078: PASS -- obeys orders, lets jabs pass, believable rhythm
-branic_day_burstOFF_079: PASS -- calm dutiful day, restless cycles, recovers overnight
-branic_day_burstOFF_080: PASS -- lets early mockery pass, steady, sleeps and wakes eased
+branic_day_burstOFF_071: PASS -- sane boredom cycles, meals, sleeps, wakes settled
+branic_day_burstOFF_072: PASS -- tense evening, two mocks trigger snapping, sleeps reset
+branic_day_burstOFF_073: PASS -- idle day, mild late tension without provocation, fits profile
+branic_day_burstOFF_074: PASS -- erupts after late mock on accumulated tension, then settles
+branic_day_burstOFF_075: PASS -- quiet day, kindnesses ease mild evening edge, clean
+branic_day_burstOFF_076: PASS -- unusually smooth day, no contradiction, plausible good shift
+branic_day_burstOFF_077: PASS -- two mocks absorbed, late tense, stranger kindness helps
+branic_day_burstOFF_078: FLAG -- neutral response to Marta's kindness at 07:54 is atypical
+branic_day_burstOFF_079: PASS -- multiple kindnesses, tense evening, complies with orders, clean
+branic_day_burstOFF_080: PASS -- mock brushed off, normal boredom, no outburst, settled

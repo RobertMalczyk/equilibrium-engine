@@ -1,10 +1,10 @@
-branic_multi_burstON_091: PASS -- displaced aggression on Halgrim fits accumulated tension arc
-branic_multi_burstON_092: PASS -- Marta soup eruption jarring but anger was peaked beforehand
-branic_multi_burstON_093: PASS -- repeated Halgrim mocks drive believable escalation to defiance
-branic_multi_burstON_094: PASS -- rain plus sustained mockery plausibly feeds multi-snap Day 4
-branic_multi_burstON_095: PASS -- late burst reasonable; post-burst compliance flip minor oddity
-branic_multi_burstON_096: PASS -- morning fury after tense night, Day 5 gradual recovery coherent
-branic_multi_burstON_097: PASS -- burst cluster builds across rapid provocations within one hour
-branic_multi_burstON_098: PASS -- calm positive run, no burst required; pacing and mood sane
-branic_multi_burstON_099: PASS -- Day 1 outburst slightly early but tension thread holds overall
-branic_multi_burstON_100: PASS -- positive Day 2 rebound then Day 3-4 escalation arc reads true
+branic_multi_burstON_091: PASS -- tension builds over days, burst at kindness fits accumulated load
+branic_multi_burstON_092: PASS -- displaced aggression at Marta fits burst-on with wound-tight state
+branic_multi_burstON_093: PASS -- clean escalation from compliance to full resistance under mockery
+branic_multi_burstON_094: PASS -- heavy provocation day produces multiple flare-ups; arc coherent
+branic_multi_burstON_095: PASS -- late burst at routine order after calm day; post-burst compliance follows
+branic_multi_burstON_096: PASS -- morning fury after prior-night snap; residual anger at kindness fits
+branic_multi_burstON_097: PASS -- dense provocation day escalates to fury then sustained refusals
+branic_multi_burstON_098: PASS -- calm run with no outburst; low provocation, sane pacing throughout
+branic_multi_burstON_099: PASS -- outbursts on Days 1 and 4 follow accumulation of evening tension
+branic_multi_burstON_100: PASS -- Day 4 wall of refusals heavy but earned by Days 2-3 friction loading

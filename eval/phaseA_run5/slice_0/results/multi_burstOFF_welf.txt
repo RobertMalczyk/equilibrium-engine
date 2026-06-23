@@ -1,0 +1,10 @@
+welf_multi_burstOFF_001: PASS -- steady man, boredom cycles, kindness received well, sleeps fine
+welf_multi_burstOFF_002: PASS -- rhythmic boredom-rest-kindness pattern, mock ignored, sane across 3 days
+welf_multi_burstOFF_003: PASS -- calm merchant tone holds, boredom recurs naturally, nights clean
+welf_multi_burstOFF_004: PASS -- well-fed days, boredom managed, mocks deflected, restless at evening sensibly
+welf_multi_burstOFF_005: PASS -- rain day handled, mild edge late nights, recovers each morning
+welf_multi_burstOFF_006: PASS -- very well-treated, stays composed, no jarring reactions, sane pacing
+welf_multi_burstOFF_007: PASS -- 5-day run clean, rain days settled quickly, boredom cycles intact
+welf_multi_burstOFF_008: PASS -- 6-day run, mocks let pass, edge after evening barbs fades overnight
+welf_multi_burstOFF_009: PASS -- rain days, mocks brushed off, boredom and rest cycle believably
+welf_multi_burstOFF_010: PASS -- late-night restlessness, mocks ignored, morning reset holds across all days

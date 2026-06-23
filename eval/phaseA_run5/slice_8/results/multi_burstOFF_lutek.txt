@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_081: PASS -- sane restless cycle, mockery rolls off, eats and sleeps well
+lutek_multi_burstOFF_082: PASS -- late night day 1 and brief tension plausible, recovers fine
+lutek_multi_burstOFF_083: PASS -- brief tension resolves with kindness, double soup minor not jarring
+lutek_multi_burstOFF_084: PASS -- brief evening tension resolves, mockery ignored, sane pacing
+lutek_multi_burstOFF_085: PASS -- two early soups minor, restlessness and warmth consistent throughout
+lutek_multi_burstOFF_086: PASS -- recurring mild tension without clear trigger but resolves each time
+lutek_multi_burstOFF_087: PASS -- morning tension pattern recurs but resolves, profile consistent
+lutek_multi_burstOFF_088: PASS -- early-morning tension after late nights plausible, recovers each day
+lutek_multi_burstOFF_089: PASS -- evening tension brief and self-resolving, mockery rolls off cleanly
+lutek_multi_burstOFF_090: PASS -- tension spikes mild and transient, sane cycle across four days

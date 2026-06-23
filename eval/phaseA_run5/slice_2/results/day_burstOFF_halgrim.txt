@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_021: PASS -- settled day, Wojsław barb absorbed without reaction
+halgrim_day_burstOFF_022: PASS -- brief tension, declines Wojsław, resolves by evening
+halgrim_day_burstOFF_023: PASS -- quiet day, Wojsław barb let pass, Edda obeyed
+halgrim_day_burstOFF_024: FLAG -- ignores Edda's first order; odd for a disciplined sergeant
+halgrim_day_burstOFF_025: PASS -- repeated Wojsław provocations produce curt replies, not rage
+halgrim_day_burstOFF_026: PASS -- refuses Wojsław twice, tense by night but plausible
+halgrim_day_burstOFF_027: FLAG -- mutters complaint at Edda's late order; mild but notable
+halgrim_day_burstOFF_028: PASS -- two Wojsław barbs absorbed, briefly tense, recovers cleanly
+halgrim_day_burstOFF_029: PASS -- three barbs, all let pass; steady throughout
+halgrim_day_burstOFF_030: FLAG -- ignores Edda's orders twice with "no notable reaction"

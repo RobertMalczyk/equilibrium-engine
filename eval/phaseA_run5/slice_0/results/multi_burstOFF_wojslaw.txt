@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_001: PASS -- consistent eruptions on mocks, calm mornings, normal pacing
+wojslaw_multi_burstOFF_002: PASS -- early calm then escalation, sleep resets hold across 4 days
+wojslaw_multi_burstOFF_003: PASS -- warm Day 1 lets mock pass; plausible given many kindnesses
+wojslaw_multi_burstOFF_004: PASS -- bristles at stranger kindness when tense; Marta treated better
+wojslaw_multi_burstOFF_005: PASS -- heavy mock barrage Day 2 drives repeated eruptions believably
+wojslaw_multi_burstOFF_006: PASS -- early mocks let pass when calm; erupts once tension builds
+wojslaw_multi_burstOFF_007: PASS -- Day 5 morning mock cluster triggers 4 eruptions; sane sequence
+wojslaw_multi_burstOFF_008: PASS -- wakes tense Day 3 after brutal Day 2; self-corrects by morning
+wojslaw_multi_burstOFF_009: PASS -- Day 3 morning mock cluster; calm Day 4 with Marta warmth
+wojslaw_multi_burstOFF_010: PASS -- rapid mock triple at 09:36-40 each triggers eruption; plausible

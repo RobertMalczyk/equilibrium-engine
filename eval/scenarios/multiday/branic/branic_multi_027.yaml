@@ -80,7 +80,7 @@ events:
     has_authority: true
 - type: help
   t: 1063
-  source: halgrim
+  source: marta
   intensity: 0.658
   context: {}
 - type: help
@@ -278,7 +278,7 @@ events:
     public: false
 - type: help
   t: 3788
-  source: halgrim
+  source: marta
   intensity: 0.476
   context: {}
 - type: command
@@ -322,7 +322,7 @@ events:
     has_authority: true
 - type: help
   t: 4084
-  source: halgrim
+  source: marta
   intensity: 0.789
   context: {}
 - type: nightfall

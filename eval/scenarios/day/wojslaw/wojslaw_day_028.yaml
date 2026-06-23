@@ -46,7 +46,7 @@ events:
 - type: insult
   t: 248
   source: player
-  intensity: 0.635
+  intensity: 0.488
   context:
     public: true
 - type: command
@@ -70,7 +70,7 @@ events:
 - type: insult
   t: 500
   source: player
-  intensity: 0.652
+  intensity: 0.636
   context:
     public: false
 - type: nightfall

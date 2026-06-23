@@ -1,0 +1,10 @@
+edda_multi_burstOFF_081: PASS -- settled days, appropriate tension on Day 4 resolves cleanly
+edda_multi_burstOFF_082: PASS -- calm routine, occasional compliance with orders fits positive mood
+edda_multi_burstOFF_083: PASS -- uneventful six days, sane pacing throughout
+edda_multi_burstOFF_084: PASS -- mocked twice on Day 3, lets both pass composedly
+edda_multi_burstOFF_085: PASS -- complies early when in good standing, resists later appropriately
+edda_multi_burstOFF_086: PASS -- steady six days, authority exercised routinely, no jarring moments
+edda_multi_burstOFF_087: PASS -- friction with persistent strangers plausible for a castellan
+edda_multi_burstOFF_088: PASS -- warm social environment, consistently at ease, sane
+edda_multi_burstOFF_089: PASS -- high positive input, settled throughout, no contradictions
+edda_multi_burstOFF_090: PASS -- mock causes brief tension on Day 3, resolves naturally

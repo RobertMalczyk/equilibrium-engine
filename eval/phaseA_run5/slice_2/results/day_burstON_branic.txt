@@ -1,0 +1,10 @@
+branic_day_burstON_021: PASS -- restless day, tension builds evening, wakes calm
+branic_day_burstON_022: PASS -- settled day, mild late tension, sleeps and recovers
+branic_day_burstON_023: PASS -- kindnesses buffer evening edge, wakes calm
+branic_day_burstON_024: PASS -- unusually kind day, stays settled throughout
+branic_day_burstON_025: PASS -- mocks absorbed, evening tension fades by night
+branic_day_burstON_026: FLAG -- lingering temper at 20:03 and 22:04 despite soup at 19:33
+branic_day_burstON_027: PASS -- quiet day, late-day tension, wakes settled
+branic_day_burstON_028: PASS -- repeated orders absorbed, evening settles fine
+branic_day_burstON_029: PASS -- mocks sting briefly, temper lingers then clears by sleep
+branic_day_burstON_030: PASS -- burst of orders at 13:35 raises tension, soup softens it

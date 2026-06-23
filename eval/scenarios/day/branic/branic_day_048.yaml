@@ -29,7 +29,7 @@ events:
   context: {}
 - type: help
   t: 99
-  source: halgrim
+  source: marta
   intensity: 0.584
   context: {}
 - type: food_given

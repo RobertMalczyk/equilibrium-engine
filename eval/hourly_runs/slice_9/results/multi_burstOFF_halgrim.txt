@@ -1,10 +1,10 @@
-halgrim_multi_burstOFF_091: PASS -- tension builds daily, resets overnight, Wojslaw refusals earned
-halgrim_multi_burstOFF_092: PASS -- calm stretch, rain absorbed, one late Wojslaw decline fits
-halgrim_multi_burstOFF_093: PASS -- rain plus Wojslaw friction escalates across days believably
-halgrim_multi_burstOFF_094: PASS -- Wojslaw declined from day one, calm days without friction sane
-halgrim_multi_burstOFF_095: PASS -- early-morning grumble to Edda minor, mood recovers quickly
-halgrim_multi_burstOFF_096: PASS -- steady accumulation on rain day, stays contained throughout
-halgrim_multi_burstOFF_097: PASS -- dense Day 3 Wojslaw cluster triggers cold contempt, fits profile
-halgrim_multi_burstOFF_098: PASS -- rain day calm, routine Wojslaw declines, no jarring moments
-halgrim_multi_burstOFF_099: PASS -- Wojslaw cluster Day 1 evening raises tension, sleep resets it
-halgrim_multi_burstOFF_100: PASS -- six days settled, Edda complaint minor, Wojslaw declined appropriately
+halgrim_multi_burstOFF_091: PASS -- tension builds across days, Wojsław refusals earned
+halgrim_multi_burstOFF_092: PASS -- even-keeled throughout, declines Wojsław late, fits profile
+halgrim_multi_burstOFF_093: PASS -- rain days escalate resentment plausibly over six days
+halgrim_multi_burstOFF_094: PASS -- quiet days dominate, Wojsław declines early are consistent
+halgrim_multi_burstOFF_095: PASS -- mild friction day 2, rain day 3, shade-curt both times
+halgrim_multi_burstOFF_096: PASS -- calm baseline, day 5 rain plus Wojsław tips him into curtness
+halgrim_multi_burstOFF_097: PASS -- heavy day 3 Wojsław barrage earns sustained cold contempt
+halgrim_multi_burstOFF_098: PASS -- calm and controlled throughout, rain handled without drama
+halgrim_multi_burstOFF_099: PASS -- day 1 Wojsław siege resolved by Marta, multi-day arc clean
+halgrim_multi_burstOFF_100: PASS -- six days stable, minor muttered complaint at mock is marginal

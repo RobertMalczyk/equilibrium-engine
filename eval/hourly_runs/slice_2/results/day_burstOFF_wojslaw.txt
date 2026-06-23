@@ -1,10 +1,10 @@
-wojslaw_day_burstOFF_021: PASS -- flares at mockery, calms, sleeps and wakes recovered
-wojslaw_day_burstOFF_022: PASS -- proportionate snaps at insults, warmth to kindness, sane pacing
-wojslaw_day_burstOFF_023: PASS -- public mockery erupts, settles between, believable day
-wojslaw_day_burstOFF_024: PASS -- flares at mockery, tolerates kindness, normal rhythm
-wojslaw_day_burstOFF_025: PASS -- escalating mockery erupts, recovers, sane day arc
-wojslaw_day_burstOFF_026: PASS -- mostly warm day, bristles at late mockery, fine
-wojslaw_day_burstOFF_027: PASS -- proud refusals of orders, flares at mockery, sane
-wojslaw_day_burstOFF_028: PASS -- defiant to orders, erupts at insults, recovers nightly
-wojslaw_day_burstOFF_029: PASS -- refuses orders, flares at Marta's mockery, settles
-wojslaw_day_burstOFF_030: PASS -- public mockery erupts early, calms across day, sleeps
+wojslaw_day_burstOFF_021: PASS -- quick cool-down after fury acceptable for hot-tempered man
+wojslaw_day_burstOFF_022: PASS -- mild flares at mocks, warm to kindness, sane pacing
+wojslaw_day_burstOFF_023: PASS -- three eruptions provoked by mocks, recovers between each
+wojslaw_day_burstOFF_024: PASS -- early eruption settles, later provoked again, fits profile
+wojslaw_day_burstOFF_025: PASS -- escalating back-to-back mocks draw escalating reactions
+wojslaw_day_burstOFF_026: PASS -- quiet day, late-night snap before sleep, plausible
+wojslaw_day_burstOFF_027: PASS -- refuses stranger orders, snaps at mocks, fits proud noble
+wojslaw_day_burstOFF_028: PASS -- repeated refusals to orders, eruptions at mocks, tense stretches
+wojslaw_day_burstOFF_029: PASS -- accumulated anger, refusals, post-eruption complaint fits simmering
+wojslaw_day_burstOFF_030: PASS -- double eruption leaves lingering tension, bristles at kindness

@@ -1,0 +1,10 @@
+halgrim_day_burstON_011: PASS -- calm day, Wojsław jab absorbed, consistent profile
+halgrim_day_burstON_012: PASS -- repeated Wojsław pressure builds edge, curtness fits profile
+halgrim_day_burstON_013: FLAG -- cold contempt toward Edda twice; excessive given genuine respect
+halgrim_day_burstON_014: PASS -- quiet settled day, warmth to kindness, Wojsław declined once
+halgrim_day_burstON_015: PASS -- mild edge late after Wojsław, mutters at Edda but minor
+halgrim_day_burstON_016: PASS -- calm throughout, repeated rest events slightly odd but benign
+halgrim_day_burstON_017: PASS -- brief tension then settles, complies with Edda, fits well
+halgrim_day_burstON_018: PASS -- Wojsław wears him down to curt response, pacing believable
+halgrim_day_burstON_019: PASS -- cooperative with Edda, warm to kindness, settled day
+halgrim_day_burstON_020: PASS -- single Wojsław jab causes brief edge, Marta restores calm

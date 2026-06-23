@@ -1,10 +1,10 @@
-edda_day_burstOFF_031: PASS -- composed, warm to kindness, commands the watch; sane day.
-edda_day_burstOFF_032: PASS -- calm, gracious, takes charge; believable pacing throughout.
-edda_day_burstOFF_033: PASS -- settled, warmed by kindnesses, directs others; consistent.
-edda_day_burstOFF_034: PASS -- composed, complies or lets orders pass; sane day.
-edda_day_burstOFF_035: PASS -- quiet, settled, sets the watch; nothing jars.
-edda_day_burstOFF_036: PASS -- handles strangers' orders evenly; composed and in command.
-edda_day_burstOFF_037: PASS -- warm to many kindnesses, settled; takes charge properly.
-edda_day_burstOFF_038: PASS -- calm, gracious, directs the watch; believable throughout.
-edda_day_burstOFF_039: PASS -- settled and warmed; commands at night; sane.
-edda_day_burstOFF_040: PASS -- lets mockery pass composedly, stays in command; fitting.
+edda_day_burstOFF_031: PASS -- settled day, soup twice early morning plausible
+edda_day_burstOFF_032: PASS -- social day, stranger order ignored fits composed authority
+edda_day_burstOFF_033: PASS -- steady day, multiple kindnesses received, calm throughout
+edda_day_burstOFF_034: PASS -- stranger order obeyed once, no conflict with profile
+edda_day_burstOFF_035: PASS -- quiet uneventful day, consistent calm baseline
+edda_day_burstOFF_036: PASS -- stranger kindness ignored fits reserved authority figure
+edda_day_burstOFF_037: PASS -- warm morning cluster, settles to calm, coherent arc
+edda_day_burstOFF_038: PASS -- early kindnesses, steady day, stranger order ignored
+edda_day_burstOFF_039: PASS -- Marta-heavy day, all warmly received, sane pacing
+edda_day_burstOFF_040: PASS -- two barbed remarks ignored; composed authority holds correctly

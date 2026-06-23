@@ -1,0 +1,10 @@
+cichy_multi_burstON_051: PASS -- sane multi-day arc, temper rises with provocation, recovers overnight
+cichy_multi_burstON_052: PASS -- two Day 5 outbursts follow dense provocation, pacing holds
+cichy_multi_burstON_053: PASS -- eruptions on Days 2 and 4 each follow clear provocation, resets overnight
+cichy_multi_burstON_054: PASS -- late-night Day 1 burst jarring but within profile, Day 4 burst plausible
+cichy_multi_burstON_055: FLAG -- wakes settled then tense by 06:06 Day 2 with no intervening event
+cichy_multi_burstON_056: FLAG -- same pattern: wakes settled, tense by 06:06 Day 2 with no trigger
+cichy_multi_burstON_057: PASS -- steady curt responses, stranger lifts mood, clean three-day arc
+cichy_multi_burstON_058: PASS -- morning eruption followed by quick recovery, Day 5 burst fits provocation
+cichy_multi_burstON_059: PASS -- Day 3 ends tense after afternoon mocks, no absurd swings
+cichy_multi_burstON_060: PASS -- dense Day 2 barrage drives two eruptions, burst-discharge pattern coherent

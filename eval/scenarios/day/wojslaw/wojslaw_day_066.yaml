@@ -34,14 +34,14 @@ events:
     public: false
 - type: insult
   t: 263
-  source: marta
-  intensity: 0.842
+  source: player
+  intensity: 0.454
   context:
-    public: false
+    public: true
 - type: insult
   t: 280
   source: player
-  intensity: 0.763
+  intensity: 0.616
   context:
     public: true
 - type: food_given
@@ -53,8 +53,8 @@ events:
     public: false
 - type: insult
   t: 445
-  source: marta
-  intensity: 0.964
+  source: player
+  intensity: 0.67
   context:
     public: false
 - type: nightfall

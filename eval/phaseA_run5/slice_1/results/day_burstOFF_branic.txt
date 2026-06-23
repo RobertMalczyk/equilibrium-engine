@@ -1,0 +1,10 @@
+branic_day_burstOFF_011: PASS -- calm productive day, normal boredom cycles, rests well
+branic_day_burstOFF_012: PASS -- mocks ignored early, mild tension evening, recovers fine
+branic_day_burstOFF_013: PASS -- accumulated barbs trigger snap, then refusal late evening plausible
+branic_day_burstOFF_014: PASS -- steady compliant day, mild tension evening, sleeps past midnight
+branic_day_burstOFF_015: PASS -- heavy evening tasking builds tension, obeys throughout, sane arc
+branic_day_burstOFF_016: PASS -- well-fed, kindnesses buffer barb, mild evening tension, clean sleep
+branic_day_burstOFF_017: PASS -- barb triggers bristle, kindnesses settle him, tense evening resolves
+branic_day_burstOFF_018: PASS -- Marta-heavy morning, calm day, mild evening tension, clean sleep
+branic_day_burstOFF_019: PASS -- repeated barbs build to two snaps and defiance, believable arc
+branic_day_burstOFF_020: PASS -- quiet compliant day, mild evening tension, sleeps past midnight

@@ -1,0 +1,10 @@
+cichy_day_burstON_001: PASS -- mocked twice, escalating anger, settles overnight
+cichy_day_burstON_002: PASS -- curt after provocation, residual temper fades by night
+cichy_day_burstON_003: PASS -- quiet day, residual edge, settles before sleep
+cichy_day_burstON_004: PASS -- stranger warmth accepted, guard mock met curtly, plausible
+cichy_day_burstON_005: PASS -- mocked mid-day, stays tense, recovers by evening
+cichy_day_burstON_006: FLAG -- early mock met with no reaction; flat for a resentful captive
+cichy_day_burstON_007: PASS -- single mock, curt reply, stranger kindness warmly taken
+cichy_day_burstON_008: PASS -- snaps at first mock, lingers tense, settles at night
+cichy_day_burstON_009: FLAG -- erupts at 21:21 then looks settled at ease by 22:04; too fast
+cichy_day_burstON_010: PASS -- provocation escalation to fury, lingering tension, plausible arc

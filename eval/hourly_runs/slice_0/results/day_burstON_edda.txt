@@ -1,10 +1,10 @@
-edda_day_burstON_001: PASS -- calm composed day, warm to kindness, lets stranger order pass
-edda_day_burstON_002: PASS -- settled day, warm thanks, ignores stranger's order, sets watch
-edda_day_burstON_003: PASS -- shrugs off mockery and orders, warm to help, composed
-edda_day_burstON_004: PASS -- lets mockery pass, warmed by kindness, sane pacing
-edda_day_burstON_005: PASS -- calm throughout, ignores mockery and orders, recovers overnight
-edda_day_burstON_006: PASS -- quiet composed day, warm thanks, takes charge at watch
-edda_day_burstON_007: PASS -- complaint and refusal to stranger orders fits authority, plausible
-edda_day_burstON_008: PASS -- warm to many kindnesses, mockery passes, composed command
-edda_day_burstON_009: PASS -- calm, warm to help, lets stranger order pass
-edda_day_burstON_010: PASS -- settled day, warm thanks, lets stranger order pass
+edda_day_burstON_001: PASS -- calm composed day, sane pacing, fits castellan
+edda_day_burstON_002: PASS -- settled routine, stranger ignored, night watch taken
+edda_day_burstON_003: PASS -- early mock absorbed, multiple kindnesses, composed throughout
+edda_day_burstON_004: PASS -- mock ignored, warmth received, regular meals, sane
+edda_day_burstON_005: PASS -- two rest events close together, minor, not absurd
+edda_day_burstON_006: PASS -- quiet uneventful day, sane pacing, fits profile
+edda_day_burstON_007: PASS -- repeated stranger orders erode tolerance; complaint then refusal believable
+edda_day_burstON_008: PASS -- warmth received, mock ignored, routine night, sane
+edda_day_burstON_009: FLAG -- two soups within 90 minutes at day start, odd cadence
+edda_day_burstON_010: FLAG -- two soups 10 minutes apart at 07:46 and 07:56

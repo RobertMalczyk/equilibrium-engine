@@ -63,14 +63,14 @@ events:
     public: false
 - type: insult
   t: 421
-  source: marta
-  intensity: 0.435
+  source: player
+  intensity: 0.746
   context:
-    public: true
+    public: false
 - type: insult
   t: 425
   source: player
-  intensity: 0.66
+  intensity: 0.759
   context:
     public: false
 - type: nightfall

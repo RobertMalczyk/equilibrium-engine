@@ -1,0 +1,10 @@
+welf_multi_burstON_021: PASS -- composed merchant, boredom cycles, mocks let pass cleanly
+welf_multi_burstON_022: PASS -- sane pacing, morning tension resolves with kindnesses
+welf_multi_burstON_023: PASS -- six days, late night Day 3 plausible, rain handled well
+welf_multi_burstON_024: PASS -- rain watch, lingering temper fades by midday believably
+welf_multi_burstON_025: PASS -- muted soup response mid-rain; varied warmth natural
+welf_multi_burstON_026: PASS -- kindness-dense Day 1 fine; late sleep Day 4 plausible
+welf_multi_burstON_027: PASS -- rain Day 5, tension resolves; consistent across six days
+welf_multi_burstON_028: PASS -- late sleep Day 1, morning tension Day 2 follows naturally
+welf_multi_burstON_029: PASS -- rain Day 3 lingers briefly; clustered kindnesses late fine
+welf_multi_burstON_030: PASS -- boredom tension evenings, rain sequence handled correctly

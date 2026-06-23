@@ -125,7 +125,7 @@ events:
     has_authority: true
 - type: help
   t: 1648
-  source: halgrim
+  source: marta
   intensity: 0.563
   context: {}
 - type: food_given
@@ -155,7 +155,7 @@ events:
     public: false
 - type: help
   t: 1901
-  source: halgrim
+  source: marta
   intensity: 0.517
   context: {}
 - type: nightfall
@@ -177,7 +177,7 @@ events:
     public: false
 - type: help
   t: 2236
-  source: halgrim
+  source: marta
   intensity: 0.33
   context: {}
 - type: help
@@ -230,7 +230,7 @@ events:
   intensity: 0.537
 - type: help
   t: 2901
-  source: halgrim
+  source: marta
   intensity: 0.853
   context: {}
 - type: food_given
@@ -282,7 +282,7 @@ events:
   intensity: 0.649
 - type: help
   t: 3366
-  source: halgrim
+  source: marta
   intensity: 0.833
   context: {}
 - type: nightfall

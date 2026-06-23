@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_001: PASS -- steady day, defiant refusal of Wojsław fits resentment
+halgrim_day_burstOFF_002: PASS -- calm day full of kindnesses, warm responses throughout
+halgrim_day_burstOFF_003: PASS -- declines Wojsław, obeys Edda; mild tension clears plausibly
+halgrim_day_burstOFF_004: PASS -- quiet day, warmth builds with Marta's repeated kindnesses
+halgrim_day_burstOFF_005: PASS -- accumulated provocations yield cold contempt, sleep resets
+halgrim_day_burstOFF_006: PASS -- barbs absorbed, tension eases; Marta kindnesses warm him
+halgrim_day_burstOFF_007: PASS -- calm throughout, declines Wojsław, obeys Edda late night
+halgrim_day_burstOFF_008: PASS -- kindnesses lift mood; public barb gets curt reply, settles
+halgrim_day_burstOFF_009: FLAG -- ignores Edda's order at 22:08 with no notable reaction
+halgrim_day_burstOFF_010: PASS -- curt after barb, tension lingers briefly then dissipates

@@ -1,0 +1,10 @@
+edda_day_burstOFF_031: PASS -- calm day, soup duplicated at 07:20/07:26 but plausible
+edda_day_burstOFF_032: PASS -- well-paced day, multiple kindnesses, stranger order ignored sensibly
+edda_day_burstOFF_033: PASS -- steady day, composed authority figure, nothing jars
+edda_day_burstOFF_034: PASS -- stranger orders twice; she complies once, ignores once, believable
+edda_day_burstOFF_035: PASS -- quiet uneventful day, settled throughout, fine
+edda_day_burstOFF_036: PASS -- stranger orders thrice, she handles each calmly, consistent
+edda_day_burstOFF_037: PASS -- warm busy morning, settles through afternoon, no issues
+edda_day_burstOFF_038: PASS -- early kindnesses, stranger order ignored, composed throughout
+edda_day_burstOFF_039: PASS -- Marta-heavy day, warmly received each time, believable
+edda_day_burstOFF_040: PASS -- two public mocks brushed off calmly; fits composed authority

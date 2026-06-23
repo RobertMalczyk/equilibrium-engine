@@ -1,0 +1,10 @@
+welf_day_burstON_041: PASS -- calm merchant, boredom cycles, restlessness resolved, sane pacing
+welf_day_burstON_042: PASS -- steady day, boredom rises and settles, kindnesses received warmly
+welf_day_burstON_043: PASS -- well-paced, multiple kindnesses, restlessness cycles naturally
+welf_day_burstON_044: PASS -- barbed remark let pass, fits calm profile, sane rhythm
+welf_day_burstON_045: PASS -- quiet day, boredom managed, sleeps settled, no jarring notes
+welf_day_burstON_046: PASS -- mock let pass early, recovers fine, composed throughout
+welf_day_burstON_047: PASS -- mock at 16:58 let pass, fits profile, sane arc
+welf_day_burstON_048: PASS -- slight tension at 22:04, recovers next morning, believable
+welf_day_burstON_049: PASS -- ends a little tense, rests before sleep, fits idle frustration
+welf_day_burstON_050: PASS -- two soups close together odd but accepted warmly, no anger

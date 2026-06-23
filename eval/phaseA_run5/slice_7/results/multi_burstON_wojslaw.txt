@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_071: PASS -- calm days, bursts only when already tense, clean resets
+wojslaw_multi_burstON_072: PASS -- heavy Day 4 but each eruption has a triggering taunt
+wojslaw_multi_burstON_073: PASS -- quick escalation Day 1 driven by in-front-of-others insults
+wojslaw_multi_burstON_074: PASS -- lingering temper, eruptions triggered, morning resets intact
+wojslaw_multi_burstON_075: PASS -- low mockery frequency yields few bursts, pride still shows
+wojslaw_multi_burstON_076: PASS -- high harassment density drives cascade, mornings reset cleanly
+wojslaw_multi_burstON_077: PASS -- escalation across days under sustained mockery, believable arc
+wojslaw_multi_burstON_078: PASS -- rapid late-night triple eruption unusual but each taunt-triggered
+wojslaw_multi_burstON_079: PASS -- Marta kindness buffers anger, bursts when repeatedly baited
+wojslaw_multi_burstON_080: PASS -- peaceful Day 1, escalation Day 2-4 as mockery increases

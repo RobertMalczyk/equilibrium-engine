@@ -1,12 +1,10 @@
-All records show consistent sane behavior: restless/occupies cycle, mockery rolls off (occasional mild curt reply, fits thick-skinned), warm thanks for kindness, sleeps at night, wakes settled. Nothing jars.
-
-lutek_multi_burstOFF_011: PASS -- sane restless-rest cycle, mockery shrugged, sleeps and recovers
-lutek_multi_burstOFF_012: PASS -- believable pacing, warm to kindness, restful nights
-lutek_multi_burstOFF_013: PASS -- mockery passes, restless cycle, good sleep recovery
-lutek_multi_burstOFF_014: PASS -- one mild curt reply fits thick-skinned, otherwise calm
-lutek_multi_burstOFF_015: PASS -- consistent restless-rest rhythm, warm, sleeps well
-lutek_multi_burstOFF_016: PASS -- sane days, mockery shrugged, recovers overnight
-lutek_multi_burstOFF_017: PASS -- repeated mockery rolls off, restless cycle, good sleep
-lutek_multi_burstOFF_018: PASS -- believable pacing, mockery passes, restful nights
-lutek_multi_burstOFF_019: PASS -- warm, restless-rest cycle, sleeps and wakes settled
-lutek_multi_burstOFF_020: PASS -- sane three days, easy-going, recovers overnight
+lutek_multi_burstOFF_011: PASS -- sane rhythm, mockery rolls off, warms to kindness
+lutek_multi_burstOFF_012: PASS -- healthy cycle, mild tension resolves each day
+lutek_multi_burstOFF_013: PASS -- many soups but no absurdity, mockery handled correctly
+lutek_multi_burstOFF_014: PASS -- slight curtness to public mock defensible, pacing sane
+lutek_multi_burstOFF_015: PASS -- late-evening tension plausible, resolves after sleep
+lutek_multi_burstOFF_016: PASS -- midnight sleep timestamps fine, tension resolves normally
+lutek_multi_burstOFF_017: FLAG -- Day4 11:27 kindness triggers "no notable reaction" wrong label
+lutek_multi_burstOFF_018: PASS -- two mocks roll off cleanly, tension arc believable
+lutek_multi_burstOFF_019: PASS -- socially busy Day5 morning, no absurdity, good rhythm
+lutek_multi_burstOFF_020: PASS -- tension after soup slight but resolves, overall sane

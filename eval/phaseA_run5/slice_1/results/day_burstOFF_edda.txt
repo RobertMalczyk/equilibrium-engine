@@ -1,0 +1,10 @@
+edda_day_burstOFF_011: PASS -- calm day, warmth to kindness, authority at night
+edda_day_burstOFF_012: PASS -- stranger order draws mild complaint, recovers quickly
+edda_day_burstOFF_013: PASS -- steady day, multiple kindnesses received graciously
+edda_day_burstOFF_014: PASS -- insult let pass, composed throughout, authority at close
+edda_day_burstOFF_015: PASS -- two soups early morning plausible, settled day overall
+edda_day_burstOFF_016: PASS -- brief tension after insult, resolves; charge set at night
+edda_day_burstOFF_017: PASS -- quiet day, stranger order ignored, settled throughout
+edda_day_burstOFF_018: PASS -- declining stranger order fits authority; curt reply to insult fine
+edda_day_burstOFF_019: PASS -- insult let pass, warmth to helpers, sane pacing
+edda_day_burstOFF_020: PASS -- refuses stranger order fits castellan standing; four insults let pass

@@ -1,10 +1,10 @@
-halgrim_day_burstON_081: PASS -- Quiet day; Edda curtness late is plausible accumulation.
-halgrim_day_burstON_082: PASS -- Steady, compliant day; Wojsław grumble fits the profile.
-halgrim_day_burstON_083: PASS -- Marta warmth offset by Wojsław barbs; curt responses fitting.
-halgrim_day_burstON_084: PASS -- Uneventful calm day; consistent with iron self-control.
-halgrim_day_burstON_085: PASS -- Declining Wojsław's order fits low regard; otherwise settled.
-halgrim_day_burstON_086: PASS -- Plain duty day; no friction, no issues.
-halgrim_day_burstON_087: PASS -- Heavy Wojsław pressure escalates to cold contempt; sleep resets.
-halgrim_day_burstON_088: PASS -- Positive-heavy day; warmth and compliance throughout, plausible.
-halgrim_day_burstON_089: PASS -- Calm day with stranger kindnesses; settled throughout.
-halgrim_day_burstON_090: FLAG -- Cold contempt toward Marta after Wojsław baiting; displaced snap
+halgrim_day_burstON_081: PASS -- tension builds credibly, cold curtness fits profile
+halgrim_day_burstON_082: PASS -- calm day, mild complaint to Wojslaw only, wakes settled
+halgrim_day_burstON_083: PASS -- kindness-rich day, mild friction handled appropriately
+halgrim_day_burstON_084: PASS -- uneventful quiet day, consistently settled throughout
+halgrim_day_burstON_085: PASS -- Wojslaw refusal and letting barb pass both fit profile
+halgrim_day_burstON_086: PASS -- frictionless day, calm and measured throughout
+halgrim_day_burstON_087: FLAG -- cold contempt to Edda (respected superior) jars against profile
+halgrim_day_burstON_088: PASS -- positive day, Wojslaw barb absorbed, steady throughout
+halgrim_day_burstON_089: PASS -- calm day, Wojslaw order let pass, warms to kindnesses
+halgrim_day_burstON_090: FLAG -- cold contempt to Marta (plain ally) after Wojslaw friction jars

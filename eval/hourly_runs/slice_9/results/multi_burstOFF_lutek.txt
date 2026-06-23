@@ -1,10 +1,10 @@
-lutek_multi_burstOFF_091: PASS -- sane boredom cycles, warm to kindness, rests and sleeps well
-lutek_multi_burstOFF_092: PASS -- occasional flat soup reaction plausible; pattern otherwise sound
-lutek_multi_burstOFF_093: PASS -- day-2 morning tension resolves cleanly; social clustering fine
-lutek_multi_burstOFF_094: PASS -- past-midnight tinkering fits restless poet; mock deflected correctly
-lutek_multi_burstOFF_095: PASS -- brief evening tension resolves; three days clean and sane
-lutek_multi_burstOFF_096: PASS -- repeated evening tension acceptable; all mockery correctly deflected
-lutek_multi_burstOFF_097: PASS -- very clean multi-day run, boredom and rest well-paced
-lutek_multi_burstOFF_098: PASS -- soup indifference then social warmth slightly odd, not a breach
-lutek_multi_burstOFF_099: PASS -- three consecutive tense evenings repetitive but within range
-lutek_multi_burstOFF_100: PASS -- three mornings waking tense is a pattern worth noting, not disqualifying
+lutek_multi_burstOFF_091: PASS -- steady restless-ease rhythm, warm to kindness, sane pacing
+lutek_multi_burstOFF_092: PASS -- clean 3 days, flat late soup plausible when satiated
+lutek_multi_burstOFF_093: PASS -- 6 days, kindness bursts handled warmly, rhythm intact
+lutek_multi_burstOFF_094: PASS -- late-night extension past midnight unusual but not absurd
+lutek_multi_burstOFF_095: PASS -- straightforward 3 days, consistent warm thick-skinned character
+lutek_multi_burstOFF_096: PASS -- prolonged evening tension days 4-5 but resolves each morning
+lutek_multi_burstOFF_097: PASS -- 5 days solid, flat soup reactions when full are plausible
+lutek_multi_burstOFF_098: PASS -- flat soup on waking plausible, recovers warmly minutes later
+lutek_multi_burstOFF_099: PASS -- three days mild tension accumulation, resolves by day end
+lutek_multi_burstOFF_100: PASS -- recurring early-morning tension across 3 days, resolves mid-morning

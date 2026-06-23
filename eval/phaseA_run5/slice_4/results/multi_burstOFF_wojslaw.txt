@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_041: PASS -- sane pacing, anger tracks mocks, sleeps reset
+wojslaw_multi_burstOFF_042: PASS -- calm days contrast with provocation-driven fury clusters
+wojslaw_multi_burstOFF_043: PASS -- morning resilience then evening escalation, believable arc
+wojslaw_multi_burstOFF_044: PASS -- clean variation, day 3 calm fits low-provocation input
+wojslaw_multi_burstOFF_045: PASS -- muted day, orders tolerated while mood stays settled
+wojslaw_multi_burstOFF_046: PASS -- rapid double-mock escalation on day 4 fits hair-trigger profile
+wojslaw_multi_burstOFF_047: PASS -- warm multi-day baseline, fury arrives only with sustained insults
+wojslaw_multi_burstOFF_048: PASS -- mostly peaceful, eruptions properly provoked and proportionate
+wojslaw_multi_burstOFF_049: PASS -- heavy provocation density drives sustained fury, within profile
+wojslaw_multi_burstOFF_050: PASS -- calm day 1, day 2 eruptions driven by five distinct mocks

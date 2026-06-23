@@ -1,10 +1,10 @@
-cichy_day_burstON_021: PASS -- escalating mocks, calm baseline, sleeps and recovers; coherent.
-cichy_day_burstON_022: PASS -- curt and angry to mocks, soft to stranger, sane pacing.
-cichy_day_burstON_023: PASS -- mostly curt, calm baseline, sensible rise and fall.
-cichy_day_burstON_024: PASS -- public mock triggers fury, otherwise measured; believable day.
-cichy_day_burstON_025: PASS -- consistently cold and curt to guards; coherent throughout.
-cichy_day_burstON_026: PASS -- calm day, curt to soup-bearing guard; recovers overnight.
-cichy_day_burstON_027: PASS -- curt then snaps at evening mock; sane pacing.
-cichy_day_burstON_028: PASS -- graded response, public mock erupts; recovers, believable.
-cichy_day_burstON_029: PASS -- two early eruptions then settling; resentful, coherent arc.
-cichy_day_burstON_030: PASS -- warm to stranger, erupts at guard mock; sane.
+cichy_day_burstON_021: PASS -- tension builds through day, eruption earned, wakes settled
+cichy_day_burstON_022: PASS -- one provocation one response, calm recovery, sane arc
+cichy_day_burstON_023: PASS -- sustained tension, restrained curtness, no eruption, believable
+cichy_day_burstON_024: PASS -- public humiliation triggers early fury, later just curt
+cichy_day_burstON_025: PASS -- three mocks met cold, no eruption, controlled smouldering day
+cichy_day_burstON_026: PASS -- quiet day, no provocations, calm throughout, fits captive life
+cichy_day_burstON_027: PASS -- day-long tension, snap after rest plausible given buildup
+cichy_day_burstON_028: PASS -- public humiliation eruption, bristle precedes it, wakes settled
+cichy_day_burstON_029: PASS -- two early eruptions then dampened, burst-then-drained arc plausible
+cichy_day_burstON_030: PASS -- kindness warmly taken, guard mockery triggers eruption, clean arc

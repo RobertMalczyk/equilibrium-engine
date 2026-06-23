@@ -1,10 +1,10 @@
-halgrim_day_burstON_011: PASS -- calm, warm to kindness, lets Wojsław's jab pass; believable.
-halgrim_day_burstON_012: PASS -- cold curtness to Wojsław's mockery and refusals; fitting restraint.
-halgrim_day_burstON_013: FLAG -- cold contempt twice at respected Edda's orders jars.
-halgrim_day_burstON_014: PASS -- even-keeled, declines Wojsław, warm to kindness; sane day.
-halgrim_day_burstON_015: PASS -- mild curtness and a complaint late; recovers overnight.
-halgrim_day_burstON_016: PASS -- placid, warm to soup and help throughout; believable.
-halgrim_day_burstON_017: PASS -- compliant with Edda, settled all day; sane.
-halgrim_day_burstON_018: PASS -- absorbs jabs, one cold reply, mild edge by night.
-halgrim_day_burstON_019: PASS -- calm, obliges Edda, warmed by kindness; consistent.
-halgrim_day_burstON_020: PASS -- placid throughout, lets Wojsław's barb pass; fitting.
+halgrim_day_burstON_011: PASS -- calm day, Wojsław barb absorbed, steady throughout
+halgrim_day_burstON_012: PASS -- Wojsław pressure builds tension, curt responses fit profile
+halgrim_day_burstON_013: FLAG -- cold contempt at Edda twice; profile says he respects her
+halgrim_day_burstON_014: PASS -- uneventful settled day, declines Wojsław, responds to Edda
+halgrim_day_burstON_015: PASS -- late mock raises edge; mutters at Edda but recovers by sleep
+halgrim_day_burstON_016: PASS -- quiet day, two rest entries close together but not absurd
+halgrim_day_burstON_017: PASS -- Wojsław ignored, Edda obeyed, steady and calm throughout
+halgrim_day_burstON_018: PASS -- Wojsław wears him down across day; tension builds plausibly
+halgrim_day_burstON_019: PASS -- positive day, complies with Edda, warm to Marta and stranger
+halgrim_day_burstON_020: PASS -- calm day, single Wojsław barb absorbed without reaction

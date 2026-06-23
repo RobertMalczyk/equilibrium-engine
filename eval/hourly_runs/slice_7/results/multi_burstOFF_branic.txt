@@ -1,10 +1,10 @@
-branic_multi_burstOFF_071: PASS -- calm days, minor refusals without visible trigger
-branic_multi_burstOFF_072: PASS -- steady low-key days, fatigue tense mornings fine
-branic_multi_burstOFF_073: PASS -- rain and mocks build to end-of-day snap, coherent
-branic_multi_burstOFF_074: FLAG -- day 4 repeated defiant refusals without new escalating triggers
-branic_multi_burstOFF_075: PASS -- long calm run, kind-heavy day 4 but not absurd
-branic_multi_burstOFF_076: PASS -- day 6 rain plus public mocks earn the outburst
-branic_multi_burstOFF_077: PASS -- rain days handled, mild tension arc, no explosion
-branic_multi_burstOFF_078: PASS -- quiet four days, compliant, good pacing throughout
-branic_multi_burstOFF_079: PASS -- four stranger-kindnesses close together but not disqualifying
-branic_multi_burstOFF_080: PASS -- morning mock plus rain explain cold soup non-reaction
+branic_multi_burstOFF_071: PASS -- calm arc, passive refusals plausible under burstOFF accumulation
+branic_multi_burstOFF_072: PASS -- quiet stretch, mocks absorbed without reaction, sane pacing
+branic_multi_burstOFF_073: PASS -- tension builds day 3, late-night mock produces snap believably
+branic_multi_burstOFF_074: PASS -- escalation to fury then persistent defiance fits burstOFF residue
+branic_multi_burstOFF_075: PASS -- unusually calm 6 days, favorable inputs explain sustained ease
+branic_multi_burstOFF_076: PASS -- day 1 rapid bristle-snap-refuse is quick but mocking density warrants it
+branic_multi_burstOFF_077: PASS -- rain days wear him down to mutter, no full outburst, coherent
+branic_multi_burstOFF_078: PASS -- compliant calm throughout, morning tension resets normally
+branic_multi_burstOFF_079: PASS -- dense stranger-kindness cluster day 3 afternoon is quirky but not impossible
+branic_multi_burstOFF_080: PASS -- soup ignored while tense under rain is a credible suppression signal

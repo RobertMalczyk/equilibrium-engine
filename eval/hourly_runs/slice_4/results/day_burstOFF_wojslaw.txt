@@ -1,10 +1,10 @@
-wojslaw_day_burstOFF_041: PASS -- flares at mocks, calm otherwise, sleeps and recovers
-wojslaw_day_burstOFF_042: PASS -- proportionate flares, refusals, warm to kindness, sane pacing
-wojslaw_day_burstOFF_043: PASS -- prickly refusals and erupts at Marta, recovers nightly
-wojslaw_day_burstOFF_044: PASS -- mostly calm day, snaps at mock, believable arc
-wojslaw_day_burstOFF_045: PASS -- erupts at insults, defiant refusals, recovers overnight
-wojslaw_day_burstOFF_046: PASS -- flares at mocks, warm to kindness, sane day
-wojslaw_day_burstOFF_047: PASS -- snaps at mocks, gracious to help, recovers
-wojslaw_day_burstOFF_048: PASS -- erupts at Marta's mock, otherwise settled, sane
-wojslaw_day_burstOFF_049: PASS -- erupts at Marta, warm to strangers, recovers overnight
-wojslaw_day_burstOFF_050: PASS -- prickly refusals and eruptions, calm between, sleeps well
+wojslaw_day_burstOFF_041: PASS -- volatile temper, quick recovery, sane pacing
+wojslaw_day_burstOFF_042: PASS -- earned warmth to strangers, consistent Marta resentment
+wojslaw_day_burstOFF_043: PASS -- repeated order refusals and dual evening eruptions fit
+wojslaw_day_burstOFF_044: PASS -- quiet day with no provocations, plausible calm
+wojslaw_day_burstOFF_045: PASS -- outbursts triggered by mocks, flat to kindnesses when calm
+wojslaw_day_burstOFF_046: PASS -- warm morning, flares at mocks, recovers cleanly
+wojslaw_day_burstOFF_047: PASS -- good calm/provoke/recover rhythm throughout
+wojslaw_day_burstOFF_048: PASS -- erupts at public mock, residual coldness to Marta after
+wojslaw_day_burstOFF_049: PASS -- graded responses, full eruption at public mock fits
+wojslaw_day_burstOFF_050: PASS -- pride overrides gratitude, multiple outbursts, sane recovery

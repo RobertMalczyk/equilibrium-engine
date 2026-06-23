@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_051: PASS -- steady day, Wojsław friction absorbed, curtness appropriate
+halgrim_day_burstOFF_052: PASS -- calm day, warmth to Marta fits, no jarring notes
+halgrim_day_burstOFF_053: PASS -- brief tension after Wojsław, fades quickly, plausible
+halgrim_day_burstOFF_054: PASS -- ignores Wojsław orders, warms to Marta, consistent
+halgrim_day_burstOFF_055: PASS -- seething after public mockery then settling, fits profile
+halgrim_day_burstOFF_056: PASS -- declines Wojsław, obeys Edda, steady arc
+halgrim_day_burstOFF_057: PASS -- two Wojsław barbs absorbed, slight curt edge, plausible
+halgrim_day_burstOFF_058: PASS -- quiet day, late curt reply to Wojsław, fits
+halgrim_day_burstOFF_059: PASS -- positive morning, single curt reply to Wojsław, settled
+halgrim_day_burstOFF_060: PASS -- busy day for Edda, cold reply to public mockery, fine

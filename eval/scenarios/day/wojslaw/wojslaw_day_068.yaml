@@ -45,7 +45,7 @@ events:
   context: {}
 - type: insult
   t: 347
-  source: marta
+  source: player
   intensity: 0.846
   context:
     public: true

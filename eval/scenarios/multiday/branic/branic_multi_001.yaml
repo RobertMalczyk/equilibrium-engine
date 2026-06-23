@@ -136,12 +136,12 @@ events:
   context: {}
 - type: help
   t: 2458
-  source: halgrim
+  source: marta
   intensity: 0.323
   context: {}
 - type: help
   t: 2494
-  source: halgrim
+  source: marta
   intensity: 0.421
   context: {}
 - type: food_given
@@ -198,7 +198,7 @@ events:
     public: false
 - type: help
   t: 3203
-  source: halgrim
+  source: marta
   intensity: 0.841
   context: {}
 - type: insult

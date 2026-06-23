@@ -1,10 +1,10 @@
-branic_multi_burstOFF_091: PASS -- steady build to defiance on day 5, resets overnight
-branic_multi_burstOFF_092: PASS -- calm arc, occasional snap, sleep resets hold
-branic_multi_burstOFF_093: PASS -- passive non-compliance builds across days without outburst
-branic_multi_burstOFF_094: PASS -- rain plus mocks compound into multi-day flare-up
-branic_multi_burstOFF_095: PASS -- bristles then complies moments later, plausible mood swing
-branic_multi_burstOFF_096: PASS -- mild throughout five days, gradual single refusal
-branic_multi_burstOFF_097: FLAG -- burstOFF yet "erupts shouting in fury" at day 5 16:48
-branic_multi_burstOFF_098: PASS -- unusually kind run, no contradictions for three days
-branic_multi_burstOFF_099: PASS -- gradual refusal build over days, believable pacing
-branic_multi_burstOFF_100: PASS -- positive day 2 then tense day 4 refusals, sane arc
+branic_multi_burstOFF_091: PASS -- earned escalation to defiance, clean sleep resets
+branic_multi_burstOFF_092: PASS -- calm run, day 4 snap proportionate to mock
+branic_multi_burstOFF_093: PASS -- refusal buildup across accumulating mocks, plausible
+branic_multi_burstOFF_094: PASS -- day 4 heavy mocking earns snap and refusal cascade
+branic_multi_burstOFF_095: PASS -- cooperative stretch, late bristle fits tired evening
+branic_multi_burstOFF_096: PASS -- mostly calm, single late refusal, sane pacing
+branic_multi_burstOFF_097: PASS -- fury eruption earned by rapid double-mock sequence
+branic_multi_burstOFF_098: PASS -- lucky quiet stretch, no anger, sane
+branic_multi_burstOFF_099: PASS -- irritation builds across days, refusals earned
+branic_multi_burstOFF_100: PASS -- day 4 refusal density high but multi-day buildup supports it

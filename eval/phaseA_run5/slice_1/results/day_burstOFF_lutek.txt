@@ -1,0 +1,10 @@
+lutek_day_burstOFF_011: PASS -- restless cycle, insult ignored, mild evening tension, sleeps fine
+lutek_day_burstOFF_012: PASS -- steady rhythm, three soups plausible, wakes early and active
+lutek_day_burstOFF_013: PASS -- boredom/seek cycle intact, brief tension eased by soup, fits profile
+lutek_day_burstOFF_014: PASS -- two soups close together unusual but not absurd, day coherent
+lutek_day_burstOFF_015: PASS -- mock ignored, kindness restores ease, late sleep still sane
+lutek_day_burstOFF_016: PASS -- public mock shrugged off, tension at 20:00 fades, clean reset
+lutek_day_burstOFF_017: PASS -- tension at 18:03 resolved by Marta's kindness, fits thick-skinned profile
+lutek_day_burstOFF_018: PASS -- many small kindnesses, stays content throughout, no jarring notes
+lutek_day_burstOFF_019: PASS -- brief tension mid-evening eased, late tinkering then sleeps, coherent
+lutek_day_burstOFF_020: PASS -- calm day, kindnesses warm him, no tension spikes, fits well

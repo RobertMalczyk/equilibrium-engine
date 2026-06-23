@@ -24,7 +24,7 @@ events:
     has_authority: true
 - type: help
   t: 94
-  source: marta
+  source: player
   intensity: 0.773
   context: {}
 - type: command
@@ -35,12 +35,12 @@ events:
     has_authority: true
 - type: help
   t: 166
-  source: halgrim
+  source: marta
   intensity: 0.807
   context: {}
 - type: help
   t: 214
-  source: halgrim
+  source: marta
   intensity: 0.731
   context: {}
 - type: command
@@ -51,7 +51,7 @@ events:
     has_authority: true
 - type: help
   t: 299
-  source: marta
+  source: player
   intensity: 0.55
   context: {}
 - type: help

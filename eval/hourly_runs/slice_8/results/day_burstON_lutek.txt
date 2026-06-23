@@ -1,10 +1,10 @@
-lutek_day_burstON_081: PASS -- restless cycle, eats twice, settles overnight, sane pacing
-lutek_day_burstON_082: PASS -- slight tension late evening, sleeps and wakes calm, fits profile
-lutek_day_burstON_083: PASS -- mock rolls off him, eats well, mild evening edge clears by sleep
-lutek_day_burstON_084: PASS -- well-fed, active restlessness, settles smoothly, no jarring moments
-lutek_day_burstON_085: PASS -- evening tension eases after soup, wakes settled, believable day
-lutek_day_burstON_086: PASS -- many small kindnesses, late tension resolves, pacing sounds natural
-lutek_day_burstON_087: FLAG -- wound tight at 22:04 with no food or provocation late to explain it
-lutek_day_burstON_088: PASS -- mild tension spikes, resolves; stays up late but sleeps, sane overall
-lutek_day_burstON_089: FLAG -- kindness at 21:23 met with no reaction; inconsistent with warm profile
-lutek_day_burstON_090: PASS -- restless but regulated, two tension blips both resolve, clean sleep
+lutek_day_burstON_081: PASS -- restless cycle, two meals, sleeps late, sane arc.
+lutek_day_burstON_082: PASS -- good rhythm, kindnesses received well, mild edge at night.
+lutek_day_burstON_083: PASS -- mock rolls off him perfectly, settled day, clean sleep.
+lutek_day_burstON_084: PASS -- active curious day, well-fed, no tension, clean sleep.
+lutek_day_burstON_085: PASS -- tense at 20:00, soup soothes, settled by sleep, fits profile.
+lutek_day_burstON_086: PASS -- many kindnesses, edge at 20:00 resolved by soup, plausible.
+lutek_day_burstON_087: FLAG -- wound tight at 22:04 with no clear trigger late evening.
+lutek_day_burstON_088: PASS -- tense spikes pass, stays up late but sane, recovers.
+lutek_day_burstON_089: FLAG -- kindness at 21:23 gets no reaction; thick-skinned but not cold.
+lutek_day_burstON_090: PASS -- mock ignored, tension mid-eve, resolves, clean sleep cycle.

@@ -1,0 +1,10 @@
+cichy_day_burstON_021: PASS -- tension escalates through day, sleep resets cleanly
+cichy_day_burstON_022: PASS -- guard mock draws anger, pacing and rest believable
+cichy_day_burstON_023: PASS -- mild day, curt to guard, seething fades before sleep
+cichy_day_burstON_024: PASS -- fury at morning taunt, temper lingers then settles
+cichy_day_burstON_025: PASS -- repeated mocks draw cold curtness, simmers all day
+cichy_day_burstON_026: PASS -- quiet day, no provocations, mood drifts naturally
+cichy_day_burstON_027: PASS -- temper builds through afternoon, evening snap believable
+cichy_day_burstON_028: PASS -- escalating mocks, eruption after bristling, then settles
+cichy_day_burstON_029: FLAG -- erupts at full fury at 08:12 with no prior buildup
+cichy_day_burstON_030: PASS -- afternoon kindness noted, curt to guards, erupts late

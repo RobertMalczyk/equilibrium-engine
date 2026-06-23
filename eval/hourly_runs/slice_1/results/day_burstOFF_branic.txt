@@ -1,10 +1,10 @@
-branic_day_burstOFF_011: PASS -- calm productive day, sane pacing, sleeps and wakes recovered
-branic_day_burstOFF_012: PASS -- shrugs off mocks, works, rests, sleeps; believable green recruit
-branic_day_burstOFF_013: PASS -- snaps then refuses an order after barbs; thin-skinned recruit fits
-branic_day_burstOFF_014: PASS -- restless cycles, kindnesses warmly received, sleeps just after midnight
-branic_day_burstOFF_015: PASS -- obedient busy day, mild edge late, sleeps and recovers
-branic_day_burstOFF_016: PASS -- steady day, warmth and orders handled, sleeps and wakes settled
-branic_day_burstOFF_017: PASS -- many kindnesses, brief edge, restless cycles, normal sleep
-branic_day_burstOFF_018: PASS -- eager compliance, warm responses, mild evening edge, normal sleep
-branic_day_burstOFF_019: PASS -- shrugs repeated mocks, restless cycles, sleeps and wakes settled
-branic_day_burstOFF_020: PASS -- calm restless day, warm responses, sleeps just after midnight
+branic_day_burstOFF_011: PASS -- calm productive day, boredom cycles natural, sleeps fine
+branic_day_burstOFF_012: PASS -- multiple barbs absorbed without reaction, tense eve resolves, sane arc
+branic_day_burstOFF_013: PASS -- accumulated barbs trigger evening snap, refusal late, wakes reset
+branic_day_burstOFF_014: PASS -- two late tense spells, compliant throughout, midnight sleep acceptable
+branic_day_burstOFF_015: PASS -- heavy late-night tasking causes edge, wakes settled, sane pacing
+branic_day_burstOFF_016: PASS -- midday kindnesses offset barb, evening tension brief, clean sleep
+branic_day_burstOFF_017: PASS -- stranger kindness cluster unusual but not jarring, wakes settled
+branic_day_burstOFF_018: PASS -- well-supported day, evening tension without provocation mildly flat
+branic_day_burstOFF_019: PASS -- repeated barbs absorbed all day, tension by evening believable
+branic_day_burstOFF_020: PASS -- quiet steady day, late sleep past midnight, wakes settled

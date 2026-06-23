@@ -150,7 +150,7 @@ events:
     public: false
 - type: help
   t: 1172
-  source: halgrim
+  source: marta
   intensity: 0.813
   context: {}
 - type: nightfall
@@ -213,7 +213,7 @@ events:
     has_authority: true
 - type: help
   t: 1795
-  source: marta
+  source: player
   intensity: 0.7
   context: {}
 - type: help
@@ -302,7 +302,7 @@ events:
     has_authority: true
 - type: help
   t: 3068
-  source: marta
+  source: player
   intensity: 0.927
   context: {}
 - type: weather
@@ -341,7 +341,7 @@ events:
     has_authority: true
 - type: help
   t: 3367
-  source: halgrim
+  source: marta
   intensity: 0.608
   context: {}
 - type: nightfall

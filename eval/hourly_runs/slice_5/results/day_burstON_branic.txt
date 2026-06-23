@@ -1,10 +1,10 @@
-branic_day_burstON_051: PASS -- Sane day; idle restlessness, warmth, evening tension, sleeps.
-branic_day_burstON_052: PASS -- Believable arc; rises tense at night, wakes recovered.
-branic_day_burstON_053: PASS -- Public mockery triggers snap and defiant refusals; plausible.
-branic_day_burstON_054: PASS -- Evening eruption after sustained tension; otherwise composed, recovers.
-branic_day_burstON_055: PASS -- Snaps at public barb; orders mostly obeyed, sleeps fine.
-branic_day_burstON_056: PASS -- Calm day, lets barbs pass, normal recovery.
-branic_day_burstON_057: PASS -- Late-evening fury and refusal after barb; sane pacing.
-branic_day_burstON_058: PASS -- Easy day, warmth toward kindness, settled, sleeps well.
-branic_day_burstON_059: PASS -- Dense orders all absorbed calmly; believable busy day.
-branic_day_burstON_060: PASS -- Evening snap at order; otherwise warm and settled.
+branic_day_burstON_051: PASS -- steady day, boredom cycles, evening tension, sane sleep
+branic_day_burstON_052: PASS -- calm day with evening wind-up, wakes recovered
+branic_day_burstON_053: PASS -- evening provocation triggers snap and defiance, fits profile
+branic_day_burstON_054: PASS -- late eruption after compliant day, plausible accumulation
+branic_day_burstON_055: PASS -- heavy order-load mid-day, public mock triggers snap, winds up by night
+branic_day_burstON_056: PASS -- quiet settled day, mocks absorbed, no outburst, sane
+branic_day_burstON_057: PASS -- evening mock triggers fury, then refusal, sleeps and resets
+branic_day_burstON_058: PASS -- calm supportive day, late tension without outburst, sane
+branic_day_burstON_059: PASS -- heavy morning pressure absorbed, evening tension, no outburst plausible
+branic_day_burstON_060: PASS -- snap at evening order after settled day, recovers by 22:04

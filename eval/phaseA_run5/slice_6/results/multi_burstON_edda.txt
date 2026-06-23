@@ -1,0 +1,10 @@
+edda_multi_burstON_061: PASS -- calm 4 days, proportionate reactions throughout
+edda_multi_burstON_062: PASS -- settled castellan, quiet days, no jarring moments
+edda_multi_burstON_063: PASS -- declines orders appropriately, composed across 6 days
+edda_multi_burstON_064: PASS -- brief tension after public barb, recovers cleanly
+edda_multi_burstON_065: PASS -- mild complaint at repeat ordering, otherwise settled
+edda_multi_burstON_066: PASS -- tense arc after provocation, recovery believable
+edda_multi_burstON_067: PASS -- 3 mocks trigger tension, resolves after rest and kindness
+edda_multi_burstON_068: PASS -- one complaint, mocks let pass, stable across days
+edda_multi_burstON_069: PASS -- tension after mock resolves by afternoon, sane pacing
+edda_multi_burstON_070: PASS -- calm 6 days, authority maintained, no absurdities

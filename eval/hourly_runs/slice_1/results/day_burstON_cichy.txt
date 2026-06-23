@@ -1,10 +1,10 @@
-cichy_day_burstON_011: PASS -- Calm day, curt to guards, warm to stranger; sane.
-cichy_day_burstON_012: PASS -- Snaps at mock, otherwise curt; believable edgy captive.
-cichy_day_burstON_013: PASS -- Early flare, settles; resentment toward guards consistent.
-cichy_day_burstON_014: PASS -- Erupts at public mockery, recovers; fits volatile captive.
-cichy_day_burstON_015: PASS -- Curt to guards, calm pacing; sane day.
-cichy_day_burstON_016: PASS -- Escalating evening snaps after repeated jabs; believable.
-cichy_day_burstON_017: PASS -- Warm to strangers, curt to guards; coherent day.
-cichy_day_burstON_018: PASS -- Curt to guards throughout, sleeps; nothing jars.
-cichy_day_burstON_019: PASS -- Mild curtness to guards, calm pacing; sane.
-cichy_day_burstON_020: PASS -- Mostly settled, curt once to guard; believable.
+cichy_day_burstON_011: PASS -- calm day, one provocation answered curtly, sane pacing
+cichy_day_burstON_012: PASS -- morning snap after mock, afternoon tension, recovers by night
+cichy_day_burstON_013: PASS -- early flare, settles, guarded but sane throughout
+cichy_day_burstON_014: FLAG -- erupts furiously at 09:38 then looks settled at ease by 10:01
+cichy_day_burstON_015: PASS -- steady tension afternoon, curtly answers guard, recovers fine
+cichy_day_burstON_016: PASS -- two provocations late evening, escalating snap, recovers overnight
+cichy_day_burstON_017: PASS -- muted day, curtly deflects guards, stranger kindness lands warmly
+cichy_day_burstON_018: PASS -- tension builds through afternoon, curtly holds, sleeps near midnight
+cichy_day_burstON_019: PASS -- tense afternoon, curtly deflects mock, settles before sleep
+cichy_day_burstON_020: PASS -- light provocations, mild tension waves, calm recovery overnight

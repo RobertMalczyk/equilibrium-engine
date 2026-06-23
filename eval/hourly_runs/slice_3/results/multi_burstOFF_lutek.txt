@@ -1,12 +1,10 @@
-All ten records show consistent, sane patterns: restless/occupy cycles, calm easy mood, soup feedings, warm responses to kindness, mockery brushed off (record 039 has one mild "shade curtly" after a public mock late at night, which fits a thick-skinned man having a slightly tired moment, still mild). Sleeps at night, wakes recovered. Nothing jars.
-
-lutek_multi_burstOFF_031: PASS -- restless/calm cycle, brushes off mockery, sleeps nightly
-lutek_multi_burstOFF_032: PASS -- sane novelty-seeking pace, warm, hard to offend
-lutek_multi_burstOFF_033: PASS -- believable days, mild tension, recovers overnight
-lutek_multi_burstOFF_034: PASS -- restless poet, kindnesses warm him, sane sleep
-lutek_multi_burstOFF_035: PASS -- consistent calm cycle, brushes off insults
-lutek_multi_burstOFF_036: PASS -- sane pacing, good-humoured, mockery rolls off
-lutek_multi_burstOFF_037: PASS -- believable novelty-chasing day, warm, calm nights
-lutek_multi_burstOFF_038: PASS -- restless/rest cycle, hard to offend, sleeps well
-lutek_multi_burstOFF_039: PASS -- mild curt reply to public mock, otherwise calm
-lutek_multi_burstOFF_040: PASS -- brushes off repeated mockery, sane restless cycle
+lutek_multi_burstOFF_031: PASS -- restless cycle, recovers nightly, mocks roll off
+lutek_multi_burstOFF_032: FLAG -- kindness from Marta met with flat indifference
+lutek_multi_burstOFF_033: PASS -- morning tension pattern, resolves mid-morning, sane
+lutek_multi_burstOFF_034: PASS -- stays up past midnight once, otherwise clean
+lutek_multi_burstOFF_035: PASS -- early tension resolves, boredom cycles regular
+lutek_multi_burstOFF_036: PASS -- two soups two minutes apart slightly odd, otherwise fine
+lutek_multi_burstOFF_037: PASS -- late-night kindness ignored once, rest coherent
+lutek_multi_burstOFF_038: PASS -- runs past midnight two nights, fits restless poet
+lutek_multi_burstOFF_039: FLAG -- answers public mock curtly, contradicts thick-skinned profile
+lutek_multi_burstOFF_040: PASS -- two public mocks both let pass, pacing sane

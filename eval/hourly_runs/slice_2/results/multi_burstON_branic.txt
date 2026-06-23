@@ -1,12 +1,10 @@
-All records reviewed. Each shows sane day/night cycles, recovery on sleep, boredom-seeking, warmth to kindness, and escalating temper under repeated Halgrim provocation — consistent with a raw, thin-skinned recruit. The one possible jar is record 028's flare at Marta's soup offering during cold rain, but it reads as displaced stress, still plausible.
-
-branic_multi_burstON_021: PASS -- believable bored recruit, temper rises and resets nightly
-branic_multi_burstON_022: PASS -- escalating refusals/fury under repeated mockery, recovers overnight
-branic_multi_burstON_023: PASS -- sane pacing, defiance builds then resets after sleep
-branic_multi_burstON_024: PASS -- restless recruit, anger escalates plausibly, nights recover
-branic_multi_burstON_025: PASS -- coherent days, temper flares under provocation, calm mornings
-branic_multi_burstON_026: PASS -- believable escalation of refusals and fury under mockery
-branic_multi_burstON_027: PASS -- bored, reactive, repeated provocation drives plausible eruptions
-branic_multi_burstON_028: PASS -- snap at Marta's soup mid-rain reads as displaced stress
-branic_multi_burstON_029: PASS -- sane cycles, eruptions track repeated harsh treatment
-branic_multi_burstON_030: PASS -- calm baseline, single flare at public mockery, nightly reset
+branic_multi_burstON_021: PASS -- steady multi-day arc, earned temper flares, clean resets
+branic_multi_burstON_022: PASS -- tension escalates believably, Day 4 defiance plausible at limit
+branic_multi_burstON_023: PASS -- Day 2 fury dense but each triggered; Day 3 calm reset fits
+branic_multi_burstON_024: PASS -- displaced eruption at stranger, late-day bursts with morning resets
+branic_multi_burstON_025: PASS -- two-day eruption pattern triggered by repeated public mocking
+branic_multi_burstON_026: PASS -- mid-Day-2 burst cluster earned by relentless Halgrim mocking
+branic_multi_burstON_027: PASS -- Day 3 mock density high but each snap is triggered
+branic_multi_burstON_028: FLAG -- snaps at Marta's soup under rain; contradicts consistent warmth toward her
+branic_multi_burstON_029: PASS -- eruptions earned, Day 6 morning residual anger after tense night
+branic_multi_burstON_030: PASS -- calm days with one earned snap, winds up naturally at day end

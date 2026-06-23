@@ -17,7 +17,7 @@ events:
 - type: insult
   t: 67
   source: player
-  intensity: 0.556
+  intensity: 0.711
   context:
     public: false
 - type: command
@@ -42,7 +42,7 @@ events:
 - type: insult
   t: 263
   source: player
-  intensity: 0.86
+  intensity: 0.611
   context:
     public: false
 - type: food_given

@@ -1,0 +1,10 @@
+branic_day_burstOFF_031: PASS -- calm day, Halgrim barbs absorbed, evening tension fades plausibly
+branic_day_burstOFF_032: PASS -- steady pacing, warmth to kindness, mild tension after soup oddity fine
+branic_day_burstOFF_033: PASS -- restless but contained, two mocks absorbed, late tension resolves overnight
+branic_day_burstOFF_034: PASS -- many Marta kindnesses, compliant with orders, brief evening tension believable
+branic_day_burstOFF_035: PASS -- two mocks absorbed without reaction, evening edge resolves, clean sleep reset
+branic_day_burstOFF_036: PASS -- quiet day, early mock ignored, late tension at 22:04 without clear trigger
+branic_day_burstOFF_037: FLAG -- erupts twice then refuses order; recovery to settled feels too quick
+branic_day_burstOFF_038: PASS -- calm paced day, restlessness and kindness balanced, clean evening and sleep
+branic_day_burstOFF_039: PASS -- bristles at late mock, Marta kindness softens it, overnight reset clean
+branic_day_burstOFF_040: PASS -- two mocks absorbed, restless cycle steady, late tension without clear trigger

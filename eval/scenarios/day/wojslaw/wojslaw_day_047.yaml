@@ -52,8 +52,8 @@ events:
     public: false
 - type: insult
   t: 477
-  source: marta
-  intensity: 0.723
+  source: player
+  intensity: 0.865
   context:
     public: false
 - type: nightfall

@@ -22,7 +22,7 @@ events:
     public: false
 - type: insult
   t: 78
-  source: marta
+  source: player
   intensity: 0.368
   context:
     public: true
@@ -65,27 +65,34 @@ events:
   context: {}
 - type: insult
   t: 401
-  source: marta
-  intensity: 1.0
+  source: player
+  intensity: 0.734
   context:
     public: true
 - type: nightfall
   t: 508
   intensity: 1.0
 - type: food_given
-  t: 717
+  t: 749
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: food_given
+  t: 771
   source: marta
   intensity: 1.0
   item: cabbage_soup
   context:
     public: false
 - type: help
-  t: 720
+  t: 892
   source: player
   intensity: 0.79
   context: {}
 - type: food_given
-  t: 767
+  t: 894
   source: marta
   intensity: 1.0
   item: cabbage_soup
@@ -97,14 +104,14 @@ events:
   intensity: 0.575
   context: {}
 - type: food_given
-  t: 962
+  t: 945
   source: marta
   intensity: 1.0
   item: cabbage_soup
   context:
     public: false
 - type: food_given
-  t: 1126
+  t: 1140
   source: marta
   intensity: 1.0
   item: cabbage_soup
@@ -149,7 +156,7 @@ events:
   context: {}
 - type: insult
   t: 1600
-  source: marta
+  source: player
   intensity: 0.44
   context:
     public: false
@@ -186,20 +193,31 @@ events:
 - type: command
   t: 2206
   source: player
-  intensity: 0.621
+  intensity: 0.872
   context:
     has_authority: true
 - type: insult
   t: 2226
   source: player
-  intensity: 0.733
+  intensity: 0.75
   context:
-    public: false
+    public: true
 - type: help
   t: 2234
-  source: player
+  source: marta
   intensity: 0.839
   context: {}
+- type: help
+  t: 2283
+  source: player
+  intensity: 0.826
+  context: {}
+- type: command
+  t: 2379
+  source: player
+  intensity: 0.621
+  context:
+    has_authority: true
 - type: food_given
   t: 2392
   source: marta
@@ -207,12 +225,6 @@ events:
   item: cabbage_soup
   context:
     public: false
-- type: insult
-  t: 2393
-  source: marta
-  intensity: 0.87
-  context:
-    public: true
 - type: help
   t: 2455
   source: marta
@@ -220,23 +232,24 @@ events:
   context: {}
 - type: help
   t: 2460
-  source: marta
-  intensity: 0.638
+  source: player
+  intensity: 1.0
   context: {}
+- type: insult
+  t: 2520
+  source: player
+  intensity: 0.87
+  context:
+    public: true
 - type: help
   t: 2526
   source: marta
-  intensity: 1.0
-  context: {}
-- type: help
-  t: 2531
-  source: marta
-  intensity: 0.945
+  intensity: 0.351
   context: {}
 - type: help
   t: 2570
-  source: player
-  intensity: 0.748
+  source: marta
+  intensity: 0.737
   context: {}
 - type: help
   t: 2613

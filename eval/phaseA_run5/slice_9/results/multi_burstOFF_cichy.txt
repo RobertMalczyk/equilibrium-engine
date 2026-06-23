@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_091: PASS -- sane pacing, anger tracks provocation, sleeps recovered
+cichy_multi_burstOFF_092: PASS -- eruptions provoked, Day 4 variable reactions within range
+cichy_multi_burstOFF_093: PASS -- heavy Day 5 cluster all provoked, wakes settled Day 6
+cichy_multi_burstOFF_094: PASS -- soup anger plausible when already wound up afternoon
+cichy_multi_burstOFF_095: PASS -- four Day 2 eruptions all guard-provoked, settles by evening
+cichy_multi_burstOFF_096: PASS -- evening clusters all triggered by mocks, sleeps reset
+cichy_multi_burstOFF_097: PASS -- snapping at soup delivery when already tense is plausible
+cichy_multi_burstOFF_098: PASS -- eruptions follow mocks, stranger warmth consistent
+cichy_multi_burstOFF_099: PASS -- heavy Day 3 provocation drives reactions, ends settled
+cichy_multi_burstOFF_100: PASS -- long tense stretch without food fine, mock triggers snap

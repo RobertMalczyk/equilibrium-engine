@@ -1,10 +1,10 @@
-edda_day_burstOFF_021: PASS -- calm warmth, mild complaint at stranger's order; sane day.
-edda_day_burstOFF_022: PASS -- composed, warm to kindness, lets stranger's order pass.
-edda_day_burstOFF_023: PASS -- unbothered by mockery and orders, settled throughout.
-edda_day_burstOFF_024: PASS -- refuses stranger's order, warm otherwise; in-command and sane.
-edda_day_burstOFF_025: PASS -- steady warmth, restful pacing, sleeps and wakes recovered.
-edda_day_burstOFF_026: PASS -- shrugs off mockery and orders, settled and composed.
-edda_day_burstOFF_027: PASS -- lets mockery pass, refuses an order; consistent and sane.
-edda_day_burstOFF_028: PASS -- complies once, warm throughout; believable composed day.
-edda_day_burstOFF_029: PASS -- uniformly warm to kindnesses, restful, sleeps normally.
-edda_day_burstOFF_030: PASS -- quiet steady day, warm to soup, settled.
+edda_day_burstOFF_021: PASS -- Composed day, warm responses, mild complaint fits.
+edda_day_burstOFF_022: PASS -- Steady day, settled pacing, appropriate warmth.
+edda_day_burstOFF_023: PASS -- Calm day, letting slights pass fits her composure.
+edda_day_burstOFF_024: FLAG -- Stranger orders castellan; she refuses, plausible but stranger commanding her is odd.
+edda_day_burstOFF_025: PASS -- Warm day, good pacing, authority figure at ease.
+edda_day_burstOFF_026: PASS -- Settled day, lets orders pass, composed throughout.
+edda_day_burstOFF_027: FLAG -- Stranger orders castellan twice; refusal plausible but repeated subordination to strangers jars.
+edda_day_burstOFF_028: PASS -- Stranger order complied with once; otherwise settled, sane pacing.
+edda_day_burstOFF_029: PASS -- Warm sociable day, authority intact, good rhythm.
+edda_day_burstOFF_030: PASS -- Quiet day, composed, ends with command duties.

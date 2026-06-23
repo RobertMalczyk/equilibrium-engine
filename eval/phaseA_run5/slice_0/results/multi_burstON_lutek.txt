@@ -1,0 +1,10 @@
+lutek_multi_burstON_001: PASS -- steady restless-busy-ease cycle, mockery ignored, sane
+lutek_multi_burstON_002: PASS -- curt reply under stress, recovers; pacing and sleep sane
+lutek_multi_burstON_003: FLAG -- seething after mockery contradicts thick-skinned profile
+lutek_multi_burstON_004: FLAG -- seething after kindness; profile says mockery rolls off him
+lutek_multi_burstON_005: PASS -- calm 6-day arc, evening tension resolves each morning
+lutek_multi_burstON_006: PASS -- mild lingering temper, marginal but within fatigue range
+lutek_multi_burstON_007: PASS -- morning tension clears by midday, no profile violations
+lutek_multi_burstON_008: PASS -- warm and busy, mockery ignored, plentiful meals, sane
+lutek_multi_burstON_009: PASS -- dense early kindnesses unusual but no profile violations
+lutek_multi_burstON_010: PASS -- calm steady days, two soups 2 min apart minor artifact

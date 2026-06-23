@@ -1,10 +1,10 @@
-wojslaw_multi_burstOFF_041: PASS -- sane pacing; flares at mocks, warm to kindness, sleeps well
-wojslaw_multi_burstOFF_042: PASS -- believable arc; eruptions cluster then settle, recovers nightly
-wojslaw_multi_burstOFF_043: PASS -- proud defiance and flares fit; calm stretches between
-wojslaw_multi_burstOFF_044: PASS -- coherent days; anger tracks provocations, gratitude tracks kindness
-wojslaw_multi_burstOFF_045: PASS -- mostly warm calm days, occasional flare; nothing jarring
-wojslaw_multi_burstOFF_046: PASS -- heated stretches plausible for prickly noble; sleeps and recovers
-wojslaw_multi_burstOFF_047: PASS -- calm warm days with sparse flares; well paced
-wojslaw_multi_burstOFF_048: PASS -- settled days, proportionate reactions, clean night resets
-wojslaw_multi_burstOFF_049: PASS -- high-friction days believable; defiance and fury fit profile
-wojslaw_multi_burstOFF_050: PASS -- sensible mix of warmth and flares; recovers each night
+wojslaw_multi_burstOFF_041: PASS -- sane pacing, erupts on public mocks, sleeps reset
+wojslaw_multi_burstOFF_042: PASS -- heavy provocation days yield more eruptions, nights reset
+wojslaw_multi_burstOFF_043: PASS -- varied temper tracks provocation load across days
+wojslaw_multi_burstOFF_044: PASS -- late-night barrage intense but earned by accumulation
+wojslaw_multi_burstOFF_045: PASS -- low provocation run, warm responses, no contradictions
+wojslaw_multi_burstOFF_046: PASS -- Day 4 eruption cluster matches heavy Marta provocation
+wojslaw_multi_burstOFF_047: PASS -- very kind environment yields warm run, plausible
+wojslaw_multi_burstOFF_048: PASS -- calm days with sparse provocation, one night snap
+wojslaw_multi_burstOFF_049: PASS -- cumulative anger across heavy provocation, sleep resets hold
+wojslaw_multi_burstOFF_050: PASS -- multi-day accumulation with displaced anger on soup, sane

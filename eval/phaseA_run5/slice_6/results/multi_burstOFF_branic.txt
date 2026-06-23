@@ -1,0 +1,10 @@
+branic_multi_burstOFF_061: PASS -- rain escalation and fury arc across days credible
+branic_multi_burstOFF_062: PASS -- accumulated tension driving refusals and snapping fits
+branic_multi_burstOFF_063: PASS -- positive run with gradual late-day wearing is believable
+branic_multi_burstOFF_064: PASS -- cooperative days with light tension, sane pacing throughout
+branic_multi_burstOFF_065: PASS -- rapid double-mock snap then evening refusals fit profile
+branic_multi_burstOFF_066: PASS -- dense evening provocation cluster escalates plausibly
+branic_multi_burstOFF_067: PASS -- cooperative day two then eruption under accumulated friction
+branic_multi_burstOFF_068: PASS -- variable tolerance across day-state and repeated mocks credible
+branic_multi_burstOFF_069: PASS -- rain plus consecutive mocks trigger eruption believably
+branic_multi_burstOFF_070: PASS -- positive start, rain-day friction, calm recovery arc sane

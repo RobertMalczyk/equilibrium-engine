@@ -1,10 +1,10 @@
-lutek_day_burstOFF_021: PASS -- restless cycles, warm to kindness, brief edge, sleeps and recovers
-lutek_day_burstOFF_022: PASS -- believable boredom cycles, warm thanks, calm, recovers overnight
-lutek_day_burstOFF_023: PASS -- restless-rest rhythm, warm to help, sane late bedtime
-lutek_day_burstOFF_024: PASS -- mockery shrugged off, restless cycles, sleeps and wakes recovered
-lutek_day_burstOFF_025: PASS -- insults roll off, warm, restless, recovers overnight
-lutek_day_burstOFF_026: PASS -- calm warm day, boredom cycles, normal sleep recovery
-lutek_day_burstOFF_027: PASS -- mockery ignored, restless rhythm, mild evening edge, recovers
-lutek_day_burstOFF_028: PASS -- believable cycles, warm thanks, brief edge, overnight recovery
-lutek_day_burstOFF_029: PASS -- mockery shrugged off, warm, restless, sleeps and recovers
-lutek_day_burstOFF_030: PASS -- insult ignored, calm warm day, normal sleep recovery
+lutek_day_burstOFF_021: PASS -- restless cycle coherent; mild curtness late plausible
+lutek_day_burstOFF_022: PASS -- busy sociable day, settled wakeup, pacing fits
+lutek_day_burstOFF_023: PASS -- slight tension at 18:03 resolves; night late but sane
+lutek_day_burstOFF_024: PASS -- mockery shrugged off twice; evening tension fades cleanly
+lutek_day_burstOFF_025: PASS -- warm day, insults deflected, wakes settled
+lutek_day_burstOFF_026: PASS -- steady rhythm, no anomalies, wakes easy
+lutek_day_burstOFF_027: PASS -- tension at 22:04 minor; full day of kindnesses plausible
+lutek_day_burstOFF_028: PASS -- edge at 20:03 resolves by 22:04; pacing sane
+lutek_day_burstOFF_029: PASS -- multiple mockeries brushed off; warmth and bustle fit profile
+lutek_day_burstOFF_030: PASS -- quiet productive day; late-night mock ignored; wakes settled

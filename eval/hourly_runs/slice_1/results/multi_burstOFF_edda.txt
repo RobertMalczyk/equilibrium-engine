@@ -1,12 +1,10 @@
-All records read. Each shows composed, in-command behavior: warm to kindness, firm/curt to provocations, sleeps at night, wakes settled. Reactions scale sensibly and stay within profile.
-
-edda_multi_burstOFF_011: PASS -- composed, warm to kindness, sleeps nightly, nothing jars
-edda_multi_burstOFF_012: PASS -- curt to mocks, sane recovery, in-command throughout
-edda_multi_burstOFF_013: PASS -- calm, warm responses, firm refusals, believable pacing
-edda_multi_burstOFF_014: PASS -- composed, lets provocations pass, sleeps and recovers
-edda_multi_burstOFF_015: PASS -- steady, authoritative, sane daily rhythm
-edda_multi_burstOFF_016: PASS -- warm and settled, firm with orders, nothing absurd
-edda_multi_burstOFF_017: PASS -- composed, refuses orders firmly, recovers nightly
-edda_multi_burstOFF_018: PASS -- calm, lets jabs pass, in-command throughout
-edda_multi_burstOFF_019: PASS -- curt to mocks, defiant refusals, sane pacing
-edda_multi_burstOFF_020: PASS -- composed, warm, firm with orders, recovers each night
+edda_multi_burstOFF_011: PASS -- composed, warm, steady across 3 days
+edda_multi_burstOFF_012: PASS -- coherent escalation under repeated mockery late Day 6
+edda_multi_burstOFF_013: PASS -- very positive stretch, authority appropriately exercised
+edda_multi_burstOFF_014: PASS -- composed throughout, minor soup clustering not absurd
+edda_multi_burstOFF_015: PASS -- varied responses to orders across Day 1, believable
+edda_multi_burstOFF_016: PASS -- peaceful 4-day stretch, no friction, consistent
+edda_multi_burstOFF_017: PASS -- repeated refusals to strangers fit her authority posture
+edda_multi_burstOFF_018: PASS -- mild late-evening irritation, warm baseline throughout
+edda_multi_burstOFF_019: FLAG -- dual back-to-back refusals 12:01/12:03 Day 4 looks like artifact
+edda_multi_burstOFF_020: PASS -- warm stable record, mild Day 4 friction quickly resolved

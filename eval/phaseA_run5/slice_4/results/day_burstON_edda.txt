@@ -1,0 +1,10 @@
+edda_day_burstON_041: PASS -- settled day, mild complaint at stranger, sane arc
+edda_day_burstON_042: PASS -- provocation builds tension, cold contempt fits composed authority
+edda_day_burstON_043: PASS -- calm day, compliant once, no jars
+edda_day_burstON_044: PASS -- repeated mockery erodes composure gradually, recovery plausible
+edda_day_burstON_045: PASS -- warmth-heavy day, no provocations, consistent ease
+edda_day_burstON_046: PASS -- soup twice at dawn odd but not absurd, mild edge fades
+edda_day_burstON_047: PASS -- quiet day, one order absorbed, sane pacing
+edda_day_burstON_048: PASS -- uneventful calm day, authority exercised at end
+edda_day_burstON_049: PASS -- busy morning, double rest brief, overall sane
+edda_day_burstON_050: PASS -- late refusal after mockery and orders fits worn-down castellan

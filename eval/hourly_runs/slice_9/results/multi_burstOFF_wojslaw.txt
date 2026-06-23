@@ -1,10 +1,10 @@
-wojslaw_multi_burstOFF_091: PASS -- calm days with isolated fury on provocation, sane arc
-wojslaw_multi_burstOFF_092: PASS -- escalating provocations yield eruptions, sleep resets hold
-wojslaw_multi_burstOFF_093: PASS -- benign days then provoked eruptions, pacing believable
-wojslaw_multi_burstOFF_094: PASS -- multi-day wear accumulates, fury clusters fit provocation load
-wojslaw_multi_burstOFF_095: PASS -- calm stretches and flares track provocation input correctly
-wojslaw_multi_burstOFF_096: PASS -- positive day 2 then heavy day 4 provocations, consistent
-wojslaw_multi_burstOFF_097: PASS -- sustained high-provocation run, sleep resets visible each morning
-wojslaw_multi_burstOFF_098: PASS -- heavy days 1-2, quieter day 3 with residual tension plausible
-wojslaw_multi_burstOFF_099: PASS -- dense morning mock cluster day 1 yields eruptions, settles after
-wojslaw_multi_burstOFF_100: PASS -- calm day 2 with no provocations, flares on days 1 and 3 fit
+wojslaw_multi_burstOFF_091: PASS -- calm day, warranted eruption day 2, refusals day 3 coherent
+wojslaw_multi_burstOFF_092: PASS -- rapid morning eruptions follow provocations, sleep resets hold
+wojslaw_multi_burstOFF_093: PASS -- positive inputs produce warmth, provoked eruption day 3 fits
+wojslaw_multi_burstOFF_094: PASS -- 6-day escalation arc, food ignored when on edge, sleeps normally
+wojslaw_multi_burstOFF_095: PASS -- warm day 4 fully absorbed, flares under mocks day 5, coherent
+wojslaw_multi_burstOFF_096: PASS -- day 4 eruption cluster follows stacked provocations, plausible
+wojslaw_multi_burstOFF_097: PASS -- sustained provocations sustain anger across days, resets hold
+wojslaw_multi_burstOFF_098: PASS -- heavy day 1 eruptions, calmer day 3 after quieter inputs
+wojslaw_multi_burstOFF_099: PASS -- day 3 non-reaction to public mock is borderline but tolerable
+wojslaw_multi_burstOFF_100: PASS -- quiet day 2 believable, dual mocks day 3 handled consistently

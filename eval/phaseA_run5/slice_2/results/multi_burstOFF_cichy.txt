@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_021: PASS -- sane 3-day arc, mocks trigger anger, sleep resets
+cichy_multi_burstOFF_022: PASS -- three rapid furies day 4 match repeated provocation
+cichy_multi_burstOFF_023: PASS -- stranger kindness warmly taken, guard mocks trigger anger
+cichy_multi_burstOFF_024: PASS -- heavy day 2 provocation, back-to-back furies plausible
+cichy_multi_burstOFF_025: PASS -- four furies in heavy day 2, sleep resets each morning
+cichy_multi_burstOFF_026: PASS -- morning mock gets bristle not fury, pacing consistent
+cichy_multi_burstOFF_027: PASS -- busy day 5 with multiple mocks, all reactions scale correctly
+cichy_multi_burstOFF_028: PASS -- mild-provocation record, calm wakeups, consistent dynamics
+cichy_multi_burstOFF_029: PASS -- one let-it-pass when settled is borderline but plausible
+cichy_multi_burstOFF_030: PASS -- three-fury day 3, long record with consistent daily rhythm

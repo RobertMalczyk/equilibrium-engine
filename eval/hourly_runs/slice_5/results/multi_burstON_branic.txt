@@ -1,10 +1,10 @@
-branic_multi_burstON_051: PASS -- calm days, one late flare, sleeps and recovers
-branic_multi_burstON_052: PASS -- mostly settled, single eruption after rain, recovers
-branic_multi_burstON_053: PASS -- calm six days, mild edge, nightly reset
-branic_multi_burstON_054: PASS -- gradual escalation, warmth interspersed, sleep resets
-branic_multi_burstON_055: PASS -- repeated defiance but bounded, recovers each night
-branic_multi_burstON_056: PASS -- calm days, single eruption, recovers normally
-branic_multi_burstON_057: PASS -- builds to evening flare, sleeps and resets
-branic_multi_burstON_058: FLAG -- relentless multi-day defiant refusals to respected mentor
-branic_multi_burstON_059: PASS -- escalation mixed with warmth, recovers nightly
-branic_multi_burstON_060: PASS -- late escalation with refusals, bounded, recovers
+branic_multi_burstON_051: PASS -- calm build, proportionate evening snap and refusal
+branic_multi_burstON_052: PASS -- rain plus mock triggers burst, bristles at kindness after
+branic_multi_burstON_053: PASS -- 6 quiet days then rain-day escalation to snap and refusal
+branic_multi_burstON_054: PASS -- two burst events across 6 days, plausible accumulation
+branic_multi_burstON_055: PASS -- sustained provocation drives multi-day escalation, fits profile
+branic_multi_burstON_056: PASS -- mocks accumulate Day 3 evening, eruption and refusal follow
+branic_multi_burstON_057: PASS -- Day 3 escalation to shouted fury after repeated mocks
+branic_multi_burstON_058: FLAG -- flatly defiant across days 2-3 with minimal sleep recovery
+branic_multi_burstON_059: PASS -- long antagonism tail, partial recoveries, food helps
+branic_multi_burstON_060: PASS -- moderate arc, Day 1 wind-up unexplained but within range

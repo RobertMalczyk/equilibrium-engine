@@ -1,12 +1,10 @@
-All records reviewed. Each shows believable pacing, night sleep with recovery, and a hot-tempered proud man who erupts at mocks but warms to kindness. Nothing absurd.
-
-wojslaw_multi_burstOFF_011: PASS -- calm baseline, erupts at public mocks, recovers nightly
-wojslaw_multi_burstOFF_012: PASS -- believable flares at insults, settles between, sleeps well
-wojslaw_multi_burstOFF_013: PASS -- escalating mock-days, eruptions proportionate, recovers each morning
-wojslaw_multi_burstOFF_014: PASS -- heavy provocation, hot defiant reactions fit proud temper
-wojslaw_multi_burstOFF_015: PASS -- sane arc, anger tracks mocks, nightly reset holds
-wojslaw_multi_burstOFF_016: PASS -- many insults, fitting fury and refusals, recovers overnight
-wojslaw_multi_burstOFF_017: PASS -- believable temper across six days, sleeps and recovers
-wojslaw_multi_burstOFF_018: PASS -- provocation-heavy but proportionate; warms to kindness when calm
-wojslaw_multi_burstOFF_019: PASS -- warm early, sharpens with mocks, plausible throughout
-wojslaw_multi_burstOFF_020: PASS -- prickly eruptions at insults, calms between, nightly reset
+wojslaw_multi_burstOFF_011: PASS -- sane pacing, eruption on public mock, sleeps/resets fine
+wojslaw_multi_burstOFF_012: PASS -- escalating tension across days, eruptions provoked, plausible
+wojslaw_multi_burstOFF_013: PASS -- flat suppression builds to Day 4 cascade, sane arc
+wojslaw_multi_burstOFF_014: PASS -- heavy provocation Day 1 earns many eruptions, displaced aggression fits
+wojslaw_multi_burstOFF_015: PASS -- double eruption in 4 minutes rough but both mocks provoked it
+wojslaw_multi_burstOFF_016: PASS -- sustained volatility across 5 days, each eruption provoked by mock
+wojslaw_multi_burstOFF_017: PASS -- escalation through Day 4 then partial de-escalation, sane arc
+wojslaw_multi_burstOFF_018: PASS -- heavy early provocation, daily reset, pattern consistent
+wojslaw_multi_burstOFF_019: PASS -- peaceful start builds to volatility Day 4, coherent trajectory
+wojslaw_multi_burstOFF_020: PASS -- Day 1 heavily mocked erupts often, Days 2-3 calmer with less provocation
