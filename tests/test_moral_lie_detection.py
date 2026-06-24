@@ -64,6 +64,25 @@ def test_caught_lie_raises_detected_risk_on_the_record():
     assert 0.0 <= rec.detected_risk <= 1.0
 
 
+def test_caught_liar_feels_exposure_and_guilt_spike_on_detection():
+    """Being CAUGHT (a matching record exists) lands the felt consequence too: exposure_anxiety and guilt
+    jump on the detection ticks -- distinct from the betrayed target, who gets neither (no record)."""
+    _, tr = _run(CAUGHT, LIAR, n=14)
+    exa = trajectory(tr, "exposure_anxiety")
+    guilt = trajectory(tr, "guilt")
+    # detection lands at t10-12; both rise versus just before detection (t9)
+    assert exa[12] > exa[9]
+    assert guilt[12] > guilt[9]
+
+
+def test_betrayed_target_feels_no_liar_side_exposure_or_guilt():
+    """The caught-liar felt consequence is gated on HAVING a record: a betrayed target (no record) does not
+    pick up exposure_anxiety/guilt from the betrayal channel -- only the relational damage."""
+    _, tr = _run(BETRAYAL, ANY_MORAL, n=6)
+    assert all(v == 0.0 for v in trajectory(tr, "guilt"))
+    assert all(v == 0.0 for v in trajectory(tr, "exposure_anxiety"))
+
+
 def test_detection_without_a_matching_record_is_a_noop_for_the_ledger():
     """A betrayed TARGET (no LieRecord of their own) gets the relational damage but books no detected_risk
     -- detection only touches a record that actually exists."""

@@ -82,20 +82,33 @@ def _update_ledger(
 
 
 def _book_detection(runtime: PersonaRuntime, eff: EffectiveInputVector, t: int) -> None:
-    """M-J.4.2: a detected lie (`betrayal` channel from source S) raises detected_risk on the persona's
-    LieRecord keyed to S (lie:S), if any -- the CAUGHT liar's ledger now reflects the exposure. A betrayed
-    TARGET (no such record) is a no-op for the ledger; their relational damage is booked by update's gains.
+    """M-J.4.2: a detected lie (`betrayal` channel from source S) hits the CAUGHT liar -- the persona holding
+    a LieRecord keyed to S (lie:S). On the record: detected_risk jumps. On the liar's felt state: exposure_
+    anxiety and guilt spike (the caught-out dread + remorse). BOTH are GATED on the record existing, so a
+    betrayed TARGET (no record) gets none of this -- only the relational damage booked by update's gains.
     Runs in the post_effects phase. Inert for legacy personas (no detected_risk_on_detect config)."""
-    bump = float(runtime.config.ledger_params.get("detected_risk_on_detect", 0.0))
+    lp = runtime.config.ledger_params
+    bump = float(lp.get("detected_risk_on_detect", 0.0))
     if bump <= 0.0:
         return
+    exp_bump = float(lp.get("detected_exposure", 0.0))
+    guilt_bump = float(lp.get("detected_guilt", 0.0))
+    gs = runtime.global_state
     for si in eff.get("betrayal", ()):
         if si.source is None:
             continue
         rec = runtime.moral_ledger.lies.get(f"lie:{si.source}")
-        if rec is not None:
-            rec.detected_risk = clamp01(rec.detected_risk + bump * si.value)
-            rec.last_reinforced_at = t
+        if rec is None:
+            continue
+        rec.detected_risk = clamp01(rec.detected_risk + bump * si.value)
+        rec.last_reinforced_at = t
+        # the caught liar FEELS it: exposure_anxiety + guilt spike (gated on being the liar, i.e. the record)
+        if exp_bump and "exposure_anxiety" in gs:
+            gs["exposure_anxiety"] = clamp01(
+                gs["exposure_anxiety"] + exp_bump * si.value
+            )
+        if guilt_bump and "guilt" in gs:
+            gs["guilt"] = clamp01(gs["guilt"] + guilt_bump * si.value)
 
 
 def _commit(runtime: PersonaRuntime, delta: StateDelta) -> None:

@@ -683,8 +683,10 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      `betrayal` mapper channel (RELATIONAL, source = the other party). TARGET side: overlay gains
      anger/frustration + `resentment[liar]`(+) + `trust[liar]`(−) — discovering a lie collapses trust and
      breeds a grudge (spec §5.6). LIAR side: `simulation._book_detection` raises `detected_risk` on the
-     persona's matching `LieRecord` (`lie:<detector>`) by `ledger_params.detected_risk_on_detect`; a betrayed
-     target (no record) is a ledger no-op. Opt-in → legacy byte-identical.
+     persona's matching `LieRecord` (`lie:<detector>`) by `ledger_params.detected_risk_on_detect`, and the
+     caught liar FEELS it — `exposure_anxiety` + `guilt` spike (`detected_exposure`/`detected_guilt`), GATED
+     on holding the record so a betrayed target picks up neither. A betrayed target (no record) is a ledger
+     no-op. Opt-in → legacy byte-identical.
    - **M-J.4.3 Secret lifecycle** (salience/exposure_risk integrators; confession/exposure transitions;
      inactivation gating when `hidden_from` empty ∧ `unresolvedness` low).
    - **M-J.4.4 calibration grid + scoped corpus** (the labeled overlay categories within the 1400+1400 budget).

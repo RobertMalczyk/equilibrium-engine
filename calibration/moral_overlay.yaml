@@ -24,6 +24,8 @@ half_lives:
 ledger_params:
   lie_decay: 0.96
   detected_risk_on_detect: 0.40  # M-J.4.2: a caught lie's record jumps in detected_risk per detection cue. PLACEHOLDER.
+  detected_exposure: 0.20        # M-J.4.2: the caught liar's exposure_anxiety spikes (gated on holding the record). PLACEHOLDER.
+  detected_guilt: 0.12           # M-J.4.2: ...and a pang of guilt at being found out. PLACEHOLDER.
 
 gains:
   guilt:
