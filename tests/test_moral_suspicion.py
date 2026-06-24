@@ -47,9 +47,13 @@ def test_suspicion_cue_raises_suspicion_and_exposure_without_guilt():
     susp = relation_trajectory(tr, "watcher", "suspicion")
     exa = trajectory(tr, "exposure_anxiety")
     guilt = trajectory(tr, "guilt")
-    assert susp[-1] > 0.0 and susp[-1] >= susp[0]  # suspicion toward the watcher builds (cue active from t0)
+    assert (
+        susp[-1] > 0.0 and susp[-1] >= susp[0]
+    )  # suspicion toward the watcher builds (cue active from t0)
     assert exa[-1] > 0.0  # the persona feels watched / more exposed
-    assert all(v == 0.0 for v in guilt)  # ...but did nothing wrong -> NO guilt is ever created
+    assert all(
+        v == 0.0 for v in guilt
+    )  # ...but did nothing wrong -> NO guilt is ever created
     assert all(0.0 <= v <= 1.0 for v in susp)  # bounded per-source memory
 
 
@@ -58,7 +62,9 @@ def test_suspicion_pressure_drives_avoidance():
     persona dodge the watcher, even with no accusation and nothing to hide."""
     tr = _run(SUSPICION, AVOIDANT)
     av = trajectory(tr, "avoidance_drive")
-    assert av[-1] > 0.0 and av[-1] >= av[0]  # avoidance accumulates under sustained suspicion
+    assert (
+        av[-1] > 0.0 and av[-1] >= av[0]
+    )  # avoidance accumulates under sustained suspicion
     assert all(0.0 <= v <= 1.0 for v in av)
     assert "avoid" in action_counts(tr)
 
@@ -72,7 +78,9 @@ def test_false_accusation_is_the_accusation_channel_accused_side():
 
     cfg = load_persona(HALGRIM, DEFAULTS, param_overrides=moral_overrides(AVOIDANT))
     feats = HistoryFeatures()
-    acc = map_event(RawEvent(type="accusation", t=0, source="x", intensity=1.0), cfg, feats)
+    acc = map_event(
+        RawEvent(type="accusation", t=0, source="x", intensity=1.0), cfg, feats
+    )
     false = map_event(
         RawEvent(type="false_accusation", t=0, source="x", intensity=1.0), cfg, feats
     )

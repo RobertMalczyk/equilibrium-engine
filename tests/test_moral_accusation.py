@@ -27,8 +27,16 @@ HALGRIM = ROOT / "data" / "personas" / "halgrim.yaml"
 SCENARIO = ROOT / "data" / "scenarios" / "moral_accusation.yaml"
 
 # The grievance switch is the axis: a SENSITIVE accuser-blamer vs an AVOIDANT dodger, same accusation.
-SENSITIVE = {"injustice_sensitivity": 0.9, "conflict_avoidance": 0.1, "guilt_proneness": 0.5}
-AVOIDANT = {"injustice_sensitivity": 0.1, "conflict_avoidance": 0.9, "guilt_proneness": 0.5}
+SENSITIVE = {
+    "injustice_sensitivity": 0.9,
+    "conflict_avoidance": 0.1,
+    "guilt_proneness": 0.5,
+}
+AVOIDANT = {
+    "injustice_sensitivity": 0.1,
+    "conflict_avoidance": 0.9,
+    "guilt_proneness": 0.5,
+}
 
 
 def _run(traits, n=14):
