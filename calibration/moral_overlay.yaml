@@ -26,6 +26,11 @@ ledger_params:
   detected_risk_on_detect: 0.40  # M-J.4.2: a caught lie's record jumps in detected_risk per detection cue. PLACEHOLDER.
   detected_exposure: 0.20        # M-J.4.2: the caught liar's exposure_anxiety spikes (gated on holding the record). PLACEHOLDER.
   detected_guilt: 0.12           # M-J.4.2: ...and a pang of guilt at being found out. PLACEHOLDER.
+  # M-J.4.3 Secret lifecycle:
+  salience_decay: 0.95           # per-tick relaxation of a secret's salience (it fades between cues). PLACEHOLDER.
+  secret_cue_salience: 0.30      # a `secret_cued` reminder raises salience (gated to 0 for an inactive secret). PLACEHOLDER.
+  inactive_unresolved_floor: 0.10  # a secret is ACTIVE while hidden_from is non-empty OR unresolvedness >= this. PLACEHOLDER.
+  secret_salience_to_stress: 0.10  # an ACTIVE secret's salience weighs as stress each tick; inactive -> 0 (relief). PLACEHOLDER.
 
 gains:
   guilt:

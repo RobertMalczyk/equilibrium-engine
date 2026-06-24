@@ -111,6 +111,52 @@ def _book_detection(runtime: PersonaRuntime, eff: EffectiveInputVector, t: int) 
             gs["guilt"] = clamp01(gs["guilt"] + guilt_bump * si.value)
 
 
+def _secret_active(secret, unresolved_floor: float) -> bool:
+    """M-J.4.3 (spec 3.4): a secret is ACTIVE while the owner is still hiding it from someone OR it remains
+    unresolved. Inactive (hidden_from empty AND unresolvedness low) -> it stays in the ledger/trace but no
+    longer drives salience/stress."""
+    return bool(secret.hidden_from) or secret.unresolvedness >= unresolved_floor
+
+
+def _update_secrets(runtime: PersonaRuntime, events: list[RawEvent], t: int) -> None:
+    """M-J.4.3: the Secret lifecycle, booked in the post_effects phase. Decays salience; a `secret_cued`
+    reminder raises salience (gated to 0 for an inactive secret); `secret_exposed` fills `known_by` with the
+    witnesses and EMPTIES `hidden_from` (publicly known -> no longer hiding) -> inactivation; an ACTIVE
+    secret's salience then weighs as stress. Inert when the ledger holds no secrets (legacy byte-identical)."""
+    led = runtime.moral_ledger
+    if not led.secrets:
+        return
+    lp = runtime.config.ledger_params
+    sal_decay = float(lp.get("salience_decay", 1.0))
+    cue_gain = float(lp.get("secret_cue_salience", 0.0))
+    floor = float(lp.get("inactive_unresolved_floor", 0.0))
+    stress_gain = float(lp.get("secret_salience_to_stress", 0.0))
+    gs = runtime.global_state
+    if sal_decay != 1.0:  # salience fades between reminders
+        for s in led.secrets.values():
+            s.salience *= sal_decay
+    for ev in events:
+        if ev.type == "secret_cued":
+            for s in led.secrets.values():
+                if (ev.topic is None or ev.topic == s.topic) and _secret_active(
+                    s, floor
+                ):
+                    s.salience = clamp01(s.salience + cue_gain * ev.intensity)
+        elif ev.type == "secret_exposed":
+            for s in led.secrets.values():
+                if ev.topic is None or ev.topic == s.topic:
+                    for w in list(ev.context.get("witnesses", [])):
+                        if w not in s.known_by:
+                            s.known_by.append(w)
+                    s.hidden_from = []  # public knowledge -> no longer ACTIVELY hiding -> inactivation
+    if (
+        stress_gain and "stress" in gs
+    ):  # an ACTIVE secret weighs on the persona; inactive -> no weight
+        for s in led.secrets.values():
+            if _secret_active(s, floor):
+                gs["stress"] = clamp01(gs["stress"] + stress_gain * s.salience)
+
+
 def _commit(runtime: PersonaRuntime, delta: StateDelta) -> None:
     for x, d in delta.global_.items():
         runtime.global_state[x] = clamp01(runtime.global_state[x] + d)
@@ -598,6 +644,9 @@ def tick(
         _book_detection(
             runtime, eff, t
         )  # M-J.4.2: a caught lie raises its record's detected_risk
+        _update_secrets(
+            runtime, events, t
+        )  # M-J.4.3: secret salience / lifecycle (cue, exposure, weight)
         _apply_transition(runtime, prev_mode, sel, t)
         # M7 Step 2: give up if SEEKING too long with no `activity` confirmation (-> IDLE, keep frustration).
         if runtime.mode == Mode.SEEKING and runtime.seeking_since is not None:

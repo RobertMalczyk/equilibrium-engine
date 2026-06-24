@@ -687,8 +687,14 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      caught liar FEELS it — `exposure_anxiety` + `guilt` spike (`detected_exposure`/`detected_guilt`), GATED
      on holding the record so a betrayed target picks up neither. A betrayed target (no record) is a ledger
      no-op. Opt-in → legacy byte-identical.
-   - **M-J.4.3 Secret lifecycle** (salience/exposure_risk integrators; confession/exposure transitions;
-     inactivation gating when `hidden_from` empty ∧ `unresolvedness` low).
+   - **M-J.4.3 Secret lifecycle — ✅ IMPLEMENTED (`tests/test_moral_secret_lifecycle.py`).** Secrets are
+     authored in the scenario (`initial_overrides.secrets`) and seeded into the ledger by `init_runtime`
+     (inert without the overlay). `simulation._update_secrets` (post_effects phase): decays `salience`; a
+     `secret_cued` reminder raises salience (gated to 0 for an inactive secret); `secret_exposed` fills
+     `known_by` with the witnesses and EMPTIES `hidden_from` (publicly known → no longer hiding); an ACTIVE
+     secret's salience weighs as `stress`. INACTIVATION (spec §3.4): active iff `hidden_from` non-empty OR
+     `unresolvedness ≥ inactive_unresolved_floor` — once inactive, salience is neither raised nor weighs.
+     Opt-in (ledger empty / no ledger_params → legacy byte-identical).
    - **M-J.4.4 calibration grid + scoped corpus** (the labeled overlay categories within the 1400+1400 budget).
 
 ## 13. Self-review checklist (to assert at each slice's Definition of Done)

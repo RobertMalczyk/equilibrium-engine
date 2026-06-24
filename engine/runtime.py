@@ -7,14 +7,20 @@ events -- only seeds mutable state.
 
 from __future__ import annotations
 
+import dataclasses
+
 from engine.clamp import clamp01
 from engine.schema import (
     MORAL_RELATION_DIMS,
     RELATION_DIMS,
     Mode,
+    MoralLedger,
     PersonaConfig,
     PersonaRuntime,
+    Secret,
 )
+
+_SECRET_FIELDS = {f.name for f in dataclasses.fields(Secret)}
 
 
 def init_runtime(
@@ -51,6 +57,13 @@ def init_runtime(
             ):
                 row[d] = clamp01(float(val))
 
+    # M-J.4.3: seed authored Secrets into the ledger (scenario `secrets:` overrides). Empty for legacy ->
+    # ledger stays empty -> byte-identical. Unknown keys are ignored (forward-compatible authoring).
+    ledger = MoralLedger()
+    for sd in list(overrides.get("secrets", [])):
+        d = {k: v for k, v in dict(sd).items() if k in _SECRET_FIELDS}
+        ledger.secrets[str(d["id"])] = Secret(**d)
+
     return PersonaRuntime(
         config=config,
         global_state=global_state,
@@ -60,4 +73,5 @@ def init_runtime(
         busy_target=None,
         history_log=[],
         cooldowns={},
+        moral_ledger=ledger,
     )
