@@ -27,6 +27,7 @@ from engine.runtime import init_runtime
 from engine.schema import (
     ActionKind,
     ActionSelection,
+    EffectiveInputVector,
     Mode,
     PersonaConfig,
     PersonaRuntime,
@@ -67,8 +68,14 @@ def _event_is_provocation(event, eff: dict, snapshot, config: PersonaConfig) -> 
     contrib = 0.0
     for state in ("anger", "frustration"):
         gx = config.gains.get(state, {})
-        for ch, si in eff.items():
-            contrib += gx.get(ch, 0.0) * si.value
+        for (
+            ch,
+            sis,
+        ) in (
+            eff.items()
+        ):  # M-MEM: a channel may carry several inputs (multi-source tick)
+            for si in sis:
+                contrib += gx.get(ch, 0.0) * si.value
     if contrib > 0.0:  # raised anger/frustration from a SOURCE -> a direct provocation
         return True
     theta = config.thresholds.get(
@@ -77,6 +84,26 @@ def _event_is_provocation(event, eff: dict, snapshot, config: PersonaConfig) -> 
     if snapshot.relations.get(src, {}).get("resentment", 0.0) >= theta:
         return True
     return False
+
+
+def _provocation_score(event, ev_eff: dict, snapshot, config: PersonaConfig) -> float:
+    """M-MEM.1: how strongly ONE event provokes (its OWN filtered inputs `ev_eff`), used to pick the primary
+    provoker when several events land on a tick. > 0 iff `_event_is_provocation` would be True for that event
+    alone: case (1) it adds anger/frustration (the contribution magnitude); case (2) it is a gesture from a
+    resented source (ranked by that resentment). 0 for a sourceless stressor or a benign non-resented gesture.
+    Reduces to the existing single-event provocation test, so a <=1-event tick is unaffected."""
+    if event is None or event.source is None:
+        return 0.0
+    contrib = 0.0
+    for state in ("anger", "frustration"):
+        gx = config.gains.get(state, {})
+        for ch, si in ev_eff.items():
+            contrib += gx.get(ch, 0.0) * si.value
+    if contrib > 0.0:
+        return contrib
+    theta = config.thresholds.get("provocation_resentment", float("inf"))
+    resent = snapshot.relations.get(event.source, {}).get("resentment", 0.0)
+    return resent if resent >= theta else 0.0
 
 
 def _event_is_stressor(event, eff: dict, config: PersonaConfig) -> bool:
@@ -90,8 +117,14 @@ def _event_is_stressor(event, eff: dict, config: PersonaConfig) -> bool:
     contrib = 0.0
     for state in ("anger", "frustration", "stress"):
         gx = config.gains.get(state, {})
-        for ch, si in eff.items():
-            contrib += gx.get(ch, 0.0) * si.value
+        for (
+            ch,
+            sis,
+        ) in (
+            eff.items()
+        ):  # M-MEM: a channel may carry several inputs (multi-source tick)
+            for si in sis:
+                contrib += gx.get(ch, 0.0) * si.value
     return contrib > 0.0
 
 
@@ -112,8 +145,14 @@ def _kindness_pressure(event, eff: dict, snapshot, config: PersonaConfig) -> flo
     contrib = 0.0
     for state in ("anger", "frustration"):
         gx = config.gains.get(state, {})
-        for ch, si in eff.items():
-            contrib += gx.get(ch, 0.0) * si.value
+        for (
+            ch,
+            sis,
+        ) in (
+            eff.items()
+        ):  # M-MEM: a channel may carry several inputs (multi-source tick)
+            for si in sis:
+                contrib += gx.get(ch, 0.0) * si.value
     if contrib > 0.0:  # a disliked dish / net-hostile gesture is NOT kindness
         return 0.0
     src = event.source
@@ -257,8 +296,22 @@ def _apply_transition(runtime: PersonaRuntime, prev_mode: Mode, sel, t: int) -> 
     # IDLE+reactive / COOLDOWN+anything / IDLE+idle: no mode change here.
 
 
-def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
+def tick(
+    runtime: PersonaRuntime,
+    t: int,
+    events: RawEvent | list[RawEvent] | None = None,
+) -> TickTrace:
     config = runtime.config
+    # M-MEM: 0, 1, or MANY events this tick (idle = empty). A bare RawEvent or None is accepted and
+    # normalized (backward-compatible with single-event callers); run_scenario passes the per-tick list.
+    if isinstance(events, RawEvent):
+        events = [events]
+    events = events or []
+    # The PRIMARY event drives the per-source reactive signals (provocation / kindness / reaction_target /
+    # bookkeeping). It is the STRONGEST provoker on the tick (M-MEM.1); with no provoker it falls back to the
+    # first event (a benign gesture / sourceless stressor / activity). EVERY event's deposits are merged into
+    # `eff` regardless. For a <=1-event tick this is exactly the single event -> byte-identical.
+    primary = events[0] if events else None
 
     # 1. freeze
     snapshot = runtime.freeze()
@@ -267,39 +320,49 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
     # 2. derived_pre
     derived_pre = derived.compute(snapshot.global_state, snapshot.relations, config)
 
-    # 3. perception (only if an event fires this tick)
-    eff: dict = {}
+    # 3. perception: map + filter EACH event, MERGE into channel -> list of inputs (M-MEM). A single event
+    # yields one-element lists, so update/derived/the reactive gates are byte-identical for a <=1-event tick.
+    eff: EffectiveInputVector = {}
     command_pressure = (
         0.0  # transient: this tick's command channel (raw, pre-filter); 0 if no order
     )
-    event_source = event.source if event is not None else None
-    if event is not None:
-        feats = history.analyze(runtime.history_log, event, t, config)
-        raw = mapper.map_event(event, config, feats)
-        command_pressure = raw["command"].value if "command" in raw else 0.0
-        ctx = event.context
-        eff = affinity_filter.apply(
+    best_provoke = 0.0  # M-MEM.1: track the strongest provoker to elect as `primary`
+    for ev in events:
+        feats = history.analyze(runtime.history_log, ev, t, config)
+        raw = mapper.map_event(ev, config, feats)
+        if "command" in raw:
+            command_pressure = max(command_pressure, raw["command"].value)
+        ctx = ev.context
+        ev_eff = affinity_filter.apply(
             relation_filter.apply(raw, snapshot.relations, derived_pre, config, ctx),
             config.affinities,
             config,
             ctx,
         )
+        for ch, si in ev_eff.items():
+            eff.setdefault(ch, []).append(si)
+        # elect the primary provoker: STRICTLY-greater so ties keep the earlier (scenario-order) event.
+        score = _provocation_score(ev, ev_eff, snapshot, config)
+        if score > best_provoke:
+            best_provoke = score
+            primary = ev
+    event_source = primary.source if primary is not None else None
 
     # Recency / PROVOCATION gate (D5 step 1c + D11): a reactive REPLY needs a recent PROVOCATION -- not just
     # any recent event. A benign gesture (liked food / help from a non-resented source) is not a provocation,
     # so a calm-but-recently-fed persona does not "snap at a meal" (the D11 finding). Computed here (before
     # update) so it ALSO gates idle recovery. The provoking-event tick is tracked on the runtime.
     window = config.thresholds.get("reactive_window_ticks", float("inf"))
-    is_provocation = _event_is_provocation(event, eff, snapshot, config)
+    is_provocation = _event_is_provocation(primary, eff, snapshot, config)
     # Theme A: the appraised kindness of THIS tick's event (mirror of is_provocation). Transient, like
     # command_pressure: 0 unless a non-resented pro-social gesture. Drives positive_response + inhibits venting.
-    kindness_pressure = _kindness_pressure(event, eff, snapshot, config)
+    kindness_pressure = _kindness_pressure(primary, eff, snapshot, config)
     # Target policy: is this tick's source a respected BYSTANDER catching displaced anger? (uses last_provocation_source)
-    bystander_pressure = _bystander_pressure(event, runtime, t, window, config)
+    bystander_pressure = _bystander_pressure(primary, runtime, t, window, config)
     # Spent-fury refractory (spec §8, 4th inhibitory edge, DECOUPLED from the latch): a fresh provocation
     # from the SAME source while still hot (anger >= refractory_anger) inhibits a new outburst -> the spent
     # fury goes cold instead. 0 when refractory_anger unset / anger below it / different source / non-provoke.
-    refractory_pressure = _refractory_pressure(event, runtime, is_provocation, config)
+    refractory_pressure = _refractory_pressure(primary, runtime, is_provocation, config)
     lp = runtime.last_provocation_t
     # A kindness is itself a valid trigger for a reactive REPLY (positive_response) -- it opens the gate even
     # with no recent provocation. On a kindness tick the hostile potentials are inhibited (the signed edge), so
@@ -341,7 +404,7 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
     )
     # A sourceless world stressor (rain) opens no reply, but it WEARS the persona down -- so while it is active
     # he is not idly recovering (spec §5: weather wears the temper, so a later provocation lands harder).
-    is_stressor = _event_is_stressor(event, eff, config)
+    is_stressor = _event_is_stressor(primary, eff, config)
     ls = runtime.last_stressor_t
     stressor_active = is_stressor or (ls is not None and (t - ls) <= window)
     # ambient idle homeostasis (D11): the character settles toward calm only when IDLE, unprovoked AND not
@@ -388,12 +451,12 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
     # 8. selector (shared path + arbitration). The reaction is aimed at the provoking
     # source (this tick's event source, if any) -- used to book relational post_effects.
     # reactive_allowed (recent-provocation gate) was computed before update (step 4) and is reused here.
-    reaction_target = event.source if event is not None else None
+    reaction_target = primary.source if primary is not None else None
 
-    if prev_mode == Mode.SEEKING and event is not None and event.type == "activity":
+    if prev_mode == Mode.SEEKING and primary is not None and primary.type == "activity":
         # M7 Step 2 ENGAGE: the world confirmed an activity -> start it (overrides normal selection).
-        kind = str(event.context.get("kind", "self_activity"))
-        runtime.engaged_novelty = float(event.context.get("novelty", 1.0))
+        kind = str(primary.context.get("kind", "self_activity"))
+        runtime.engaged_novelty = float(primary.context.get("novelty", 1.0))
         sel = ActionSelection(
             action=kind,
             score=0.0,
@@ -466,14 +529,14 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
     state_after_post = runtime.freeze()
 
     # 10. bookkeeping
-    if event is not None:
-        runtime.history_log.append(event)
+    for ev in events:  # M-MEM: every event this tick enters history (order preserved)
+        runtime.history_log.append(ev)
     if is_provocation:
         runtime.last_provocation_t = (
             t  # the reactive gate keys on the last PROVOKING event (D11)
         )
         runtime.last_provocation_source = (
-            event.source if event is not None else runtime.last_provocation_source
+            primary.source if primary is not None else runtime.last_provocation_source
         )
     if is_stressor:
         runtime.last_stressor_t = (
@@ -512,7 +575,7 @@ def tick(runtime: PersonaRuntime, t: int, event: RawEvent | None) -> TickTrace:
 
     return TickTrace(
         t=t,
-        event=event,
+        event=primary,
         snapshot=snapshot,
         derived_pre=derived_pre,
         eff_inputs=eff,
@@ -531,7 +594,11 @@ def run_scenario(
     config: PersonaConfig, scenario: Scenario, n_ticks: int | None = None
 ) -> tuple[PersonaRuntime, DebugTrace]:
     runtime = init_runtime(config, scenario.initial_overrides)
-    events_by_t: dict[int, RawEvent] = {ev.t: ev for ev in scenario.events}
+    # M-MEM: group ALL events sharing a tick into a list (scenario order preserved) instead of a dict that
+    # silently dropped same-tick collisions. A single event per tick reduces to a one-element list.
+    events_by_t: dict[int, list[RawEvent]] = {}
+    for ev in scenario.events:
+        events_by_t.setdefault(ev.t, []).append(ev)
 
     if n_ticks is None:
         last_t = max((ev.t for ev in scenario.events), default=0)
@@ -539,5 +606,5 @@ def run_scenario(
 
     trace = DebugTrace(persona=config.id, scenario=scenario.id, dt=config.dt)
     for t in range(n_ticks):
-        trace.emit(tick(runtime, t, events_by_t.get(t)))
+        trace.emit(tick(runtime, t, events_by_t.get(t, [])))
     return runtime, trace

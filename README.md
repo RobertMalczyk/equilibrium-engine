@@ -129,6 +129,10 @@ corpora, blind-judge) are in place and green.
   optionally people-seeding) is being developed behind the input-filter seam.
 - **Stage-2 social dynamics.** Authority↔resentment back-edges, chains of command, mood contagion,
   and leveled grievance are designed but not yet built.
+- **M-MEM (multi-event per tick).** A tick can now carry several events: each is mapped+filtered and
+  merged into the effective input (a channel → list of inputs, summed by `update`), with the per-source
+  reactive signals keyed on the strongest provoker. A ≤1-event tick stays byte-identical. This is the
+  seam for simultaneous multi-agent fan-out — see `docs/m_mem_PLAN.md`.
 
 Because of the above, **treat the spec, config schema, and calibrated constants as moving targets.**
 Contributions and issue reports are welcome, but expect churn.
