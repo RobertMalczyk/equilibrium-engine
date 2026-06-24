@@ -52,7 +52,10 @@ def _update_ledger(
     if (
         decay != 1.0
     ):  # stale lies fade (a record not reinforced this tick relaxes toward 0)
-        for rec in led.lies.values():
+        for rid in sorted(
+            led.lies
+        ):  # sorted: deterministic regardless of creation order
+            rec = led.lies[rid]
             rec.consistency_debt *= decay
             rec.maintenance_load *= decay
             rec.detected_risk *= decay
@@ -61,6 +64,20 @@ def _update_ledger(
         return
     rid = f"lie:{target}"
     rec = led.lies.get(rid)
+    if spec.get(
+        "resolves"
+    ):  # M-J.4: a CONFESSION clears the lie to this target (spec 3.5 lie_confessed) --
+        if (
+            rec is not None
+        ):  # reduce its debt/load toward 0 (negative increments); never create a record
+            rec.consistency_debt = clamp01(
+                rec.consistency_debt + float(spec.get("consistency_debt", 0.0))
+            )
+            rec.maintenance_load = clamp01(
+                rec.maintenance_load + float(spec.get("maintenance_load", 0.0))
+            )
+            rec.last_reinforced_at = t
+        return
     if (
         rec is None
     ):  # first lie to this target -> create; later lies REINFORCE this same record
@@ -132,18 +149,23 @@ def _update_secrets(runtime: PersonaRuntime, events: list[RawEvent], t: int) -> 
     floor = float(lp.get("inactive_unresolved_floor", 0.0))
     stress_gain = float(lp.get("secret_salience_to_stress", 0.0))
     gs = runtime.global_state
+    ids = sorted(
+        led.secrets
+    )  # sorted: deterministic order for the stress accumulation (clamp is sequential)
     if sal_decay != 1.0:  # salience fades between reminders
-        for s in led.secrets.values():
-            s.salience *= sal_decay
+        for sid in ids:
+            led.secrets[sid].salience *= sal_decay
     for ev in events:
         if ev.type == "secret_cued":
-            for s in led.secrets.values():
+            for sid in ids:
+                s = led.secrets[sid]
                 if (ev.topic is None or ev.topic == s.topic) and _secret_active(
                     s, floor
                 ):
                     s.salience = clamp01(s.salience + cue_gain * ev.intensity)
         elif ev.type == "secret_exposed":
-            for s in led.secrets.values():
+            for sid in ids:
+                s = led.secrets[sid]
                 if ev.topic is None or ev.topic == s.topic:
                     for w in list(ev.context.get("witnesses", [])):
                         if w not in s.known_by:
@@ -152,7 +174,8 @@ def _update_secrets(runtime: PersonaRuntime, events: list[RawEvent], t: int) -> 
     if (
         stress_gain and "stress" in gs
     ):  # an ACTIVE secret weighs on the persona; inactive -> no weight
-        for s in led.secrets.values():
+        for sid in ids:
+            s = led.secrets[sid]
             if _secret_active(s, floor):
                 gs["stress"] = clamp01(gs["stress"] + stress_gain * s.salience)
 
@@ -638,15 +661,6 @@ def tick(
             )
         # 9. commit post_effects + mode/cooldown transition
         _commit(runtime, sel.post_effects)
-        _update_ledger(
-            runtime, sel.action, reaction_target, t
-        )  # M-J.4: book lie records (post_effects phase)
-        _book_detection(
-            runtime, eff, t
-        )  # M-J.4.2: a caught lie raises its record's detected_risk
-        _update_secrets(
-            runtime, events, t
-        )  # M-J.4.3: secret salience / lifecycle (cue, exposure, weight)
         _apply_transition(runtime, prev_mode, sel, t)
         # M7 Step 2: give up if SEEKING too long with no `activity` confirmation (-> IDLE, keep frustration).
         if runtime.mode == Mode.SEEKING and runtime.seeking_since is not None:
@@ -655,6 +669,16 @@ def tick(
                 runtime.mode = Mode.IDLE
                 runtime.active_action = None
                 runtime.seeking_since = None
+    # M-J.4: ledger writes (post_effects phase) -- run on EVERY tick (incl. the SEEKING->BUSY ENGAGE branch),
+    # so a lie/secret decays and a detection lands even on a tick the persona starts an activity. Inert for
+    # legacy / no-ledger personas.
+    _update_ledger(runtime, sel.action, reaction_target, t)  # book/decay lie records
+    _book_detection(
+        runtime, eff, t
+    )  # M-J.4.2: a caught lie raises its record's detected_risk
+    _update_secrets(
+        runtime, events, t
+    )  # M-J.4.3: secret salience / lifecycle (cue, exposure, weight)
     state_after_post = runtime.freeze()
 
     # 10. bookkeeping

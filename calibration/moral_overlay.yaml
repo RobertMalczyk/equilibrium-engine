@@ -200,6 +200,11 @@ action_params:
       global:
         guilt: -0.50            # owning up relieves guilt. PLACEHOLDER.
         exposure_anxiety: -0.40 # and the dread of being found out
+        cognitive_load_from_lies: -0.40  # M-J.4 (spec 3.5 lie_confessed): owning up sheds the lie-maintenance burden. PLACEHOLDER.
+    ledger:                     # M-J.4: a confession RESOLVES the lie to this target (reduces the record)
+      resolves: true
+      consistency_debt: -0.50   # PLACEHOLDER.
+      maintenance_load: -0.50   # PLACEHOLDER.
   remain_silent:
     post_effects:
       global: {}                # silence maintains the secret -- no relief

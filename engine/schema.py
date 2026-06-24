@@ -274,8 +274,11 @@ class ActionSelection:
 # --- MoralLedger (M-J.4: the one genuinely-new structure; spec section 3) ----------
 # Held beside global_state/relations on the runtime, DEEP-COPIED into Snapshot.freeze(), READ-ONLY during
 # update/potentials, mutated only by post_effects. OPT-IN: empty for every legacy persona, so it is omitted
-# from the trace and goldens stay byte-identical. Lifecycle (create/reinforce/detect/inactivate) lands in
-# later M-J.4 slices; this is the data model + plumbing.
+# from the trace and goldens stay byte-identical. Lifecycle (create/reinforce/detect/inactivate) lands across
+# the M-J.4 slices. NOTE: the full spec data model (sec 3.1/3.2) is defined here, but some dynamic fields are
+# RESERVED -- authored/serialized yet not yet driven by the engine, pending later wiring/calibration (M-J.4.4):
+# LieRecord.{plausibility, witnesses, secret_id}; Secret.{exposure_risk, confession_threshold}. They default
+# inert, so they never perturb goldens.
 
 
 @dataclass

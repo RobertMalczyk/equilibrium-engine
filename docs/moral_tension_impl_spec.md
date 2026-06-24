@@ -697,6 +697,18 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      Opt-in (ledger empty / no ledger_params → legacy byte-identical).
    - **M-J.4.4 calibration grid + scoped corpus** (the labeled overlay categories within the 1400+1400 budget).
 
+   **Post-review corrections (2026-06-24 audit, `tests/test_moral_ledger_gaps.py`):**
+   - `confess` now discharges `cognitive_load_from_lies` AND RESOLVES the target's LieRecord (a `ledger:
+     {resolves: true}` block reduces debt/load) — spec §3.5 `lie_confessed`, previously unimplemented.
+   - The ledger writes (`_update_ledger`/`_book_detection`/`_update_secrets`) were moved OUT of the selector
+     `else` branch so they run on EVERY tick, including the SEEKING→BUSY ENGAGE branch (a lie/secret now
+     decays and a detection lands even on an activity-start tick).
+   - Ledger iteration is now sorted-by-id (deterministic) in `_update_ledger`/`_update_secrets`.
+   - RESERVED fields (authored/serialized but not yet engine-driven, pending M-J.4.4): `LieRecord.
+     {plausibility, witnesses, secret_id}`, `Secret.{exposure_risk, confession_threshold}` — documented in
+     `engine/schema.py`. Coverage added: multi-target separate records, decay trajectory, `complexity`
+     booking, the `unresolvedness ≥ floor` inactivation branch, multi-secret stress stacking.
+
 ## 13. Self-review checklist (to assert at each slice's Definition of Done)
 Architecture: no LLM in loop ✦ no behavior-shaping literals in code ✦ all tunables in config ✦ synchronous
 single-commit preserved ✦ no event→action scripting (potentials only) ✦ moral layer coupled to existing
