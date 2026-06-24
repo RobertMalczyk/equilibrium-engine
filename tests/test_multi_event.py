@@ -26,7 +26,9 @@ def _cfg():
 
 
 def _scenario(events):
-    return Scenario(id="multi", persona="wojslaw", initial_overrides={}, events=tuple(events))
+    return Scenario(
+        id="multi", persona="wojslaw", initial_overrides={}, events=tuple(events)
+    )
 
 
 def test_two_events_same_tick_are_both_delivered():
@@ -94,7 +96,9 @@ def test_fan_out_n_sources_on_one_tick_all_land():
     distinct sources -- here one 'accuser' plus three 'witnesses' -- and EVERY source's relational deposit
     lands. No engine fan-out helper is needed; authoring same-tick multi-source events suffices."""
     srcs = ["accuser", "witness_1", "witness_2", "witness_3"]
-    sc = _scenario([RawEvent(type="insult", t=0, source=s, intensity=1.0) for s in srcs])
+    sc = _scenario(
+        [RawEvent(type="insult", t=0, source=s, intensity=1.0) for s in srcs]
+    )
     _, tr = run_scenario(_cfg(), sc, n_ticks=2)
     for s in srcs:
         assert relation_trajectory(tr, s, "resentment")[-1] > 0.0

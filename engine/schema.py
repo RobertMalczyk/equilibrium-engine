@@ -139,7 +139,9 @@ class SemanticInput:
     polarity: Polarity = Polarity.NEUTRAL
 
 
-SemanticInputVector = dict[str, SemanticInput]  # from mapper (base), one input per channel (per event)
+SemanticInputVector = dict[
+    str, SemanticInput
+]  # from mapper (base), one input per channel (per event)
 # After filters AND merge across this tick's events: a channel may carry SEVERAL inputs (M-MEM, multiple
 # sources firing the same channel on one tick). A single-event tick yields one-element lists.
 EffectiveInputVector = dict[str, list[SemanticInput]]

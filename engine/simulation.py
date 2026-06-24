@@ -68,7 +68,12 @@ def _event_is_provocation(event, eff: dict, snapshot, config: PersonaConfig) -> 
     contrib = 0.0
     for state in ("anger", "frustration"):
         gx = config.gains.get(state, {})
-        for ch, sis in eff.items():  # M-MEM: a channel may carry several inputs (multi-source tick)
+        for (
+            ch,
+            sis,
+        ) in (
+            eff.items()
+        ):  # M-MEM: a channel may carry several inputs (multi-source tick)
             for si in sis:
                 contrib += gx.get(ch, 0.0) * si.value
     if contrib > 0.0:  # raised anger/frustration from a SOURCE -> a direct provocation
@@ -112,7 +117,12 @@ def _event_is_stressor(event, eff: dict, config: PersonaConfig) -> bool:
     contrib = 0.0
     for state in ("anger", "frustration", "stress"):
         gx = config.gains.get(state, {})
-        for ch, sis in eff.items():  # M-MEM: a channel may carry several inputs (multi-source tick)
+        for (
+            ch,
+            sis,
+        ) in (
+            eff.items()
+        ):  # M-MEM: a channel may carry several inputs (multi-source tick)
             for si in sis:
                 contrib += gx.get(ch, 0.0) * si.value
     return contrib > 0.0
@@ -135,7 +145,12 @@ def _kindness_pressure(event, eff: dict, snapshot, config: PersonaConfig) -> flo
     contrib = 0.0
     for state in ("anger", "frustration"):
         gx = config.gains.get(state, {})
-        for ch, sis in eff.items():  # M-MEM: a channel may carry several inputs (multi-source tick)
+        for (
+            ch,
+            sis,
+        ) in (
+            eff.items()
+        ):  # M-MEM: a channel may carry several inputs (multi-source tick)
             for si in sis:
                 contrib += gx.get(ch, 0.0) * si.value
     if contrib > 0.0:  # a disliked dish / net-hostile gesture is NOT kindness
