@@ -42,13 +42,26 @@ arbitration — while a scenario with **≤1 event per tick stays byte-identical
 
 ## 3. Slices (vertical; each ships tests + byte-identical goldens)
 
-- **M-MEM.0 — plumbing + merge (byte-identical for ≤1 event/tick).** events list, map+merge, primary-event
-  arbitration, opt-in `events` trace field. Property test: two events on one tick BOTH land (today one is
-  dropped); golden suite unchanged.
-- **M-MEM.1 — multi-source provocation/target arbitration.** Nail the primary-provoker policy under
-  genuinely conflicting sources (two provokers, provoker+gesture, provoker+bystander). Contrast tests.
-- **M-MEM.2 — fan-out helper for the world driver.** A scenario/driver convenience to emit per-recipient
-  events on one tick (the witness fan-out seam the moral layer will consume). No moral logic here.
+- **M-MEM.0 — ✅ DONE — plumbing + merge (byte-identical for ≤1 event/tick).** `EffectiveInputVector` is
+  now `dict[str, list[SemanticInput]]`; `run_scenario` groups same-tick events into a list; `tick` maps +
+  merges every event and `update` sums per-channel input lists; `debug._inputs_dict` serializes a single
+  input as the bare object (byte-identical) and several as a list. Two same-tick events from different
+  sources BOTH land. (`tests/test_multi_event.py`.)
+- **M-MEM.1 — ✅ DONE — multi-source primary-provoker arbitration.** `_provocation_score` elects the
+  STRONGEST provoker as `primary` (ties keep scenario order), so `reaction_target` /
+  `last_provocation_source` / refractory / bystander key on the right source; falls back to the first event
+  when nothing provokes. Byte-identical for ≤1 event.
+- **M-MEM.2 — fan-out helper — RESCOPED to the consumer (no engine code).** The reusable engine seam
+  (several events on one tick, correctly merged + arbitrated) is complete with .0/.1; a scenario can already
+  author a witness fan-out by listing multiple same-tick events. The *expansion rule* (a public accusation
+  ⇒ each witness emits a `suspicion_raised`) is **domain logic**, so it belongs to the moral consumer
+  (**M-J.3.3**), not a generic engine helper. No speculative engine code added here.
+
+## 3a. Status (2026-06-24)
+**M-MEM core complete and merge-ready.** Branch `feature/m-mem-multi-event` = `main` + M-MEM.0 + M-MEM.1.
+Suite 290 passed +4 skipped; goldens byte-identical; ruff clean. Merging to `main` unblocks the moral
+**M-J.3.3** (witness fan-out + false-accusation discovery): rebase `feature/m-j-moral-tension` on the
+updated `main`, then author the fan-out as same-tick multi-source events on the accused runtime.
 
 ## 4. Invariants / DoD (per slice)
 No LLM ✦ no RNG ✦ deterministic merge + arbitration (sorted/explicit order, never dict-iteration order) ✦

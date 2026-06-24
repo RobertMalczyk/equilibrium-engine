@@ -87,3 +87,14 @@ def test_provoker_beats_a_gesture_for_the_primary():
     )
     rt, _ = run_scenario(_cfg(), sc, n_ticks=1)
     assert rt.last_provocation_source == "enemy"
+
+
+def test_fan_out_n_sources_on_one_tick_all_land():
+    """The witness-fan-out shape (the seam M-J.3.3 will consume): a single tick carries events from MANY
+    distinct sources -- here one 'accuser' plus three 'witnesses' -- and EVERY source's relational deposit
+    lands. No engine fan-out helper is needed; authoring same-tick multi-source events suffices."""
+    srcs = ["accuser", "witness_1", "witness_2", "witness_3"]
+    sc = _scenario([RawEvent(type="insult", t=0, source=s, intensity=1.0) for s in srcs])
+    _, tr = run_scenario(_cfg(), sc, n_ticks=2)
+    for s in srcs:
+        assert relation_trajectory(tr, s, "resentment")[-1] > 0.0
