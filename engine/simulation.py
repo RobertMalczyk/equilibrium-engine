@@ -28,6 +28,7 @@ from engine.schema import (
     ActionKind,
     ActionSelection,
     EffectiveInputVector,
+    LieRecord,
     Mode,
     PersonaConfig,
     PersonaRuntime,
@@ -35,6 +36,49 @@ from engine.schema import (
     Scenario,
     StateDelta,
 )
+
+
+def _update_ledger(
+    runtime: PersonaRuntime, action: str, target: str | None, t: int
+) -> None:
+    """M-J.4.1: decay existing LieRecords (mini-integrators) and book a create/reinforce for a lie-type
+    action (its `action_params[action].ledger` config). Repeated lies to the SAME target accrue debt on the
+    EXISTING record (keyed by target) -- never spawn a fresh one (spec 3.5). Mutates the ledger in the
+    post_effects phase ONLY (the sanctioned second mutation site). Inert for legacy personas (no ledger
+    config -> no decay key, no action ledger block)."""
+    config = runtime.config
+    led = runtime.moral_ledger
+    decay = float(config.ledger_params.get("lie_decay", 1.0))
+    if (
+        decay != 1.0
+    ):  # stale lies fade (a record not reinforced this tick relaxes toward 0)
+        for rec in led.lies.values():
+            rec.consistency_debt *= decay
+            rec.maintenance_load *= decay
+            rec.detected_risk *= decay
+    spec = config.action_params.get(action, {}).get("ledger")
+    if not spec or target is None:
+        return
+    rid = f"lie:{target}"
+    rec = led.lies.get(rid)
+    if (
+        rec is None
+    ):  # first lie to this target -> create; later lies REINFORCE this same record
+        rec = LieRecord(
+            id=rid,
+            liar_id=config.id,
+            target_id=target,
+            lie_type=str(spec.get("lie_type", "denial")),
+        )
+        led.lies[rid] = rec
+    rec.consistency_debt = clamp01(
+        rec.consistency_debt + float(spec.get("consistency_debt", 0.0))
+    )
+    rec.maintenance_load = clamp01(
+        rec.maintenance_load + float(spec.get("maintenance_load", 0.0))
+    )
+    rec.complexity = clamp01(max(rec.complexity, float(spec.get("complexity", 0.0))))
+    rec.last_reinforced_at = t
 
 
 def _commit(runtime: PersonaRuntime, delta: StateDelta) -> None:
@@ -518,6 +562,9 @@ def tick(
             )
         # 9. commit post_effects + mode/cooldown transition
         _commit(runtime, sel.post_effects)
+        _update_ledger(
+            runtime, sel.action, reaction_target, t
+        )  # M-J.4: book lie records (post_effects phase)
         _apply_transition(runtime, prev_mode, sel, t)
         # M7 Step 2: give up if SEEKING too long with no `activity` confirmation (-> IDLE, keep frustration).
         if runtime.mode == Mode.SEEKING and runtime.seeking_since is not None:

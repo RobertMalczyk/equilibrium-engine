@@ -431,6 +431,8 @@ class PersonaConfig:
     # SET (spec section 8: the self-extinguishing episode -- spike, plateau, slow cool). Empty = no
     # extinction (the latch never sets when its thresholds are absent, so this stays dormant together).
     burst_extinction: dict[str, float] = field(default_factory=dict)
+    # M-J.4: MoralLedger tunables (lie-record decay etc.). Empty for legacy -> no ledger activity.
+    ledger_params: dict = field(default_factory=dict)
 
 
 @dataclass(frozen=True)

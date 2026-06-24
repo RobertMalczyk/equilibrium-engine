@@ -673,8 +673,12 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      `MoralLedger` data model (spec §3.1–3.2); `moral_ledger` field on `PersonaRuntime` + `Snapshot`,
      DEEP-COPIED in `freeze()` (read-only for the tick); serialized into the trace ONLY when non-empty
      (`debug._ledger_dict`, sorted-id canonical order) → legacy goldens byte-identical. No lifecycle yet.
-   - **M-J.4.1 LieRecord lifecycle + consistency_debt** (lie creates/reinforces a record in post_effects;
-     repeated lies accrue debt on the SAME record; feeds `cognitive_load_from_lies`; `blame_shift` lie_type).
+   - **M-J.4.1 LieRecord lifecycle + consistency_debt — ✅ IMPLEMENTED (`tests/test_moral_lie_ledger.py`).**
+     `lie`/`deflect`/`blame_other` book a LieRecord via `action_params[action].ledger` (post_effects phase,
+     `simulation._update_ledger`): one record per TARGET (`lie:<target>`), reinforced by repeated lies — debt
+     accrues on the SAME record, never one-per-lie (spec §3.5). `consistency_debt`/`maintenance_load` are
+     mini-integrators that DECAY each tick by `ledger_params.lie_decay` (stale lies fade). `blame_other`
+     records the `blame_shift` lie_type, `deflect` an `omission`. Opt-in → legacy byte-identical.
    - **M-J.4.2 lie detection** (`lie_detected`→`betrayal`: anger/resentment/−trust on the liar; detected_risk).
    - **M-J.4.3 Secret lifecycle** (salience/exposure_risk integrators; confession/exposure transitions;
      inactivation gating when `hidden_from` empty ∧ `unresolvedness` low).

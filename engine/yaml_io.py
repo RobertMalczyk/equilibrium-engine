@@ -454,6 +454,7 @@ def load_persona(
         param_bounds=param_bounds,
         calibration=calibration,
         appraisal=appraisal,
+        ledger_params=dict(merged.get("ledger_params", {})),
     )
 
 

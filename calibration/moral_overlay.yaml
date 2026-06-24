@@ -19,6 +19,11 @@ half_lives:
   perceived_injustice: 86400       # 24h placeholder -- the slow "this is unfair" grievance (M-J.3)
   suspicion: 172800                # 48h placeholder -- per-source suspicion memory, a relation dim (M-J.3)
 
+# M-J.4: MoralLedger tunables. A LieRecord's mini-integrators relax by `lie_decay` each tick when not
+# reinforced -- a lie not kept up slowly fades (stale -> inactive). PLACEHOLDER.
+ledger_params:
+  lie_decay: 0.96
+
 gains:
   guilt:
     wrongdoing: 0.30      # finite guilt deposit per wrongdoing cue; SCALED by guilt_proneness below. PLACEHOLDER.
@@ -190,10 +195,19 @@ action_params:
         cognitive_load_from_lies: 0.20  # M-J.1: each lie adds maintenance burden (finite deposit). PLACEHOLDER.
         guilt: 0.08                     # lying adds a little guilt. PLACEHOLDER.
         exposure_anxiety: 0.06          # ...and a little more risk of being caught. PLACEHOLDER.
+    ledger:                             # M-J.4.1: book/reinforce a LieRecord on the target (the deceived)
+      lie_type: denial                  # an outright lie is a DENIAL/fabrication. PLACEHOLDER.
+      consistency_debt: 0.08            # each lie deepens the story to keep straight (accrues on the record). PLACEHOLDER.
+      maintenance_load: 0.10            # ...and the load of maintaining it. PLACEHOLDER.
+      complexity: 0.15                  # PLACEHOLDER.
   deflect:
     post_effects:
       global:
         cognitive_load_from_lies: 0.05  # dodging is lighter than a fresh lie, but not free. PLACEHOLDER.
+    ledger:                             # M-J.4.1: a deflection is an OMISSION-type lie; reinforces the same record
+      lie_type: omission                # PLACEHOLDER.
+      consistency_debt: 0.03            # lighter than a fresh lie, but still adds to the story. PLACEHOLDER.
+      maintenance_load: 0.04            # PLACEHOLDER.
   apologize:
     post_effects:
       global:
@@ -214,6 +228,10 @@ action_params:
       source_relations:         # M-J.3 (the SCAPEGOAT edge): blaming back casts SUSPICION on the accuser and
         suspicion: 0.15         # deepens the grudge -- the suspicion relation dim, written here. PLACEHOLDER.
         resentment: 0.05        # PLACEHOLDER.
+    ledger:                     # M-J.4.1: shifting the blame IS a lie -- the blame_shift lie_type (spec 3.2)
+      lie_type: blame_shift     # PLACEHOLDER.
+      consistency_debt: 0.05    # PLACEHOLDER.
+      maintenance_load: 0.05    # PLACEHOLDER.
   avoid:
     post_effects:
       global:
