@@ -151,3 +151,32 @@ traces — **no moral equations in the Inn**; handled separately after a stable 
 Author `docs/diagrams/moral_tension.md` (control + functional forms) for **M-J.0** and the spec delta to
 `rpg_persona_dynamics_spec_v1.md` (new states + `suspicion` dim + ledger seam + traits), get sign-off,
 then implement M-J.0 as a vertical slice.
+
+## 11. Progress log & the M-MEM detour (2026-06-24)
+
+Implemented and pushed on `feature/m-j-moral-tension` (17 commits over `main`, HEAD `fd95191`):
+M-J.0 guilt core · M-J.1 lie loop (internal cognitive-load) · M-J.2 repair/rumination + the `confide`
+safe-vs-gossip split + `apologize` relational reparation · M-J.3.0 plumbing (opt-in `suspicion` relation
+dim + accusation vocab, byte-identical) · M-J.3.1 accusation core (grievance switch
+`perceived_injustice→anger(+)`/`→guilt(−)`, `blame_other`/`avoid`) · M-J.3.2 `suspicion_cue`
+(pressure-without-truth). Suite 333 passed; goldens byte-identical; Jury-stable.
+
+**Why we branched off to M-MEM (do NOT lose this):** the *remaining* M-J.3 work is not deferrable by
+effort — it is **architecturally blocked** (risk **R7**, spec §5.6 / §13.1). Specifically:
+- **multi-agent witness fan-out** — when an accusation/exposure happens, every witness must receive a
+  per-witness event *on the same tick* (trust loss, suspicion, rumor spread). The mapper today maps
+  **exactly one `RawEvent` per tick**, so simultaneous fan-out is unrepresentable.
+- **`false_accusation` accuser-after-discovery guilt** — needs the accuser's runtime to receive a
+  discovery event *while* witnesses receive theirs (same multi-event tick).
+
+Both need a **multi-event mapper / per-tick event list** = the **M-MEM** capability. M-MEM is foundational
+and reusable (not moral-specific), so it is being built on its own branch **`feature/m-mem-multi-event`**
+(cut from `main`, NOT from this branch) so it can be reviewed and merged to `main` independently. The
+moral overlay stays focused here.
+
+**Re-entry plan after M-MEM lands on `main`:** rebase this branch on the updated `main` (or merge `main`
+in), then build **M-J.3.3 witness fan-out + false-accusation discovery** as a vertical slice on top of
+both. The single-runtime accused/accuser/suspicion mechanics already implemented here are the building
+blocks; M-MEM only supplies the simultaneous-delivery seam. Still also pending: **M-J.4** (full `LieRecord`
+ledger + lie detection + `blame_shift` lie_type + calibration grid + scoped corpus) — that one is
+self-contained and does NOT need M-MEM, so it can proceed in parallel if desired.
