@@ -271,6 +271,83 @@ class ActionSelection:
     explanation: str
 
 
+# --- MoralLedger (M-J.4: the one genuinely-new structure; spec section 3) ----------
+# Held beside global_state/relations on the runtime, DEEP-COPIED into Snapshot.freeze(), READ-ONLY during
+# update/potentials, mutated only by post_effects. OPT-IN: empty for every legacy persona, so it is omitted
+# from the trace and goldens stay byte-identical. Lifecycle (create/reinforce/detect/inactivate) lands in
+# later M-J.4 slices; this is the data model + plumbing.
+
+
+@dataclass
+class Secret:
+    """A secret the persona owns/carries (spec section 3.1). Authored fields are scenario inputs (like
+    persona traits); dynamic scalars are mini-integrators in [0,1] driven in post_effects."""
+
+    id: str
+    owner_id: AgentId
+    topic: str  # semantic label (string key, used for cue matching)
+    category: str  # surprise|self_protection|betrayal|crime|shameful_fact|protect_other|social_strategy|false_blame
+    hidden_from: list[AgentId] = field(default_factory=list)  # actively hiding it from
+    known_by: list[AgentId] = field(default_factory=list)  # CONFIRMED knowledge
+    rumor_by: dict[AgentId, float] = field(
+        default_factory=dict
+    )  # unconfirmed/partial belief (strength)
+    created_at: int = 0
+    # --- authored scenario constants (not emergent) ---
+    stakes: float = 0.0
+    moral_weight: float = 0.0
+    harm_to_target: float = 0.0
+    target_right_to_know: float = 0.0
+    responsibility: float = 0.0
+    justification: float = 0.0
+    protected_target_id: Optional[AgentId] = None
+    harmed_target_id: Optional[AgentId] = None
+    # --- dynamic mini-integrators ([0,1]) ---
+    salience: float = 0.0
+    exposure_risk: float = 0.0
+    unresolvedness: float = 0.0
+    confession_threshold: float = 0.0
+
+
+@dataclass
+class LieRecord:
+    """A lie the persona is maintaining (spec section 3.2). consistency_debt/maintenance_load/detected_risk
+    are mini-integrators (decay + reinforcement)."""
+
+    id: str
+    liar_id: AgentId
+    target_id: AgentId
+    secret_id: Optional[str] = None
+    lie_type: str = (
+        "denial"  # omission|denial|fabrication|white_lie|antisocial_lie|blame_shift
+    )
+    complexity: float = 0.0
+    plausibility: float = 0.0
+    consistency_debt: float = 0.0
+    maintenance_load: float = 0.0
+    detected_risk: float = 0.0
+    last_reinforced_at: int = 0
+    witnesses: list[AgentId] = field(default_factory=list)
+
+
+@dataclass
+class MoralLedger:
+    """Per-runtime store of Secrets + LieRecords (keyed by id, canonical sorted order at serialization)."""
+
+    secrets: dict[str, Secret] = field(default_factory=dict)
+    lies: dict[str, LieRecord] = field(default_factory=dict)
+
+    def is_empty(self) -> bool:
+        return not self.secrets and not self.lies
+
+    def copy(self) -> "MoralLedger":
+        """Deep copy for Snapshot.freeze() (spec section 3): the snapshot is an immutable reference for the
+        whole tick, so update/potentials cannot mutate the live ledger through it."""
+        import copy as _copy
+
+        return _copy.deepcopy(self)
+
+
 # --- Snapshot (frozen view read by update/derived) --------------------------------
 
 
@@ -281,6 +358,9 @@ class Snapshot:
     global_state: GlobalStateMap
     relations: Relations
     mode: Mode
+    moral_ledger: MoralLedger = field(
+        default_factory=MoralLedger
+    )  # M-J.4: deep-copied; empty for legacy
 
 
 # --- Config & scenario (pure data) -------------------------------------------------
@@ -398,6 +478,9 @@ class PersonaRuntime:
     burst_armed_since: Optional[int] = (
         None  # first tick of the current saturation-band dwell (confirm counter)
     )
+    moral_ledger: MoralLedger = field(
+        default_factory=MoralLedger
+    )  # M-J.4: secrets + lies; empty (omitted) for legacy
 
     def freeze(self) -> Snapshot:
         """Deep-copied frozen snapshot (spec section 7, step 1)."""
@@ -405,4 +488,5 @@ class PersonaRuntime:
             global_state=dict(self.global_state),
             relations={src: dict(dims) for src, dims in self.relations.items()},
             mode=self.mode,
+            moral_ledger=self.moral_ledger.copy(),  # M-J.4: deep-copied -> read-only for the tick
         )

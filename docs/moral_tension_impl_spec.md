@@ -668,7 +668,17 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      (exposed as a false accuser); the crowd turning is the witnesses' `suspicion_raised` fanned onto the
      accuser on the discovery tick. **Litmus PROVEN.** Byte-identical (cue opt-in); Jury margin unchanged.
    `blame_shift` remains a `lie_type` for the M-J.4 ledger, not an accusation event.
-5. **M-J.4 full ledger + calibration grid + scoped corpus**.
+5. **M-J.4 full ledger + calibration grid + scoped corpus.** Decomposed into sub-slices:
+   - **M-J.4.0 ledger plumbing — ✅ IMPLEMENTED (`tests/test_moral_ledger_plumbing.py`).** `Secret`/`LieRecord`/
+     `MoralLedger` data model (spec §3.1–3.2); `moral_ledger` field on `PersonaRuntime` + `Snapshot`,
+     DEEP-COPIED in `freeze()` (read-only for the tick); serialized into the trace ONLY when non-empty
+     (`debug._ledger_dict`, sorted-id canonical order) → legacy goldens byte-identical. No lifecycle yet.
+   - **M-J.4.1 LieRecord lifecycle + consistency_debt** (lie creates/reinforces a record in post_effects;
+     repeated lies accrue debt on the SAME record; feeds `cognitive_load_from_lies`; `blame_shift` lie_type).
+   - **M-J.4.2 lie detection** (`lie_detected`→`betrayal`: anger/resentment/−trust on the liar; detected_risk).
+   - **M-J.4.3 Secret lifecycle** (salience/exposure_risk integrators; confession/exposure transitions;
+     inactivation gating when `hidden_from` empty ∧ `unresolvedness` low).
+   - **M-J.4.4 calibration grid + scoped corpus** (the labeled overlay categories within the 1400+1400 budget).
 
 ## 13. Self-review checklist (to assert at each slice's Definition of Done)
 Architecture: no LLM in loop ✦ no behavior-shaping literals in code ✦ all tunables in config ✦ synchronous

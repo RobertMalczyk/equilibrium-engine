@@ -135,6 +135,58 @@ def _selection_dict(sel: ActionSelection) -> dict:
     }
 
 
+def _ledger_dict(ledger) -> dict:
+    """M-J.4: canonical (sorted-id, fixed-field) serialization of the MoralLedger. Emitted ONLY when the
+    ledger is non-empty (see TickTrace.to_dict), so legacy traces are byte-identical."""
+
+    def _secret(s) -> dict:
+        return {
+            "id": s.id,
+            "owner_id": s.owner_id,
+            "topic": s.topic,
+            "category": s.category,
+            "hidden_from": list(s.hidden_from),
+            "known_by": list(s.known_by),
+            "rumor_by": {k: _round(v) for k, v in sorted(s.rumor_by.items())},
+            "created_at": s.created_at,
+            "stakes": _round(s.stakes),
+            "moral_weight": _round(s.moral_weight),
+            "harm_to_target": _round(s.harm_to_target),
+            "target_right_to_know": _round(s.target_right_to_know),
+            "responsibility": _round(s.responsibility),
+            "justification": _round(s.justification),
+            "protected_target_id": s.protected_target_id,
+            "harmed_target_id": s.harmed_target_id,
+            "salience": _round(s.salience),
+            "exposure_risk": _round(s.exposure_risk),
+            "unresolvedness": _round(s.unresolvedness),
+            "confession_threshold": _round(s.confession_threshold),
+        }
+
+    def _lie(li) -> dict:
+        return {
+            "id": li.id,
+            "liar_id": li.liar_id,
+            "target_id": li.target_id,
+            "secret_id": li.secret_id,
+            "lie_type": li.lie_type,
+            "complexity": _round(li.complexity),
+            "plausibility": _round(li.plausibility),
+            "consistency_debt": _round(li.consistency_debt),
+            "maintenance_load": _round(li.maintenance_load),
+            "detected_risk": _round(li.detected_risk),
+            "last_reinforced_at": li.last_reinforced_at,
+            "witnesses": list(li.witnesses),
+        }
+
+    return {
+        "secrets": {
+            sid: _secret(ledger.secrets[sid]) for sid in sorted(ledger.secrets)
+        },
+        "lies": {lid: _lie(ledger.lies[lid]) for lid in sorted(ledger.lies)},
+    }
+
+
 @dataclass
 class TickTrace:
     """All intermediate results of one tick (spec section 7). FROZEN field order."""
@@ -159,6 +211,10 @@ class TickTrace:
         d = self._to_dict_base()
         if self.burst_latched:
             d["burst_latched"] = True
+        # M-J.4: emit the end-of-tick ledger SPARSELY -- only when non-empty -- so legacy goldens are
+        # byte-identical (the field roster gains a key only for runs that actually carry secrets/lies).
+        if not self.state_after_post.moral_ledger.is_empty():
+            d["moral_ledger"] = _ledger_dict(self.state_after_post.moral_ledger)
         return d
 
     def _to_dict_base(self) -> dict:
