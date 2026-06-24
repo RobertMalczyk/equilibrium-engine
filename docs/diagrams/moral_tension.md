@@ -8,9 +8,10 @@
 > **Status: M-J.0 (guilt core) + M-J.1 (lie loop) + M-J.2 (`repair_drive`/`rumination`/`apologize` +
 > `confide` safe-vs-gossip split + `apologize` relational `reparation`) + M-J.3 (accusation core:
 > `perceived_injustice`/`avoidance_drive`, the opt-in `suspicion` relation dim, `accusation` cue, the
-> grievance switch `perceived_injustice→anger(+)`/`→guilt(−)`, `blame_other`/`avoid`) IMPLEMENTED as an
-> opt-in overlay; M-J.4 is topology-only (the `LieRecord` ledger, lie detection, and the multi-agent witness
-> fan-out — blocked on M-MEM — remain deferred).** Per
+> grievance switch `perceived_injustice→anger(+)`/`→guilt(−)`, `blame_other`/`avoid`, and the
+> `suspicion_raised`→`suspicion_cue` pressure-without-truth cue) IMPLEMENTED as an opt-in overlay; M-J.4 is
+> topology-only (the `LieRecord` ledger, lie detection, and the multi-agent witness fan-out + false-accusation
+> accuser-discovery — blocked on M-MEM — remain deferred).** Per
 > "topology now, constants from calibration" every gain/half-life is a **named config placeholder**, not a
 > chosen number. The full moral topology (all of M-J.0–.4) is drawn here so calibration tunes a fixed
 > structure; the ★ nodes/edges are wired and litmus-proven (`tests/test_moral_guilt_core.py`,

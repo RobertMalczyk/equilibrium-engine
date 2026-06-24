@@ -648,8 +648,16 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
    `suspicion[accuser]`) vs `avoid` (avoidance-driven). **Litmus PROVEN** (`tests/test_moral_accusation.py`,
    `data/scenarios/moral_accusation.yaml`): on the SAME accusation a SENSITIVE persona BLAMES the accuser
    back (perceived_injustice builds, guilt suppressed, suspicion+resentment cast on the accuser) while an
-   AVOIDANT persona AVOIDS; feed-forward → anger⇄stress Jury margin unchanged. **DEFERRED:**
-   `false_accusation`/`suspicion_raised`/`blame_shift` events and multi-agent witness fan-out (needs M-MEM).
+   AVOIDANT persona AVOIDS; feed-forward → anger⇄stress Jury margin unchanged.
+   M-J.3.2 SUSPICION CUE (`tests/test_moral_suspicion.py`, `data/scenarios/moral_suspicion.yaml`): the
+   `suspicion_raised`→`suspicion_cue` channel raises PRESSURE — `suspicion[suspecter]` (relation dim) +
+   `exposure_anxiety` + a conflict_avoidance-gated `avoidance_drive` deposit — WITHOUT creating guilt or
+   truth ("looks suspicious from avoidance without being guilty"; spec §3). `false_accusation` is wired as
+   the same accused-side `accusation` channel (vocab alias). NOTE: the diagram's `exposure_anxiety→
+   avoidance_drive` edge is realized as a trait-gated cue GAIN, not a standing coupling (couplings can't be
+   trait-modulated; an always-on edge would fire `avoid` in the probe litmus). **STILL DEFERRED (needs
+   M-MEM, R7):** `false_accusation`'s accuser-after-discovery guilt and multi-agent witness fan-out;
+   `blame_shift` is a `lie_type` for the M-J.4 ledger, not an accusation event.
 5. **M-J.4 full ledger + calibration grid + scoped corpus**.
 
 ## 13. Self-review checklist (to assert at each slice's Definition of Done)

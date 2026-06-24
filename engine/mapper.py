@@ -215,7 +215,30 @@ def map_event(
         )
         return out
 
-    if event.type == "accusation":
+    if event.type == "suspicion_raised":
+        # M-J.3 moral cue: someone signals SUSPICION of the persona (source = the suspecter) -- a narrowed
+        # eye, a pointed question behind their back, being watched. RELATIONAL. Per spec section 3 it raises
+        # PRESSURE (suspicion[source] + exposure_anxiety) WITHOUT revealing truth: the persona feels watched
+        # and more exposed, and grows wary of the suspecter, but no guilt is created and nothing is confirmed
+        # ("looks suspicious from avoidance without being guilty"). The small frustration deposit (overlay)
+        # opens the reactive reply window so the persona can react (e.g. avoid). Inert unless the overlay
+        # supplies its gains. Distinct from `accusation`: a suspicion is pressure, an accusation is a charge.
+        out["suspicion_cue"] = SemanticInput(
+            name="suspicion_cue",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type in ("accusation", "false_accusation"):
+        # `false_accusation` is the SAME accused-side channel as `accusation` (spec section 4): the accused
+        # cannot tell a charge is baseless from the cue alone -- whether it lands as guilt (a true charge, the
+        # persona already carries guilt) or pure grievance (a false one, no prior guilt -> the injustice->guilt
+        # switch keeps guilt low) emerges from state. The DISTINCT half of false_accusation -- the accuser's
+        # guilt once the lie is DISCOVERED, and the witnesses' trust loss -- needs the multi-agent driver
+        # (deferred M-MEM, review R7) and is not modeled on this single accused runtime.
         # M-J.3 moral cue: SOMEONE accuses the persona of a wrong (source = the accuser). RELATIONAL and a
         # PROVOCATION -- via the overlay it deposits perceived_injustice ("this is unfair", scaled by
         # injustice_sensitivity), avoidance_drive (scaled by conflict_avoidance), a little stress and

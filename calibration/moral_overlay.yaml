@@ -24,21 +24,27 @@ gains:
     wrongdoing: 0.30      # finite guilt deposit per wrongdoing cue; SCALED by guilt_proneness below. PLACEHOLDER.
   exposure_anxiety:
     probe: 0.05           # being questioned raises exposure anxiety (slow build, not saturating). PLACEHOLDER.
+    suspicion_cue: 0.08   # M-J.3: being SUSPECTED (not yet accused) raises exposure pressure -- feeling watched. PLACEHOLDER.
   frustration:
     probe: 0.01           # tiny interrogation pressure -- the sourced provocation that OPENS the reply window
                           # (so confess/remain_silent can be selected). Small enough never to fire complain/
                           # outburst on its own. PLACEHOLDER.
     accusation: 0.02      # M-J.3: the sourced provocation that opens the reply window under accusation
                           # (so avoid/blame_other can be selected). Small enough never to fire outburst alone. PLACEHOLDER.
+    suspicion_cue: 0.01   # M-J.3: a whisper of provocation -- opens the reply window so the persona can react
+                          # (avoid) to being suspected, without itself firing a vent. PLACEHOLDER.
   perceived_injustice:
     accusation: 0.30      # M-J.3: being accused reads as UNFAIR -> grievance. SCALED by injustice_sensitivity below. PLACEHOLDER.
   avoidance_drive:
     accusation: 0.30      # M-J.3: being accused makes one want to dodge. SCALED by conflict_avoidance below. PLACEHOLDER.
+    suspicion_cue: 0.12   # M-J.3: being SUSPECTED makes an avoidant persona withdraw too. SCALED by conflict_avoidance. PLACEHOLDER.
   stress:
     accusation: 0.03      # M-J.3: an accusation is stressful (the threat). PLACEHOLDER.
   relations:
     resentment:
       accusation: 0.10    # M-J.3: being accused breeds a grudge toward the accuser. PLACEHOLDER.
+    suspicion:
+      suspicion_cue: 0.15 # M-J.3: a suspicion cue builds per-source suspicion toward the suspecter (the relation dim). PLACEHOLDER.
 
 gain_modulators:
   guilt:
@@ -67,6 +73,10 @@ gain_modulators:
       ref: 1.0
       k: 1.0              # M-J.3: mod = max(0, conflict_avoidance) -> a conflict-avoidant persona wants to dodge;
                           # conflict_avoidance=0 -> it stands its ground (no avoidance build). PLACEHOLDER.
+    suspicion_cue:
+      trait: conflict_avoidance
+      ref: 1.0
+      k: 1.0              # M-J.3: same gate -> only a conflict-avoidant persona withdraws under bare suspicion. PLACEHOLDER.
 
 couplings:
   stress:
@@ -81,6 +91,11 @@ couplings:
   guilt:
     perceived_injustice: -0.05  # M-J.3: the GRIEVANCE SWITCH -- "I was justified / I don't deserve this" suppresses
                                 # guilt. The more unfair it feels, the less guilt the wrong leaves behind. PLACEHOLDER.
+  # NOTE: the diagram's exposure_anxiety->avoidance_drive edge is realized as a conflict_avoidance-GATED
+  # event gain (gains.avoidance_drive.accusation / .suspicion_cue), NOT a standing coupling: couplings can't
+  # be trait-modulated, and an always-on exposure->avoidance edge would build avoidance (and fire `avoid`) in
+  # every moral scenario, perturbing the M-J.0/.1 probe litmus. The trait-gated cue deposit keeps avoidance a
+  # property of an AVOIDANT persona under a real accusation/suspicion, and zero elsewhere.
   fatigue:
     cognitive_load_from_lies: 0.02  # M-J.1: maintaining the lie is tiring -> fatigue (+). PLACEHOLDER.
     rumination: 0.02          # M-J.2: rumination is wearing -> fatigue (+). PLACEHOLDER.

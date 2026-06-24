@@ -1,0 +1,33 @@
+# M-J.3 suspicion micro-scenario (stylized) -- PRESSURE WITHOUT TRUTH (the `suspicion_raised` cue).
+#
+# The persona did NOTHING (no wrongdoing -> guilt stays 0), but a watcher keeps signalling SUSPICION of
+# them each tick. Per spec section 3 a suspicion cue raises PRESSURE -- suspicion[watcher] (a per-source
+# relation memory) and exposure_anxiety (feeling watched) -- WITHOUT revealing or creating any truth. The
+# exposure_anxiety then couples into avoidance_drive, so a CONFLICT-AVOIDANT persona starts to AVOID the
+# watcher: "looks suspicious from avoidance without being guilty." Run with the moral overlay.
+# The invariant under test: suspicion != guilt -- being suspected is not the same as having done wrong.
+id: moral_suspicion
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+# ONE event per tick. The watcher signals suspicion each tick (no wrongdoing anywhere -> the persona is
+# innocent; only PRESSURE accumulates).
+events:
+  - {type: suspicion_raised, t: 0,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 1,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 2,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 3,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 4,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 5,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 6,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 7,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 8,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 9,  source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 10, source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 11, source: watcher, intensity: 1.0}
+  - {type: suspicion_raised, t: 12, source: watcher, intensity: 1.0}
