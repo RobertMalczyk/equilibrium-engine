@@ -1,0 +1,10 @@
+branic_multi_burstOFF_021: PASS -- calm arc, one earned outburst, sane pacing throughout
+branic_multi_burstOFF_022: PASS -- escalating refusals across days plausible under accumulating stress
+branic_multi_burstOFF_023: PASS -- heavy Day 2 defiance follows two back-to-back outbursts Day 1 night
+branic_multi_burstOFF_024: PASS -- mostly calm; one outburst late Day 4, carry-over refusals Day 5
+branic_multi_burstOFF_025: PASS -- sustained mockery across two days earns repeated flare-ups
+branic_multi_burstOFF_026: PASS -- rapid Day 2 escalation triggered by Halgrim baiting in sequence
+branic_multi_burstOFF_027: PASS -- six-day gradual accumulation; Day 3 heavy mockery drives snaps
+branic_multi_burstOFF_028: PASS -- peaceful stretch, single outburst late Day 4, fits thin-skinned recruit
+branic_multi_burstOFF_029: PASS -- six calm days, one evening snap, cooperative throughout
+branic_multi_burstOFF_030: PASS -- three quiet days; one flare at second public mock, quickly settled

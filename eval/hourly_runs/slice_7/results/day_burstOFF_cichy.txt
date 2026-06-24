@@ -1,0 +1,10 @@
+cichy_day_burstOFF_071: PASS -- anger rises with repeated mocks, settles naturally
+cichy_day_burstOFF_072: PASS -- tension builds through day, single provocation tips to fury
+cichy_day_burstOFF_073: PASS -- morning mock, midday fury, afternoon lingers, evening calm
+cichy_day_burstOFF_074: PASS -- double provocation while still agitated, coherent escalation
+cichy_day_burstOFF_075: PASS -- quiet day, single evening fury, ends tense but sane
+cichy_day_burstOFF_076: PASS -- no provocations, ambient tension without trigger is believable
+cichy_day_burstOFF_077: PASS -- warm to stranger after fury at guard fits profile well
+cichy_day_burstOFF_078: PASS -- early mock settles quickly, ambient afternoon tension fine
+cichy_day_burstOFF_079: PASS -- twice warm to strangers, bristles at guard, coherent
+cichy_day_burstOFF_080: PASS -- two mocks bring two fury responses, day arcs cleanly

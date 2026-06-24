@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_071: PASS -- steady 6-day arc, Wojslaw friction mounts and releases cleanly
+halgrim_multi_burstOFF_072: PASS -- calm 3 days, single public barb gets cold reply, proportionate
+halgrim_multi_burstOFF_073: PASS -- Wojslaw friction escalates correctly, double mock gets contempt
+halgrim_multi_burstOFF_074: PASS -- 6 days of mounting tension under rain and Wojslaw, sane pacing
+halgrim_multi_burstOFF_075: PASS -- even-keeled, tension only on rain days, daily reset working
+halgrim_multi_burstOFF_076: PASS -- quiet days, contempt reserved for repeated Wojslaw mocks
+halgrim_multi_burstOFF_077: PASS -- heavy Day-1 Wojslaw barrage, sleep resets, residual tension Day 2-3
+halgrim_multi_burstOFF_078: PASS -- rapid Wojslaw cluster handled with escalating curtness, recovers
+halgrim_multi_burstOFF_079: FLAG -- public Wojslaw mocking ignored twice; no cold reply at all jars
+halgrim_multi_burstOFF_080: PASS -- gradual Day-4 Wojslaw escalation correct, wakes settled each morning

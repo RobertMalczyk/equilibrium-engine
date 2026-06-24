@@ -1,0 +1,10 @@
+wojslaw_day_burstON_081: PASS -- erupts late after a calm day, sleeps and resets fine
+wojslaw_day_burstON_082: PASS -- two bursts in afternoon, residual tension into evening, believable
+wojslaw_day_burstON_083: PASS -- erupts mid-afternoon after provocation, stays tense then settles
+wojslaw_day_burstON_084: PASS -- lets first mock pass, erupts later in evening, sane arc
+wojslaw_day_burstON_085: PASS -- multiple provocations, multiple flares, pacing plausible throughout
+wojslaw_day_burstON_086: PASS -- calm morning, single evening eruption, lingers tense, recovers by sleep
+wojslaw_day_burstON_087: PASS -- quiet day with mild grumble, no full eruption, fits a calmer day
+wojslaw_day_burstON_088: PASS -- escalating evening with two eruptions, defiance at orders, believable
+wojslaw_day_burstON_089: PASS -- good morning resets after afternoon burst, tension lingers, late eruption
+wojslaw_day_burstON_090: PASS -- multiple mocks and orders, flares appropriately, settles after kindness

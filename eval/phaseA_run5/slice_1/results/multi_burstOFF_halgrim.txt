@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_011: PASS -- escalating contempt under Day 4 Wojslaw barrage fits well
+halgrim_multi_burstOFF_012: PASS -- quiet rhythm, defiant refusal well-earned, sleep resets hold
+halgrim_multi_burstOFF_013: PASS -- progressive curtness under repeated mocks, sane recovery
+halgrim_multi_burstOFF_014: PASS -- Day 2 Wojslaw cluster intense but defiant refusals fit character
+halgrim_multi_burstOFF_015: PASS -- Day 3 escalation and Day 5 defiance plausible given history
+halgrim_multi_burstOFF_016: PASS -- quiet buildup, Day 4 cold contempt under sustained provocation
+halgrim_multi_burstOFF_017: PASS -- rain stress plus Wojslaw friction, seething fits iron self-control
+halgrim_multi_burstOFF_018: PASS -- Day 4 prolonged tension from one mock, resentment accumulation fits
+halgrim_multi_burstOFF_019: PASS -- complaint to Edda minor, plausible under multi-day wear
+halgrim_multi_burstOFF_020: PASS -- placid run, refusals to Wojslaw consistent, pacing sane

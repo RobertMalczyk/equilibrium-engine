@@ -1,0 +1,10 @@
+edda_day_burstOFF_041: PASS -- calm day, authority exercised at night, sane arc
+edda_day_burstOFF_042: PASS -- stranger friction handled with composure, fits castellan
+edda_day_burstOFF_043: PASS -- steady day, mild compliance with stranger, no jarring notes
+edda_day_burstOFF_044: PASS -- repeated mocks met with growing but restrained chill
+edda_day_burstOFF_045: PASS -- warm support-heavy day, composed throughout, sane pacing
+edda_day_burstOFF_046: PASS -- two soups in six minutes odd but not disqualifying
+edda_day_burstOFF_047: PASS -- quiet day, stranger order ignored, authority at close
+edda_day_burstOFF_048: PASS -- uneventful, stable, authority exercised at day end
+edda_day_burstOFF_049: PASS -- two rest entries two minutes apart slightly mechanical but sane
+edda_day_burstOFF_050: PASS -- late refusal after sustained mockery fits composed authority

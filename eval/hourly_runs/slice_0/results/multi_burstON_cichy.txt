@@ -1,0 +1,10 @@
+cichy_multi_burstON_001: PASS -- steady tension build, late-night burst from guard mock plausible
+cichy_multi_burstON_002: PASS -- escalating mocks day one, burst late; days reset cleanly
+cichy_multi_burstON_003: PASS -- stranger warmth fits guard-specific resentment; bursts earned
+cichy_multi_burstON_004: PASS -- six days, no major burst; sustained simmering is coherent
+cichy_multi_burstON_005: PASS -- day two burst after all-day tension; day three calmer
+cichy_multi_burstON_006: PASS -- two soups close together odd mechanically but not character-jarring
+cichy_multi_burstON_007: PASS -- no full burst across four days; cold curtness throughout fits
+cichy_multi_burstON_008: FLAG -- four eruptions across three days; burst saturation not recovering
+cichy_multi_burstON_009: PASS -- very early day-one burst plausible given smouldering baseline
+cichy_multi_burstON_010: PASS -- heavy provocation day one, no burst; cold control throughout fits

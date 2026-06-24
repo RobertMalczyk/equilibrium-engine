@@ -48,7 +48,7 @@ events:
     has_authority: true
 - type: help
   t: 393
-  source: marta
+  source: player
   intensity: 0.779
   context: {}
 - type: food_given

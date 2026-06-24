@@ -1,0 +1,10 @@
+wojslaw_day_burstON_001: PASS -- tense arc, mocking triggers eruptions, sleeps settled
+wojslaw_day_burstON_002: PASS -- variable mood, kindness and insult both land correctly
+wojslaw_day_burstON_003: PASS -- double soup odd but reactions consistent, arc sane
+wojslaw_day_burstON_004: PASS -- morning provocations sustain tension all day believably
+wojslaw_day_burstON_005: PASS -- kindness-heavy morning, erupts on mocking, recovers cleanly
+wojslaw_day_burstON_006: PASS -- proud refusals fit character, mood arc coherent
+wojslaw_day_burstON_007: PASS -- double soup minor, eruptions and bristling on edge fit
+wojslaw_day_burstON_008: PASS -- bad day bleeds onto kindness and soup, wakes reset
+wojslaw_day_burstON_009: PASS -- fast recovery at 16:02 slightly abrupt but within range
+wojslaw_day_burstON_010: PASS -- escalating irritability through day, erupts when wound up

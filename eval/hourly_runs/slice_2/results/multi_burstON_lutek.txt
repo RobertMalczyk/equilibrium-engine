@@ -1,0 +1,10 @@
+lutek_multi_burstON_021: PASS -- restless cycle sane, mocks roll off, sleeps well
+lutek_multi_burstON_022: PASS -- tense mornings resolve, rhythm consistent
+lutek_multi_burstON_023: PASS -- one curt reply while tense, recovers; within range
+lutek_multi_burstON_024: PASS -- solid cycle, tension resolves with food and kindness
+lutek_multi_burstON_025: PASS -- curt reply at evening tension, otherwise well-paced
+lutek_multi_burstON_026: FLAG -- cold replies to mocks plus flat responses to kindness; stress not resetting
+lutek_multi_burstON_027: PASS -- mock ignored, evening tension, clean recovery
+lutek_multi_burstON_028: FLAG -- kindness met with flat no-reaction while tense; unusual for warm Lutek
+lutek_multi_burstON_029: PASS -- one flat soup response minor; overall cycle sane
+lutek_multi_burstON_030: FLAG -- two flat non-responses to Marta's soup across separate days

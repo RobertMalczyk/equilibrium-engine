@@ -1,0 +1,10 @@
+halgrim_day_burstON_031: PASS -- calm day, curt to Wojsław twice, sane arc
+halgrim_day_burstON_032: PASS -- quiet day, steady ease, no provocations, clean
+halgrim_day_burstON_033: PASS -- lets Wojsław pass, stays even, fits profile well
+halgrim_day_burstON_034: PASS -- morning mock leaves him tense, settles by noon
+halgrim_day_burstON_035: PASS -- declines Wojsław twice, tense evening, fits character
+halgrim_day_burstON_036: FLAG -- grumbles at second Wojsław order; grumbling sits low for Halgrim
+halgrim_day_burstON_037: PASS -- curt replies to Wojsław, tense but controlled, believable
+halgrim_day_burstON_038: PASS -- absorbs mocks, then cold contempt at third; sane arc
+halgrim_day_burstON_039: PASS -- Marta kindness offsets Wojsław contempt, pacing plausible
+halgrim_day_burstON_040: PASS -- uneventful, settled day, fits iron self-control profile

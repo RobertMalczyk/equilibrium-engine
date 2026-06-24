@@ -1,0 +1,10 @@
+edda_multi_burstOFF_041: PASS -- settled, composed castellan across 3 days, sane pacing
+edda_multi_burstOFF_042: PASS -- steady multi-day stretch, authority and warmth both present
+edda_multi_burstOFF_043: PASS -- composed throughout, brief tension after mockery fades naturally
+edda_multi_burstOFF_044: PASS -- busy positive days, consistent settled baseline, no jarring swings
+edda_multi_burstOFF_045: PASS -- Day 2 stranger orders draw muted complaint then recovery; believable
+edda_multi_burstOFF_046: PASS -- calm, well-fed, authority exercised; uneventful but sane
+edda_multi_burstOFF_047: PASS -- barbed remark at 17:52 causes brief edge, clears by 20:03
+edda_multi_burstOFF_048: PASS -- kindness-rich days, steady composure, authority held throughout
+edda_multi_burstOFF_049: PASS -- consistent settled baseline, regular meals, commands exercised normally
+edda_multi_burstOFF_050: PASS -- Day 6 three mocks in quick succession produce curt reply then tension clears

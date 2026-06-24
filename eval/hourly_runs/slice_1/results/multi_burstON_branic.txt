@@ -1,0 +1,10 @@
+branic_multi_burstON_011: PASS -- tension builds across day, erupts late, wakes recovered
+branic_multi_burstON_012: PASS -- calm days with plausible late-day burst on accumulated stress
+branic_multi_burstON_013: PASS -- early Day 3 fury after tense wake, displaced snap at Marta plausible
+branic_multi_burstON_014: PASS -- positive-heavy run, single late-day burst well earned
+branic_multi_burstON_015: PASS -- Day 4 humiliation drives sustained refusals and next-morning burst
+branic_multi_burstON_016: PASS -- escalating multi-day grudge, wakes settled each morning
+branic_multi_burstON_017: PASS -- two calm days then early Day 3 fury after back-to-back mocks
+branic_multi_burstON_018: PASS -- dense Day 6 fury cluster driven by repeated Halgrim provocations
+branic_multi_burstON_019: PASS -- calm sustained run, single eruption late in Day 6 well supported
+branic_multi_burstON_020: PASS -- back-to-back morning mocks on tense Day 4 produce double eruption

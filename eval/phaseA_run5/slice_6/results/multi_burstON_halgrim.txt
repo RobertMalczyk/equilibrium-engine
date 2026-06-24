@@ -1,0 +1,10 @@
+halgrim_multi_burstON_061: PASS -- calm build, Wojslaw friction, sleep resets, sane pacing
+halgrim_multi_burstON_062: PASS -- rain plus multi-day Wojslaw grind accumulates believably
+halgrim_multi_burstON_063: PASS -- sustained Wojslaw abuse bleeds onto Edda, fits burstON
+halgrim_multi_burstON_064: PASS -- mild friction, residual tension, wakes settled each day
+halgrim_multi_burstON_065: PASS -- four Wojslaw mocks yield contempt, not explosion; profile-fit
+halgrim_multi_burstON_066: PASS -- rain plus Wojslaw mock yields seething, Edda gets curtness
+halgrim_multi_burstON_067: PASS -- accumulated tension spills onto Edda under burstON, sane
+halgrim_multi_burstON_068: PASS -- Day 6 long linger with no fuel but burstON explains residual
+halgrim_multi_burstON_069: PASS -- very even-keeled, calm days with modest friction, fits profile
+halgrim_multi_burstON_070: PASS -- rain and Wojslaw stack; Edda contempt under peak load defensible

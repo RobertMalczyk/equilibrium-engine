@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_071: PASS -- quiet settled day, Edda order ignored late night fits fatigue
+halgrim_day_burstOFF_072: PASS -- uneventful calm day, consistent with steady temperament
+halgrim_day_burstOFF_073: PASS -- Wojsław barbs absorbed, mild late complaint to Edda plausible
+halgrim_day_burstOFF_074: PASS -- tension builds end of day, resolves at sleep, sane arc
+halgrim_day_burstOFF_075: PASS -- entirely calm, no friction, coherent settled man
+halgrim_day_burstOFF_076: PASS -- early Wojsław jab absorbed, warm afternoon, clean day
+halgrim_day_burstOFF_077: PASS -- calm day, multiple kindnesses warmly received, no issues
+halgrim_day_burstOFF_078: PASS -- second Wojsław mock prompts curt reply, first absorbed, fits profile
+halgrim_day_burstOFF_079: PASS -- quiet day, single Wojsław jab absorbed without reaction
+halgrim_day_burstOFF_080: PASS -- repeated Wojsław provocations escalate to cold curtness, stays controlled

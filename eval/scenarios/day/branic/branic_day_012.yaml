@@ -30,7 +30,7 @@ events:
     public: false
 - type: help
   t: 133
-  source: marta
+  source: player
   intensity: 1.0
   context: {}
 - type: insult

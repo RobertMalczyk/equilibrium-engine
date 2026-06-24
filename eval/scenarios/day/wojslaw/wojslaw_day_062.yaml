@@ -38,10 +38,10 @@ events:
     has_authority: true
 - type: insult
   t: 144
-  source: marta
-  intensity: 0.892
+  source: player
+  intensity: 0.763
   context:
-    public: true
+    public: false
 - type: help
   t: 180
   source: marta
@@ -56,16 +56,16 @@ events:
     public: false
 - type: insult
   t: 261
-  source: marta
-  intensity: 0.519
-  context:
-    public: false
-- type: insult
-  t: 362
-  source: marta
-  intensity: 0.511
+  source: player
+  intensity: 0.76
   context:
     public: true
+- type: insult
+  t: 362
+  source: player
+  intensity: 0.677
+  context:
+    public: false
 - type: command
   t: 405
   source: player

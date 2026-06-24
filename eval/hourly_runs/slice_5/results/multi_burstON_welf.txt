@@ -1,0 +1,10 @@
+welf_multi_burstON_051: PASS -- sane boredom cycles, meals and rain handled correctly
+welf_multi_burstON_052: PASS -- consistent rhythm, two close soups minor but not absurd
+welf_multi_burstON_053: PASS -- clean three-day arc, profile fits throughout
+welf_multi_burstON_054: PASS -- rain day tension lingers believably, resolves by afternoon
+welf_multi_burstON_055: PASS -- six days stable, rain and late tension credible
+welf_multi_burstON_056: PASS -- late rainy day, short sleep, tense eve all plausible
+welf_multi_burstON_057: PASS -- two soups two minutes apart odd but not disqualifying
+welf_multi_burstON_058: FLAG -- Day 3 18:15 kindness gets no reaction, contradicts profile
+welf_multi_burstON_059: PASS -- two soups close on Day 1, otherwise clean and warm
+welf_multi_burstON_060: PASS -- mocks let pass, tension on work-mornings, rain day credible

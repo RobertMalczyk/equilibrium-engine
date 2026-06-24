@@ -54,7 +54,7 @@ events:
     public: false
 - type: help
   t: 323
-  source: halgrim
+  source: marta
   intensity: 0.625
   context: {}
 - type: insult
@@ -187,7 +187,7 @@ events:
     public: false
 - type: help
   t: 2243
-  source: halgrim
+  source: marta
   intensity: 0.76
   context: {}
 - type: insult
@@ -203,7 +203,7 @@ events:
   context: {}
 - type: help
   t: 2371
-  source: halgrim
+  source: marta
   intensity: 0.78
   context: {}
 - type: food_given
@@ -215,7 +215,7 @@ events:
     public: false
 - type: help
   t: 2572
-  source: halgrim
+  source: marta
   intensity: 0.827
   context: {}
 - type: nightfall

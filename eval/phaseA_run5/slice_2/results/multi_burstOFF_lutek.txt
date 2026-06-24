@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_021: PASS -- restless poet rhythm, insults absorbed, sane pacing
+lutek_multi_burstOFF_022: PASS -- thick-skinned, steady cycle, double soup minor oddity
+lutek_multi_burstOFF_023: PASS -- late nights plausible, tension resolves naturally
+lutek_multi_burstOFF_024: PASS -- insults ignored, restless cycle consistent throughout
+lutek_multi_burstOFF_025: PASS -- overnight tension bleeds to next morning, recovers fine
+lutek_multi_burstOFF_026: FLAG -- curt reply to mockery when tense; contradicts thick-skinned profile
+lutek_multi_burstOFF_027: PASS -- late nights, absorbed insult, steady restless rhythm
+lutek_multi_burstOFF_028: PASS -- kindness-dense days plausible, tense mornings resolve well
+lutek_multi_burstOFF_029: PASS -- flat soup responses fine variation, insults let pass
+lutek_multi_burstOFF_030: PASS -- tension bleeds overnight but resolves, no jarring moments

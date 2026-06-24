@@ -23,7 +23,7 @@ events:
     public: false
 - type: insult
   t: 194
-  source: marta
+  source: player
   intensity: 0.461
   context:
     public: true
@@ -52,7 +52,7 @@ events:
 - type: insult
   t: 455
   source: player
-  intensity: 0.398
+  intensity: 0.165
   context:
     public: false
 - type: command

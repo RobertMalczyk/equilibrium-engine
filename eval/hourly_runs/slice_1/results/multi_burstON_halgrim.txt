@@ -1,0 +1,10 @@
+halgrim_multi_burstON_011: PASS -- Wojslaw accumulation drives Day 4-5 tension; sleep resets hold
+halgrim_multi_burstON_012: PASS -- Calm days alternate with Wojslaw-provoked tension; pacing sane
+halgrim_multi_burstON_013: PASS -- Day 2-3 tension lingers without much new provocation; plausible carry-over
+halgrim_multi_burstON_014: PASS -- Heavy Day 2 Wojslaw friction; multi-day residual tension coherent
+halgrim_multi_burstON_015: PASS -- Edda cold contempt earned; wound tight by Day 5 from accumulation
+halgrim_multi_burstON_016: PASS -- Calm run; Day 4 tension spike earned by Wojslaw pressure
+halgrim_multi_burstON_017: PASS -- Rain plus Wojslaw drives multi-day tension; Edda snap contextually earned
+halgrim_multi_burstON_018: PASS -- Day 4 tense onset without trigger; carry-over from Day 3 plausible
+halgrim_multi_burstON_019: PASS -- Consistently calm; mild complaints fit low-provocation scenario
+halgrim_multi_burstON_020: PASS -- Rain days handled evenly; stable baseline throughout six days

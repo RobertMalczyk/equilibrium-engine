@@ -1,0 +1,10 @@
+cichy_day_burstON_011: PASS -- calm day, guard kindness warmly received from stranger fits
+cichy_day_burstON_012: PASS -- morning snap from taunt, slow simmer, settles by night
+cichy_day_burstON_013: PASS -- early taunt flares, edge persists through afternoon, fades by evening
+cichy_day_burstON_014: FLAG -- erupts at guard taunt then looks settled at ease 20min later
+cichy_day_burstON_015: PASS -- tension builds through afternoon taunt, lingers, quiet evening
+cichy_day_burstON_016: PASS -- late escalating taunts draw sharper responses, reasonable arc
+cichy_day_burstON_017: PASS -- stranger kindness, guard taunts draw curt replies, simmers evening
+cichy_day_burstON_018: PASS -- tense mid-day, guard provocations draw cold replies, consistent
+cichy_day_burstON_019: PASS -- steady edge from afternoon taunt, lingers plausibly into evening
+cichy_day_burstON_020: FLAG -- "still hasn't shaken temper" at 20:03 but looks settled at 18:03

@@ -1,0 +1,10 @@
+branic_day_burstON_001: PASS -- restless day, evening tension after barb, clean sleep reset
+branic_day_burstON_002: PASS -- quiet day, mild evening edge, Halgrim barb shrugged off plausibly
+branic_day_burstON_003: PASS -- two Halgrim mocks absorbed, late-night tension rise, then settles
+branic_day_burstON_004: PASS -- long quiet day builds to late wound-tight, orders still obeyed
+branic_day_burstON_005: PASS -- calm day with kindnesses, no tension spike, evening settles cleanly
+branic_day_burstON_006: PASS -- peaceful day, late orders met with indifference, no jarring notes
+branic_day_burstON_007: PASS -- steady day, evening tension appears then resolves before sleep
+branic_day_burstON_008: PASS -- three mocks absorbed without reaction, tension builds late believably
+branic_day_burstON_009: PASS -- mock shrugged off mid-day, evening edge eases after soup kindness
+branic_day_burstON_010: PASS -- single flare at Halgrim mock mid-afternoon, settles quickly after

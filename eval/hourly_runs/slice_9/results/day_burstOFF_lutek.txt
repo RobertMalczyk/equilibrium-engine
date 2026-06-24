@@ -1,0 +1,10 @@
+lutek_day_burstOFF_091: PASS -- restless-seek-settle cycle, mock ignored, sane pacing
+lutek_day_burstOFF_092: PASS -- mild evening tension resolves; sleep and recovery normal
+lutek_day_burstOFF_093: PASS -- three meals, mock deflected, brief evening edge clears
+lutek_day_burstOFF_094: PASS -- mock ignored, brief evening tension, settled sleep onset
+lutek_day_burstOFF_095: PASS -- many kindnesses, brief 18:00 edge resolves before sleep
+lutek_day_burstOFF_096: PASS -- frequent Marta interactions, evening tension clears normally
+lutek_day_burstOFF_097: PASS -- mock brushed off, calm day, no anomalies
+lutek_day_burstOFF_098: PASS -- brief double-rest at 08:00 odd but harmless; tension clears
+lutek_day_burstOFF_099: PASS -- sociable day, multiple kindnesses, settled throughout
+lutek_day_burstOFF_100: PASS -- brief 20:00 edge, resolves; wakes recovered

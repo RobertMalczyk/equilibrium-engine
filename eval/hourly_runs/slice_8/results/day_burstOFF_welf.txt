@@ -1,0 +1,10 @@
+welf_day_burstOFF_081: PASS -- calm merchant, boredom cycles, mocks absorbed, sane pacing
+welf_day_burstOFF_082: PASS -- steady rhythm, kindnesses received warmly, no jarring notes
+welf_day_burstOFF_083: PASS -- rest after soup at 08:00 slight oddity but plausible, sane overall
+welf_day_burstOFF_084: PASS -- even-keeled, mock brushed off, soup at 20:27 late but acceptable
+welf_day_burstOFF_085: PASS -- two mocks absorbed without reaction, fits profile well
+welf_day_burstOFF_086: PASS -- no rest period logged but settles at ease repeatedly, sane day
+welf_day_burstOFF_087: PASS -- boredom spikes resolved, no supper noted but not absurd
+welf_day_burstOFF_088: PASS -- sane pacing, kindnesses welcomed, composed throughout
+welf_day_burstOFF_089: PASS -- many kindnesses, public mock absorbed, restless cycles natural
+welf_day_burstOFF_090: PASS -- slight edge late evening fits idleness, wakes recovered

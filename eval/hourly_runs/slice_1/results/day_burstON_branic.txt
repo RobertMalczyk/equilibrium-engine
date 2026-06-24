@@ -1,0 +1,10 @@
+branic_day_burstON_011: PASS -- calm day builds to late tension, snap at midnight fits
+branic_day_burstON_012: PASS -- multiple barbs absorbed early, mild tension late, sane arc
+branic_day_burstON_013: PASS -- accumulated barbs culminate in evening eruption, recovers after
+branic_day_burstON_014: FLAG -- sleeps past midnight at 00:06, unusually late for this character
+branic_day_burstON_015: PASS -- tension builds through late orders, stays controlled, sleeps fine
+branic_day_burstON_016: PASS -- well-fed day, tension rises in evening, resolves before sleep
+branic_day_burstON_017: PASS -- three stranger kindnesses in quick succession slightly dense but not absurd
+branic_day_burstON_018: PASS -- wound tight by 20:03, settles before midnight, clean arc
+branic_day_burstON_019: PASS -- sustained mockery absorbed all day, tension builds gradually, clean sleep
+branic_day_burstON_020: FLAG -- sleeps past midnight at 00:24, pattern of very late sleep onset

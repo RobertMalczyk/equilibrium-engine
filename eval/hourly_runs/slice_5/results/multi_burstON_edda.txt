@@ -1,0 +1,10 @@
+edda_multi_burstON_051: PASS -- settled days, sane pacing, ignores barb, no issues
+edda_multi_burstON_052: PASS -- escalating refusals to repeated orders, composure holds
+edda_multi_burstON_053: PASS -- steady, well-fed, mockery ignored, normal rhythm
+edda_multi_burstON_054: PASS -- two afternoon rests fine, barb let pass, calm throughout
+edda_multi_burstON_055: PASS -- dense kindnesses day 3, consistent warm response, no contradiction
+edda_multi_burstON_056: PASS -- back-to-back orders prompt grumble, resolves quickly
+edda_multi_burstON_057: PASS -- busy day 3 with many kindnesses, declines one order, fine
+edda_multi_burstON_058: PASS -- outright refusal after prior pattern of declining, coherent
+edda_multi_burstON_059: PASS -- double rest minor, order responses vary appropriately
+edda_multi_burstON_060: PASS -- equanimity under repeated orders, two rests reasonable

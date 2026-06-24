@@ -1,0 +1,10 @@
+edda_day_burstON_071: PASS -- calm day, appropriate warmth, sane pacing
+edda_day_burstON_072: PASS -- steady day, composed response to stranger's order
+edda_day_burstON_073: PASS -- lets mock pass without reaction, fits her composure
+edda_day_burstON_074: PASS -- ignores barb early, settled throughout, coherent
+edda_day_burstON_075: PASS -- busy day, warmth to helpers, sane rhythm
+edda_day_burstON_076: PASS -- quiet day, appropriate warmth, nothing jars
+edda_day_burstON_077: PASS -- double rest entry minor but not absurd, coherent
+edda_day_burstON_078: PASS -- stranger orders her, lets it pass, fits profile
+edda_day_burstON_079: PASS -- complies with stranger order once, credible variation
+edda_day_burstON_080: PASS -- two soups close together, otherwise settled and sane

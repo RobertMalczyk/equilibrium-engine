@@ -1,0 +1,10 @@
+lutek_multi_burstON_071: PASS -- sane restless-busy cycle, mockery absorbed, sleeps well
+lutek_multi_burstON_072: PASS -- flat soup response minor, morning tension plausible
+lutek_multi_burstON_073: PASS -- consistent multi-day rhythm, tension resolves with care
+lutek_multi_burstON_074: PASS -- dense kindness cluster odd but not breaking
+lutek_multi_burstON_075: PASS -- clean pacing, edges resolve, mockery absorbed
+lutek_multi_burstON_076: FLAG -- extended Day 1 evening tension; stranger kindness ignored
+lutek_multi_burstON_077: PASS -- second-bowl flat response plausible, overall sane
+lutek_multi_burstON_078: PASS -- tension rises evening, resolves with food and kindness
+lutek_multi_burstON_079: FLAG -- kindness ignored twice while tense, atypical for warm character
+lutek_multi_burstON_080: PASS -- recurring evening tension pattern resolves consistently

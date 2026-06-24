@@ -1,0 +1,10 @@
+edda_multi_burstOFF_061: PASS -- composed, well-fed, sane pacing across 4 days
+edda_multi_burstOFF_062: PASS -- quiet but believable calm stretch for a composed castellan
+edda_multi_burstOFF_063: PASS -- sociable days, one refusal fits authority; sane 6 days
+edda_multi_burstOFF_064: PASS -- busy Day 5 cluster fine; one compliance slightly jarring
+edda_multi_burstOFF_065: PASS -- mild irritation on second order; quiet days follow
+edda_multi_burstOFF_066: PASS -- refusal while resting fits authority; curt reply proportionate
+edda_multi_burstOFF_067: PASS -- composed under mocks, declines order, sane 6 days
+edda_multi_burstOFF_068: PASS -- complaint at stranger order; warm with staff; sane
+edda_multi_burstOFF_069: FLAG -- Day 4 neutral pass at kindness; expected warmth not indifference
+edda_multi_burstOFF_070: PASS -- steady composed arc; lets orders pass; sane 6 days

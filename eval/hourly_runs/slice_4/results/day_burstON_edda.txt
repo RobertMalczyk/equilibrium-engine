@@ -1,0 +1,10 @@
+edda_day_burstON_041: PASS -- calm day, minor complaint at stranger, fits profile
+edda_day_burstON_042: PASS -- escalating stranger friction, cold contempt at end, coherent
+edda_day_burstON_043: PASS -- steady day, complies once with stranger, sane pacing
+edda_day_burstON_044: PASS -- repeated mocks erode composure slightly, recovers, believable
+edda_day_burstON_045: PASS -- many kindnesses, warm throughout, no friction, sane day
+edda_day_burstON_046: PASS -- two soups in six minutes odd but not disqualifying
+edda_day_burstON_047: PASS -- quiet day, lets stranger order pass, composed throughout
+edda_day_burstON_048: PASS -- uneventful, settled all day, clean pacing
+edda_day_burstON_049: PASS -- rests twice in two minutes, slight oddity, overall sane
+edda_day_burstON_050: PASS -- refuses late-night stranger order, fits authority profile

@@ -1,0 +1,10 @@
+welf_multi_burstON_041: PASS -- calm merchant, boredom cycles, mocks let pass, sane pacing
+welf_multi_burstON_042: PASS -- multi-day wear builds tension; sleep resets; all plausible
+welf_multi_burstON_043: PASS -- tense spell resolves; mocks let pass; kindnesses warmly received
+welf_multi_burstON_044: PASS -- rain days add wear; tense mornings settle with soup; sane
+welf_multi_burstON_045: PASS -- rain day handled calmly; tense mornings; no outburst; fits profile
+welf_multi_burstON_046: PASS -- late-night restlessness; tense mornings; recovers each day; sane
+welf_multi_burstON_047: PASS -- fitful late Day 4 but plausible for restless stranded man
+welf_multi_burstON_048: PASS -- Day 4 outburst after 3-day rain/boredom build; recovers; sane
+welf_multi_burstON_049: PASS -- mocks let pass across rainy days; no outburst; patient profile fits
+welf_multi_burstON_050: PASS -- Day 6 snap plausible after six days; post-burst flat kindness minor

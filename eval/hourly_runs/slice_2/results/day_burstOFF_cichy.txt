@@ -1,0 +1,10 @@
+cichy_day_burstOFF_021: PASS -- two guard provocations escalate coherently, settles before sleep
+cichy_day_burstOFF_022: PASS -- moderate provocation, sane pacing, fits resentful captive
+cichy_day_burstOFF_023: PASS -- fury spike followed by quick calm; plausible for volatile man
+cichy_day_burstOFF_024: PASS -- public humiliation triggers fury, day pacing sane
+cichy_day_burstOFF_025: PASS -- three outbursts each triggered; high provocation day, fits profile
+cichy_day_burstOFF_026: PASS -- quiet unprovoked day, boredom cycles, sane
+cichy_day_burstOFF_027: PASS -- moderate snap at late provocation, appropriate tension level
+cichy_day_burstOFF_028: PASS -- gradual escalation to fury on public mockery, coherent
+cichy_day_burstOFF_029: PASS -- fury just after waking is abrupt but fits hair-trigger captive
+cichy_day_burstOFF_030: PASS -- tension builds through evening, mock triggers fury, sane arc

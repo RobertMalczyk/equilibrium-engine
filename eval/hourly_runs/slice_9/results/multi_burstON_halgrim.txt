@@ -1,0 +1,10 @@
+halgrim_multi_burstON_091: PASS -- tension builds day by day, sleep resets, fits Halgrim
+halgrim_multi_burstON_092: PASS -- calm baseline, one Wojslaw refusal when primed, clean
+halgrim_multi_burstON_093: PASS -- multi-day rain and Wojslaw erosion, credible spillover
+halgrim_multi_burstON_094: PASS -- Wojslaw rebuffed twice day 1, days 2-4 calm and settled
+halgrim_multi_burstON_095: PASS -- mild grumble spillover onto Edda plausible after Wojslaw
+halgrim_multi_burstON_096: PASS -- rain day 5 triggers edge, prior days clean baseline
+halgrim_multi_burstON_097: PASS -- Marta soup no reaction at peak saturation is plausible
+halgrim_multi_burstON_098: PASS -- quiet run, rain day 1 minor edge, days 2-3 settled
+halgrim_multi_burstON_099: PASS -- wound tight evening day 1, Marta curtness at peak, resets
+halgrim_multi_burstON_100: PASS -- very quiet run, no heavy provocation, consistently calm

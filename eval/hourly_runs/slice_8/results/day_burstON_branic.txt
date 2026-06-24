@@ -1,0 +1,10 @@
+branic_day_burstON_081: PASS -- Restless recruit, escalates to tense at night, sleeps normally.
+branic_day_burstON_082: PASS -- Builds tension through day, snaps at Halgrim late; believable arc.
+branic_day_burstON_083: PASS -- Quiet day, mild tension at night, no incidents; sane pacing.
+branic_day_burstON_084: PASS -- Three mocks accumulate, erupts at 19:25; recovers, sleeps fine.
+branic_day_burstON_085: FLAG -- Snaps angrily when Halgrim offers a kindness; odd trigger for flare-up.
+branic_day_burstON_086: PASS -- Good-natured day sours late, erupts at Halgrim's barb at 22:02.
+branic_day_burstON_087: PASS -- Supported day, stays calm; tense late but no outburst; sleeps well.
+branic_day_burstON_088: PASS -- Calm, well-fed day; mild evening tension but no incident; sane.
+branic_day_burstON_089: PASS -- Tension builds through evening; snaps at Halgrim's late barb; recovers.
+branic_day_burstON_090: PASS -- Mock at 17:34 absorbed; tension rises but holds; no outburst; sane.

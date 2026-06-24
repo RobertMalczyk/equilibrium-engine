@@ -11,7 +11,7 @@ initial_overrides:
 events:
 - type: help
   t: 68
-  source: marta
+  source: player
   intensity: 0.446
   context: {}
 - type: food_given
@@ -29,7 +29,7 @@ events:
     public: false
 - type: help
   t: 166
-  source: halgrim
+  source: marta
   intensity: 0.828
   context: {}
 - type: command
@@ -58,7 +58,7 @@ events:
     public: false
 - type: help
   t: 395
-  source: halgrim
+  source: marta
   intensity: 0.87
   context: {}
 - type: food_given

@@ -1,0 +1,10 @@
+cichy_day_burstON_071: PASS -- tense day, mocks get graduated responses, recovers overnight
+cichy_day_burstON_072: PASS -- accumulated tension leads to fury eruption, plausible arc
+cichy_day_burstON_073: PASS -- early snap then sustained simmer, no second incident needed
+cichy_day_burstON_074: PASS -- stacked mock after soup tips him to fury, believable escalation
+cichy_day_burstON_075: PASS -- low-event day, tension builds organically, sleeps still on edge
+cichy_day_burstON_076: PASS -- quiet day, mild tension rise, no outburst, believable prisoner lull
+cichy_day_burstON_077: PASS -- guard resentment intact; stranger warmth fits profile correctly
+cichy_day_burstON_078: PASS -- dawn bristle moderate, day sane, stranger neutral reception fine
+cichy_day_burstON_079: PASS -- stranger warmth fits; guard mock gets only bristle, tension moderate
+cichy_day_burstON_080: FLAG -- fury at 11:37 then settled-at-ease by 12:01, recovery too fast

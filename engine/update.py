@@ -115,8 +115,8 @@ def compute(
         gx = gains.get(x, {})
         gmx = gain_modulators.get(x, {})
         for ch in sorted(gx):
-            si = eff.get(ch)
-            if si is not None:
+            sis = eff.get(ch)
+            if sis:
                 m = gmx.get(ch)
                 # mod = 1 + k*(trait - ref), clamped >=0 (a gain can't flip sign); absent edge = identity.
                 mod = (
@@ -124,7 +124,11 @@ def compute(
                     if m
                     else 1.0
                 )
-                new += gx[ch] * mod * si.value
+                # M-MEM: a channel may carry MULTIPLE inputs in one tick (several sources firing the same
+                # channel) -- sum their deposits (event order, deterministic). A single input reduces to the
+                # exact prior product, so a <=1-event tick is byte-identical.
+                for si in sis:
+                    new += gx[ch] * mod * si.value
 
         cx = couplings.get(x, {})
         ex = escalation.get(x, {})
@@ -161,7 +165,9 @@ def compute(
     # insult starts a real grudge -- iterate the union of seeded rows and this tick's relational
     # sources (sorted: deterministic). A fresh source's row starts at the neutral 0-vector.
     rel_gains = gains.get("relations", {})
-    event_sources = {si.source for si in eff.values() if si.source is not None}
+    event_sources = {
+        si.source for sis in eff.values() for si in sis if si.source is not None
+    }
     delta_relations: dict[str, dict[str, float]] = {}
     for src in sorted(set(snapshot.relations) | event_sources):
         row = snapshot.relations.get(src, {})
@@ -173,9 +179,10 @@ def compute(
             new = decay[dim] * old + (1.0 - decay[dim]) * config.setpoints.get(dim, 0.0)
             dim_gains = rel_gains.get(dim, {})
             for ch in sorted(dim_gains):
-                si = eff.get(ch)
-                if si is not None and si.source == src:
-                    new += dim_gains[ch] * si.value
+                # M-MEM: sum every input on this channel whose source is `src` (multi-source same tick).
+                for si in eff.get(ch, ()):
+                    if si.source == src:
+                        new += dim_gains[ch] * si.value
             d = new - old
             if d != 0.0:
                 out_row[dim] = d

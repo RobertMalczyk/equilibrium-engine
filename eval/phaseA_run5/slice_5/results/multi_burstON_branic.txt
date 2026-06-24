@@ -1,0 +1,10 @@
+branic_multi_burstON_051: PASS -- calm days, Day 3 eruption after public mock credible
+branic_multi_burstON_052: PASS -- rain and double-mock tension, refusal arc coherent
+branic_multi_burstON_053: PASS -- carryover edginess across rain days plausible
+branic_multi_burstON_054: PASS -- escalating burst on rain+provocation days believable
+branic_multi_burstON_055: PASS -- sustained burst escalation across days fits profile
+branic_multi_burstON_056: PASS -- Day 3 mock escalation arc from let-pass to eruption
+branic_multi_burstON_057: PASS -- calm Day 2 then Day 3 build to eruption is coherent
+branic_multi_burstON_058: PASS -- heavy burst saturation sustained across five days
+branic_multi_burstON_059: FLAG -- Day 2 "still hasn't shaken off" with no Day 1 eruption
+branic_multi_burstON_060: PASS -- Day 5 early eruption and rain carryover believable

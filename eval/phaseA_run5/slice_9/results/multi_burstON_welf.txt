@@ -1,0 +1,10 @@
+welf_multi_burstON_091: PASS -- steady man, boredom cycles, mocks shrugged off, sane pacing
+welf_multi_burstON_092: PASS -- calm days, boredom rises and resolves, kindnesses welcomed
+welf_multi_burstON_093: PASS -- even-keeled, barbed remarks let pass, restlessness managed well
+welf_multi_burstON_094: PASS -- composed across six days, warmth at kindnesses, no jarring spikes
+welf_multi_burstON_095: PASS -- rain wears him down, snaps once after accumulation, recovers
+welf_multi_burstON_096: PASS -- three steady days, boredom cycles, mild evening tension normal
+welf_multi_burstON_097: PASS -- rain day builds tension, one snap plausible, otherwise composed
+welf_multi_burstON_098: PASS -- rain stressor, residual temper next morning, then recovery credible
+welf_multi_burstON_099: PASS -- late sleep on day 3/4 boundary odd but overall sane arc
+welf_multi_burstON_100: PASS -- steady rhythm, rain day adds edge, recovers cleanly each morning

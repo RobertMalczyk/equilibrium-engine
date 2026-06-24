@@ -1,0 +1,10 @@
+edda_multi_burstON_071: PASS -- steady castellan, regular meals, calm authority intact
+edda_multi_burstON_072: PASS -- sane pacing, warmth to kindnesses, composed under mockery
+edda_multi_burstON_073: PASS -- consistent composure over five days, appropriate warm responses
+edda_multi_burstON_074: PASS -- brief evening tension resolves credibly, authority holds throughout
+edda_multi_burstON_075: PASS -- settled and warmly responsive, commands her domain as expected
+edda_multi_burstON_076: FLAG -- Day 3 repeated stranger-orders refused in cluster; escalation lacks clear trigger
+edda_multi_burstON_077: PASS -- calm multi-day run, warmth to staff, authority exercised regularly
+edda_multi_burstON_078: PASS -- composed across five days, handles mockery and orders without disruption
+edda_multi_burstON_079: PASS -- mild complaint on Day 3 morning plausible, overall steady
+edda_multi_burstON_080: PASS -- well-fed, warmly social, composed under late mockery

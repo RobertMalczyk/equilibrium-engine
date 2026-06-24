@@ -1,0 +1,10 @@
+lutek_day_burstOFF_011: PASS -- restless cycle, mockery shrugged off, sleeps normally
+lutek_day_burstOFF_012: PASS -- steady boredom-seek loop, wakes early and resumes
+lutek_day_burstOFF_013: PASS -- good pacing, kindness warms him, slight tension dissolves
+lutek_day_burstOFF_014: PASS -- two soups close together odd but not jarring, sane day
+lutek_day_burstOFF_015: PASS -- mock ignored, tension eases with kindness, late sleep fine
+lutek_day_burstOFF_016: PASS -- public mock shrugged off, evening tension resolves, clean
+lutek_day_burstOFF_017: PASS -- tension at 18:03 brief, kindness lifts it, late sleep fine
+lutek_day_burstOFF_018: PASS -- many small kindnesses, no tension buildup, sane and warm
+lutek_day_burstOFF_019: PASS -- brief tension mid-evening, rest and kindness resolve it
+lutek_day_burstOFF_020: PASS -- calm settled day, boredom cycles normal, clean sleep

@@ -1,0 +1,10 @@
+branic_multi_burstOFF_081: PASS -- steady rhythm, snaps at late barb, recovers well
+branic_multi_burstOFF_082: PASS -- fury after triple mockery, next-day defiance plausible
+branic_multi_burstOFF_083: PASS -- gradual accumulation, eruptions spaced believably
+branic_multi_burstOFF_084: PASS -- positive day buffers tension, clean pacing
+branic_multi_burstOFF_085: PASS -- repeated refusals Day 5 border plausible given Day 4 eruption
+branic_multi_burstOFF_086: PASS -- escalation across days, eruption then recovery fits
+branic_multi_burstOFF_087: PASS -- rain days add wear, temper arc consistent
+branic_multi_burstOFF_088: PASS -- unusually calm stretch, no contradiction with profile
+branic_multi_burstOFF_089: PASS -- positive Day 4, accumulated refusals Day 6 believable
+branic_multi_burstOFF_090: PASS -- morning snap after tense night, settles with rain and food

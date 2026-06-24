@@ -1,0 +1,10 @@
+cichy_day_burstON_081: PASS -- tension builds naturally, snaps at mock, sleeps and recovers
+cichy_day_burstON_082: PASS -- quiet day, baseline tension rises without overt cause, sane
+cichy_day_burstON_083: PASS -- two mocks escalate response across evening, believable arc
+cichy_day_burstON_084: PASS -- progressive escalation across three mocks, snaps on third
+cichy_day_burstON_085: PASS -- unprovoked quiet day, curt to guards only, sane baseline
+cichy_day_burstON_086: PASS -- afternoon tension, curt to mock, eases by evening, sane
+cichy_day_burstON_087: PASS -- snaps at morning mock; captive hair-trigger is plausible
+cichy_day_burstON_088: PASS -- stranger warmth, cold curtness to guard mock, believable
+cichy_day_burstON_089: FLAG -- full fury outburst at 06:54 with no prior tension buildup
+cichy_day_burstON_090: FLAG -- day ends at 22:04 tense with no explicit sleep transition

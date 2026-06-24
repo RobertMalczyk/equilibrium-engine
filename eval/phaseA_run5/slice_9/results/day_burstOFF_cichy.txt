@@ -1,0 +1,10 @@
+cichy_day_burstOFF_091: PASS -- calm day, mild afternoon tension, guard soup met curtly; coherent
+cichy_day_burstOFF_092: PASS -- restlessness, guard soup curtly received, evening wind-down; sane
+cichy_day_burstOFF_093: PASS -- escalating guard mockery drives anger; soup at anger peak met bristling; fits
+cichy_day_burstOFF_094: PASS -- erupts at public mockery, settles after; evening soup accepted; coherent
+cichy_day_burstOFF_095: PASS -- quiet day, both guard soups accepted placidly; no provocations; sane
+cichy_day_burstOFF_096: PASS -- soup curtly received at tension peak, no provocations; plausible
+cichy_day_burstOFF_097: PASS -- erupts at mockery, curt at later soup, settles by evening; coherent
+cichy_day_burstOFF_098: PASS -- stranger kindness accepted warmly; guard mockery triggers fury; fits profile
+cichy_day_burstOFF_099: PASS -- stranger kindness accepted; guard soups taken without fuss; sane quiet day
+cichy_day_burstOFF_100: PASS -- early snap, later full fury at two quick taunts; evening recovery; coherent

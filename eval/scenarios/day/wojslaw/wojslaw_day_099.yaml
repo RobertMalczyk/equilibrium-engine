@@ -81,10 +81,10 @@ events:
   context: {}
 - type: insult
   t: 493
-  source: marta
-  intensity: 0.315
+  source: player
+  intensity: 0.617
   context:
-    public: false
+    public: true
 - type: nightfall
   t: 508
   intensity: 1.0

@@ -1,0 +1,10 @@
+welf_day_burstOFF_021: PASS -- steady cycle, boredom/rest/kindness rhythm believable
+welf_day_burstOFF_022: PASS -- tense edge at 18:03 resolves; late restlessness fits
+welf_day_burstOFF_023: PASS -- mild tension before sleep, no aggression, sane pacing
+welf_day_burstOFF_024: PASS -- brushes off mockery as expected; calm throughout
+welf_day_burstOFF_025: PASS -- slight edge late evening, recovers; consistent with profile
+welf_day_burstOFF_026: PASS -- multiple kindnesses land warmly; rests and stirs naturally
+welf_day_burstOFF_027: PASS -- tension near midnight eased by kindness; sleeps settled
+welf_day_burstOFF_028: PASS -- tension mid-evening, resolves cleanly; pacing sane
+welf_day_burstOFF_029: PASS -- mock brushed off early, no carry-over; calm day
+welf_day_burstOFF_030: PASS -- well-fed, even-keeled day; sleeps just after kindness

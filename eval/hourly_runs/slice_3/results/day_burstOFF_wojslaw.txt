@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_031: PASS -- outbursts triggered by clear provocations, sane arc
+wojslaw_day_burstOFF_032: PASS -- single outburst, calm day otherwise, believable
+wojslaw_day_burstOFF_033: PASS -- three eruptions, each provoked; fits short-tempered profile
+wojslaw_day_burstOFF_034: PASS -- milder day, mocks draw bristling not fury; acceptable
+wojslaw_day_burstOFF_035: PASS -- goodwill buffers early mock; evening eruption and snap coherent
+wojslaw_day_burstOFF_036: PASS -- escalating refusals under repeated orders; fits prickly noble
+wojslaw_day_burstOFF_037: FLAG -- public mock at 20:39 passes with no reaction; uncharacteristic
+wojslaw_day_burstOFF_038: PASS -- warmth buffers morning, outbursts triggered by later mocks
+wojslaw_day_burstOFF_039: PASS -- two snaps at distinct mocks, warms to kindness; sane
+wojslaw_day_burstOFF_040: PASS -- morning warmth buffers early mock; evening arc coherent

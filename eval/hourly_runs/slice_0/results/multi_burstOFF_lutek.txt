@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_001: PASS -- steady boredom cycles, mocks roll off, clean sleep
+lutek_multi_burstOFF_002: PASS -- brief tension fades without cause, otherwise sane pacing
+lutek_multi_burstOFF_003: PASS -- double soup four minutes apart mechanical but not absurd
+lutek_multi_burstOFF_004: PASS -- three mocks all let pass, fits thick-skinned profile
+lutek_multi_burstOFF_005: PASS -- six days, tension spikes brief and self-resolving, fine
+lutek_multi_burstOFF_006: PASS -- one muted soup response, isolated, easy temperament fits
+lutek_multi_burstOFF_007: PASS -- early-morning tension clears with food, boredom cycles healthy
+lutek_multi_burstOFF_008: PASS -- one muted soup response Day 3, otherwise clean three days
+lutek_multi_burstOFF_009: PASS -- muted soup after already eating plausible, pacing sane
+lutek_multi_burstOFF_010: PASS -- two soups two minutes apart redundant but not absurd

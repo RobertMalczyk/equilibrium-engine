@@ -1,0 +1,10 @@
+cichy_day_burstON_051: PASS -- calm morning, tension builds, curt to guards, clean arc
+cichy_day_burstON_052: PASS -- mock then restless then settled, meals curt, sane
+cichy_day_burstON_053: PASS -- mock raises bristle, no full escalation, tension fluctuates
+cichy_day_burstON_054: PASS -- morning mock curt, second mock colder, natural escalation
+cichy_day_burstON_055: PASS -- stranger warmly received, guards still get curtness, consistent
+cichy_day_burstON_056: PASS -- three evening mocks, sustained tension, responses proportionate
+cichy_day_burstON_057: PASS -- two mocks, curt both times, tension eases late, sane
+cichy_day_burstON_058: PASS -- wound tight all day, fury at stranger is displaced aggression
+cichy_day_burstON_059: PASS -- escalating responses track tension level across three mocks
+cichy_day_burstON_060: PASS -- stranger kindness neutral, calm morning to tense afternoon, clean

@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_071: PASS -- steady restless-seek cycle, sleeps well, mockery ignored
+lutek_multi_burstOFF_072: PASS -- flat soup response day 2 odd but not impossible
+lutek_multi_burstOFF_073: PASS -- clean multi-day rhythm, mockery rolls off throughout
+lutek_multi_burstOFF_074: PASS -- six days consistent, mild tension resolves each time
+lutek_multi_burstOFF_075: PASS -- early-morning tension day 3 plausible, kindnesses land
+lutek_multi_burstOFF_076: PASS -- one flat-kindness response minor, overall sane pacing
+lutek_multi_burstOFF_077: PASS -- flat soup response when saturated, rhythm otherwise good
+lutek_multi_burstOFF_078: PASS -- late nights fit restless poet, tension resolves cleanly
+lutek_multi_burstOFF_079: PASS -- muted kindness responses while tense are defensible
+lutek_multi_burstOFF_080: PASS -- late nights recur, tension arcs resolve consistently

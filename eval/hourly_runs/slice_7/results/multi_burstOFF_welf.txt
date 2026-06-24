@@ -1,0 +1,10 @@
+welf_multi_burstOFF_071: PASS -- steady 6-day rhythm, rain handled quietly, mocks let pass
+welf_multi_burstOFF_072: PASS -- dense kindnesses Day 1 but stays sane; late sleep acceptable
+welf_multi_burstOFF_073: PASS -- flat response to soup once, minor; overall arc sane
+welf_multi_burstOFF_074: PASS -- rain and two mocks handled in stride, fits profile
+welf_multi_burstOFF_075: PASS -- well-fed, mostly settled, restlessness cycles believable
+welf_multi_burstOFF_076: PASS -- flat to kindness once, not jarring; rain days handled well
+welf_multi_burstOFF_077: PASS -- two mocks Day 1 let pass, tense evening plausible
+welf_multi_burstOFF_078: PASS -- consecutive tense mornings settle normally, sane pacing
+welf_multi_burstOFF_079: PASS -- past-midnight sleep Day 3, consecutive tense mornings plausible
+welf_multi_burstOFF_080: PASS -- tense mornings recover cleanly, all events handled in character

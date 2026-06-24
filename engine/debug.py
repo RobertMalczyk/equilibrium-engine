@@ -83,17 +83,22 @@ def _event_dict(ev: Optional[RawEvent]) -> Optional[dict]:
     }
 
 
-def _inputs_dict(eff: EffectiveInputVector) -> dict[str, dict]:
-    out: dict[str, dict] = {}
+def _inputs_dict(eff: EffectiveInputVector) -> dict[str, object]:
+    out: dict[str, object] = {}
     for name in sorted(eff):
-        si = eff[name]
-        out[name] = {
-            "value": _round(si.value),
-            "cls": si.cls.value,
-            "source": si.source,
-            "target": si.target,
-            "polarity": si.polarity.value,
-        }
+        dicts = [
+            {
+                "value": _round(si.value),
+                "cls": si.cls.value,
+                "source": si.source,
+                "target": si.target,
+                "polarity": si.polarity.value,
+            }
+            for si in eff[name]
+        ]
+        # M-MEM: a channel carrying ONE input serializes as the bare object (byte-identical with pre-M-MEM
+        # traces); SEVERAL inputs (multi-source tick) serialize as a list. Channels always have >=1 input.
+        out[name] = dicts[0] if len(dicts) == 1 else dicts
     return out
 
 

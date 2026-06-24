@@ -1,0 +1,10 @@
+branic_multi_burstON_001: PASS -- calm paced days, tension rises naturally by evening
+branic_multi_burstON_002: PASS -- Day 1 burst after buildup, residual temper clears overnight
+branic_multi_burstON_003: PASS -- believable multi-day escalation under repeated provocations
+branic_multi_burstON_004: PASS -- two Day 4 eruptions follow readable cause chain
+branic_multi_burstON_005: PASS -- heavy orders but no eruption; plausible under burst-ON
+branic_multi_burstON_006: PASS -- evening burst Day 1, next-morning carry-over reads true
+branic_multi_burstON_007: PASS -- two eruptions 36 min apart borderline but rain stress supports it
+branic_multi_burstON_008: PASS -- erupts at order not mock; soup-cluster odd but not jarring
+branic_multi_burstON_009: PASS -- erupts at order after wound-tight evening; recovers cleanly
+branic_multi_burstON_010: PASS -- past-midnight sleep oddity harmless; friction arc coherent

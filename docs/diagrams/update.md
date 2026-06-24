@@ -10,12 +10,20 @@
 > - **No clamp here.** `update` emits a raw additive `delta = new − old`; clamping happens at commit
 >   (tick step 5), not inside this member.
 > - **Sparse, declared wiring.** Only the listed coupling edges exist; everything else = 0 (neutral default).
+> - **Continuous-time discretization (spec §2.1).** This member consumes ready *per-tick* coefficients;
+>   all `Ts`-conversion happens in the loader. Per term: the leak `decay·old + (1−decay)·setpoint` is the
+>   **exact** leak (`decay = 2^(−Ts/τ)`); `drifts`, `couplings`, `burst_extinction`, `idle_recovery`, and
+>   per-tick action effects are **continuous rates** (loader supplies `rate_per_second · Ts`); event-channel
+>   gains are **impulses** (invariant, applied once); `k_esc`/thresholds/clamps are **dimensionless**
+>   (invariant). So `dt` is a resolution knob: change it and these terms still represent the same real-time
+>   dynamics (leak exact; rate terms Euler, `O(Ts)`).
 
 ## Member inputs / outputs
 
 ```
 IN:  snapshot{global_state, relations, mode}   <- freeze (step 1, FROZEN)
-     eff: EffectiveInputVector                 <- filters (M4); absent => no input terms
+     eff: EffectiveInputVector                 <- filters (M4), MERGED across the tick's events (M-MEM):
+                                               #  channel -> LIST of inputs; absent => no input terms
      derived_pre                               <- M5 (currently unused by the equations; reserved)
      config{decay, drifts, setpoints, gains, gain_modulators, couplings, action_params, idle_recovery, traits}
      active_action                             <- runtime (for BUSY per-tick effects)
@@ -30,7 +38,9 @@ for each GLOBAL state x:                 # one generic integrator, 8 instances
     new = decay[x]·old                   # keep most of the old value (low-pass / memory)
         + (1−decay[x])·setpoint(x)       # pull toward the rest level (emotions: 0; self_control: base)
         + drift(x)                       # accumulators rise on their own: hunger, fatigue, boredom*
-        + Σ gain[x][ch]·mod[x][ch]·eff[ch].value   # gated external inputs; mod = trait modulator (default 1)
+        + Σ_ch gain[x][ch]·mod[x][ch]·Σ_i eff[ch][i].value  # gated external inputs; mod = trait modulator
+                                         #   (default 1). M-MEM: SUM over the channel's inputs (multi-source
+                                         #   tick); one input reduces to the prior single product (byte-identical)
         + Σ coupling[x][y]·snapshot[y]   # sparse state->state, read from the FROZEN snapshot
         + (mode∈{BUSY,SEEKING}) per_tick[x]   # BUSY=engaged activity relief (boredom×engaged_novelty;
                                          #   self_activity stress−/external+); SEEKING=seek cost (+frustr). M7 S2

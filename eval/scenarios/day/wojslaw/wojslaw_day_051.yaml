@@ -23,7 +23,7 @@ events:
 - type: insult
   t: 108
   source: player
-  intensity: 0.621
+  intensity: 0.323
   context:
     public: false
 - type: food_given

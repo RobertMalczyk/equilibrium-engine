@@ -1,0 +1,10 @@
+branic_multi_burstON_071: PASS -- steady rhythm, refusals build plausibly, no blowup needed
+branic_multi_burstON_072: PASS -- snap then fury then recovery arc across days believable
+branic_multi_burstON_073: PASS -- calm days build to eruption, wakes recovered each morning
+branic_multi_burstON_074: PASS -- two burst days leave heavy defiance; strained but coherent
+branic_multi_burstON_075: PASS -- six benign days, no blowup; mild kindness-rich stimulus run
+branic_multi_burstON_076: PASS -- snaps Day 1, calm recovery, erupts Day 6 under rain and friction
+branic_multi_burstON_077: PASS -- rain plus friction escalates across days to refusals and snaps
+branic_multi_burstON_078: PASS -- four calm days, benign stimuli, no burst triggered
+branic_multi_burstON_079: PASS -- stranger-kindness cluster dense but pacing and arc sane
+branic_multi_burstON_080: PASS -- dawn eruption after waking tense; recovery and defiance follow

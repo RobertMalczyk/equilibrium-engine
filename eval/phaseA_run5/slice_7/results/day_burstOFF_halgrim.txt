@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_071: PASS -- Calm day, gracious responses, sleeps and wakes settled.
+halgrim_day_burstOFF_072: PASS -- Quiet uneventful day, even keel throughout, sane pacing.
+halgrim_day_burstOFF_073: PASS -- Late-day edge from friction, curt not explosive, fits profile.
+halgrim_day_burstOFF_074: PASS -- Wojsław pressure builds tension by evening, buttoned-down response.
+halgrim_day_burstOFF_075: PASS -- Steady, positive day, no friction, sane rhythms.
+halgrim_day_burstOFF_076: FLAG -- Tense at 14:02 after warmth and rest, no clear trigger.
+halgrim_day_burstOFF_077: PASS -- Warm generous day, soup late evening sits fine.
+halgrim_day_burstOFF_078: PASS -- Wojsław escalates, curt cold reply fits iron self-control profile.
+halgrim_day_burstOFF_079: PASS -- Quiet day, single provocation absorbed without reaction, sane.
+halgrim_day_burstOFF_080: PASS -- Sustained Wojsław mockery builds edge; stays cold not explosive.

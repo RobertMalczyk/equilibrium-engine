@@ -1,0 +1,10 @@
+welf_multi_burstON_051: PASS -- steady cycling, mock brushed off, plausible evening tension
+welf_multi_burstON_052: PASS -- rain plus accumulated tension clears with soup, sane arc
+welf_multi_burstON_053: PASS -- tension carries overnight, resolves through day, fits profile
+welf_multi_burstON_054: PASS -- rain day tension lingers despite kindnesses, believable wear
+welf_multi_burstON_055: PASS -- positive record, boredom cycles intact, sane multi-day
+welf_multi_burstON_056: PASS -- evening temper builds without meals, clears next morning
+welf_multi_burstON_057: PASS -- two soups back-to-back artifact minor, overall arc sane
+welf_multi_burstON_058: PASS -- three mocks absorbed composedly, cumulative wear plausible
+welf_multi_burstON_059: PASS -- double soup artifact minor, rain tension fades correctly
+welf_multi_burstON_060: PASS -- two mocks let pass, multi-day tension cycles sane

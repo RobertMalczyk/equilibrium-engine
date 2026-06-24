@@ -15,9 +15,9 @@ events:
 - type: insult
   t: 42
   source: player
-  intensity: 0.283
+  intensity: 0.704
   context:
-    public: false
+    public: true
 - type: food_given
   t: 63
   source: marta
@@ -64,10 +64,10 @@ events:
     public: false
 - type: insult
   t: 401
-  source: marta
-  intensity: 0.885
+  source: player
+  intensity: 0.951
   context:
-    public: false
+    public: true
 - type: help
   t: 498
   source: marta
@@ -76,39 +76,45 @@ events:
 - type: nightfall
   t: 508
   intensity: 1.0
+- type: insult
+  t: 731
+  source: player
+  intensity: 0.735
+  context:
+    public: false
 - type: help
   t: 736
   source: marta
-  intensity: 0.626
+  intensity: 0.699
   context: {}
 - type: help
   t: 750
   source: marta
-  intensity: 0.695
+  intensity: 1.0
   context: {}
 - type: food_given
-  t: 759
+  t: 761
   source: marta
   intensity: 1.0
   item: cabbage_soup
   context:
     public: false
 - type: food_given
-  t: 774
+  t: 771
   source: marta
   intensity: 1.0
   item: cabbage_soup
   context:
     public: false
 - type: food_given
-  t: 919
+  t: 937
   source: marta
   intensity: 1.0
   item: cabbage_soup
   context:
     public: false
 - type: food_given
-  t: 930
+  t: 951
   source: marta
   intensity: 1.0
   item: cabbage_soup
@@ -116,8 +122,8 @@ events:
     public: false
 - type: help
   t: 956
-  source: marta
-  intensity: 0.357
+  source: player
+  intensity: 0.626
   context: {}
 - type: help
   t: 957
@@ -126,30 +132,31 @@ events:
   context: {}
 - type: help
   t: 1000
-  source: player
-  intensity: 1.0
-  context: {}
-- type: insult
-  t: 1039
   source: marta
-  intensity: 0.787
+  intensity: 0.971
+  context: {}
+- type: help
+  t: 1055
+  source: player
+  intensity: 0.494
+  context: {}
+- type: food_given
+  t: 1097
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
   context:
     public: false
 - type: food_given
-  t: 1117
+  t: 1108
   source: marta
   intensity: 1.0
   item: cabbage_soup
   context:
     public: false
 - type: help
-  t: 1118
+  t: 1117
   source: marta
-  intensity: 0.494
-  context: {}
-- type: help
-  t: 1209
-  source: player
   intensity: 1.0
   context: {}
 - type: nightfall
@@ -180,7 +187,7 @@ events:
   context:
     has_authority: true
 - type: food_given
-  t: 1482
+  t: 1477
   source: marta
   intensity: 1.0
   item: cabbage_soup
@@ -188,8 +195,8 @@ events:
     public: false
 - type: insult
   t: 1517
-  source: marta
-  intensity: 0.461
+  source: player
+  intensity: 0.525
   context:
     public: true
 - type: command
@@ -205,7 +212,7 @@ events:
   context:
     has_authority: true
 - type: food_given
-  t: 1671
+  t: 1660
   source: marta
   intensity: 1.0
   item: cabbage_soup
@@ -228,6 +235,13 @@ events:
   intensity: 0.638
   context:
     has_authority: true
+- type: food_given
+  t: 1849
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
 - type: command
   t: 1868
   source: player
@@ -236,10 +250,10 @@ events:
     has_authority: true
 - type: insult
   t: 1901
-  source: marta
-  intensity: 0.464
+  source: player
+  intensity: 0.73
   context:
-    public: false
+    public: true
 - type: command
   t: 1925
   source: player

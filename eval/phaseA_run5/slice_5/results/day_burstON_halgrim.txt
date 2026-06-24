@@ -1,0 +1,10 @@
+halgrim_day_burstON_051: PASS -- steady day, curtness at late mock fits profile
+halgrim_day_burstON_052: PASS -- calm cooperative day, warmth to Marta consistent
+halgrim_day_burstON_053: PASS -- quiet day, mild edge passes quickly, fits veteran calm
+halgrim_day_burstON_054: PASS -- declines Wojsław, ignores later demands, even keel held
+halgrim_day_burstON_055: PASS -- public mock draws cold contempt, temper fades by evening
+halgrim_day_burstON_056: PASS -- complies with Edda, deflects Wojsław, settled throughout
+halgrim_day_burstON_057: PASS -- seething after two mocks, stranger kindness helps, recovers
+halgrim_day_burstON_058: PASS -- quiet day, curt cold reply to late-night mock, fits
+halgrim_day_burstON_059: PASS -- busy helpful morning, cold answer to mock, brief edge
+halgrim_day_burstON_060: PASS -- heavy duty load from Edda, calm held, cold to public mock

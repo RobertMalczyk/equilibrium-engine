@@ -1,0 +1,10 @@
+cichy_day_burstOFF_011: PASS -- calm morning, mock provokes fury, settles by evening
+cichy_day_burstOFF_012: PASS -- two mockings, two outbursts, tense but coherent arc
+cichy_day_burstOFF_013: PASS -- early snap, settles mid-day, tense evening, sane pacing
+cichy_day_burstOFF_014: PASS -- two guard mockings, two eruptions, stranger warmth fits
+cichy_day_burstOFF_015: PASS -- soup accepted neutrally, mocking triggers fury, recovers well
+cichy_day_burstOFF_016: PASS -- two late mockings, two eruptions, curtness after first fits
+cichy_day_burstOFF_017: PASS -- midday eruption, curt to guard after, stranger warmth fine
+cichy_day_burstOFF_018: PASS -- late mocking at 22:56 erupts just before sleep, believable
+cichy_day_burstOFF_019: PASS -- single snap at evening mock, settles without full eruption
+cichy_day_burstOFF_020: PASS -- curt reply to early mock, no full eruption, calm day

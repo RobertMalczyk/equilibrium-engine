@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equilibrium Engine — Believability Report</title>
+<style>
+  :root{--bg:#0e1116;--panel:#161b22;--panel2:#1c2230;--ink:#e6edf3;--muted:#9aa7b4;--line:#2a313c;
+    --accent:#6ea8fe;--good:#7ee787;--warn:#f0a675;--rel:#d2a8ff;--mono:"SFMono-Regular",Consolas,Menlo,monospace;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:28px 20px 80px}
+  h1{font-size:27px;margin:0 0 2px} h2{font-size:20px;margin:36px 0 12px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  h3{font-size:16px;margin:0}
+  .sub{color:var(--muted);margin:0 0 16px} code,.mono{font-family:var(--mono)}
+  a{color:var(--accent)}
+  .head{display:flex;flex-wrap:wrap;gap:22px;align-items:center;background:linear-gradient(180deg,#172033,#141a24);
+    border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:8px 0 6px}
+  .big{font-size:44px;font-weight:700;letter-spacing:-1px}
+  .big .from{color:var(--muted);font-size:26px;font-weight:500}
+  .big .to{color:var(--good)}
+  .delta{color:var(--good);font-family:var(--mono)}
+  .warn{background:#2a2410;border:1px solid #5c4d12;color:#f5d76e;padding:9px 13px;border-radius:8px;margin:12px 0;font-size:13.5px}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13.5px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+  th{color:var(--muted);font-weight:600;font-size:12px} tr:hover td{background:var(--panel2)}
+  .rate{font-family:var(--mono)} .pass{font-family:var(--mono);color:var(--accent)}
+  .bar{height:9px;border-radius:5px;background:var(--panel2);overflow:hidden;min-width:120px}
+  .bar > i{display:block;height:100%;background:linear-gradient(90deg,#3b6,#7ee787)}
+  tr.gate td{background:rgba(110,168,254,.08)} tr.final td{background:rgba(126,231,135,.08)}
+  .tag{font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 8px;white-space:nowrap}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:10px 0;overflow:hidden}
+  .card>summary{padding:13px 16px;cursor:pointer;display:flex;justify-content:space-between;gap:10px;align-items:center;list-style:none}
+  .card>summary::-webkit-details-marker{display:none}
+  .card>summary:hover{background:var(--panel2)}
+  .card[open]>summary{border-bottom:1px solid var(--line)}
+  .card .in{padding:6px 16px 14px}
+  .kind{font-size:11px;letter-spacing:.05em;text-transform:uppercase;border-radius:5px;padding:2px 7px}
+  .k-expr{color:var(--good);border:1px solid #2f6b3a} .k-eng{color:var(--accent);border:1px solid #2f4d7a} .k-corp{color:var(--rel);border:1px solid #5a3f7a}
+  .lbl{color:var(--muted);font-size:12px;letter-spacing:.05em;text-transform:uppercase;margin:10px 0 4px}
+  pre{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;font-size:12.5px}
+  .foot{color:var(--muted);font-size:13px;margin-top:40px;border-top:1px solid var(--line);padding-top:14px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:720px){.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body><div class="wrap">
+
+  <h1>Believability Report</h1>
+  <p class="sub">Phase A → M3 → renderer fix → corpus coherence. Blind Sonnet judge, model held constant.</p>
+
+  <div class="head">
+    <div class="big"><span class="from">93.5%</span> → <span class="to">95.9%</span></div>
+    <div>
+      <div><b>2686 / 2800</b> scenarios PASS <span class="delta">(+68 vs baseline · +24 over Phase-A-only)</span></div>
+      <div class="sub" style="margin:4px 0 0">Five composable fixes: three expression, one engine-topology, one corpus. All deltas all-Sonnet, judge held constant.</div>
+    </div>
+  </div>
+  <div class="warn">The blind judge is non-deterministic — small net moves under large churn are noise. Signal lives in <b>targeted clusters</b> + <b>deterministic checks</b> (golden byte-identical; narration-line counts), not single-run aggregates.</div>
+
+  <h2>Progression (all-Sonnet, judge held constant)</h2>
+  <table id="runs">
+    <tr><th>Run</th><th>System state</th><th>Scope</th><th>PASS</th><th>Rate</th><th style="width:160px">&nbsp;</th><th>Note</th></tr>
+  </table>
+
+  <h2>The five fixes</h2>
+  <div id="fixes"></div>
+
+  <h2>run5 breakdown</h2>
+  <div class="grid2">
+    <div>
+      <div class="lbl">By sub-corpus (vs Phase-A-only)</div>
+      <table id="sub"><tr><th>sub-corpus</th><th>baseline</th><th>Phase-A</th><th>run5</th></tr></table>
+    </div>
+    <div>
+      <div class="lbl">Per persona (corpus-fix targets)</div>
+      <table id="pers"><tr><th>persona</th><th>Phase-A</th><th>run5</th><th>Δ</th></tr></table>
+      <p class="sub" style="font-size:12.5px">cichy −5 = intentional resented-guard behavior (a kindness from the jailer he blames doesn't soften him); judge-debatable, untouched.</p>
+    </div>
+  </div>
+
+  <h2>Safety / invariants held</h2>
+  <ul>
+    <li><b>Golden byte-identical</b> for every expression change and for M3 (default-off config) — golden / order-invariance / stability tests green.</li>
+    <li><b>M3 stability:</b> a deterministic boolean gate, no new state/feedback edge → linearized poles unchanged.</li>
+    <li><b>Suite green</b> (303 passed / 4 skipped) at each step; corpus regen passes the multiday sanity gate (100% / 0 failures).</li>
+    <li>New tests: <code>tests/test_narration_expression.py</code> (M1/M2/recency/renderer), <code>tests/test_burst.py</code> (M3 gate).</li>
+  </ul>
+
+  <h2>Method &amp; reproduce</h2>
+  <p class="sub"><b>Corpus</b> 2800 = 700 day + 700 multi × burst{on,off} = 280 batches × 10 records (10 slices × 28). <b>Judge</b> one fresh Sonnet agent/batch, neutral rubric, no answer key, observable narration only, model held constant. <b>Pacing</b> waves + timers, per-batch persistence (crash-resumable).</p>
+  <pre># 1. build batches (deterministic, ~13 min)
+for s in 0 1 2 3 4 5 6 7 8 9; do PYTHONPATH=. python eval/hourly_judge.py --slice $s --build; done
+# 2. judge in paced waves
+PYTHONPATH=. python eval/phaseA_judge_wave.py --rundir "$PWD/eval/phaseA_run5" --wave 28
+#    -> run eval/phaseA_run5/wave_workflow.js via the Workflow runner; repeat until 0 remain
+# 3. aggregate vs the committed baseline
+PYTHONPATH=. python eval/phaseA_judge_wave.py --rundir "$PWD/eval/phaseA_run5" --aggregate</pre>
+
+  <h2 id="detail">Detailed pass / fail</h2>
+  <p class="sub">Believability run5: <b>2686/2800 PASS, 114 FLAG</b>. Unit/determinism suite: <b>307 collected, 303 passed, 4 skipped</b> (golden byte-identical for the expression + default-off M3 changes).</p>
+  <div class="grid2">
+    <div><div class="lbl">FLAGs by persona</div><table id="fper"><tr><th>persona</th><th>FLAGs</th></tr></table></div>
+    <div><div class="lbl">FLAGs by sub-corpus</div><table id="fsub"><tr><th>sub-corpus</th><th>FLAGs</th></tr></table></div>
+  </div>
+  <div class="lbl">Unit / determinism test modules (all green)</div>
+  <table id="tmod"><tr><th>module</th><th>tests</th></tr></table>
+  <div class="lbl" style="margin-top:14px">All 114 run5 FLAGs — filter by id or reason</div>
+  <input id="fq" placeholder="filter flags… (e.g. wojslaw, soup, seething, edda)" style="width:100%;background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:8px 11px;border-radius:8px;margin:6px 0">
+  <table id="ftab"><tr><th style="width:230px">scenario</th><th>judge reason</th></tr></table>
+  <script>
+  const FLAGS=[["branic_day_burstoff_008", "Declines direct order at 22:14 after three barbs; thin-skinned but recruit refusing sergeant needs scrutiny."], ["branic_day_burstoff_037", "erupts twice then refuses order; recovery to settled feels too quick"], ["branic_day_burstoff_045", "Defiant refusal after eruption, then calm within minutes; recovery too fast."], ["branic_day_burstoff_068", "erupts at 20:41 after mocks, then calm at 00:04; burst resolution oddly fast"], ["branic_day_burstoff_086", "Halgrim order at 08:42 logged as \"lets it pass, no notable reaction\""], ["branic_day_burstoff_099", "ignores first order at 06:40 with no prior provocation"], ["branic_day_burston_008", "refuses order at 22:14 after barbs; refusal arc plausible but abrupt"], ["branic_day_burston_026", "lingering temper at 20:03 and 22:04 despite soup at 19:33"], ["branic_day_burston_037", "Erupts twice then refuses an order; escalation steep for one day."], ["branic_day_burston_042", "erupts twice; second fury with no clear fresh provocation"], ["branic_day_burston_053", "refuses orders then defies twice late at night; escalation steep with no clear trigger"], ["branic_day_burston_078", "snaps at routine order at 16:58 with no prior provocation shown"], ["branic_day_burston_086", "order at 08:42 gets \"lets it pass\" not compliance; odd"], ["branic_day_burston_089", "two orders ignored mid-day with \"lets it pass\"; inconsistent"], ["branic_multi_burston_024", "day 1 eruption at calm order with no prior provocation"], ["branic_multi_burston_059", "Day 2 \"still hasn't shaken off\" with no Day 1 eruption"], ["branic_multi_burston_066", "three full eruptions in two hours under sustained evening mockery"], ["branic_multi_burston_095", "fury then immediate compliance at 21:47-22:18 jarring"], ["branic_multi_burston_100", "day 4 saturated with 7+ defiant refusals every hour"], ["cichy_day_burstoff_006", "lets mock pass with no reaction; too mild for this captive"], ["cichy_day_burstoff_025", "three fury eruptions including 22:04, recovery to settled mid-day jars"], ["cichy_day_burstoff_056", "three furious eruptions same evening; soup accepted calmly mid-rage"], ["cichy_day_burston_006", "early mock met with no reaction; flat for a resentful captive"], ["cichy_day_burston_009", "erupts at 21:21 then looks settled at ease by 22:04; too fast"], ["cichy_day_burston_014", "erupts at guard taunt then looks settled at ease 20min later"], ["cichy_day_burston_020", "\"still hasn't shaken temper\" at 20:03 but looks settled at 18:03"], ["cichy_day_burston_029", "erupts at full fury at 08:12 with no prior buildup"], ["cichy_day_burston_036", "Bristles at mock at 21:55 then looks settled at ease at 22:04."], ["cichy_day_burston_056", "two soups within 36 minutes morning, unusual feeding cadence"], ["cichy_day_burston_083", "snaps furiously at 22:38 then sleeps calmly two minutes later"], ["cichy_day_burston_089", "erupts in full fury at 06:54, then looks settled at ease by 08:00"], ["cichy_multi_burstoff_060", "seven consecutive fury eruptions Day 2 afternoon, no recovery gap"], ["cichy_multi_burston_009", "Day 1 outburst at 07:36 with no visible ramp-up or trigger"], ["cichy_multi_burston_055", "wakes settled then tense by 06:06 Day 2 with no intervening event"], ["cichy_multi_burston_056", "same pattern: wakes settled, tense by 06:06 Day 2 with no trigger"], ["cichy_multi_burston_064", "Day 4 \"still hasn't shaken off\" with no same-day prior spike"], ["cichy_multi_burston_068", "Day 5 guard mock \"lets it pass, no reaction\" contradicts profile"], ["edda_day_burstoff_007", "refuses stranger order at 21:45 then complains again at 22:28; escalation without buildup"], ["edda_day_burstoff_056", "stranger orders castellan twice; she simply complies, no authority friction"], ["edda_day_burston_056", "castellan complies when stranger orders her twice; fits subordinate not commander"], ["edda_multi_burston_076", "Day 3 repeated stranger-orders refused in cluster; escalation lacks clear trigger"], ["halgrim_day_burstoff_009", "ignores Edda's order at 22:08 with no notable reaction"], ["halgrim_day_burstoff_013", "curtness spills onto Edda after Wojs\u0142aw provocation; borderline for iron self-control"], ["halgrim_day_burstoff_015", "mutters complaint at Edda's late order; minor but notable for Halgrim"], ["halgrim_day_burstoff_024", "ignores Edda's first order; odd for a disciplined sergeant"], ["halgrim_day_burstoff_027", "mutters complaint at Edda's late order; mild but notable"], ["halgrim_day_burstoff_030", "ignores Edda's orders twice with \"no notable reaction\""], ["halgrim_day_burstoff_046", "Edda order at 21:41 met with \"lets it pass\"; unusual for normally compliant Halgrim"], ["halgrim_day_burstoff_076", "Tense at 14:02 after warmth and rest, no clear trigger."], ["halgrim_day_burston_009", "ignores Edda's order at 22:08; he respects and obeys her"], ["halgrim_day_burston_010", "ignores Edda's order at 10:01; incongruent with his respect for her"], ["halgrim_day_burston_013", "cold contempt toward Edda twice; excessive given genuine respect"], ["halgrim_day_burston_027", "complains at Edda order (21:09); Halgrim buttons down, rarely complains"], ["halgrim_day_burston_036", "grumbles at second Wojs\u0142aw order; grumbling sits low for Halgrim"], ["halgrim_day_burston_076", "tension at 14:02 unexplained after positive Marta stretch"], ["halgrim_day_burston_079", "tense after rest with no preceding provocation that day"], ["halgrim_day_burston_087", "snaps at Edda with contempt after Wojs\u0142aw pile-on; displaces onto wrong target"], ["halgrim_day_burston_090", "cold contempt at Edda after Wojs\u0142aw provocation; displaces onto respected superior"], ["halgrim_multi_burstoff_040", "mutter followed immediately by \"still seething\" mismatched intensity"], ["halgrim_multi_burstoff_047", "\"seething\" label jars for man famous for going cold not hot"], ["halgrim_multi_burston_007", "cold contempt directed at respected Edda, Day 1 22:46 burst spillover"], ["halgrim_multi_burston_010", "contempt at Edda repeated across days 3-5, too frequent for man who respects her"], ["halgrim_multi_burston_015", "contempt at Edda order (Day 5 14:16) jars with his respect for her"], ["halgrim_multi_burston_060", "Day 2 \"still seething\" at 12:07 after calm wake, no new trigger"], ["lutek_day_burston_006", "\"still seething, jaw tight\" after one barb; too harsh for thick-skinned Lutek"], ["lutek_day_burston_021", "snaps at stranger at 19:35 then cold to kindness at 22:48; thick-skinned man shouldn't hold grudge this long"], ["lutek_day_burston_027", "residual temper at 22:04 with no visible provocation; Lutek is thick-skinned and doesn't nurse grudges"], ["lutek_day_burston_040", "sleeps at 00:08 Day 2 after being settled at 00:04; very late"], ["lutek_day_burston_054", "answers curtly after two quick mocks; slight friction for thick-skinned Lutek"], ["lutek_day_burston_055", "unexplained tension at 18:03 with no preceding provocation visible"], ["lutek_day_burston_057", "tension appears at 18:03 and persists to 20:03 with no trigger shown"], ["lutek_day_burston_058", "tension builds through evening with no visible cause; accumulates oddly"], ["lutek_day_burston_059", "tension at 18:03 and 22:04 with no provoking event between"], ["lutek_day_burston_060", "seething at 20:03 after insult he let pass at 19:43; disproportionate"], ["lutek_day_burston_068", "lingers tense at 22:04 with no clear prior provocation visible"], ["lutek_day_burston_070", "residual temper at 22:04 after only a mild mock, no escalation shown"], ["lutek_day_burston_089", "tense at 18:00 answers curtly; temper lingers despite kindnesses"], ["lutek_multi_burstoff_014", "answers curtly to public mock; thick-skinned Lutek wouldn't snap"], ["lutek_multi_burstoff_026", "curt reply to mockery when tense; contradicts thick-skinned profile"], ["lutek_multi_burstoff_039", "curt reply to public mock contradicts thick-skinned profile"], ["lutek_multi_burston_003", "seething after mockery contradicts thick-skinned profile"], ["lutek_multi_burston_004", "seething after kindness; profile says mockery rolls off him"], ["lutek_multi_burston_014", "\"still seething, jaw tight\" after mock jars with thick-skinned profile"], ["lutek_multi_burston_017", "answers mock \"curtly and coldly\" contradicts thick-skinned profile"], ["lutek_multi_burston_025", "\"still seething\" after mild mockery; too intense for thick-skinned Lutek"], ["lutek_multi_burston_026", "\"curtly and coldly\" twice; sharper than profile allows for insults"], ["lutek_multi_burston_039", "answers mock curtly and coldly; profile says mockery rolls off"], ["welf_day_burston_098", "tense from 18:00 onward with no clear trigger, sleeps past midnight"], ["welf_multi_burston_019", "\"earlier temper\" lingers day 3 night with no visible trigger"], ["wojslaw_day_burstoff_008", "barbed mock at 07:58 draws no reaction; too mild for Wojslaw"], ["wojslaw_day_burstoff_016", "complains at kindnesses (15:24, 15:28); proud man grumbling at help jars"], ["wojslaw_day_burstoff_025", "lets public mockery pass at 08:52, then erupts later without new trigger"], ["wojslaw_day_burstoff_035", "erupts three times in evening including at 22:12 just before sleep"], ["wojslaw_day_burstoff_037", "lets three separate mocks pass with no reaction, too passive for profile"], ["wojslaw_day_burstoff_042", "lets public mockery pass at 20:55 after calm evening; too mild"], ["wojslaw_day_burstoff_046", "lets barbed remark pass at 10:11 and again at 17:48 while settled"], ["wojslaw_day_burstoff_048", "lets public mockery pass at 21:13 after a warm Marta-heavy evening"], ["wojslaw_day_burstoff_066", "lets first public mockery pass entirely, too lenient for Wojs\u0142aw"], ["wojslaw_day_burstoff_084", "ignores early mock then erupts later with no clear trigger escalation"], ["wojslaw_day_burstoff_098", "mocks him at 22:50 just before sleep; erupts then sleeps immediately, jarring close"], ["wojslaw_day_burston_008", "lets early public mockery pass with no reaction; jarring for Wojs\u0142aw"], ["wojslaw_day_burston_016", "mutters complaints at kindnesses (15:24, 15:28); prickly man but odd reaction"], ["wojslaw_day_burston_021", "erupts at 11:59, settled at 12:01 one minute later"], ["wojslaw_day_burston_026", "erupts at 21:47, settled at 22:04, erupts again at 22:32"], ["wojslaw_day_burston_035", "three separate fury eruptions same evening; saturation strains belief"], ["wojslaw_day_burston_037", "lets three mocks pass without reaction; too placid for Wojslaw"], ["wojslaw_day_burston_042", "proud man lets public mockery pass twice without reaction"], ["wojslaw_day_burston_046", "mocks ignored twice, prickly man too placid under insults"], ["wojslaw_day_burston_048", "erupts at midday mock, then ignores late-night mock when still tense"], ["wojslaw_day_burston_052", "erupts at late-night barb after calm well-fed evening; jarring spike"], ["wojslaw_day_burston_060", "erupts at 22:54 then sleeps settled at 23:02; too fast reset"], ["wojslaw_day_burston_099", "unusually warm all day; barely any irritability for this man"], ["wojslaw_multi_burstoff_097", "Day 3 12:07 erupts in fury at stranger offering kindness"], ["wojslaw_multi_burston_017", "Day 3 18:05 mutters complaint at a kindness, jarring"]], TMOD=[["test_acceptance_matrix", 23], ["test_authority", 8], ["test_behavioral_dynamics_validation", 17], ["test_believable_timescale", 5], ["test_burst", 31], ["test_burst_calibration", 18], ["test_burst_world", 4], ["test_calibration", 8], ["test_diagnostics", 1], ["test_expectations", 11], ["test_filters", 10], ["test_game_facing_longrun", 10], ["test_game_facing_memory", 15], ["test_game_facing_social_streams", 20], ["test_loss", 12], ["test_metrics", 7], ["test_narration_expression", 10], ["test_night", 6], ["test_order_invariance", 1], ["test_proactive_path", 11], ["test_resolution_factor", 5], ["test_social_event_mapper", 36], ["test_stability", 2], ["test_target_policy", 4], ["test_tick_golden", 27], ["test_time_scale", 3], ["test_weather_channel", 2]];
+  const FPER=[["wojslaw", 25], ["halgrim", 23], ["lutek", 23], ["branic", 19], ["cichy", 18], ["edda", 4], ["welf", 2]], FSUB=[["day burstON", 53], ["day burstOFF", 30], ["multi burstON", 24], ["multi burstOFF", 7]];
+  FPER.forEach(r=>document.getElementById('fper').insertAdjacentHTML('beforeend',`<tr><td>${r[0]}</td><td class="rate">${r[1]}</td></tr>`));
+  FSUB.forEach(r=>document.getElementById('fsub').insertAdjacentHTML('beforeend',`<tr><td>${r[0]}</td><td class="rate">${r[1]}</td></tr>`));
+  TMOD.forEach(r=>document.getElementById('tmod').insertAdjacentHTML('beforeend',`<tr><td class="mono">tests/${r[0]}.py</td><td class="rate">${r[1]}</td></tr>`));
+  function drawFlags(q){const t=document.getElementById('ftab');t.querySelectorAll('tr.f').forEach(e=>e.remove());
+    FLAGS.filter(f=>!q||(f[0]+f[1]).toLowerCase().includes(q)).forEach(f=>{const tr=document.createElement('tr');tr.className='f';tr.innerHTML=`<td class="mono" style="font-size:12px">${f[0]}</td><td class="sub" style="font-size:13px">${f[1]}</td>`;t.appendChild(tr);});}
+  drawFlags('');document.getElementById('fq').addEventListener('input',e=>drawFlags(e.target.value.toLowerCase().trim()));
+  </script>
+
+  <div class="foot">
+    Full prose record: <code>eval/BELIEVABILITY_REPORT.md</code>. Raw final verdicts: <code>eval/phaseA_run5/</code>. Full per-scenario report (stimulus + narration per test): <code>eval/hourly_runs/TEST_REPORT.html</code>.
+    Plans: <code>docs/plans/</code>. Engine state manual (inputs/effects + wiring graphs) lives in the private overlay repo.
+  </div>
+
+<script>
+const RUNS=[
+ ["baseline","pre-Phase-A","full 2800",2618,93.5,"",""],
+ ["run1","M1 v1 (unconditional seething) + M2","full 2800",2594,92.6,"","−24: over-surfaced anger"],
+ ["run2","M1 recency-gated + M2 = Phase A","full 2800",2662,95.1,"gate","+44 vs baseline — THE GATE"],
+ ["run3","+ M3 (alone)","burst-ON 1400",1302,93.0,"","flat vs run2 burst-ON; cluster 39%"],
+ ["run4","+ M3 + renderer fix","burst-ON 1400",1326,94.7,"","+24 vs run3; cluster 68%"],
+ ["run5","+ M3 + renderer + coherent corpus","full 2800",2686,95.9,"final","+24 over Phase-A-only — gate cleared"],
+];
+const T=document.getElementById('runs');
+RUNS.forEach(r=>{
+  const tr=document.createElement('tr'); if(r[5])tr.className=r[5];
+  tr.innerHTML=`<td><b>${r[0]}</b></td><td>${r[1]}</td><td><span class="tag">${r[2]}</span></td>
+    <td class="pass">${r[3]}</td><td class="rate">${r[4]}%</td>
+    <td><div class="bar"><i style="width:${((r[4]-90)/10*100).toFixed(1)}%"></i></div></td><td class="sub" style="font-size:12.5px">${r[6]}</td>`;
+  T.appendChild(tr);
+});
+const FIX=[
+ ["M1 — mood line weighs residual anger","expr","k-expr",
+  "Mood keyed only on stress → printed \"settled, at ease\" right after an outburst (anger still high). Now weighs anger; the active \"still seething\" read is <b>gated on provocation recency</b> (~1 game-hour) so a stale residual reads \"hasn't shaken off an earlier temper\", never seething-at-nothing.",
+  "Unconditional seething over-surfaced anger and LOST (run1 −24); recency-gating made it a gain (run2 +44)."],
+ ["M2 — acknowledge a kindness","expr","k-expr",
+  "A soup/help event while resting/busy got the slight-style \"lets it pass, no notable reaction\" — a kindness read as a snub. Now renders \"takes it without fuss, a small nod\".",""],
+ ["M3 — burst source-valence gate","engine","k-eng",
+  "Above the displacement bar the burst gate suppressed ALL kindness → a genuine kindness became a discharge target (\"snaps at the soup\"). Now a positive-valence event (kindness_pressure>0: a gesture from a NON-resented source) is not a discharge target → warmth wins. A resented-source \"kindness\" (kp=0, galls) is still caught → Cichy intact by construction.",
+  "Config-gated, DEFAULT OFF → golden byte-identical; boolean gate, no new state → poles unchanged. Spec §8 + diagram + M20.1 crit #5 updated first."],
+ ["Renderer-attribution fix","expr","k-expr",
+  "Diagnosis: warmth already won at the kindness tick; the residual \"snaps at soup\" was a RENDERER artifact — a later residual/displaced discharge stapled onto the kindness line. Fix: a positive event reads ONLY its own tick.",
+  "Deterministic: burst-ON kindness→hostile lines 1294 → 856 (−438). Turned M3 from flat (run3) into a gain (run4)."],
+ ["Corpus-coherence fix","corpus","k-corp",
+  "Diagnosis: the remaining \"snaps at soup\" was the engine CORRECTLY galling at a source that insulted the persona earlier the same day — but that source was also the warm giver (\"the cook who mocks then feeds you\"). Fix: wojsław insults from player only; branic help from marta/player (halgrim stays the harsh commanding mentor). cichy's guard-insults-and-feeds is the intentional prisoner archetype — unchanged.",
+  "Deterministic generators → only wojsław+branic changed; multiday sanity 100%."],
+];
+const F=document.getElementById('fixes');
+FIX.forEach(x=>{
+  const d=document.createElement('details'); d.className='card';
+  d.innerHTML=`<summary><span><span class="kind ${x[2]}">${x[1]}</span> &nbsp; <b>${x[0]}</b></span><span class="sub" style="font-size:12px">▾</span></summary>
+    <div class="in"><p>${x[3]}</p>${x[4]?`<div class="lbl">evidence / safety</div><p class="sub">${x[4]}</p>`:''}</div>`;
+  F.appendChild(d);
+});
+const SUB=[["day · burstOFF",650,663,670],["day · burstON",655,636,647],["multi · burstOFF",661,695,693],["multi · burstON",652,668,676]];
+const S=document.getElementById('sub');
+SUB.forEach(r=>S.insertAdjacentHTML('beforeend',`<tr><td>${r[0]}</td><td class="rate">${r[1]}</td><td class="rate">${r[2]}</td><td class="rate" style="color:var(--good)">${r[3]}</td></tr>`));
+const PERS=[["wojsław",351,375],["branic",376,381],["cichy",387,382]];
+const P=document.getElementById('pers');
+PERS.forEach(r=>{const d=r[2]-r[1];P.insertAdjacentHTML('beforeend',`<tr><td>${r[0]}</td><td class="rate">${r[1]}</td><td class="rate">${r[2]}</td><td class="rate" style="color:${d>=0?'var(--good)':'var(--warn)'}">${d>=0?'+':''}${d}</td></tr>`)});
+</script>
+</div></body></html>

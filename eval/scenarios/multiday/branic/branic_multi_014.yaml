@@ -19,7 +19,7 @@ initial_overrides:
 events:
 - type: help
   t: 41
-  source: halgrim
+  source: marta
   intensity: 0.392
   context: {}
 - type: food_given
@@ -48,7 +48,7 @@ events:
   context: {}
 - type: help
   t: 168
-  source: marta
+  source: player
   intensity: 0.703
   context: {}
 - type: command
@@ -59,7 +59,7 @@ events:
     has_authority: true
 - type: help
   t: 201
-  source: halgrim
+  source: marta
   intensity: 0.919
   context: {}
 - type: help
@@ -98,7 +98,7 @@ events:
   intensity: 1.0
 - type: help
   t: 755
-  source: halgrim
+  source: marta
   intensity: 0.692
   context: {}
 - type: food_given
@@ -110,7 +110,7 @@ events:
     public: false
 - type: help
   t: 768
-  source: halgrim
+  source: marta
   intensity: 0.893
   context: {}
 - type: help
@@ -198,7 +198,7 @@ events:
     has_authority: true
 - type: help
   t: 1761
-  source: halgrim
+  source: marta
   intensity: 0.496
   context: {}
 - type: command
@@ -209,7 +209,7 @@ events:
     has_authority: true
 - type: help
   t: 1830
-  source: halgrim
+  source: marta
   intensity: 0.677
   context: {}
 - type: nightfall
@@ -217,7 +217,7 @@ events:
   intensity: 1.0
 - type: help
   t: 2198
-  source: halgrim
+  source: marta
   intensity: 0.504
   context: {}
 - type: command
@@ -254,7 +254,7 @@ events:
     public: false
 - type: help
   t: 2424
-  source: halgrim
+  source: marta
   intensity: 0.912
   context: {}
 - type: command
@@ -337,7 +337,7 @@ events:
     has_authority: true
 - type: help
   t: 3260
-  source: halgrim
+  source: marta
   intensity: 0.687
   context: {}
 - type: food_given
@@ -379,7 +379,7 @@ events:
   intensity: 0.685
 - type: help
   t: 3785
-  source: halgrim
+  source: marta
   intensity: 0.445
   context: {}
 - type: weather

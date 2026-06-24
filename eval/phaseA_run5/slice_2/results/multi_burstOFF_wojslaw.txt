@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_021: PASS -- prickly man flares at mocks, calms with soup, sane arc
+wojslaw_multi_burstOFF_022: PASS -- fury at public mock, calm Day 2, erupts again Day 3
+wojslaw_multi_burstOFF_023: PASS -- eruptions track provocations, sleep/wake consistent throughout
+wojslaw_multi_burstOFF_024: PASS -- calmer Day 4 with mocks let pass; heavier days bookend plausibly
+wojslaw_multi_burstOFF_025: PASS -- gentle Day 1, escalating Day 2-3 under mounting mockery
+wojslaw_multi_burstOFF_026: PASS -- warm Day 2 with few provocations; erupts when mocked Day 3
+wojslaw_multi_burstOFF_027: PASS -- heavy Day 2 provocation cluster; four rapid eruptions plausible
+wojslaw_multi_burstOFF_028: PASS -- intense day-1 barrage; eruption rate tracks mockery density
+wojslaw_multi_burstOFF_029: PASS -- late-night sleep (00:04) follows provocation cluster, plausible
+wojslaw_multi_burstOFF_030: PASS -- Day 2 bombardment, Day 3 calm recovery, consistent pattern

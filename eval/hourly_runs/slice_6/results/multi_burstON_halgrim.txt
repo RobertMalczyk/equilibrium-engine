@@ -1,0 +1,10 @@
+halgrim_multi_burstON_061: PASS -- calm baseline, contempt under mockery, clean resets
+halgrim_multi_burstON_062: PASS -- day 6 tension without provocation plausible residual
+halgrim_multi_burstON_063: PASS -- sustained Wojslaw pressure justifies spillover onto Edda/Marta
+halgrim_multi_burstON_064: PASS -- tense day 1, full equanimity days 2-3 without provocation
+halgrim_multi_burstON_065: PASS -- rain day calm, contempt builds under repeated mockery
+halgrim_multi_burstON_066: PASS -- rain plus Wojslaw provokes Edda spillover, plausible
+halgrim_multi_burstON_067: PASS -- tense morning without provocation, minor but within range
+halgrim_multi_burstON_068: PASS -- sustained multi-day tension, Marta curtness under peak wind-up
+halgrim_multi_burstON_069: FLAG -- cold contempt toward helpful stranger unprovoked at mid-tension
+halgrim_multi_burstON_070: PASS -- escalating rain plus Wojslaw pressure, Marta displacement plausible

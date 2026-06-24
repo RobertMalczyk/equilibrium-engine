@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_011: PASS -- steady man worn down by mockery, cold not explosive
+halgrim_multi_burstOFF_012: PASS -- quiet days, mild friction, sane low-key arc
+halgrim_multi_burstOFF_013: PASS -- accumulating tension from Wojslaw, resets each morning
+halgrim_multi_burstOFF_014: PASS -- Day 2 spillover to Edda plausible after heavy Wojslaw pressure
+halgrim_multi_burstOFF_015: PASS -- wear-down across days, curtness then defiance, believable
+halgrim_multi_burstOFF_016: PASS -- calm days, evening escalation to contempt fits profile
+halgrim_multi_burstOFF_017: PASS -- rain days add pressure, spillover to Edda fits, recovers
+halgrim_multi_burstOFF_018: PASS -- prolonged Day 4 tension from single barb, marginal but not wrong
+halgrim_multi_burstOFF_019: PASS -- calm stretch, handles friction evenly, fits iron control
+halgrim_multi_burstOFF_020: PASS -- repeated Wojslaw refusals without anger spike, fits discipline

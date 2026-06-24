@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_011: PASS -- restless cycling, insults slide off, sane pacing
+lutek_multi_burstOFF_012: PASS -- grateful, curious, mild tension resolves normally
+lutek_multi_burstOFF_013: PASS -- minor uptick after public mock fades quickly
+lutek_multi_burstOFF_014: FLAG -- answers curtly to public mock; thick-skinned Lutek wouldn't snap
+lutek_multi_burstOFF_015: PASS -- tension from idle/work stretches, recovers each morning
+lutek_multi_burstOFF_016: PASS -- late nights consistent with restless poet, wakes recovered
+lutek_multi_burstOFF_017: PASS -- brief morning tension resolves with care, insults ignored
+lutek_multi_burstOFF_018: PASS -- evening tension from work, two mocks pass without reaction
+lutek_multi_burstOFF_019: PASS -- tension resolves with food/kindness, busy Day 5 morning plausible
+lutek_multi_burstOFF_020: PASS -- brief evening tension, otherwise calm grateful rhythms

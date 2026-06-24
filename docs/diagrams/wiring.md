@@ -10,7 +10,7 @@
 ## Signal flow (one tick, end to end)
 
 ```
- RawEvent ─► MAPPER ─► tagged channels ─► FILTERS ─► gains ─►┌───────────────┐
+ RawEvent(s) ─► MAPPER ─► tagged channels ─► FILTERS ─► gains ─►┌───────────────┐
    (M3)        (decompose)   (relational/    (relation→    │  STATES (11)   │── couplings ──┐
                               affinity/self)   affinity)    │  = integrators │◄──────────────┘
                                                             └──────┬─────────┘   (6 frozen edges)
@@ -27,6 +27,13 @@
                                                                    ▼
                                                    POST-EFFECTS ─► back into STATES (step 9)
 ```
+
+> **M-MEM (multi-event per tick).** `RawEvent(s)` above is a LIST: a tick may carry several events. The
+> MAPPER+FILTERS run **per event**; `simulation.tick` MERGES the results into the effective input, where a
+> channel holds a **list** of inputs (several sources may fire the same channel), and `update` SUMS them.
+> The per-source reactive signals (reaction_target, last_provocation_source) key on the **primary** event —
+> the strongest provoker on the tick. A ≤1-event tick is byte-identical with the pre-M-MEM engine. See
+> [`../m_mem_PLAN.md`](../m_mem_PLAN.md).
 
 ## 1. Mapper: event type → channels (engine/mapper.py)
 

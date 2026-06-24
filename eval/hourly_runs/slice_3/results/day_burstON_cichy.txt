@@ -1,0 +1,10 @@
+cichy_day_burstON_031: PASS -- calm day, one provocation, sane tension arc
+cichy_day_burstON_032: PASS -- two late eruptions each guard-provoked, sleep resets
+cichy_day_burstON_033: PASS -- quiet day, gradual tension build, no outburst
+cichy_day_burstON_034: PASS -- stranger kindness warmly taken, guard resentment intact
+cichy_day_burstON_035: PASS -- three soups, one mock, tension held without explosion
+cichy_day_burstON_036: PASS -- three mocks, graduated responses, slight abrupt settle
+cichy_day_burstON_037: PASS -- uneventful day, clean tension rise and fall
+cichy_day_burstON_038: PASS -- accumulating hostility, ends wound tight, wakes fresh
+cichy_day_burstON_039: PASS -- burst at 17:52, quick settle plausible after release
+cichy_day_burstON_040: PASS -- mock follows soup closely, sustained tension, sane arc

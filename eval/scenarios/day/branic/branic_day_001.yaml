@@ -18,7 +18,7 @@ events:
     public: false
 - type: help
   t: 77
-  source: halgrim
+  source: marta
   intensity: 0.476
   context: {}
 - type: command
@@ -46,7 +46,7 @@ events:
     has_authority: true
 - type: help
   t: 227
-  source: halgrim
+  source: marta
   intensity: 0.618
   context: {}
 - type: food_given

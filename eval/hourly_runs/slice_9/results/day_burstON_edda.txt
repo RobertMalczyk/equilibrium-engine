@@ -1,0 +1,10 @@
+edda_day_burstON_091: PASS -- settled day, normal pacing, sleeps and wakes fine
+edda_day_burstON_092: PASS -- muted complaint at stranger order; fits composed authority
+edda_day_burstON_093: PASS -- calm day, regular meals, rests late, no issues
+edda_day_burstON_094: PASS -- ignores two barbed remarks; fits castellan composure well
+edda_day_burstON_095: PASS -- brief tension at 14:02 fades quickly; resolves plausibly
+edda_day_burstON_096: PASS -- quiet well-supported day, normal rhythm throughout
+edda_day_burstON_097: PASS -- uneventful day, sane pacing, nothing contradicts profile
+edda_day_burstON_098: PASS -- two soups at 08:00 area is dense but not absurd
+edda_day_burstON_099: PASS -- two mocks absorbed without reaction; brief tension fades
+edda_day_burstON_100: PASS -- double rest at 13:41/13:51 minor, overall day coherent

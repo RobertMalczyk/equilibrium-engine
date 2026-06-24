@@ -1,0 +1,10 @@
+lutek_day_burstON_061: PASS -- restless cycles, mockery ignored, evening tension fades overnight
+lutek_day_burstON_062: PASS -- good pacing, warmth toward kindness, sleeps and wakes settled
+lutek_day_burstON_063: PASS -- mockery rolls off, slight evening edge resolves, sane rhythm
+lutek_day_burstON_064: PASS -- steady day, multiple kindnesses land warmly, no jarring notes
+lutek_day_burstON_065: FLAG -- soup at 08:18 elicits no reaction, then at 08:48 warmth; odd flat first response
+lutek_day_burstON_066: PASS -- mock ignored, easy day, kindness welcomed, clean sleep
+lutek_day_burstON_067: PASS -- two mocks ignored, evening fed and warm, restless but sane
+lutek_day_burstON_068: FLAG -- tense at 18:03 and 22:04 with no clear provocation; stays awake past midnight
+lutek_day_burstON_069: PASS -- early kindnesses, mild evening edge resolves, active late but plausible
+lutek_day_burstON_070: FLAG -- wound tight at 22:04 after only a mocked-and-ignored remark; tension seems high

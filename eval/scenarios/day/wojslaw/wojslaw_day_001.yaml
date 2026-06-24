@@ -22,9 +22,9 @@ events:
 - type: insult
   t: 43
   source: player
-  intensity: 0.444
+  intensity: 0.766
   context:
-    public: true
+    public: false
 - type: food_given
   t: 54
   source: marta
@@ -41,16 +41,16 @@ events:
     public: false
 - type: insult
   t: 236
-  source: marta
+  source: player
   intensity: 0.55
   context:
     public: true
 - type: insult
   t: 259
   source: player
-  intensity: 0.804
+  intensity: 0.404
   context:
-    public: false
+    public: true
 - type: help
   t: 295
   source: player

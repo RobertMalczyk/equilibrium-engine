@@ -17,13 +17,13 @@ events:
 - type: insult
   t: 77
   source: player
-  intensity: 0.563
+  intensity: 0.808
   context:
     public: true
 - type: insult
   t: 158
-  source: marta
-  intensity: 0.904
+  source: player
+  intensity: 0.414
   context:
     public: true
 - type: help

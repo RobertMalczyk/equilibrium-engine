@@ -1,0 +1,10 @@
+branic_multi_burstON_081: PASS -- calm days, one earned outburst after Halgrim's barb
+branic_multi_burstON_082: PASS -- sustained provocation drives refusals and outbursts credibly
+branic_multi_burstON_083: FLAG -- bursts at Halgrim's kindness Day3 21:11 with no visible trigger
+branic_multi_burstON_084: PASS -- positive days, one outburst to public mockery, clean recovery
+branic_multi_burstON_085: PASS -- periodic outbursts under accumulating tension, believable arc
+branic_multi_burstON_086: PASS -- tension mounts across days, refusals escalate plausibly
+branic_multi_burstON_087: FLAG -- erupts at Marta bringing soup Day1 20:37, kindness as trigger
+branic_multi_burstON_088: PASS -- outbursts track tension states, cooperative when calm
+branic_multi_burstON_089: PASS -- clean arc, snaps under strain, settles with support
+branic_multi_burstON_090: PASS -- brief tense morning, snaps at barb, recovers by afternoon

@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_061: PASS -- sane ramp, mocks ignored early then snaps under accumulation
+wojslaw_multi_burstOFF_062: PASS -- heavy day two but sustained baiting drives repeated fury
+wojslaw_multi_burstOFF_063: PASS -- many eruptions on provocation-dense days, profile consistent
+wojslaw_multi_burstOFF_064: PASS -- clean arc, one eruption per day, Marta warmth accepted
+wojslaw_multi_burstOFF_065: PASS -- stormy days one and two, calm day three with no antagonists
+wojslaw_multi_burstOFF_066: PASS -- steady pattern of refusals and flares under repeated orders
+wojslaw_multi_burstOFF_067: PASS -- eruption clusters match sustained baiting across four days
+wojslaw_multi_burstOFF_068: PASS -- day one dense but heavily provoked; days two and three recover
+wojslaw_multi_burstOFF_069: PASS -- hostile day one settles over six days, late eruptions provoked
+wojslaw_multi_burstOFF_070: PASS -- bristles at kindness when tense plausible; calm arc overall

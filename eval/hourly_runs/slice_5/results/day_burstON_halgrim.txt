@@ -1,0 +1,10 @@
+halgrim_day_burstON_051: PASS -- steady day, curt late response to repeated mockery fits well
+halgrim_day_burstON_052: PASS -- calm, warm day; Wojsław barely registers; consistent
+halgrim_day_burstON_053: PASS -- quiet dutiful day, Wojsław ignored, profile fits
+halgrim_day_burstON_054: FLAG -- ignores both Wojsław and Edda orders; Edda dismissal jars
+halgrim_day_burstON_055: PASS -- cold contempt for public mockery, brief tension, recovers well
+halgrim_day_burstON_056: PASS -- declines Wojsław, obeys Edda; sane pacing throughout
+halgrim_day_burstON_057: FLAG -- ignores Marta's soup at 14:00 with "no notable reaction" oddly cold
+halgrim_day_burstON_058: PASS -- calm day, curt cold reply to late-night mockery fits profile
+halgrim_day_burstON_059: PASS -- busy morning, warm, curt to Wojsław; all consistent
+halgrim_day_burstON_060: PASS -- active Edda-duty day, cold curtness to public mockery; plausible

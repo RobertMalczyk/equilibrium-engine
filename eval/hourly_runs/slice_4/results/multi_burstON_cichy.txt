@@ -1,0 +1,10 @@
+cichy_multi_burstON_041: PASS -- tension builds across days, outburst earned, recovery normal
+cichy_multi_burstON_042: PASS -- displaced fury at stranger after sustained mockery and rain
+cichy_multi_burstON_043: PASS -- two displaced-aggression outbursts fit wound-tight prisoner
+cichy_multi_burstON_044: PASS -- mild sustained tension, rain, no outbursts, sane rhythm
+cichy_multi_burstON_045: PASS -- persistent afternoon tension, guard mocks get curt replies
+cichy_multi_burstON_046: PASS -- volatile from day one, two outbursts, sleep resets hold
+cichy_multi_burstON_047: FLAG -- settled at ease 20 min after full fury outburst, too fast
+cichy_multi_burstON_048: PASS -- rain day sustained tension, stranger warmly received, normal
+cichy_multi_burstON_049: PASS -- day two escalation earned, late flares fit accumulated pressure
+cichy_multi_burstON_050: PASS -- day two fury earned by unbroken tension, sleep reset holds

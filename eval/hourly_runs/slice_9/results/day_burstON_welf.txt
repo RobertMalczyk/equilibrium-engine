@@ -1,0 +1,10 @@
+welf_day_burstON_091: PASS -- steady day, boredom cycles, warmth to kindness, sleeps well
+welf_day_burstON_092: PASS -- calm pacing, muted soup reaction plausible, normal rhythm
+welf_day_burstON_093: PASS -- three barbs absorbed without reaction, fits even-keeled profile
+welf_day_burstON_094: PASS -- mild tension late evening, resolves before sleep, coherent
+welf_day_burstON_095: PASS -- well-fed, settled day, boredom spikes resolved, no issues
+welf_day_burstON_096: PASS -- restless briefly after kindness, quickly occupied, sane arc
+welf_day_burstON_097: PASS -- heavy kindness cluster morning, stays composed, believable
+welf_day_burstON_098: PASS -- stays up past midnight, sleeps at 00:28, slightly late but sane
+welf_day_burstON_099: PASS -- clean boredom/rest cycles, warmth to soup, normal day
+welf_day_burstON_100: PASS -- two soups in two minutes, muted second reaction, believable satiation

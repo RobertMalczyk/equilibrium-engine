@@ -1,0 +1,10 @@
+branic_multi_burstON_011: PASS -- tension accumulates across day via rain and mockery
+branic_multi_burstON_012: PASS -- eruptions land late after calm days, sleep resets well
+branic_multi_burstON_013: PASS -- escalating defiance across days coherent with accumulated anger
+branic_multi_burstON_014: PASS -- public humiliation triggers burst plausibly mid-afternoon
+branic_multi_burstON_015: PASS -- burst visible days 4-5 when provocations hit built tension
+branic_multi_burstON_016: PASS -- escalation across days believable, calm recovery on day 6
+branic_multi_burstON_017: PASS -- two calm days then morning burst on day 3 plausible
+branic_multi_burstON_018: PASS -- burst concentrated on day 6 after calm prior days
+branic_multi_burstON_019: PASS -- single heavy-Halgrim day 6 triggers burst after calm buildup
+branic_multi_burstON_020: PASS -- rapid morning cluster day 4 consistent with burst-ON discharge

@@ -1,0 +1,10 @@
+welf_multi_burstON_061: PASS -- sane boredom cycles, composed reactions, normal sleep rhythm
+welf_multi_burstON_062: PASS -- regular pacing, mild evening tension, resolves overnight
+welf_multi_burstON_063: PASS -- late night on day 5 but within range, rain day handled calmly
+welf_multi_burstON_064: PASS -- multi-day rain wears him down appropriately, mock ignored correctly
+welf_multi_burstON_065: PASS -- even-keeled throughout, mock let pass, rain tension resolves
+welf_multi_burstON_066: PASS -- quick mock-between-kindnesses mechanical but not a contradiction
+welf_multi_burstON_067: PASS -- late sleep on day 2-3 boundary acceptable, otherwise calm
+welf_multi_burstON_068: FLAG -- soup at 08:18 day 1 gets no reaction; inconsistent with all other soup events
+welf_multi_burstON_069: PASS -- clean boredom cycling, polite responses, sane multi-day pacing
+welf_multi_burstON_070: PASS -- composed throughout, kindnesses received warmly, normal rhythm

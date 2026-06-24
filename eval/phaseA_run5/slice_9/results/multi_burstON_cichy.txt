@@ -1,0 +1,10 @@
+cichy_multi_burstON_091: PASS -- calm mornings, tension builds through day, resets overnight
+cichy_multi_burstON_092: PASS -- two eruptions under heavy provocation, sleep resets hold
+cichy_multi_burstON_093: PASS -- escalating guard harassment drives two eruptions across six days
+cichy_multi_burstON_094: PASS -- burst discharge from calm state fits burst-ON profile
+cichy_multi_burstON_095: PASS -- heavy Day2/Day3 provocation yields multiple eruptions, believable
+cichy_multi_burstON_096: PASS -- eruptions spaced by sleep resets, pacing sane
+cichy_multi_burstON_097: PASS -- post-eruption settle at 10:13 slightly fast but burst-ON allows it
+cichy_multi_burstON_098: PASS -- rain-day eruption, afternoon tension, evening calm, clean reset
+cichy_multi_burstON_099: PASS -- relentless Day3 mockery drives two eruptions, fits saturated burst
+cichy_multi_burstON_100: PASS -- displacement eruption from settled state, textbook burst-ON pattern

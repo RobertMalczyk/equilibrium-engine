@@ -1,0 +1,10 @@
+welf_day_burstON_001: PASS -- steady day, boredom cycles, kindnesses received warmly
+welf_day_burstON_002: PASS -- mild tension at day's end, plausible without incident
+welf_day_burstON_003: PASS -- barb shrugged off, fits composed profile well
+welf_day_burstON_004: PASS -- well-fed, settled; boredom managed; clean arc
+welf_day_burstON_005: PASS -- restless late but recovers; sleeps slightly late, fine
+welf_day_burstON_006: PASS -- barb ignored, kindness welcomed; sane pacing throughout
+welf_day_burstON_007: PASS -- brief restless burst mid-evening, resolves naturally
+welf_day_burstON_008: PASS -- public barb brushed off; steady composed day
+welf_day_burstON_009: PASS -- two barbs let pass without reaction; fits profile
+welf_day_burstON_010: PASS -- mild tension late evening; wakes settled; believable

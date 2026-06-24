@@ -71,12 +71,12 @@ events:
 - type: insult
   t: 472
   source: player
-  intensity: 0.665
+  intensity: 0.642
   context:
-    public: false
+    public: true
 - type: insult
   t: 494
-  source: marta
+  source: player
   intensity: 0.604
   context:
     public: false

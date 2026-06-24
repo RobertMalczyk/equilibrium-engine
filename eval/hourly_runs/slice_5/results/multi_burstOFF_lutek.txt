@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_051: PASS -- sane pacing, mockery ignored, sleeps and recovers normally
+lutek_multi_burstOFF_052: PASS -- late night Day 1 plausible, mockery brushed off, stable rhythm
+lutek_multi_burstOFF_053: FLAG -- kindness met with "lets it pass" instead of warmth (Day 3, 18:15)
+lutek_multi_burstOFF_054: FLAG -- Marta's soup met with "no notable reaction" on Day 1 morning
+lutek_multi_burstOFF_055: PASS -- morning tension after early work resolves, sleeps nightly, consistent
+lutek_multi_burstOFF_056: PASS -- very short night Day 1-2 but recovers fine, sane overall
+lutek_multi_burstOFF_057: PASS -- smooth rhythm, kindnesses received warmly, no jarring moments
+lutek_multi_burstOFF_058: PASS -- evening tension recurrent but always clears by morning, fits profile
+lutek_multi_burstOFF_059: FLAG -- Marta's soup met with "lets it pass" on Day 2, flat response to kindness
+lutek_multi_burstOFF_060: FLAG -- Marta's hand met with "lets it pass" on Day 1, flat response to kindness

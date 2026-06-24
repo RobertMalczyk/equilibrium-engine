@@ -1,0 +1,10 @@
+edda_day_burstOFF_011: PASS -- calm, well-fed day, authority moment at close
+edda_day_burstOFF_012: PASS -- stranger ordering her jars briefly, recovers; plausible
+edda_day_burstOFF_013: PASS -- steady day, kindnesses received, composed throughout
+edda_day_burstOFF_014: PASS -- mock ignored; settled; authority exercised at close
+edda_day_burstOFF_015: PASS -- two soups early are fine; calm, composed day
+edda_day_burstOFF_016: PASS -- mocked in public, holds composure; brief complaint, recovers
+edda_day_burstOFF_017: PASS -- quiet day, stranger order let pass; settled throughout
+edda_day_burstOFF_018: PASS -- declines stranger's order; authority intact; curt then settled
+edda_day_burstOFF_019: PASS -- mock ignored at ease; warm day, composed close
+edda_day_burstOFF_020: FLAG -- refuses stranger order then ignores Marta's soup flatly

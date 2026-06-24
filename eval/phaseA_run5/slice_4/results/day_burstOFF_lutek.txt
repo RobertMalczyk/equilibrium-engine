@@ -1,0 +1,10 @@
+lutek_day_burstOFF_041: PASS -- restless cycle, mockery ignored, warm to kindness, sane pacing
+lutek_day_burstOFF_042: PASS -- steady restless-settle rhythm, evening tension brief, sleeps late
+lutek_day_burstOFF_043: PASS -- mockery brushed off, kindness welcomed, tense moment resolves cleanly
+lutek_day_burstOFF_044: PASS -- typical active day, brief evening edge, normal sleep and wake
+lutek_day_burstOFF_045: PASS -- mock ignored, many kindnesses warmly met, energetic through evening
+lutek_day_burstOFF_046: PASS -- mock ignored twice, brief tense spell, settles before midnight sleep
+lutek_day_burstOFF_047: PASS -- Marta very attentive but Lutek responds warmly each time, sane
+lutek_day_burstOFF_048: PASS -- active restless day, tense at 20:00, resolves, sleeps and wakes fresh
+lutek_day_burstOFF_049: PASS -- mocks shrugged off, brief tension at 18:00, kindness resolves it
+lutek_day_burstOFF_050: PASS -- calm productive day, restless spurts answered, clean sleep and wake

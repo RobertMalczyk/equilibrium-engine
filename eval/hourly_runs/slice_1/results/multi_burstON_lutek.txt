@@ -1,0 +1,10 @@
+lutek_multi_burstON_011: PASS -- sane rhythm, mockery rolls off, nights clean
+lutek_multi_burstON_012: PASS -- restless cycles, kindness received well, tense mornings resolve
+lutek_multi_burstON_013: PASS -- public mock ignored, tension transient, days sane
+lutek_multi_burstON_014: PASS -- curt reply under fatigue on day 4, resolves cleanly
+lutek_multi_burstON_015: PASS -- generous feeding, mockery ignored, pacing sane
+lutek_multi_burstON_016: PASS -- very late bedtimes plausible for restless night-active poet
+lutek_multi_burstON_017: PASS -- curtly cold under prior tension borderline but not a contradiction
+lutek_multi_burstON_018: PASS -- double mock on day 4 both ignored, evenings tense briefly
+lutek_multi_burstON_019: PASS -- dense kindness cluster day 5 morning, otherwise sane
+lutek_multi_burstON_020: PASS -- morning tension resolves with food and activity, days clean

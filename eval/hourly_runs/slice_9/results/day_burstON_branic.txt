@@ -1,0 +1,10 @@
+branic_day_burstON_091: PASS -- steady day, boredom cycles, mocks brushed off, calm sleep
+branic_day_burstON_092: PASS -- kindness warmly received, evening tension builds plausibly, sleeps settled
+branic_day_burstON_093: PASS -- active day, positive interactions, boredom punctuated by tasks, sane arc
+branic_day_burstON_094: PASS -- quiet day, mild tension late, no jarring moments, profile consistent
+branic_day_burstON_095: PASS -- tension accumulates across day, erupts late under pressure, sleep resets
+branic_day_burstON_096: PASS -- early mocks absorbed, erupts at 21:03 after long tense buildup
+branic_day_burstON_097: PASS -- repeated mocks erode patience, snaps then refuses, plausible escalation arc
+branic_day_burstON_098: PASS -- calm productive day, mild evening tension, no outburst, consistent profile
+branic_day_burstON_099: FLAG -- ignores first order at 06:40 with no prior stress buildup
+branic_day_burstON_100: FLAG -- refuses order at 14:38 shortly after mocking; still warmly thanks Marta

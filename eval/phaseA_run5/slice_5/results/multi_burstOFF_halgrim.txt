@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_051: PASS -- steady, civil, resets nightly, fits profile well
+halgrim_multi_burstOFF_052: PASS -- Wojsław friction builds to cold contempt, recovers cleanly
+halgrim_multi_burstOFF_053: PASS -- rain day drives sustained edge, sleep resets, sane arc
+halgrim_multi_burstOFF_054: PASS -- Wojsław provocation accumulates, seething night, recovers
+halgrim_multi_burstOFF_055: PASS -- positive day flows naturally, calm Day 2-3, fits Halgrim
+halgrim_multi_burstOFF_056: PASS -- Day 6 Wojsław barrage builds tension plausibly, coherent
+halgrim_multi_burstOFF_057: PASS -- rain plus mockery edge, recovers Day 3, pacing sane
+halgrim_multi_burstOFF_058: PASS -- Day 5 contempt after sustained mockery is earned and fits
+halgrim_multi_burstOFF_059: PASS -- calm multi-day, minimal friction, steady recovery, believable
+halgrim_multi_burstOFF_060: PASS -- heavy Wojsław day builds seething state, sleep resets cleanly

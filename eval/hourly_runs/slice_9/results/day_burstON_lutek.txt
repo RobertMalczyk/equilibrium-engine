@@ -1,0 +1,10 @@
+lutek_day_burstON_091: PASS -- restless cycles, insults ignored, wakes settled
+lutek_day_burstON_092: PASS -- steady rhythm, tense at 20:00 resolves, wakes fresh
+lutek_day_burstON_093: PASS -- boredom-seek loops, mock ignored, evening tension clears
+lutek_day_burstON_094: PASS -- insult rolled off, good pacing, wakes at ease
+lutek_day_burstON_095: PASS -- many kindnesses, tense at 18:00 clears after soup
+lutek_day_burstON_096: PASS -- frequent Marta kindnesses, tense at 20:00 resolves cleanly
+lutek_day_burstON_097: PASS -- mock ignored, evening tension settles, wakes recovered
+lutek_day_burstON_098: PASS -- double rest at 08:00 minor but not alarming
+lutek_day_burstON_099: PASS -- tense at 20:00 eased by soup and kindness
+lutek_day_burstON_100: PASS -- boredom-seek rhythm intact, tense at 20:00 resolves

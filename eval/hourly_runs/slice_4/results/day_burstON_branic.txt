@@ -1,0 +1,10 @@
+branic_day_burstON_041: PASS -- calm day, boredom cycles, gentle evening tension plausible
+branic_day_burstON_042: FLAG -- snaps at Halgrim's kindness right after soup warmth, jarring pivot
+branic_day_burstON_043: PASS -- steady day, mild tension by evening, sane pacing throughout
+branic_day_burstON_044: PASS -- Halgrim kindness met with no reaction at 18:25, understandable tiredness
+branic_day_burstON_045: PASS -- eruption after sustained mockery, refusal fits post-burst defiance
+branic_day_burstON_046: PASS -- good day, late edge at 22:04, sleeps well, sane arc
+branic_day_burstON_047: PASS -- tense evening without eruption, sustained edge, compliant throughout
+branic_day_burstON_048: PASS -- well-fed, cooperative day, late tension only, clean arc
+branic_day_burstON_049: PASS -- bristles at second public mock, settles without erupting, believable
+branic_day_burstON_050: PASS -- snaps at barb after gradual tension build, proportionate response

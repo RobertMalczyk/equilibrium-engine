@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_031: PASS -- Curt with Wojsław, warm with Marta, settles overnight.
+halgrim_day_burstOFF_032: PASS -- Calm day, responsive to kindness, sleeps and wakes recovered.
+halgrim_day_burstOFF_033: PASS -- Lets Wojsław's jab pass, warm to kindness, even keel throughout.
+halgrim_day_burstOFF_034: PASS -- Early provocation leaves brief tension, fades by midday naturally.
+halgrim_day_burstOFF_035: PASS -- Refuses Wojsław's orders, cold reply to mockery, otherwise steady.
+halgrim_day_burstOFF_036: PASS -- Grumbles at late-night Wojsław demand; mild, credible for tired man.
+halgrim_day_burstOFF_037: PASS -- Tension from mockery, Marta's warmth helps; hard refusal to Wojsław credible.
+halgrim_day_burstOFF_038: PASS -- Shrugs off first jab, cold reply after public mockery; consistent.
+halgrim_day_burstOFF_039: PASS -- Flood of Marta kindness then cold contempt for late Wojsław; believable.
+halgrim_day_burstOFF_040: PASS -- Quiet day, two Edda orders let pass without reaction; no issues.

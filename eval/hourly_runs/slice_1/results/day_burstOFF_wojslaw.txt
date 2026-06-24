@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_011: PASS -- temper flares on mockery, settles quickly, sane pacing
+wojslaw_day_burstOFF_012: PASS -- calm baseline, erupts on public mockery, normal rhythm
+wojslaw_day_burstOFF_013: PASS -- good day, responds warmly to kindness, snaps at public slight
+wojslaw_day_burstOFF_014: PASS -- escalating tension mid-day, multiple snaps, settles by night
+wojslaw_day_burstOFF_015: PASS -- repeated provocations, repeated fury, fits proud prickly profile
+wojslaw_day_burstOFF_016: FLAG -- mutters complaint at kindness (15:24); minor but odd response
+wojslaw_day_burstOFF_017: PASS -- single outburst at public mock, otherwise composed and settled
+wojslaw_day_burstOFF_018: PASS -- two eruptions, tense evening, sane decay, wakes recovered
+wojslaw_day_burstOFF_019: PASS -- quiet day, late single outburst, settles quickly before sleep
+wojslaw_day_burstOFF_020: PASS -- heavy provocation cluster, multiple eruptions, pacing believable

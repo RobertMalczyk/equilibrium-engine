@@ -1,0 +1,10 @@
+edda_day_burstON_001: PASS -- composed castellan, sane pacing, wakes recovered
+edda_day_burstON_002: PASS -- calm day, stranger order absorbed, sleeps and wakes settled
+edda_day_burstON_003: PASS -- mocks absorbed without reaction, consistent composure throughout
+edda_day_burstON_004: PASS -- warmth to kindnesses, barb let pass, authority at close of day
+edda_day_burstON_005: PASS -- double rest mid-afternoon plausible, settled pacing throughout
+edda_day_burstON_006: PASS -- quiet uneventful day, composed, directs watch at end
+edda_day_burstON_007: PASS -- grumbles under repeated orders late, resolves settled by sleep
+edda_day_burstON_008: PASS -- brief tension after barb, soup warms her back, settled close
+edda_day_burstON_009: PASS -- two soups close together unusual but absorbed gracefully
+edda_day_burstON_010: PASS -- two soups within ten minutes slightly odd, otherwise sane

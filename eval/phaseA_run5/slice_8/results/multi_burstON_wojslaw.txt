@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_081: PASS -- pacing sane, bursts on public mocks, recovers nightly
+wojslaw_multi_burstON_082: PASS -- eruptions on public mocks, calm day three fits low provocation
+wojslaw_multi_burstON_083: PASS -- burst saturation builds across days, consistent with profile
+wojslaw_multi_burstON_084: PASS -- heavy eruption clusters driven by repeated provocations
+wojslaw_multi_burstON_085: PASS -- kindness met with complaint under tension; marginal but plausible
+wojslaw_multi_burstON_086: PASS -- tension lingers without new trigger; pacing sane throughout
+wojslaw_multi_burstON_087: PASS -- day one dense but each burst has a trigger; nightly reset holds
+wojslaw_multi_burstON_088: PASS -- escalation across days fits sustained mocking pattern
+wojslaw_multi_burstON_089: PASS -- mocking cluster day three drives multiple eruptions believably
+wojslaw_multi_burstON_090: PASS -- mostly calm record, single eruption on public mock fits profile

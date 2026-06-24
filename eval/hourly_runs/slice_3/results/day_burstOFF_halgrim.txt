@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_031: PASS -- Settled day; curt/cold responses to Wojsław fit profile.
+halgrim_day_burstOFF_032: PASS -- Quiet uneventful day; warm responses to kindness, sane pacing.
+halgrim_day_burstOFF_033: PASS -- Calm day; Wojsław's barb let pass, fits iron self-control.
+halgrim_day_burstOFF_034: PASS -- Two Wojsław barbs draw curt replies; residual tension fades overnight.
+halgrim_day_burstOFF_035: PASS -- Declines Wojsław orders, cold to mockery; Edda obeyed or ignored reasonably.
+halgrim_day_burstOFF_036: FLAG -- Grumbles at Wojsław late-night; mild for Halgrim but slightly soft.
+halgrim_day_burstOFF_037: PASS -- Refuses Wojsław orders; stays settled overall, consistent with profile.
+halgrim_day_burstOFF_038: PASS -- Cold curtness to Wojsław after provocations; calm baseline fits veteran.
+halgrim_day_burstOFF_039: PASS -- Warm day with Marta; cold contempt for Wojsław's late barb fits.
+halgrim_day_burstOFF_040: PASS -- Quiet day; lets Edda orders pass without reaction, sane and consistent.

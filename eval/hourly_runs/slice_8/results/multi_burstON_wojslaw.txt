@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_081: PASS -- tension builds across days, sleep resets hold
+wojslaw_multi_burstON_082: PASS -- early eruption at public mock, calm recovery arc
+wojslaw_multi_burstON_083: PASS -- accumulation through day two, plausible displaced anger
+wojslaw_multi_burstON_084: PASS -- multi-day cycling, sleep resets working each morning
+wojslaw_multi_burstON_085: PASS -- clean arc from eruption to recovery over four days
+wojslaw_multi_burstON_086: PASS -- three-day arc, warm recovery day three fully clean
+wojslaw_multi_burstON_087: PASS -- six-day cycling accumulation, sleep resets consistent
+wojslaw_multi_burstON_088: PASS -- displaced anger onto kindness when enraged fits character
+wojslaw_multi_burstON_089: PASS -- calm day one escalates to day three, sane pacing
+wojslaw_multi_burstON_090: PASS -- low provocation run, sustained calm entirely appropriate

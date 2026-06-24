@@ -1,0 +1,10 @@
+branic_multi_burstOFF_041: PASS -- tension builds plausibly across days, refusals earned
+branic_multi_burstOFF_042: PASS -- calm stretch, warm rhythm, no jarring moments
+branic_multi_burstOFF_043: PASS -- escalation across 6 days with provocations is believable
+branic_multi_burstOFF_044: PASS -- orderly calm record, no anger, sane pacing
+branic_multi_burstOFF_045: PASS -- Day 3 total defiance follows Day 2 eruption plausibly
+branic_multi_burstOFF_046: PASS -- smooth, positive record, no conflict events
+branic_multi_burstOFF_047: PASS -- rapid mock accumulation on Day 4 triggers snap believably
+branic_multi_burstOFF_048: PASS -- measured responses under provocation, sane across 6 days
+branic_multi_burstOFF_049: PASS -- calm and cooperative, single public mock absorbed quietly
+branic_multi_burstOFF_050: PASS -- sustained Day 5 mockery explains dense eruption cluster

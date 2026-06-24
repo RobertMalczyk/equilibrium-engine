@@ -1,0 +1,10 @@
+edda_multi_burstOFF_001: PASS -- steady composed days, routine authority, sane pacing
+edda_multi_burstOFF_002: PASS -- mild complaint at stranger order fits well, recovers
+edda_multi_burstOFF_003: PASS -- quiet routine days, composed throughout, no issues
+edda_multi_burstOFF_004: PASS -- mixed stranger-order responses plausible for castellan
+edda_multi_burstOFF_005: PASS -- calm routine, appropriate authority declines, sane
+edda_multi_burstOFF_006: PASS -- single complaint then recovery, composed rest of record
+edda_multi_burstOFF_007: PASS -- two mocks ignored, multiple orders handled variably, fits
+edda_multi_burstOFF_008: PASS -- curt reply to public jab believable, otherwise settled
+edda_multi_burstOFF_009: PASS -- busy afternoon of kindnesses sane, composed throughout
+edda_multi_burstOFF_010: PASS -- very quiet record, mock and order ignored, fits profile

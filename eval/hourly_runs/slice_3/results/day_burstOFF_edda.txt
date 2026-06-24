@@ -1,0 +1,10 @@
+edda_day_burstOFF_031: PASS -- settled day, soup twice early morning plausible
+edda_day_burstOFF_032: PASS -- social day, stranger order ignored fits composed authority
+edda_day_burstOFF_033: PASS -- steady day, multiple kindnesses received, calm throughout
+edda_day_burstOFF_034: PASS -- stranger order obeyed once, no conflict with profile
+edda_day_burstOFF_035: PASS -- quiet uneventful day, consistent calm baseline
+edda_day_burstOFF_036: PASS -- stranger kindness ignored fits reserved authority figure
+edda_day_burstOFF_037: PASS -- warm morning cluster, settles to calm, coherent arc
+edda_day_burstOFF_038: PASS -- early kindnesses, steady day, stranger order ignored
+edda_day_burstOFF_039: PASS -- Marta-heavy day, all warmly received, sane pacing
+edda_day_burstOFF_040: PASS -- two barbed remarks ignored; composed authority holds correctly

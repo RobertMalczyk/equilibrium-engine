@@ -52,7 +52,10 @@ def _ev(t, typ, src=None, intensity=1.0, public=False):
 def _run(persona, events=(), init=None, n=None, burst=False):
     cfg = load_eval_persona(persona, burst=burst)
     sc = Scenario(
-        id="validate", persona=persona, initial_overrides=init or {}, events=tuple(events)
+        id="validate",
+        persona=persona,
+        initial_overrides=init or {},
+        events=tuple(events),
     )
     return run_scenario(cfg, sc, n)[1]
 
@@ -67,13 +70,17 @@ def test_A_idle_increases_boredom_bounded_deterministic():
     """A non-seeker (halgrim, low novelty_seeking -> never engages an activity) left on an empty idle
     stream: boredom rises and never steps down, the whole state stays in [0,1], the trace is bit-identical
     across two runs, and NO outburst fires on a neutral idle stream (no provocation -> nothing to vent)."""
-    init = {"global_state": {"boredom": 0.10, "fatigue": 0.20, "stress": 0.10, "anger": 0.0}}
+    init = {
+        "global_state": {"boredom": 0.10, "fatigue": 0.20, "stress": 0.10, "anger": 0.0}
+    }
     a = _run("halgrim", (), init, n=120)
     b = _run("halgrim", (), init, n=120)
 
     boredom = observe.trajectory(a, "boredom")
     assert boredom[-1] > boredom[0]  # idleness bores (the M3b boredom-drift edge)
-    assert observe.is_nondecreasing(boredom)  # ...monotonically, for a non-seeker (no relief path)
+    assert observe.is_nondecreasing(
+        boredom
+    )  # ...monotonically, for a non-seeker (no relief path)
     assert observe.is_bounded(a)  # all states & relations stay within [0, 1]
     assert observe.is_deterministic(a, b)  # bit-identical across executions
     assert "outburst" not in observe.action_counts(a)  # neutral idle never erupts
@@ -101,8 +108,12 @@ def test_B_higher_boredom_raises_seeking_tendency():
     urge_high = tr_high.ticks[0].urges["boredom"]
     assert urge_high > urge_low  # more boredom -> more activity-seeking drive
 
-    assert tr_high.ticks[0].selection.action == "seek_stimulus"  # the drive crosses into seeking
-    assert tr_low.ticks[0].selection.action != "seek_stimulus"  # ...the low baseline does not seek
+    assert (
+        tr_high.ticks[0].selection.action == "seek_stimulus"
+    )  # the drive crosses into seeking
+    assert (
+        tr_low.ticks[0].selection.action != "seek_stimulus"
+    )  # ...the low baseline does not seek
 
 
 def test_B_seeking_tempo_ordered_by_novelty():
@@ -130,11 +141,15 @@ def test_C_engaged_activity_raises_fatigue_more_than_idle():
     engaged self_activity TIRES the agent (fatigue rises more than idle) while it RELIEVES boredom and
     does not raise stress the way fruitless idle does. State stays bounded throughout."""
     init = {"global_state": {"boredom": 0.95, "fatigue": 0.10, "stress": 0.30}}
-    activity = RawEvent(type="activity", t=2, context={"kind": "self_activity", "novelty": 1.0})
+    activity = RawEvent(
+        type="activity", t=2, context={"kind": "self_activity", "novelty": 1.0}
+    )
     busy = _run("welf", (activity,), init, n=12)
     idle = _run("welf", (), init, n=12)
 
-    assert "BUSY" in observe.mode_timeline(busy)  # the activity engaged (world confirmed)
+    assert "BUSY" in observe.mode_timeline(
+        busy
+    )  # the activity engaged (world confirmed)
     assert observe.is_bounded(busy)
 
     f_busy = observe.state_summary(busy, "fatigue")["net"]
@@ -142,9 +157,15 @@ def test_C_engaged_activity_raises_fatigue_more_than_idle():
     assert f_busy > f_idle  # engaging tires more than sitting idle
 
     # the engaged activity RELIEVES boredom; pure idle (seeker stuck SEEKING) does not get that relief:
-    assert observe.state_summary(busy, "boredom")["last"] < observe.state_summary(idle, "boredom")["last"]
+    assert (
+        observe.state_summary(busy, "boredom")["last"]
+        < observe.state_summary(idle, "boredom")["last"]
+    )
     # ...and self_activity recovers stress rather than letting it sit/climb like fruitless idle:
-    assert observe.state_summary(busy, "stress")["last"] < observe.state_summary(idle, "stress")["last"]
+    assert (
+        observe.state_summary(busy, "stress")["last"]
+        < observe.state_summary(idle, "stress")["last"]
+    )
 
 
 # ---- Test D: fatigue increases rest tendency ----------------------------------------------------
@@ -190,10 +211,18 @@ def test_E_night_recovers_fast_states_keeps_relational_memory():
         assert d["min_anger"] < 0.20  # fast state (anger) recovers overnight
         assert d["min_anger"] < d["peak_anger"]
 
-    res_dusk = tr.ticks[DAY_LEN - 1].state_after_post.relations.get(src, {}).get("resentment", 0.0)
-    res_dawn = tr.ticks[DAY_LEN].state_after_post.relations.get(src, {}).get("resentment", 0.0)
+    res_dusk = (
+        tr.ticks[DAY_LEN - 1]
+        .state_after_post.relations.get(src, {})
+        .get("resentment", 0.0)
+    )
+    res_dawn = (
+        tr.ticks[DAY_LEN].state_after_post.relations.get(src, {}).get("resentment", 0.0)
+    )
     assert res_dusk > 0.05  # a grudge formed from the day's events
-    assert abs(res_dawn - res_dusk) < 0.02  # ...and the SLOW memory is NOT erased by the night
+    assert (
+        abs(res_dawn - res_dusk) < 0.02
+    )  # ...and the SLOW memory is NOT erased by the night
 
     # determinism: a second identical run is bit-identical
     _, tr2 = run_nights(
@@ -216,14 +245,18 @@ def test_F_negative_pressure_stays_with_its_source():
     creates/raises resentment toward source_a ONLY -- it is NOT blindly attributed to source_b, and each
     addressed source gets its own consistently-updated relation row."""
     # one event per source on separate ticks keeps each clean; run a few ticks so both rows settle.
-    tr = _run("wojslaw", [_ev(0, "insult", SOURCE_A, 1.0), _ev(2, "help", SOURCE_B, 1.0)], n=4)
+    tr = _run(
+        "wojslaw", [_ev(0, "insult", SOURCE_A, 1.0), _ev(2, "help", SOURCE_B, 1.0)], n=4
+    )
     last = tr.ticks[-1].state_after_post
 
     assert SOURCE_A in last.relations and SOURCE_B in last.relations  # both rows exist
     res_a = last.relations[SOURCE_A].get("resentment", 0.0)
     res_b = last.relations[SOURCE_B].get("resentment", 0.0)
     assert res_a > 0.0  # the insult's grudge lands on source_a
-    assert res_b <= 1e-9  # ...and is NOT attributed to source_b (source-specific filter)
+    assert (
+        res_b <= 1e-9
+    )  # ...and is NOT attributed to source_b (source-specific filter)
     assert res_a > res_b
 
 
@@ -235,7 +268,9 @@ def test_F_two_hostile_sources_accrue_independently():
         n=4,
     )
     rel = tr.ticks[-1].state_after_post.relations
-    assert rel.get(SOURCE_A, {}).get("resentment", 0.0) > rel.get(OBSERVER, {}).get("resentment", 0.0)
+    assert rel.get(SOURCE_A, {}).get("resentment", 0.0) > rel.get(OBSERVER, {}).get(
+        "resentment", 0.0
+    )
     # the milder cold_reply from `observer` still registers as its own (nonzero) row, not folded into A:
     assert rel.get(OBSERVER, {}).get("resentment", 0.0) > 0.0
 
@@ -257,7 +292,9 @@ def test_G_cold_reply_is_the_mildest():
     init = {"global_state": {"anger": 0.0, "frustration": 0.0, "stress": 0.0}}
     g = {t: _state1("wojslaw", t, init) for t in NEG}
     for t in ("insult", "refusal", "complaint"):
-        assert g["cold_reply"]["anger"] < g[t]["anger"], f"cold_reply should be milder than {t}"
+        assert g["cold_reply"]["anger"] < g[t]["anger"], (
+            f"cold_reply should be milder than {t}"
+        )
 
 
 def test_G_negative_events_are_distinct_not_aliases():
@@ -267,7 +304,9 @@ def test_G_negative_events_are_distinct_not_aliases():
     footprints = {
         t: tuple(round(v, 9) for v in _state1("wojslaw", t, init).values()) for t in NEG
     }
-    assert len(set(footprints.values())) == 4, "negative events are not all distinguishable"
+    assert len(set(footprints.values())) == 4, (
+        "negative events are not all distinguishable"
+    )
 
 
 @pytest.mark.parametrize("typ", NEG)

@@ -59,7 +59,7 @@ events:
     public: false
 - type: help
   t: 874
-  source: halgrim
+  source: marta
   intensity: 0.738
   context: {}
 - type: food_given

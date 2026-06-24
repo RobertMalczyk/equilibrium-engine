@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_061: PASS -- natural tension arc, guard mocks land, stranger kindness welcomed
+cichy_multi_burstOFF_062: PASS -- escalating anger on heavy days, sleep resets hold
+cichy_multi_burstOFF_063: PASS -- two Day 2 eruptions triggered, pacing and recovery sane
+cichy_multi_burstOFF_064: PASS -- fury-to-warmth swing at Day 5 end slightly fast but acceptable
+cichy_multi_burstOFF_065: PASS -- heavy Day 4 provocation load, each eruption has a guard trigger
+cichy_multi_burstOFF_066: PASS -- four Day 3 eruptions dense but each guard-provoked; settles between
+cichy_multi_burstOFF_067: FLAG -- Day 5 guard mock passes with no reaction; jars for this character
+cichy_multi_burstOFF_068: FLAG -- Day 5 guard mock passes with no reaction; jars for this character
+cichy_multi_burstOFF_069: PASS -- four-mock Day 1 escalation credible; late sleep shifts wake time correctly
+cichy_multi_burstOFF_070: PASS -- double soup delivery odd but absorbed; eruptions all guard-triggered

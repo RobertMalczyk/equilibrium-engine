@@ -1,0 +1,10 @@
+edda_day_burstOFF_001: PASS -- calm authority figure, sane pacing, sleeps normally
+edda_day_burstOFF_002: PASS -- settled day, eats regularly, directs watch at close
+edda_day_burstOFF_003: PASS -- provoked twice, both times lets it pass, fits composed profile
+edda_day_burstOFF_004: PASS -- barb ignored, stays at ease, consistent castellan demeanor
+edda_day_burstOFF_005: PASS -- two rests close together minor, overall pacing sane
+edda_day_burstOFF_006: PASS -- quiet uneventful day, steady and composed throughout
+edda_day_burstOFF_007: FLAG -- refuses stranger order at 21:45 then mutters at 22:28; authority figure refusing orders from strangers plausible but refusal without prior build-up warrants check
+edda_day_burstOFF_008: PASS -- warmth from Halgrim and Marta, barb ignored, sane arc
+edda_day_burstOFF_009: PASS -- two soups early morning close together, minor but sane overall
+edda_day_burstOFF_010: PASS -- two soups within 10 min at dawn, mild but day holds

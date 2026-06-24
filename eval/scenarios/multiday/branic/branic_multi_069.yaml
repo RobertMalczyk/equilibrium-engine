@@ -45,7 +45,7 @@ events:
   intensity: 0.685
 - type: help
   t: 295
-  source: halgrim
+  source: marta
   intensity: 0.827
   context: {}
 - type: insult
@@ -152,7 +152,7 @@ events:
     public: false
 - type: help
   t: 1768
-  source: marta
+  source: player
   intensity: 0.706
   context: {}
 - type: command

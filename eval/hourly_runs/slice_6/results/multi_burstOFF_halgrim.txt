@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_061: PASS -- calm baseline, Wojslaw friction handled with cold control
+halgrim_multi_burstOFF_062: PASS -- multi-day accumulation under Wojslaw pressure, sleep resets hold
+halgrim_multi_burstOFF_063: PASS -- heavy mockery erodes patience, Edda friction when already worn
+halgrim_multi_burstOFF_064: PASS -- quiet days with little friction, plausible calm stretch
+halgrim_multi_burstOFF_065: PASS -- rain day composed, Wojslaw mock cluster builds tension cleanly
+halgrim_multi_burstOFF_066: PASS -- Wojslaw escalation bleeds into Edda, believable displaced irritation
+halgrim_multi_burstOFF_067: PASS -- sustained Wojslaw pressure, flat refusals, sleep resets each morning
+halgrim_multi_burstOFF_068: PASS -- busy Edda day, Wojslaw friction accumulates, residual tension Day 6
+halgrim_multi_burstOFF_069: PASS -- low-friction stretch, mild complaints only under stacked orders
+halgrim_multi_burstOFF_070: PASS -- two rain days plus Wojslaw wear produces sustained edge, plausible

@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_011: PASS -- calm day, steady man, Wojsław barb absorbed without fuss
+halgrim_day_burstOFF_012: PASS -- Wojsław pressure builds curt responses, sleeps reset; coherent
+halgrim_day_burstOFF_013: FLAG -- curtness spills onto Edda after Wojsław provocation; borderline for iron self-control
+halgrim_day_burstOFF_014: PASS -- quiet uneventful day, warmth to kindnesses, Wojsław ignored cleanly
+halgrim_day_burstOFF_015: FLAG -- mutters complaint at Edda's late order; minor but notable for Halgrim
+halgrim_day_burstOFF_016: PASS -- peaceful day, double rest entry odd but harmless, settles fine
+halgrim_day_burstOFF_017: PASS -- Wojsław order brushed off, Edda obeyed; steady throughout
+halgrim_day_burstOFF_018: PASS -- three Wojsław barbs, edge accumulates, sleeps and resets; believable
+halgrim_day_burstOFF_019: PASS -- calm cooperative day, Edda orders handled well, no friction
+halgrim_day_burstOFF_020: PASS -- Wojsław barb causes brief edge, Marta's soup settles him; fits

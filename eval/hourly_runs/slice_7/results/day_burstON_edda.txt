@@ -1,0 +1,10 @@
+edda_day_burstON_071: PASS -- calm day, authority exercised, sleeps well
+edda_day_burstON_072: PASS -- settled baseline, stranger order brushed off, normal arc
+edda_day_burstON_073: PASS -- composed throughout, insult absorbed without reaction
+edda_day_burstON_074: PASS -- barb dismissed early, warm afternoon, routine close
+edda_day_burstON_075: PASS -- two soups within 12 minutes is odd but otherwise sane
+edda_day_burstON_076: PASS -- quiet day, composed, authority at day's end
+edda_day_burstON_077: PASS -- two rests two minutes apart is slightly odd, otherwise fine
+edda_day_burstON_078: PASS -- stranger order ignored, warm from staff, clean arc
+edda_day_burstON_079: FLAG -- stranger orders her; she complies — jars with castellan authority
+edda_day_burstON_080: PASS -- two soups within 34 minutes early on, rest of day sane

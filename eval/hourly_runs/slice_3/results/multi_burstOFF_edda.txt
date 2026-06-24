@@ -1,0 +1,10 @@
+edda_multi_burstOFF_031: PASS -- settled days, normal rhythm, authority exercised appropriately
+edda_multi_burstOFF_032: PASS -- calm across five days, stranger compliance fits range
+edda_multi_burstOFF_033: PASS -- two refusals of stranger orders fit her authority posture
+edda_multi_burstOFF_034: FLAG -- mutters complaint at stranger orders; jarring for composed castellan
+edda_multi_burstOFF_035: PASS -- minor soup clustering, otherwise sane and consistent
+edda_multi_burstOFF_036: PASS -- six steady days, authority and composure sustained throughout
+edda_multi_burstOFF_037: PASS -- mixed reactions to stranger orders coherent, rhythm sane
+edda_multi_burstOFF_038: PASS -- high soup frequency Day 1 is artifact-level, not absurd
+edda_multi_burstOFF_039: PASS -- Day 5 irritability brief and recovers quickly, within range
+edda_multi_burstOFF_040: PASS -- dense Day 4 kindnesses are clustering artifact, not a character break

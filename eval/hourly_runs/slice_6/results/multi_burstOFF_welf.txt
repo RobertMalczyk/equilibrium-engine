@@ -1,0 +1,10 @@
+welf_multi_burstOFF_061: PASS -- steady boredom cycles, sane resets, no jarring moments
+welf_multi_burstOFF_062: PASS -- clean rhythm, rain day handled well, resets fine
+welf_multi_burstOFF_063: PASS -- late night past midnight once, otherwise sane multi-day arc
+welf_multi_burstOFF_064: PASS -- multiple rain days, consistent calm temperament throughout
+welf_multi_burstOFF_065: PASS -- minor back-to-back rest/restless, not disqualifying
+welf_multi_burstOFF_066: PASS -- mock ignored as expected, late sleep once, otherwise fine
+welf_multi_burstOFF_067: PASS -- stays up past midnight working, unusual but fits restless man
+welf_multi_burstOFF_068: FLAG -- soup arrival logged as "lets it pass" not as a warmth response
+welf_multi_burstOFF_069: PASS -- double rest seconds apart is odd phrasing, not a logic break
+welf_multi_burstOFF_070: PASS -- sane pacing, tense nights reset cleanly each morning

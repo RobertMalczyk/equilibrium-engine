@@ -1,0 +1,10 @@
+halgrim_day_burstON_071: PASS -- calm day, warm responses, clean sleep arc
+halgrim_day_burstON_072: PASS -- quiet uneventful day, even keel throughout
+halgrim_day_burstON_073: PASS -- Wojsław friction builds tension late, curt reply fits
+halgrim_day_burstON_074: PASS -- late-evening Wojsław pressure leaves him seething, plausible
+halgrim_day_burstON_075: PASS -- steady positive day, no friction, settles naturally
+halgrim_day_burstON_076: FLAG -- tension at 14:02 unexplained after positive Marta stretch
+halgrim_day_burstON_077: PASS -- mild Wojsław friction resolved by kindnesses, settles well
+halgrim_day_burstON_078: PASS -- Wojsław mockery escalates to cold contempt, fits profile
+halgrim_day_burstON_079: FLAG -- tense after rest with no preceding provocation that day
+halgrim_day_burstON_080: PASS -- sustained Wojsław pressure, stays controlled, wears visibly

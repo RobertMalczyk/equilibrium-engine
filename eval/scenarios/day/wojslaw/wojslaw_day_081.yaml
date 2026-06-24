@@ -9,8 +9,8 @@ initial_overrides: {}
 events:
 - type: insult
   t: 43
-  source: marta
-  intensity: 0.507
+  source: player
+  intensity: 1.0
   context:
     public: false
 - type: food_given
@@ -60,7 +60,7 @@ events:
 - type: insult
   t: 497
   source: player
-  intensity: 0.773
+  intensity: 0.885
   context:
     public: false
 - type: nightfall

@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_001: PASS -- restless, thick-skinned, sane pacing all three days
+lutek_multi_burstOFF_002: PASS -- brief tense spikes resolve; mockery shrugged off throughout
+lutek_multi_burstOFF_003: PASS -- mild tense after mock recovers fast; fits profile
+lutek_multi_burstOFF_004: PASS -- four mocks all let pass; tense spikes brief and resolving
+lutek_multi_burstOFF_005: PASS -- six days sane; evening tension always clears overnight
+lutek_multi_burstOFF_006: PASS -- muted soup response plausible; recurring evening tension resolves
+lutek_multi_burstOFF_007: PASS -- early-morning tense pattern mild; always cleared by midday
+lutek_multi_burstOFF_008: PASS -- mock rolls off; muted soup response fits lower warmth state
+lutek_multi_burstOFF_009: PASS -- heavy kindness burst handled warmly; mocks let pass cleanly
+lutek_multi_burstOFF_010: PASS -- two-minute double soup odd timing; character responses all fit

@@ -1,0 +1,10 @@
+edda_multi_burstON_031: PASS -- settled authority, consistent warmth, clean sleep cycle
+edda_multi_burstON_032: PASS -- calm across five days, orders handled without drama
+edda_multi_burstON_033: PASS -- refusals and composure fit castellan authority well
+edda_multi_burstON_034: PASS -- brief tension after provocations, recovers quickly
+edda_multi_burstON_035: PASS -- positive days, declines orders, consistent authority
+edda_multi_burstON_036: PASS -- six days stable, mocks and orders all handled composedly
+edda_multi_burstON_037: PASS -- mild complaint under orders, otherwise settled
+edda_multi_burstON_038: PASS -- high soup frequency but stays functional and composed
+edda_multi_burstON_039: PASS -- back-to-back provocations trigger complaint, then settles
+edda_multi_burstON_040: PASS -- busy day four, composed throughout, declines late order

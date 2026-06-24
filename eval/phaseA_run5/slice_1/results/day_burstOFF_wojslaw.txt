@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_011: PASS -- temper rises under repeated mockery, settles by evening
+wojslaw_day_burstOFF_012: PASS -- measured flare at insult, calm bookends, sane pacing
+wojslaw_day_burstOFF_013: PASS -- quiet day with kindnesses, single public insult triggers fury
+wojslaw_day_burstOFF_014: PASS -- clustered mockery drives repeated eruptions, recovers by night
+wojslaw_day_burstOFF_015: PASS -- multiple provocations, stays tense through evening, coherent arc
+wojslaw_day_burstOFF_016: FLAG -- complains at kindnesses (15:24, 15:28); proud man grumbling at help jars
+wojslaw_day_burstOFF_017: PASS -- light provocation day, proportionate snaps, settles well
+wojslaw_day_burstOFF_018: PASS -- mid-morning cluster of insults, tense afternoon, plausible recovery
+wojslaw_day_burstOFF_019: PASS -- calm day until late evening insult, restless then settles
+wojslaw_day_burstOFF_020: PASS -- heavy provocation noon, tense residue, defiance consistent throughout

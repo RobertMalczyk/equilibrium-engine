@@ -1,0 +1,10 @@
+edda_multi_burstOFF_021: PASS -- calm authority, sane pacing, consistent sleep and command
+edda_multi_burstOFF_022: PASS -- mild friction on orders, warmth to kindness, believable arc
+edda_multi_burstOFF_023: PASS -- declines orders fitly, two rest entries close but not absurd
+edda_multi_burstOFF_024: PASS -- steady composed days, regular meals, consistent sleep
+edda_multi_burstOFF_025: PASS -- clean three-day run, settled and fed throughout
+edda_multi_burstOFF_026: PASS -- declines order, absorbs mocks, many kindnesses but not jarring
+edda_multi_burstOFF_027: PASS -- quiet three days, lets orders pass, sane pacing
+edda_multi_burstOFF_028: PASS -- one compliance with order plausible, active day four, sane
+edda_multi_burstOFF_029: PASS -- late-night mock draws mild complaint, later wake fits
+edda_multi_burstOFF_030: PASS -- very calm, absorbs mocks, meals and sleep consistent

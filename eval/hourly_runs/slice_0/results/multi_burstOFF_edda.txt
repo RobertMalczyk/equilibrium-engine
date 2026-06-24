@@ -1,0 +1,10 @@
+edda_multi_burstOFF_001: PASS -- calm multi-day stretch, varied compliance, sane pacing
+edda_multi_burstOFF_002: PASS -- complaint then compliance across days, fits composed profile
+edda_multi_burstOFF_003: PASS -- quiet uneventful days, regular meals and rest, sane
+edda_multi_burstOFF_004: PASS -- varied stranger-order responses, sane multi-day rhythm
+edda_multi_burstOFF_005: PASS -- declines one order, otherwise settled and well-paced
+edda_multi_burstOFF_006: PASS -- mild complaint then compliance, composed through mockery
+edda_multi_burstOFF_007: PASS -- two mocks let pass, varied order responses, sane
+edda_multi_burstOFF_008: PASS -- curt reply to public mockery fits castellan, sane
+edda_multi_burstOFF_009: PASS -- dense afternoon kindnesses but not implausible, sane
+edda_multi_burstOFF_010: PASS -- quiet composed days, lets friction pass, sane

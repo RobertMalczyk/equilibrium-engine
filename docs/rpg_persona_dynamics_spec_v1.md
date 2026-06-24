@@ -27,7 +27,10 @@ place only. Three keywords: **frozen snapshot**, **synchronous update**, **filte
 - **Synchronous update.** All equations read a frozen snapshot of the state from the start of the tick;
   deltas computed together; commit together. Equation order **does not affect the result**.
 - **Filter per channel, not per event.** One event decomposes into many channels; each routed by its
-  class: relational → filter per source, affinity → per object, physiological → no filter.
+  class: relational → filter per source, affinity → per object, physiological → no filter. **M-MEM:** a tick
+  may carry SEVERAL events — each is mapped+filtered, then merged into the effective input (a channel → list
+  of inputs; `update` sums them). The per-source reactive signals key on the strongest provoker (the
+  *primary*). A ≤1-event tick is byte-identical with the pre-M-MEM engine.
 - **One source of truth for the equations.** The `input→state` and `state→state` equations exist only in
   `update`. Descriptions elsewhere are descriptions, not a second application (double-counting risk).
 - **Clamps.** `clamp01` after every state commit; `clamp_signed` [−1..1] for signed values.
@@ -71,6 +74,62 @@ place only. Three keywords: **frozen snapshot**, **synchronous update**, **filte
 - **Note:** revise `dt` when a phenomenon faster than the current fastest emotion is added (`dt` always
   drops to the fastest element).
 
+### 2.1 Continuous-time parameterization — `dt` as a resolution knob
+
+`time_scale` (§2 above) *relabels* time: it scales every half-life by `k`, keeping `dt/half_life`
+constant, so the discrete trace is bit-identical and only the seconds-per-tick stretch. It cannot
+*refine* the model — it never changes how many ticks resolve a given game-second.
+
+This subsection adds the complementary property: **hold the real-time constants fixed and change `dt`,
+and the continuous-time trajectory is preserved** (finer `dt` = a more faithful sampling of the same
+dynamics, not a different model). The engine is therefore specified as a **continuous-time model that
+is discretized at load**: every time-dependent constant is given in **real-time units**, and its
+per-tick coefficient is derived from the sample time `Ts = dt`.
+
+**The conversion is per dynamical kind — NOT a uniform `÷Ts`.** Dividing everything by `Ts` is wrong
+(decays are exponential in `Ts`; one-shot events must not scale). Each constant is classified and
+converted as:
+
+| kind | examples | real-time spec | per-tick coefficient |
+|------|----------|----------------|----------------------|
+| **leak / decay** | state half-lives → `decay`; relational memory | time constant `τ` (s) | `decay = 2^(−Ts/τ)` — *exact* |
+| **continuous rate** | `drifts`; state↔state `couplings`; `burst_extinction`; `idle_recovery`; per-tick action effects; *sustained* physiological inputs | rate **per second** | **`× Ts`** (forward Euler) |
+| **event impulse** | `insult` / `help` / `command` / `food_given` deposits | deposit magnitude (per event) | **unchanged** — the event fires once, independent of `Ts` |
+| **counter / window** | `seeking_timeout`, `burst_confirm`, refractory window, action `cooldown`, `reactive_window` | duration (s) | **`round(· / Ts)`** ticks |
+| **dimensionless** | thresholds, clamps, escalation `k_esc`, trait modulators, gains on states | — | **unchanged** |
+
+In one line: **`τ`-type → exponential in `Ts`; rate-type → `× Ts`; count-type → `÷ Ts`;
+impulse/threshold → invariant.** Half-lives→`decay` already follow the leak rule. Channels carry an
+explicit **kind tag** (`impulse` vs `sustained`) so the loader routes event deposits (invariant) apart
+from sustained feeds (`× Ts`).
+
+**One conversion site.** All `Ts`-conversion lives in the **loader** (`yaml_io`), exactly as
+half-lives already become `decay` there; the tick update equation consumes ready per-tick
+coefficients and is unchanged. There is one mechanism for discretization, and **no per-tick numeric
+literal** survives in engine code — config holds real-time values, the loader holds the `Ts` map.
+(The eval believable-day derivation, which previously re-derived drifts/timeouts from durations,
+is subsumed by this generic conversion.)
+
+**Canonical invariance (by construction).** Re-expressing each existing per-tick constant as
+`rate_per_second = value_per_tick / Ts_canonical` (and counts as `seconds = ticks · Ts_canonical`)
+makes the loader reproduce the exact original per-tick numbers at the canonical `Ts`. The frozen
+golden/litmus trace is therefore **unchanged**; only *new* `dt` values exercise the refined path.
+
+**Scope and caveats (honest limits of "real-time preserved").**
+1. Leaks discretize **exactly**; the additive rate terms use **forward Euler** (`× Ts`) and are thus
+   `dt`-invariant only **in the limit**, with `O(Ts)` error that shrinks as `dt` decreases.
+2. The **nonlinear and threshold logic** — escalation `k_esc`, clamps, and the burst **latch**
+   (integrate-and-fire, confirm-for-`N`-ticks, hysteresis) — is path-dependent. Counters are specced
+   in seconds and converted, but the latch *crossing* still depends on the discrete path, so different
+   `dt` values **converge** rather than producing bit-identical event timing.
+3. Calibration is performed at the **canonical `Ts`**. A finer `dt` is a **new operating point**: the
+   boundedness gate and the G0 corridor must be re-verified there before its incident counts are
+   trusted.
+
+This completes the §1 invariants "`dt = min(half_life)/10`", "no numeric literal in engine code", and
+"constants from calibration": the remaining tick-anchored magic numbers become real-time-specced,
+`Ts`-derived constants with a single conversion site.
+
 ---
 
 ## 3. Canonical types (shared vocabulary)
@@ -97,8 +156,10 @@ HistoryFeatures:
 SemanticInput:                              # ONE tagged channel
   name, value (float; preference_match [-1..1]),
   cls: InputClass, source: AgentId|None, target: TargetId|None, polarity
-SemanticInputVector  = dict[str, SemanticInput]   # from the mapper (base)
-EffectiveInputVector = dict[str, SemanticInput]    # after the filters
+SemanticInputVector  = dict[str, SemanticInput]        # from the mapper (base), one input per channel/event
+EffectiveInputVector = dict[str, list[SemanticInput]]  # after the filters AND merged across the tick's events
+                                                       # (M-MEM): a channel may carry several inputs (one per
+                                                       # source firing it this tick). One event -> one-element lists.
 
 GlobalState [0..1]:  hunger fatigue boredom stress frustration anger satisfaction self_control
 RelationState [0..1] (per source):  trust respect resentment
@@ -176,7 +237,9 @@ novelty_seeking, stoicism, reactivity, threat_sensitivity, gratitude, trust_disp
 
 ## 5. Input channels (frozen — ≈24) and filtering
 
-The mapper decomposes one event into many tagged channels. The **class** tag decides the routing.
+The mapper decomposes one event into many tagged channels. The **class** tag decides the routing. (M-MEM: a
+tick may carry several events; the mapper runs per event and `simulation.tick` merges the filtered results,
+so a channel can carry one input per source firing it that tick.)
 
 **Physiological / world (self, no filter):** `food_nutrition`→hunger↓ · `rest`→fatigue↓ ·
 `pain`→stress↑ · `repetition`→boredom↑ · `novelty`→boredom↓ · `uncertainty`→stress↑ ·
@@ -289,13 +352,15 @@ event is this" question. Diagram: `docs/diagrams/filters.md`.
 TICK(t):
   1. snapshot = freeze(global_state, relations)                 # values from the start of the tick (FROZEN)
   2. derived_pre = derived(snapshot, traits)                    # bias, eff_self_control, urge_*, ...
-  3. eff = ∅
-     if event at t:
+  3. eff = ∅                                                    # M-MEM: a tick carries 0, 1, or MANY events
+     for event in events at t:
         feats = history.analyze(log, event, t)
-        raw   = mapper.map(event, persona, feats)               # tagged channels
-        eff   = affinity_filter(relation_filter(raw, snapshot.relations, derived_pre, ctx), affinities, ctx)
+        raw   = mapper.map(event, persona, feats)               # tagged channels (per event)
+        ev_eff = affinity_filter(relation_filter(raw, snapshot.relations, derived_pre, ctx), affinities, ctx)
+        for ch, si in ev_eff: eff[ch].append(si)                # MERGE -> channel : list of inputs
+     primary = strongest provoker among events (ties: scenario order; else the first event)  # drives §3b signals
   4. delta = update.compute(snapshot, eff, derived_pre, traits, mode, recovering)   # SYNCHRONOUSLY
-        # new = clamp( decay*old + drift + Σ gain*input + Σ coupling*state_snapshot
+        # new = clamp( decay*old + drift + Σ_ch gain·(Σ_inputs input.value) + Σ coupling*state_snapshot   # M-MEM: sum a channel's inputs
         #              + (when BUSY) activity effects: −drive relief, +fatigue cost,
         #                +reward·affinity→satisfaction, −urge expenditure
         #              + (when IDLE & unprovoked) idle_recovery: settle toward calm (stress/anger−), D11 )
@@ -611,7 +676,20 @@ saturation + a self-extinguishing burst latch**:
   `positive_response` out-argmaxed the displaced outburst even at anger ≈ 1 (0.50 vs 0.159 at the
   placeholders), so no calibration could ever realize the spec'd "the burst may catch a kind giver" —
   the qualitative behaviour had to be a gate, per the topology-now rule. `theta_displace` is thereby
-  the *single* dial separating "warmth still gets through" from "anyone present can catch it". **A displaced lash-out must NOT
+  the *single* dial separating "warmth still gets through" from "anyone present can catch it".
+  **Source-valence gate (M3, refines the 2026-06-12 decision; config `appraisal.displace_valence_gate`,
+  default off → bit-identical).** Blind-judge evidence (the all-Sonnet believability re-judge:
+  `eval/phaseA_run2/REPORT.md`, 48/88 residual regressions = "snaps at soup / displacement overdone")
+  showed that suppressing a *genuine kindness* above the bar overshoots believability. When the gate is
+  enabled, a **positive-valence** event is **not** an admissible discharge trigger: the displaced gate
+  does not open for it, so its `kindness_pressure` is **not** suppressed and the appraisal route wins
+  (warmth/neutral, never a lash-out at the kind giver). "Positive valence" reuses the existing kindness
+  appraisal exactly — `kindness_pressure > 0` (a pro-social gesture from a **non-resented** source with a
+  net-positive contribution). A "kindness" from a **resented** source has `kindness_pressure = 0` (it
+  galls — a provocation), so it still qualifies as a discharge target: Cichy is unaffected by
+  construction. Neutral/negative sources above the bar still catch the displacement (the "kick the dog"
+  on the bystander is unchanged). The gate is a deterministic boolean conjunct on the frozen snapshot —
+  no new state or feedback edge, so the linearized poles are unchanged. **A displaced lash-out must NOT
   mint a durable grudge on the innocent:** its relational cost is booked **transiently / heavily
   discounted** (a flash of "snapped at her", not "now hates her") — the measured pathology (wojsław/Marta:
   each discharge booked `+resentment` on the giver, her resentment ran to 1.0, then her every kindness
@@ -885,7 +963,9 @@ States: `fear` (threat reactions + avoidance), `suppressed_anger` (suppression w
 `attachment` + `fear_of` (relationship depth, the romance arc, intimidation by a person), `comfort` +
 `safety`. Channels/actions: `threat`, phobias (preference→fear), the `engage`/`avoid` actions.
 Mechanisms: online affinity learning, multi-character content in scenarios (the structure is ready —
-Relations per source — the MVP used only `player`; the **FIRST SLICE of live multi-agency is now implemented**
+Relations per source — the MVP used only `player`; **M-MEM** now lets a tick carry SEVERAL events
+(per-source merge + strongest-provoker arbitration, see `m_mem_PLAN.md`) — the seam for simultaneous
+multi-agent fan-out; the **FIRST SLICE of live multi-agency is now implemented**
 — the `duty`→`command_other` authority verb + a deterministic one-tick cross-agent router, §8; what remains
 stage-2 is the **back-edge** authority↔resentment loop, chains of command, and in-engine target policy),
 **humor as reappraisal** (an affective filter

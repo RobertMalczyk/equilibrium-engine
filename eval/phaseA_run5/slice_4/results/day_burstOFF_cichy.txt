@@ -1,0 +1,10 @@
+cichy_day_burstOFF_041: PASS -- calm day, curt at evening soup, sensible arc
+cichy_day_burstOFF_042: PASS -- mocking escalates fury; settles overnight; credible
+cichy_day_burstOFF_043: PASS -- early eruption fades; settled afternoon; believable
+cichy_day_burstOFF_044: PASS -- curt at morning mock; tense drift; pacing sane
+cichy_day_burstOFF_045: PASS -- stranger warmth, guard mock triggers fury; arc holds
+cichy_day_burstOFF_046: PASS -- curt at afternoon soup; tense evening; clean arc
+cichy_day_burstOFF_047: PASS -- curt late soup; tense evening without resolution; sane
+cichy_day_burstOFF_048: PASS -- two mocks escalate to fury; long tension; recovers
+cichy_day_burstOFF_049: PASS -- quiet day, mild boredom cycles, no provocations; fine
+cichy_day_burstOFF_050: PASS -- curt at tense soup; stranger kindness; settles; sane

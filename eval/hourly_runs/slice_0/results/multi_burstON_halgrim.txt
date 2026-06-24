@@ -1,0 +1,10 @@
+halgrim_multi_burstON_001: PASS -- tension rises under Wojsław, resets each morning, sane
+halgrim_multi_burstON_002: PASS -- calm throughout, mild rain day, one Edda murmur plausible
+halgrim_multi_burstON_003: PASS -- Day 3 grumble at Edda fits accumulated Wojsław pressure
+halgrim_multi_burstON_004: PASS -- rain plus prior tension, Marta curtness under peak stress
+halgrim_multi_burstON_005: PASS -- rapid morning Wojsław barrage drives believable escalation
+halgrim_multi_burstON_006: PASS -- calm baseline, light late-day tension, clean resets
+halgrim_multi_burstON_007: FLAG -- cold contempt toward respected Edda, Day 1 late night
+halgrim_multi_burstON_008: PASS -- sustained Wojsław assault, contempt confined to him
+halgrim_multi_burstON_009: FLAG -- contempt toward Edda and Marta kindness met with complaint
+halgrim_multi_burstON_010: FLAG -- contempt toward Marta soup twice, spillover too broad

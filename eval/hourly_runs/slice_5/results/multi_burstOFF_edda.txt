@@ -1,0 +1,10 @@
+edda_multi_burstOFF_051: PASS -- calm multi-day run, composed throughout, sane pacing
+edda_multi_burstOFF_052: PASS -- authority pushback and mild late-day grumble both fit
+edda_multi_burstOFF_053: PASS -- steady days, mocks absorbed without reaction, consistent
+edda_multi_burstOFF_054: PASS -- two close rest-sits day 1 minor, overall sane
+edda_multi_burstOFF_055: PASS -- day 3 dense social activity, pacing and sleep intact
+edda_multi_burstOFF_056: PASS -- grumble after second order in quick succession is plausible
+edda_multi_burstOFF_057: PASS -- many kindnesses days 3-4, stays composed, sleep regular
+edda_multi_burstOFF_058: PASS -- outright refusal of stranger's order fits castellan authority
+edda_multi_burstOFF_059: PASS -- brief rest-sit interruption odd but not jarring
+edda_multi_burstOFF_060: PASS -- quiet uneventful run, orders absorbed calmly, sane

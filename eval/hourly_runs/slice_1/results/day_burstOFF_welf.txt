@@ -1,0 +1,10 @@
+welf_day_burstOFF_011: PASS -- sane pacing; mock at 22:00 noted, brief tension, fits calm man
+welf_day_burstOFF_012: PASS -- tense moment at 22:04 resolves quickly; late kindnesses plausible
+welf_day_burstOFF_013: PASS -- two soups near 08:00 is slightly dense but not absurd
+welf_day_burstOFF_014: PASS -- steady even day, repeated warmth to strangers fits his character
+welf_day_burstOFF_015: PASS -- calm rhythm, boredom cycles and kindnesses land naturally
+welf_day_burstOFF_016: PASS -- clean arc, restlessness and ease alternate believably all day
+welf_day_burstOFF_017: FLAG -- restless at 22:42, still working past 23:30; sleep oddly late
+welf_day_burstOFF_018: FLAG -- restless at 22:50, working until 23:42; very late for a settled man
+welf_day_burstOFF_019: PASS -- well-paced day, warmth to strangers consistent, nothing jars
+welf_day_burstOFF_020: PASS -- generous flow of kindnesses; Welf receives warmly each time, fits

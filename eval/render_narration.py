@@ -76,6 +76,13 @@ REACTIVE = {
     "positive_response",
 }
 
+# M2 -- positive-valence events. A kindness (soup, a hand) that lands while the persona happens to be
+# resting / busy gets no REACTIVE action that tick, so it used to fall to the slight-style "lets it pass,
+# no notable reaction" -- reading a benign act as a snub. These events are instead acknowledged mildly
+# (a nod), never the slight phrase. (If the persona DOES warm up, the reactive `positive_response` line
+# above already fires; this branch is only the no-hostile-reaction fallback.)
+POSITIVE_EVENTS = {"food_given", "help"}
+
 ACTION_PLAIN = {
     "neutral": None,  # nothing notable -> no line
     "cold_response": "answers curtly and coldly",
@@ -163,19 +170,56 @@ def event_phrase(ev: RawEvent, obj: str) -> str:
     return f"{who} {ev.type}s {obj}"
 
 
-def mood_phrase(g: dict) -> str:
+# M1 -- the bearing read must weigh residual ANGER, not just stress. After an outburst the stress base
+# can ebb while anger is still high; keying only on stress then prints "settled, at ease" minutes after a
+# flare-up (the settled<->fury contradiction the blind judge flagged). These bands are EXPRESSION constants
+# (presentation cutoffs on the observable state), not engine parameters: a body still carrying high anger
+# reads as seething regardless of a low stress base; a moderate residual keeps the bearing off "settled".
+ANGER_SEETHING = (
+    0.60  # residual anger this high reads as still-seething whatever the stress base
+)
+ANGER_TENSE = 0.30  # this much residual anger keeps the bearing off "settled, at ease"
+# M1 refinement -- "still seething" is ACTIVE fury and only reads right when a provocation is RECENT.
+# A slow-decaying residual sampled by the ~hourly mood heartbeat, far from any visible cause, must read as
+# a LINGERING temper, not seething-at-nothing (the over-surfacing the re-judge flagged: 117/144 burst-ON
+# "seething with no visible provocation"). Freshness window + what counts as a provocation, expression-side.
+ANGER_FRESH_SECS = (
+    3600.0  # a provocation within ~1 game-hour justifies the active "seething" read
+)
+HOSTILE_REACTIONS = {"outburst", "cold_response", "complain", "refuse"}
+
+
+def mood_phrase(g: dict, anger_fresh: bool = True) -> str:
     """A bystander's read of the persona's bearing -- NO numbers. The boredom/frustration colouring must not
     CONTRADICT the stress base: a calm (low-stress) body that is bored/frustrated reads 'restless'/'out of
-    sorts', NOT 'settled, at ease, and plainly out of sorts' (the self-contradiction the blind judge flagged)."""
+    sorts', NOT 'settled, at ease, and plainly out of sorts' (the self-contradiction the blind judge flagged).
+    Residual ANGER overrides a low-stress base (M1): one does not read 'at ease' while still angry. But high
+    anger reads as ACTIVE fury ("still seething") only when a provocation is recent (`anger_fresh`); a stale
+    residual reads as a LINGERING temper instead, so it never looks like seething-at-nothing."""
     s = g.get("stress", 0.0)
+    anger = g.get("anger", 0.0)
     bored = g.get("boredom", 0.0) > 0.60
     out_of_sorts = g.get("frustration", 0.0) > 0.55
-    if s < 0.30:  # calm body -- the colouring REPLACES "at ease", not appends
+    # High residual anger dominates the read -- the body is still visibly angry even if stress has ebbed.
+    if anger >= ANGER_SEETHING:
+        base = (
+            "is still seething, jaw tight"
+            if anger_fresh
+            else "still hasn't quite shaken off an earlier temper"
+        )
+        if bored:
+            base += ", restless with it"
+        elif out_of_sorts:
+            base += ", and plainly out of sorts"
+        return base
+    # calm body -- low stress AND no lingering anger; the colouring REPLACES "at ease", not appends
+    if s < 0.30 and anger < ANGER_TENSE:
         if bored:
             return "looks restless and a little bored, though not on edge"
         if out_of_sorts:
             return "seems a touch out of sorts, though outwardly calm"
         return "looks settled, at ease"
+    # tense band -- driven by the stress base OR a moderate residual anger
     base = (
         "looks tense, a little on edge"
         if s < 0.60
@@ -266,6 +310,9 @@ def render(persona: str) -> tuple[str, int]:
     prev_act = "neutral"
     last_window = -1
     window_emitted: set[str] = set()
+    last_prov_secs: float | None = (
+        None  # game-time of the last visible provocation (M1 recency gate)
+    )
 
     for i, tk in enumerate(ticks):
         t = tk.t
@@ -276,7 +323,13 @@ def render(persona: str) -> tuple[str, int]:
             window_emitted = set()
             if t > 0:
                 g = tk.state_after_post.global_state
-                lines.append(f"- **{clock(t, dt)}** -- {Subj} {mood_phrase(g)}.")
+                anger_fresh = (
+                    last_prov_secs is not None
+                    and (t * dt - last_prov_secs) <= ANGER_FRESH_SECS
+                )
+                lines.append(
+                    f"- **{clock(t, dt)}** -- {Subj} {mood_phrase(g, anger_fresh)}."
+                )
 
         ev = tk.event
         act = tk.selection.action
@@ -285,8 +338,14 @@ def render(persona: str) -> tuple[str, int]:
         if ev is not None and ev.type != "activity":
             # the visible reaction: the first REACTIVE action at/within ~3 ticks of the event
             # (a coincidental proactive action nearby is NOT a response -> "lets it pass").
+            # A POSITIVE event reads ONLY its own tick (its warm reply is immediate) -- scanning ahead
+            # mis-attaches a later residual/displaced discharge onto the kindness line ("snaps at the
+            # soup" when the kindness tick was not a lash-out). A hostile event keeps the i..i+3 lag.
             reaction, reaction_score = "neutral", 0.0
-            for j in range(i, min(i + 4, len(ticks))):
+            react_end = (
+                (i + 1) if ev.type in POSITIVE_EVENTS else min(i + 4, len(ticks))
+            )
+            for j in range(i, react_end):
                 # Don't reach PAST a later forcing event -- its reaction belongs to IT, not to this one.
                 # (Theme A: stops a subsequent insult's outburst being stapled onto an earlier benign soup.)
                 if (
@@ -301,6 +360,10 @@ def render(persona: str) -> tuple[str, int]:
                         ticks[j].selection.score,
                     )
                     break
+            # M1 recency: a visible provocation (an insult, or a hostile reaction) refreshes the
+            # window in which "still seething" reads as motivated.
+            if ev.type == "insult" or reaction in HOSTILE_REACTIONS:
+                last_prov_secs = t * dt
             phrase = event_phrase(ev, obj)
             phrase = (
                 phrase[0].upper() + phrase[1:]
@@ -315,6 +378,13 @@ def render(persona: str) -> tuple[str, int]:
                 window_emitted.add(
                     ACTION_PLAIN.get(reaction)
                 )  # don't echo the same reaction as a bare line next tick
+            elif ev.type in POSITIVE_EVENTS:
+                # M2: a kindness with no hostile reaction is acknowledged, never the slight-style phrase.
+                # Composes with M1: if still angry, the next mood heartbeat reads "still seething" --
+                # "takes it ... still tense" rather than feigned warmth.
+                lines.append(
+                    f"- **{clock(t, dt)}** -- {phrase}. {Subj} takes it without fuss, a small nod."
+                )
             else:
                 lines.append(
                     f"- **{clock(t, dt)}** -- {phrase}. {Subj} lets it pass, no notable reaction."

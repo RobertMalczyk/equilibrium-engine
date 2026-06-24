@@ -1,0 +1,10 @@
+welf_multi_burstOFF_011: PASS -- steady cycles, composed under mockery, sane pacing
+welf_multi_burstOFF_012: PASS -- recurring morning tension clears, consistent with boredom
+welf_multi_burstOFF_013: PASS -- late night, dense kindnesses Day 1, no profile contradiction
+welf_multi_burstOFF_014: PASS -- late tension plausible, many kindnesses absorbed warmly
+welf_multi_burstOFF_015: FLAG -- soup event rendered as "lets it pass" (mockery response label)
+welf_multi_burstOFF_016: PASS -- brief bristle under rain+mock stress, recovers quickly
+welf_multi_burstOFF_017: PASS -- clean three days, mocks let pass, mornings settle normally
+welf_multi_burstOFF_018: PASS -- recurring morning tension pattern, clears consistently
+welf_multi_burstOFF_019: FLAG -- soup event rendered as "lets it pass" (mockery response label)
+welf_multi_burstOFF_020: PASS -- six days smooth, mocks let pass, no profile contradiction

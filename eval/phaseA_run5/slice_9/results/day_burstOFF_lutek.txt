@@ -1,0 +1,10 @@
+lutek_day_burstOFF_091: PASS -- restless poet cycles naturally, mock rolls off, sleeps well
+lutek_day_burstOFF_092: PASS -- brief evening tension resolves, warm day, sane pacing
+lutek_day_burstOFF_093: PASS -- mock ignored, tension at 20:00 eased by soup, fits profile
+lutek_day_burstOFF_094: PASS -- insult shrugged off, mild evening edge, recovers cleanly
+lutek_day_burstOFF_095: PASS -- tension at 18:03 resolves after soup, consistent warm character
+lutek_day_burstOFF_096: PASS -- many Marta kindnesses, mild evening edge clears, sane day
+lutek_day_burstOFF_097: PASS -- mock ignored, steady rhythms, no tension spikes, clean sleep
+lutek_day_burstOFF_098: PASS -- brief 20:03 edge, resolves by 22:04, restless pattern intact
+lutek_day_burstOFF_099: PASS -- well-fed, multiple kindnesses, settled evening, fits profile
+lutek_day_burstOFF_100: PASS -- mild 20:03 tension, active but calm day, wakes easy

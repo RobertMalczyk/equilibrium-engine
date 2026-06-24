@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_091: PASS -- calm run, warm day 1, eruption on public mock day 2, pride-driven refusals day 3
+wojslaw_multi_burstON_092: PASS -- escalating provocations across days, eruptions proportionate, recovery overnight
+wojslaw_multi_burstON_093: PASS -- benign conditions produce warm responses, rare snaps on genuine mocks
+wojslaw_multi_burstON_094: PASS -- six-day grind, displacement onto kindnesses by day 4-6, believable saturation
+wojslaw_multi_burstON_095: PASS -- rough day 1 then sustained calm days 2-4, mild re-accumulation day 5
+wojslaw_multi_burstON_096: PASS -- calm days 1-2, escalation day 4, full displacement saturation day 5
+wojslaw_multi_burstON_097: PASS -- high-hostility run throughout, sustained by consistent provocative stimuli
+wojslaw_multi_burstON_098: PASS -- displacement onto food and help visible, accumulation arc coherent
+wojslaw_multi_burstON_099: PASS -- dense mocking across four days, eruptions at food and kindness fit displacement
+wojslaw_multi_burstON_100: PASS -- rough day 1, full recovery day 2, mild re-accumulation day 3

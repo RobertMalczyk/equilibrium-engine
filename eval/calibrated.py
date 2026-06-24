@@ -69,12 +69,19 @@ def burst_overrides() -> dict:
     rest: dict = {}
     for key, val in flat.items():
         if key.startswith("thresholds."):
-            thresholds[key[len("thresholds.") :]] = val  # flat threshold key (may contain a dot)
+            thresholds[key[len("thresholds.") :]] = (
+                val  # flat threshold key (may contain a dot)
+            )
         else:
             rest[key] = val
     ov = nest_dotted(rest)
     if thresholds:
         ov = _merge(ov, {"thresholds": thresholds})
+    # M3 (Phase C): enable the source-valence gate whenever the burst overlay is live -- a genuine
+    # kindness (kindness_pressure>0, non-resented source) is not a discharge target above the bar. The
+    # engine flag defaults OFF (bit-identical); the believability eval opts in here, per the re-judge
+    # evidence (eval/phaseA_run2/REPORT.md: 48/88 residual regressions were burst-ON kindness-displacement).
+    ov = _merge(ov, {"appraisal": {"displace_valence_gate": True}})
     return ov
 
 

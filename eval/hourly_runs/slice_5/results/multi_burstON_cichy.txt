@@ -1,0 +1,10 @@
+cichy_multi_burstON_051: PASS -- tension builds credibly across days, bursts on provocation
+cichy_multi_burstON_052: PASS -- morning burst plausible given multi-day accumulation
+cichy_multi_burstON_053: PASS -- rain-day stress explains earlier-than-usual eruptions
+cichy_multi_burstON_054: FLAG -- fury at 22:54 seconds after settled at ease at 22:04
+cichy_multi_burstON_055: FLAG -- settled at ease 22:16 then fury eruption at 22:40
+cichy_multi_burstON_056: PASS -- persistent Day 2 tension without incident is borderline but credible
+cichy_multi_burstON_057: PASS -- clean record, sane pacing, no outbursts warranted
+cichy_multi_burstON_058: PASS -- morning burst after two days of tension is within range
+cichy_multi_burstON_059: PASS -- sustained tension, cold responses, no eruptions, sane arc
+cichy_multi_burstON_060: FLAG -- two fury eruptions minutes apart Day 2, rapid re-escalation

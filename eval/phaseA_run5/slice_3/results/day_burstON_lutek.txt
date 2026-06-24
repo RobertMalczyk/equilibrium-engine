@@ -1,0 +1,10 @@
+lutek_day_burstON_031: PASS -- restless cycle, mockery ignored, sleeps and wakes recovered
+lutek_day_burstON_032: PASS -- steady rhythm, insults roll off, mild evening edge plausible
+lutek_day_burstON_033: PASS -- active day, evening tension resolves, wakes settled
+lutek_day_burstON_034: PASS -- busy day with kindnesses, mild evening edge, clean recovery
+lutek_day_burstON_035: PASS -- cluster of kindnesses mid-afternoon fits easy warm temperament
+lutek_day_burstON_036: PASS -- two mocks ignored, warm responses to kindness, good pacing
+lutek_day_burstON_037: PASS -- late-evening tension after rest fits; wakes recovered
+lutek_day_burstON_038: PASS -- late tension at 22:04 resolved by kindness, then active again
+lutek_day_burstON_039: PASS -- tense at 20:03 but kindnesses follow and settle him
+lutek_day_burstON_040: FLAG -- sleeps at 00:08 Day 2 after being settled at 00:04; very late

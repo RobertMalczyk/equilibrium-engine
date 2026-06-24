@@ -50,7 +50,7 @@ events:
 - type: insult
   t: 458
   source: player
-  intensity: 0.759
+  intensity: 1.0
   context:
     public: false
 - type: nightfall

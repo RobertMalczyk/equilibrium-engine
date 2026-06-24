@@ -1,0 +1,10 @@
+edda_multi_burstON_021: PASS -- steady composed authority, sane pacing throughout six days
+edda_multi_burstON_022: PASS -- mild complaint plausible after good morning; recovers cleanly
+edda_multi_burstON_023: PASS -- complies with stranger once late at night, minor but not jarring
+edda_multi_burstON_024: PASS -- quiet composed days, provocations let pass, nothing jars
+edda_multi_burstON_025: PASS -- clean sane rhythm across three days, no issues
+edda_multi_burstON_026: PASS -- declines order appropriately; meal frequency high but not flaggable
+edda_multi_burstON_027: PASS -- quiet sparse days, stranger orders let pass, believable
+edda_multi_burstON_028: PASS -- one compliance with stranger order; authority figure can defer once
+edda_multi_burstON_029: PASS -- curt reply late night, slightly later sleep and wake, naturalistic
+edda_multi_burstON_030: PASS -- dense day four activity, otherwise solid pacing and composure

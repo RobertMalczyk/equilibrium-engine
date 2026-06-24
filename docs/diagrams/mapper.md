@@ -10,6 +10,11 @@
 ## I/O
 `In:` RawEvent + PersonaConfig + HistoryFeatures. `Out:` SemanticInputVector (base, tagged).
 
+> **M-MEM:** the mapper still maps **one** `RawEvent` (pure, per-event). A tick may carry SEVERAL events;
+> `simulation.tick` calls the mapper per event and MERGES the filtered results into the effective input
+> (channel → list of inputs — several sources may fire the same channel on one tick). The mapper itself is
+> unchanged and unaware of multiplicity.
+
 ## Routing (event → channels, with class tag that drives the filter dispatch)
 
 ```

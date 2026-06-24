@@ -1,0 +1,10 @@
+branic_multi_burstOFF_081: PASS -- calm 3-day arc, one snap after evening provocation
+branic_multi_burstOFF_082: PASS -- anger carry-over explains morning defiance day 2
+branic_multi_burstOFF_083: PASS -- two eruptions on provocation, clean recovery days between
+branic_multi_burstOFF_084: PASS -- warm day 2 recovery after day 1 snap; coherent arc
+branic_multi_burstOFF_085: PASS -- sporadic non-compliance builds plausibly over 6 days
+branic_multi_burstOFF_086: PASS -- cumulative irritation drives day 2-4 refusal escalation
+branic_multi_burstOFF_087: FLAG -- night falls at 00:22 day 2; unusually late bedtime warrants check
+branic_multi_burstOFF_088: PASS -- no provocations across 6 days; no friction is coherent
+branic_multi_burstOFF_089: PASS -- day 4 warmth buffers day 5 mockery; smooth plausible arc
+branic_multi_burstOFF_090: PASS -- early-morning snap on tense day 3 fits profile well

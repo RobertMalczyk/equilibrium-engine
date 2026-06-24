@@ -1,0 +1,10 @@
+halgrim_multi_burstON_041: PASS -- calm veteran, sane pacing, Wojsław deflected appropriately
+halgrim_multi_burstON_042: FLAG -- contempt directed at Edda whom he genuinely respects
+halgrim_multi_burstON_043: PASS -- clean reset after rain day, Wojsław refusals fit profile
+halgrim_multi_burstON_044: PASS -- many Edda orders draw mild grumbles, not contempt; plausible
+halgrim_multi_burstON_045: PASS -- textbook Halgrim, escalating curtness at Wojsław only
+halgrim_multi_burstON_046: PASS -- rain tension dissipates, Wojsław mock draws appropriate curtness
+halgrim_multi_burstON_047: FLAG -- contempt aimed at Marta bringing soup; out of character
+halgrim_multi_burstON_048: PASS -- controlled escalation, Edda spillover mild and brief
+halgrim_multi_burstON_049: PASS -- relentless Wojsław load justifies Edda spillover at extreme stress
+halgrim_multi_burstON_050: PASS -- heavy Wojsław pressure arc, Edda contempt borderline but load explains it

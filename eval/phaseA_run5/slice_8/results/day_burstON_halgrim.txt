@@ -1,0 +1,10 @@
+halgrim_day_burstON_081: PASS -- accumulating tension from repeated provocations, resolves overnight
+halgrim_day_burstON_082: PASS -- steady day, mild late tension, no provocations to explain it
+halgrim_day_burstON_083: PASS -- Wojsław barbs bring curt responses; mood recovers cleanly
+halgrim_day_burstON_084: PASS -- quiet uneventful day, calm throughout, fits profile
+halgrim_day_burstON_085: PASS -- declines Wojsław's order plausibly; settles after afternoon edge
+halgrim_day_burstON_086: PASS -- entirely calm day, no friction, fits iron-self-control profile
+halgrim_day_burstON_087: FLAG -- snaps at Edda with contempt after Wojsław pile-on; displaces onto wrong target
+halgrim_day_burstON_088: PASS -- warm morning, mild afternoon edge without clear trigger, recovers
+halgrim_day_burstON_089: PASS -- smooth cooperative day, multiple stranger kindnesses feel slightly dense
+halgrim_day_burstON_090: FLAG -- cold contempt at Edda after Wojsław provocation; displaces onto respected superior

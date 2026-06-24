@@ -104,7 +104,9 @@ def main() -> None:
         print(f"  [{'PASS' if cond else 'FAIL'}] {name}")
 
     bad = next(
-        r for r in rows if r["scenario"] == "bad_day_stack" and r["persona"] == "wojslaw"
+        r
+        for r in rows
+        if r["scenario"] == "bad_day_stack" and r["persona"] == "wojslaw"
     )
     check(
         "bad_day_stack reaches a sustained 3+way coincidence",

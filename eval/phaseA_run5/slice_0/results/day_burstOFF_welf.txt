@@ -1,0 +1,10 @@
+welf_day_burstOFF_001: PASS -- steady day, boredom cycles, warmth to kindness, sane pacing
+welf_day_burstOFF_002: PASS -- mild tension near bedtime fits idleness buildup, recovers on waking
+welf_day_burstOFF_003: PASS -- barbed remark ignored as expected, calm even-keeled day
+welf_day_burstOFF_004: PASS -- well-fed day, restlessness cycles naturally, no jarring moments
+welf_day_burstOFF_005: PASS -- boredom flares late but he finds occupation, sane sleep
+welf_day_burstOFF_006: PASS -- mock ignored cleanly, good-natured acceptance of kindness throughout
+welf_day_burstOFF_007: PASS -- sits to rest then quickly restless again, believable pattern
+welf_day_burstOFF_008: PASS -- public barb let pass; two evening kindnesses, settled overnight
+welf_day_burstOFF_009: PASS -- two mocks ignored, boredom/rest cycles dense but plausible
+welf_day_burstOFF_010: PASS -- slight tension at day's end, clears by morning, fits profile

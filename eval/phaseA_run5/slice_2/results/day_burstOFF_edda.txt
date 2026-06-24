@@ -1,0 +1,10 @@
+edda_day_burstOFF_021: PASS -- settled day, sane pacing, fitting authority display at end
+edda_day_burstOFF_022: PASS -- calm sociable day, appropriate warmth, normal rhythm
+edda_day_burstOFF_023: PASS -- composed under insults, sane quiet day, fits profile
+edda_day_burstOFF_024: PASS -- stranger refused without drama, fits authority character
+edda_day_burstOFF_025: PASS -- warm responsive day, normal pacing, no jarring moments
+edda_day_burstOFF_026: PASS -- ignores orders from stranger, composed throughout, fits well
+edda_day_burstOFF_027: PASS -- refuses order while composed, barbs ignored, sane day
+edda_day_burstOFF_028: PASS -- complies with stranger once, calm day, believable
+edda_day_burstOFF_029: PASS -- warm sociable day, sane rhythm, fits profile
+edda_day_burstOFF_030: PASS -- quiet settled day, authority close, fully consistent

@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_061: PASS -- restless cycle sane, mocks roll off, nights clean
+lutek_multi_burstOFF_062: PASS -- six days steady, tensions brief and resolve naturally
+lutek_multi_burstOFF_063: PASS -- morning edge after early work, dissolves quickly each time
+lutek_multi_burstOFF_064: PASS -- three days fine, repeated mocks let pass as expected
+lutek_multi_burstOFF_065: PASS -- afternoon tension without clear trigger but within plausible range
+lutek_multi_burstOFF_066: PASS -- well-fed days, evening edges resolve with food and rest
+lutek_multi_burstOFF_067: PASS -- minor late-day tension, mocks ignored, pacing believable
+lutek_multi_burstOFF_068: PASS -- late-night sustained tension without relief but plausible for sleepless poet
+lutek_multi_burstOFF_069: PASS -- clean positive days, evening tension resolves with kindness
+lutek_multi_burstOFF_070: PASS -- very late sleep on final day fits restless poet profile

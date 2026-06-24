@@ -1,0 +1,10 @@
+cichy_multi_burstON_071: PASS -- calm mornings, rising tension, curt with guards, sane resets
+cichy_multi_burstON_072: PASS -- rain day sustained tension, stranger warmth, guard curtness consistent
+cichy_multi_burstON_073: PASS -- eruption under rain and mockery, recovers through day believably
+cichy_multi_burstON_074: PASS -- multi-day rain and mockery, temper fluctuates, sleeps and resets
+cichy_multi_burstON_075: PASS -- eruptions under repeated mockery, recovery pacing acceptable
+cichy_multi_burstON_076: PASS -- no meals day 2, sustained tension, sane arc across three days
+cichy_multi_burstON_077: PASS -- public mockery triggers eruption, escalating guard interactions, resets
+cichy_multi_burstON_078: PASS -- two-day eruptions under provocation, mornings calm, fits profile
+cichy_multi_burstON_079: PASS -- rain day eruption, late-night flares, morning resets consistent
+cichy_multi_burstON_080: PASS -- burst after calm-pass sequence sensible; day 6 double eruption fits pressure

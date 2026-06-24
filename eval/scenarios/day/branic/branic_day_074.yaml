@@ -30,7 +30,7 @@ events:
     public: false
 - type: help
   t: 153
-  source: halgrim
+  source: marta
   intensity: 0.875
   context: {}
 - type: help
@@ -40,7 +40,7 @@ events:
   context: {}
 - type: help
   t: 227
-  source: halgrim
+  source: marta
   intensity: 0.733
   context: {}
 - type: insult
@@ -70,7 +70,7 @@ events:
     public: true
 - type: help
   t: 409
-  source: marta
+  source: player
   intensity: 1.0
   context: {}
 - type: nightfall

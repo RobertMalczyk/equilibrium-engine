@@ -1,0 +1,10 @@
+welf_day_burstON_011: PASS -- calm day; single late mock prompts snap, fits profile
+welf_day_burstON_012: PASS -- mild tension at 22:04 dissolves with kindness; sane arc
+welf_day_burstON_013: PASS -- well-fed, settled; boredom cycles and resolves naturally
+welf_day_burstON_014: PASS -- steady, pleasant day; no jarring moments
+welf_day_burstON_015: PASS -- regular boredom-relief rhythm; settled overall
+welf_day_burstON_016: PASS -- mild edge at 22:04, unresolved but fades into sleep
+welf_day_burstON_017: PASS -- tension at 20:03 clears; active late but believable
+welf_day_burstON_018: PASS -- mild edge mid-evening, settled before sleep; sane pacing
+welf_day_burstON_019: PASS -- calm, well-supported day; nothing jars
+welf_day_burstON_020: PASS -- frequent kindnesses keep him settled; no contradiction

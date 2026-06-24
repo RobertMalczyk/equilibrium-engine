@@ -1,0 +1,10 @@
+edda_day_burstOFF_061: PASS -- stranger commands castellan twice; she complies then ignores
+edda_day_burstOFF_062: PASS -- heavy kindness day, pacing and composure sane
+edda_day_burstOFF_063: PASS -- repeated mocks absorbed; single curt reply plausible
+edda_day_burstOFF_064: PASS -- warm easy day, nothing jars
+edda_day_burstOFF_065: PASS -- settled throughout, sane pacing
+edda_day_burstOFF_066: PASS -- early compliance with stranger order; minor but not absurd
+edda_day_burstOFF_067: PASS -- quiet day, one mock absorbed, warmed by staff
+edda_day_burstOFF_068: PASS -- early mock shrugged off, positive day sane
+edda_day_burstOFF_069: PASS -- two close soups noted; mocks absorbed, day sane
+edda_day_burstOFF_070: PASS -- clean quiet day, composed throughout

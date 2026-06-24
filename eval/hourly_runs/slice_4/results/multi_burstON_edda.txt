@@ -1,0 +1,10 @@
+edda_multi_burstON_041: PASS -- calm 3 days, sane pacing, fits composed castellan
+edda_multi_burstON_042: PASS -- settled across 4 days, minor soup clustering not jarring
+edda_multi_burstON_043: PASS -- one muted kindness response plausible, overall composed
+edda_multi_burstON_044: PASS -- clustered meals are artifacts, character arc stays sane
+edda_multi_burstON_045: PASS -- repeated orders build realistic complaint then refusal arc
+edda_multi_burstON_046: PASS -- long gap before sleep on day 2, wakes recovered fine
+edda_multi_burstON_047: PASS -- curt reply to public mock proportionate for authority figure
+edda_multi_burstON_048: PASS -- kindness-heavy days, well-supported castellan, no jarring beats
+edda_multi_burstON_049: PASS -- sparse day 4 evening, recovers overnight, tolerable
+edda_multi_burstON_050: PASS -- day 6 triple mock triggers edge then recovery, coherent arc

@@ -169,7 +169,7 @@ def aggregate() -> None:
     lines = [
         "# Full-corpus blind regression — 1400 scenarios (700 day + 700 multi-day)",
         "",
-        f"Engine: branch `burst-saturation` (burst machinery present but NEUTRAL/disabled in all",
+        "Engine: branch `burst-saturation` (burst machinery present but NEUTRAL/disabled in all",
         "shipped config; includes the stranger-grudge relational-deposit fix). Judges: one fresh",
         "LLM agent per batch of 10 same-persona records, neutral rubric, no answer key.",
         "",
@@ -187,7 +187,7 @@ def aggregate() -> None:
         lines.append(f"| **{corpus} TOTAL** | | **{ok}** | **{n}** ({pct}) |")
     lines += [
         "",
-        f"Baseline: multi-day full-700 (2026-06-08) ≈ 697/700 (batched 627/630 = 99.5%). The day",
+        "Baseline: multi-day full-700 (2026-06-08) ≈ 697/700 (batched 627/630 = 99.5%). The day",
         "corpus had no prior full-700 blind run — its number here is baseline-setting.",
         "",
         f"## Flags ({len(flags)})",

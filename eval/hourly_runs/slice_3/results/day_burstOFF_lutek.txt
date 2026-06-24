@@ -1,0 +1,10 @@
+lutek_day_burstOFF_031: PASS -- restless cycle, mocks ignored, sleeps and wakes fine
+lutek_day_burstOFF_032: PASS -- steady rhythm, kindness welcomed, insults roll off naturally
+lutek_day_burstOFF_033: PASS -- brief evening tension resolves, pacing and meals sane
+lutek_day_burstOFF_034: PASS -- mild late tension resolves after kindness, day coherent
+lutek_day_burstOFF_035: PASS -- busy afternoon cluster of kindnesses, no jarring reactions
+lutek_day_burstOFF_036: PASS -- two mocks ignored cleanly, day otherwise settled and sane
+lutek_day_burstOFF_037: PASS -- consistent restless-settle pattern, warmly receives all kindnesses
+lutek_day_burstOFF_038: PASS -- mock ignored mid-afternoon, late restlessness, coherent day
+lutek_day_burstOFF_039: PASS -- brief evening tension eased by kindnesses, fully sane arc
+lutek_day_burstOFF_040: PASS -- sleeps just past midnight, slightly late but not absurd

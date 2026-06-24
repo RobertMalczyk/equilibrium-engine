@@ -1,0 +1,10 @@
+lutek_day_burstON_021: FLAG -- snaps at mock at 19:35 after rolling off same earlier; curt to kindness at 22:48
+lutek_day_burstON_022: PASS -- easy day, no incidents, pacing sane, wakes settled
+lutek_day_burstON_023: PASS -- mild tension at 18:03, resolves, late sleep fine
+lutek_day_burstON_024: PASS -- two mocks deflected, tense at 20:03 but recovers, sane
+lutek_day_burstON_025: PASS -- sociable generous day, no friction, wakes fresh
+lutek_day_burstON_026: PASS -- steady day, well-fed, warm throughout, normal rhythms
+lutek_day_burstON_027: FLAG -- wound tight at 22:04 with no provoking event visible before sleep
+lutek_day_burstON_028: PASS -- mild evening tension, resolves with soup, sane pacing
+lutek_day_burstON_029: PASS -- two mocks ignored, tense at 20:03, recovers fine
+lutek_day_burstON_030: PASS -- quiet day, mock ignored at 22:26, late sleep acceptable

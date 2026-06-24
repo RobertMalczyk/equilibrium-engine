@@ -1,0 +1,10 @@
+lutek_day_burstON_001: PASS -- restless cycle, fed twice, mild evening edge, clean sleep
+lutek_day_burstON_002: PASS -- insults roll off, kindnesses accepted warmly, sane pacing
+lutek_day_burstON_003: PASS -- busy social day, mockery ignored, late night but settles
+lutek_day_burstON_004: PASS -- active day, mild evening tension, resolves before sleep
+lutek_day_burstON_005: PASS -- tension builds evening, Marta's kindness helps, sleeps fine
+lutek_day_burstON_006: FLAG -- "still seething, jaw tight" after one barb; too harsh for thick-skinned Lutek
+lutek_day_burstON_007: PASS -- calm productive day, mild evening edge, wakes settled
+lutek_day_burstON_008: PASS -- tense at 18:00 clears by 20:00, insult shrugged off
+lutek_day_burstON_009: PASS -- easy well-fed day, steady good humour throughout
+lutek_day_burstON_010: PASS -- late sleep, mild evening tension, otherwise sane and warm

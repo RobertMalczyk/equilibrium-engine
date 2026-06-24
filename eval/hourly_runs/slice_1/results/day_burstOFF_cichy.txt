@@ -1,0 +1,10 @@
+cichy_day_burstOFF_011: PASS -- fury on mock, settled after, sane pacing
+cichy_day_burstOFF_012: PASS -- two provocations, two flares, recovers cleanly
+cichy_day_burstOFF_013: PASS -- early snap, afternoon tension, meals ignored throughout
+cichy_day_burstOFF_014: PASS -- stranger warmth, guard fury coexist plausibly
+cichy_day_burstOFF_015: PASS -- tension builds to midday outburst, evening settles
+cichy_day_burstOFF_016: PASS -- two evening outbursts back-to-back, curtly after soup
+cichy_day_burstOFF_017: PASS -- stranger kindness accepted, guard soup met curtly
+cichy_day_burstOFF_018: PASS -- late-night outburst at 22:56 just before sleep
+cichy_day_burstOFF_019: PASS -- single snap at guard, temper fades by night
+cichy_day_burstOFF_020: PASS -- muted day, only curtness on mock, sane arc

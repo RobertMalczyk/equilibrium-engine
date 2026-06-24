@@ -1,0 +1,10 @@
+halgrim_day_burstON_001: PASS -- defiant refusal of Wojslaw after repeated provocations, fits
+halgrim_day_burstON_002: PASS -- peaceful day, warmth throughout, fully settled
+halgrim_day_burstON_003: PASS -- iron control holds against Wojslaw mock, mild tension resolves
+halgrim_day_burstON_004: PASS -- quiet day, obeys Edda, warms to Marta, clean arc
+halgrim_day_burstON_005: PASS -- four Wojslaw barbs build cold contempt, wakes reset, fits profile
+halgrim_day_burstON_006: PASS -- two barbs answered curtly, tension settles before sleep
+halgrim_day_burstON_007: PASS -- declines Wojslaw, obeys Edda twice, calm overall
+halgrim_day_burstON_008: PASS -- slow burn after public barb, lingers despite kindness, believable
+halgrim_day_burstON_009: FLAG -- ignores Edda's order at 22:08; he respects and obeys her
+halgrim_day_burstON_010: FLAG -- ignores Edda's order at 10:01; incongruent with his respect for her

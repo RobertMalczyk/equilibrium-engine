@@ -1,0 +1,10 @@
+lutek_day_burstON_041: PASS -- restless seeker, mocks shrug off, warm to kindness
+lutek_day_burstON_042: PASS -- steady rhythm, evening tension resolves, sane sleep
+lutek_day_burstON_043: PASS -- mock ignored, evening tension eases with food
+lutek_day_burstON_044: PASS -- clean pacing, evening tension brief, normal sleep
+lutek_day_burstON_045: PASS -- many kindnesses cluster evening, settles, wakes restless
+lutek_day_burstON_046: FLAG -- neutral reaction to Marta's soup gift jars with warm profile
+lutek_day_burstON_047: PASS -- multiple Marta kindnesses, tension resolved, sane sleep
+lutek_day_burstON_048: PASS -- steady day, evening tension brief, wakes settled
+lutek_day_burstON_049: PASS -- mocks shrug off, tension eases, normal sleep cycle
+lutek_day_burstON_050: PASS -- minor soup-then-rest quirk, overall sane pacing

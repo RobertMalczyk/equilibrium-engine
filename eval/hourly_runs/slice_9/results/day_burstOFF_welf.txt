@@ -1,0 +1,10 @@
+welf_day_burstOFF_091: PASS -- steady day, boredom cycles, warm to kindness, clean sleep
+welf_day_burstOFF_092: PASS -- calm pacing, muted soup reaction plausible, sane rhythm
+welf_day_burstOFF_093: PASS -- barbed remarks brushed off, fits composed profile well
+welf_day_burstOFF_094: PASS -- mild tension late evening, settles before sleep, believable
+welf_day_burstOFF_095: PASS -- even-keeled day, kindnesses warmly received, clean arc
+welf_day_burstOFF_096: PASS -- brief restless flicker after kindness, resolves naturally
+welf_day_burstOFF_097: PASS -- dense morning kindnesses, stays composed, no strain
+welf_day_burstOFF_098: FLAG -- sleeps past midnight 00:28, late for a practical merchant
+welf_day_burstOFF_099: PASS -- restless spikes resolve quickly, sane day overall
+welf_day_burstOFF_100: PASS -- second soup muted after quick first, plausible saturation

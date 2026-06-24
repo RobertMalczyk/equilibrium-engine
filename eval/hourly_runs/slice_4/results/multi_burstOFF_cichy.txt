@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_041: PASS -- sane 5-day arc, anger tracks provocations, sleeps well
+cichy_multi_burstOFF_042: PASS -- four successive mockings Day 2 heavy but plausible, resets nightly
+cichy_multi_burstOFF_043: PASS -- tension builds to fury, calms overnight, fits captive profile
+cichy_multi_burstOFF_044: PASS -- rain and mockings accumulate tension coherently across days
+cichy_multi_burstOFF_045: PASS -- double fury Day 5 after primed tension, calms afterward
+cichy_multi_burstOFF_046: PASS -- four outbursts Day 1 heavy but guards persistently mock, plausible
+cichy_multi_burstOFF_047: PASS -- two kindnesses 2 min apart is mechanical but not a failure
+cichy_multi_burstOFF_048: PASS -- rain day tension, nightly resets consistent, normal arc
+cichy_multi_burstOFF_049: PASS -- escalating mocks Day 2, multi-day tension and recovery sane
+cichy_multi_burstOFF_050: PASS -- rain plus mocking drives anger, sleep resets cleanly each night

@@ -1,0 +1,10 @@
+branic_day_burstOFF_001: PASS -- Restless recruit, good rhythm, wakes settled.
+branic_day_burstOFF_002: PASS -- Sane pacing, kindnesses land warmly, sleeps late but fine.
+branic_day_burstOFF_003: PASS -- Barbs shrugged off, plenty of kindness, settled waking.
+branic_day_burstOFF_004: PASS -- Quiet day, compliant to orders, mild evening tension normal.
+branic_day_burstOFF_005: PASS -- Steady day, restlessness cycles naturally, wakes recovered.
+branic_day_burstOFF_006: PASS -- One order ignored at 20:53 but plausible tired recruit.
+branic_day_burstOFF_007: PASS -- Well-paced, responsive to orders and kindness, clean sleep arc.
+branic_day_burstOFF_008: FLAG -- Declines direct order at 22:14 after three barbs; thin-skinned but recruit refusing sergeant needs scrutiny.
+branic_day_burstOFF_009: PASS -- Calm day, barb shrugged off, consistent restlessness, clean arc.
+branic_day_burstOFF_010: PASS -- Snaps at public mockery mid-frustration, recovers, plausible for raw recruit.

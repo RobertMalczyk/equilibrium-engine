@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_021: PASS -- calm, warm day; Wojslaw barb absorbed, fits profile
+halgrim_day_burstOFF_022: PASS -- steady day, declines Wojslaw, obeys Edda, sane pacing
+halgrim_day_burstOFF_023: PASS -- quiet day, Wojslaw barb absorbed without reaction
+halgrim_day_burstOFF_024: FLAG -- Edda order at 06:46 met with "lets it pass"; he respects Edda
+halgrim_day_burstOFF_025: PASS -- Wojslaw barbs accumulate, slight edge emerges, fits profile
+halgrim_day_burstOFF_026: PASS -- declines Wojslaw twice, obeys Edda, settled baseline
+halgrim_day_burstOFF_027: PASS -- mild complaint at tired late hour; warm recoveries
+halgrim_day_burstOFF_028: PASS -- warm day, Wojslaw barbs absorbed, consistent with iron control
+halgrim_day_burstOFF_029: PASS -- repeated Wojslaw barbs, all absorbed; settled throughout
+halgrim_day_burstOFF_030: FLAG -- Edda orders ignored twice ("lets it pass"); contradicts Edda-respect

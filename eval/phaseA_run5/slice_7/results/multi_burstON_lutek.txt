@@ -1,0 +1,10 @@
+lutek_multi_burstON_071: PASS -- regular cycles, mocks ignored, nights clean
+lutek_multi_burstON_072: PASS -- evening edge transient, clears with kindnesses next day
+lutek_multi_burstON_073: PASS -- burst lingering morning tension, resolves plausibly
+lutek_multi_burstON_074: PASS -- six days sane, mocks ignored, tension episodic not sustained
+lutek_multi_burstON_075: PASS -- evening tension cycles, clears overnight, profile intact
+lutek_multi_burstON_076: PASS -- extended evening edge burst-ON consistent, mocks roll off
+lutek_multi_burstON_077: PASS -- clean pacing, mocks ignored, warmth to food and kindnesses
+lutek_multi_burstON_078: PASS -- residual temper phrase plausible under burst-ON discharge
+lutek_multi_burstON_079: PASS -- lingering overnight temper burst-ON consistent, resolves day 4
+lutek_multi_burstON_080: PASS -- evening tension episodes, mornings recover, sane overall

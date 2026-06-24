@@ -1,0 +1,10 @@
+branic_day_burstON_071: PASS -- calm day, boredom cycles and evening edge believable
+branic_day_burstON_072: PASS -- late barbs land after tense evening, snaps fit the profile
+branic_day_burstON_073: PASS -- kindness-heavy day, evening tension without incident, sane
+branic_day_burstON_074: PASS -- mounting provocation leads to eruption, grudge lingers plausibly
+branic_day_burstON_075: PASS -- quiet day, evening tension eased by Marta's soup, stays contained
+branic_day_burstON_076: PASS -- warm morning, edge builds through evening, no trigger needed
+branic_day_burstON_077: PASS -- mid-day mock shrugged off, evening snaps then full eruption fit
+branic_day_burstON_078: FLAG -- snaps at routine order at 16:58 with no prior provocation shown
+branic_day_burstON_079: PASS -- positive day, evening tension held, complies late under pressure
+branic_day_burstON_080: PASS -- mock shrugged off early, calm evening, no burst, consistent

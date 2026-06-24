@@ -1,0 +1,10 @@
+welf_multi_burstOFF_021: PASS -- steady boredom cycles, calm under mockery, sane sleep
+welf_multi_burstOFF_022: PASS -- consistent rhythm, tense morning resolves, no jarring reactions
+welf_multi_burstOFF_023: PASS -- 6 days coherent, late-night sleep slightly pushed but acceptable
+welf_multi_burstOFF_024: PASS -- kindness cluster day 4 dense but not impossible, rhythm holds
+welf_multi_burstOFF_025: FLAG -- soup offer met with "lets it pass" phrasing, wrong for a kindness
+welf_multi_burstOFF_026: FLAG -- first soup day 5 met with neutral dismissal, mismatched response
+welf_multi_burstOFF_027: PASS -- 6 days steady, food-free day 6 within variation, no red flags
+welf_multi_burstOFF_028: PASS -- late sleep day 1 recovers fine, warmth-heavy day 2 believable
+welf_multi_burstOFF_029: PASS -- dense kindnesses late night odd but not contradictory, rain handled well
+welf_multi_burstOFF_030: PASS -- food-sparse days produce mild tension, consistent with profile

@@ -1,0 +1,10 @@
+branic_multi_burstOFF_061: PASS -- escalation under rain and friction, resets overnight
+branic_multi_burstOFF_062: PASS -- late-night order cluster minor, overall arc sane
+branic_multi_burstOFF_063: PASS -- kindness-triggered bristle minor, arc coherent
+branic_multi_burstOFF_064: PASS -- quiet compliant run, pacing and resets normal
+branic_multi_burstOFF_065: PASS -- thin-skinned snap shortly after soup fits reactive profile
+branic_multi_burstOFF_066: PASS -- two eruptions under sustained evening mockery, recovers next morning
+branic_multi_burstOFF_067: PASS -- eruption after soup plus mockery in front of others plausible
+branic_multi_burstOFF_068: PASS -- escalation under repeated mockery, clean overnight resets
+branic_multi_burstOFF_069: PASS -- two mocks two minutes apart, second more public, snap defensible
+branic_multi_burstOFF_070: PASS -- benign positive run, calm pacing, no contradictions

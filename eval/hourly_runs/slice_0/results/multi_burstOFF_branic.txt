@@ -1,0 +1,10 @@
+branic_multi_burstOFF_001: PASS -- calm routine days, sane boredom cycles, mild evening tension
+branic_multi_burstOFF_002: PASS -- rain and mockery build to snap; escalation arc believable
+branic_multi_burstOFF_003: PASS -- multi-day friction drives outbursts and defiance plausibly
+branic_multi_burstOFF_004: PASS -- single-evening anger accumulation; snaps twice, then sleeps it off
+branic_multi_burstOFF_005: PASS -- positive stretch, warm responses throughout, no issues
+branic_multi_burstOFF_006: PASS -- friction escalates day by day into refusals; arc coherent
+branic_multi_burstOFF_007: PASS -- kindness day then two-day friction spike with rain; plausible
+branic_multi_burstOFF_008: PASS -- measured build and recovery; pacing sane across five days
+branic_multi_burstOFF_009: PASS -- calm active days, minor double-soup oddity, nothing alarming
+branic_multi_burstOFF_010: FLAG -- Day 1 sleep at 00:12 next-day; Day 5 four silent refusals while settled

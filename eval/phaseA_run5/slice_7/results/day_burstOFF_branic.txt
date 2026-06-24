@@ -1,0 +1,10 @@
+branic_day_burstOFF_071: PASS -- calm day, boredom cycles, warmth to Marta, sane pacing
+branic_day_burstOFF_072: PASS -- escalating evening, snaps at back-to-back mockery, wakes settled
+branic_day_burstOFF_073: PASS -- good-natured day, evening edge, no jarring reactions
+branic_day_burstOFF_074: PASS -- tension builds through mockery, erupts at public barb, believable
+branic_day_burstOFF_075: PASS -- quiet day, single mock absorbed, ends slightly tense, fine
+branic_day_burstOFF_076: PASS -- warmth-heavy day, mild evening tension, sane overall arc
+branic_day_burstOFF_077: PASS -- mocks absorbed calmly, ends tense but kindness softens it
+branic_day_burstOFF_078: PASS -- erupts after repeated mockery under orders, recovers by evening
+branic_day_burstOFF_079: PASS -- smooth positive day, mild evening tension, complies with orders
+branic_day_burstOFF_080: PASS -- mock absorbed early, steady day, wakes fresh and settled

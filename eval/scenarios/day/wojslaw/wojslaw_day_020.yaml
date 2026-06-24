@@ -30,7 +30,7 @@ events:
 - type: insult
   t: 186
   source: player
-  intensity: 0.812
+  intensity: 0.619
   context:
     public: true
 - type: command
@@ -42,7 +42,7 @@ events:
 - type: insult
   t: 204
   source: player
-  intensity: 0.879
+  intensity: 0.828
   context:
     public: true
 - type: command
@@ -73,9 +73,9 @@ events:
 - type: insult
   t: 274
   source: player
-  intensity: 0.619
+  intensity: 0.343
   context:
-    public: true
+    public: false
 - type: food_given
   t: 398
   source: marta
@@ -90,8 +90,8 @@ events:
   context: {}
 - type: insult
   t: 464
-  source: marta
-  intensity: 0.905
+  source: player
+  intensity: 0.893
   context:
     public: false
 - type: command

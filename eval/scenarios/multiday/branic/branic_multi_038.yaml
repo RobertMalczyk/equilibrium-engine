@@ -153,12 +153,12 @@ events:
   context: {}
 - type: help
   t: 1805
-  source: marta
+  source: player
   intensity: 0.497
   context: {}
 - type: help
   t: 1806
-  source: halgrim
+  source: marta
   intensity: 0.719
   context: {}
 - type: command
