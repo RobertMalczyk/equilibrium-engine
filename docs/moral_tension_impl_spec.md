@@ -624,8 +624,19 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
    impulse) + `repair_drive`, relieving guilt/repair_drive/exposure in `post_effects`. **Litmus PROVEN**
    (`tests/test_moral_repair.py`): on the SAME scenario an EMPATHIC guilt-prone persona APOLOGIZES (makes
    amends) while a DETACHED one merely CONFESSES; rumination builds from guilt as a bounded integrator that
-   couples to stress/fatigue (feed-forward → anger⇄stress Jury margin unchanged). **DEFERRED:** the
-   `confide` safe-vs-gossip-prone split (needs a confidant target + `gossip_tendency`) and `reparation`.
+   couples to stress/fatigue (feed-forward → anger⇄stress Jury margin unchanged).
+   **M-J.2 completions — ✅ IMPLEMENTED (`tests/test_moral_confide.py`, `data/scenarios/moral_confide.yaml`):**
+   - `confide` SAFE-VS-GOSSIP split. New trait `gossip_tendency` + action `confide`, driven (spec §5.5
+     shape) by `guilt × trust[confidant_source] × (1-gossip_tendency)`: a DISCREET persona unburdens to a
+     TRUSTED ear present this tick → `rumination` relieved in `post_effects`; a GOSSIP-PRONE persona collapses
+     the `(1-gossip_tendency)` gate (CAN'T confide safely → the secret keeps weighing) AND its
+     `gossip_tendency` modulates the `probe→exposure_anxiety` gain UP (the LEAK — the only trait-modulated
+     state input the engine offers is event-gains, not couplings) → more exposed. Gated on `trust`, so it is
+     inert in the legacy `moral_probe` runs (interrogator trust 0). New benign mapper channel
+     `confide_opportunity` (RELATIONAL, no deposit) marks who is present; the reply fires while the
+     interrogation `reactive_window` is still open.
+   - `reparation`. `apologize` now books a RELATIONAL `source_relations` amends (trust ↑, resentment ↓) on
+     the wronged target — the moral loop closes through the RELATIONSHIP, not only inside the persona.
 4. **M-J.3 accusation/suspicion** — `perceived_injustice`, `suspicion`, multi-agent driver (**needs M-MEM**).
 5. **M-J.4 full ledger + calibration grid + scoped corpus**.
 

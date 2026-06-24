@@ -5,9 +5,9 @@
 > with the spec `moral_tension_impl_spec.md` and (once implemented) `engine/update.py` /
 > `engine/potentials.py` / `engine/simulation.py`.
 >
-> **Status: M-J.0 (guilt core) + M-J.1 (lie loop) + M-J.2 (`repair_drive`/`rumination`/`apologize`)
-> IMPLEMENTED as an opt-in overlay; M-J.3–.4 are topology-only (the `LieRecord` ledger, lie detection,
-> and the `confide` safe-vs-gossip split are deferred).** Per
+> **Status: M-J.0 (guilt core) + M-J.1 (lie loop) + M-J.2 (`repair_drive`/`rumination`/`apologize` +
+> `confide` safe-vs-gossip split + `apologize` relational `reparation`) IMPLEMENTED as an opt-in overlay;
+> M-J.3–.4 are topology-only (the `LieRecord` ledger and lie detection remain deferred).** Per
 > "topology now, constants from calibration" every gain/half-life is a **named config placeholder**, not a
 > chosen number. The full moral topology (all of M-J.0–.4) is drawn here so calibration tunes a fixed
 > structure; the ★ nodes/edges are wired and litmus-proven (`tests/test_moral_guilt_core.py`,
@@ -128,6 +128,8 @@ LEGEND:  [Σg·u] finite event-gain deposit   (+)/(−) signed coupling   ∫ on
    remain_silent ↑ exposure_anxiety, moral_tension, cog_load (can't choose)
    avoid     ↑ avoidance_drive, exposure_anxiety, source_threat, suspicion
    repair/apologize ↑ guilt, repair_drive, trust/closeness, empathy               ↓ exposure_anxiety, source_threat, perceived_injustice
+   confide   ↑ guilt × trust[confidant] × (1−gossip_tendency)   ↓ rumination (safe unburden); gossip_tendency ↑ probe→exposure_anxiety (the leak)
+   apologize also books RELATIONAL reparation: ↑ trust[target], ↓ resentment[target] (the loop closes through the relationship)
    selector = argmax over in-play actions vs thresholds.react.* — NO RNG, NO sampled probability.
    outburst stays on the EXISTING burst latch (anger,stress); moral states only FEED anger/stress, never a new burst gate.
 ```

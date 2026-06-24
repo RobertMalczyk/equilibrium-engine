@@ -32,6 +32,14 @@ gain_modulators:
       trait: guilt_proneness
       ref: 1.0
       k: 1.0              # mod = max(0, 1+(gp-1)) = gp -> a guilt-prone persona feels the wrong more; gp=0 -> none
+  exposure_anxiety:
+    probe:
+      trait: gossip_tendency
+      ref: 0.0
+      k: 2.0              # M-J.2 (the GOSSIP LEAK): mod = 1 + 2*gossip_tendency. A discreet persona (gt=0) feels
+                          # probes normally (mod=1, byte-identical); a blabber (gt high) has spread the secret, so
+                          # being questioned bites harder -> exposure_anxiety climbs. The split's "raises exposure
+                          # _risk" half, on the one trait-modulated state input the engine has (gains, not couplings). PLACEHOLDER.
 
 couplings:
   stress:
@@ -62,6 +70,13 @@ potential_terms:
   # making AMENDS (apologize), distinct from merely owning up (confess). A low-empathy persona confesses
   # but does not apologize.
   guilt_x_empathy: [{kind: state, name: guilt}, {kind: trait, name: empathy}]
+  # M-J.2: the SAFE-confide drive. Same SHAPE as confess (guilt-driven; spec section 5.5), but aimed at a
+  # TRUSTED ear present this tick (relation_source trust) and only for a DISCREET persona (1-gossip_tendency):
+  # you unburden the wrong to a trusted friend rather than your interrogator. relation_source reads the CURRENT
+  # event's source -> 0 toward the untrusted interrogator (confide can't fire there), high toward the confidant.
+  # A blabber (gossip_tendency~1) collapses the (1-gossip) gate -> CAN'T confide safely -> the secret keeps
+  # weighing (its rumination is never relieved). The EFFECT (relieve rumination) is booked in post_effects.
+  confide_safe: [{kind: state, name: guilt}, {kind: relation_source, name: trust}, {kind: trait, name: gossip_tendency, complement: true}]
 
 potential_weights:
   confess:
@@ -79,6 +94,8 @@ potential_weights:
   apologize:
     guilt_x_empathy: 1.2      # M-J.2: guilt felt WITH empathy -> make amends (beats bare confess for the empathic). PLACEHOLDER.
     moral_repair: 0.5         # ...reinforced by the accumulated repair drive. PLACEHOLDER.
+  confide:
+    confide_safe: 1.8         # M-J.2: unburden to a trusted ear -- beats staying silent / confessing-to-accuser. PLACEHOLDER.
 
 thresholds:
   react.confess: 0.30
@@ -86,11 +103,13 @@ thresholds:
   react.lie: 0.30
   react.deflect: 0.35
   react.apologize: 0.30
+  react.confide: 0.30
   interrupt.confess: 0.80
   interrupt.remain_silent: 0.80
   interrupt.lie: 0.80
   interrupt.deflect: 0.80
   interrupt.apologize: 0.80
+  interrupt.confide: 0.80
 
 action_params:
   confess:
@@ -117,3 +136,10 @@ action_params:
         guilt: -0.50            # M-J.2: making amends resolves the guilt. PLACEHOLDER.
         repair_drive: -0.40     # ...and discharges the urge to repair. PLACEHOLDER.
         exposure_anxiety: -0.20 # owning it openly also eases the dread of being found out. PLACEHOLDER.
+      source_relations:         # M-J.2 REPARATION: amends close the loop through the RELATIONSHIP, not just
+        trust: 0.15             # the persona. Booked on the wronged target (the reaction source). PLACEHOLDER.
+        resentment: -0.15       # PLACEHOLDER.
+  confide:
+    post_effects:
+      global:
+        rumination: -0.40       # M-J.2: sharing the replayed conflict with a trusted ear relieves it. PLACEHOLDER.

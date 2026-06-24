@@ -199,5 +199,21 @@ def map_event(
         )
         return out
 
+    if event.type == "confide_opportunity":
+        # M-J.2 moral cue: a TRUSTED confidant is privately present (source = the confidant). BENIGN and
+        # RELATIONAL -- it deposits NO negative state (not a provocation, not a stressor); it only marks
+        # WHO is here this tick so the per-source `relation_source` trust factor can let `confide` fire to a
+        # trusted ear. It does not itself open the reactive window (a confide is a reply made WHILE the
+        # interrogation window from a recent `probe` is still open, spec reactive_window_ticks). Inert unless
+        # the moral overlay configures the `confide` action.
+        out["confide_opportunity"] = SemanticInput(
+            name="confide_opportunity",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.POSITIVE,
+        )
+        return out
+
     # Unknown event types decompose to nothing in MVP (no guessed channels).
     return out

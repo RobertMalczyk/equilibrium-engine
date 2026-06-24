@@ -61,6 +61,8 @@ TRAIT_NAMES: tuple[str, ...] = (
     "guilt_proneness",
     "shame_sensitivity",
     "honesty_humility",
+    "gossip_tendency",  # M-J.2: indiscretion. Gates safe `confide` (discreet -> unburdens, rumination down)
+    # and modulates the probe->exposure_anxiety gain UP (a blabber has spread it -> questioning bites harder).
 )
 
 # Reactive potential channels (spec section 3: PotentialVector).
@@ -80,6 +82,8 @@ POTENTIAL_NAMES: tuple[str, ...] = (
     # exposure_anxiety and low honesty_humility, self-limited by the load it creates.
     "deflect",  # M-J.1: dodge the question without an outright lie. Rises with cognitive_load + exposure_anxiety.
     "apologize",  # M-J.2: make amends. Rises with repair_drive (empathy-gated); relieves guilt + repair_drive.
+    "confide",  # M-J.2: unburden a replayed conflict to a TRUSTED confidant. Safe (discreet) confiding lowers
+    # rumination; a gossip-prone persona can't confide safely (it would leak) -> the secret keeps weighing.
 )
 
 # --- M-J moral vocab subsets (used by the loader/guards to keep the overlay opt-in and byte-identical).
@@ -93,10 +97,16 @@ MORAL_STATES: frozenset[str] = frozenset(
     }
 )
 MORAL_TRAITS: frozenset[str] = frozenset(
-    {"empathy", "guilt_proneness", "shame_sensitivity", "honesty_humility"}
+    {
+        "empathy",
+        "guilt_proneness",
+        "shame_sensitivity",
+        "honesty_humility",
+        "gossip_tendency",
+    }
 )
 MORAL_POTENTIALS: frozenset[str] = frozenset(
-    {"confess", "remain_silent", "lie", "deflect", "apologize"}
+    {"confess", "remain_silent", "lie", "deflect", "apologize", "confide"}
 )
 
 # --- Enums -------------------------------------------------------------------------
