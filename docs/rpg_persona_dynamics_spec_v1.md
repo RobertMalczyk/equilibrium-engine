@@ -27,7 +27,10 @@ place only. Three keywords: **frozen snapshot**, **synchronous update**, **filte
 - **Synchronous update.** All equations read a frozen snapshot of the state from the start of the tick;
   deltas computed together; commit together. Equation order **does not affect the result**.
 - **Filter per channel, not per event.** One event decomposes into many channels; each routed by its
-  class: relational → filter per source, affinity → per object, physiological → no filter.
+  class: relational → filter per source, affinity → per object, physiological → no filter. **M-MEM:** a tick
+  may carry SEVERAL events — each is mapped+filtered, then merged into the effective input (a channel → list
+  of inputs; `update` sums them). The per-source reactive signals key on the strongest provoker (the
+  *primary*). A ≤1-event tick is byte-identical with the pre-M-MEM engine.
 - **One source of truth for the equations.** The `input→state` and `state→state` equations exist only in
   `update`. Descriptions elsewhere are descriptions, not a second application (double-counting risk).
 - **Clamps.** `clamp01` after every state commit; `clamp_signed` [−1..1] for signed values.
@@ -97,8 +100,10 @@ HistoryFeatures:
 SemanticInput:                              # ONE tagged channel
   name, value (float; preference_match [-1..1]),
   cls: InputClass, source: AgentId|None, target: TargetId|None, polarity
-SemanticInputVector  = dict[str, SemanticInput]   # from the mapper (base)
-EffectiveInputVector = dict[str, SemanticInput]    # after the filters
+SemanticInputVector  = dict[str, SemanticInput]        # from the mapper (base), one input per channel/event
+EffectiveInputVector = dict[str, list[SemanticInput]]  # after the filters AND merged across the tick's events
+                                                       # (M-MEM): a channel may carry several inputs (one per
+                                                       # source firing it this tick). One event -> one-element lists.
 
 GlobalState [0..1]:  hunger fatigue boredom stress frustration anger satisfaction self_control
 RelationState [0..1] (per source):  trust respect resentment
@@ -176,7 +181,9 @@ novelty_seeking, stoicism, reactivity, threat_sensitivity, gratitude, trust_disp
 
 ## 5. Input channels (frozen — ≈24) and filtering
 
-The mapper decomposes one event into many tagged channels. The **class** tag decides the routing.
+The mapper decomposes one event into many tagged channels. The **class** tag decides the routing. (M-MEM: a
+tick may carry several events; the mapper runs per event and `simulation.tick` merges the filtered results,
+so a channel can carry one input per source firing it that tick.)
 
 **Physiological / world (self, no filter):** `food_nutrition`→hunger↓ · `rest`→fatigue↓ ·
 `pain`→stress↑ · `repetition`→boredom↑ · `novelty`→boredom↓ · `uncertainty`→stress↑ ·
@@ -289,13 +296,15 @@ event is this" question. Diagram: `docs/diagrams/filters.md`.
 TICK(t):
   1. snapshot = freeze(global_state, relations)                 # values from the start of the tick (FROZEN)
   2. derived_pre = derived(snapshot, traits)                    # bias, eff_self_control, urge_*, ...
-  3. eff = ∅
-     if event at t:
+  3. eff = ∅                                                    # M-MEM: a tick carries 0, 1, or MANY events
+     for event in events at t:
         feats = history.analyze(log, event, t)
-        raw   = mapper.map(event, persona, feats)               # tagged channels
-        eff   = affinity_filter(relation_filter(raw, snapshot.relations, derived_pre, ctx), affinities, ctx)
+        raw   = mapper.map(event, persona, feats)               # tagged channels (per event)
+        ev_eff = affinity_filter(relation_filter(raw, snapshot.relations, derived_pre, ctx), affinities, ctx)
+        for ch, si in ev_eff: eff[ch].append(si)                # MERGE -> channel : list of inputs
+     primary = strongest provoker among events (ties: scenario order; else the first event)  # drives §3b signals
   4. delta = update.compute(snapshot, eff, derived_pre, traits, mode, recovering)   # SYNCHRONOUSLY
-        # new = clamp( decay*old + drift + Σ gain*input + Σ coupling*state_snapshot
+        # new = clamp( decay*old + drift + Σ_ch gain·(Σ_inputs input.value) + Σ coupling*state_snapshot   # M-MEM: sum a channel's inputs
         #              + (when BUSY) activity effects: −drive relief, +fatigue cost,
         #                +reward·affinity→satisfaction, −urge expenditure
         #              + (when IDLE & unprovoked) idle_recovery: settle toward calm (stress/anger−), D11 )
@@ -885,7 +894,9 @@ States: `fear` (threat reactions + avoidance), `suppressed_anger` (suppression w
 `attachment` + `fear_of` (relationship depth, the romance arc, intimidation by a person), `comfort` +
 `safety`. Channels/actions: `threat`, phobias (preference→fear), the `engage`/`avoid` actions.
 Mechanisms: online affinity learning, multi-character content in scenarios (the structure is ready —
-Relations per source — the MVP used only `player`; the **FIRST SLICE of live multi-agency is now implemented**
+Relations per source — the MVP used only `player`; **M-MEM** now lets a tick carry SEVERAL events
+(per-source merge + strongest-provoker arbitration, see `m_mem_PLAN.md`) — the seam for simultaneous
+multi-agent fan-out; the **FIRST SLICE of live multi-agency is now implemented**
 — the `duty`→`command_other` authority verb + a deterministic one-tick cross-agent router, §8; what remains
 stage-2 is the **back-edge** authority↔resentment loop, chains of command, and in-engine target policy),
 **humor as reappraisal** (an affective filter

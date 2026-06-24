@@ -10,10 +10,13 @@
 ## Pipeline order (per channel)
 
 ```
-SemanticInputVector ─► relation_filter ─► affinity_filter ─► EffectiveInputVector
-                       (touches source-tagged)  (touches target-tagged)
+SemanticInputVector ─► relation_filter ─► affinity_filter ─► (per-event) ─┐ M-MEM merge in simulation.tick:
+                       (touches source-tagged)  (touches target-tagged)    └─► EffectiveInputVector
+                                                                               (channel → LIST of inputs)
 ```
 A channel can carry both source and target ("forced to eat a spider") → both stages, relational→affinity.
+**M-MEM:** the filters run **per event** (unchanged); `simulation.tick` merges each event's filtered output
+into the `EffectiveInputVector`, where a channel may hold several inputs (one per source firing it this tick).
 
 ## relation_filter (channels with a `source`)
 
