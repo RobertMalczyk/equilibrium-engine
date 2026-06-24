@@ -9,6 +9,7 @@ from __future__ import annotations
 
 from engine.clamp import clamp01
 from engine.schema import (
+    MORAL_RELATION_DIMS,
     RELATION_DIMS,
     Mode,
     PersonaConfig,
@@ -34,9 +35,20 @@ def init_runtime(
         src: dict(dims) for src, dims in config.initial_relations.items()
     }
     for src, dims in dict(overrides.get("relations", {})).items():
-        row = relations.setdefault(str(src), {d: 0.0 for d in RELATION_DIMS})
+        # OPT-IN moral dim (suspicion) seeds a new row ONLY when moral is enabled (its half_life -> decay key);
+        # otherwise omitted so a legacy override row carries exactly the canonical dims (byte-identical).
+        row = relations.setdefault(
+            str(src),
+            {
+                d: 0.0
+                for d in RELATION_DIMS
+                if d not in MORAL_RELATION_DIMS or d in config.decay
+            },
+        )
         for d, val in dict(dims).items():
-            if d in RELATION_DIMS:
+            if d in RELATION_DIMS and (
+                d not in MORAL_RELATION_DIMS or d in config.decay
+            ):
                 row[d] = clamp01(float(val))
 
     return PersonaRuntime(

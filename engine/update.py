@@ -167,6 +167,8 @@ def compute(
         row = snapshot.relations.get(src, {})
         out_row: dict[str, float] = {}
         for dim in RELATION_DIMS:
+            if dim not in decay:
+                continue  # OPT-IN moral dim (suspicion) absent for a legacy persona -> not decayed/traced
             old = row.get(dim, 0.0)
             new = decay[dim] * old + (1.0 - decay[dim]) * config.setpoints.get(dim, 0.0)
             dim_gains = rel_gains.get(dim, {})

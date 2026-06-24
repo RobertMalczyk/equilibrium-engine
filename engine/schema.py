@@ -39,9 +39,16 @@ GLOBAL_STATES: tuple[str, ...] = (
     "repair_drive",  # M-J.2: the urge to make amends. Rises from guilt; drives apologize/repair. Slow.
     "rumination",  # M-J.2: replaying the moral conflict. Rises from guilt; couples -> stress, fatigue
     # (keeps the burden alive between events -- "can't stop thinking about it"). Slow.
+    "avoidance_drive",  # M-J.2/.3: the urge to dodge the person/topic/consequence. Rises from exposure_anxiety
+    # and (under accusation) conflict_avoidance. Medium half-life. Opt-in.
+    "perceived_injustice",  # M-J.3: "this is unfair." Rises from accusation (esp. a FALSE one). Couples ->
+    # anger (+), resentment[accuser] (+), and guilt (-) ("felt justified"). Slow grievance. Opt-in.
 )
 
-RELATION_DIMS: tuple[str, ...] = ("trust", "respect", "resentment")
+# `suspicion` is a 4th relation dim but OPT-IN (like the moral GLOBAL_STATES): it enters a relation row ONLY
+# when the moral overlay supplies its half_life. Absent for every legacy persona -> never written, never
+# traced -> goldens byte-identical (see yaml_io / runtime / update gates + MORAL_RELATION_DIMS below).
+RELATION_DIMS: tuple[str, ...] = ("trust", "respect", "resentment", "suspicion")
 
 TRAIT_NAMES: tuple[str, ...] = (
     "reactivity",
@@ -63,6 +70,8 @@ TRAIT_NAMES: tuple[str, ...] = (
     "honesty_humility",
     "gossip_tendency",  # M-J.2: indiscretion. Gates safe `confide` (discreet -> unburdens, rumination down)
     # and modulates the probe->exposure_anxiety gain UP (a blabber has spread it -> questioning bites harder).
+    "injustice_sensitivity",  # M-J.3: how strongly an accusation reads as UNFAIR -> perceived_injustice/anger.
+    "conflict_avoidance",  # M-J.3: tendency to dodge a confrontation -> avoidance_drive under accusation.
 )
 
 # Reactive potential channels (spec section 3: PotentialVector).
@@ -84,6 +93,8 @@ POTENTIAL_NAMES: tuple[str, ...] = (
     "apologize",  # M-J.2: make amends. Rises with repair_drive (empathy-gated); relieves guilt + repair_drive.
     "confide",  # M-J.2: unburden a replayed conflict to a TRUSTED confidant. Safe (discreet) confiding lowers
     # rumination; a gossip-prone persona can't confide safely (it would leak) -> the secret keeps weighing.
+    "avoid",  # M-J.3: dodge the accuser/topic. Rises with avoidance_drive + exposure_anxiety + suspicion[src].
+    "blame_other",  # M-J.3: shift the blame (scapegoat). Rises with perceived_injustice; raises suspicion[target].
 )
 
 # --- M-J moral vocab subsets (used by the loader/guards to keep the overlay opt-in and byte-identical).
@@ -94,8 +105,13 @@ MORAL_STATES: frozenset[str] = frozenset(
         "cognitive_load_from_lies",
         "repair_drive",
         "rumination",
+        "avoidance_drive",
+        "perceived_injustice",
     }
 )
+# Opt-in relation dims: skipped from the required-half_life check and only built into a relation row when
+# the moral overlay supplies the half_life -> legacy rows never carry them -> byte-identical (see yaml_io).
+MORAL_RELATION_DIMS: frozenset[str] = frozenset({"suspicion"})
 MORAL_TRAITS: frozenset[str] = frozenset(
     {
         "empathy",
@@ -103,10 +119,21 @@ MORAL_TRAITS: frozenset[str] = frozenset(
         "shame_sensitivity",
         "honesty_humility",
         "gossip_tendency",
+        "injustice_sensitivity",
+        "conflict_avoidance",
     }
 )
 MORAL_POTENTIALS: frozenset[str] = frozenset(
-    {"confess", "remain_silent", "lie", "deflect", "apologize", "confide"}
+    {
+        "confess",
+        "remain_silent",
+        "lie",
+        "deflect",
+        "apologize",
+        "confide",
+        "avoid",
+        "blame_other",
+    }
 )
 
 # --- Enums -------------------------------------------------------------------------

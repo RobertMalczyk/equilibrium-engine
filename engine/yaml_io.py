@@ -16,6 +16,7 @@ import yaml
 from engine.clamp import clamp01, clamp_signed
 from engine.schema import (
     GLOBAL_STATES,
+    MORAL_RELATION_DIMS,
     MORAL_STATES,
     MORAL_TRAITS,
     RELATION_DIMS,
@@ -182,8 +183,8 @@ def load_persona(
     # Absent (every legacy persona) -> the moral state is never built into initial_global_state below, so
     # the runtime/trace omit it and goldens stay byte-identical.
     for name in GLOBAL_STATES + RELATION_DIMS:
-        if name in MORAL_STATES:
-            continue
+        if name in MORAL_STATES or name in MORAL_RELATION_DIMS:
+            continue  # OPT-IN: a half_life is present only when the moral overlay is merged in (enable signal)
         if name not in half_lives:
             raise ValueError(f"{ctx}: missing half_life for '{name}'")
     tick_cfg = dict(_require(merged, "tick", ctx))
@@ -216,8 +217,12 @@ def load_persona(
 
     initial_relations: dict[str, dict[str, float]] = {}
     for src, dims in dict(merged.get("initial_relations", {})).items():
+        # An OPT-IN moral dim (suspicion) is built into the row ONLY when its half_life is present (= moral
+        # enabled); otherwise omitted, so legacy rows carry exactly the canonical dims (byte-identical).
         initial_relations[str(src)] = {
-            d: clamp01(float(dict(dims).get(d, 0.0))) for d in RELATION_DIMS
+            d: clamp01(float(dict(dims).get(d, 0.0)))
+            for d in RELATION_DIMS
+            if d not in MORAL_RELATION_DIMS or d in half_lives
         }
 
     affinities = {

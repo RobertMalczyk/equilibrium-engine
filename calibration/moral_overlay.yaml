@@ -15,6 +15,9 @@ half_lives:
   cognitive_load_from_lies: 21600  # 6h placeholder -- the lie-maintenance burden (M-J.1)
   repair_drive: 86400              # 24h placeholder -- the urge to make amends (M-J.2)
   rumination: 43200               # 12h placeholder -- replaying the conflict (M-J.2)
+  avoidance_drive: 3600            # 60min placeholder -- the urge to dodge the person/topic (M-J.2/.3)
+  perceived_injustice: 86400       # 24h placeholder -- the slow "this is unfair" grievance (M-J.3)
+  suspicion: 172800                # 48h placeholder -- per-source suspicion memory, a relation dim (M-J.3)
 
 gains:
   guilt:
