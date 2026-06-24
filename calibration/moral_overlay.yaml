@@ -23,6 +23,7 @@ half_lives:
 # reinforced -- a lie not kept up slowly fades (stale -> inactive). PLACEHOLDER.
 ledger_params:
   lie_decay: 0.96
+  detected_risk_on_detect: 0.40  # M-J.4.2: a caught lie's record jumps in detected_risk per detection cue. PLACEHOLDER.
 
 gains:
   guilt:
@@ -40,6 +41,7 @@ gains:
                           # (so avoid/blame_other can be selected). Small enough never to fire outburst alone. PLACEHOLDER.
     suspicion_cue: 0.01   # M-J.3: a whisper of provocation -- opens the reply window so the persona can react
                           # (avoid) to being suspected, without itself firing a vent. PLACEHOLDER.
+    betrayal: 0.02        # M-J.4.2: opens the reply window on lie detection (so a reaction can fire). PLACEHOLDER.
   perceived_injustice:
     accusation: 0.30      # M-J.3: being accused reads as UNFAIR -> grievance. SCALED by injustice_sensitivity below. PLACEHOLDER.
   avoidance_drive:
@@ -47,9 +49,14 @@ gains:
     suspicion_cue: 0.12   # M-J.3: being SUSPECTED makes an avoidant persona withdraw too. SCALED by conflict_avoidance. PLACEHOLDER.
   stress:
     accusation: 0.03      # M-J.3: an accusation is stressful (the threat). PLACEHOLDER.
+  anger:
+    betrayal: 0.15        # M-J.4.2: discovering a lie stings -- anger at the liar. PLACEHOLDER.
   relations:
     resentment:
       accusation: 0.10    # M-J.3: being accused breeds a grudge toward the accuser. PLACEHOLDER.
+      betrayal: 0.25      # M-J.4.2: discovering a lie breeds a strong grudge toward the liar. PLACEHOLDER.
+    trust:
+      betrayal: -0.35     # M-J.4.2: a detected lie COLLAPSES trust in the liar (negative gain). PLACEHOLDER.
     suspicion:
       suspicion_cue: 0.15 # M-J.3: a suspicion cue builds per-source suspicion toward the suspecter (the relation dim). PLACEHOLDER.
 

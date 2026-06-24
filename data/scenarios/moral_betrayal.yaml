@@ -1,0 +1,21 @@
+# M-J.4.2 lie detection -- BETRAYAL (target side). The persona TRUSTED someone (high initial trust); then
+# discovers that person lied to them (`lie_detected`, source = the liar). Per spec 5.6 the betrayal stings:
+# anger rises, resentment toward the liar builds, and trust in them COLLAPSES. Run with the moral overlay.
+id: moral_betrayal
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+  relations:
+    betrayer:
+      trust: 0.8        # the persona trusted them -- so the betrayal has something to destroy
+events:
+  - {type: lie_detected, t: 0, source: betrayer, intensity: 1.0}
+  - {type: lie_detected, t: 1, source: betrayer, intensity: 1.0}
+  - {type: lie_detected, t: 2, source: betrayer, intensity: 1.0}
+  - {type: lie_detected, t: 3, source: betrayer, intensity: 1.0}
+  - {type: lie_detected, t: 4, source: betrayer, intensity: 1.0}

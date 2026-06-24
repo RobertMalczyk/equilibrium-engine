@@ -184,6 +184,21 @@ def map_event(
         )
         return out
 
+    if event.type == "lie_detected":
+        # M-J.4.2 moral cue: a lie has been DETECTED. Mapped to the `betrayal` channel (spec section 4),
+        # RELATIONAL with source = the other party. On the BETRAYED target it lands the relationship damage
+        # (anger + resentment[liar] + trust collapse, via the overlay gains); on a CAUGHT liar (a persona
+        # holding a matching LieRecord) it ALSO raises that record's detected_risk (simulation._book_detection).
+        # Inert unless the moral overlay supplies its gains.
+        out["betrayal"] = SemanticInput(
+            name="betrayal",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
     if event.type == "false_accusation_discovered":
         # M-J.3.3 moral cue (accuser side): the persona's OWN false accusation has been exposed. SELF channel
         # (no source) -- the REALIZATION lands as guilt (scaled in config by guilt_proneness: a guilt-prone

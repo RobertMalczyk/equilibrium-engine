@@ -81,6 +81,23 @@ def _update_ledger(
     rec.last_reinforced_at = t
 
 
+def _book_detection(runtime: PersonaRuntime, eff: EffectiveInputVector, t: int) -> None:
+    """M-J.4.2: a detected lie (`betrayal` channel from source S) raises detected_risk on the persona's
+    LieRecord keyed to S (lie:S), if any -- the CAUGHT liar's ledger now reflects the exposure. A betrayed
+    TARGET (no such record) is a no-op for the ledger; their relational damage is booked by update's gains.
+    Runs in the post_effects phase. Inert for legacy personas (no detected_risk_on_detect config)."""
+    bump = float(runtime.config.ledger_params.get("detected_risk_on_detect", 0.0))
+    if bump <= 0.0:
+        return
+    for si in eff.get("betrayal", ()):
+        if si.source is None:
+            continue
+        rec = runtime.moral_ledger.lies.get(f"lie:{si.source}")
+        if rec is not None:
+            rec.detected_risk = clamp01(rec.detected_risk + bump * si.value)
+            rec.last_reinforced_at = t
+
+
 def _commit(runtime: PersonaRuntime, delta: StateDelta) -> None:
     for x, d in delta.global_.items():
         runtime.global_state[x] = clamp01(runtime.global_state[x] + d)
@@ -565,6 +582,9 @@ def tick(
         _update_ledger(
             runtime, sel.action, reaction_target, t
         )  # M-J.4: book lie records (post_effects phase)
+        _book_detection(
+            runtime, eff, t
+        )  # M-J.4.2: a caught lie raises its record's detected_risk
         _apply_transition(runtime, prev_mode, sel, t)
         # M7 Step 2: give up if SEEKING too long with no `activity` confirmation (-> IDLE, keep frustration).
         if runtime.mode == Mode.SEEKING and runtime.seeking_since is not None:

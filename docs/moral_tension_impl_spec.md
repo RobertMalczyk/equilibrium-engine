@@ -679,7 +679,12 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      accrues on the SAME record, never one-per-lie (spec §3.5). `consistency_debt`/`maintenance_load` are
      mini-integrators that DECAY each tick by `ledger_params.lie_decay` (stale lies fade). `blame_other`
      records the `blame_shift` lie_type, `deflect` an `omission`. Opt-in → legacy byte-identical.
-   - **M-J.4.2 lie detection** (`lie_detected`→`betrayal`: anger/resentment/−trust on the liar; detected_risk).
+   - **M-J.4.2 lie detection — ✅ IMPLEMENTED (`tests/test_moral_lie_detection.py`).** `lie_detected`→
+     `betrayal` mapper channel (RELATIONAL, source = the other party). TARGET side: overlay gains
+     anger/frustration + `resentment[liar]`(+) + `trust[liar]`(−) — discovering a lie collapses trust and
+     breeds a grudge (spec §5.6). LIAR side: `simulation._book_detection` raises `detected_risk` on the
+     persona's matching `LieRecord` (`lie:<detector>`) by `ledger_params.detected_risk_on_detect`; a betrayed
+     target (no record) is a ledger no-op. Opt-in → legacy byte-identical.
    - **M-J.4.3 Secret lifecycle** (salience/exposure_risk integrators; confession/exposure transitions;
      inactivation gating when `hidden_from` empty ∧ `unresolvedness` low).
    - **M-J.4.4 calibration grid + scoped corpus** (the labeled overlay categories within the 1400+1400 budget).

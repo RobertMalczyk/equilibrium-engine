@@ -1,0 +1,28 @@
+# M-J.4.2 lie detection -- CAUGHT (liar side). The persona lies under probing (building a LieRecord keyed to
+# the interrogator), then the lie is DETECTED (`lie_detected`, source = the interrogator who caught them):
+# the matching record's `detected_risk` jumps. Run with the moral overlay + a habitual liar.
+id: moral_lie_caught
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+# t0-2 wrongdoing (guilt seed) -> t3-9 probing (the liar lies, building lie:interrogator) -> t10-12 the lie
+# is caught (lie_detected from the interrogator) -> detected_risk on that record rises.
+events:
+  - {type: wrongdoing, t: 0, intensity: 1.0}
+  - {type: wrongdoing, t: 1, intensity: 1.0}
+  - {type: wrongdoing, t: 2, intensity: 1.0}
+  - {type: probe, t: 3, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 4, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 5, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 6, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 7, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 8, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 9, source: interrogator, intensity: 1.0}
+  - {type: lie_detected, t: 10, source: interrogator, intensity: 1.0}
+  - {type: lie_detected, t: 11, source: interrogator, intensity: 1.0}
+  - {type: lie_detected, t: 12, source: interrogator, intensity: 1.0}
