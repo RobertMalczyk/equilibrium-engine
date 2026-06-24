@@ -81,6 +81,26 @@ def _event_is_provocation(event, eff: dict, snapshot, config: PersonaConfig) -> 
     return False
 
 
+def _provocation_score(event, ev_eff: dict, snapshot, config: PersonaConfig) -> float:
+    """M-MEM.1: how strongly ONE event provokes (its OWN filtered inputs `ev_eff`), used to pick the primary
+    provoker when several events land on a tick. > 0 iff `_event_is_provocation` would be True for that event
+    alone: case (1) it adds anger/frustration (the contribution magnitude); case (2) it is a gesture from a
+    resented source (ranked by that resentment). 0 for a sourceless stressor or a benign non-resented gesture.
+    Reduces to the existing single-event provocation test, so a <=1-event tick is unaffected."""
+    if event is None or event.source is None:
+        return 0.0
+    contrib = 0.0
+    for state in ("anger", "frustration"):
+        gx = config.gains.get(state, {})
+        for ch, si in ev_eff.items():
+            contrib += gx.get(ch, 0.0) * si.value
+    if contrib > 0.0:
+        return contrib
+    theta = config.thresholds.get("provocation_resentment", float("inf"))
+    resent = snapshot.relations.get(event.source, {}).get("resentment", 0.0)
+    return resent if resent >= theta else 0.0
+
+
 def _event_is_stressor(event, eff: dict, config: PersonaConfig) -> bool:
     """A SOURCELESS world stressor (weather/etc.) that wears at the baseline (raises stress/frustration/anger).
     It opens NO reactive reply (it is not a provocation -- there is nobody to react to), but while it is
@@ -271,8 +291,9 @@ def tick(
         events = [events]
     events = events or []
     # The PRIMARY event drives the per-source reactive signals (provocation / kindness / reaction_target /
-    # bookkeeping). M-MEM.0 takes the first event -- the byte-identical choice for <=1 event; multi-source
-    # arbitration of the primary provoker is M-MEM.1. EVERY event's deposits are merged into `eff` below.
+    # bookkeeping). It is the STRONGEST provoker on the tick (M-MEM.1); with no provoker it falls back to the
+    # first event (a benign gesture / sourceless stressor / activity). EVERY event's deposits are merged into
+    # `eff` regardless. For a <=1-event tick this is exactly the single event -> byte-identical.
     primary = events[0] if events else None
 
     # 1. freeze
@@ -288,7 +309,7 @@ def tick(
     command_pressure = (
         0.0  # transient: this tick's command channel (raw, pre-filter); 0 if no order
     )
-    event_source = primary.source if primary is not None else None
+    best_provoke = 0.0  # M-MEM.1: track the strongest provoker to elect as `primary`
     for ev in events:
         feats = history.analyze(runtime.history_log, ev, t, config)
         raw = mapper.map_event(ev, config, feats)
@@ -303,6 +324,12 @@ def tick(
         )
         for ch, si in ev_eff.items():
             eff.setdefault(ch, []).append(si)
+        # elect the primary provoker: STRICTLY-greater so ties keep the earlier (scenario-order) event.
+        score = _provocation_score(ev, ev_eff, snapshot, config)
+        if score > best_provoke:
+            best_provoke = score
+            primary = ev
+    event_source = primary.source if primary is not None else None
 
     # Recency / PROVOCATION gate (D5 step 1c + D11): a reactive REPLY needs a recent PROVOCATION -- not just
     # any recent event. A benign gesture (liked food / help from a non-resented source) is not a provocation,

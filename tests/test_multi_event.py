@@ -58,3 +58,32 @@ def test_single_event_trace_keeps_scalar_event_field():
     _, tr = run_scenario(_cfg(), sc, n_ticks=1)
     ev = tr.ticks[0].event
     assert isinstance(ev, RawEvent) and ev.source == "x"
+
+
+# --- M-MEM.1: multi-source primary-provoker arbitration --------------------------------
+
+
+def test_strongest_provoker_becomes_the_primary():
+    """Two insults on one tick: the reaction keys on the STRONGEST provoker, not scenario order. The weak
+    insulter is listed FIRST, so M-MEM.0 (primary = first) would pick it -- M-MEM.1 picks the strong one."""
+    sc = _scenario(
+        [
+            RawEvent(type="insult", t=0, source="weak", intensity=0.2),
+            RawEvent(type="insult", t=0, source="strong", intensity=1.0),
+        ]
+    )
+    rt, _ = run_scenario(_cfg(), sc, n_ticks=1)
+    assert rt.last_provocation_source == "strong"
+
+
+def test_provoker_beats_a_gesture_for_the_primary():
+    """A benign gesture (help) and an insult on the same tick, gesture listed FIRST: the primary provoker is
+    the INSULTER (the gesture is not a provocation), so the lingering anger is attributed to the insulter."""
+    sc = _scenario(
+        [
+            RawEvent(type="help", t=0, source="friend", intensity=1.0),
+            RawEvent(type="insult", t=0, source="enemy", intensity=1.0),
+        ]
+    )
+    rt, _ = run_scenario(_cfg(), sc, n_ticks=1)
+    assert rt.last_provocation_source == "enemy"
