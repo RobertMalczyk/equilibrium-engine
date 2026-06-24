@@ -1,0 +1,10 @@
+lutek_day_burstOFF_041: PASS -- two soups two minutes apart, otherwise sane
+lutek_day_burstOFF_042: PASS -- normal restless-creative day, sane pacing
+lutek_day_burstOFF_043: PASS -- mock deflected, good rhythm, clean sleep-wake
+lutek_day_burstOFF_044: PASS -- sane pattern, insult ignored, normal sleep
+lutek_day_burstOFF_045: PASS -- warmly social, mock rolls off, clean arc
+lutek_day_burstOFF_046: FLAG -- soup received with "lets it pass" indifference text
+lutek_day_burstOFF_047: PASS -- Marta very attentive, all warmly received, sane
+lutek_day_burstOFF_048: PASS -- mild evening tension, resolves, normal sleep
+lutek_day_burstOFF_049: PASS -- two mocks deflected cleanly, sane full day
+lutek_day_burstOFF_050: PASS -- steady restless-creative pattern, clean sleep-wake

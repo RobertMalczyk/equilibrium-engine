@@ -1,0 +1,10 @@
+branic_multi_burstON_061: PASS -- rain builds tension, eruptions earned, sleep resets well
+branic_multi_burstON_062: PASS -- escalating resistance across days, eruption earned, recovery clean
+branic_multi_burstON_063: PASS -- kindness-rich start, snaps earned, compliant when calm
+branic_multi_burstON_064: PASS -- calm stretch, mostly compliant, no unearned anger
+branic_multi_burstON_065: PASS -- two quick snaps at repeated mockery, plausible absorption then reaction
+branic_multi_burstON_066: FLAG -- three full eruptions in two hours under sustained evening mockery
+branic_multi_burstON_067: PASS -- cooperative Day 2, eruption earned after goodwill disrupted
+branic_multi_burstON_068: PASS -- three Day 5 eruptions plausible under burst-ON repeated provocation
+branic_multi_burstON_069: PASS -- rain Day 1, calm Day 2 reset, Day 3 escalation earned
+branic_multi_burstON_070: PASS -- positive start, burst fires when tension crests, full Day 5 reset

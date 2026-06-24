@@ -1,0 +1,10 @@
+wojslaw_day_burstON_021: FLAG -- erupts at 11:59, settled at 12:01 one minute later
+wojslaw_day_burstON_022: PASS -- temper rises with mockery, calm evening, sleeps well
+wojslaw_day_burstON_023: PASS -- repeated insults escalate anger across day, recovers by night
+wojslaw_day_burstON_024: PASS -- early snap, defiance to orders, reasonable arc through day
+wojslaw_day_burstON_025: PASS -- bristles at mockery but holds back, tense afternoon, plausible
+wojslaw_day_burstON_026: FLAG -- erupts at 21:47, settled at 22:04, erupts again at 22:32
+wojslaw_day_burstON_027: PASS -- early bristle, calm mid-day, double eruption late fits profile
+wojslaw_day_burstON_028: PASS -- midday eruption, sustained tension, late flare, coherent arc
+wojslaw_day_burstON_029: PASS -- heavy provocation load, sustained anger, plausible recovery pattern
+wojslaw_day_burstON_030: PASS -- multiple eruptions under repeated mockery, settles with food/rest

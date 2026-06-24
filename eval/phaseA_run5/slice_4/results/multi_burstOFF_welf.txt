@@ -1,0 +1,10 @@
+welf_multi_burstOFF_041: PASS -- steady boredom cycles, mocks ignored, sane pacing
+welf_multi_burstOFF_042: PASS -- five days clean, late sleep plausible, mornings tense then settle
+welf_multi_burstOFF_043: PASS -- generous day three kindnesses, public barb let pass, consistent
+welf_multi_burstOFF_044: PASS -- rain absorbed, mocks ignored, tense mornings resolve quickly
+welf_multi_burstOFF_045: PASS -- rain day five, no anger, boredom cycles throughout, clean
+welf_multi_burstOFF_046: PASS -- late sleep day three, tense evening settles before bed
+welf_multi_burstOFF_047: PASS -- late sleep day four, double restless resolved, rain no anger
+welf_multi_burstOFF_048: PASS -- single snap after rain plus mockery accumulation, not hot-tempered overall
+welf_multi_burstOFF_049: PASS -- two rain days, mocks ignored, tense mornings, clean
+welf_multi_burstOFF_050: PASS -- six days, rain days five six, muted kindness response plausible

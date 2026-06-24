@@ -1,0 +1,10 @@
+branic_multi_burstOFF_041: PASS -- eruption after rain day and mocking; recovery clean
+branic_multi_burstOFF_042: PASS -- calm run, no provocations, sane pacing throughout
+branic_multi_burstOFF_043: PASS -- slow buildup over 6 days; defiance and snapping earned
+branic_multi_burstOFF_044: PASS -- quiet 3 days, cooperative, nothing jars
+branic_multi_burstOFF_045: PASS -- heavy Day 1 mocking absorbed; Day 4 warmth plausible
+branic_multi_burstOFF_046: PASS -- uneventful; many kindnesses yield calm; nothing wrong
+branic_multi_burstOFF_047: PASS -- bristling builds; Day 4 eruption after repeated mocking
+branic_multi_burstOFF_048: PASS -- dense Day 5 provocations drive dense reactions; sleeps reset
+branic_multi_burstOFF_049: PASS -- clean 3 days, no tension, sane rhythm
+branic_multi_burstOFF_050: PASS -- heavy Day 5-6 mocking cluster; reactions match provocation density

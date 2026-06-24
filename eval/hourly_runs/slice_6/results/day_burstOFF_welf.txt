@@ -1,0 +1,10 @@
+welf_day_burstOFF_061: PASS -- steady pacing, boredom cycles, appropriate warmth to kindnesses
+welf_day_burstOFF_062: PASS -- mock ignored, kindnesses received warmly, sane rhythm throughout
+welf_day_burstOFF_063: PASS -- two soups and two kindnesses close together but day holds together
+welf_day_burstOFF_064: PASS -- even-keeled day, restlessness cycles, no jarring moments
+welf_day_burstOFF_065: PASS -- two mocks brushed off cleanly, late restlessness before sleep fine
+welf_day_burstOFF_066: PASS -- soup then immediate rest slightly odd but not implausible
+welf_day_burstOFF_067: PASS -- evening tension resolves after kindness, consistent with profile
+welf_day_burstOFF_068: PASS -- clean restlessness cycles, settled recovery, nothing jars
+welf_day_burstOFF_069: FLAG -- kindness at 12:35 triggers "lets it pass" instead of warmth
+welf_day_burstOFF_070: PASS -- late tension before bed, wakes settled, fits the profile

@@ -140,7 +140,9 @@ def test_C2_extinction_returns_from_full_saturation_within_T_cool():
     k = _k_esc()
     ext_a, ext_s = _extinction()
     r = latched_cooldown(decay, g_as, g_sa, k, ext_a, ext_s)
-    assert r["mono"], "latched cool-down re-spiralled (not monotone) — extinction too weak"
+    assert r["mono"], (
+        "latched cool-down re-spiralled (not monotone) — extinction too weak"
+    )
     assert r["cross"] is not None, "latched loop never returned below theta_burst_exit"
     assert r["cross"] <= _t_cool_ticks(), (
         f"cool-down took {r['cross']} ticks > T_cool={_t_cool_ticks()}"
@@ -184,9 +186,16 @@ def test_C3_enter_band_clears_the_frequent_ceiling_and_spirals():
     k = _k_esc()
     lat = _latch()
     env = json.loads(ENV_JSON.read_text(encoding="utf-8"))
-    assert lat["enter_a"] > env["le2_anger_max"] and lat["enter_s"] > env["le2_stress_max"]
+    assert (
+        lat["enter_a"] > env["le2_anger_max"] and lat["enter_s"] > env["le2_stress_max"]
+    )
     # the frequent ceiling itself stays stable; the enter band spirals
-    assert _escalated_margin(decay, g_as, g_sa, k, env["le2_anger_max"], env["le2_stress_max"]) >= 0.0
+    assert (
+        _escalated_margin(
+            decay, g_as, g_sa, k, env["le2_anger_max"], env["le2_stress_max"]
+        )
+        >= 0.0
+    )
     assert _escalated_margin(decay, g_as, g_sa, k, lat["enter_a"], lat["enter_s"]) < 0.0
 
 
@@ -294,7 +303,9 @@ def test_vent_is_silent_on_an_ordinary_single_load():
     from eval.verify_vent_boundedness import vent_response
 
     r = vent_response("wojslaw", "ordinary_pair")
-    assert not r["armed"], "the vent armed on an ordinary single load (must stay silent)"
+    assert not r["armed"], (
+        "the vent armed on an ordinary single load (must stay silent)"
+    )
 
 
 def test_vent_fires_and_self_terminates_on_a_multiloop_coincidence():
@@ -306,4 +317,6 @@ def test_vent_fires_and_self_terminates_on_a_multiloop_coincidence():
 
     r = vent_response("wojslaw", "bad_day_stack")
     assert r["armed"], "the vent did not fire on a genuine >=3-way coincidence"
-    assert r["released"], "the vent latched but never released — the episode did not self-terminate"
+    assert r["released"], (
+        "the vent latched but never released — the episode did not self-terminate"
+    )

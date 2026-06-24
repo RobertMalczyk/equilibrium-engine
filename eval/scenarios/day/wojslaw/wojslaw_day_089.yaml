@@ -51,9 +51,9 @@ events:
 - type: insult
   t: 374
   source: player
-  intensity: 0.554
+  intensity: 1.0
   context:
-    public: true
+    public: false
 - type: command
   t: 406
   source: player
@@ -67,10 +67,10 @@ events:
   context: {}
 - type: insult
   t: 491
-  source: marta
-  intensity: 0.704
+  source: player
+  intensity: 0.767
   context:
-    public: true
+    public: false
 - type: nightfall
   t: 508
   intensity: 1.0

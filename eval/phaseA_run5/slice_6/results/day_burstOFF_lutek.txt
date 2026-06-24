@@ -1,0 +1,10 @@
+lutek_day_burstOFF_061: PASS -- restless poet, mocks roll off, evening tension fades normally
+lutek_day_burstOFF_062: PASS -- steady easy day, kindnesses received warmly, sane pacing
+lutek_day_burstOFF_063: PASS -- mocks ignored, well-fed, settled rhythm throughout the day
+lutek_day_burstOFF_064: PASS -- multiple kindnesses, restless bursts, sleeps early, wakes easy
+lutek_day_burstOFF_065: PASS -- two soups close together odd but minor, tension resolves at supper
+lutek_day_burstOFF_066: PASS -- mock shrugged off midday, kindness warms him, calm night
+lutek_day_burstOFF_067: PASS -- two mocks ignored, well-fed evening, restless but contained
+lutek_day_burstOFF_068: PASS -- brief tension at 18:00 resolves, stays up late but sleeps
+lutek_day_burstOFF_069: PASS -- tense at 18:00, work and kindness settle him, sleeps past midnight
+lutek_day_burstOFF_070: PASS -- mock ignored, late tension lifted by kindness, wakes recovered

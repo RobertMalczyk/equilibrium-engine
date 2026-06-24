@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_081: PASS -- steady escalation on day 5 after repeated public mockings
+wojslaw_multi_burstOFF_082: PASS -- erupts early day 1, recovers; day 3 warm with no friction
+wojslaw_multi_burstOFF_083: PASS -- back-to-back eruptions day 2 leave lingering tension, plausible
+wojslaw_multi_burstOFF_084: PASS -- heavy mockery load sustains elevated tension across days
+wojslaw_multi_burstOFF_085: PASS -- day 3 notably calm and warm; positive input drives it
+wojslaw_multi_burstOFF_086: PASS -- day 3 entirely positive, no provocations; model follows input
+wojslaw_multi_burstOFF_087: PASS -- repeated provocation clusters wear him down across six days
+wojslaw_multi_burstOFF_088: PASS -- bristles at kindness when already tense; fits prideful temper
+wojslaw_multi_burstOFF_089: PASS -- day 3 accumulation causes bristling even at neutral acts
+wojslaw_multi_burstOFF_090: PASS -- four days near-provocation-free; sustained calm fits the input

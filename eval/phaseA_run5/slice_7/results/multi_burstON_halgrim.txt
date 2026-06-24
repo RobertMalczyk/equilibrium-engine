@@ -1,0 +1,10 @@
+halgrim_multi_burstON_071: PASS -- rain+Wojslaw accumulation, cold replies, sleep resets
+halgrim_multi_burstON_072: PASS -- calm days, minimal friction, fits steady baseline
+halgrim_multi_burstON_073: PASS -- Wojslaw provokes cold curtness, recovers each morning
+halgrim_multi_burstON_074: PASS -- heavy provocation builds across days, consistent carry
+halgrim_multi_burstON_075: PASS -- gradual escalation day 4, rain wears, plausible arc
+halgrim_multi_burstON_076: PASS -- quiet start, Wojslaw triggers cold seething day 3
+halgrim_multi_burstON_077: PASS -- Wojslaw barrage goes cold not explosive, fits profile
+halgrim_multi_burstON_078: PASS -- clustered provocations, Marta warmth offsets, wakes settled
+halgrim_multi_burstON_079: PASS -- very quiet, two barbs let pass, fits hard-to-provoke trait
+halgrim_multi_burstON_080: PASS -- day 3 tension without clear trigger, plausible carryover

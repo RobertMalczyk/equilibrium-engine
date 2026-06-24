@@ -1,0 +1,10 @@
+branic_day_burstOFF_081: PASS -- restless cycle, tasks, meals, tense late; sleeps, wakes settled
+branic_day_burstOFF_082: PASS -- mocks absorbed early, bristles late at night; plausible arc
+branic_day_burstOFF_083: PASS -- calm day, mild restlessness, settles well; no jarring notes
+branic_day_burstOFF_084: PASS -- repeated mocks accumulate; snaps once late, recovers by sleep
+branic_day_burstOFF_085: PASS -- warm day with kindnesses; public mock stings, ends tense but sane
+branic_day_burstOFF_086: FLAG -- Halgrim order at 08:42 logged as "lets it pass, no notable reaction"
+branic_day_burstOFF_087: PASS -- steady compliant day; evening kindnesses lift mood; clean sleep
+branic_day_burstOFF_088: PASS -- two soups at 07:38 and 08:10 minor oddity; overall arc sane
+branic_day_burstOFF_089: PASS -- orders "let pass" twice early; snaps at late mock after tense evening
+branic_day_burstOFF_090: PASS -- mock shrugged off mid-day, grows tense by night; believable pacing

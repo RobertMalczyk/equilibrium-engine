@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_001: PASS -- temper flares at mockery, settles between, sane pacing
+wojslaw_day_burstOFF_002: PASS -- pride intact, fury at barb, warmer toward Marta, coherent
+wojslaw_day_burstOFF_003: PASS -- snaps at mockery, grateful for food, calm intervals believable
+wojslaw_day_burstOFF_004: PASS -- two early eruptions, defiant refusals evening, fits profile well
+wojslaw_day_burstOFF_005: PASS -- unusually calm day, one snap, good-natured mood plausible
+wojslaw_day_burstOFF_006: PASS -- erupts at public slight, defiant refusals, pacing is sane
+wojslaw_day_burstOFF_007: PASS -- multiple mocks draw fury, Marta's warmth accepted, coherent arc
+wojslaw_day_burstOFF_008: FLAG -- barbed mock at 07:58 draws no reaction; too mild for Wojslaw
+wojslaw_day_burstOFF_009: PASS -- escalating anger across repeated mocks, defiant refusal late night
+wojslaw_day_burstOFF_010: PASS -- heavy provocation day, repeated fury and refusals, profile fits

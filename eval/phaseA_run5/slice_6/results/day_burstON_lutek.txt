@@ -1,0 +1,10 @@
+lutek_day_burstON_061: PASS -- restless poet, mocks roll off, evening tension fades naturally
+lutek_day_burstON_062: PASS -- steady warmth from kindnesses, pacing and rest well distributed
+lutek_day_burstON_063: PASS -- mocks ignored, mild evening tension resolves, sane day arc
+lutek_day_burstON_064: PASS -- generous kindnesses, easy warmth, no jarring reactions
+lutek_day_burstON_065: PASS -- double soup early slightly odd but not absurd, evening settles
+lutek_day_burstON_066: PASS -- mock ignored, rest after kindness fine, clean day rhythm
+lutek_day_burstON_067: PASS -- mocks brushed off twice, warmth at evening, sane pacing
+lutek_day_burstON_068: FLAG -- lingers tense at 22:04 with no clear prior provocation visible
+lutek_day_burstON_069: PASS -- early warmth, mild evening edge clears, sleeps very late but ok
+lutek_day_burstON_070: FLAG -- residual temper at 22:04 after only a mild mock, no escalation shown

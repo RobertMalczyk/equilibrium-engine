@@ -1,0 +1,10 @@
+edda_multi_burstON_081: PASS -- composed castellan, sane pacing, sleeps well, absorbs slights
+edda_multi_burstON_082: PASS -- steady days, appropriate deference and authority balanced
+edda_multi_burstON_083: PASS -- quiet stretch, well-fed, commands regularly, no jarring moments
+edda_multi_burstON_084: PASS -- calm under mockery, consistent with composed authority figure
+edda_multi_burstON_085: PASS -- one stranger compliance mild but not impossible, otherwise fine
+edda_multi_burstON_086: PASS -- smooth, well-supported days, steady command presence throughout
+edda_multi_burstON_087: PASS -- moderate pressure from strangers, deflects appropriately, no overreaction
+edda_multi_burstON_088: PASS -- dense kindnesses, regular meals, absorbs friction, sane pacing
+edda_multi_burstON_089: PASS -- very social days, constant warmth, commands regularly, all sane
+edda_multi_burstON_090: PASS -- refusal of stranger's order fits castellan's authority, otherwise calm

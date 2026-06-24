@@ -111,35 +111,30 @@ events:
   item: cabbage_soup
   context:
     public: false
-- type: command
+- type: insult
   t: 798
+  source: player
+  intensity: 0.599
+  context:
+    public: false
+- type: command
+  t: 827
+  source: player
+  intensity: 0.673
+  context:
+    has_authority: true
+- type: command
+  t: 917
   source: player
   intensity: 0.764
   context:
     has_authority: true
 - type: insult
-  t: 883
-  source: marta
-  intensity: 0.361
-  context:
-    public: false
-- type: help
-  t: 916
-  source: marta
-  intensity: 0.575
-  context: {}
-- type: command
-  t: 917
-  source: player
-  intensity: 0.673
-  context:
-    has_authority: true
-- type: insult
   t: 922
-  source: marta
-  intensity: 0.91
+  source: player
+  intensity: 0.821
   context:
-    public: false
+    public: true
 - type: food_given
   t: 945
   source: marta
@@ -147,6 +142,11 @@ events:
   item: cabbage_soup
   context:
     public: false
+- type: help
+  t: 980
+  source: marta
+  intensity: 0.823
+  context: {}
 - type: insult
   t: 986
   source: player
@@ -156,7 +156,7 @@ events:
 - type: help
   t: 1090
   source: marta
-  intensity: 0.976
+  intensity: 0.575
   context: {}
 - type: food_given
   t: 1128
@@ -167,20 +167,26 @@ events:
     public: false
 - type: insult
   t: 1185
-  source: marta
-  intensity: 0.496
+  source: player
+  intensity: 0.857
   context:
     public: false
 - type: nightfall
   t: 1225
   intensity: 1.0
 - type: food_given
-  t: 1476
+  t: 1459
   source: marta
   intensity: 1.0
   item: cabbage_soup
   context:
     public: false
+- type: command
+  t: 1484
+  source: player
+  intensity: 0.902
+  context:
+    has_authority: true
 - type: food_given
   t: 1511
   source: marta
@@ -188,12 +194,11 @@ events:
   item: cabbage_soup
   context:
     public: false
-- type: command
-  t: 1558
+- type: help
+  t: 1602
   source: player
-  intensity: 0.587
-  context:
-    has_authority: true
+  intensity: 0.779
+  context: {}
 - type: food_given
   t: 1666
   source: marta
@@ -204,13 +209,20 @@ events:
 - type: help
   t: 1668
   source: player
-  intensity: 1.0
+  intensity: 0.903
   context: {}
 - type: help
   t: 1670
-  source: player
+  source: marta
   intensity: 0.925
   context: {}
+- type: food_given
+  t: 1679
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
 - type: help
   t: 1697
   source: player
@@ -219,8 +231,15 @@ events:
 - type: help
   t: 1712
   source: marta
-  intensity: 0.842
+  intensity: 0.662
   context: {}
+- type: food_given
+  t: 1828
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
 - type: food_given
   t: 1837
   source: marta
@@ -230,8 +249,8 @@ events:
     public: false
 - type: help
   t: 1913
-  source: marta
-  intensity: 0.865
+  source: player
+  intensity: 0.396
   context: {}
 - type: nightfall
   t: 1942
@@ -242,20 +261,6 @@ events:
   intensity: 1.0
   context:
     has_authority: true
-- type: food_given
-  t: 2196
-  source: marta
-  intensity: 1.0
-  item: cabbage_soup
-  context:
-    public: false
-- type: food_given
-  t: 2204
-  source: marta
-  intensity: 1.0
-  item: cabbage_soup
-  context:
-    public: false
 - type: command
   t: 2207
   source: player
@@ -263,7 +268,7 @@ events:
   context:
     has_authority: true
 - type: food_given
-  t: 2358
+  t: 2208
   source: marta
   intensity: 1.0
   item: cabbage_soup
@@ -275,6 +280,18 @@ events:
   intensity: 0.478
   context:
     has_authority: true
+- type: food_given
+  t: 2374
+  source: marta
+  intensity: 1.0
+  item: cabbage_soup
+  context:
+    public: false
+- type: help
+  t: 2386
+  source: player
+  intensity: 0.945
+  context: {}
 - type: command
   t: 2407
   source: player
@@ -293,22 +310,10 @@ events:
   intensity: 0.579
   context:
     has_authority: true
-- type: food_given
-  t: 2564
-  source: marta
-  intensity: 1.0
-  item: cabbage_soup
-  context:
-    public: false
-- type: help
-  t: 2583
-  source: player
-  intensity: 0.945
-  context: {}
 - type: insult
   t: 2592
   source: player
-  intensity: 0.496
+  intensity: 0.695
   context:
     public: true
 - type: nightfall

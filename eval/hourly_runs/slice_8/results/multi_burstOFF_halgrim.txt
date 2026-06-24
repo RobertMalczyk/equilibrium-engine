@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_081: PASS -- calm veteran, sane pacing, minor irritability fits
+halgrim_multi_burstOFF_082: PASS -- Wojslaw friction builds across days, sleep resets hold
+halgrim_multi_burstOFF_083: PASS -- quiet stretch, stoic baseline fully consistent
+halgrim_multi_burstOFF_084: PASS -- rain plus Wojslaw escalates plausibly, wakes recovered
+halgrim_multi_burstOFF_085: PASS -- sustained pressure, one Edda spillover, acceptable carry-over
+halgrim_multi_burstOFF_086: PASS -- largely calm, positive interactions balance Wojslaw friction
+halgrim_multi_burstOFF_087: PASS -- Day 4 tension without clear trigger, Day 3 carry-over plausible
+halgrim_multi_burstOFF_088: FLAG -- Day 5 neutral to Marta soup; cold to kindness after stress unusual
+halgrim_multi_burstOFF_089: PASS -- positive Day 2, Day 3 Wojslaw arc, sane throughout
+halgrim_multi_burstOFF_090: PASS -- heavy Wojslaw Day 1, carry-over tension, Edda spillover fits

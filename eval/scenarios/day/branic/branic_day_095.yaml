@@ -31,7 +31,7 @@ events:
     public: false
 - type: help
   t: 341
-  source: marta
+  source: player
   intensity: 0.854
   context: {}
 - type: command

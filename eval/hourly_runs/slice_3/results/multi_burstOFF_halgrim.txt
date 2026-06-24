@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_031: PASS -- tension builds from Wojslaw, cold curtness fits, resets nightly
+halgrim_multi_burstOFF_032: PASS -- calm run, few provocations, correct deference hierarchy
+halgrim_multi_burstOFF_033: PASS -- Day 5 Edda friction under accumulated stress, believable
+halgrim_multi_burstOFF_034: PASS -- calm two days, Day 3 tension from Wojslaw, clean reset
+halgrim_multi_burstOFF_035: PASS -- rain Day 1, mostly settled, no jarring moments
+halgrim_multi_burstOFF_036: PASS -- rain stress absorbed, Edda grumbles under pressure acceptable
+halgrim_multi_burstOFF_037: PASS -- many Edda orders handled correctly, calm across three days
+halgrim_multi_burstOFF_038: PASS -- Wojslaw escalation across days, wakes fresh, hierarchy intact
+halgrim_multi_burstOFF_039: PASS -- sustained Wojslaw pressure, Day 6 Edda curtness under load
+halgrim_multi_burstOFF_040: PASS -- Day 4 Wojslaw mock gets grumble not coldness, minor texture

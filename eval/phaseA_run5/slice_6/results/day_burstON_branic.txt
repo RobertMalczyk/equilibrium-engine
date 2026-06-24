@@ -1,0 +1,10 @@
+branic_day_burstON_061: PASS -- restless young soldier, calm day, normal pacing
+branic_day_burstON_062: PASS -- mild tension at night after barbed remark, plausible
+branic_day_burstON_063: PASS -- quiet uneventful day, boredom cycles believable
+branic_day_burstON_064: PASS -- evening edge, kindnesses settle him, sane arc
+branic_day_burstON_065: PASS -- snaps at Halgrim under accumulated tension, fits profile
+branic_day_burstON_066: PASS -- edge builds late evening, no trigger, credible fatigue
+branic_day_burstON_067: PASS -- residual temper lingers at 22:04 with no new event, plausible
+branic_day_burstON_068: PASS -- slow burn, snaps at mock after carried temper, believable
+branic_day_burstON_069: PASS -- flares mid-afternoon, stays tense into night, fits arc
+branic_day_burstON_070: PASS -- tension rises at 18:03 then settles, ordinary day

@@ -1,0 +1,10 @@
+branic_day_burstOFF_041: PASS -- calm productive day, boredom cycles and orders fit profile
+branic_day_burstOFF_042: PASS -- accumulating mock leads to bristling, recovery reasonable
+branic_day_burstOFF_043: PASS -- steady day, positive interactions balance, sane pacing
+branic_day_burstOFF_044: PASS -- mild tension by evening after long idle stretch, plausible
+branic_day_burstOFF_045: PASS -- buildup of mocks leads to fury then refusal, fits profile
+branic_day_burstOFF_046: PASS -- early pressure then settled calm day, sane arc
+branic_day_burstOFF_047: PASS -- brief tension mid-evening resolves, good recovery by sleep
+branic_day_burstOFF_048: PASS -- quiet day with positive interactions, no jarring reactions
+branic_day_burstOFF_049: PASS -- two mocks absorbed without reaction, calm close, believable
+branic_day_burstOFF_050: PASS -- snap at mock after tension buildup, lingers tense, plausible

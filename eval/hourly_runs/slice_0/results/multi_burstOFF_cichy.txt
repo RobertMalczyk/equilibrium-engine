@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_001: PASS -- calm baseline, erupts on explicit provocation, sleep resets
+cichy_multi_burstOFF_002: PASS -- four mocks on D1 each trigger response, pattern holds across days
+cichy_multi_burstOFF_003: PASS -- guard vs stranger distinction intact, escalation and recovery sane
+cichy_multi_burstOFF_004: PASS -- morning mock barely registers, stranger kindness accepted, coherent
+cichy_multi_burstOFF_005: PASS -- quiet D1, escalating D2, calm D3; pacing believable
+cichy_multi_burstOFF_006: PASS -- double soup D1 quirky but no behavior issue; tension arc sane
+cichy_multi_burstOFF_007: PASS -- three D1 mocks produce escalating responses, days recover normally
+cichy_multi_burstOFF_008: PASS -- afternoon mock cluster D2 explicitly provoked, sleep resets hold
+cichy_multi_burstOFF_009: PASS -- heavy guard pressure D3 with five provocations; accumulation believable
+cichy_multi_burstOFF_010: PASS -- multiple rain days plus frequent mocks; tense but each step triggered

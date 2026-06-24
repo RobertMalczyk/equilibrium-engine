@@ -1,0 +1,10 @@
+edda_day_burstON_011: PASS -- calm day, mocked once, shrugs it off, fits her composure
+edda_day_burstON_012: PASS -- stranger orders her, she mutters; settled rest of day, believable
+edda_day_burstON_013: PASS -- well-supported day, stranger order ignored, steady throughout
+edda_day_burstON_014: PASS -- mock ignored, day flows naturally, authority exercised at close
+edda_day_burstON_015: PASS -- mock absorbed, brief tension at 18:03 resolves, sane pacing
+edda_day_burstON_016: PASS -- early mock brushed off, order draws complaint, recovers cleanly
+edda_day_burstON_017: PASS -- quiet day, order ignored, Halgrim kindness noted, all sane
+edda_day_burstON_018: PASS -- mock draws curt reply, then declines stranger order; fits authority
+edda_day_burstON_019: PASS -- well-supported day, mock ignored at 18:39, steady composure
+edda_day_burstON_020: PASS -- multiple mocks ignored, outright refusal at 11:21 fits her standing

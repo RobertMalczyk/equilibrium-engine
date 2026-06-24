@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_041: PASS -- erupts on mocks, sleeps and resets, sane pacing
+wojslaw_multi_burstON_042: PASS -- kindness days calm, mock days escalate credibly
+wojslaw_multi_burstON_043: PASS -- eruptions track provocations, evening recovery holds
+wojslaw_multi_burstON_044: PASS -- lets first mock pass, erupts on second, plausible
+wojslaw_multi_burstON_045: PASS -- low-provocation run, late flare fits profile
+wojslaw_multi_burstON_046: PASS -- Day4 double eruption at dawn slightly fast but marginal
+wojslaw_multi_burstON_047: PASS -- calm kindness days, concentrated bursts when mocked
+wojslaw_multi_burstON_048: PASS -- peaceful days then Day4 eruption cascade, clean arc
+wojslaw_multi_burstON_049: PASS -- heavy provocation run, sustained anger fits short temper
+wojslaw_multi_burstON_050: PASS -- rhythmic pattern, erupts under mocks, settles overnight

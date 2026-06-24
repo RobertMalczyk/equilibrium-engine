@@ -172,7 +172,12 @@ PROFILES: dict[str, Profile] = {
             ),
             Channel(
                 "insult",
-                ("marta", "player"),
+                (
+                    "player",
+                ),  # COHERENCE: the warm cook (marta) feeds/helps -- she does NOT also mock
+                # him. Friction comes from the player/stranger; pairing insults with the
+                # kind-giver produced the incoherent "Marta mocks then feeds you" -> the
+                # engine correctly resents her -> her later soup gall read as "snaps at soup".
                 "normal",
                 2.5,
                 0.8,
@@ -294,7 +299,13 @@ PROFILES: dict[str, Profile] = {
             ),
             Channel(
                 "help",
-                ("halgrim", "marta", "player"),
+                (
+                    "marta",
+                    "player",
+                ),  # COHERENCE: Halgrim is the harsh MENTOR (commands + sharp words,
+                # below). The warm "lends a hand" gestures come from marta/player,
+                # not from the sergeant who's been on his back -- so a kindness no
+                # longer galls because its giver just mocked/ordered him.
                 "poisson",
                 2.0,
                 intensity_mean=0.75,

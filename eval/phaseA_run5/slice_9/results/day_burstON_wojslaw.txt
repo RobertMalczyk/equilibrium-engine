@@ -1,0 +1,10 @@
+wojslaw_day_burstON_091: PASS -- temper flares at insults, settles between, sane pacing
+wojslaw_day_burstON_092: PASS -- repeated eruptions fit provocation pattern, sleeps recovered
+wojslaw_day_burstON_093: PASS -- escalating anger mid-day, still tense at night, coherent
+wojslaw_day_burstON_094: PASS -- muted morning, flares after accumulation, plausible arc
+wojslaw_day_burstON_095: PASS -- burst early, seething lingers, defiant refusals fit character
+wojslaw_day_burstON_096: PASS -- mock ignored late when tired; earlier eruptions fine
+wojslaw_day_burstON_097: PASS -- first mock ignored, second triggers fury; believable threshold
+wojslaw_day_burstON_098: PASS -- Marta warmth builds goodwill; late insult still lands hard
+wojslaw_day_burstON_099: FLAG -- unusually warm all day; barely any irritability for this man
+wojslaw_day_burstON_100: PASS -- mixed reactions, erupts mid-day, settles by night, sane

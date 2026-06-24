@@ -1,0 +1,10 @@
+lutek_day_burstOFF_071: PASS -- restless cycle, mocks deflected, night sleep sane
+lutek_day_burstOFF_072: PASS -- warm social day, boredom-seek rhythm intact
+lutek_day_burstOFF_073: PASS -- steady pacing, kindnesses warmly met, sleeps on time
+lutek_day_burstOFF_074: PASS -- wakes recovered next day, no jarring reactions
+lutek_day_burstOFF_075: PASS -- mockery shrugged off twice, tense evening resolves
+lutek_day_burstOFF_076: PASS -- slight evening edge, sleeps and wakes settled
+lutek_day_burstOFF_077: PASS -- mocks ignored, warm to kindness, clean sleep
+lutek_day_burstOFF_078: PASS -- Marta-heavy day, brief tension, resolves by night
+lutek_day_burstOFF_079: PASS -- early mock, soup, restless cycle, late sleep fine
+lutek_day_burstOFF_080: PASS -- tense at 20:03, mock ignored, soup soothes, sleeps

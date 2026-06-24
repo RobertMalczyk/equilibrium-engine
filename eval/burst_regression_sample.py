@@ -36,7 +36,10 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "eval" / "burst_regression"
 PERSONAS = ["halgrim", "wojslaw", "cichy", "branic", "lutek", "welf", "edda"]
 CORPORA = ("day", "multi")
-MODES = ("off", "on")  # off = burst overlay disabled (shipped default); on = outburst armed
+MODES = (
+    "off",
+    "on",
+)  # off = burst overlay disabled (shipped default); on = outburst armed
 N_PER_PERSONA = 100
 CORPUS_DIR = {"day": "day", "multi": "multiday"}
 SID = {"day": "day", "multi": "multi"}
@@ -45,7 +48,11 @@ SID = {"day": "day", "multi": "multi"}
 def _render(persona: str, corpus: str, index: int, burst: bool) -> str:
     cfg = load_eval_persona_timescale(persona, burst=burst)
     path = (
-        ROOT / "eval" / "scenarios" / CORPUS_DIR[corpus] / persona
+        ROOT
+        / "eval"
+        / "scenarios"
+        / CORPUS_DIR[corpus]
+        / persona
         / f"{persona}_{SID[corpus]}_{index:03d}.yaml"
     )
     if corpus == "day":
@@ -82,9 +89,13 @@ def build(coverage: float, seed: int) -> None:
                     blocks.append(f"===== RECORD: {sid} =====\n{text}")
                     if mode == "off":  # compute the burst on/off narration diff once
                         changed[sid] = text != _render(p, corpus, i, burst=True)
-                profile = (ROOT / "eval" / "profiles" / f"{p}.md").read_text(encoding="utf-8")
+                profile = (ROOT / "eval" / "profiles" / f"{p}.md").read_text(
+                    encoding="utf-8"
+                )
                 prompt = HEADER.format(
-                    n=len(idxs), name=DISPLAY[p], profile=profile,
+                    n=len(idxs),
+                    name=DISPLAY[p],
+                    profile=profile,
                     records="\n\n".join(blocks),
                 )
                 bdir = BASE / mode / "batches"
@@ -100,7 +111,9 @@ def build(coverage: float, seed: int) -> None:
     manifest["narration_changed"] = changed
     manifest["n_changed"] = sum(1 for v in changed.values() if v)
     manifest["n_scenarios"] = len(changed)
-    (BASE / "manifest.yaml").write_text(yaml.safe_dump(manifest, sort_keys=False), encoding="utf-8")
+    (BASE / "manifest.yaml").write_text(
+        yaml.safe_dump(manifest, sort_keys=False), encoding="utf-8"
+    )
     print(
         f"\n{len(manifest['batches'])} batch(es)/mode x {len(MODES)} modes; "
         f"{manifest['n_scenarios']} scenarios sampled, "
@@ -125,7 +138,11 @@ def _parse_mode(man: dict, mode: str) -> tuple[dict, dict]:
             m = _LINE.match(line.strip())
             if not m:
                 continue
-            sid, verdict, why = m.group(1).lower(), m.group(2).upper(), (m.group(3) or "").strip()
+            sid, verdict, why = (
+                m.group(1).lower(),
+                m.group(2).upper(),
+                (m.group(3) or "").strip(),
+            )
             if sid not in expected or sid in verdicts:
                 continue
             verdicts[sid] = (verdict, why)
@@ -196,13 +213,18 @@ def aggregate() -> None:
     if deltas:
         md += ["| scenario | off | on | narration changed |", "|---|---|---|---|"]
         md += [
-            f"| {sid} | {a} | {b} | {'yes' if ch else 'no'} |" for sid, a, b, ch in deltas
+            f"| {sid} | {a} | {b} | {'yes' if ch else 'no'} |"
+            for sid, a, b, ch in deltas
         ]
     else:
-        md += ["- none — arming the outburst overlay produced no verdict change in the sample."]
+        md += [
+            "- none — arming the outburst overlay produced no verdict change in the sample."
+        ]
 
     for mode in MODES:
-        flags = sorted(f"{sid}: {why}" for sid, (v, why) in data[mode][1].items() if v == "FLAG")
+        flags = sorted(
+            f"{sid}: {why}" for sid, (v, why) in data[mode][1].items() if v == "FLAG"
+        )
         md += ["", f"## Flags — outburst {mode} ({len(flags)})", ""]
         md += [f"- {f}" for f in flags] or ["- none"]
     (BASE / "REPORT.md").write_text("\n".join(md) + "\n", encoding="utf-8")
@@ -237,7 +259,7 @@ def _write_html(man, data, changed, deltas, toff, ton) -> None:
         if not deltas:
             return "<tr><td colspan=4><em>none — no verdict changed between modes</em></td></tr>"
         return "\n".join(
-            f"<tr class='{ 'warn' if b=='FLAG' else 'good' }'><td>{sid}</td><td>{a}</td>"
+            f"<tr class='{'warn' if b == 'FLAG' else 'good'}'><td>{sid}</td><td>{a}</td>"
             f"<td>{b}</td><td>{'yes' if ch else 'no'}</td></tr>"
             for sid, a, b, ch in deltas
         )
@@ -263,11 +285,11 @@ def _write_html(man, data, changed, deltas, toff, ton) -> None:
  .pill{{display:inline-block;padding:.15rem .5rem;border-radius:10px;background:#eef;margin-right:.4rem}}
 </style>
 <h1>Outburst on/off — 10% blind regression</h1>
-<p class="meta">Sample: seed <code>{man['seed']}</code>, coverage <code>{man['coverage']:.0%}</code>
-= {man['n_scenarios']} scenarios (day + multi-day). Each judged blind under the M20.1 outburst overlay
+<p class="meta">Sample: seed <code>{man["seed"]}</code>, coverage <code>{man["coverage"]:.0%}</code>
+= {man["n_scenarios"]} scenarios (day + multi-day). Each judged blind under the M20.1 outburst overlay
 <b>disabled</b> (shipped default) and <b>enabled</b>. One fresh Sonnet judge per batch, neutral rubric,
 no answer key.</p>
-<p><span class="pill">{man['n_changed']}/{man['n_scenarios']} scenarios change narration when armed</span>
+<p><span class="pill">{man["n_changed"]}/{man["n_scenarios"]} scenarios change narration when armed</span>
 <span class="pill">{len(deltas)} verdict deltas</span></p>
 <h2>Pass counts by corpus / persona</h2>
 <table><tr><th>corpus</th><th>persona</th><th>pass (off)</th><th>pass (on)</th></tr>
@@ -281,10 +303,10 @@ yes</b> rows are attributable to arming the outburst overlay.</p>
 {delta_rows()}
 </table>
 <h2>Flags — outburst off</h2><ul>
-{flag_list('off')}
+{flag_list("off")}
 </ul>
 <h2>Flags — outburst on</h2><ul>
-{flag_list('on')}
+{flag_list("on")}
 </ul>
 </html>
 """

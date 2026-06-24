@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_041: PASS -- sane pacing, anger tracks guard provocations, sleep resets
+cichy_multi_burstOFF_042: PASS -- repeated mocking escalates plausibly, differential guard vs stranger holds
+cichy_multi_burstOFF_043: PASS -- stranger warmth, guard fury, tension arc all consistent
+cichy_multi_burstOFF_044: PASS -- rain wears him down, guard soup triggers bristle, recovers overnight
+cichy_multi_burstOFF_045: PASS -- calm baseline, eruptions only on guard mocking, plausible
+cichy_multi_burstOFF_046: PASS -- heavy Day 1 provocation, quick settle after expression is plausible
+cichy_multi_burstOFF_047: PASS -- two rapid stranger kindnesses odd but not contradictory, pattern holds
+cichy_multi_burstOFF_048: PASS -- clean differential, soup hostility tracks anger level correctly
+cichy_multi_burstOFF_049: PASS -- four-mock day believable for a harassed prisoner, recovers overnight
+cichy_multi_burstOFF_050: PASS -- rain plus guard provocation escalates, lets pass when calm, sane

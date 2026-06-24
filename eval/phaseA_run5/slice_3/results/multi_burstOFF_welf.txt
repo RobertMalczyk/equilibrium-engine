@@ -1,0 +1,10 @@
+welf_multi_burstOFF_031: PASS -- calm merchant, boredom cycles, mock remarks shrugged off fine
+welf_multi_burstOFF_032: PASS -- steady pacing, restlessness builds then resolves, sane across 5 days
+welf_multi_burstOFF_033: PASS -- composed throughout, late-night restlessness believable for idled man
+welf_multi_burstOFF_034: PASS -- rain days handled well, even-keeled responses to kindness and mocks
+welf_multi_burstOFF_035: PASS -- muted responses day 2 fit dampened mood, recovers naturally
+welf_multi_burstOFF_036: PASS -- tense mornings decay by midday, insults let pass, sane rhythm
+welf_multi_burstOFF_037: PASS -- generous kindnesses warm him appropriately, no jarring reactions
+welf_multi_burstOFF_038: PASS -- rain day 1, steady composure, boredom spikes and resolves cleanly
+welf_multi_burstOFF_039: PASS -- multiple mocks shrugged off, tense at day end then recovers overnight
+welf_multi_burstOFF_040: PASS -- well-fed days with many kindnesses, restlessness cycles believable

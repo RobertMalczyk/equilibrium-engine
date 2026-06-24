@@ -1,0 +1,10 @@
+edda_day_burstON_051: PASS -- settled day, authority asserted at night, sane pacing
+edda_day_burstON_052: PASS -- calm day, regular meals, commands watch at close
+edda_day_burstON_053: PASS -- barbed remark brushed off, fits composed authority
+edda_day_burstON_054: PASS -- quiet day, multiple kindnesses received, no jarring reactions
+edda_day_burstON_055: PASS -- early warmth, steady composure, commands watch as expected
+edda_day_burstON_056: FLAG -- castellan complies when stranger orders her twice; fits subordinate not commander
+edda_day_burstON_057: PASS -- mock ignored, settled through the day, watch set at end
+edda_day_burstON_058: PASS -- stranger order ignored, warm to Marta/Halgrim, sane rhythm
+edda_day_burstON_059: PASS -- many kindnesses, warmth appropriate, watch set, no oddities
+edda_day_burstON_060: PASS -- two soups at 07:02 and 07:04 slightly odd but rest coherent

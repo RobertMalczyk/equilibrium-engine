@@ -1,0 +1,10 @@
+edda_multi_burstOFF_091: PASS -- steady composed days, warm to kindnesses, minor curt reply
+edda_multi_burstOFF_092: PASS -- sane pacing, calm under orders, consistent demeanor
+edda_multi_burstOFF_093: PASS -- mixes compliance and passivity to stranger orders believably
+edda_multi_burstOFF_094: PASS -- clustered soup events noisy but mood and behavior consistent
+edda_multi_burstOFF_095: PASS -- curt reply to public barb, then declines order; fits character
+edda_multi_burstOFF_096: PASS -- many kindnesses day one, composed throughout, late refusal fits
+edda_multi_burstOFF_097: PASS -- repeated stranger orders all let pass, sane settled baseline
+edda_multi_burstOFF_098: PASS -- two quick compliances minor, overall pacing and warmth sane
+edda_multi_burstOFF_099: PASS -- quiet clean run, settled at ease, warm to helpers
+edda_multi_burstOFF_100: PASS -- brief tension after public barb, quick recovery, fits castellan

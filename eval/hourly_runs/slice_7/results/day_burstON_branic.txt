@@ -1,0 +1,10 @@
+branic_day_burstON_071: PASS -- calm day, boredom cycles, meals, natural sleep
+branic_day_burstON_072: PASS -- late mock draws snap, worn down; wakes settled
+branic_day_burstON_073: PASS -- tense evening without trigger; fits restless profile
+branic_day_burstON_074: PASS -- outburst after tense buildup, Marta soothes; plausible
+branic_day_burstON_075: PASS -- Halgrim kindness late settles a fraying evening
+branic_day_burstON_076: PASS -- good day, evening tension, settles without incident
+branic_day_burstON_077: FLAG -- erupts at routine order with no clear buildup
+branic_day_burstON_078: PASS -- dismisses soup once; bristles at mock; plausible arc
+branic_day_burstON_079: PASS -- tense evening, holds it; late orders met fine
+branic_day_burstON_080: PASS -- settled day, late restlessness; wakes busy not idle

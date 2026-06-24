@@ -1,0 +1,10 @@
+cichy_day_burstOFF_071: PASS -- anger rises under repeated mockery, settles overnight
+cichy_day_burstOFF_072: PASS -- quiet day, single provocation triggers fury, recovers well
+cichy_day_burstOFF_073: PASS -- soup rejected coldly after midday outburst, plausible resentment
+cichy_day_burstOFF_074: PASS -- two eruptions under repeated taunts, tense but coherent arc
+cichy_day_burstOFF_075: PASS -- calm morning, late eruption, curt reply after; sane pacing
+cichy_day_burstOFF_076: PASS -- no provocations, rising afternoon tension, quiet evening
+cichy_day_burstOFF_077: PASS -- stranger's kindness taken warmly; guard interactions stay hostile
+cichy_day_burstOFF_078: PASS -- early taunt bristles, no outburst; muted but believable day
+cichy_day_burstOFF_079: PASS -- stranger kindnesses warmly met; guard mock only bristles, fits
+cichy_day_burstOFF_080: PASS -- two outbursts under taunts, soup rebuffed; tense day, sane

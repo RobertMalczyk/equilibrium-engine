@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_021: PASS -- erupts at provocation, settles quickly, fits profile
+wojslaw_day_burstOFF_022: PASS -- mild day, reacts appropriately to kindness and mockery
+wojslaw_day_burstOFF_023: PASS -- multiple provocations, escalating anger, coherent arc
+wojslaw_day_burstOFF_024: PASS -- tense morning, recovers, refuses stranger orders plausibly
+wojslaw_day_burstOFF_025: FLAG -- lets public mockery pass at 08:52, then erupts later without new trigger
+wojslaw_day_burstOFF_026: PASS -- warmth from Marta, erupts at late mockery, sane pacing
+wojslaw_day_burstOFF_027: PASS -- settles despite early bristle, erupts on repeated evening taunts
+wojslaw_day_burstOFF_028: PASS -- erupts at mockery, refuses commands, tense but coherent day
+wojslaw_day_burstOFF_029: PASS -- heavy provocation load, anger rises and falls, sane recovery
+wojslaw_day_burstOFF_030: PASS -- erupts at public mockery twice, tense intervals, believable

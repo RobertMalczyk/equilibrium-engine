@@ -36,12 +36,12 @@ events:
     public: false
 - type: help
   t: 240
-  source: halgrim
+  source: marta
   intensity: 0.82
   context: {}
 - type: help
   t: 255
-  source: halgrim
+  source: marta
   intensity: 0.874
   context: {}
 - type: food_given
@@ -53,7 +53,7 @@ events:
     public: false
 - type: help
   t: 288
-  source: marta
+  source: player
   intensity: 0.637
   context: {}
 - type: command
@@ -64,7 +64,7 @@ events:
     has_authority: true
 - type: help
   t: 389
-  source: halgrim
+  source: marta
   intensity: 0.536
   context: {}
 - type: insult

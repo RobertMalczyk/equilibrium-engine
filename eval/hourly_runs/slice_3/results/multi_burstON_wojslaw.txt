@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_031: PASS -- escalation and sleep resets sane throughout
+wojslaw_multi_burstON_032: PASS -- burst saturation on hot days, resets each morning
+wojslaw_multi_burstON_033: PASS -- rapid ignition fits provocation load, resets hold
+wojslaw_multi_burstON_034: PASS -- displaced aggression at kindness plausible when saturated
+wojslaw_multi_burstON_035: PASS -- warm Day 2-3 coherent when no provocations occur
+wojslaw_multi_burstON_036: PASS -- warm Day 1 with no provocations, escalates when mocked
+wojslaw_multi_burstON_037: PASS -- proud refusals and displaced aggression track correctly
+wojslaw_multi_burstON_038: PASS -- sustained warmth under sustained kindness, no jarring events
+wojslaw_multi_burstON_039: PASS -- differentiated Marta vs stranger reactions coherent
+wojslaw_multi_burstON_040: PASS -- heavy Day 5 provocation load drives accumulating fury

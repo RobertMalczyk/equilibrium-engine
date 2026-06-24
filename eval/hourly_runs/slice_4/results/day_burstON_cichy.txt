@@ -1,0 +1,10 @@
+cichy_day_burstON_041: PASS -- calm day, mild tension, curtness fits mood state
+cichy_day_burstON_042: PASS -- repeated mocks escalate to fury, believable burst
+cichy_day_burstON_043: PASS -- early fury plausible, rest of day settles normally
+cichy_day_burstON_044: PASS -- mild day, late restlessness, sane pacing throughout
+cichy_day_burstON_045: PASS -- stranger warmth vs guard coldness correctly differentiated
+cichy_day_burstON_046: PASS -- quiet day, curtness tracks mood, normal sleep cycle
+cichy_day_burstON_047: PASS -- three soups, responses track mood state correctly
+cichy_day_burstON_048: PASS -- morning snap, sustained tension, recovers overnight
+cichy_day_burstON_049: PASS -- quiet day, indifference when calm, sane rhythm
+cichy_day_burstON_050: PASS -- stranger warmth, guard curtness, tension holds into evening

@@ -1,0 +1,10 @@
+branic_day_burstOFF_051: PASS -- calm sociable day, restlessness cycles natural
+branic_day_burstOFF_052: PASS -- easy day, late tension, sleeps and wakes recovered
+branic_day_burstOFF_053: FLAG -- erupts then flatly refuses two orders, settles too fast
+branic_day_burstOFF_054: PASS -- busy compliant day, mild edge at dusk, no jarring beats
+branic_day_burstOFF_055: PASS -- snaps once under pressure, recovers, pacing believable
+branic_day_burstOFF_056: PASS -- mellow day, two mocks absorbed without reaction, credible
+branic_day_burstOFF_057: FLAG -- snaps then refuses at 22:58, wakes fully settled next morning
+branic_day_burstOFF_058: PASS -- cooperative day, two kindnesses from Halgrim, calm throughout
+branic_day_burstOFF_059: PASS -- heavy mock load absorbed, tense at dusk, recovers overnight
+branic_day_burstOFF_060: PASS -- well-paced day, restless cycles natural, no jarring beats

@@ -49,7 +49,7 @@ events:
     public: true
 - type: help
   t: 372
-  source: marta
+  source: player
   intensity: 0.719
   context: {}
 - type: command

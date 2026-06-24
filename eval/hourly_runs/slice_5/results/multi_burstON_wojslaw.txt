@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_051: PASS -- steady escalation, sleep resets, plausible arc
+wojslaw_multi_burstON_052: PASS -- calm start builds to multi-day tension naturally
+wojslaw_multi_burstON_053: PASS -- day 4 dense but each eruption has real provocation
+wojslaw_multi_burstON_054: PASS -- day 2 escalation after calm day 1, sleep resets well
+wojslaw_multi_burstON_055: PASS -- clean moderate arc, temper proportionate to provocations
+wojslaw_multi_burstON_056: PASS -- high day 1 intensity driven by five real provocations
+wojslaw_multi_burstON_057: PASS -- gradual build across days, resets after sleep each night
+wojslaw_multi_burstON_058: PASS -- displaced aggression on kindness fits wound-up state
+wojslaw_multi_burstON_059: PASS -- early day 1 eruption fits quick-tempered profile
+wojslaw_multi_burstON_060: PASS -- day 3 intensity warranted by unbroken morning provocation

@@ -1,0 +1,10 @@
+cichy_multi_burstON_081: PASS -- calm mornings tension afternoons strangers warm guards curt
+cichy_multi_burstON_082: PASS -- provoked bursts on bad days sleep resets correctly
+cichy_multi_burstON_083: PASS -- multiple provoked outbursts across days plausible volatile captive
+cichy_multi_burstON_084: PASS -- sustained tension without burst believable rain wears him down
+cichy_multi_burstON_085: PASS -- very bad days with repeated provoked eruptions within profile
+cichy_multi_burstON_086: PASS -- escalation cascade and late eruption both explicitly provoked
+cichy_multi_burstON_087: FLAG -- double soup delivery 08:16 and 08:18 looks like artifact
+cichy_multi_burstON_088: PASS -- two burst day one then quiet recovery coherent arc
+cichy_multi_burstON_089: PASS -- three stranger visits dense but eruption provoked immediately after
+cichy_multi_burstON_090: PASS -- moderate tension curtness across four days no spurious events

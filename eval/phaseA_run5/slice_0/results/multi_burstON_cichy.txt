@@ -1,0 +1,10 @@
+cichy_multi_burstON_001: PASS -- tension builds across days, late burst after accumulated stress
+cichy_multi_burstON_002: PASS -- escalating mockery drives burst, resets overnight each day
+cichy_multi_burstON_003: PASS -- stranger warmth plausible, bursts follow guard provocation
+cichy_multi_burstON_004: PASS -- lets barb pass when rested; within range for calm morning
+cichy_multi_burstON_005: PASS -- late-night burst, calmer Day 3 recovery consistent
+cichy_multi_burstON_006: PASS -- double soup odd but minor; burst and recovery pacing sane
+cichy_multi_burstON_007: PASS -- early burst after one mock plausible under burst-ON mode
+cichy_multi_burstON_008: PASS -- three bursts across six days high but burst-ON warrants it
+cichy_multi_burstON_009: FLAG -- Day 1 outburst at 07:36 with no visible ramp-up or trigger
+cichy_multi_burstON_010: PASS -- sustained mockery pressure, tension and recovery paced well

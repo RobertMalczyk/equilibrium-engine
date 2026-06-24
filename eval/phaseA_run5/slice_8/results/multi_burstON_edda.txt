@@ -1,0 +1,10 @@
+edda_multi_burstON_081: PASS -- composed castellan, sane arc, appropriate tension/recovery
+edda_multi_burstON_082: PASS -- calm authority, warmly receives kindness, pacing sane
+edda_multi_burstON_083: PASS -- steady positive days, minor soup repetition not jarring
+edda_multi_burstON_084: PASS -- composed, absorbs mockery twice without reaction
+edda_multi_burstON_085: PASS -- complies once in good mood, otherwise holds authority
+edda_multi_burstON_086: PASS -- settled and in command across six days
+edda_multi_burstON_087: PASS -- graded irritation at repeated stranger orders, believable
+edda_multi_burstON_088: PASS -- positive environment, calm authority maintained throughout
+edda_multi_burstON_089: PASS -- well-supported days, sane pacing, no contradictions
+edda_multi_burstON_090: PASS -- brief tension after mockery, recovers, refuses late demand

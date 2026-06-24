@@ -1,0 +1,10 @@
+halgrim_day_burstON_001: PASS -- quiet day, late refusal of Wojsław fits profile
+halgrim_day_burstON_002: PASS -- kindness-only day, warmth builds naturally
+halgrim_day_burstON_003: PASS -- early refusal, settled cooperative day, fits well
+halgrim_day_burstON_004: PASS -- calm cooperative day, no tension
+halgrim_day_burstON_005: PASS -- stress arc builds to cold contempt, wakes recovered
+halgrim_day_burstON_006: PASS -- two barbs handled with measured curtness, settles
+halgrim_day_burstON_007: PASS -- consistent authority hierarchy, refuses Wojsław not Edda
+halgrim_day_burstON_008: PASS -- positive buffer absorbs public barb, plausible
+halgrim_day_burstON_009: PASS -- warm day; late Edda order ignored is marginal but acceptable
+halgrim_day_burstON_010: FLAG -- Edda order ignored at 10:01; he normally complies with her

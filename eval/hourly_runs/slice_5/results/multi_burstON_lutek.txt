@@ -1,0 +1,10 @@
+lutek_multi_burstON_051: PASS -- steady restless cycle, mocks shrugged off, sane sleep
+lutek_multi_burstON_052: PASS -- late nights, mild irritation under repeated mocks, believable
+lutek_multi_burstON_053: FLAG -- day 3 kindness met with no reaction, wording jars
+lutek_multi_burstON_054: PASS -- curtly cold under accumulated tension, within range
+lutek_multi_burstON_055: PASS -- clean pacing, mocks roll off, tension resolves each day
+lutek_multi_burstON_056: PASS -- late day 1 sleep, day 4 tension spikes resolve cleanly
+lutek_multi_burstON_057: PASS -- warm record, abundant kindnesses, no mocks, sane days
+lutek_multi_burstON_058: PASS -- day 4 evening tension, full recovery after sleep
+lutek_multi_burstON_059: PASS -- day 2 non-reaction to soup minor, otherwise sane
+lutek_multi_burstON_060: PASS -- dense evening kindnesses day 5, pacing otherwise sound

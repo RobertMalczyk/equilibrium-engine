@@ -10,7 +10,7 @@ events:
 - type: insult
   t: 1
   source: player
-  intensity: 0.616
+  intensity: 0.488
   context:
     public: true
 - type: help
@@ -28,9 +28,9 @@ events:
 - type: insult
   t: 126
   source: player
-  intensity: 0.566
+  intensity: 0.345
   context:
-    public: false
+    public: true
 - type: help
   t: 162
   source: player

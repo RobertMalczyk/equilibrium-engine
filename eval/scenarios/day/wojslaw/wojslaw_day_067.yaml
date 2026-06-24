@@ -52,12 +52,12 @@ events:
 - type: insult
   t: 448
   source: player
-  intensity: 1.0
+  intensity: 0.49
   context:
     public: true
 - type: insult
   t: 485
-  source: marta
+  source: player
   intensity: 0.795
   context:
     public: false

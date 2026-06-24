@@ -1,0 +1,10 @@
+halgrim_multi_burstON_071: PASS -- six-day grind under rain and Wojslaw reads cleanly
+halgrim_multi_burstON_072: PASS -- calm uneventful days, single Wojslaw friction handled well
+halgrim_multi_burstON_073: PASS -- Wojslaw pressure accumulates believably across three days
+halgrim_multi_burstON_074: PASS -- rapid morning mockery cascade, wound tight; resets correctly
+halgrim_multi_burstON_075: PASS -- mostly quiet; rain days produce expected low-grade tension
+halgrim_multi_burstON_076: PASS -- calm baseline, Wojslaw friction produces proportionate spikes
+halgrim_multi_burstON_077: PASS -- heavy Wojslaw day erodes control; displaced soup snap plausible
+halgrim_multi_burstON_078: PASS -- tension carries through days with appropriate Wojslaw refusals
+halgrim_multi_burstON_079: PASS -- iron self-control, two Wojslaw mocks absorbed without reaction
+halgrim_multi_burstON_080: PASS -- Wojslaw mockery builds across four days; contempt proportionate

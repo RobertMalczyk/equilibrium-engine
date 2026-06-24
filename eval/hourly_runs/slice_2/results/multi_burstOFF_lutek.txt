@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_021: PASS -- sane pacing, mockery ignored, wakes settled each day
+lutek_multi_burstOFF_022: PASS -- late sleep day 1 harmless, good warmth pattern throughout
+lutek_multi_burstOFF_023: PASS -- late nights plausible, tension spikes resolve, mockery let pass
+lutek_multi_burstOFF_024: PASS -- early tension resolves after kindness, mockery ignored cleanly
+lutek_multi_burstOFF_025: PASS -- tense evenings resolve overnight, consistent seek-rest cycle
+lutek_multi_burstOFF_026: FLAG -- multiple kindnesses elicit zero warmth, jars for sociable man
+lutek_multi_burstOFF_027: PASS -- double soup minor, mockery ignored, tense spikes resolve
+lutek_multi_burstOFF_028: PASS -- morning tension pattern consistent, resolves with kindness/food
+lutek_multi_burstOFF_029: PASS -- flat soup response twice but not persistent enough to flag
+lutek_multi_burstOFF_030: PASS -- two flat soup responses mild, overall rhythm sane

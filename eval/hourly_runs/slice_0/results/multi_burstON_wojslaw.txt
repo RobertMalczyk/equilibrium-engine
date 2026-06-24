@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_001: PASS -- sane buildup, erupts at mockery, sleeps and resets
+wojslaw_multi_burstON_002: PASS -- good-day warmth then evening eruptions, plausible arc
+wojslaw_multi_burstON_003: PASS -- calm day one, escalating volatility across days two to five
+wojslaw_multi_burstON_004: PASS -- day four warm swing after tension, not absurd
+wojslaw_multi_burstON_005: PASS -- progressive escalation across three days, sane pacing
+wojslaw_multi_burstON_006: PASS -- sustained afternoon tension, soup eruptions fit temper
+wojslaw_multi_burstON_007: PASS -- pleasant day three contrasts with volatile day five believably
+wojslaw_multi_burstON_008: PASS -- calm open, escalates mid-run, fits proud prickly man
+wojslaw_multi_burstON_009: PASS -- late-night eruption cluster day two plausible bad evening
+wojslaw_multi_burstON_010: PASS -- rapid mock sequence day one grumbles not escalates, sane

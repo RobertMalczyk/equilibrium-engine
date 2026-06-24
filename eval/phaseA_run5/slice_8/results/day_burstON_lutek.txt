@@ -1,0 +1,10 @@
+lutek_day_burstON_081: PASS -- active restless day, sleeps late but recovers fine
+lutek_day_burstON_082: PASS -- steady rhythms, mild edge late evening, wakes recovered
+lutek_day_burstON_083: PASS -- mockery rolls off, good pacing, settles before sleep
+lutek_day_burstON_084: PASS -- well-fed, active, settles cleanly, wakes fresh
+lutek_day_burstON_085: PASS -- tense at 20:00, soup soothes, clean recovery before sleep
+lutek_day_burstON_086: PASS -- busy social day, tense spell mid-evening, resolves before bed
+lutek_day_burstON_087: PASS -- mocks ignored, lingering temper at 22:04 mild and plausible
+lutek_day_burstON_088: PASS -- two tense spells, active night owl, sleeps after midnight
+lutek_day_burstON_089: FLAG -- tense at 18:00 answers curtly; temper lingers despite kindnesses
+lutek_day_burstON_090: PASS -- tense spell mid-afternoon fades, settled by sleep

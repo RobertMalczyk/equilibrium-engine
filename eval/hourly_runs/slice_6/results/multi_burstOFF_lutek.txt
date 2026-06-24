@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_061: PASS -- restless cycle, mocks roll off, sleeps, wakes recovered
+lutek_multi_burstOFF_062: PASS -- multi-day tension rises and resolves naturally each day
+lutek_multi_burstOFF_063: PASS -- early-work tension pattern consistent, mocks ignored throughout
+lutek_multi_burstOFF_064: PASS -- clean days, mocks deflected, warm to Marta, sane pacing
+lutek_multi_burstOFF_065: PASS -- occasional flat responses to kindness at tense moments, plausible
+lutek_multi_burstOFF_066: PASS -- steady restless cycle, warm responses, evening tension resolves
+lutek_multi_burstOFF_067: PASS -- kindness unremarked once while tense, otherwise warm and sane
+lutek_multi_burstOFF_068: PASS -- first soup ignored, second warmly received; evening tension within range
+lutek_multi_burstOFF_069: PASS -- clean pattern, mocks ignored, proper sleep, sane throughout
+lutek_multi_burstOFF_070: PASS -- late sleep at 00:18 acceptable for restless wandering poet

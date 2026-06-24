@@ -49,7 +49,7 @@ events:
   intensity: 0.644
 - type: help
   t: 182
-  source: marta
+  source: player
   intensity: 0.799
   context: {}
 - type: weather
@@ -70,7 +70,7 @@ events:
     public: false
 - type: help
   t: 237
-  source: halgrim
+  source: marta
   intensity: 0.775
   context: {}
 - type: weather

@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_001: PASS -- calm day, cold refusal fits bottled resentment toward Wojslaw
+halgrim_day_burstOFF_002: PASS -- quiet day of kindnesses, escalating warmth is sane
+halgrim_day_burstOFF_003: PASS -- declines Wojslaw, obeys Edda, consistent with profile
+halgrim_day_burstOFF_004: PASS -- routine quiet day, accumulating warmth from Marta
+halgrim_day_burstOFF_005: PASS -- escalation arc ignore-curt-cold-contempt fits iron self-control profile
+halgrim_day_burstOFF_006: PASS -- second mock let pass after warmth recovery, plausible
+halgrim_day_burstOFF_007: PASS -- late Edda order odd timing but not absurd
+halgrim_day_burstOFF_008: PASS -- public mock gets only curt reply; fits iron self-control
+halgrim_day_burstOFF_009: FLAG -- ignores Edda order silently; he genuinely respects her
+halgrim_day_burstOFF_010: FLAG -- ignores Edda order silently; contradicts established respect for her

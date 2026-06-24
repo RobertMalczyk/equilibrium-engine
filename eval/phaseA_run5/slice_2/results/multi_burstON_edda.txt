@@ -1,0 +1,10 @@
+edda_multi_burstON_021: PASS -- steady 6 days, authority intact, sleep resets
+edda_multi_burstON_022: PASS -- mild irritation under orders, resolves cleanly
+edda_multi_burstON_023: PASS -- calm throughout, declines orders befitting her rank
+edda_multi_burstON_024: PASS -- composed, mocks let pass, sane pacing across 6 days
+edda_multi_burstON_025: PASS -- quiet 3-day run, feeds and sleeps on schedule
+edda_multi_burstON_026: PASS -- orderly 3 days, declines stranger's order appropriately
+edda_multi_burstON_027: PASS -- calm 3 days, lets two orders pass without incident
+edda_multi_burstON_028: PASS -- one compliance unusual but not jarring, otherwise sane
+edda_multi_burstON_029: PASS -- brief tension after mock, resolves; curt reply late night
+edda_multi_burstON_030: PASS -- dense Day 4 cluster but overall pacing holds

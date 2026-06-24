@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_011: PASS -- quiet settled day, fits profile well
+halgrim_day_burstOFF_012: PASS -- Wojslaw accumulation builds tension, sleep resets
+halgrim_day_burstOFF_013: FLAG -- curt/cold to Edda twice while still taking Marta warmly
+halgrim_day_burstOFF_014: PASS -- calm day, declines Wojslaw once, no issues
+halgrim_day_burstOFF_015: FLAG -- mutters complaint to Edda; he buttons anger down, not out
+halgrim_day_burstOFF_016: PASS -- uneventful, positive, double rest odd but harmless
+halgrim_day_burstOFF_017: FLAG -- ignores Edda order at 19:31; he respects her authority
+halgrim_day_burstOFF_018: FLAG -- tense from 20:03 with no late provocation to sustain it
+halgrim_day_burstOFF_019: PASS -- cooperative with Edda, warm to Marta, sane pacing
+halgrim_day_burstOFF_020: PASS -- Wojslaw mock absorbed silently, calm day throughout

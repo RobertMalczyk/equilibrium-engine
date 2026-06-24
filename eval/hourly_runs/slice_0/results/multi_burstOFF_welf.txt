@@ -1,0 +1,10 @@
+welf_multi_burstOFF_001: PASS -- settled composed man, boredom cycles and soup warmth believable
+welf_multi_burstOFF_002: PASS -- muted kindness response while tense plausible for composed Welf
+welf_multi_burstOFF_003: PASS -- well-fed calm days, no tension spikes, sane pacing throughout
+welf_multi_burstOFF_004: PASS -- late-night tension from boredom, recovers well each morning
+welf_multi_burstOFF_005: PASS -- rain day absorbed without complaint, regular restless-settle rhythm
+welf_multi_burstOFF_006: PASS -- unusually settled days plausible after good rest, no jarring beats
+welf_multi_burstOFF_007: PASS -- late sleep one night but short gap not absurd, sane 5-day arc
+welf_multi_burstOFF_008: PASS -- two mocks both let pass, dense kindnesses mechanical but not jarring
+welf_multi_burstOFF_009: PASS -- two mocks day 1 both absorbed, boredom tension late nights consistent
+welf_multi_burstOFF_010: FLAG -- day 2 soup received with no reaction despite settled mood

@@ -1,0 +1,10 @@
+edda_day_burstOFF_081: PASS -- settled day, fed thrice, commands watch, sleeps normally
+edda_day_burstOFF_082: PASS -- stranger orders ignored composedly; mock let pass; calm throughout
+edda_day_burstOFF_083: PASS -- early order complied with quietly; steady day, no jarring moments
+edda_day_burstOFF_084: PASS -- mock and order both let pass; warmed by kindnesses; sane pacing
+edda_day_burstOFF_085: PASS -- multiple kindnesses, mock ignored; extra rest mid-eve; plausible
+edda_day_burstOFF_086: PASS -- order ignored; mock let pass; warmth from Marta; day coherent
+edda_day_burstOFF_087: PASS -- mock answered curtly once; brief, proportionate; settled thereafter
+edda_day_burstOFF_088: PASS -- two soups in 22 min slightly odd but not absurd; day sane
+edda_day_burstOFF_089: PASS -- many small kindnesses; settled throughout; commands watch; normal
+edda_day_burstOFF_090: PASS -- order followed quietly; mock ignored; composed day, normal sleep

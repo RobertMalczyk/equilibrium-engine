@@ -1,0 +1,10 @@
+welf_multi_burstOFF_051: PASS -- steady cycles, mocks pass, rain watch, sane pacing
+welf_multi_burstOFF_052: PASS -- two soups close together minor, overall rhythm sound
+welf_multi_burstOFF_053: PASS -- clean restless-occupy-rest cycle across three days
+welf_multi_burstOFF_054: PASS -- dense kindnesses Day 1, mock ignored, rain Day 3 fine
+welf_multi_burstOFF_055: PASS -- six days well-paced, rain watch Day 5, no jarring moments
+welf_multi_burstOFF_056: PASS -- late-night restlessness Day 3 plausible boredom accumulation
+welf_multi_burstOFF_057: PASS -- duplicate soups Day 4 minor, profile consistent throughout
+welf_multi_burstOFF_058: FLAG -- kindness ignored Day 3 18:15 after composed day otherwise
+welf_multi_burstOFF_059: PASS -- two quick soups Day 1 minor, rain Day 2, clean recovery
+welf_multi_burstOFF_060: PASS -- six days sane, mocks pass without reaction, good rhythm

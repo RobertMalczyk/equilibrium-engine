@@ -17,7 +17,7 @@ events:
     has_authority: true
 - type: help
   t: 57
-  source: marta
+  source: player
   intensity: 0.474
   context: {}
 - type: food_given
@@ -41,7 +41,7 @@ events:
     has_authority: true
 - type: help
   t: 115
-  source: marta
+  source: player
   intensity: 0.913
   context: {}
 - type: command
@@ -52,7 +52,7 @@ events:
     has_authority: true
 - type: help
   t: 179
-  source: marta
+  source: player
   intensity: 1.0
   context: {}
 - type: command

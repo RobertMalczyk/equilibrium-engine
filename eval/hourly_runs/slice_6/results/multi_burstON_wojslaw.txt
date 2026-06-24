@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_061: PASS -- calm start, escalating tension, sleep resets hold well
+wojslaw_multi_burstON_062: PASS -- rapid Day 2 cluster after accumulated insults, plausible
+wojslaw_multi_burstON_063: PASS -- warmth from Marta offsets tensions; mornings reset cleanly
+wojslaw_multi_burstON_064: PASS -- kindness-dominant run; proud man responds well to respect
+wojslaw_multi_burstON_065: PASS -- Day 1-2 escalation with many insults, fury fits the load
+wojslaw_multi_burstON_066: PASS -- gradual multi-day accumulation, consistent pacing
+wojslaw_multi_burstON_067: PASS -- three late-evening Marta-mockery eruptions, high but plausible
+wojslaw_multi_burstON_068: PASS -- heavy Day 1 insult load, sustained tension, night resets
+wojslaw_multi_burstON_069: PASS -- recurring mockery pattern, eruptions proportionate to load
+wojslaw_multi_burstON_070: PASS -- Day 2 morning snap at soup after heavy Day 1, borderline but ok

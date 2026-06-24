@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_071: PASS -- sane pacing, provoked snaps, stranger warmth, sleep resets
+cichy_multi_burstOFF_072: PASS -- rain stressor builds tension, furies all guard-triggered
+cichy_multi_burstOFF_073: PASS -- rain days tracked, responses scale with tension level
+cichy_multi_burstOFF_074: PASS -- day 4 double fury under rain and mockery fits profile
+cichy_multi_burstOFF_075: PASS -- high mockery load but every fury is guard-provoked
+cichy_multi_burstOFF_076: PASS -- quiet stretch, persistent low tension, no absurdities
+cichy_multi_burstOFF_077: PASS -- rapid back-to-back mockery triggers two furies, plausible
+cichy_multi_burstOFF_078: PASS -- multiple furies across days all follow guard provocations
+cichy_multi_burstOFF_079: PASS -- hard rain day, calm recovery day, good rhythm
+cichy_multi_burstOFF_080: PASS -- early-morning non-reaction followed by later fury is credible

@@ -1,0 +1,10 @@
+halgrim_multi_burstON_051: PASS -- calm baseline, appropriate curtness under Wojsław friction
+halgrim_multi_burstON_052: PASS -- tension builds Day 3 under repeated provocation, resets cleanly
+halgrim_multi_burstON_053: PASS -- rain plus Wojsław erodes control; residual tension Day 5 believable
+halgrim_multi_burstON_054: PASS -- multi-day Wojsław provocation → seething; coherent arc
+halgrim_multi_burstON_055: PASS -- calm days, positive events dominant, profile fits well
+halgrim_multi_burstON_056: PASS -- accumulating friction Days 3-6, ends seething; sleep resets
+halgrim_multi_burstON_057: PASS -- rain plus mock causes curtness; lingers, then recovers
+halgrim_multi_burstON_058: PASS -- dense kindnesses Day 2; burst Day 4-5 under Wojsław pressure
+halgrim_multi_burstON_059: PASS -- consistently calm; quiet refusals of Wojsław, no excess
+halgrim_multi_burstON_060: FLAG -- Day 2 "still seething" at 12:07 after calm wake, no new trigger

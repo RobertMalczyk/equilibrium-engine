@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_031: PASS -- restless poet, sane pacing, warms to kindness, mock ignored
+lutek_multi_burstOFF_032: PASS -- six days sane, subdued nod to kindness acceptable variation
+lutek_multi_burstOFF_033: PASS -- consistent pattern, evening kindness cluster crowded but tolerable
+lutek_multi_burstOFF_034: PASS -- late night boundary odd but fits restless poet, else sane
+lutek_multi_burstOFF_035: PASS -- two soups in quick succession minor quirk, else sane
+lutek_multi_burstOFF_036: PASS -- clean days, tension resolves, mock shrugged off
+lutek_multi_burstOFF_037: PASS -- clean three days, late kindness cluster minor, fits profile
+lutek_multi_burstOFF_038: PASS -- late nights plausible, tension spells brief and resolve
+lutek_multi_burstOFF_039: FLAG -- curt reply to public mock contradicts thick-skinned profile
+lutek_multi_burstOFF_040: PASS -- unexplained evening tension fits restless accumulation, mocks ignored

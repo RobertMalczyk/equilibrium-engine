@@ -1,0 +1,10 @@
+halgrim_multi_burstON_031: PASS -- escalating tension from repeated Wojsław provocation, sane reset
+halgrim_multi_burstON_032: PASS -- calm days, minimal friction, plausible settled baseline
+halgrim_multi_burstON_033: PASS -- accumulated Wojsław stress spills onto Edda, believable over 5 days
+halgrim_multi_burstON_034: PASS -- anger from Wojsław mock bleeds into curt replies to Edda
+halgrim_multi_burstON_035: PASS -- rain plus provocation, wakes settled each morning, sane pacing
+halgrim_multi_burstON_036: PASS -- multi-day Wojsław friction, displaced irritation onto Edda fits
+halgrim_multi_burstON_037: PASS -- late refusal of Wojsław plausible from cumulative resentment
+halgrim_multi_burstON_038: PASS -- heavy Wojsław days, contempt spills onto Edda, sleep resets hold
+halgrim_multi_burstON_039: PASS -- cup-nearly-full pattern, contempt onto Edda under strain marginal but fits
+halgrim_multi_burstON_040: PASS -- seething label slightly ahead of action but overall arc sane

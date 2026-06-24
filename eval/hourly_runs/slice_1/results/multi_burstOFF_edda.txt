@@ -1,0 +1,10 @@
+edda_multi_burstOFF_011: PASS -- composed, warm, steady across 3 days
+edda_multi_burstOFF_012: PASS -- coherent escalation under repeated mockery late Day 6
+edda_multi_burstOFF_013: PASS -- very positive stretch, authority appropriately exercised
+edda_multi_burstOFF_014: PASS -- composed throughout, minor soup clustering not absurd
+edda_multi_burstOFF_015: PASS -- varied responses to orders across Day 1, believable
+edda_multi_burstOFF_016: PASS -- peaceful 4-day stretch, no friction, consistent
+edda_multi_burstOFF_017: PASS -- repeated refusals to strangers fit her authority posture
+edda_multi_burstOFF_018: PASS -- mild late-evening irritation, warm baseline throughout
+edda_multi_burstOFF_019: FLAG -- dual back-to-back refusals 12:01/12:03 Day 4 looks like artifact
+edda_multi_burstOFF_020: PASS -- warm stable record, mild Day 4 friction quickly resolved

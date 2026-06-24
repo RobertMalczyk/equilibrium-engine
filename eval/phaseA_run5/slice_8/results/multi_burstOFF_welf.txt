@@ -1,0 +1,10 @@
+welf_multi_burstOFF_081: PASS -- steady man, boredom cycles, warms to kindness, sleeps nightly
+welf_multi_burstOFF_082: PASS -- restless rhythm, takes mockery in stride, sane pacing across days
+welf_multi_burstOFF_083: PASS -- composed, boredom drives activity, reacts warmly to help, normal sleep
+welf_multi_burstOFF_084: PASS -- even-keeled under rain and mockery, restlessness cycles believably
+welf_multi_burstOFF_085: PASS -- practical pacing, muted warmth early, kindles with kindness later
+welf_multi_burstOFF_086: PASS -- six days, steady rhythm, morning tension resolves, no jarring spikes
+welf_multi_burstOFF_087: PASS -- composed throughout, boredom and warmth cycle naturally over six days
+welf_multi_burstOFF_088: PASS -- late night activity followed by dawn sleep plausible; sane overall
+welf_multi_burstOFF_089: PASS -- even-tempered, boredom and kindness alternate, sleeps and wakes normally
+welf_multi_burstOFF_090: PASS -- settled man, restlessness rises and falls, takes mockery in stride

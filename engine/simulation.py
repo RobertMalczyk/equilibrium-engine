@@ -200,7 +200,9 @@ def _refractory_pressure(
         return 0.0
     if event.source != runtime.last_provocation_source:
         return 0.0
-    if runtime.global_state["anger"] < theta:  # not still hot from a recent eruption here
+    if (
+        runtime.global_state["anger"] < theta
+    ):  # not still hot from a recent eruption here
         return 0.0
     return float(config.appraisal.get("refractory_pressure", 0.0))
 
@@ -357,10 +359,19 @@ def tick(
     # event (weather) still never opens it: you cannot kick the rain. Reads the FROZEN snapshot (the
     # synchronous discipline) and the latch state carried over from the previous tick's end.
     theta_displace = config.thresholds.get("theta_displace", float("inf"))
+    # M3 source-valence gate (spec section 8, config `appraisal.displace_valence_gate`, default off ->
+    # bit-identical): a GENUINE kindness is not a discharge target. `positive_valence` reuses the existing
+    # kindness appraisal exactly -- kindness_pressure > 0 means a pro-social gesture from a NON-resented
+    # source (a "kindness" from a resented source is kindness_pressure 0, it galls -> still a target, so
+    # Cichy is unaffected). When enabled, such an event does not open the displaced gate, so its
+    # kindness_pressure survives below and the appraisal route wins (warmth, not a lash-out at the giver).
+    valence_gate_on = bool(config.appraisal.get("displace_valence_gate", False))
+    positive_valence = kindness_pressure > 0.0
     displaced_gate = (
         runtime.burst_latched
         and event_source is not None
         and snapshot.global_state["anger"] >= theta_displace
+        and not (valence_gate_on and positive_valence)
     )
     # Above the bar, displacement OVERRIDES the appraisal route (spec section 8 burst, decided
     # 2026-06-12): while the displaced gate is open, this tick's kindness is suppressed -- fury past

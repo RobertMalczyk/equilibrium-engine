@@ -1,0 +1,10 @@
+welf_multi_burstON_071: PASS -- steady rhythm, rain wears him down, recovers fine
+welf_multi_burstON_072: PASS -- well-supported days, rain days calm, sleeps on time
+welf_multi_burstON_073: PASS -- mocks let pass, morning tension clears with food
+welf_multi_burstON_074: PASS -- one snap at day-2 mock fits accumulated wear
+welf_multi_burstON_075: PASS -- calm days, boredom cycles, no jarring moments
+welf_multi_burstON_076: PASS -- rain lingers as tension, kindness restores ease
+welf_multi_burstON_077: PASS -- rain day tense but manageable, recovers by day three
+welf_multi_burstON_078: PASS -- even-keeled throughout, mocks shrugged off, sane pacing
+welf_multi_burstON_079: PASS -- six days coherent, rain days absorb without eruption
+welf_multi_burstON_080: PASS -- clean three-day arc, tension clears mid-morning each day

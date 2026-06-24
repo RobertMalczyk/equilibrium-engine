@@ -1,0 +1,10 @@
+cichy_day_burstOFF_091: PASS -- calm day, mild tension, curt at afternoon soup, sane pacing
+cichy_day_burstOFF_092: PASS -- restless spells, curt at soup, settles and sleeps normally
+cichy_day_burstOFF_093: PASS -- escalating mocks draw escalating anger, fury at third taunt fits
+cichy_day_burstOFF_094: FLAG -- fury at public mock then fully settled within 10 min, too fast
+cichy_day_burstOFF_095: PASS -- quiet day, no provocations, tense spells natural for captive
+cichy_day_burstOFF_096: PASS -- recurring tension waves, curt at soup, sane rhythm throughout
+cichy_day_burstOFF_097: PASS -- fury at morning mock, calms, curt at afternoon soup, believable
+cichy_day_burstOFF_098: PASS -- stranger kindness warms him; guard mocks draw fury; contrast fits
+cichy_day_burstOFF_099: PASS -- quiet day, stranger kindness accepted, no provocations, sane
+cichy_day_burstOFF_100: PASS -- early snap, two furies at evening mocks, calms before sleep, sane

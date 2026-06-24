@@ -1,0 +1,10 @@
+cichy_day_burstON_061: PASS -- resentful captive, sane tension arc, recovers overnight
+cichy_day_burstON_062: PASS -- guard hostility intact, stranger warmth plausible, sane day
+cichy_day_burstON_063: PASS -- quiet controlled day, one curt response, pacing fine
+cichy_day_burstON_064: PASS -- curt at guard soup, warm to stranger, tension rises and settles
+cichy_day_burstON_065: PASS -- curt when on edge, warm to stranger, sane rhythm
+cichy_day_burstON_066: PASS -- late snap at guard mock plausible, wakes settled after sleep
+cichy_day_burstON_067: PASS -- controlled under pressure, no flare-up, fits tightly wound man
+cichy_day_burstON_068: PASS -- no provocations, curt at soup when tense, settles cleanly
+cichy_day_burstON_069: FLAG -- full fury at 07:10 resolved to settled at 08:00, very fast
+cichy_day_burstON_070: PASS -- morning snap, recovers, afternoon tension, evening settles normally

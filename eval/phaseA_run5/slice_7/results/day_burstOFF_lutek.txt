@@ -1,0 +1,10 @@
+lutek_day_burstOFF_071: PASS -- restless cycles, insults roll off, sleeps late but coherent
+lutek_day_burstOFF_072: PASS -- warm morning, boredom-seek rhythm steady, sensible pacing
+lutek_day_burstOFF_073: PASS -- calm day, boredom addressed quickly, sleeps at midnight
+lutek_day_burstOFF_074: PASS -- multiple meals, restless pulses, wakes early next day fine
+lutek_day_burstOFF_075: PASS -- mockery ignored twice, brief tension dissolves, fits profile
+lutek_day_burstOFF_076: PASS -- steady rhythm, mock ignored, evening tension clears by sleep
+lutek_day_burstOFF_077: PASS -- warm interactions, insults brushed off, wakes fresh and busy
+lutek_day_burstOFF_078: PASS -- kind day, evening edge fades, sleeps and wakes settled
+lutek_day_burstOFF_079: PASS -- early mock ignored, hunger/rest cycle believable, sleeps late
+lutek_day_burstOFF_080: PASS -- mock at 20:23 let pass, soup soothes, wakes easy

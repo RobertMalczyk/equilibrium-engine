@@ -1,0 +1,10 @@
+cichy_day_burstOFF_001: PASS -- reactive to mocks, ignores soup, sane pacing
+cichy_day_burstOFF_002: PASS -- fury at mock, residual snap at soup two minutes later
+cichy_day_burstOFF_003: PASS -- quiet day, curt at soup, no outburst without provocation
+cichy_day_burstOFF_004: PASS -- warmth for stranger, fury at guard mock, believable contrast
+cichy_day_burstOFF_005: PASS -- fury at midday mock, curt after, tense afternoon settles
+cichy_day_burstOFF_006: PASS -- early mock ignored when calm, fury when already tense evening
+cichy_day_burstOFF_007: PASS -- fury at mock, stranger kindness accepted, clean sleep/wake
+cichy_day_burstOFF_008: PASS -- two snaps at two mocks, soups deflected, sane escalation
+cichy_day_burstOFF_009: PASS -- late-night snap after resting is mild but within profile
+cichy_day_burstOFF_010: PASS -- accumulated irritation bleeds into soup reaction, consistent

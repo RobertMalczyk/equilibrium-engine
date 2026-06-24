@@ -1,0 +1,10 @@
+welf_multi_burstON_081: PASS -- steady boredom cycles, calm throughout, brief edge clears
+welf_multi_burstON_082: PASS -- overnight tension carries forward, one bristle late in strained day
+welf_multi_burstON_083: PASS -- routine boredom and relief, minor tense patch clears normally
+welf_multi_burstON_084: PASS -- multi-day edge culminates in single snap, quick recovery follows
+welf_multi_burstON_085: PASS -- generous soup supply, no anger, mocks brushed off throughout
+welf_multi_burstON_086: PASS -- six days calm, tense mornings clear reliably by midday
+welf_multi_burstON_087: PASS -- neutral soup response Day 1 plausible; tense mornings clear normally
+welf_multi_burstON_088: PASS -- works past midnight once, minor oddity; otherwise sane pacing
+welf_multi_burstON_089: PASS -- very calm five days, mocks ignored, overnight resets consistent
+welf_multi_burstON_090: PASS -- clean three days, tense mornings clear, no anger throughout

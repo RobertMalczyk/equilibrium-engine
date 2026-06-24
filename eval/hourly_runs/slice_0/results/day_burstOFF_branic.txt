@@ -1,0 +1,10 @@
+branic_day_burstOFF_001: PASS -- steady day, restlessness cycles, sleeps and wakes clean
+branic_day_burstOFF_002: PASS -- calm productive day, eats sleeps wakes, no jarring notes
+branic_day_burstOFF_003: PASS -- kindnesses land warm, Halgrim barbs shrugged off plausibly
+branic_day_burstOFF_004: PASS -- mild tension late evening, obedient pacing throughout
+branic_day_burstOFF_005: PASS -- stranger kindness shrugged off, rest plausible, clean sleep
+branic_day_burstOFF_006: PASS -- order ignored once at day end, within thin-skinned range
+branic_day_burstOFF_007: PASS -- steady rhythm, eats well, no tension spikes, clean night
+branic_day_burstOFF_008: PASS -- three Halgrim barbs all let pass; flat but within profile
+branic_day_burstOFF_009: PASS -- uneventful sane day, boredom cycles, sleeps and wakes well
+branic_day_burstOFF_010: PASS -- one snap at Halgrim mid-afternoon, settles by night, sane

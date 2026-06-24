@@ -1,0 +1,10 @@
+lutek_multi_burstON_001: PASS -- clean cycle, mockery ignored, normal rest and meals
+lutek_multi_burstON_002: FLAG -- curt cold reply to mockery contradicts thick-skinned profile
+lutek_multi_burstON_003: PASS -- late-night sleep fine, double soup trivial, profile consistent
+lutek_multi_burstON_004: FLAG -- curt cold reply to mockery while tense contradicts profile
+lutek_multi_burstON_005: PASS -- 6 days well-paced, mockery absorbed, minor double soup trivial
+lutek_multi_burstON_006: PASS -- flat kindness responses while preoccupied, not a sharp contradiction
+lutek_multi_burstON_007: PASS -- morning tension resolves, flat kindness minor, overall consistent
+lutek_multi_burstON_008: PASS -- mockery brushed off, flat soup response minor, cycle clean
+lutek_multi_burstON_009: PASS -- dense kindness cluster and rapid mocks both handled per profile
+lutek_multi_burstON_010: PASS -- two-minute double soup quirky but no profile contradiction

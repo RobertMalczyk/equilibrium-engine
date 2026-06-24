@@ -1,0 +1,10 @@
+branic_multi_burstON_041: PASS -- quiet build, one justified snap, clean sleep resets
+branic_multi_burstON_042: PASS -- normal rhythm, evening tension, single snap fits context
+branic_multi_burstON_043: PASS -- gradual escalation to defiance over six days is believable
+branic_multi_burstON_044: PASS -- plain days, minor mood dip, sane pacing throughout
+branic_multi_burstON_045: PASS -- heavy mocking absorbed early, day-four kindness cluster dense but fine
+branic_multi_burstON_046: PASS -- one snap, many stranger kindnesses dense but not absurd
+branic_multi_burstON_047: PASS -- day-four burst of snaps and refusals follows earned escalation
+branic_multi_burstON_048: FLAG -- day-3 kindness from Halgrim triggers bristle; unexpected reaction
+branic_multi_burstON_049: PASS -- quiet three days, tense mornings, clean recovery arc
+branic_multi_burstON_050: PASS -- day-5/6 fury saturation dense but fits burstON sustained provocation

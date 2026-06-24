@@ -1,0 +1,10 @@
+welf_multi_burstON_031: PASS -- snap on day 3 after two days of accumulated tension
+welf_multi_burstON_032: PASS -- five days steady; rain day recovers normally
+welf_multi_burstON_033: PASS -- late sleep on day 3/4 boundary, otherwise sane
+welf_multi_burstON_034: PASS -- three rain episodes; recovers each time via soup
+welf_multi_burstON_035: PASS -- blunted responses after mocks; normalises next day
+welf_multi_burstON_036: PASS -- single snap on tense morning; later mocks shrugged off
+welf_multi_burstON_037: PASS -- calm record, plenty of social warmth, no stress
+welf_multi_burstON_038: PASS -- rain day 1; steady recovery across three days
+welf_multi_burstON_039: PASS -- two rain days wear him down; mocks still shrugged off
+welf_multi_burstON_040: PASS -- late-night tension day 1; four days otherwise normal

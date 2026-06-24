@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_001: PASS -- calm baseline, appropriate refusals, mild tension late days
+halgrim_multi_burstOFF_002: PASS -- very steady, rain day fatigue complaints ring true
+halgrim_multi_burstOFF_003: PASS -- Day 3 grumbling at Edda plausible under accumulated wear
+halgrim_multi_burstOFF_004: PASS -- Wojslaw escalation met with cold contempt, profile-correct
+halgrim_multi_burstOFF_005: PASS -- early barrage handled with profile-consistent cold restraint
+halgrim_multi_burstOFF_006: PASS -- quiet run, Day 4 rain fatigue explains mild Edda non-response
+halgrim_multi_burstOFF_007: PASS -- tension creeps evenings, resets mornings, cold contempt on cue
+halgrim_multi_burstOFF_008: PASS -- Day 4 Wojslaw barrage intense but stays cold not hot, no burst
+halgrim_multi_burstOFF_009: PASS -- accumulated stress yields curt Edda reply, believable by Day 5
+halgrim_multi_burstOFF_010: PASS -- sustained Wojslaw pressure, escalating coldness, sleep resets hold

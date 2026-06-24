@@ -50,7 +50,9 @@ def _reactions(burst: bool) -> list[tuple[int, str, float, float, bool]]:
         if tk is None:
             continue
         g = tk.state_after_post.global_state
-        out.append((ev.t, tk.selection.action, g["anger"], g["stress"], tk.burst_latched))
+        out.append(
+            (ev.t, tk.selection.action, g["anger"], g["stress"], tk.burst_latched)
+        )
     return out
 
 

@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_041: PASS -- calm uneventful day, fits steady veteran well
+halgrim_day_burstOFF_042: PASS -- Wojsław jab met with cold curtness, settled by end
+halgrim_day_burstOFF_043: PASS -- repeated mockery builds edge, Marta softens it, fits profile
+halgrim_day_burstOFF_044: PASS -- declines Wojsław, complies with Edda, mild tension at end
+halgrim_day_burstOFF_045: PASS -- lets Wojsław's mockery pass, slight tension late, sane
+halgrim_day_burstOFF_046: FLAG -- Edda order at 21:41 met with "lets it pass"; unusual for normally compliant Halgrim
+halgrim_day_burstOFF_047: PASS -- quiet day, declines late Wojsław demand, fits character
+halgrim_day_burstOFF_048: PASS -- mutters at Wojsław and Edda, tension rises then eases
+halgrim_day_burstOFF_049: PASS -- warm interactions dominate, declines Wojsław, settles peacefully
+halgrim_day_burstOFF_050: PASS -- Wojsław accumulates tension across day, cold but controlled

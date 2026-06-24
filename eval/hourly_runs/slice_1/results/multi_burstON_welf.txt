@@ -1,0 +1,10 @@
+welf_multi_burstON_011: PASS -- steady boredom cycle, kindness received warmly, clean sleep
+welf_multi_burstON_012: PASS -- rain tension plausible, resolves by mid-morning each time
+welf_multi_burstON_013: PASS -- late night on day 2 but not absurd, otherwise consistent
+welf_multi_burstON_014: PASS -- evening tension from boredom accumulation, resolves normally
+welf_multi_burstON_015: FLAG -- soup met with no reaction (day 1, 19:25); muted response to food unusual
+welf_multi_burstON_016: PASS -- burst under rain+mock compound stress, recovers; fits burstON
+welf_multi_burstON_017: PASS -- clean 3-day cycle, mocks ignored, morning tension resolves
+welf_multi_burstON_018: PASS -- consistent morning tension pattern, resolves with food/rest
+welf_multi_burstON_019: FLAG -- soup met with no reaction (day 4, 13:35); muted response to food unusual
+welf_multi_burstON_020: PASS -- steady 6-day run, boredom/kindness cycle intact throughout

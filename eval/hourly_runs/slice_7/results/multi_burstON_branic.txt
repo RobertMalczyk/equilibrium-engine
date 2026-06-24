@@ -1,0 +1,10 @@
+branic_multi_burstON_071: PASS -- displaced burst at Marta after days of Halgrim friction
+branic_multi_burstON_072: PASS -- escalating arc across days, defiant refusals earned
+branic_multi_burstON_073: PASS -- slow-burn three days, burst at late-evening taunt
+branic_multi_burstON_074: PASS -- day-4 refusal cluster high but within wall-hitting range
+branic_multi_burstON_075: PASS -- six-day arc with displaced burst and rain-day recovery
+branic_multi_burstON_076: PASS -- coherent multi-day build, displaced burst at Marta day 5
+branic_multi_burstON_077: PASS -- day-5 rain-plus-tension triggers displaced burst at soup
+branic_multi_burstON_078: PASS -- quiet stretch, tension accumulates but no outburst, sane
+branic_multi_burstON_079: PASS -- two snaps on day 3, late-night settle timing unusual but fine
+branic_multi_burstON_080: PASS -- kind day-1 baseline, day-2 snap earned, clean recovery arc

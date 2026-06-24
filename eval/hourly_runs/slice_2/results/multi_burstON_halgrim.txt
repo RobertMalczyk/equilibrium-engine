@@ -1,0 +1,10 @@
+halgrim_multi_burstON_021: PASS -- calm days, Day 3 Wojslaw escalation, clean reset
+halgrim_multi_burstON_022: PASS -- rain and Wojslaw friction build plausibly across 5 days
+halgrim_multi_burstON_023: PASS -- sustained grind, few reliefs, consistent tense drift
+halgrim_multi_burstON_024: PASS -- quiet run, Marta warmth, slight edge only at end
+halgrim_multi_burstON_025: FLAG -- Day 5 curt response to Marta's soup while wound tight
+halgrim_multi_burstON_026: PASS -- triple-mock Day 1 escalation, tension carries convincingly
+halgrim_multi_burstON_027: FLAG -- cold to helpful stranger immediately after Wojslaw mocks
+halgrim_multi_burstON_028: PASS -- rain days plus Wojslaw refusals, mornings reset cleanly
+halgrim_multi_burstON_029: PASS -- mild Day 1, builds through Wojslaw friction, coherent
+halgrim_multi_burstON_030: PASS -- Day 2 warmth recovery then Wojslaw re-provokes, Day 3 wound tight

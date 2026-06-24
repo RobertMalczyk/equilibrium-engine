@@ -1,0 +1,10 @@
+edda_multi_burstON_091: PASS -- steady composed castellan, proportionate curt reply to late provocation
+edda_multi_burstON_092: PASS -- escalating refusal to stranger orders across days is plausible
+edda_multi_burstON_093: PASS -- occasional compliance with strangers is borderline but not absurd
+edda_multi_burstON_094: PASS -- dense meal clustering but composure holds throughout all four days
+edda_multi_burstON_095: PASS -- curt reply to barb followed by firmer refusals is a coherent arc
+edda_multi_burstON_096: PASS -- one blank response to Marta's kindness is minor, not jarring
+edda_multi_burstON_097: PASS -- four stranger orders in day one absorbed without crack, fits profile
+edda_multi_burstON_098: PASS -- dense early-morning kindnesses unusual but composure stays intact
+edda_multi_burstON_099: PASS -- calm minimal-friction record, consistent with self-possessed castellan
+edda_multi_burstON_100: PASS -- barbed remark absorbed cleanly, days proceed at steady even keel

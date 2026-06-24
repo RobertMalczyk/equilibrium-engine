@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_041: PASS -- sane pacing, restlessness and warmth consistent throughout
+lutek_multi_burstOFF_042: PASS -- mockery rolls off, brief tensions resolve, sleep normal
+lutek_multi_burstOFF_043: PASS -- frequent soup deliveries but each warmly received, no jars
+lutek_multi_burstOFF_044: PASS -- brief morning tension after kindness clears quickly, profile fine
+lutek_multi_burstOFF_045: PASS -- tensions brief and dissipate, pacing believable across five days
+lutek_multi_burstOFF_046: PASS -- mild overnight tension plausible, resolves on waking, no rage
+lutek_multi_burstOFF_047: FLAG -- kindness met with "no notable reaction" wrong for warm Lutek
+lutek_multi_burstOFF_048: FLAG -- two kindnesses dismissed neutrally, contradicts warm easy profile
+lutek_multi_burstOFF_049: PASS -- clean six-day record, all reactions profile-consistent
+lutek_multi_burstOFF_050: PASS -- mockery deflected, tensions resolve, eating and sleep sane

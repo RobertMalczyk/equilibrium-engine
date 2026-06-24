@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_001: PASS -- flares at mocks, settles after food, sane pacing
+wojslaw_day_burstOFF_002: PASS -- erupts after warmth, plausible arc, calm end
+wojslaw_day_burstOFF_003: PASS -- two eruptions at mocks, calm stretches between
+wojslaw_day_burstOFF_004: PASS -- early fury, mid tension, late refusal when worn
+wojslaw_day_burstOFF_005: PASS -- warm morning, bristle and snap at mock, believable
+wojslaw_day_burstOFF_006: PASS -- bold refusals, erupts at public mock, fits profile
+wojslaw_day_burstOFF_007: PASS -- multiple eruptions, bristles at kindness while still heated
+wojslaw_day_burstOFF_008: PASS -- bristles at kindness right after second eruption, plausible
+wojslaw_day_burstOFF_009: PASS -- three eruptions across day, settles between, heavy but plausible
+wojslaw_day_burstOFF_010: PASS -- escalating anger, snaps early, erupts mid, refuses late

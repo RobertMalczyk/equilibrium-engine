@@ -1,0 +1,10 @@
+edda_multi_burstOFF_011: PASS -- calm authority figure, steady days, sane pacing
+edda_multi_burstOFF_012: PASS -- escalating stranger friction handled with composure, believable arc
+edda_multi_burstOFF_013: PASS -- well-fed, sociable days; authority asserted naturally
+edda_multi_burstOFF_014: PASS -- settled routine, stranger provocations absorbed without drama
+edda_multi_burstOFF_015: PASS -- mixed stranger orders handled with appropriate variance
+edda_multi_burstOFF_016: PASS -- consistent command bearing, generous social warmth, sane pacing
+edda_multi_burstOFF_017: PASS -- defiant refusals under accumulated pressure fit profile well
+edda_multi_burstOFF_018: PASS -- high-event Day 1 absorbed; sustained composure across six days
+edda_multi_burstOFF_019: PASS -- tension spike on Day 4 with recovery; credible authority push-back
+edda_multi_burstOFF_020: PASS -- light friction absorbed quietly; steady castellan across five days

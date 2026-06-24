@@ -9,8 +9,8 @@ initial_overrides: {}
 events:
 - type: insult
   t: 19
-  source: marta
-  intensity: 0.937
+  source: player
+  intensity: 0.892
   context:
     public: true
 - type: help
@@ -45,16 +45,16 @@ events:
     public: false
 - type: insult
   t: 262
-  source: marta
+  source: player
   intensity: 0.675
   context:
     public: true
 - type: insult
   t: 295
   source: player
-  intensity: 0.59
+  intensity: 0.241
   context:
-    public: false
+    public: true
 - type: command
   t: 389
   source: player

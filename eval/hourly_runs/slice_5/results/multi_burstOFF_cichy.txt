@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_051: PASS -- sane arc, outbursts triggered, rain adds tension correctly
+cichy_multi_burstOFF_052: PASS -- early outburst plausible, stranger warmth consistent
+cichy_multi_burstOFF_053: PASS -- rapid escalation on Day 6 morning sequence is believable
+cichy_multi_burstOFF_054: PASS -- late-night outburst then sleep slightly abrupt but acceptable
+cichy_multi_burstOFF_055: PASS -- morning tension after late-night outburst plausible carry-over
+cichy_multi_burstOFF_056: PASS -- two kindnesses in 18 min minor, overall rhythm holds
+cichy_multi_burstOFF_057: PASS -- two outbursts on Day 3 each triggered, de-escalation sane
+cichy_multi_burstOFF_058: PASS -- rapid de-escalation after morning snap acceptable
+cichy_multi_burstOFF_059: PASS -- calm Day 2 with tense afternoon, Day 3 dual outbursts triggered
+cichy_multi_burstOFF_060: FLAG -- Day 2 guard-mock "lets it pass" contradicts profile; 7 mockings in 5h implausible

@@ -68,13 +68,23 @@ def vent_response(persona: str, scenario_id: str) -> dict:
 # (scenario, persona, must_vent) — persona is informational (shared initial_overrides); wojslaw = the
 # free-to-vent reference used by the other burst benchmarks.
 CASES = [
-    ("ordinary_pair", "wojslaw", False),  # (1) single/ordinary load -> vent stays SILENT
-    ("bad_day_stack", "wojslaw", True),  # (2) >=3-way coincidence -> vent FIRES and self-terminates
+    (
+        "ordinary_pair",
+        "wojslaw",
+        False,
+    ),  # (1) single/ordinary load -> vent stays SILENT
+    (
+        "bad_day_stack",
+        "wojslaw",
+        True,
+    ),  # (2) >=3-way coincidence -> vent FIRES and self-terminates
 ]
 
 
 def main() -> None:
-    print("Reframed vent acceptance (silent on single loads; fires+bounds on a coincidence):\n")
+    print(
+        "Reframed vent acceptance (silent on single loads; fires+bounds on a coincidence):\n"
+    )
     all_ok = True
     for sid, persona, must_vent in CASES:
         r = vent_response(persona, sid)
@@ -83,7 +93,9 @@ def main() -> None:
             verdict = "vent FIRES + self-terminates" if ok else "FAILED to fire/release"
         else:
             ok = not r["armed"]
-            verdict = "vent SILENT (ordinary load stays bounded)" if ok else "WRONGLY VENTED"
+            verdict = (
+                "vent SILENT (ordinary load stays bounded)" if ok else "WRONGLY VENTED"
+            )
         all_ok = all_ok and ok
         print(
             f"  [{'PASS' if ok else 'FAIL'}] {sid:14} armed={r['armed']!s:5} "

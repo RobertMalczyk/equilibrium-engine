@@ -1,0 +1,10 @@
+wojslaw_multi_burstON_011: PASS -- sane pacing, erupts at public mock, recovers well
+wojslaw_multi_burstON_012: PASS -- escalating days, sustained temper, consistent profile
+wojslaw_multi_burstON_013: PASS -- heavy Day 4 bombardment, seething coherent, wakes calm
+wojslaw_multi_burstON_014: PASS -- dense provocations, high eruption rate plausibly earned
+wojslaw_multi_burstON_015: PASS -- intense Day 4, calmer Day 5 recovery arc believable
+wojslaw_multi_burstON_016: PASS -- five eruptions on Day 4, pacing and recovery hold
+wojslaw_multi_burstON_017: FLAG -- Day 3 18:05 mutters complaint at a kindness, jarring
+wojslaw_multi_burstON_018: PASS -- heavy Day 1, gradual decay, consistent throughout
+wojslaw_multi_burstON_019: PASS -- calm opening days, escalation on Day 3-4 plausible
+wojslaw_multi_burstON_020: PASS -- two early eruptions, sustained tension, good recovery arc

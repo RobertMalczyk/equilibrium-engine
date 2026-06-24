@@ -1,0 +1,10 @@
+edda_multi_burstOFF_071: PASS -- calm three days, sane pacing, authority intact
+edda_multi_burstOFF_072: PASS -- four days steady, mocks ignored, positive arc
+edda_multi_burstOFF_073: PASS -- five days, dense kindnesses but pacing holds
+edda_multi_burstOFF_074: PASS -- mild Day 3 irritation from mocks, believable recovery
+edda_multi_burstOFF_075: PASS -- calm baseline, provocation brushed off throughout
+edda_multi_burstOFF_076: PASS -- Day 3 refusals build under repeated stranger demands
+edda_multi_burstOFF_077: PASS -- four quiet days, regular meals, no issues
+edda_multi_burstOFF_078: PASS -- five days calm, stranger orders let pass
+edda_multi_burstOFF_079: PASS -- complaint on Day 3 fits low-level irritation, settles
+edda_multi_burstOFF_080: PASS -- dense early kindnesses but no absurdity, mocks ignored

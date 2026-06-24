@@ -1,0 +1,10 @@
+cichy_multi_burstON_021: PASS -- settled mornings, tense afternoons, snaps at mocks, sane pacing
+cichy_multi_burstON_022: PASS -- escalation under repeated mocks, sleep resets, stranger warmth fine
+cichy_multi_burstON_023: PASS -- two Day1 snaps, Day3 full eruption after buildup, recovery believable
+cichy_multi_burstON_024: PASS -- back-to-back mocks trigger escalation to fury, pacing sane
+cichy_multi_burstON_025: PASS -- repeated mocks met curtly, wound tight Day3, sleep resets
+cichy_multi_burstON_026: PASS -- morning snap Day3, wound tight Day4, consistent recovery after sleep
+cichy_multi_burstON_027: PASS -- two Day1 eruptions, late-night burst Day5 then quick settle, fits
+cichy_multi_burstON_028: PASS -- long tense stretches, no outburst every day, steady captive pattern
+cichy_multi_burstON_029: PASS -- morning eruption, escalating coldness under pressure, tense close
+cichy_multi_burstON_030: PASS -- Day3 burst then guarded, stranger warmth brief under background resentment

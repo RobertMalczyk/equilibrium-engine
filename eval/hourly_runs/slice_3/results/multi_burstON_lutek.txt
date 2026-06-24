@@ -1,0 +1,10 @@
+lutek_multi_burstON_031: PASS -- sane pacing, warmth to food/kindness, mockery rolls off
+lutek_multi_burstON_032: PASS -- one muted kindness-response plausible; overall coherent
+lutek_multi_burstON_033: PASS -- late sleep and evening tension without resolution, believable
+lutek_multi_burstON_034: PASS -- past-midnight stretches fit restless poet; affect plausible
+lutek_multi_burstON_035: PASS -- morning tension clears with care; day 4 ends tense, fine
+lutek_multi_burstON_036: PASS -- calm days, rests and feeds well, no contradictions
+lutek_multi_burstON_037: PASS -- near-sleep kindness non-response minor; late night fits profile
+lutek_multi_burstON_038: PASS -- two past-midnight stretches and mockery-shrugs fit character
+lutek_multi_burstON_039: FLAG -- curt cold answer to taunt; profile says mockery rolls off
+lutek_multi_burstON_040: PASS -- multiple public mockeries shrugged off; days sane throughout

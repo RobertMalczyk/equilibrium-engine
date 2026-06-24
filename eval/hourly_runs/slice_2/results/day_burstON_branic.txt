@@ -1,0 +1,10 @@
+branic_day_burstON_021: PASS -- Steady day, tension builds late, sleeps and resets fine.
+branic_day_burstON_022: PASS -- Calm well-supported day, no jarring moments, clean sleep.
+branic_day_burstON_023: PASS -- Mild tension arc in evening, soup softens it, sound pacing.
+branic_day_burstON_024: PASS -- Multiple kindnesses keep him settled all day, plausible.
+branic_day_burstON_025: FLAG -- Erupts at stranger's kindness while tense; displaced outburst plausible but jarring target.
+branic_day_burstON_026: PASS -- Marta-heavy support holds temper even under Halgrim's jabs.
+branic_day_burstON_027: PASS -- Quiet day, mild evening tension, wakes easy; coherent.
+branic_day_burstON_028: PASS -- Many Halgrim orders ignored without reaction; ends tense but not absurd.
+branic_day_burstON_029: PASS -- Two public jabs let pass; evening tension without explosion, fine.
+branic_day_burstON_030: PASS -- Bristles at public mock when already tense; soup calms; believable arc.

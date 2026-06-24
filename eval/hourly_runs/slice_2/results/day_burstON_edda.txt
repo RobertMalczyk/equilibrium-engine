@@ -1,0 +1,10 @@
+edda_day_burstON_021: PASS -- settled day, muted complaint at stranger's order fits composed authority
+edda_day_burstON_022: PASS -- calm day, warm responses, stranger's order brushed off appropriately
+edda_day_burstON_023: PASS -- quiet day, two provocations ignored, fits composed self-possessed profile
+edda_day_burstON_024: PASS -- refusal to stranger's order fits castellan authority; day sane
+edda_day_burstON_025: PASS -- well-paced, warm to kindnesses, ends with command; sane
+edda_day_burstON_026: PASS -- mocks ignored, orders let pass, composed throughout; fits profile
+edda_day_burstON_027: PASS -- refusal mid-day plausible; mocks ignored; settled overall; sane
+edda_day_burstON_028: PASS -- complies with stranger once, otherwise settled; no jars
+edda_day_burstON_029: PASS -- warmly social day, ends in command; pacing sane
+edda_day_burstON_030: PASS -- quiet orderly day, warm to Marta, ends in authority; sane

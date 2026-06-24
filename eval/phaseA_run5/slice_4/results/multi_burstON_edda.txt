@@ -1,0 +1,10 @@
+edda_multi_burstON_041: PASS -- settled castellan, sane pacing, appropriate deference
+edda_multi_burstON_042: PASS -- four days stable, minor meal clustering unremarkable
+edda_multi_burstON_043: PASS -- calm days, kindnesses returned warmly, no jarring notes
+edda_multi_burstON_044: PASS -- five well-fed pleasant days, proportionate warm responses
+edda_multi_burstON_045: PASS -- accumulated orders produce mild grumbles, believable wear
+edda_multi_burstON_046: PASS -- three settled days, routine command and composure
+edda_multi_burstON_047: PASS -- public mockery triggers brief tension, recovers within hours
+edda_multi_burstON_048: PASS -- five days, active kindnesses, all responses proportionate
+edda_multi_burstON_049: PASS -- four days, quiet and steady, sane meals and rest
+edda_multi_burstON_050: PASS -- triple mockery burst then recovery arc, wakes calm

@@ -1,0 +1,10 @@
+welf_multi_burstON_011: PASS -- steady composure, sane boredom cycles, barb brushed off
+welf_multi_burstON_012: PASS -- rain-watch tension resolves; multi-day rhythm holds
+welf_multi_burstON_013: PASS -- late sleep day 2-3 boundary plausible; boredom pattern fine
+welf_multi_burstON_014: PASS -- dense evening kindnesses but warm responses fit the man
+welf_multi_burstON_015: PASS -- rain days handled evenly; late-day tension is boredom not anger
+welf_multi_burstON_016: PASS -- burst snap under rain and accumulated strain; resolves by midday
+welf_multi_burstON_017: PASS -- clean three days; barb let pass while tense, consistent
+welf_multi_burstON_018: PASS -- four days of normal boredom cycling; mocks brushed off
+welf_multi_burstON_019: FLAG -- "earlier temper" lingers day 3 night with no visible trigger
+welf_multi_burstON_020: PASS -- six days steady; evening barbs let pass without reaction

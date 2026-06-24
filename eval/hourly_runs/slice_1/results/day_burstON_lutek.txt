@@ -1,0 +1,10 @@
+lutek_day_burstON_011: PASS -- restless cycle, mock rolls off, mild evening tension, sleeps fine
+lutek_day_burstON_012: PASS -- steady rhythm, three meals, tension briefly at end, wakes settled
+lutek_day_burstON_013: PASS -- boredom-seeking loop, evening tension eased by soup, sane pacing
+lutek_day_burstON_014: PASS -- two soups early, active day, no tension spikes, wakes calm
+lutek_day_burstON_015: PASS -- mock ignored, tension eased by Marta, late sleep fine for a poet
+lutek_day_burstON_016: PASS -- public mock shrugged off, mild evening tension, wakes fresh
+lutek_day_burstON_017: PASS -- mock ignored, tension mid-evening eased by Marta, late sleep credible
+lutek_day_burstON_018: PASS -- unusually sociable day, many kindnesses, no tension, sane and warm
+lutek_day_burstON_019: PASS -- mild boredom loop, late-evening tension, very late sleep fits the type
+lutek_day_burstON_020: PASS -- gentle day, tension only at close, wakes settled

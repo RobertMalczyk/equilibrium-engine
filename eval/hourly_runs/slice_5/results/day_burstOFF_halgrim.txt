@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_051: PASS -- curt late reply to mock fits buttoned-down profile
+halgrim_day_burstOFF_052: PASS -- steady day, Wojslaw ignored, Edda obeyed, warmth to Marta
+halgrim_day_burstOFF_053: PASS -- quiet uneventful day, consistent throughout
+halgrim_day_burstOFF_054: PASS -- mixed reactions plausible for accumulated low-level friction
+halgrim_day_burstOFF_055: FLAG -- mutters complaint at respected Edda, jars with disciplined profile
+halgrim_day_burstOFF_056: PASS -- declines Wojslaw, obeys Edda, consistent pattern
+halgrim_day_burstOFF_057: PASS -- flat response to Marta's soup explained by tension from mocks
+halgrim_day_burstOFF_058: PASS -- mild non-compliance with Edda early, curt to Wojslaw late
+halgrim_day_burstOFF_059: PASS -- multiple Edda orders obeyed, Wojslaw curtly rebuffed late
+halgrim_day_burstOFF_060: PASS -- five Edda orders obeyed, public Wojslaw mock answered coldly

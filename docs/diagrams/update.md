@@ -10,6 +10,13 @@
 > - **No clamp here.** `update` emits a raw additive `delta = new − old`; clamping happens at commit
 >   (tick step 5), not inside this member.
 > - **Sparse, declared wiring.** Only the listed coupling edges exist; everything else = 0 (neutral default).
+> - **Continuous-time discretization (spec §2.1).** This member consumes ready *per-tick* coefficients;
+>   all `Ts`-conversion happens in the loader. Per term: the leak `decay·old + (1−decay)·setpoint` is the
+>   **exact** leak (`decay = 2^(−Ts/τ)`); `drifts`, `couplings`, `burst_extinction`, `idle_recovery`, and
+>   per-tick action effects are **continuous rates** (loader supplies `rate_per_second · Ts`); event-channel
+>   gains are **impulses** (invariant, applied once); `k_esc`/thresholds/clamps are **dimensionless**
+>   (invariant). So `dt` is a resolution knob: change it and these terms still represent the same real-time
+>   dynamics (leak exact; rate terms Euler, `O(Ts)`).
 
 ## Member inputs / outputs
 

@@ -1,0 +1,10 @@
+branic_day_burstOFF_081: PASS -- sane pacing, boredom cycles, sleeps on time, wakes recovered
+branic_day_burstOFF_082: PASS -- mocks absorbed without escalation early, bristles late; believable arc
+branic_day_burstOFF_083: PASS -- quiet day, restless cycles, no jarring moments, normal sleep
+branic_day_burstOFF_084: PASS -- repeated mocks accumulate; snaps once at evening; recovers by sleep
+branic_day_burstOFF_085: PASS -- Marta warmth buffers Halgrim barb; lukewarm to Halgrim kindness plausible
+branic_day_burstOFF_086: PASS -- late snap after good day; tense before sleep; wakes settled
+branic_day_burstOFF_087: PASS -- well-supported day, kindnesses stack, ends settled; no jarring moments
+branic_day_burstOFF_088: PASS -- double soup early slightly odd but harmless; calm day overall
+branic_day_burstOFF_089: FLAG -- orders ignored twice mid-day with no reaction; odd for eager recruit
+branic_day_burstOFF_090: PASS -- ignores one public mock without reaction; tense at end, sane arc

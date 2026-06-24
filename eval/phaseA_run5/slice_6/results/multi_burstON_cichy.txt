@@ -1,0 +1,10 @@
+cichy_multi_burstON_061: PASS -- steady grind, outbursts on provocation, sleep resets
+cichy_multi_burstON_062: PASS -- rain days raise baseline, eruption on repeated mocks
+cichy_multi_burstON_063: PASS -- morning eruption plausible after rest, stranger warmth fits
+cichy_multi_burstON_064: FLAG -- Day 4 "still hasn't shaken off" with no same-day prior spike
+cichy_multi_burstON_065: PASS -- burst on second consecutive mock, curtness otherwise consistent
+cichy_multi_burstON_066: PASS -- burst then de-escalation pattern credible for captive
+cichy_multi_burstON_067: PASS -- Day 6 rain-morning eruption well-motivated, recovery by night
+cichy_multi_burstON_068: FLAG -- Day 5 guard mock "lets it pass, no reaction" contradicts profile
+cichy_multi_burstON_069: PASS -- afternoon escalation ladder and late eruption all coherent
+cichy_multi_burstON_070: PASS -- double soup delivery odd but character behaviour remains consistent

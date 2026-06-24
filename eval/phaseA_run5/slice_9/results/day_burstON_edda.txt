@@ -1,0 +1,10 @@
+edda_day_burstON_091: PASS -- settled day, warm to kindness, composed under orders
+edda_day_burstON_092: PASS -- sane pacing, mild complaint at stranger order fits profile
+edda_day_burstON_093: PASS -- calm day, consistent warmth to staff, nothing jars
+edda_day_burstON_094: PASS -- composed through two barbed remarks, fits her self-possession
+edda_day_burstON_095: PASS -- brief tension after mock resolves quickly, credible arc
+edda_day_burstON_096: PASS -- well-supported day, steady and settled throughout
+edda_day_burstON_097: PASS -- quiet day, warm to helpers, no anomalies
+edda_day_burstON_098: PASS -- ignores late mock, stays settled, sane pacing
+edda_day_burstON_099: PASS -- two mocks, brief edge, recovers; fits composed authority figure
+edda_day_burstON_100: PASS -- double rest at 13:41/13:51 minor, overall day coherent

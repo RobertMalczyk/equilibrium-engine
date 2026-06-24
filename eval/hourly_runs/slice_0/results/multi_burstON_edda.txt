@@ -1,0 +1,10 @@
+edda_multi_burstON_001: PASS -- settled routine, authority intact, sane pacing
+edda_multi_burstON_002: PASS -- grumble and composure both fit; clean arc
+edda_multi_burstON_003: PASS -- calm days, regular meals and rest, no jarring notes
+edda_multi_burstON_004: PASS -- two orders in four minutes odd but not broken
+edda_multi_burstON_005: PASS -- authority exercised, warmth steady, pacing believable
+edda_multi_burstON_006: PASS -- mild grumble then warmth; composed under mocks; sane
+edda_multi_burstON_007: PASS -- two mocks let pass fits profile; variable compliance plausible
+edda_multi_burstON_008: PASS -- four soups dense but not broken; curt reply believable
+edda_multi_burstON_009: PASS -- two rests and kindness cluster dense but not absurd
+edda_multi_burstON_010: PASS -- very quiet stretch, composed throughout, nothing wrong

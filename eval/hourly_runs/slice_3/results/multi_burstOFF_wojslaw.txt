@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_031: PASS -- sane arc, public mocks trigger fury, sleep resets well
+wojslaw_multi_burstOFF_032: PASS -- heavy Day 2-3 provocation earns repeated outbursts, recovery holds
+wojslaw_multi_burstOFF_033: PASS -- Day 3 kindness-eruption plausible under high residual anger
+wojslaw_multi_burstOFF_034: PASS -- calm Day 3 after sustained kindness is credible recovery
+wojslaw_multi_burstOFF_035: PASS -- prolonged warmth on Day 2 earned by unbroken kindness streak
+wojslaw_multi_burstOFF_036: PASS -- warm Day 1 baseline shifts under Day 3 mockery escalation
+wojslaw_multi_burstOFF_037: PASS -- Marta's sustained warmth keeps temper low, mocks still bite
+wojslaw_multi_burstOFF_038: PASS -- consistently positive input holds temper down across all days
+wojslaw_multi_burstOFF_039: PASS -- Day 2 public mocks escalate correctly, Day 3 recovers well
+wojslaw_multi_burstOFF_040: PASS -- Day 5 rapid outburst cluster slightly mechanical but tolerable

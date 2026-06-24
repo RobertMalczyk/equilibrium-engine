@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_091: PASS -- credible 4-day rhythm, guard resentment consistent throughout
+cichy_multi_burstOFF_092: PASS -- sleep resets hold, fury events each tied to discrete provocations
+cichy_multi_burstOFF_093: PASS -- heavy Day 5 provocation load but each event individually grounded
+cichy_multi_burstOFF_094: PASS -- abrupt at-ease-to-fury transition plausible for quick-to-bridle captive
+cichy_multi_burstOFF_095: PASS -- four Day 2 fury eruptions heavy but each guard mock is discrete
+cichy_multi_burstOFF_096: PASS -- late-night escalation and Day 5 repeated eruptions consistent
+cichy_multi_burstOFF_097: PASS -- soup-provoked snap credible given prior tension, pacing sound
+cichy_multi_burstOFF_098: PASS -- solid multi-day rhythm, stranger kindness contrast works
+cichy_multi_burstOFF_099: FLAG -- fury at 12:07 followed by "settled at ease" six minutes later
+cichy_multi_burstOFF_100: PASS -- long tense stretch without food plausible, pacing otherwise sane

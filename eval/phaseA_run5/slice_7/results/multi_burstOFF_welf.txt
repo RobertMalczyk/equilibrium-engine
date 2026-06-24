@@ -1,0 +1,10 @@
+welf_multi_burstOFF_071: PASS -- steady days, lets mockery pass, sleeps well
+welf_multi_burstOFF_072: PASS -- composed across rain days, routine idleness cycling
+welf_multi_burstOFF_073: PASS -- two mocks absorbed calmly, evening tension plausible
+welf_multi_burstOFF_074: PASS -- rain and mockery both taken in stride
+welf_multi_burstOFF_075: PASS -- smooth days, kindnesses received warmly, no jars
+welf_multi_burstOFF_076: PASS -- rain days handled, mock ignored, morning edge plausible
+welf_multi_burstOFF_077: PASS -- double mock on Day 1, no blow-up, fits profile
+welf_multi_burstOFF_078: PASS -- clean rhythm, boredom-tension cycles believable
+welf_multi_burstOFF_079: PASS -- late sleep Day 3 fine, accumulated edge resolves overnight
+welf_multi_burstOFF_080: PASS -- tidy three days, mock handled calmly at end

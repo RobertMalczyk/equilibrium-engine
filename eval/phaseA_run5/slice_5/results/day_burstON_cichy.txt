@@ -1,0 +1,10 @@
+cichy_day_burstON_051: PASS -- tense afternoon after mockery, settles by sleep
+cichy_day_burstON_052: PASS -- curt responses to soup after mockery, pacing believable
+cichy_day_burstON_053: PASS -- mockery at 17:22 leaves lingering edge, sane arc
+cichy_day_burstON_054: PASS -- repeated mockery accumulates, sustained tension plausible
+cichy_day_burstON_055: PASS -- warm to stranger but curt to guard, distinction holds
+cichy_day_burstON_056: FLAG -- two soups within 36 minutes morning, unusual feeding cadence
+cichy_day_burstON_057: PASS -- tension held through day, eases by late evening
+cichy_day_burstON_058: PASS -- warm to stranger at 22:04 while still tense, fits profile
+cichy_day_burstON_059: PASS -- burst-snap at 15:24 after cumulative mockery, then fades
+cichy_day_burstON_060: PASS -- muted kindness response to stranger, guard still gets curt

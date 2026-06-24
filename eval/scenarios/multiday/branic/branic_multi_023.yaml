@@ -109,7 +109,7 @@ events:
   intensity: 1.0
 - type: help
   t: 776
-  source: marta
+  source: player
   intensity: 0.603
   context: {}
 - type: food_given

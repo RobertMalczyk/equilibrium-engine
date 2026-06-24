@@ -62,7 +62,7 @@ events:
 - type: insult
   t: 341
   source: player
-  intensity: 0.648
+  intensity: 0.662
   context:
     public: false
 - type: help
@@ -79,9 +79,9 @@ events:
 - type: insult
   t: 409
   source: player
-  intensity: 1.0
+  intensity: 0.816
   context:
-    public: false
+    public: true
 - type: help
   t: 422
   source: marta
@@ -95,7 +95,7 @@ events:
 - type: insult
   t: 438
   source: player
-  intensity: 0.384
+  intensity: 0.388
   context:
     public: false
 - type: command

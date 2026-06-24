@@ -38,7 +38,7 @@ events:
     public: false
 - type: help
   t: 182
-  source: marta
+  source: player
   intensity: 0.689
   context: {}
 - type: insult
@@ -76,7 +76,7 @@ events:
   intensity: 1.0
 - type: help
   t: 720
-  source: marta
+  source: player
   intensity: 0.428
   context: {}
 - type: weather
@@ -180,7 +180,7 @@ events:
     public: false
 - type: help
   t: 1500
-  source: halgrim
+  source: marta
   intensity: 0.904
   context: {}
 - type: help
@@ -304,7 +304,7 @@ events:
     has_authority: true
 - type: help
   t: 3174
-  source: halgrim
+  source: marta
   intensity: 0.499
   context: {}
 - type: help

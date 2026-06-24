@@ -1,0 +1,10 @@
+edda_multi_burstON_061: PASS -- calm authority, mild friction handled well across four days
+edda_multi_burstON_062: PASS -- settled and positive, minimal friction, no jarring moments
+edda_multi_burstON_063: PASS -- six days believable, quieter days five and six plausible
+edda_multi_burstON_064: PASS -- busy with kindnesses, brief curtness to public mock fits
+edda_multi_burstON_065: PASS -- early mutter to repeated orders within tolerable range
+edda_multi_burstON_066: PASS -- flat refusal to impertinent stranger fits castellan authority
+edda_multi_burstON_067: PASS -- ignores three mocks in day six, composed throughout
+edda_multi_burstON_068: FLAG -- kindness met with "lets it pass" Day 4; cold response to help
+edda_multi_burstON_069: FLAG -- kindness met with "lets it pass" Day 4; flat to offered help
+edda_multi_burstON_070: PASS -- six days well-paced, settled, appropriate reactions throughout

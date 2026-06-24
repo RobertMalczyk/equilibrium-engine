@@ -1,0 +1,10 @@
+branic_day_burstOFF_031: PASS -- calm day, mock late builds edge, plausible arc
+branic_day_burstOFF_032: PASS -- settled routine, mocks absorbed, no jarring moments
+branic_day_burstOFF_033: PASS -- good pacing, kindnesses balance barbs, tense at night fine
+branic_day_burstOFF_034: PASS -- well-fed, plenty of kindnesses, evening tension plausible
+branic_day_burstOFF_035: PASS -- two mocks absorbed quietly, evening edge fits profile
+branic_day_burstOFF_036: FLAG -- no orders or tasks all day; very passive for an eager recruit
+branic_day_burstOFF_037: PASS -- accumulated mocks drive fury and refusal, believable escalation
+branic_day_burstOFF_038: PASS -- calm orderly day, kindness from Marta, no issues
+branic_day_burstOFF_039: FLAG -- Halgrim kindness brushed off while still tense; muted cold-shoulder odd
+branic_day_burstOFF_040: FLAG -- Halgrim kindness again met with no reaction; pattern feels flat

@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_061: PASS -- sane escalation and recovery across six days
+wojslaw_multi_burstOFF_062: PASS -- heavy Day 2 provocation, sleep resets hold
+wojslaw_multi_burstOFF_063: PASS -- eruptions fit provocations, pacing believable
+wojslaw_multi_burstOFF_064: PASS -- warm Day 2 with one justified eruption, sane
+wojslaw_multi_burstOFF_065: PASS -- escalating anger across provocations, decays overnight
+wojslaw_multi_burstOFF_066: PASS -- alternating tense and calm days, plausible rhythm
+wojslaw_multi_burstOFF_067: PASS -- three evening eruptions fit heavy provocation day
+wojslaw_multi_burstOFF_068: PASS -- Day 1 heavy, sleep resets, sane multi-day arc
+wojslaw_multi_burstOFF_069: PASS -- Day 5 soup-snap fits rage state, Day 6 calm earned
+wojslaw_multi_burstOFF_070: PASS -- quiet days without provocations, no jarring contradiction

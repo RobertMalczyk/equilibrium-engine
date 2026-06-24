@@ -1,0 +1,10 @@
+branic_day_burstOFF_091: PASS -- restless recruit, obedient day, evening snap plausible
+branic_day_burstOFF_092: PASS -- calm day, mild tension building, settles naturally
+branic_day_burstOFF_093: PASS -- busy cooperative day, evening goodwill, sane pacing
+branic_day_burstOFF_094: PASS -- quiet day, mild evening edge, late sleep unremarkable
+branic_day_burstOFF_095: PASS -- mock at 22:00 triggers eruption then refusal, plausible
+branic_day_burstOFF_096: PASS -- steady day, evening tension, late sleep acceptable
+branic_day_burstOFF_097: PASS -- two mocks absorbed, third finally snaps him, then defiance
+branic_day_burstOFF_098: PASS -- even-keeled day, obedient throughout, clean rhythm
+branic_day_burstOFF_099: FLAG -- ignores first order at 06:40 with no prior provocation
+branic_day_burstOFF_100: PASS -- mocks accumulate, bristles, then refuses orders, coherent arc

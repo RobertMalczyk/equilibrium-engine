@@ -1,0 +1,10 @@
+lutek_day_burstOFF_081: PASS -- active day, restless rhythm, sleeps late but fine
+lutek_day_burstOFF_082: PASS -- good pacing, mild edge at night, wakes recovered
+lutek_day_burstOFF_083: PASS -- mockery rolls off, warm responses, sane arc
+lutek_day_burstOFF_084: PASS -- busy sociable day, settled at night, clean sleep
+lutek_day_burstOFF_085: PASS -- tense at 20:00 resolved by soup, fits profile
+lutek_day_burstOFF_086: PASS -- many kindnesses, mild evening edge, sleeps late fine
+lutek_day_burstOFF_087: PASS -- mockery ignored twice, tense late, wakes easy
+lutek_day_burstOFF_088: PASS -- active tinkerer, late sleeper, no jarring moments
+lutek_day_burstOFF_089: FLAG -- kindness at 21:23 gets "lets it pass" not warmth
+lutek_day_burstOFF_090: PASS -- mock ignored, tense mid-afternoon, resolves cleanly

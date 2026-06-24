@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_081: PASS -- sane 5-day rhythm, mocks roll off, sleeps clean
+lutek_multi_burstOFF_082: PASS -- late night Day 1 fine for restless poet, recovers well
+lutek_multi_burstOFF_083: PASS -- two soups close together odd but not absurd
+lutek_multi_burstOFF_084: PASS -- mild evening tension resolves, pacing believable
+lutek_multi_burstOFF_085: PASS -- occasional flat response to soup plausible when sated
+lutek_multi_burstOFF_086: PASS -- recurring morning tension after early work, resolves each time
+lutek_multi_burstOFF_087: PASS -- early-morning tension pattern repeated but each day has cause
+lutek_multi_burstOFF_088: PASS -- three-day morning tension mechanical but each follows early work
+lutek_multi_burstOFF_089: PASS -- late-evening tension clusters follow work without food, sane
+lutek_multi_burstOFF_090: PASS -- clean rhythm, tension always work-triggered and resolves

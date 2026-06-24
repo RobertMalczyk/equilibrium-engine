@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_051: PASS -- sane pacing, proud refusal and quick recovery fit
+wojslaw_day_burstOFF_052: PASS -- two furies with calm between, fits short-temper profile
+wojslaw_day_burstOFF_053: PASS -- escalating insults, fury, then mood recovery on kindness
+wojslaw_day_burstOFF_054: PASS -- buffered by kindness, pride still hair-trigger on insults
+wojslaw_day_burstOFF_055: PASS -- repeated furies plausible; flat soup reactions post-episode acceptable
+wojslaw_day_burstOFF_056: PASS -- variable tolerance then fury on mockery after kindness fits
+wojslaw_day_burstOFF_057: FLAG -- two soup deliveries two minutes apart (07:10, 07:12) mechanical glitch
+wojslaw_day_burstOFF_058: PASS -- quiet day, evening fury and defiant refusal fit profile
+wojslaw_day_burstOFF_059: PASS -- kindness-heavy day suppresses fury; one bristle only, believable
+wojslaw_day_burstOFF_060: PASS -- morning fury, midday warmth, late-night snaps fit proud man

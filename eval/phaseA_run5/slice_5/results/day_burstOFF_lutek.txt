@@ -1,0 +1,10 @@
+lutek_day_burstOFF_051: PASS -- active curious day, insults roll off, sane pacing
+lutek_day_burstOFF_052: PASS -- mild tension at 20:00 resolves naturally, fits profile
+lutek_day_burstOFF_053: PASS -- steady restless-then-busy cycle, kindnesses received warmly
+lutek_day_burstOFF_054: PASS -- multiple mockeries ignored, sane rhythm throughout
+lutek_day_burstOFF_055: PASS -- quiet day, settled pacing, insult at midnight ignored
+lutek_day_burstOFF_056: PASS -- sleeps past midnight, two soups close together but sane
+lutek_day_burstOFF_057: PASS -- sleeps past midnight, warm active day, no issues
+lutek_day_burstOFF_058: PASS -- brief tension at 20:00, resolves, wakes settled next day
+lutek_day_burstOFF_059: PASS -- slight tension at 18:00 resolves by 20:00, fits profile
+lutek_day_burstOFF_060: PASS -- tension at 20:00 after two mockeries, resolves with kindness
