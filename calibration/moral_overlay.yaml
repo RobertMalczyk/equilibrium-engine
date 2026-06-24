@@ -22,9 +22,11 @@ half_lives:
 gains:
   guilt:
     wrongdoing: 0.30      # finite guilt deposit per wrongdoing cue; SCALED by guilt_proneness below. PLACEHOLDER.
+    false_accusation_discovered: 0.30  # M-J.3.3: REMORSE when one's own false accusation is exposed; SCALED by guilt_proneness. PLACEHOLDER.
   exposure_anxiety:
     probe: 0.05           # being questioned raises exposure anxiety (slow build, not saturating). PLACEHOLDER.
     suspicion_cue: 0.08   # M-J.3: being SUSPECTED (not yet accused) raises exposure pressure -- feeling watched. PLACEHOLDER.
+    false_accusation_discovered: 0.10  # M-J.3.3: being exposed as a FALSE accuser is itself exposing. PLACEHOLDER.
   frustration:
     probe: 0.01           # tiny interrogation pressure -- the sourced provocation that OPENS the reply window
                           # (so confess/remain_silent can be selected). Small enough never to fire complain/
@@ -52,6 +54,10 @@ gain_modulators:
       trait: guilt_proneness
       ref: 1.0
       k: 1.0              # mod = max(0, 1+(gp-1)) = gp -> a guilt-prone persona feels the wrong more; gp=0 -> none
+    false_accusation_discovered:
+      trait: guilt_proneness
+      ref: 1.0
+      k: 1.0              # M-J.3.3: same gate -> a guilt-prone accuser feels remorse on exposure; a callous one doesn't
   exposure_anxiety:
     probe:
       trait: gossip_tendency

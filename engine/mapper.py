@@ -184,6 +184,21 @@ def map_event(
         )
         return out
 
+    if event.type == "false_accusation_discovered":
+        # M-J.3.3 moral cue (accuser side): the persona's OWN false accusation has been exposed. SELF channel
+        # (no source) -- the REALIZATION lands as guilt (scaled in config by guilt_proneness: a guilt-prone
+        # accuser feels remorse, a callous one barely does) and exposure_anxiety (being seen as a false
+        # accuser). A finite single-tick deposit, NOT a Dirac spike. The crowd-turning half (witnesses now
+        # suspecting the accuser) arrives as simultaneous `suspicion_raised` events on the same tick (M-MEM
+        # fan-out), not here. Inert unless the moral overlay supplies its gains.
+        out["false_accusation_discovered"] = SemanticInput(
+            name="false_accusation_discovered",
+            value=event.intensity,
+            cls=InputClass.SELF,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
     if event.type == "probe":
         # M-J.0 moral cue: being questioned / accused by SOMEONE (source = the questioner). It deposits
         # EXPOSURE_ANXIETY (afraid of being revealed) and a little frustration (interrogation pressure) --

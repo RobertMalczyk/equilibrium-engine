@@ -655,9 +655,19 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
    truth ("looks suspicious from avoidance without being guilty"; spec §3). `false_accusation` is wired as
    the same accused-side `accusation` channel (vocab alias). NOTE: the diagram's `exposure_anxiety→
    avoidance_drive` edge is realized as a trait-gated cue GAIN, not a standing coupling (couplings can't be
-   trait-modulated; an always-on edge would fire `avoid` in the probe litmus). **STILL DEFERRED (needs
-   M-MEM, R7):** `false_accusation`'s accuser-after-discovery guilt and multi-agent witness fan-out;
-   `blame_shift` is a `lie_type` for the M-J.4 ledger, not an accusation event.
+   trait-modulated; an always-on edge would fire `avoid` in the probe litmus).
+   M-J.3.3 WITNESS FAN-OUT + FALSE-ACCUSATION DISCOVERY — ✅ IMPLEMENTED on **M-MEM** (the R7 unblock;
+   `tests/test_moral_witness_fanout.py`, `data/scenarios/moral_public_accusation.yaml`,
+   `moral_false_accusation_discovered.yaml`):
+   - **Public-accusation fan-out (accused side).** A public charge lands as ONE M-MEM tick carrying the
+     accuser's `accusation` + each witness's `suspicion_raised`; the accused grows wary of EVERY witness at
+     once (`suspicion[witness_i]` all rise on the same tick) while `perceived_injustice` builds. No new
+     engine code — the cues exist; M-MEM delivers them simultaneously.
+   - **False-accusation discovery (accuser side).** New SELF cue `false_accusation_discovered` → `guilt`
+     (×`guilt_proneness`: a guilt-prone accuser feels remorse, a callous one barely does) + `exposure_anxiety`
+     (exposed as a false accuser); the crowd turning is the witnesses' `suspicion_raised` fanned onto the
+     accuser on the discovery tick. **Litmus PROVEN.** Byte-identical (cue opt-in); Jury margin unchanged.
+   `blame_shift` remains a `lie_type` for the M-J.4 ledger, not an accusation event.
 5. **M-J.4 full ledger + calibration grid + scoped corpus**.
 
 ## 13. Self-review checklist (to assert at each slice's Definition of Done)
