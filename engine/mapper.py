@@ -215,5 +215,23 @@ def map_event(
         )
         return out
 
+    if event.type == "accusation":
+        # M-J.3 moral cue: SOMEONE accuses the persona of a wrong (source = the accuser). RELATIONAL and a
+        # PROVOCATION -- via the overlay it deposits perceived_injustice ("this is unfair", scaled by
+        # injustice_sensitivity), avoidance_drive (scaled by conflict_avoidance), a little stress and
+        # frustration (the frustration is the sourced provocation that OPENS the reactive reply window, so
+        # avoid/blame_other can be selected), and resentment toward the accuser. Whether it lands as guilt
+        # (a TRUE accusation, the persona already carries guilt) or pure grievance (a FALSE one, no prior
+        # guilt -> perceived_injustice dominates and the injustice->guilt(-) switch keeps guilt low) emerges
+        # from state, not the event. Inert unless the moral overlay supplies its gains.
+        out["accusation"] = SemanticInput(
+            name="accusation",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
     # Unknown event types decompose to nothing in MVP (no guessed channels).
     return out

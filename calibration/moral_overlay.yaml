@@ -28,6 +28,17 @@ gains:
     probe: 0.01           # tiny interrogation pressure -- the sourced provocation that OPENS the reply window
                           # (so confess/remain_silent can be selected). Small enough never to fire complain/
                           # outburst on its own. PLACEHOLDER.
+    accusation: 0.02      # M-J.3: the sourced provocation that opens the reply window under accusation
+                          # (so avoid/blame_other can be selected). Small enough never to fire outburst alone. PLACEHOLDER.
+  perceived_injustice:
+    accusation: 0.30      # M-J.3: being accused reads as UNFAIR -> grievance. SCALED by injustice_sensitivity below. PLACEHOLDER.
+  avoidance_drive:
+    accusation: 0.30      # M-J.3: being accused makes one want to dodge. SCALED by conflict_avoidance below. PLACEHOLDER.
+  stress:
+    accusation: 0.03      # M-J.3: an accusation is stressful (the threat). PLACEHOLDER.
+  relations:
+    resentment:
+      accusation: 0.10    # M-J.3: being accused breeds a grudge toward the accuser. PLACEHOLDER.
 
 gain_modulators:
   guilt:
@@ -43,6 +54,19 @@ gain_modulators:
                           # probes normally (mod=1, byte-identical); a blabber (gt high) has spread the secret, so
                           # being questioned bites harder -> exposure_anxiety climbs. The split's "raises exposure
                           # _risk" half, on the one trait-modulated state input the engine has (gains, not couplings). PLACEHOLDER.
+  perceived_injustice:
+    accusation:
+      trait: injustice_sensitivity
+      ref: 1.0
+      k: 1.5              # M-J.3: mod = max(0, 1+1.5*(injustice_sensitivity-1)) -> a sensitive persona reads the
+                          # accusation as deeply unfair; a low-sensitivity persona barely registers grievance
+                          # (mod ~0), so it neither blames back nor flips the guilt switch. PLACEHOLDER.
+  avoidance_drive:
+    accusation:
+      trait: conflict_avoidance
+      ref: 1.0
+      k: 1.0              # M-J.3: mod = max(0, conflict_avoidance) -> a conflict-avoidant persona wants to dodge;
+                          # conflict_avoidance=0 -> it stands its ground (no avoidance build). PLACEHOLDER.
 
 couplings:
   stress:
@@ -52,6 +76,11 @@ couplings:
     rumination: 0.03          # M-J.2: replaying it -> stress (+) (keeps the burden alive). PLACEHOLDER.
   anger:
     guilt: -0.02              # guilt -> anger (-): remorse DAMPS the outburst (empathy-gated topology). PLACEHOLDER.
+    perceived_injustice: 0.02 # M-J.3: a felt injustice STOKES anger (the grievance edge). Small -> stays below the
+                              # outburst latch on its own (the moral states only FEED anger, never a new burst gate). PLACEHOLDER.
+  guilt:
+    perceived_injustice: -0.05  # M-J.3: the GRIEVANCE SWITCH -- "I was justified / I don't deserve this" suppresses
+                                # guilt. The more unfair it feels, the less guilt the wrong leaves behind. PLACEHOLDER.
   fatigue:
     cognitive_load_from_lies: 0.02  # M-J.1: maintaining the lie is tiring -> fatigue (+). PLACEHOLDER.
     rumination: 0.02          # M-J.2: rumination is wearing -> fatigue (+). PLACEHOLDER.
@@ -80,6 +109,9 @@ potential_terms:
   # A blabber (gossip_tendency~1) collapses the (1-gossip) gate -> CAN'T confide safely -> the secret keeps
   # weighing (its rumination is never relieved). The EFFECT (relieve rumination) is booked in post_effects.
   confide_safe: [{kind: state, name: guilt}, {kind: relation_source, name: trust}, {kind: trait, name: gossip_tendency, complement: true}]
+  # M-J.3: the grievance drive (blame the accuser back) and the avoidance drive (dodge the confrontation).
+  moral_injustice: [{kind: state, name: perceived_injustice}]
+  moral_avoidance:  [{kind: state, name: avoidance_drive}]
 
 potential_weights:
   confess:
@@ -99,6 +131,10 @@ potential_weights:
     moral_repair: 0.5         # ...reinforced by the accumulated repair drive. PLACEHOLDER.
   confide:
     confide_safe: 1.8         # M-J.2: unburden to a trusted ear -- beats staying silent / confessing-to-accuser. PLACEHOLDER.
+  blame_other:
+    moral_injustice: 1.5      # M-J.3: a felt injustice -> shift the blame back (scapegoat the accuser). PLACEHOLDER.
+  avoid:
+    moral_avoidance: 1.5      # M-J.3: the urge to dodge -> avoid the confrontation. PLACEHOLDER.
 
 thresholds:
   react.confess: 0.30
@@ -107,12 +143,16 @@ thresholds:
   react.deflect: 0.35
   react.apologize: 0.30
   react.confide: 0.30
+  react.blame_other: 0.30
+  react.avoid: 0.30
   interrupt.confess: 0.80
   interrupt.remain_silent: 0.80
   interrupt.lie: 0.80
   interrupt.deflect: 0.80
   interrupt.apologize: 0.80
   interrupt.confide: 0.80
+  interrupt.blame_other: 0.80
+  interrupt.avoid: 0.80
 
 action_params:
   confess:
@@ -146,3 +186,15 @@ action_params:
     post_effects:
       global:
         rumination: -0.40       # M-J.2: sharing the replayed conflict with a trusted ear relieves it. PLACEHOLDER.
+  blame_other:
+    post_effects:
+      global:
+        perceived_injustice: -0.15  # M-J.3: lashing back vents some of the grievance. PLACEHOLDER.
+      source_relations:         # M-J.3 (the SCAPEGOAT edge): blaming back casts SUSPICION on the accuser and
+        suspicion: 0.15         # deepens the grudge -- the suspicion relation dim, written here. PLACEHOLDER.
+        resentment: 0.05        # PLACEHOLDER.
+  avoid:
+    post_effects:
+      global:
+        avoidance_drive: -0.20  # M-J.3: dodging the confrontation discharges some of the urge. PLACEHOLDER.
+        exposure_anxiety: -0.05 # ...and briefly eases the dread by getting away. PLACEHOLDER.

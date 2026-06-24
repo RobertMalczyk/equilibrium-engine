@@ -637,7 +637,19 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      interrogation `reactive_window` is still open.
    - `reparation`. `apologize` now books a RELATIONAL `source_relations` amends (trust ↑, resentment ↓) on
      the wronged target — the moral loop closes through the RELATIONSHIP, not only inside the persona.
-4. **M-J.3 accusation/suspicion** — `perceived_injustice`, `suspicion`, multi-agent driver (**needs M-MEM**).
+4. **M-J.3 accusation/scapegoat — ✅ IMPLEMENTED (accused+accuser only; witness fan-out needs M-MEM).**
+   M-J.3.0 PLUMBING: GLOBAL_STATES += `perceived_injustice`, `avoidance_drive`; RELATION_DIMS += `suspicion`
+   gated by `MORAL_RELATION_DIMS` (opt-in like the moral states: yaml_io/runtime/update gates keep legacy
+   relation rows carrying exactly trust/respect/resentment → byte-identical); TRAIT_NAMES +=
+   `injustice_sensitivity`, `conflict_avoidance`; POTENTIAL_NAMES += `avoid`, `blame_other`. M-J.3.1 CORE:
+   the `accusation` mapper cue deposits `perceived_injustice` (×injustice_sensitivity), `avoidance_drive`
+   (×conflict_avoidance), stress and `resentment[accuser]`; couplings `perceived_injustice→anger(+)` and the
+   GRIEVANCE SWITCH `perceived_injustice→guilt(−)` ("felt justified"); `blame_other` (grievance-driven; casts
+   `suspicion[accuser]`) vs `avoid` (avoidance-driven). **Litmus PROVEN** (`tests/test_moral_accusation.py`,
+   `data/scenarios/moral_accusation.yaml`): on the SAME accusation a SENSITIVE persona BLAMES the accuser
+   back (perceived_injustice builds, guilt suppressed, suspicion+resentment cast on the accuser) while an
+   AVOIDANT persona AVOIDS; feed-forward → anger⇄stress Jury margin unchanged. **DEFERRED:**
+   `false_accusation`/`suspicion_raised`/`blame_shift` events and multi-agent witness fan-out (needs M-MEM).
 5. **M-J.4 full ledger + calibration grid + scoped corpus**.
 
 ## 13. Self-review checklist (to assert at each slice's Definition of Done)
