@@ -1,0 +1,272 @@
+[
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.02,
+      "half_lives.guilt": 43200
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.02,
+      "half_lives.guilt": 64800
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.02,
+      "half_lives.guilt": 86400
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.03,
+      "half_lives.guilt": 43200
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.03,
+      "half_lives.guilt": 64800
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.03,
+      "half_lives.guilt": 86400
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.05,
+      "half_lives.guilt": 43200
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.05,
+      "half_lives.guilt": 64800
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.03,
+      "couplings.stress.guilt": 0.05,
+      "half_lives.guilt": 86400
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.02,
+      "half_lives.guilt": 43200
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.02,
+      "half_lives.guilt": 64800
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.02,
+      "half_lives.guilt": 86400
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.03,
+      "half_lives.guilt": 43200
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.03,
+      "half_lives.guilt": 64800
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.03,
+      "half_lives.guilt": 86400
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.05,
+      "half_lives.guilt": 43200
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.05,
+      "half_lives.guilt": 64800
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  },
+  {
+    "point": {
+      "gains.guilt.wrongdoing": 0.3,
+      "gains.exposure_anxiety.probe": 0.05,
+      "couplings.stress.guilt": 0.05,
+      "half_lives.guilt": 86400
+    },
+    "passed": true,
+    "reasons": [],
+    "jury_margin": 0.00076,
+    "peak_state": 0.72,
+    "persona_diff_ticks": 6.0,
+    "rel_sensitivity": 1.0,
+    "det_score": 0.6923
+  }
+]
