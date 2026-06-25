@@ -1,0 +1,10 @@
+edda_day_burstOFF_071: PASS -- calm composed day, warm to kindness, sleeps and recovers
+edda_day_burstOFF_072: PASS -- settled day, lets orders pass, sane pacing
+edda_day_burstOFF_073: PASS -- composed, shrugs off mockery, normal rest and sleep
+edda_day_burstOFF_074: PASS -- mockery passes unremarked, calm throughout, recovers overnight
+edda_day_burstOFF_075: PASS -- many kindnesses, warm and settled, believable day
+edda_day_burstOFF_076: PASS -- quiet ordered day, calm authority, sleeps well
+edda_day_burstOFF_077: PASS -- settled, lets orders pass, normal pacing and sleep
+edda_day_burstOFF_078: PASS -- composed day, warm thanks, orders shrugged off
+edda_day_burstOFF_079: PASS -- obeys or shrugs orders, calm, recovers overnight
+edda_day_burstOFF_080: PASS -- uneventful settled day, warm to kindness, sane sleep

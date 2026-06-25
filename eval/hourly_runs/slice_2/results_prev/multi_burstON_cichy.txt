@@ -1,0 +1,10 @@
+cichy_multi_burstON_021: PASS -- sane pacing, sleeps/wakes recovered, resentment toward guards intact
+cichy_multi_burstON_022: PASS -- believable rise/fall, warmth to strangers not guards, recovers nightly
+cichy_multi_burstON_023: PASS -- coherent days, fury at mock fits hot captive
+cichy_multi_burstON_024: PASS -- reasonable escalation under repeated mockery, resets overnight
+cichy_multi_burstON_025: PASS -- warm to strangers, curt to guards, sane cadence
+cichy_multi_burstON_026: PASS -- rain stressor, guard resentment, nightly recovery all sane
+cichy_multi_burstON_027: PASS -- multiple eruptions plausible for on-edge captive, sleeps recovered
+cichy_multi_burstON_028: PASS -- steady believable pacing, soup ignored, mockery bristles
+cichy_multi_burstON_029: PASS -- early fury then settling, warmth to strangers, sane
+cichy_multi_burstON_030: PASS -- six days coherent, weather/guard/stranger reactions all believable

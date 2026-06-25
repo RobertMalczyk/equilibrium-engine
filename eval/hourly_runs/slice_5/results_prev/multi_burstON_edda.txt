@@ -1,0 +1,10 @@
+edda_multi_burstON_051: PASS -- Calm composed castellan, sane pacing, lets mockery pass.
+edda_multi_burstON_052: PASS -- Sane days; declines/complains at stranger orders, fits authority.
+edda_multi_burstON_053: PASS -- Steady warm command, recovers nightly, nothing jars.
+edda_multi_burstON_054: PASS -- Believable spans, composed under insults, eats and rests.
+edda_multi_burstON_055: PASS -- Calm authoritative days, kindness warmly received, sane sleep.
+edda_multi_burstON_056: PASS -- Declines/grumbles at stranger orders only; composed otherwise.
+edda_multi_burstON_057: PASS -- Steady, lets mockery pass, declines stranger order, sane.
+edda_multi_burstON_058: PASS -- Refuses stranger orders, calm with own folk, recovers.
+edda_multi_burstON_059: PASS -- Composed castellan, declines outside orders, believable pacing.
+edda_multi_burstON_060: PASS -- Calm, lets barbs pass, runs watch, sane nights.

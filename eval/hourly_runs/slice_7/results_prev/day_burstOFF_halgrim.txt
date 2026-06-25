@@ -1,0 +1,10 @@
+halgrim_day_burstOFF_071: PASS -- calm, warm to kindness, sleeps and recovers
+halgrim_day_burstOFF_072: PASS -- steady easy day, sane pacing throughout
+halgrim_day_burstOFF_073: PASS -- curt not raging at Wojsław, fitting control
+halgrim_day_burstOFF_074: PASS -- mild edge from orders, recovers overnight
+halgrim_day_burstOFF_075: PASS -- settled, warm responses, normal rest cycle
+halgrim_day_burstOFF_076: PASS -- lets mockery pass, calm throughout
+halgrim_day_burstOFF_077: PASS -- even keel, warm, sane day
+halgrim_day_burstOFF_078: PASS -- cold curt reply to public mockery, fitting
+halgrim_day_burstOFF_079: PASS -- calm, compliant, recovers at night
+halgrim_day_burstOFF_080: PASS -- repeated jabs build tension, stays controlled

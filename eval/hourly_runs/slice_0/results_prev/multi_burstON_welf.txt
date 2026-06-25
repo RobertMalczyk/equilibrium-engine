@@ -1,0 +1,10 @@
+welf_multi_burstON_001: PASS -- calm baseline, single justified snap at mockery, sleeps and recovers.
+welf_multi_burstON_002: PASS -- even-keeled, lets mockery pass, sane rest/boredom cadence.
+welf_multi_burstON_003: PASS -- composed throughout, mockery shrugged off, believable pacing.
+welf_multi_burstON_004: PASS -- steady, warm to kindness, mockery ignored, recovers nightly.
+welf_multi_burstON_005: PASS -- calm rain-watch tension fades, sane daily rhythm.
+welf_multi_burstON_006: PASS -- composed, lets barbs pass, believable boredom-rest cycle.
+welf_multi_burstON_007: PASS -- mild rain-driven edge, recovers overnight, drifting wake times.
+welf_multi_burstON_008: PASS -- six days steady, mockery shrugged, plausible sleep drift.
+welf_multi_burstON_009: PASS -- transactional calm, ignores barbs, hunger/temper rise and fall believably.
+welf_multi_burstON_010: PASS -- even-keeled, lets mockery pass, sane recovery and pacing.

@@ -1,0 +1,10 @@
+edda_day_burstON_051: PASS -- calm, warm, composed; lets orders pass; sane day.
+edda_day_burstON_052: PASS -- settled and gracious throughout; believable pacing and rest.
+edda_day_burstON_053: PASS -- ignores mockery, warm to help; coherent calm day.
+edda_day_burstON_054: PASS -- composed, thankful, takes charge at night; sane.
+edda_day_burstON_055: PASS -- warm and settled all day; believable rest and sleep.
+edda_day_burstON_056: PASS -- lets orders pass or complies calmly; coherent day.
+edda_day_burstON_057: PASS -- ignores barb, warm to kindness; composed throughout.
+edda_day_burstON_058: PASS -- calm, gracious, lets order pass; sane pacing.
+edda_day_burstON_059: PASS -- settled and warm; believable day and recovery.
+edda_day_burstON_060: PASS -- composed, thankful, directs watch at night; coherent.

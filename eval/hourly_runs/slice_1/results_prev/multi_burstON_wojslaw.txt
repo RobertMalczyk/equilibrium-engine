@@ -1,0 +1,12 @@
+All records reviewed. Each shows sane day/night cycles, recovery on sleep, anger driven by mocks/orders consistent with a proud hot-tempered noble, kindness/soup warmly received. Checking for anything jarring: erupting at soup/kindness occurs when already enraged (carry-over irritability), believable. No starvation, no causeless rage.
+
+wojslaw_multi_burstON_011: PASS -- calm baseline, occasional eruptions on insults; recovers nightly
+wojslaw_multi_burstON_012: PASS -- prickly, flares at mocks/orders; sane pacing and sleep
+wojslaw_multi_burstON_013: PASS -- escalates over days but resets each morning; believable
+wojslaw_multi_burstON_014: PASS -- hot day of insults, heavy refusals; fits proud temper
+wojslaw_multi_burstON_015: PASS -- mounting irritation, soup-anger from carry-over; nightly recovery
+wojslaw_multi_burstON_016: PASS -- dense eruptions but plausibly insult-driven; sleeps and resets
+wojslaw_multi_burstON_017: PASS -- mixed warmth and fury; coherent rise/fall across days
+wojslaw_multi_burstON_018: PASS -- volatile but tied to mocks; recovers each night
+wojslaw_multi_burstON_019: PASS -- warm calm days, late-day flares on insults; believable
+wojslaw_multi_burstON_020: PASS -- prickly throughout, anger keyed to provocations; sane sleep

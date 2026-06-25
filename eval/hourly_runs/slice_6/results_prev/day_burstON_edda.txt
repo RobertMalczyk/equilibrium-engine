@@ -1,0 +1,10 @@
+edda_day_burstON_061: PASS -- calm, composed; sane pacing, recovers after sleep.
+edda_day_burstON_062: PASS -- warm, settled day; believable rhythm and recovery.
+edda_day_burstON_063: PASS -- brief curt reply, mild edge, otherwise composed.
+edda_day_burstON_064: PASS -- settled, warm responses; sane day and recovery.
+edda_day_burstON_065: PASS -- composed and at ease throughout; believable pacing.
+edda_day_burstON_066: PASS -- calm, lets mockery pass; sane day, recovers.
+edda_day_burstON_067: PASS -- settled, warm; believable rhythm and overnight recovery.
+edda_day_burstON_068: PASS -- composed, warm to kindness; sane pacing throughout.
+edda_day_burstON_069: PASS -- calm, lets jabs pass; believable day, recovers.
+edda_day_burstON_070: PASS -- quiet, settled day; sane pacing and recovery.

@@ -1,0 +1,12 @@
+All records reviewed. Each shows sane day/night cadence, restlessness when idle, warmth at kindness, escalating temper toward Halgrim's barbs in the evening, recovery after sleep — consistent with the raw, easily-bored, thin-skinned recruit profile. No absurd pacing or contradictions.
+
+branic_multi_burstOFF_011: PASS -- sane cadence; idle-restlessness, evening flares, sleep recovery fit profile.
+branic_multi_burstOFF_012: PASS -- believable pacing; mild flares, defiance, nightly reset all fit.
+branic_multi_burstOFF_013: PASS -- compliant-then-fraying arc, kindness warmth, sleep recovery all sane.
+branic_multi_burstOFF_014: PASS -- calm obedient stretch with late flares; pacing fully believable.
+branic_multi_burstOFF_015: PASS -- coherent days; rain/mock-driven defiance and recovery fit profile.
+branic_multi_burstOFF_016: PASS -- sane cadence; escalating refusals and evening eruptions fit recruit.
+branic_multi_burstOFF_017: PASS -- believable; morning flares after edge, warmth at kindness, recovers.
+branic_multi_burstOFF_018: PASS -- coherent; clustered Halgrim friction and nightly reset all sane.
+branic_multi_burstOFF_019: PASS -- calm obliging days with occasional flare; pacing fully believable.
+branic_multi_burstOFF_020: PASS -- sane days; rain-day defiance and eruptions fit thin-skinned recruit.

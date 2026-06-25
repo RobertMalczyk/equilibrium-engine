@@ -1,0 +1,10 @@
+halgrim_multi_burstON_061: PASS -- calm baseline, cold curtness to Wojslaw, sleeps/recovers well.
+halgrim_multi_burstON_062: PASS -- steady, escalates only under provocation, nightly reset holds.
+halgrim_multi_burstON_063: PASS -- heavy Wojslaw barrage, cold contempt fits; brief Marta snap minor.
+halgrim_multi_burstON_064: PASS -- calm, sane pacing, restrained reactions throughout.
+halgrim_multi_burstON_065: PASS -- mostly settled, cold curtness only to Wojslaw mockery.
+halgrim_multi_burstON_066: PASS -- calm baseline, escalation tied to provocation, recovers nightly.
+halgrim_multi_burstON_067: PASS -- steady, cold contempt confined to Wojslaw, believable arc.
+halgrim_multi_burstON_068: FLAG -- cold contempt to Marta serving soup jars slightly.
+halgrim_multi_burstON_069: FLAG -- cold contempt to helpful stranger amid grumbling feels off.
+halgrim_multi_burstON_070: FLAG -- snaps coldly at kind Marta twice, displaced spillover.

@@ -1,0 +1,10 @@
+halgrim_day_burstON_041: PASS -- Calm steady day, warm to soup, recovers overnight.
+halgrim_day_burstON_042: PASS -- Curt cold to Wojsław's mockery, obeys Edda, even keel.
+halgrim_day_burstON_043: PASS -- Repeated taunts escalate to cold contempt, plausibly tense.
+halgrim_day_burstON_044: PASS -- Declines Wojsław, obeys Edda, settled throughout.
+halgrim_day_burstON_045: PASS -- Lets taunt pass, warm to kindness, calm.
+halgrim_day_burstON_046: PASS -- Steady, ignores Wojsław's barb, obeys Edda.
+halgrim_day_burstON_047: PASS -- Warm and settled, declines Wojsław's order curtly.
+halgrim_day_burstON_048: PASS -- Mutters at orders, warm to Marta, sane.
+halgrim_day_burstON_049: PASS -- Declines Wojsław, warmed by kindness, calm day.
+halgrim_day_burstON_050: PASS -- Mild curtness to taunt, slight tension, recovers.

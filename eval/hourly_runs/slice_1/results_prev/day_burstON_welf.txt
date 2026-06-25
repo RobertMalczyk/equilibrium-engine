@@ -1,0 +1,10 @@
+welf_day_burstON_011: PASS -- restless cycles, warm to kindness, flares only at mockery
+welf_day_burstON_012: PASS -- believable boredom-rest cycle, calm, warm to help
+welf_day_burstON_013: PASS -- sane pacing, settled and grateful throughout
+welf_day_burstON_014: PASS -- even-keeled day, restless then occupied, sleeps recovered
+welf_day_burstON_015: PASS -- calm composed day, boredom rises and eases
+welf_day_burstON_016: PASS -- restless cycles, brief edge, no unprovoked anger
+welf_day_burstON_017: PASS -- busy restless day, warm, momentarily tense, recovers
+welf_day_burstON_018: PASS -- believable boredom rhythm, calm, sleeps and wakes settled
+welf_day_burstON_019: PASS -- steady composed day, grateful, sane pacing
+welf_day_burstON_020: PASS -- many kindnesses well-received, calm, no jarring beats

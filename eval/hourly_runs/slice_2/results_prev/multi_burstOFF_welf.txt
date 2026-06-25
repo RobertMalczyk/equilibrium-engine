@@ -1,0 +1,12 @@
+All records show consistent calm, even-keeled behavior: boredom builds and resolves, kindnesses warmly received, mockery let pass, sleeps at night, wakes recovered. All fit Welf's profile.
+
+welf_multi_burstOFF_021: PASS -- Calm cycles of boredom/rest, lets mockery pass, sleeps well.
+welf_multi_burstOFF_022: PASS -- Even-keeled, restlessness rises and resolves, sane day rhythm.
+welf_multi_burstOFF_023: PASS -- Six days of steady boredom/ease cycles, mockery shrugged off.
+welf_multi_burstOFF_024: PASS -- Calm throughout, kindnesses warmly received, normal sleep recovery.
+welf_multi_burstOFF_025: PASS -- Settled cycles, one neutral-soup blip minor, sleeps and recovers.
+welf_multi_burstOFF_026: PASS -- Five days even-tempered, boredom-seek-rest loop, sane pacing.
+welf_multi_burstOFF_027: PASS -- Steady composure across six days, restlessness and rest balanced.
+welf_multi_burstOFF_028: PASS -- Calm and businesslike, normal day/night cycle, mockery ignored.
+welf_multi_burstOFF_029: PASS -- Even-keeled through rain, kindnesses warm, sleeps and recovers.
+welf_multi_burstOFF_030: PASS -- Six days composed, boredom rises and resolves, sane sleep.

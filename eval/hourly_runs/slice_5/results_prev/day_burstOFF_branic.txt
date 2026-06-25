@@ -1,0 +1,10 @@
+branic_day_burstOFF_051: PASS -- sane day, restless/eats/rests, lets jabs pass calmly
+branic_day_burstOFF_052: PASS -- believable pacing, sleeps and wakes recovered, warm to kindness
+branic_day_burstOFF_053: PASS -- escalates only after public mock late day, then refuses
+branic_day_burstOFF_054: PASS -- obedient, eager, calm day; sleeps and recovers
+branic_day_burstOFF_055: PASS -- snaps at public mock, otherwise compliant and steady
+branic_day_burstOFF_056: PASS -- calm productive day, lets barbs pass, sleeps recovered
+branic_day_burstOFF_057: PASS -- snaps at public mock, later refusal, recovers overnight
+branic_day_burstOFF_058: PASS -- eager and obedient, warm day, normal sleep cycle
+branic_day_burstOFF_059: PASS -- busy obedient day, many orders handled, lets jabs pass
+branic_day_burstOFF_060: PASS -- sane pacing, calm responses, sleeps and wakes settled

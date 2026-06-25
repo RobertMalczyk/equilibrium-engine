@@ -1,0 +1,10 @@
+edda_multi_burstOFF_071: PASS -- composed, well-fed, sane pacing across 3 days
+edda_multi_burstOFF_072: PASS -- authority maintained, minor soup duplicate harmless
+edda_multi_burstOFF_073: PASS -- kindness-dense but plausible, sleep and recovery clean
+edda_multi_burstOFF_074: PASS -- escalating pushback after repeated provocations fits Edda
+edda_multi_burstOFF_075: PASS -- calm, well-fed, mocks and orders absorbed without fuss
+edda_multi_burstOFF_076: PASS -- three refusals in 90min dense but authority figure pushed repeatedly
+edda_multi_burstOFF_077: PASS -- clean 4-day run, settled composure throughout
+edda_multi_burstOFF_078: PASS -- one compliance then calm; mocks absorbed; sane
+edda_multi_burstOFF_079: PASS -- muttered complaint recovers fast; soup repeats minor
+edda_multi_burstOFF_080: PASS -- kindness-heavy day 1, then quieter; mocks met with composure

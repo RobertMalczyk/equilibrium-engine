@@ -1,0 +1,10 @@
+lutek_multi_burstON_071: PASS -- sane cycle, sleeps well, mocks shrugged off
+lutek_multi_burstON_072: FLAG -- Marta's soup met with flat non-reaction, day 2
+lutek_multi_burstON_073: PASS -- frequent evening tension but never absurd, fits warm character
+lutek_multi_burstON_074: PASS -- recurring morning tension clears with food, sane pattern
+lutek_multi_burstON_075: PASS -- mild evening tension, mocks ignored, warmth intact
+lutek_multi_burstON_076: FLAG -- stranger's kindness met with flat non-reaction, day 1
+lutek_multi_burstON_077: FLAG -- Marta's soup met with flat non-reaction, day 2
+lutek_multi_burstON_078: PASS -- late nights but recovers fine, warm responses throughout
+lutek_multi_burstON_079: FLAG -- two kindnesses met with flat non-reaction while tense, day 4
+lutek_multi_burstON_080: PASS -- frequent evening tension resolves, warmth and rhythm intact

@@ -1,0 +1,12 @@
+All records show consistent sane patterns: night sleep with recovery, escalation to provocations (fury at mocks), curt/neutral toward soup, warmth to strangers, tense/settled cycling. Profile fit is good. Nothing absurd.
+
+cichy_multi_burstOFF_011: PASS -- Sane cycles; resents guards, fury at mocks, recovers nightly.
+cichy_multi_burstOFF_012: PASS -- Believable pacing; provocation-driven fury, warm to strangers.
+cichy_multi_burstOFF_013: PASS -- Calm baseline, sane escalation to mocks, nightly reset.
+cichy_multi_burstOFF_014: PASS -- Coherent days; tense under rain, fury at provocations.
+cichy_multi_burstOFF_015: PASS -- Many provocations but proportionate fury, recovers each night.
+cichy_multi_burstOFF_016: PASS -- Warm to strangers, fury at guards, sane rhythm.
+cichy_multi_burstOFF_017: PASS -- Heavy mocking clustered believably; settles between, sleeps nightly.
+cichy_multi_burstOFF_018: PASS -- Calm baseline, fury only at mocks, nightly recovery.
+cichy_multi_burstOFF_019: PASS -- Rain tension, provocation fury, warmth to strangers, sane reset.
+cichy_multi_burstOFF_020: PASS -- Believable arc; resents guards, fury at mocks, recovers.

@@ -1,0 +1,10 @@
+branic_day_burstON_091: PASS -- restless/eased cycle, sleeps and wakes recovered, sane pacing.
+branic_day_burstON_092: PASS -- tension builds over idle day, sleep resets, believable.
+branic_day_burstON_093: PASS -- calm cooperative day, warm to kindnesses, sleeps well.
+branic_day_burstON_094: PASS -- ordinary restless day, mild evening tension, recovers overnight.
+branic_day_burstON_095: PASS -- evening eruptions/refusal after mocking, plausible for thin-skinned recruit.
+branic_day_burstON_096: PASS -- late-day fury after long idle wear, sleep resets.
+branic_day_burstON_097: PASS -- snaps and declines after repeated mocking, believable buildup.
+branic_day_burstON_098: PASS -- compliant calm day, faint evening edge, recovers overnight.
+branic_day_burstON_099: PASS -- obedient day, mild night tension, wakes settled.
+branic_day_burstON_100: PASS -- flares and refuses after mocking, sane temper arc.

@@ -1,0 +1,10 @@
+branic_day_burstON_081: PASS -- restless cycling and evening tension build naturally
+branic_day_burstON_082: PASS -- snap at Halgrim after accumulated mocks fits the profile
+branic_day_burstON_083: PASS -- quiet day, boredom cycles, tension rising late, sane pacing
+branic_day_burstON_084: PASS -- escalating mocks leading to fury outburst is believable
+branic_day_burstON_085: FLAG -- snaps at Halgrim offering kindness; anger trigger without prior provocation
+branic_day_burstON_086: PASS -- fury after late-night mock following long tense evening fits
+branic_day_burstON_087: PASS -- positive day, Halgrim kindness accepted, wakes fresh and calm
+branic_day_burstON_088: PASS -- Marta attentive all day, tension late, no outburst, plausible
+branic_day_burstON_089: PASS -- snap after late mock when already tense and tired
+branic_day_burstON_090: PASS -- tense evening without outburst, mock shrugged off, reasonable restraint

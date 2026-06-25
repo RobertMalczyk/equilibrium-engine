@@ -1,0 +1,10 @@
+edda_day_burstOFF_061: PASS -- sane day, composed under mockery, sleeps and wakes
+edda_day_burstOFF_062: PASS -- believable pacing, warm to kindness, lets stranger order pass
+edda_day_burstOFF_063: PASS -- composed, one curt reply fits, normal rest cadence
+edda_day_burstOFF_064: PASS -- calm day, regular meals, command at watch-setting
+edda_day_burstOFF_065: PASS -- steady and at ease, kindnesses warmly received
+edda_day_burstOFF_066: PASS -- composed under mockery and orders, normal sleep recovery
+edda_day_burstOFF_067: PASS -- quiet sane day, lets barb pass, takes charge
+edda_day_burstOFF_068: PASS -- many kindnesses, composed under barb, believable rhythm
+edda_day_burstOFF_069: PASS -- calm, mockery let pass, regular meals and rest
+edda_day_burstOFF_070: PASS -- sparse calm day, sane pacing, sleeps and wakes

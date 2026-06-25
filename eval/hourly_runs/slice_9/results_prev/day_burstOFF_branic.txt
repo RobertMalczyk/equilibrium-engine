@@ -1,0 +1,10 @@
+branic_day_burstOFF_091: PASS -- Eruption only on public mock; calm pacing, sleeps, recovers.
+branic_day_burstOFF_092: PASS -- Sane day, restless-bored cadence, mild edge, recovers overnight.
+branic_day_burstOFF_093: PASS -- Calm cooperative day, believable boredom and rest cycle.
+branic_day_burstOFF_094: PASS -- Restless young recruit, mild tension, sleeps and wakes settled.
+branic_day_burstOFF_095: PASS -- Public mock erupts then refusal; plausible thin-skinned reaction.
+branic_day_burstOFF_096: PASS -- Busy cooperative day, mild edge, recovers overnight.
+branic_day_burstOFF_097: PASS -- Snaps then declines order after needling; coherent escalation.
+branic_day_burstOFF_098: PASS -- Calm obedient day, normal boredom and rest rhythm.
+branic_day_burstOFF_099: PASS -- Compliant day, mild evening edge, sleeps and recovers.
+branic_day_burstOFF_100: FLAG -- Sleeps at 00:34, very late; two refusals after mild mockery.

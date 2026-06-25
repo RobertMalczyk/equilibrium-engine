@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_061: PASS -- calm baseline, cold to Wojsław, recovers nightly
+halgrim_multi_burstOFF_062: PASS -- steady keel, defiance only toward Wojsław, sleeps well
+halgrim_multi_burstOFF_063: PASS -- busy provocation day, cold curtness fits, recovers
+halgrim_multi_burstOFF_064: PASS -- quiet days, settled, warm to Marta
+halgrim_multi_burstOFF_065: PASS -- calm with measured cold responses to mockery
+halgrim_multi_burstOFF_066: PASS -- even-keeled, brief tension after evening provocations
+halgrim_multi_burstOFF_067: PASS -- steady, cold contempt to Wojsław, sane pacing
+halgrim_multi_burstOFF_068: PASS -- disciplined, compliant with Edda, cold to Wojsław
+halgrim_multi_burstOFF_069: PASS -- mostly settled, mild grumbles, recovers nightly
+halgrim_multi_burstOFF_070: PASS -- calm baseline, rain and mockery handled plausibly

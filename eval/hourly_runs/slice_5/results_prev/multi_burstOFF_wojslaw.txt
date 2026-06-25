@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_051: PASS -- sane cadence, warm to kindness, flares at mockery, sleeps nightly
+wojslaw_multi_burstOFF_052: PASS -- believable arc, recovers each night, anger fits proud temper
+wojslaw_multi_burstOFF_053: PASS -- escalating mockery days plausible, resets overnight, fitting profile
+wojslaw_multi_burstOFF_054: PASS -- normal pacing, warm-then-prickly, no absurd persistence
+wojslaw_multi_burstOFF_055: PASS -- calm baseline with provoked flares, sleeps and recovers
+wojslaw_multi_burstOFF_056: PASS -- heavy mockery met with fury, refusals fit pride
+wojslaw_multi_burstOFF_057: PASS -- sane day/night rhythm, defiant refusals consistent with rank
+wojslaw_multi_burstOFF_058: PASS -- believable buildup of temper, nightly reset, profile-consistent
+wojslaw_multi_burstOFF_059: PASS -- flares at insults, warm to soup, recovers overnight
+wojslaw_multi_burstOFF_060: PASS -- prickly proud noble, provoked anger only, sleeps nightly

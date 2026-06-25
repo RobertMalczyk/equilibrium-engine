@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_001: PASS -- calm baseline, restraint to provocation, sleeps and recovers; believable.
+halgrim_multi_burstOFF_002: PASS -- steady, even-keeled, rain tolerated, recovers nightly; coherent.
+halgrim_multi_burstOFF_003: PASS -- calm, minor grumbling at orders, sane pacing; fine.
+halgrim_multi_burstOFF_004: PASS -- cold contempt to Wojsław, restraint elsewhere; in-character.
+halgrim_multi_burstOFF_005: PASS -- absorbs provocations, mild tension, recovers; believable veteran.
+halgrim_multi_burstOFF_006: PASS -- mostly settled, mild edge late; coherent days.
+halgrim_multi_burstOFF_007: PASS -- steady across five days, curt under pressure; fine.
+halgrim_multi_burstOFF_008: PASS -- escalating cold contempt to Wojsław, recovers nightly; in-character.
+halgrim_multi_burstOFF_009: PASS -- defiant refusals to Wojsław, calm otherwise; believable.
+halgrim_multi_burstOFF_010: PASS -- cold curtness under Wojsław's barbs, sleeps recovered; coherent.

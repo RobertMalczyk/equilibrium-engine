@@ -1,0 +1,10 @@
+halgrim_day_burstON_021: PASS -- calm, warm to kindness, ignores Wojsław's jab, sleeps well.
+halgrim_day_burstON_022: PASS -- obeys Edda, refuses Wojsław, even keel throughout.
+halgrim_day_burstON_023: PASS -- settled day, lets mockery pass, recovers overnight.
+halgrim_day_burstON_024: PASS -- one ignored Edda order minor but plausible, otherwise sane.
+halgrim_day_burstON_025: PASS -- cold curt replies to repeated Wojsław jabs, fitting.
+halgrim_day_burstON_026: PASS -- refuses Wojsław, obeys Edda, steady throughout.
+halgrim_day_burstON_027: PASS -- mutters at Edda once is mild, otherwise consistent.
+halgrim_day_burstON_028: PASS -- calm, warm, lets Wojsław's jabs pass, sleeps soundly.
+halgrim_day_burstON_029: PASS -- unruffled by mockery, warm to kindness, even keel.
+halgrim_day_burstON_030: PASS -- cold curtness to Wojsław, obeys Edda, believable arc.

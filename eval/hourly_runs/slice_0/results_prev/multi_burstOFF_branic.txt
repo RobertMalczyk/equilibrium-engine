@@ -1,0 +1,10 @@
+branic_multi_burstOFF_001: PASS -- calm baseline, restlessness cycles, sleeps and recovers; sane
+branic_multi_burstOFF_002: PASS -- mostly calm, single snap at late mockery; believable
+branic_multi_burstOFF_003: PASS -- escalating defiance under repeated mockery, recovers nightly; plausible
+branic_multi_burstOFF_004: PASS -- thin-skinned snaps to evening provocations, otherwise settled
+branic_multi_burstOFF_005: PASS -- calm, compliant, warm to kindness; no jarring beats
+branic_multi_burstOFF_006: PASS -- temper builds with repeated barbs/orders, refuses then sleeps off
+branic_multi_burstOFF_007: PASS -- fury and refusals after sustained mockery; recovers overnight
+branic_multi_burstOFF_008: PASS -- largely calm, occasional snap; believable green recruit
+branic_multi_burstOFF_009: PASS -- calm cooperative stretch, warm reactions; sane pacing
+branic_multi_burstOFF_010: PASS -- heavy defiance cluster Day3 under barrage, otherwise recovers

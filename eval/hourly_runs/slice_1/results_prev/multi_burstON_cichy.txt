@@ -1,0 +1,12 @@
+All records read. Judging each on its own for sane pacing and consistency with a resentful, on-edge captive who escalates at guards' mocking but stays calm-to-curt otherwise, sleeps at night and wakes recovered.
+
+cichy_multi_burstON_011: PASS -- sane arc; mockery escalates, soup tolerated, nightly recovery
+cichy_multi_burstON_012: PASS -- curt-to-cold at mockery, calm baseline, recovers nightly
+cichy_multi_burstON_013: PASS -- believable tension cycles, soup curt, sleeps and recovers
+cichy_multi_burstON_014: PASS -- escalation on mockery, rain stressor, recovers each night
+cichy_multi_burstON_015: PASS -- repeated mockery builds to fury believably, recovers overnight
+cichy_multi_burstON_016: PASS -- warms to strangers, fury at public mockery, nightly reset
+cichy_multi_burstON_017: PASS -- heavy mockery day builds fury, otherwise calm, recovers
+cichy_multi_burstON_018: PASS -- soup once bristles when tense; plausible, recovers nightly
+cichy_multi_burstON_019: PASS -- curt baseline, rain stressor, sane cycles, nightly recovery
+cichy_multi_burstON_020: PASS -- calm baseline, curt at mockery/soup, sleeps and recovers

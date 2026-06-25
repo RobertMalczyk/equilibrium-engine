@@ -1,0 +1,10 @@
+cichy_multi_burstON_081: PASS -- sane pacing, curtness to guards, nights normal
+cichy_multi_burstON_082: PASS -- rain and mockings escalate appropriately, stranger warmth fine
+cichy_multi_burstON_083: PASS -- multiple outbursts fit burstON, post-burst recovery plausible
+cichy_multi_burstON_084: PASS -- rain days tense, stranger soothes, pacing believable
+cichy_multi_burstON_085: PASS -- high outburst volume fits burstON, each guard-triggered
+cichy_multi_burstON_086: PASS -- late-night eruption before sleep is odd but not absurd
+cichy_multi_burstON_087: PASS -- duplicate soup at 08:16/08:18 is noise, not a break
+cichy_multi_burstON_088: PASS -- 40-min post-outburst recovery is fast but plausible
+cichy_multi_burstON_089: PASS -- three stranger kindnesses in one evening is heavy but acceptable
+cichy_multi_burstON_090: PASS -- steady escalation under rain and mocking, sane throughout

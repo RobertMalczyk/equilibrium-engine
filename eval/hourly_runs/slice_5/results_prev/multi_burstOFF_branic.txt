@@ -1,0 +1,10 @@
+branic_multi_burstOFF_051: PASS -- sane days, nightly reset, single justified eruption
+branic_multi_burstOFF_052: PASS -- calm life, lone snap after rain, recovers
+branic_multi_burstOFF_053: PASS -- pleasant calm six days, no jarring escalation
+branic_multi_burstOFF_054: PASS -- mostly calm, one public eruption after rain
+branic_multi_burstOFF_055: FLAG -- persistent defiance/fury snowballs, bristles at kindness, no reset
+branic_multi_burstOFF_056: PASS -- calm with one night flare, resets
+branic_multi_burstOFF_057: PASS -- calm with isolated flares, recovers nightly
+branic_multi_burstOFF_058: FLAG -- relentless flat refusals and eruptions, no overnight reset
+branic_multi_burstOFF_059: PASS -- refusals build but interspersed calm, fury isolated
+branic_multi_burstOFF_060: PASS -- refusals cluster on one stressed rainy day

@@ -1,0 +1,10 @@
+halgrim_multi_burstON_021: PASS -- calm baseline, escalates coldly under Wojsław's repeated provocation; sleeps, recovers.
+halgrim_multi_burstON_022: PASS -- steady, cold curtness only after provocation; nightly reset believable.
+halgrim_multi_burstON_023: PASS -- sane pacing; tension lingers but expressed as flat coldness throughout.
+halgrim_multi_burstON_024: PASS -- mostly settled, warm to kindness; minor evening tension, fully sane.
+halgrim_multi_burstON_025: PASS -- cold curtness under provocation; one warm-to-Marta after curt-to-Marta slightly odd.
+halgrim_multi_burstON_026: PASS -- heavy provocation load, responds cold not loud; recovers nightly.
+halgrim_multi_burstON_027: PASS -- escalates coldly under Wojsław; tension persists days but stays controlled.
+halgrim_multi_burstON_028: PASS -- steady baseline, cold defiance to Wojsław; believable rises and resets.
+halgrim_multi_burstON_029: PASS -- calm, warm to kindness, curt only when pushed; sane.
+halgrim_multi_burstON_030: PASS -- escalates to cold contempt under rain plus mockery; controlled, recovers.

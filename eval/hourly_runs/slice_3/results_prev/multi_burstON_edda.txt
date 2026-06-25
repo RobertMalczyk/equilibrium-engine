@@ -1,0 +1,10 @@
+edda_multi_burstON_031: PASS -- composed, warm to kindness, ignores mockery; sane pacing
+edda_multi_burstON_032: PASS -- calm authority, complies or shrugs orders; believable rhythm
+edda_multi_burstON_033: PASS -- composed castellan, refuses stranger orders, takes charge nightly
+edda_multi_burstON_034: PASS -- mild complaints to orders, warm otherwise; steady days
+edda_multi_burstON_035: PASS -- declines orders, warm to staff; well-paced and consistent
+edda_multi_burstON_036: PASS -- composed authority across six days, no jarring reactions
+edda_multi_burstON_037: PASS -- mutters at orders, warm to kindness; sane sleep/wake cycle
+edda_multi_burstON_038: PASS -- consistently composed, warm; orders shrugged; believable pacing
+edda_multi_burstON_039: PASS -- mild complaints under pressure, otherwise steady and composed
+edda_multi_burstON_040: PASS -- composed across six days, declines/shrugs orders, warm rapport

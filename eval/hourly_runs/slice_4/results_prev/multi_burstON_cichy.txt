@@ -1,0 +1,10 @@
+cichy_multi_burstON_041: PASS -- sane cycle; curt to guards, recovers nightly
+cichy_multi_burstON_042: FLAG -- stranger's kindness triggers fury (D4 13:19), jars
+cichy_multi_burstON_043: FLAG -- stranger's kindness triggers fury (D2 14:14), jars
+cichy_multi_burstON_044: PASS -- sane pacing; warm to kindness, curt to guards
+cichy_multi_burstON_045: PASS -- believable rhythm, sleeps and recovers
+cichy_multi_burstON_046: PASS -- anger from guard mocks only, plausible
+cichy_multi_burstON_047: PASS -- eruptions all from mocks; warm to strangers
+cichy_multi_burstON_048: PASS -- calm baseline, curt replies, nightly reset
+cichy_multi_burstON_049: PASS -- escalating anger from guard mocks, believable
+cichy_multi_burstON_050: PASS -- sane days, one eruption at guard mock

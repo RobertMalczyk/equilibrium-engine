@@ -1,0 +1,18 @@
+{
+  "judge_model": "claude-sonnet (blind, 12-vignette batch)",
+  "stage": "M-J.4.4 calibration, judge step 2 (3x batch) -- collect, fix, re-judge loop",
+  "avg_believability": {"initial": 3.17, "after_fixes": 4.42, "final": 4.83},
+  "final_scores": {"01":5,"02":5,"03":4,"04":5,"05":5,"06":5,"07":5,"08":5,"09":4,"10":5,"11":5,"12":5},
+  "problems_fixed": [
+    {"issue":"confession-then-silence (post-resolution re-conceal)","class":"behavioral->rendering","fix":"renderer treats a terminal reply (confess/apologize/lie) as settling the matter -> post-answer concealment not narrated as fresh; demeanor reads relieved (exposure actually drops with the -0.40 relief). Engine relief bump was tried but reverted (broke the confide litmus -- the deterministic pre-filter's exact guard)."},
+    {"issue":"mechanical loop repetition (09)","class":"rendering","fix":"compress CONCEAL runs into a 'withdrawn spell'; fold a faint flicker mid-withdrawal into the spell"},
+    {"issue":"post-resolution flicker / relief too early (03/04/06)","class":"rendering","fix":"defer the 'looks lighter' beat to the close, after all disclosures"},
+    {"issue":"repeated state beat / stutter ending (10)","class":"rendering","fix":"dedupe a demeanor even across an intervening action"},
+    {"issue":"silence after confident lie (05)","class":"rendering","fix":"lie is terminal -> no trailing concealment narrated"}
+  ],
+  "residual_minor": [
+    {"vignettes":["03"],"note":"moral_confide has both interrogator-probe and confidant -> public admission + private unburdening reads slightly schematic; scenario-design nuance, not a bug"},
+    {"vignettes":["09"],"note":"a withdrawn-wary beat still repeats around the uneasy beat -- minor rhythm; diminishing-returns polish"}
+  ],
+  "verdict": "judge loop validated end-to-end on Sonnet; one collect-fix-rejudge pass lifted believability 3.17->4.83 (10/12 at 5/5). Key learning: a naive engine-relief calibration broke the confide litmus -- always re-run the deterministic pre-filter after any magnitude change."
+}

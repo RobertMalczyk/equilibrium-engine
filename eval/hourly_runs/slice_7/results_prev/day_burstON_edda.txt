@@ -1,0 +1,10 @@
+edda_day_burstON_071: PASS -- composed castellan, warm to kindness, sleeps and recovers
+edda_day_burstON_072: PASS -- calm day, provocations let pass, normal pacing
+edda_day_burstON_073: PASS -- shrugs off mockery, settled, takes charge appropriately
+edda_day_burstON_074: PASS -- barb ignored, warm to help, sane rhythm
+edda_day_burstON_075: PASS -- many kindnesses welcomed, mockery let pass, composed
+edda_day_burstON_076: PASS -- quiet settled day, warm thanks, proper command
+edda_day_burstON_077: PASS -- order let pass, warmed by help, recovers overnight
+edda_day_burstON_078: PASS -- composed, order ignored, kindnesses welcomed, sleeps well
+edda_day_burstON_079: PASS -- obeys stranger calmly, warm, settled throughout
+edda_day_burstON_080: PASS -- placid day of soup and thanks, takes charge

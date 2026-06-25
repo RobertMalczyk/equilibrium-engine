@@ -1,0 +1,10 @@
+branic_day_burstON_031: PASS -- restless, calm, one provoked snap; sleeps and recovers.
+branic_day_burstON_032: PASS -- bored, settled, mild tension; sane day, recovers overnight.
+branic_day_burstON_033: PASS -- restless cycles, warm to kindness, recovers by morning.
+branic_day_burstON_034: PASS -- calm cooperative day, restless lulls, normal recovery.
+branic_day_burstON_035: PASS -- bored and settled, tolerates mockery, recovers overnight.
+branic_day_burstON_036: PASS -- mostly calm, one snap at an order; recovers.
+branic_day_burstON_037: PASS -- escalating provocations, eruptions then refusal; plausible for thin-skinned recruit.
+branic_day_burstON_038: PASS -- calm cooperative day, mild evening tension, recovers.
+branic_day_burstON_039: FLAG -- bristles at Halgrim's kindness right after eruption; slightly jarring.
+branic_day_burstON_040: FLAG -- snaps angrily at a small kindness; reaction mismatches the act.
