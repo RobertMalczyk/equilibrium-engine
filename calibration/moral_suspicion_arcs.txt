@@ -1,0 +1,19 @@
+===== ARC A =====
+On the first day a man watched him with open suspicion, though he had done nothing. This is how warily he holds himself toward that man over the days that follow.
+- The morning of day 2: he is plainly still wary of the man -- keeps his distance, watches him back.
+- The morning of day 3: a residual wariness toward the man lingers in how he holds himself near him.
+- The morning of day 4: a residual wariness toward the man lingers in how he holds himself near him.
+
+===== ARC B =====
+On the first day a man watched him with open suspicion, though he had done nothing. This is how warily he holds himself toward that man over the days that follow.
+- The morning of day 2: he is plainly still wary of the man -- keeps his distance, watches him back.
+- The morning of day 3: he is plainly still wary of the man -- keeps his distance, watches him back.
+- The morning of day 4: he is plainly still wary of the man -- keeps his distance, watches him back.
+
+===== ARC C =====
+On the first day a man watched him with open suspicion, though he had done nothing. This is how warily he holds himself toward that man over the days that follow.
+- The morning of day 2: a residual wariness toward the man lingers in how he holds himself near him.
+- The morning of day 3: only a faint guardedness toward him is left.
+- The morning of day 4: he seems easy around the man again, his guard down.
+
+[key: A=48h B=14d C=24h]
