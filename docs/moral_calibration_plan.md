@@ -66,6 +66,30 @@ Placeholders replaced by calibrated half-lives/gains; the moral-on slice clears 
 all §9.2 invariants under the held-constant judge; Gates A/B stay green; goldens re-baselined ONLY if a
 conscious moral-trace change is intended (bump `TRACE_VERSION`); corpus stays within 1400+1400.
 
+## 6a. Multi-day stage — findings (2026-06-25, `eval/moral_multiday.py`)
+
+The judge **step-2 loop is validated** on Sonnet (mean believability 3.17 → 4.83 over one collect-fix-rejudge
+pass; `calibration/moral_judge_verdict.json`). Moving toward the full corpus (step 3), the MULTI-DAY axis was
+investigated, since the half-lives only discriminate over days:
+
+- **The multi-day moral dynamics work.** On the believable day layout (dt≈120s, ~717 ticks/day), serious
+  guilt **survives the night** (0.46 → 0.42 across a night's sleep — the sleep reset decays the FAST states,
+  not the slow moral ones, exactly as spec §9.2 requires).
+- **The half-life signal is REAL and discriminating** — with PRIVATE wrongdoing-reminders (a SELF cue: raises
+  guilt, opens no reply window, so no confession resolves it), the evening-guilt trajectory separates cleanly
+  by half-life: 6h ≈ `[0.04,0.05,0.05]` (forgotten by evening), 18h ≈ `[0.15,0.21,0.23]`, 72h ≈
+  `[0.23,0.42,0.56]` (a deepening burden). This is the curve_plausibility signal the judge scores.
+- **Two scenario/renderer requirements surfaced for step 3:**
+  1. The arc must keep the wrong UNRESOLVED — interrogation (probe) triggers a confession that relieves guilt
+     to 0, flattening the half-life signal. Use private reminders, or a persona who conceals.
+  2. The observable renderer must SURFACE the lingering burden. Over long idle days, boredom→seek builds
+     incidental frustration that an anger-first demeanor read masks; `render_moral._demeanor` needs a
+     multi-day variant that weights the (real, discriminating) guilt over the incidental idle-day mood.
+
+**Status:** the multi-day methodology + the half-life signal are proven; the full judged 700+700 corpus is
+the budgeted scale-up, pending (1) multi-day moral scenarios with balanced activity and (2) a burden-surfacing
+multi-day renderer.
+
 ## 7. Budget note
 
 Steps 1 (pre-filter) and the existing deterministic gates are free. Step 2 is a small judged sample (cheap).
