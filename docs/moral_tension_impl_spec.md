@@ -695,7 +695,15 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      secret's salience weighs as `stress`. INACTIVATION (spec §3.4): active iff `hidden_from` non-empty OR
      `unresolvedness ≥ inactive_unresolved_floor` — once inactive, salience is neither raised nor weighs.
      Opt-in (ledger empty / no ledger_params → legacy byte-identical).
-   - **M-J.4.4 calibration grid + scoped corpus** (the labeled overlay categories within the 1400+1400 budget).
+   - **M-J.4.4 calibration grid + scoped corpus.** Two parts:
+     - *Deterministic gates* — ✅ IMPLEMENTED (`tests/test_moral_gates.py`): **Gate A** (legacy byte-identical,
+       via `test_tick_golden.py`); **Gate B** zero-gain behavioral equivalence (`eval.moral.zero_gain_overrides`:
+       moral enabled but all gains 0 → same actions + same non-moral state/relation curves + no moral action +
+       empty ledger); a couple of consolidated **Gate C** §9.2 invariants (outburst ≠ guilt alone; moral states
+       bounded). Stability (§9.3) is asserted per-slice (`jury_margin > 0`; moral edges are feed-forward).
+     - *Calibration grid + judged corpus* — ⏳ PENDING (LLM-judge / eval-harness work, §10): grid over the
+       overlay half-lives/gains, and the labeled `M-J-MORAL-OVERLAY-*` categories within the 1400+1400 budget
+       scored by the blind judge. All `moral_overlay.yaml` magnitudes remain PLACEHOLDERS until this runs.
 
    **Post-review corrections (2026-06-24 audit, `tests/test_moral_ledger_gaps.py`):**
    - `confess` now discharges `cognitive_load_from_lies` AND RESOLVES the target's LieRecord (a `ledger:

@@ -32,3 +32,32 @@ def moral_overrides(traits: dict[str, float] | None = None) -> dict:
             overlay, {"traits": {k: float(v) for k, v in traits.items()}}
         )
     return overlay
+
+
+def _zero_numeric_leaves(node):
+    """Recursively set every numeric leaf to 0.0 (in place), leaving structure/strings intact."""
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if isinstance(v, (int, float)) and not isinstance(v, bool):
+                node[k] = 0.0
+            else:
+                _zero_numeric_leaves(v)
+    elif isinstance(node, list):
+        for v in node:
+            _zero_numeric_leaves(v)
+    return node
+
+
+def zero_gain_overrides(traits: dict[str, float] | None = None) -> dict:
+    """Gate B (impl spec section 9.1): the moral overlay ENABLED (states/dims/actions present, half_lives
+    supplied) but with every moral GAIN zeroed -- so the moral states never rise, no moral action is ever
+    selected, and the ledger stays empty. Behavior on a non-moral scenario must then be EQUIVALENT to the
+    legacy persona (the moral topology is inert at zero gain). Couplings/weights are left intact: they read
+    states that stay 0, so they contribute nothing -- exactly the equivalence the gate asserts."""
+    overlay = moral_overrides(traits)
+    if "gains" in overlay:
+        _zero_numeric_leaves(overlay["gains"])
+    overlay.pop(
+        "gain_modulators", None
+    )  # modulators scale gains that are now 0 -> irrelevant
+    return overlay
