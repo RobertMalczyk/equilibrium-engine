@@ -11,7 +11,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -26,7 +26,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -41,7 +41,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -56,7 +56,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -71,7 +71,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -86,7 +86,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -101,7 +101,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -116,7 +116,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -131,7 +131,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -146,7 +146,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -161,7 +161,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -176,7 +176,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -191,7 +191,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -206,7 +206,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -221,7 +221,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -236,7 +236,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -251,7 +251,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   },
   {
@@ -266,7 +266,7 @@
     "jury_margin": 0.00076,
     "peak_state": 0.72,
     "persona_diff_ticks": 6.0,
-    "rel_sensitivity": 1.0,
+    "rel_sensitivity": 0.9999,
     "det_score": 0.6923
   }
 ]
