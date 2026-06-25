@@ -24,18 +24,29 @@ He had done something he was not proud of. Now he is being questioned about it.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - The worst of it seems behind him now; he looks lighter.
 
-===== VIGNETTE branic-probe-discreet =====
-He had done something he was not proud of. Now he is being questioned about it.
+===== VIGNETTE branic-confide-discreet =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE branic-confide-gossip_prone =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
 - A flicker of something troubled crosses him.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - The worst of it seems behind him now; he looks lighter.
 
-===== VIGNETTE branic-probe-gossip_prone =====
-He had done something he was not proud of. Now he is being questioned about it.
+===== VIGNETTE branic-confide-empathic =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
 - A flicker of something troubled crosses him.
 - He carries himself like a man with something weighing on him.
-- Then, he owns up to it -- admits plainly what he did.
+- Then, he owns up to it and makes his apologies, tries to set it right.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- Then, he owns up to it and makes his apologies, tries to set it right.
+- He seems composed enough.
 - The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE branic-accusation-sensitive =====
@@ -45,16 +56,6 @@ He is being accused -- pressed, in front of others, over something.
 ===== VIGNETTE branic-accusation-avoidant =====
 He is being accused -- pressed, in front of others, over something.
 - He stays withdrawn and wary, saying little, for a good while.
-
-===== VIGNETTE branic-accusation-guilt_prone =====
-He is being accused -- pressed, in front of others, over something.
-- He seems composed enough.
-- A flicker of something troubled crosses him.
-
-===== VIGNETTE branic-accusation-hardened =====
-He is being accused -- pressed, in front of others, over something.
-- He seems composed enough.
-- A flicker of something troubled crosses him.
 
 ===== VIGNETTE branic-suspicion-avoidant =====
 Someone has taken to watching him, suspicious, though he has done nothing.
@@ -67,7 +68,7 @@ Someone has taken to watching him, suspicious, though he has done nothing.
 Someone has taken to watching him, suspicious, though he has done nothing.
 - He seems composed enough.
 - A flicker of something troubled crosses him.
-- Then, he denies it flatly, looks you in the eye and lies.
+- He stays withdrawn and wary, saying little, for a good while.
 
 ===== VIGNETTE branic-suspicion-guilt_prone =====
 Someone has taken to watching him, suspicious, though he has done nothing.
@@ -75,25 +76,12 @@ Someone has taken to watching him, suspicious, though he has done nothing.
 - A flicker of something troubled crosses him.
 - He stays withdrawn and wary, saying little, for a good while.
 
-===== VIGNETTE branic-betrayal-sensitive =====
+===== VIGNETTE branic-betrayal =====
 He has just learned that a man he trusted lied to him.
 - He seems composed enough.
 - His temper is plainly up, the warmth gone out of him.
 - Then, he flares up and snaps, temper boiling over.
-- He seems composed enough.
-
-===== VIGNETTE branic-betrayal-guilt_prone =====
-He has just learned that a man he trusted lied to him.
-- He seems composed enough.
-- His temper is plainly up, the warmth gone out of him.
-- Then, he flares up and snaps, temper boiling over.
-- He seems composed enough.
-
-===== VIGNETTE branic-betrayal-hardened =====
-He has just learned that a man he trusted lied to him.
-- He seems composed enough.
-- His temper is plainly up, the warmth gone out of him.
-- Then, he flares up and snaps, temper boiling over.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
 - He seems composed enough.
 
 ===== VIGNETTE branic-multiday_guilt-guilt_prone-minor =====
@@ -168,3 +156,24 @@ He had done something he was not proud of. Now he is being questioned about it.
 - He seems composed enough.
 - A flicker of something troubled crosses him.
 - He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE cichy-probe-habitual_liar =====
+He had done something he was not proud of. Now he is being questioned about it.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- Then, he denies it flatly, looks you in the eye and lies.
+
+===== VIGNETTE cichy-probe-empathic =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it and makes his apologies, tries to set it right.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE cichy-confide-discreet =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- The worst of it seems behind him now; he looks lighter.

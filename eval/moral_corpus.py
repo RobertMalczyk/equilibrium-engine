@@ -40,6 +40,7 @@ VARIANTS = {
         "injustice_sensitivity": 0.9,
         "conflict_avoidance": 0.15,
         "guilt_proneness": 0.5,
+        "honesty_humility": 0.9,  # honest -> an INNOCENT (no wrong) never fires a lie under exposure
     },
     "avoidant": {
         "conflict_avoidance": 0.9,
@@ -93,6 +94,19 @@ def _single_events(kind: str):
             ],
             "moral_betrayal",
         )
+    if (
+        kind == "confide"
+    ):  # a wrong, questioned, then a trusted friend present (gossip_tendency BITES here)
+        ev = [RawEvent(type="wrongdoing", t=i, intensity=1.0) for i in range(3)]
+        ev += [
+            RawEvent(type="probe", t=t, source="reeve", intensity=1.0)
+            for t in range(3, 8)
+        ]
+        ev += [
+            RawEvent(type="confide_opportunity", t=t, source="confidant", intensity=1.0)
+            for t in range(8, 14)
+        ]
+        return ev, "moral_confide"
     raise ValueError(kind)
 
 
@@ -117,6 +131,8 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
     }
     if frame_key == "moral_betrayal":
         initial["relations"] = {"friend": {"trust": 0.8}}
+    if frame_key == "moral_confide":
+        initial["relations"] = {"confidant": {"trust": 0.9}}
     cfg = _cfg(persona, traits, timescale=False)
     sc = Scenario(
         id=kind, persona=persona, initial_overrides=initial, events=tuple(events)
@@ -127,6 +143,8 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
     relief_pending = False
     withdraw_run = 0
     last_dem = None
+    reacted = False  # a betrayal/anger REACT has fired; collapse its oscillation into a sustained chill
+    chill_noted = False
 
     def flush():
         nonlocal withdraw_run
@@ -146,7 +164,19 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
                 continue
             withdraw_run += 1
             continue
-        if act in ACT:
+        if (
+            act in REACT
+        ):  # outburst/cold_response/... -- first one shows; the rest is one sustained chill
+            flush()
+            if not reacted:
+                reacted = True
+                line = f"- Then, {ACT[act]}."
+            elif not chill_noted:
+                chill_noted = True
+                line = "- The chill does not lift; he stays cold and curt, the trust gone out of him."
+            else:
+                continue
+        elif act in ACT:
             flush()
             if act in TERMINAL:
                 answered = True
@@ -171,22 +201,26 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
     return "\n".join(line for line in lines if line)
 
 
-# (persona, variant, kind, multiday) -> the corpus axes
-SINGLE_KINDS = ["probe", "accusation", "suspicion", "betrayal"]
-# which variants make sense for which kind (keeps the corpus meaningful, not a blind cross-product)
+# Base anger/social REACT verbs (from render_moral.ACT) -- a betrayal/accusation reply, not a moral action.
+REACT = {"outburst", "cold_response", "complain", "refuse"}
+
+# Each kind pairs ONLY with the variants whose trait actually BITES there, so variants stay distinguishable
+# (the judge flagged hardened==guilt_prone under accusation, gossip==guilt under probe, all-same betrayal).
 KIND_VARIANTS = {
-    "probe": [
-        "guilt_prone",
-        "hardened",
-        "habitual_liar",
-        "empathic",
+    "probe": ["guilt_prone", "hardened", "habitual_liar", "empathic"],
+    "confide": [
         "discreet",
         "gossip_prone",
-    ],
-    "accusation": ["sensitive", "avoidant", "guilt_prone", "hardened"],
+        "empathic",
+    ],  # gossip_tendency BITES here, not under probe
+    "accusation": [
+        "sensitive",
+        "avoidant",
+    ],  # injustice vs conflict_avoidance -- the real contrast
     "suspicion": ["avoidant", "sensitive", "guilt_prone"],
-    "betrayal": ["sensitive", "guilt_prone", "hardened"],
 }
+# betrayal's reply (anger/cold/-trust) is trait-independent -> ONE representative per persona, no variant axis.
+BETRAYAL_VARIANT = "guilt_prone"
 MULTIDAY_VARIANTS = ["guilt_prone", "hardened", "empathic"]
 MULTIDAY_HALFLIVES = [("minor", 64800), ("serious", 259200)]
 
@@ -195,10 +229,16 @@ def generate() -> list[tuple[str, str]]:
     """Returns a list of (scenario_id, observable_vignette) across personas x situations x variants."""
     out: list[tuple[str, str]] = []
     for persona in PERSONAS:
-        for kind in SINGLE_KINDS:
-            for variant in KIND_VARIANTS[kind]:
+        for kind, variants in KIND_VARIANTS.items():
+            for variant in variants:
                 vid = f"{persona}-{kind}-{variant}"
                 out.append((vid, _render_single(persona, VARIANTS[variant], kind)))
+        out.append(
+            (
+                f"{persona}-betrayal",
+                _render_single(persona, VARIANTS[BETRAYAL_VARIANT], "betrayal"),
+            )
+        )
         for variant in MULTIDAY_VARIANTS:
             for hl_name, hl in MULTIDAY_HALFLIVES:
                 vid = f"{persona}-multiday_guilt-{variant}-{hl_name}"
