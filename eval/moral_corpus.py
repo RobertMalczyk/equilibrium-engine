@@ -150,13 +150,22 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
     )  # terminal acts already narrated (don't repeat the same disclosure twice)
     confided = False
 
+    withdrawn_noted = (
+        False  # the strong withdrawn-wary beat lands ONCE, not once per run
+    )
+
     def flush():
-        nonlocal withdraw_run
+        nonlocal withdraw_run, withdrawn_noted
         if withdraw_run >= 2:
-            lines.append(
-                "- He stays withdrawn and wary, saying little, for a good while."
-            )
-        elif withdraw_run == 1:
+            # a second long withdrawal is the SAME mood continuing, not a fresh beat -> compress
+            if not withdrawn_noted:
+                withdrawn_noted = True
+                lines.append(
+                    "- He stays withdrawn and wary, saying little, for a good while."
+                )
+            elif lines[-1] != "- He keeps to himself, the wariness not lifting.":
+                lines.append("- He keeps to himself, the wariness not lifting.")
+        elif withdraw_run == 1 and not withdrawn_noted:
             lines.append("- He says little, keeps his distance.")
         withdraw_run = 0
 
@@ -216,6 +225,12 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
     if withheld:
         lines.append(
             "- With his friend, though, he holds back -- keeps the worst of it to himself."
+        )
+    # betrayal: if the arc fired the flare but never settled into the chill (a single REACT at the very end),
+    # the cold has to LAND -- a betrayal does not end on a flash of temper, it ends in withdrawn trust.
+    if reacted and not chill_noted:
+        lines.append(
+            "- The flare passes, but the cold stays in him; the trust does not come back."
         )
     if relief_pending and not withheld:
         lines.append("- The worst of it seems behind him now; he looks lighter.")
