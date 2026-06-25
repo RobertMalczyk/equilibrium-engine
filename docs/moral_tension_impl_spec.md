@@ -1,5 +1,10 @@
 # M-J Moral Tension / Secrecy Dynamics — implementation specification
 
+> **STATUS (2026-06-25): IMPLEMENTED + CALIBRATED, merged to `main`.** Every slice below is built and
+> opt-in (byte-identical without moral config). Calibrated constants live in `calibration/moral_overlay.yaml`;
+> test results in [`eval/MORAL_REPORT.md`](../eval/MORAL_REPORT.md). The minor/serious guilt split (spec §11)
+> ships as the A3 Secret `moral_weight` guilt drip (`ledger_params.secret_weight_to_guilt`).
+
 > Engineering blueprint. Reconciles the original M-J proposal with the Equilibrium Engine architecture
 > (`moral_tension_review.md`) and the scope-expansion test strategy (`moral_tension_test_plan.md`).
 > Every quantity here is **topology** (decided now) or a **named config key** (calibrated later) —

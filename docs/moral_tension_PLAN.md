@@ -1,5 +1,10 @@
 # M-J Moral Tension / Secrecy Dynamics — master plan
 
+> **STATUS (2026-06-25): IMPLEMENTED + CALIBRATED, merged to `main`.** All slices M-J.0–M-J.4.4 are
+> built, opt-in, and byte-identical for legacy personas. Calibration is closed (suspicion 24h &
+> serious-guilt ~72h half-lives judge-validated; moral corpus 4.0–4.83/5). Test results:
+> [`eval/MORAL_REPORT.md`](../eval/MORAL_REPORT.md). This doc is kept as the historical execution record.
+
 > Single execution plan tying together the four design docs. **Planning only — no engine code written.**
 > - `moral_tension_review.md` — concept review (engine/logic/relation/outcome)
 > - `moral_tension_impl_spec.md` — detailed implementation spec (states/ledger/equations/coupling/trace)

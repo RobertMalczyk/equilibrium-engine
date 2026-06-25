@@ -1,0 +1,65 @@
+<!doctype html><meta charset=utf-8>
+<title>Moral-tension (M-J) test report</title>
+<style>
+ body{font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;color:#1a1a1a}
+ h1{font-size:1.6rem} h2{margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}
+ .big{font-size:2.4rem;font-weight:700} .sub{color:#666}
+ table{border-collapse:collapse;width:100%;margin:.5rem 0} td,th{padding:.35rem .6rem;text-align:left;vertical-align:top}
+ tr:nth-child(even){background:#fafafa}
+ .bar{position:relative;background:#eee;border-radius:4px;height:20px;min-width:180px}
+ .bar span{position:absolute;left:0;top:0;bottom:0;border-radius:4px}
+ .bar em{position:relative;font-style:normal;font-size:12px;padding-left:6px;line-height:20px;color:#111}
+ code{background:#f3f3f3;padding:1px 4px;border-radius:3px}
+ .note{background:#fff8e1;border-left:4px solid #f0c000;padding:.6rem 1rem;margin:1rem 0}
+ .ok{color:#1a7f37;font-weight:600}
+</style>
+<h1>Moral-tension (M-J) test report</h1>
+<p class=sub>Opt-in moral overlay — guilt · secrets · lies · accusation · suspicion · betrayal. Merged to <code>main</code>; calibration closed.</p>
+<p class=big>4.0–4.83<span class=sub style="font-size:1rem"> / 5 mean judge score (post-calibration)</span></p>
+
+<div class=note><b>No PASS/FAIL rate.</b> Unlike the base believability corpus (binary per-record),
+moral behaviour is judged on a <b>fuzzy 1–5 quality scale</b> (believability + curve_plausibility).
+The numbers here are <b>mean judge scores</b>, not pass counts.</div>
+
+<h2>Gate-C moral corpus — 126 vignettes</h2>
+<p class=sub>7 personas × moral situations; each rendered to plain-language observable demeanor + actions only. Blind Sonnet judge, 1–5.</p>
+<table>
+<tr><th>situation</th><th>vignettes</th><th>blind-judge mean</th></tr>
+<tr><td>probe (wrong, then questioned)</td><td>28</td><td>—</td></tr>
+<tr><td>confide (friend present after a wrong)</td><td>21</td><td>3.39 (gossip↔discreet split)</td></tr>
+<tr><td>accusation (falsely accused)</td><td>14</td><td>—</td></tr>
+<tr><td>suspicion (watched, innocent)</td><td>14</td><td>3.29 → <span class=ok>4.0</span></td></tr>
+<tr><td>betrayal (a trusted man lied)</td><td>7</td><td>3.05 → <span class=ok>4.0</span> (residual 4.1, curve 4.3)</td></tr>
+<tr><td>multi-day guilt</td><td>42</td><td>see half-life below</td></tr>
+<tr><td><b>full-corpus initial sweep</b></td><td><b>(154 incl. since-consolidated variants)</b></td><td><b>3.93</b></td></tr>
+</table>
+<p>A <b>paced</b> collect-fix-rejudge loop lifted the two weak situations 3.05/3.29 → <span class=ok>4.0/4.0</span>. Fixed clusters (judge-confirmed): innocent-under-suspicion no longer lies; betrayal lands in withdrawn distrust (never on a flash of temper); gossip vs discreet are observably distinct. Two residuals then closed (betrayal always lands the chill; suspicion-avoidant develops to fully closed-off).</p>
+
+<h2>Litmus blind judge — 12 vignettes</h2>
+<table>
+<tr><td>initial</td><td><div class="bar"><span style="width:63.4%;background:hsl(45 80% 50%)"></span><em>3.17 / 5</em></div></td></tr>
+<tr><td>after fixes</td><td><div class="bar"><span style="width:88.4%;background:hsl(90 65% 45%)"></span><em>4.42 / 5</em></div></td></tr>
+<tr><td><b>final</b></td><td><div class="bar"><span style="width:96.6%;background:hsl(112 65% 45%)"></span><em>4.83 / 5 (10×5, 2×4)</em></div></td></tr>
+</table>
+
+<h2>Half-life calibration (multi-day blind judge)</h2>
+<p class=sub><b>Guilt</b> — believable persistence over 4 days for a <i>serious</i> unconfessed wrong:</p>
+<table>
+<tr><th>arc</th><th>score</th><th>reading</th></tr>
+<tr><td>72h</td><td class=ok>5/5</td><td>sustained visible weight across four days — present, not resolving</td></tr>
+<tr><td>18h</td><td>3/5</td><td>a clean conscience by day 4 feels too tidy for a serious wrong</td></tr>
+<tr><td>6h</td><td>1/5</td><td>near-total dissipation in one evening — denial, not a conscience</td></tr>
+</table>
+<p>→ confirms the <b>minor(18h)/serious(72h) split</b>, implemented without a second state: an active <code>Secret</code> re-injects guilt ∝ <code>moral_weight</code> × salience; confession/exposure stops the drip → relief.</p>
+<p><b>Suspicion</b> — half-life <b>48h → 24h</b>, judge-ranked <b>24h &gt; 48h &gt; 14d</b> (24h "fast enough to feel healthy"; 14d "pathological" without evidence). <code>perceived_injustice</code> not half-life-judged — confounded (vented via <code>blame_other</code>).</p>
+
+<h2>Deterministic guarantees</h2>
+<table>
+<tr><td>pre-filter survivors (81-point grid, hard gates)</td><td class=ok>18/81 (stable across every magnitude edit)</td></tr>
+<tr><td>full test suite</td><td class=ok>399 passed, 4 skipped</td></tr>
+<tr><td>legacy goldens (no overlay)</td><td class=ok>byte-identical</td></tr>
+<tr><td>base 1400 corpus across the whole M-MEM + M-J merge</td><td class=ok>byte-identical (build+diff vs baseline 65249a1)</td></tr>
+</table>
+<p>The last row is the opt-in proof: enabling the moral subsystem changes <b>zero</b> records of the base corpus, so the <a href="hourly_runs/FINAL_report.html">base blind-judge believability numbers</a> stand unchanged.</p>
+
+<p class=sub>Verdicts: <code>calibration/moral_judge_verdict.json</code>, <code>moral_corpus_verdict.json</code>, <code>moral_corpus_residual_verdict.json</code>, <code>moral_multiday_verdict.json</code>, <code>moral_halflife_verdict.json</code>. Full detail: <a href="MORAL_REPORT.md">MORAL_REPORT.md</a>.</p>

@@ -15,6 +15,11 @@
 <h1>Hourly blind-judge sweep — consolidated report</h1>
 <p class=sub>Slices present: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] · records judged: 2800</p>
 <p class=big>93.5% <span class=sub style="font-size:1rem">(2618/2800 PASS overall)</span></p>
+<p style="background:#fff8e1;border-left:4px solid #f0c000;padding:.6rem 1rem">
+<b>Still valid after the M-MEM + M-J (moral) merge.</b> Those subsystems are <b>opt-in</b>: the base
+believability corpus renders <b>byte-identically</b> across the whole merge (deterministic build+diff vs
+pre-feature baseline <code>65249a1</code>), so these PASS numbers are unchanged. The moral overlay is
+judged separately on a fuzzy 1–5 scale (not PASS/FAIL) — see <a href="../MORAL_REPORT.html">MORAL_REPORT.html</a>.</p>
 <h2>Burst OFF vs ON</h2>
 <div class=cmp>
  <div><b>burst OFF</b><div class="bar"><span style="width:93.6%;background:hsl(112 65% 45%)"></span><em>93.6% · 1311/1400</em></div></div>

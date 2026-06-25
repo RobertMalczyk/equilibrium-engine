@@ -4,6 +4,12 @@ Slices present: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  ·  records judged: 2800
 
 **Overall: 2618/2800 PASS (93.5%)**
 
+> **Still valid after the M-MEM + M-J (moral) merge.** Those subsystems are **opt-in**: the base
+> believability corpus renders **byte-identically** across the whole merge (verified by a deterministic
+> build+diff against pre-feature baseline `65249a1`), so these PASS numbers are unchanged — a re-judge
+> would re-score identical text. The moral overlay has its own, separately-judged report (it is scored on
+> a fuzzy 1–5 quality scale, **not** PASS/FAIL): see [MORAL_REPORT.md](../MORAL_REPORT.md).
+
 ## Burst OFF vs ON
 
 | overlay | PASS | rate |
