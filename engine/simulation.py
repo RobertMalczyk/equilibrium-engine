@@ -148,6 +148,9 @@ def _update_secrets(runtime: PersonaRuntime, events: list[RawEvent], t: int) -> 
     cue_gain = float(lp.get("secret_cue_salience", 0.0))
     floor = float(lp.get("inactive_unresolved_floor", 0.0))
     stress_gain = float(lp.get("secret_salience_to_stress", 0.0))
+    guilt_gain = float(
+        lp.get("secret_weight_to_guilt", 0.0)
+    )  # A3: moral_weight sustains guilt
     gs = runtime.global_state
     ids = sorted(
         led.secrets
@@ -171,13 +174,19 @@ def _update_secrets(runtime: PersonaRuntime, events: list[RawEvent], t: int) -> 
                         if w not in s.known_by:
                             s.known_by.append(w)
                     s.hidden_from = []  # public knowledge -> no longer ACTIVELY hiding -> inactivation
-    if (
-        stress_gain and "stress" in gs
-    ):  # an ACTIVE secret weighs on the persona; inactive -> no weight
-        for sid in ids:
-            s = led.secrets[sid]
-            if _secret_active(s, floor):
+    for sid in ids:  # an ACTIVE secret weighs (stress) AND, by its moral_weight, keeps GUILT alive (A3:
+        s = led.secrets[
+            sid
+        ]  # the minor/serious split -- a serious unconfessed wrong lingers, a minor fades;
+        if _secret_active(
+            s, floor
+        ):  # confession/exposure inactivates it -> both drips stop -> relief.
+            if stress_gain and "stress" in gs:
                 gs["stress"] = clamp01(gs["stress"] + stress_gain * s.salience)
+            if guilt_gain and "guilt" in gs:
+                gs["guilt"] = clamp01(
+                    gs["guilt"] + guilt_gain * s.moral_weight * s.salience
+                )
 
 
 def _commit(runtime: PersonaRuntime, delta: StateDelta) -> None:
