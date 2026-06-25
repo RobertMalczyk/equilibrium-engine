@@ -1,0 +1,10 @@
+welf_day_burstOFF_091: PASS -- sane cycle of restlessness, occupation, rest, warm thanks
+welf_day_burstOFF_092: PASS -- calm day, mild reactions, sleeps and wakes recovered
+welf_day_burstOFF_093: PASS -- lets mockery pass calmly, fitting composed merchant
+welf_day_burstOFF_094: PASS -- brief tension then calm, mockery shrugged off, believable
+welf_day_burstOFF_095: PASS -- even-keeled day, restlessness and rest in good rhythm
+welf_day_burstOFF_096: PASS -- normal cycle of boredom, occupation, warm responses
+welf_day_burstOFF_097: PASS -- many kindnesses warmly received, sane pacing throughout
+welf_day_burstOFF_098: PASS -- mild tension, mockery ignored, late sleep still reasonable
+welf_day_burstOFF_099: PASS -- steady restlessness-and-rest rhythm, recovers overnight
+welf_day_burstOFF_100: PASS -- ordinary even-keeled day, mild reactions, sleeps well

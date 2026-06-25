@@ -1,0 +1,10 @@
+lutek_day_burstON_061: PASS -- restless cycles, shrugs off mockery, sleeps and recovers
+lutek_day_burstON_062: PASS -- warm, busy, easy day; sane pacing throughout
+lutek_day_burstON_063: PASS -- novelty-seeking loops, mockery ignored, normal sleep
+lutek_day_burstON_064: PASS -- believable busy/rest rhythm, warm to kindnesses
+lutek_day_burstON_065: PASS -- restless poet, gracious thanks, recovers overnight
+lutek_day_burstON_066: PASS -- mockery passes, calm busy day, sane sleep
+lutek_day_burstON_067: PASS -- insults roll off, settled mostly, normal cadence
+lutek_day_burstON_068: PASS -- late sleep but coherent busy/rest day
+lutek_day_burstON_069: PASS -- warm, restless, late night, believable arc
+lutek_day_burstON_070: PASS -- mockery ignored, mild edge, recovers overnight

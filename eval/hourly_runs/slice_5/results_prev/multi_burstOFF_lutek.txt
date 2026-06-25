@@ -1,0 +1,10 @@
+lutek_multi_burstOFF_051: PASS -- restless cycles, warm thanks, mockery shrugged, sleeps well
+lutek_multi_burstOFF_052: PASS -- sane pacing, hard-to-offend, recovers nightly
+lutek_multi_burstOFF_053: PASS -- novelty-seeking loop, calm, insults roll off
+lutek_multi_burstOFF_054: PASS -- believable days, mockery ignored, warm to kindness
+lutek_multi_burstOFF_055: PASS -- restless and good-humoured, sleeps and wakes recovered
+lutek_multi_burstOFF_056: PASS -- consistent calm poet, thick-skinned, sane rhythm
+lutek_multi_burstOFF_057: PASS -- easy warm cycles, no jarring reactions
+lutek_multi_burstOFF_058: PASS -- restless busy days, insults shrugged, rests nightly
+lutek_multi_burstOFF_059: PASS -- sane pacing, warm, mild tension only
+lutek_multi_burstOFF_060: PASS -- novelty-driven, good-humoured, sleeps and recovers

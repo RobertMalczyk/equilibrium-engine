@@ -1,0 +1,10 @@
+halgrim_day_burstON_001: PASS -- Calm sergeant, curt under provocation, refuses arrogant Wojsław; sleeps well.
+halgrim_day_burstON_002: PASS -- Even keel, warm to kindnesses, recovers overnight; nothing jars.
+halgrim_day_burstON_003: PASS -- Obeys Edda, declines Wojsław, stays settled; believable day.
+halgrim_day_burstON_004: PASS -- Steady throughout, obeys Edda, warm to Marta; sane pacing.
+halgrim_day_burstON_005: PASS -- Cold contempt builds under repeated mocking, no shouting; resets overnight.
+halgrim_day_burstON_006: PASS -- Mild edge from mockery, curt not raging; recovers fine.
+halgrim_day_burstON_007: PASS -- Obeys Edda, declines Wojsław, calm all day; coherent.
+halgrim_day_burstON_008: PASS -- Declines Wojsław, warm to strangers, only shade curt; sane.
+halgrim_day_burstON_009: PASS -- Mostly warm and settled, lets mockery pass; believable.
+halgrim_day_burstON_010: PASS -- Brief edge after mockery, curt then settles; recovers overnight.

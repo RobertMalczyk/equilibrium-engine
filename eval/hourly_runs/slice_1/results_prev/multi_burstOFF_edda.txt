@@ -1,0 +1,12 @@
+All records read. Each shows composed, in-command behavior: warm to kindness, firm/curt to provocations, sleeps at night, wakes settled. Reactions scale sensibly and stay within profile.
+
+edda_multi_burstOFF_011: PASS -- composed, warm to kindness, sleeps nightly, nothing jars
+edda_multi_burstOFF_012: PASS -- curt to mocks, sane recovery, in-command throughout
+edda_multi_burstOFF_013: PASS -- calm, warm responses, firm refusals, believable pacing
+edda_multi_burstOFF_014: PASS -- composed, lets provocations pass, sleeps and recovers
+edda_multi_burstOFF_015: PASS -- steady, authoritative, sane daily rhythm
+edda_multi_burstOFF_016: PASS -- warm and settled, firm with orders, nothing absurd
+edda_multi_burstOFF_017: PASS -- composed, refuses orders firmly, recovers nightly
+edda_multi_burstOFF_018: PASS -- calm, lets jabs pass, in-command throughout
+edda_multi_burstOFF_019: PASS -- curt to mocks, defiant refusals, sane pacing
+edda_multi_burstOFF_020: PASS -- composed, warm, firm with orders, recovers each night

@@ -1,0 +1,12 @@
+All records reviewed. Each shows sane pacing, nightly sleep with recovery, anger from guard provocations rising and falling, calm baseline, warmth toward strangers but resistance toward guards — consistent with the resentful captive profile.
+
+cichy_multi_burstOFF_041: PASS -- sane pacing, calm baseline, fury only at guard provocation
+cichy_multi_burstOFF_042: PASS -- morning mock-cluster intense but bounded, recovers, sleeps fine
+cichy_multi_burstOFF_043: PASS -- believable spans, anger from jailers, warmth to strangers
+cichy_multi_burstOFF_044: PASS -- coherent days, provoked anger, nightly reset intact
+cichy_multi_burstOFF_045: PASS -- calm-to-tense arc, fury only when mocked, recovers
+cichy_multi_burstOFF_046: PASS -- woken-calm then provoked fury, bounded, consistent
+cichy_multi_burstOFF_047: PASS -- frequent provocations but sane recovery, profile-consistent
+cichy_multi_burstOFF_048: PASS -- believable pacing, soup-curtness and mock-fury fit profile
+cichy_multi_burstOFF_049: PASS -- many provocations, each bounded, nightly reset holds
+cichy_multi_burstOFF_050: PASS -- sane three days, provoked anger, calm otherwise

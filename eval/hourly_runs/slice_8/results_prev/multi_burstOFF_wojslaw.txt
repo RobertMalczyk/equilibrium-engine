@@ -1,0 +1,10 @@
+wojslaw_multi_burstOFF_081: PASS -- calm start escalates to fury-day, sleeps reset cleanly
+wojslaw_multi_burstOFF_082: PASS -- early public insult eruption, warm recovery days follow
+wojslaw_multi_burstOFF_083: PASS -- double mock triggers double eruption, tension drains by night
+wojslaw_multi_burstOFF_084: PASS -- dense insult clusters on days 3-4 yield dense eruptions, sane
+wojslaw_multi_burstOFF_085: PASS -- good day 3 warmth; day 4 lets mocks pass, slightly mild but plausible
+wojslaw_multi_burstOFF_086: PASS -- day 2 tension builds without clear trigger, acceptable background wear
+wojslaw_multi_burstOFF_087: PASS -- heavy-provocation days spike anger, quiet days stay calm
+wojslaw_multi_burstOFF_088: PASS -- bristles at kindness under tension fits a proud man in foul mood
+wojslaw_multi_burstOFF_089: PASS -- warm day 1, building tension days 2-3, eruptions well-provoked
+wojslaw_multi_burstOFF_090: PASS -- unusually peaceful four days with no provocations, consistent

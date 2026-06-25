@@ -1,0 +1,10 @@
+edda_multi_burstOFF_061: PASS -- Calm composed days, sane sleep/recovery, measured reactions.
+edda_multi_burstOFF_062: PASS -- Settled authority, believable pacing, provocations let pass.
+edda_multi_burstOFF_063: PASS -- Six steady days, recovers nightly, nothing jars.
+edda_multi_burstOFF_064: PASS -- Composed throughout, mild curtness fits authority figure.
+edda_multi_burstOFF_065: PASS -- Sane day-cycle, declines/complains proportionately, calm.
+edda_multi_burstOFF_066: PASS -- Steady command, brief curt reply plausible, recovers nightly.
+edda_multi_burstOFF_067: PASS -- Six calm days, measured declines, believable rhythm.
+edda_multi_burstOFF_068: PASS -- Composed, warm to kindness, provocations pass, sane sleep.
+edda_multi_burstOFF_069: PASS -- Settled authority, proportionate reactions, recovers each night.
+edda_multi_burstOFF_070: PASS -- Six steady days, calm command, nothing absurd.

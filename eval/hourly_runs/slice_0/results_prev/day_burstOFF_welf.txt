@@ -1,0 +1,10 @@
+welf_day_burstOFF_001: PASS -- calm, occupied, recovers overnight; fits idle steady merchant.
+welf_day_burstOFF_002: PASS -- mild end-of-day edge after idleness; sleeps and recovers.
+welf_day_burstOFF_003: PASS -- lets mockery pass, even-keeled; sane restless-rest cycle.
+welf_day_burstOFF_004: PASS -- settled day, restlessness handled with work; recovers overnight.
+welf_day_burstOFF_005: PASS -- late sleep, later wake; calm occupied day throughout.
+welf_day_burstOFF_006: PASS -- shrugs off barb; composed, idle-driven restlessness only.
+welf_day_burstOFF_007: PASS -- steady cycle of rest, work, warm thanks; sane.
+welf_day_burstOFF_008: PASS -- ignores public mockery; calm, occupied, recovers overnight.
+welf_day_burstOFF_009: PASS -- multiple barbs all let pass; composed and plausible.
+welf_day_burstOFF_010: PASS -- shrugs barb, mild evening edge; sleeps, wakes recovered.

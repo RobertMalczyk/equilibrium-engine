@@ -1,0 +1,10 @@
+lutek_day_burstON_041: PASS -- restless cycles, warm thanks, mockery shrugged; sane day.
+lutek_day_burstON_042: PASS -- believable boredom/rest rhythm, sleeps, nothing jarring.
+lutek_day_burstON_043: PASS -- mockery ignored, sleeps and wakes recovered; consistent.
+lutek_day_burstON_044: PASS -- normal restless-rest cycle, warm reactions, recovers overnight.
+lutek_day_burstON_045: PASS -- mockery shrugged, lively pacing, sane sleep/wake.
+lutek_day_burstON_046: PASS -- multiple mocks shrugged, brief tension, normal rhythm.
+lutek_day_burstON_047: PASS -- warm with Marta, restless-rest cycle, recovers overnight.
+lutek_day_burstON_048: PASS -- believable boredom/work rhythm, sleeps and wakes settled.
+lutek_day_burstON_049: PASS -- mockery let pass, normal pacing, overnight recovery.
+lutek_day_burstON_050: PASS -- restless-rest cadence, warm thanks, sane sleep/wake.

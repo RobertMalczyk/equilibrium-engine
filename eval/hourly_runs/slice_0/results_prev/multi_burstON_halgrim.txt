@@ -1,0 +1,12 @@
+Judging each record on its own. Key concerns: snapping at Marta (kindness) with cold contempt is jarring for this calm man; Edda is respected so contempt to her jars.
+
+halgrim_multi_burstON_001: PASS -- calm, recovers nightly, curt under Wojsław provocation, sane.
+halgrim_multi_burstON_002: PASS -- even keel, mild complaints under rain, recovers well.
+halgrim_multi_burstON_003: PASS -- mostly settled, mild grumbling at orders, believable.
+halgrim_multi_burstON_004: PASS -- cold contempt to Wojsław fitting, recovers nightly.
+halgrim_multi_burstON_005: PASS -- tense stretches plausible, warm to kindness throughout.
+halgrim_multi_burstON_006: PASS -- calm, recovers, only mild edge by day 4.
+halgrim_multi_burstON_007: FLAG -- cold contempt to respected Edda over a routine order jars.
+halgrim_multi_burstON_008: PASS -- escalating tension under repeated Wojsław mockery, believable buildup.
+halgrim_multi_burstON_009: FLAG -- cold contempt to Edda and snapping at Marta's kindness jar.
+halgrim_multi_burstON_010: FLAG -- repeatedly snaps cold contempt at Marta's kindness and Edda, jarring.

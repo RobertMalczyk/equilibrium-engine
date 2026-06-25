@@ -1,0 +1,10 @@
+edda_day_burstOFF_031: PASS -- composed, warm to kindness, commands the watch; sane day.
+edda_day_burstOFF_032: PASS -- calm, gracious, takes charge; believable pacing throughout.
+edda_day_burstOFF_033: PASS -- settled, warmed by kindnesses, directs others; consistent.
+edda_day_burstOFF_034: PASS -- composed, complies or lets orders pass; sane day.
+edda_day_burstOFF_035: PASS -- quiet, settled, sets the watch; nothing jars.
+edda_day_burstOFF_036: PASS -- handles strangers' orders evenly; composed and in command.
+edda_day_burstOFF_037: PASS -- warm to many kindnesses, settled; takes charge properly.
+edda_day_burstOFF_038: PASS -- calm, gracious, directs the watch; believable throughout.
+edda_day_burstOFF_039: PASS -- settled and warmed; commands at night; sane.
+edda_day_burstOFF_040: PASS -- lets mockery pass composedly, stays in command; fitting.

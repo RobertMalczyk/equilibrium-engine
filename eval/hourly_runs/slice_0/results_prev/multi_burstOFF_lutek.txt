@@ -1,0 +1,12 @@
+All ten records show consistent, sane behavior: restless/occupy cycles fitting the novelty-craving poet, warm thanks for kindness, mockery let pass, sleeps at night and wakes recovered, mild tension passing.
+
+lutek_multi_burstOFF_001: PASS -- sane restless cycles, warm, mockery ignored, sleeps nightly
+lutek_multi_burstOFF_002: PASS -- believable pacing, easy-going, brief tension only
+lutek_multi_burstOFF_003: PASS -- restless poet, hard to offend, recovers overnight
+lutek_multi_burstOFF_004: PASS -- mockery rolls off, settled mostly, sane rhythm
+lutek_multi_burstOFF_005: PASS -- six days coherent, restless, warm, never rages
+lutek_multi_burstOFF_006: PASS -- consistent cycles, thick-skinned, sleeps and recovers
+lutek_multi_burstOFF_007: PASS -- believable days, novelty-seeking, mild fleeting tension
+lutek_multi_burstOFF_008: PASS -- warm thanks, mockery ignored, sane day rhythm
+lutek_multi_burstOFF_009: PASS -- many kindnesses, easy-going, restless, recovers nightly
+lutek_multi_burstOFF_010: PASS -- settled poet, hard to offend, sane pacing

@@ -1,0 +1,10 @@
+cichy_day_burstOFF_011: PASS -- Sane pacing, sleeps, wakes recovered; mock-fury fits resentment.
+cichy_day_burstOFF_012: PASS -- Believable arc; flares at guard mockery, calms, sleeps well.
+cichy_day_burstOFF_013: PASS -- Calm day, ignores soup, one snap at mockery; coherent.
+cichy_day_burstOFF_014: PASS -- Two furies at mockery, warm to strangers; consistent and bounded.
+cichy_day_burstOFF_015: PASS -- Steady day, single fury at barb, recovers and sleeps.
+cichy_day_burstOFF_016: PASS -- Two evening furies at mockery; sane rise and fall.
+cichy_day_burstOFF_017: PASS -- Warm to strangers, curt/furious to guards; believable pacing.
+cichy_day_burstOFF_018: PASS -- Coherent day, furies at mockery, recovers by morning.
+cichy_day_burstOFF_019: PASS -- Calm with one snap; bounded temper, normal sleep cycle.
+cichy_day_burstOFF_020: PASS -- Quiet day, only curt to a barb; sane throughout.

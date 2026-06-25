@@ -1,0 +1,10 @@
+edda_day_burstOFF_091: PASS -- calm composed castellan, lets stranger's order pass, sleeps well
+edda_day_burstOFF_092: PASS -- composed throughout, mild complaint at stranger's order, recovers
+edda_day_burstOFF_093: PASS -- settled, warm to kindnesses, takes charge, sleeps recovered
+edda_day_burstOFF_094: PASS -- lets mockery pass calmly, composed authority, sane pacing
+edda_day_burstOFF_095: PASS -- many kindnesses, mockery shrugged off, commands watch, sleeps
+edda_day_burstOFF_096: PASS -- warm and settled, directs others, believable day
+edda_day_burstOFF_097: PASS -- quiet composed day, warm to help, takes charge
+edda_day_burstOFF_098: PASS -- composed, mockery ignored, warm to soup, sleeps well
+edda_day_burstOFF_099: PASS -- mockery shrugged off, warm to kindness, commands, recovers
+edda_day_burstOFF_100: PASS -- settled, lets mockery pass, directs watch, sane pacing

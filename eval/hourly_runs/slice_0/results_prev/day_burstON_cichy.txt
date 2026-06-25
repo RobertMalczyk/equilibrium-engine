@@ -1,0 +1,10 @@
+cichy_day_burstON_001: PASS -- escalating anger to mocks, recovers, sleeps and wakes calm
+cichy_day_burstON_002: PASS -- curt to guards, calm pacing, believable rest cycle
+cichy_day_burstON_003: PASS -- mild curtness to guards, sane day, recovers overnight
+cichy_day_burstON_004: PASS -- warm to stranger, curt to guards, fitting contrast
+cichy_day_burstON_005: PASS -- curt responses, tense afternoon, normal sleep recovery
+cichy_day_burstON_006: PASS -- mostly lets mocks pass, tense but believable day
+cichy_day_burstON_007: PASS -- warm to stranger, curt to guards, sane pacing
+cichy_day_burstON_008: PASS -- snaps then de-escalates at mocks, recovers overnight
+cichy_day_burstON_009: PASS -- late fury after provocation, settles, sleeps normally
+cichy_day_burstON_010: PASS -- public mock triggers eruption, plausible escalation and recovery

@@ -1,0 +1,10 @@
+cichy_day_burstOFF_001: PASS -- resentful flares at guards, calm spans, sleeps and recovers
+cichy_day_burstOFF_002: PASS -- snaps at mockery and soup, settles, normal day rhythm
+cichy_day_burstOFF_003: PASS -- curt with guards, calm otherwise, believable pacing
+cichy_day_burstOFF_004: PASS -- warm to stranger, curt to guards, fury at mockery
+cichy_day_burstOFF_005: PASS -- erupts at mock, curt at soup, recovers overnight
+cichy_day_burstOFF_006: PASS -- mostly settled, late fury at mockery, sane pacing
+cichy_day_burstOFF_007: PASS -- fury at guard, warm to stranger, recovers by night
+cichy_day_burstOFF_008: PASS -- repeated snaps at mockery, calm between, sleeps recovered
+cichy_day_burstOFF_009: PASS -- curt and angry at guards, settled spans, recovers
+cichy_day_burstOFF_010: PASS -- bristles and erupts at guards, calm otherwise, believable

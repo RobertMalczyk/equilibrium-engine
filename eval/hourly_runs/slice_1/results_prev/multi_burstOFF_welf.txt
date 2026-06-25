@@ -1,0 +1,12 @@
+All records show consistent sane pacing: boredom rises and is relieved, rests, sleeps at night, wakes recovered, takes kindness warmly, shrugs off mockery (consistent with calm Welf). One brief bristle in 016 (single mock) is minor and recovers. No absurdities.
+
+welf_multi_burstOFF_011: PASS -- sane idle-boredom cycles, sleeps and recovers, shrugs off mockery
+welf_multi_burstOFF_012: PASS -- believable boredom/rest cycles, calm under mockery, nightly recovery
+welf_multi_burstOFF_013: PASS -- coherent days, settles and rests, calm responses throughout
+welf_multi_burstOFF_014: PASS -- steady boredom-relief rhythm, sleeps well, no jarring reactions
+welf_multi_burstOFF_015: PASS -- sane pacing, calm under barbs, recovers each night
+welf_multi_burstOFF_016: PASS -- one brief bristle at mockery, recovers; otherwise calm and coherent
+welf_multi_burstOFF_017: PASS -- believable idle cycles, shrugs off barbs, nightly reset
+welf_multi_burstOFF_018: PASS -- consistent boredom/rest pattern, even-keeled throughout
+welf_multi_burstOFF_019: PASS -- sane multi-day rhythm, calm responses, sleeps and recovers
+welf_multi_burstOFF_020: PASS -- coherent pacing, warm to kindness, unruffled by mockery

@@ -1,0 +1,10 @@
+welf_multi_burstOFF_071: PASS -- steady boredom cycles, mocks let pass, sane sleep rhythm
+welf_multi_burstOFF_072: PASS -- dense kindnesses but warmly absorbed, late sleep acceptable
+welf_multi_burstOFF_073: PASS -- one neutral soup response early, otherwise sane and fitting
+welf_multi_burstOFF_074: PASS -- rain watch, mocks let pass, boredom cycles sane
+welf_multi_burstOFF_075: PASS -- brief restless-to-settled flip minor but not absurd
+welf_multi_burstOFF_076: PASS -- one neutral kindness response, otherwise sane cycles
+welf_multi_burstOFF_077: PASS -- double mocks let pass, many kindnesses warmly received
+welf_multi_burstOFF_078: PASS -- two consecutive rest entries at 18:23 and 18:31 minor oddity
+welf_multi_burstOFF_079: PASS -- very late night Day 3, still 6h sleep, sane overall
+welf_multi_burstOFF_080: PASS -- restless and soup simultaneous harmless, sane cycles

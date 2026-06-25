@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_061: PASS -- calm baseline, snaps at guards, warms to strangers, sleeps well
+cichy_multi_burstOFF_062: PASS -- believable rise/fall, resentment toward jailers, recovers nightly
+cichy_multi_burstOFF_063: PASS -- coherent days, fury at mockery, kindness to strangers
+cichy_multi_burstOFF_064: PASS -- sane pacing, guard-directed anger, restful nights
+cichy_multi_burstOFF_065: PASS -- consistent captive resentment, calm spells, nightly reset
+cichy_multi_burstOFF_066: PASS -- frequent eruptions at guards plausible for resentful prisoner
+cichy_multi_burstOFF_067: PASS -- believable arc, anger at jailers, strangers warmly received
+cichy_multi_burstOFF_068: PASS -- calm baseline with guard-triggered flares, sleeps and recovers
+cichy_multi_burstOFF_069: PASS -- resentful captive, eruptions clustered around mockery, sane nights
+cichy_multi_burstOFF_070: PASS -- coherent pacing, anger at guards, warmth to strangers

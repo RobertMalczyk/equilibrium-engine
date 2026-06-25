@@ -1,0 +1,10 @@
+welf_multi_burstOFF_001: PASS -- calm, occupies idle hours, sleeps/wakes well, ignores mockery
+welf_multi_burstOFF_002: PASS -- composed, restless-then-busy cycle, recovers nightly, shrugs off barb
+welf_multi_burstOFF_003: PASS -- even-keeled, sane boredom/rest rhythm, warm to kindness
+welf_multi_burstOFF_004: PASS -- steady pacing, lets mockery pass, sleeps and recovers
+welf_multi_burstOFF_005: PASS -- calm through rain and idleness, believable daily cycle
+welf_multi_burstOFF_006: PASS -- composed, occupies empty hours, no jarring reactions
+welf_multi_burstOFF_007: PASS -- consistent calm over five days, sane sleep/wake drift
+welf_multi_burstOFF_008: PASS -- six days steady, shrugs off repeated barbs, recovers nightly
+welf_multi_burstOFF_009: PASS -- even-tempered, handles soup/rain/mockery, believable rhythm
+welf_multi_burstOFF_010: PASS -- calm throughout, sane boredom cycle, lets barbs pass

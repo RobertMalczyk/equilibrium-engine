@@ -1,0 +1,10 @@
+cichy_multi_burstOFF_081: PASS -- sane 4-day arc, guard filter consistent
+cichy_multi_burstOFF_082: PASS -- rain and repeated mockings drive escalation believably
+cichy_multi_burstOFF_083: PASS -- heavy day-2 provocation stack yields multiple outbursts
+cichy_multi_burstOFF_084: PASS -- two late outbursts fit accumulation across the day
+cichy_multi_burstOFF_085: PASS -- repeated guard pressure sustains elevated anger across days
+cichy_multi_burstOFF_086: PASS -- five day-1 outbursts dense but provocation count matches
+cichy_multi_burstOFF_087: PASS -- double soup two minutes apart is quirky, not a character flaw
+cichy_multi_burstOFF_088: PASS -- rain plus sustained mockings yield credible outburst cluster
+cichy_multi_burstOFF_089: PASS -- stranger warmth then guard eruption fits dual-filter profile
+cichy_multi_burstOFF_090: PASS -- two day-4 outbursts spaced plausibly under rain stressor

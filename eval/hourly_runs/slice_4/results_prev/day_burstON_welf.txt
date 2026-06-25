@@ -1,0 +1,10 @@
+welf_day_burstON_041: PASS -- boredom rises, occupies himself, calm, sleeps and wakes recovered.
+welf_day_burstON_042: PASS -- steady day, warm to kindnesses, restless-then-busy, sleeps normally.
+welf_day_burstON_043: PASS -- believable pacing, even-keeled, settles and sleeps well.
+welf_day_burstON_044: PASS -- lets mockery pass unmoved; calm, restless-driven, sane day.
+welf_day_burstON_045: PASS -- calm, well-paced boredom cycle, sleeps and wakes fine.
+welf_day_burstON_046: PASS -- shrugs off barb, even-tempered, normal boredom-and-rest rhythm.
+welf_day_burstON_047: PASS -- mockery ignored, composed throughout, believable day and sleep.
+welf_day_burstON_048: PASS -- steady, restless when idle, calm, sleeps and recovers.
+welf_day_burstON_049: PASS -- even-keeled, mild evening edge before sleep, recovers overnight.
+welf_day_burstON_050: PASS -- calm, well-fed, normal boredom rhythm, sleeps soundly.

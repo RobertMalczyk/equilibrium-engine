@@ -1,0 +1,10 @@
+branic_day_burstOFF_071: PASS -- sane rhythm, restless cycles, calm day, sleeps and recovers
+branic_day_burstOFF_072: PASS -- believable; late-evening snaps at repeated mockery when frayed
+branic_day_burstOFF_073: PASS -- calm, varied kindnesses, lets jabs pass, normal pacing
+branic_day_burstOFF_074: PASS -- public mockery erupts once when worn; otherwise composed
+branic_day_burstOFF_075: PASS -- steady day, lets early jab pass, sleeps well
+branic_day_burstOFF_076: PASS -- calm, warm to kindnesses, no jarring reactions
+branic_day_burstOFF_077: PASS -- composed, lets repeated jabs pass, sane pacing
+branic_day_burstOFF_078: PASS -- obeys orders, lets jabs pass, believable rhythm
+branic_day_burstOFF_079: PASS -- calm dutiful day, restless cycles, recovers overnight
+branic_day_burstOFF_080: PASS -- lets early mockery pass, steady, sleeps and wakes eased

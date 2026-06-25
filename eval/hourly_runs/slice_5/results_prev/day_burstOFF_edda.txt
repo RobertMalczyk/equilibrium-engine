@@ -1,0 +1,10 @@
+edda_day_burstOFF_051: PASS -- calm, composed; lets stranger's order pass, warm to kindness
+edda_day_burstOFF_052: PASS -- settled day, gracious to help, takes charge nightly
+edda_day_burstOFF_053: PASS -- ignores mock and stranger's order, calm command throughout
+edda_day_burstOFF_054: PASS -- even-keeled day, warm thanks, sets watch nightly
+edda_day_burstOFF_055: PASS -- composed, warmed by kindnesses, sleeps and wakes recovered
+edda_day_burstOFF_056: PASS -- lets orders pass or complies, calm and settled
+edda_day_burstOFF_057: PASS -- shrugs off mock, gracious, takes charge at night
+edda_day_burstOFF_058: PASS -- ignores stranger's order, warm to help, sane pacing
+edda_day_burstOFF_059: PASS -- settled and gracious throughout, normal sleep cycle
+edda_day_burstOFF_060: PASS -- calm, warmed by repeated kindnesses, directs the watch

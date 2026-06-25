@@ -1,0 +1,10 @@
+halgrim_multi_burstOFF_011: PASS -- calm baseline, cold curtness escalates under Wojsław's mocking, recovers nightly.
+halgrim_multi_burstOFF_012: PASS -- steady, mild curtness to provocation, sleeps and recovers believably.
+halgrim_multi_burstOFF_013: PASS -- even keel, tension builds and resets across nights sensibly.
+halgrim_multi_burstOFF_014: PASS -- cold defiance to Wojsław, warm to kindness, recovers nightly.
+halgrim_multi_burstOFF_015: PASS -- coherent arc, tension from provocation, warmth otherwise, nightly reset.
+halgrim_multi_burstOFF_016: PASS -- calm throughout, late cold contempt to Wojsław, sane pacing.
+halgrim_multi_burstOFF_017: PASS -- rain plus mockery wears him to curtness, recovers nightly.
+halgrim_multi_burstOFF_018: PASS -- steady, cold responses to Wojsław, tension fades with sleep.
+halgrim_multi_burstOFF_019: PASS -- calm, compliant, mild curtness, believable spans and recovery.
+halgrim_multi_burstOFF_020: PASS -- even-keeled, declines Wojsław coolly, warm otherwise, nightly reset.

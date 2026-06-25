@@ -1,0 +1,10 @@
+halgrim_day_burstON_081: PASS -- Quiet day; Edda curtness late is plausible accumulation.
+halgrim_day_burstON_082: PASS -- Steady, compliant day; Wojsław grumble fits the profile.
+halgrim_day_burstON_083: PASS -- Marta warmth offset by Wojsław barbs; curt responses fitting.
+halgrim_day_burstON_084: PASS -- Uneventful calm day; consistent with iron self-control.
+halgrim_day_burstON_085: PASS -- Declining Wojsław's order fits low regard; otherwise settled.
+halgrim_day_burstON_086: PASS -- Plain duty day; no friction, no issues.
+halgrim_day_burstON_087: PASS -- Heavy Wojsław pressure escalates to cold contempt; sleep resets.
+halgrim_day_burstON_088: PASS -- Positive-heavy day; warmth and compliance throughout, plausible.
+halgrim_day_burstON_089: PASS -- Calm day with stranger kindnesses; settled throughout.
+halgrim_day_burstON_090: FLAG -- Cold contempt toward Marta after Wojsław baiting; displaced snap

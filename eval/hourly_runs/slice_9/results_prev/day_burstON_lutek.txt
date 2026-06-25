@@ -1,0 +1,10 @@
+lutek_day_burstON_091: PASS -- Restless cycles, soup, mockery shrugged off, sleeps and wakes recovered.
+lutek_day_burstON_092: PASS -- Warm responses, frequent novelty-seeking, calm overnight reset; fully in character.
+lutek_day_burstON_093: PASS -- Mockery rolls off, easy boredom-driven activity, normal sleep cycle.
+lutek_day_burstON_094: PASS -- Two slights shrugged off, restless tinkering, believable pacing throughout.
+lutek_day_burstON_095: PASS -- Many kindnesses welcomed warmly, restless cadence, sane sleep recovery.
+lutek_day_burstON_096: PASS -- Warm to Marta, boredom cycles, calm day, normal night.
+lutek_day_burstON_097: PASS -- Mockery ignored, soup welcomed, restless activity, sleeps and recovers.
+lutek_day_burstON_098: PASS -- Easy good humor, novelty-seeking, believable hunger/rest rhythm overnight.
+lutek_day_burstON_099: PASS -- Warm thanks, restless tinkering, settled day, normal sleep reset.
+lutek_day_burstON_100: PASS -- Kindnesses received warmly, boredom-driven activity, sane daily rhythm.

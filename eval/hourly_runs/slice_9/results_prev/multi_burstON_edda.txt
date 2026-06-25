@@ -1,0 +1,10 @@
+edda_multi_burstON_091: PASS -- settled castellan, sleeps well, mild curtness fits late taunt
+edda_multi_burstON_092: PASS -- positive days, compliance with orders plausible, sane arc
+edda_multi_burstON_093: PASS -- complies with stranger orders occasionally, odd but not absurd
+edda_multi_burstON_094: PASS -- clustered soup deliveries minor, overall sane and positive
+edda_multi_burstON_095: PASS -- curt reply to mock, then lets orders pass, coherent sequence
+edda_multi_burstON_096: PASS -- busy Day 1 with kindnesses, flat moment at 14:00 minor
+edda_multi_burstON_097: PASS -- steady under repeated stranger orders, stays composed throughout
+edda_multi_burstON_098: PASS -- dawn burst of kindnesses dense but mechanically acceptable
+edda_multi_burstON_099: PASS -- quiet and clean, settled castellan with routine days
+edda_multi_burstON_100: PASS -- ignores mocks, calm across four days, nothing jars

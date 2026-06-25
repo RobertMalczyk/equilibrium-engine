@@ -1,0 +1,10 @@
+edda_multi_burstOFF_041: PASS -- calm, composed, sleeps and recovers; fitting for castellan.
+edda_multi_burstOFF_042: PASS -- steady commanding days; lets mockery pass, sane pacing.
+edda_multi_burstOFF_043: PASS -- composed, directs the watch, recovers nightly; coherent.
+edda_multi_burstOFF_044: PASS -- five sane days, in-command, mockery shrugged off.
+edda_multi_burstOFF_045: PASS -- mild complaints/declines to strangers fit a firm castellan.
+edda_multi_burstOFF_046: PASS -- quiet, composed, well-paced days; nothing jars.
+edda_multi_burstOFF_047: PASS -- curt reply to public mockery fits her authority.
+edda_multi_burstOFF_048: PASS -- five settled commanding days, sane recovery.
+edda_multi_burstOFF_049: PASS -- calm, in-command, believable pacing throughout.
+edda_multi_burstOFF_050: PASS -- cold curt reply and refusal under repeated mockery, fitting.

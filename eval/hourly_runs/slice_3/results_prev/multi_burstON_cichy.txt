@@ -1,0 +1,12 @@
+All records reviewed. Each shows sane day/night pacing, sleep recovery, escalating anger to repeated mocks (consistent with a resentful captive), neutral/curt reaction to guard soup, warmth to strangers. No contradictions.
+
+cichy_multi_burstON_031: PASS -- sane pacing, anger to mocks, calm nights, warm to stranger
+cichy_multi_burstON_032: PASS -- believable spans, bristles at mocks, recovers nightly
+cichy_multi_burstON_033: PASS -- coherent days, escalating anger to repeated mocks
+cichy_multi_burstON_034: PASS -- sane rhythm, fury to public mock, curt to soup
+cichy_multi_burstON_035: PASS -- calm baseline, curt to guards, sleeps and recovers
+cichy_multi_burstON_036: PASS -- believable, eruptions to mocks, warm to stranger
+cichy_multi_burstON_037: PASS -- sane pacing, curt and snapping at guards
+cichy_multi_burstON_038: PASS -- six days coherent, mocks escalate, nights reset
+cichy_multi_burstON_039: PASS -- believable spans, fury to mocks, thanks strangers
+cichy_multi_burstON_040: PASS -- sane rhythm, curt to captors, warm to kindness

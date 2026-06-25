@@ -1,0 +1,10 @@
+halgrim_day_burstON_071: PASS -- Calm, settled day; warm to kindness, recovers after sleep.
+halgrim_day_burstON_072: PASS -- Quiet steady day, warm thanks, sane pacing throughout.
+halgrim_day_burstON_073: PASS -- Lets jibes pass, answers Wojsław curtly and coldly; fitting.
+halgrim_day_burstON_074: PASS -- Mild mutters under pressure, tense by night; controlled, believable.
+halgrim_day_burstON_075: PASS -- Even keel, warm to kindness; uneventful, sane day.
+halgrim_day_burstON_076: PASS -- Brief tension, mostly settled; warm thanks; recovers normally.
+halgrim_day_burstON_077: PASS -- Lets Wojsław's order pass, warm otherwise; calm day.
+halgrim_day_burstON_078: PASS -- Cold cutting contempt at public mockery; controlled, in-character.
+halgrim_day_burstON_079: PASS -- Lets jibe pass, settled all day; warm thanks.
+halgrim_day_burstON_080: PASS -- Repeated mockery builds cold curtness, tension; never shouts, recovers.

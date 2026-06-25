@@ -1,0 +1,10 @@
+edda_day_burstOFF_001: PASS -- calm authority, sane pacing, lets stranger's order pass
+edda_day_burstOFF_002: PASS -- composed throughout, warm to staff, takes charge
+edda_day_burstOFF_003: PASS -- mockery and orders let pass, settled day
+edda_day_burstOFF_004: PASS -- unbothered by mockery, warm to kindnesses
+edda_day_burstOFF_005: PASS -- steady all day, sane rest and sleep cycle
+edda_day_burstOFF_006: PASS -- quiet composed day, fitting for a castellan
+edda_day_burstOFF_007: PASS -- mild complaints and one refusal to stranger orders, plausible
+edda_day_burstOFF_008: PASS -- warm to allies, shrugs off mockery, composed
+edda_day_burstOFF_009: PASS -- settled, gracious, lets stranger order pass
+edda_day_burstOFF_010: PASS -- calm, warm, takes charge at watch

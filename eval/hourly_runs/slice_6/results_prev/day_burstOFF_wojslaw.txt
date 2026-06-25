@@ -1,0 +1,10 @@
+wojslaw_day_burstOFF_061: PASS -- sane pacing; flares at mocks, calm otherwise, sleeps
+wojslaw_day_burstOFF_062: PASS -- believable escalation and recovery across the day
+wojslaw_day_burstOFF_063: PASS -- anger rises and subsides plausibly; warm to kindness
+wojslaw_day_burstOFF_064: PASS -- mostly warmed, erupts at public mockery; fitting
+wojslaw_day_burstOFF_065: PASS -- morning flares, settles, evening eruption; coherent
+wojslaw_day_burstOFF_066: PASS -- proud flares at mocks, gracious to kindness
+wojslaw_day_burstOFF_067: PASS -- calm day, declines orders, late eruptions believable
+wojslaw_day_burstOFF_068: PASS -- grumbles at orders, erupts at mockery; sane
+wojslaw_day_burstOFF_069: PASS -- morning fury, lingering edge, recovers; plausible
+wojslaw_day_burstOFF_070: PASS -- refuses orders, flares at mocks, settles; coherent

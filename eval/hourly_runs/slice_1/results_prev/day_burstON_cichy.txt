@@ -1,0 +1,10 @@
+cichy_day_burstON_011: PASS -- Calm day, curt to guards, warm to stranger; sane.
+cichy_day_burstON_012: PASS -- Snaps at mock, otherwise curt; believable edgy captive.
+cichy_day_burstON_013: PASS -- Early flare, settles; resentment toward guards consistent.
+cichy_day_burstON_014: PASS -- Erupts at public mockery, recovers; fits volatile captive.
+cichy_day_burstON_015: PASS -- Curt to guards, calm pacing; sane day.
+cichy_day_burstON_016: PASS -- Escalating evening snaps after repeated jabs; believable.
+cichy_day_burstON_017: PASS -- Warm to strangers, curt to guards; coherent day.
+cichy_day_burstON_018: PASS -- Curt to guards throughout, sleeps; nothing jars.
+cichy_day_burstON_019: PASS -- Mild curtness to guards, calm pacing; sane.
+cichy_day_burstON_020: PASS -- Mostly settled, curt once to guard; believable.

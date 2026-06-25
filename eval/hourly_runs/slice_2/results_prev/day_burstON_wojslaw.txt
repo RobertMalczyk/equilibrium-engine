@@ -1,0 +1,10 @@
+wojslaw_day_burstON_021: PASS -- proud man flares at insults, calm spells, sleeps and recovers
+wojslaw_day_burstON_022: PASS -- believable temper bursts, warm to kindness, sane day rhythm
+wojslaw_day_burstON_023: FLAG -- erupts at soup-bringing repeatedly; escalating anger to neutral acts
+wojslaw_day_burstON_024: PASS -- sensible flares at mockery, calm recovery, normal pacing
+wojslaw_day_burstON_025: PASS -- temper rises and falls believably, sleeps recovered
+wojslaw_day_burstON_026: PASS -- mostly calm, snaps late at mockery, coherent day
+wojslaw_day_burstON_027: PASS -- proud refusals of orders, flares at mockery, recovers overnight
+wojslaw_day_burstON_028: PASS -- defiant refusals and eruptions fit proud temper, sane pacing
+wojslaw_day_burstON_029: PASS -- refuses orders, flares then settles, believable arc
+wojslaw_day_burstON_030: PASS -- erupts at insults, some displaced anger, recovers by night

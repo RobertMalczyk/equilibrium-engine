@@ -1,0 +1,10 @@
+branic_multi_burstOFF_031: PASS -- calm green recruit, restless/soup cycle sane, sleeps and recovers
+branic_multi_burstOFF_032: PASS -- escalating defiance to Halgrim believable, resets nightly, bounded
+branic_multi_burstOFF_033: FLAG -- early heavy refusals/defiance toward mentor before much provocation
+branic_multi_burstOFF_034: PASS -- mostly compliant, occasional flare and refusal, recovers nightly
+branic_multi_burstOFF_035: PASS -- warm, compliant, rare mild edge; sane pacing throughout
+branic_multi_burstOFF_036: PASS -- calm, lets mockery pass, one flare; believable recruit
+branic_multi_burstOFF_037: FLAG -- Day1 18:29 full fury eruption to first mild mock
+branic_multi_burstOFF_038: PASS -- compliant with occasional flare/eruption after buildup, recovers nightly
+branic_multi_burstOFF_039: PASS -- compliant, lets barbs pass, calm sane days
+branic_multi_burstOFF_040: PASS -- compliant, one flare after order-mock buildup, recovers nightly

@@ -1,0 +1,10 @@
+branic_day_burstOFF_061: PASS -- sane idle/work/rest rhythm, sleeps and recovers
+branic_day_burstOFF_062: PASS -- believable day, shrugs off mockery, warm to kindness
+branic_day_burstOFF_063: PASS -- restlessness and rest cycle, nothing jarring
+branic_day_burstOFF_064: PASS -- brief tense moment fits thin-skinned recruit
+branic_day_burstOFF_065: PASS -- repeated mockery let pass, sane pacing
+branic_day_burstOFF_066: PASS -- normal rhythm, mild evening edge plausible
+branic_day_burstOFF_067: PASS -- idle/work/eat/rest cycle, believable
+branic_day_burstOFF_068: PASS -- dense interactions but reactions all sane
+branic_day_burstOFF_069: PASS -- single bristle at mocking, otherwise calm, fits
+branic_day_burstOFF_070: PASS -- believable day, warm to kindness, sleeps well
