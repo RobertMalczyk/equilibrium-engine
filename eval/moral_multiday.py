@@ -100,6 +100,41 @@ def render_multiday(traits: dict, guilt_half_life: int, n_days: int = 4) -> str:
     return "\n".join(lines)
 
 
+def _wary(s: float) -> str:
+    """OBSERVABLE read of how wary he still is of the man who watched him (the suspicion relation dim)."""
+    if s > 0.40:
+        return "he is plainly still wary of the man -- keeps his distance, watches him back"
+    if s > 0.20:
+        return "a residual wariness toward the man lingers in how he holds himself near him"
+    if s > 0.08:
+        return "only a faint guardedness toward him is left"
+    return "he seems easy around the man again, his guard down"
+
+
+def render_suspicion_multiday(suspicion_half_life: int, n_days: int = 4) -> str:
+    """Multi-day SUSPICION persistence: a man WATCHED with suspicion on day 1 (he did nothing), then the days
+    pass -- how long does he stay wary of that man? Reads the suspicion relation dim each morning."""
+    from eval.observe import relation_trajectory
+
+    ev = [
+        RawEvent(type="suspicion_raised", t=t, source="watcher", intensity=1.0)
+        for t in range(8, 12)
+    ]
+    for d in range(n_days):
+        ev.append(RawEvent(type="nightfall", t=d * DAY_TICKS + WAKING, intensity=1.0))
+    cfg = _cfg({"conflict_avoidance": 0.5}, {"suspicion": suspicion_half_life})
+    sc = Scenario(id="susp", persona="halgrim", initial_overrides={}, events=tuple(ev))
+    _, tr = run_scenario(cfg, sc, n_ticks=n_days * DAY_TICKS)
+    susp = relation_trajectory(tr, "watcher", "suspicion")
+    lines = [
+        "On the first day a man watched him with open suspicion, though he had done nothing. "
+        "This is how warily he holds himself toward that man over the days that follow."
+    ]
+    for d in range(1, n_days):
+        lines.append(f"- The morning of day {d + 1}: {_wary(susp[d * DAY_TICKS + 5])}.")
+    return "\n".join(lines)
+
+
 if __name__ == "__main__":
     traits = {"guilt_proneness": 0.9, "honesty_humility": 0.9}
     for hl, lbl in [(21600, "6h"), (64800, "18h"), (259200, "72h")]:

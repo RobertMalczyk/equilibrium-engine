@@ -1,0 +1,14 @@
+{
+  "stage": "M-J.4.4 A1+A2 -- calibrate remaining half-lives (paced multi-day judge) + write validated values",
+  "judge_model": "claude-sonnet (blind, paced single agents)",
+  "calibrated": {
+    "guilt": {"value": "18h base + Secret moral_weight drip (A3)", "verdict": "serious-guilt feel ~72h validated via the drip; 18h base is the minor anchor"},
+    "suspicion": {"old": "48h", "new": "24h", "verdict": "blind judge ranked 24h>48h>14d for a PASSING suspicion -- 24h 'fast enough to feel healthy, slow enough to feel real'; 48h 'slightly rigid'; 14d 'pathological' without evidence"}
+  },
+  "not_judged": {
+    "perceived_injustice": "CONFOUNDED -- the persona blames_other (vents perceived_injustice) so it discharges rather than purely decaying; multi-day persistence is not a clean signal. Its within-scenario behavior is covered by the Gate-C corpus (accusation 3.75). Spec anchor 24h kept.",
+    "exposure_anxiety / avoidance_drive (60min)": "fast states -- fade within the day, no multi-day persistence question; within-scenario behavior already judged (probe 4.38).",
+    "rumination / repair_drive / cognitive_load_from_lies": "derived/secondary slow states tracking guilt/lies; spec anchors kept (12h/24h/6h), low independent criticality."
+  },
+  "verdict": "A1: suspicion half-life judge-validated and lowered 48h->24h; guilt closed via A3 drip; grievance confounded (kept anchor). A2: validated values written into moral_overlay.yaml (guilt + suspicion relabelled CALIBRATED); pre-filter re-run after the change (still 18/81 -- no litmus broken, per the calibration lesson). Evidence-grade suspicion (14d) split is a future follow-up like minor/serious guilt."
+}
