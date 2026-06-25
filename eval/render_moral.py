@@ -45,7 +45,11 @@ FRAME = {
 
 def _demeanor(g: dict) -> str:
     """A coarse bystander read of how he is carrying himself, from visible signs only."""
-    burden = g.get("guilt", 0.0) + 0.5 * g.get("rumination", 0.0) + 0.4 * g.get("stress", 0.0)
+    burden = (
+        g.get("guilt", 0.0)
+        + 0.5 * g.get("rumination", 0.0)
+        + 0.4 * g.get("stress", 0.0)
+    )
     unease = g.get("exposure_anxiety", 0.0) + 0.7 * g.get("avoidance_drive", 0.0)
     grievance = g.get("perceived_injustice", 0.0)
     anger = g.get("anger", 0.0)
@@ -62,22 +66,67 @@ def _demeanor(g: dict) -> str:
     return "he seems composed enough"
 
 
+# A TERMINAL reply answers the matter: after one, the episode is settled, so further CONCEAL (re-hiding the
+# now-answered thing) is not narrated as fresh behaviour, and demeanor reads RELIEVED rather than burdened.
+TERMINAL = {"confess", "apologize", "lie", "blame_other", "confide"}
+CONCEAL = {
+    "remain_silent",
+    "deflect",
+    "avoid",
+}  # withdrawal/concealment -- compressible into a spell
+
+
 def vignette(traits: dict, scenario: str, n: int = 16) -> str:
     cfg = load_persona(HALGRIM, DEFAULTS, param_overrides=moral_overrides(traits))
     _, tr = run_scenario(
         cfg, load_scenario(ROOT / "data" / "scenarios" / f"{scenario}.yaml"), n_ticks=n
     )
     lines = [FRAME.get(scenario, "")]
+    answered = False
+    relief_pending = False  # show the post-catharsis "lighter" beat ONCE, at the close (after all disclosures)
+    withdraw_run = 0  # CONCEAL beats, compressed into one "spell" line
+    last_demeanor = None  # dedupe a repeated demeanor even across an intervening action (no stutter ending)
+
+    def flush_withdraw():
+        nonlocal withdraw_run
+        if withdraw_run >= 2:
+            lines.append(
+                "- He stays withdrawn and wary, saying little, for a good while."
+            )
+        elif withdraw_run == 1:
+            lines.append("- He says little, keeps his distance.")
+        withdraw_run = 0
+
     for tk in tr.ticks:
         act = tk.selection.action
         g = tk.state_after_post.global_state
+        if act in CONCEAL:
+            if answered:
+                continue  # the matter is settled -- don't re-narrate concealing an already-answered thing
+            withdraw_run += 1
+            continue
         if act in ACT:
+            flush_withdraw()
+            if act in TERMINAL:
+                answered = True
             line = f"- Then, {ACT[act]}."
         else:
             d = _demeanor(g)
+            if answered and ("weighing on him" in d or "troubled" in d):
+                relief_pending = (
+                    True  # defer to the close so it lands AFTER any further disclosure
+                )
+                continue
+            if withdraw_run and "troubled" in d:
+                continue  # a faint flicker mid-withdrawal is part of the same wary spell, not a new beat
+            flush_withdraw()
+            if d == last_demeanor:
+                continue  # same demeanor as last read -> no fresh information
+            last_demeanor = d
             line = f"- {d[0].upper() + d[1:]}."
-        if (
-            line != lines[-1]
-        ):  # collapse consecutive identical lines (a bystander doesn't repeat himself)
+        if line != lines[-1]:
             lines.append(line)
+    flush_withdraw()
+    if relief_pending:
+        lines.append("- The worst of it seems behind him now; he looks lighter.")
     return "\n".join(line for line in lines if line)
