@@ -1,5 +1,10 @@
 # M-J.4.4 — moral calibration plan (the LLM-judge stage)
 
+> **STATUS (2026-06-25): CLOSED.** Magnitudes calibrated in `calibration/moral_overlay.yaml`; pre-filter
+> 18/81 survivors; litmus 4.83/5; Gate-C corpus 4.0–4.83/5; serious-guilt ~72h (via Secret `moral_weight`
+> drip) and suspicion 24h half-lives judge-validated. Results: [`eval/MORAL_REPORT.md`](../eval/MORAL_REPORT.md).
+> Lesson: re-run the deterministic pre-filter after any magnitude change. Below is the plan as executed.
+
 > The remaining, non-deterministic half of M-J.4.4. The engine + topology are frozen and litmus-proven;
 > every magnitude in `calibration/moral_overlay.yaml` is still a **PLACEHOLDER**. This stage turns the
 > placeholders into calibrated values and scores the moral-on corpus with the blind judge.

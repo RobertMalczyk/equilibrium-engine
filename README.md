@@ -7,7 +7,7 @@ language model in the decision loop.
 **Website:** **[equilibrium-engine.dev](https://equilibrium-engine.dev/)** — interactive demos, the trace explorer, and the [white paper](https://equilibrium-engine.dev/whitepaper.pdf).
 **YouTube:** **[@equilibrium-engine](https://www.youtube.com/@equilibrium-engine)** — teaser & explainer films.
 **Wiki:** **[project wiki](https://github.com/RobertMalczyk/equilibrium-engine/wiki)** — architecture, believability testing, and how to contribute.
-**Reports:** [believability results](eval/hourly_runs/FINAL_report.md) (2,800 blind-judged scenarios, 97.6% pass) · [full per-test report](eval/hourly_runs/TEST_REPORT.md).
+**Reports:** [believability results](eval/hourly_runs/FINAL_report.md) (2,800 blind-judged scenarios, 97.6% pass) · [full per-test report](eval/hourly_runs/TEST_REPORT.md) · [moral-tension (M-J) report](eval/MORAL_REPORT.md) (opt-in moral overlay, judged 1–5).
 
 > ⚠️ **Work in progress (research-grade).** The MVP thesis is proven and the core is stable and
 > tested, but the engine is under **active development** — APIs, the spec, and config layouts can
@@ -117,6 +117,16 @@ byte-identical re-runs, behaviour from dynamics rather than scripts. The tick pa
 harness (Layer 1/2), determinism goldens, and the believability eval (700-day + 700-multiday
 corpora, blind-judge) are in place and green.
 
+**Moral-tension (M-J) overlay — merged, calibrated.** An **opt-in** layer adding guilt, secrets, lies,
+accusation, suspicion, and betrayal dynamics (with a `MoralLedger` of secrets + lie records). It is
+strictly opt-in: with no moral config a persona is **byte-identical** to before, and the base
+believability corpus is unchanged across the whole merge. Calibration is closed (deterministic
+pre-filter → paced blind judge): the moral corpus scores **4.0–4.83/5** post-calibration, the
+serious-guilt (~72h) and suspicion (24h) half-lives are judge-validated. Because moral behaviour is
+graded on a fuzzy 1–5 quality scale rather than PASS/FAIL, it has a dedicated
+[moral-tension report](eval/MORAL_REPORT.md). Plan + spec: `docs/moral_tension_PLAN.md`,
+`docs/moral_tension_impl_spec.md`.
+
 **In progress / known open issues:**
 
 - **Burst / outburst calibration (M20.1).** The burst-saturation subsystem (escalation, latch,
@@ -129,10 +139,11 @@ corpora, blind-judge) are in place and green.
   optionally people-seeding) is being developed behind the input-filter seam.
 - **Stage-2 social dynamics.** Authority↔resentment back-edges, chains of command, mood contagion,
   and leveled grievance are designed but not yet built.
-- **M-MEM (multi-event per tick).** A tick can now carry several events: each is mapped+filtered and
+- **M-MEM (multi-event per tick) — merged.** A tick can carry several events: each is mapped+filtered and
   merged into the effective input (a channel → list of inputs, summed by `update`), with the per-source
   reactive signals keyed on the strongest provoker. A ≤1-event tick stays byte-identical. This is the
-  seam for simultaneous multi-agent fan-out — see `docs/m_mem_PLAN.md`.
+  seam for simultaneous multi-agent fan-out, and the M-J moral overlay (witness fan-out) builds on it —
+  see `docs/m_mem_PLAN.md`.
 
 Because of the above, **treat the spec, config schema, and calibrated constants as moving targets.**
 Contributions and issue reports are welcome, but expect churn.
