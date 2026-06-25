@@ -1,14 +1,20 @@
 {
-  "judge_model": "claude-sonnet (blind, 7-batch workflow fan-out)",
-  "stage": "M-J.4.4 step 3 -- Gate-C moral-overlay corpus judged",
-  "judged": 154,
-  "mean_believability": 3.929,
-  "distribution": {"1": 0, "2": 16, "3": 32, "4": 53, "5": 53},
-  "mean_by_situation": {"probe": 4.38, "multiday_guilt": 4.36, "accusation": 3.75, "suspicion": 3.29, "betrayal": 3.05},
-  "problem_clusters": [
-    {"cluster": "betrayal anger snap-recovery", "severity": "high", "vignettes": "all *-betrayal-*", "issue": "rage flares then returns to composure 'in the same breath' -> reads as a state-machine reset; over a short scenario the anger demeanor oscillates/clears unbelievably", "fix": "renderer: don't narrate a flare immediately followed by composure; or surface sustained cold anger after betrayal"},
-    {"cluster": "innocent-under-suspicion LIES", "severity": "high", "vignettes": "*-suspicion-sensitive (and others)", "issue": "the premise says he did nothing, yet he 'denies it flatly and lies' -- the variant omits honesty_humility (defaults 0) so exposure triggers a lie; an innocent suspected man should not lie", "fix": "set honesty_humility high on the suspicion variants; suspicion alone should not fire `lie`"},
-    {"cluster": "variant indistinguishability", "severity": "medium", "vignettes": "*-accusation-hardened==guilt_prone; *-probe-gossip_prone==guilt_prone==discreet; *-betrayal-* all identical", "issue": "hardened/gossip variants render IDENTICALLY to guilt_prone in short scenarios -- the trait produces no observable difference (wrong variant-kind pairing, or the short arc doesn't express the trait)", "fix": "pair variants to the kind where the trait BITES (gossip->confide not probe; hardened needs a contrast the short arc shows); or drop non-discriminating pairings"}
+  "judge_model": "claude-sonnet (blind; full run + paced re-judges)",
+  "stage": "M-J.4.4 step 3 -- Gate-C corpus, collect-fix-rejudge loop (paced, never one big burst)",
+  "full_corpus_initial": {"judged": 154, "mean": 3.93, "weak_situations": {"betrayal": 3.05, "suspicion": 3.29}},
+  "fixed_clusters_progress": {
+    "round_0": {"suspicion": 3.29, "betrayal": 3.05, "confide": null},
+    "round_1": {"suspicion": 3.71, "betrayal": 3.57, "confide": 3.29, "mean": 3.53},
+    "round_2_plus_micropolish": {"suspicion": 4.0, "betrayal": 4.0, "confide": 3.39, "mean": 3.73}
+  },
+  "clusters_fixed": [
+    "innocent-under-suspicion LIES -> FIXED (sensitive variant given honesty_humility; judge confirms 'no innocent lies')",
+    "betrayal anger snap-recovery -> FIXED (renderer collapses oscillation into a sustained chill; no trailing composed; suspicion/betrayal both up to 4.0)",
+    "variant indistinguishability -> FIXED (kind<->variant pairing; NEW confide kind makes gossip vs discreet distinguishable -- judge confirms 'clearly distinguishable, unburdens vs holds back'; gossip now shows an observable withholding beat)"
   ],
-  "verdict": "Gate-C corpus run works end-to-end (154 judged via 7 Sonnet agents, mean 3.93). probe/multiday strong (4.4); betrayal/suspicion weak (3.0-3.3) from three actionable clusters: betrayal anger snap-recovery, innocent-suspicion-lying (variant trait bug), and variant indistinguishability in short scenarios."
+  "residual_minor": [
+    "suspicion-avoidant: a withdrawn-wary beat occasionally repeats (mild)",
+    "welf-betrayal: one persona's arc ends on a flare without the chill landing (mild)"
+  ],
+  "verdict": "the Gate-C corpus + a PACED collect-fix-rejudge loop lifted the weak situations from 3.05/3.29 to 4.0/4.0; the two major clusters (innocent-lying, variant-indistinguishability) are confirmed fixed by the blind judge. Residuals are diminishing-returns renderer polish."
 }
