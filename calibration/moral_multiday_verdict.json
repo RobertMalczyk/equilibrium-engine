@@ -1,0 +1,15 @@
+{
+  "judge_model": "claude-sonnet (blind, multi-day half-life)",
+  "stage": "M-J.4.4 calibration step (i) -- small judged multi-day batch closing the guilt half-life",
+  "question": "which guilt-persistence over 4 days reads believable for a SERIOUS unconfessed wrong?",
+  "arcs": {"A_18h": 3, "B_72h": 5, "C_6h": 1},
+  "best": "B (72h)",
+  "ranking": ["B_72h", "A_18h", "C_6h"],
+  "judge_reasons": {
+    "B_72h": "sustained visible weight across four days with only modest dulling -- present but not resolving",
+    "A_18h": "plausible mid-range fade but a clean conscience by day 4 without confession feels too tidy for a serious wrong",
+    "C_6h": "near-total dissipation within a single evening -- reads as denial or sociopathy, not a normal conscience"
+  },
+  "conclusion": "the spec serious-guilt anchor (~72h) is JUDGE-VALIDATED; 6h is implausible (forgotten overnight) and 18h reads as MINOR-guilt pacing (too fast for a serious wrong) -- which confirms the spec minor(18h)/serious(72h) split.",
+  "implementation_note": "the engine has ONE guilt state with ONE half-life; the minor/serious split needs the Secret's moral_weight/stakes to modulate effective persistence (spec section 11) -- a follow-up. The current overlay placeholder (18h) is sound for MINOR guilt; serious wrongs want ~72h."
+}
