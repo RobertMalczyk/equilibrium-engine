@@ -1,0 +1,168 @@
+===== VIGNETTE edda-probe-discreet =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE edda-probe-gossip_prone =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE edda-accusation-sensitive =====
+He is being accused -- pressed, in front of others, over something.
+- Then, he turns it back on his accuser, points the finger elsewhere.
+
+===== VIGNETTE edda-accusation-avoidant =====
+He is being accused -- pressed, in front of others, over something.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE edda-accusation-guilt_prone =====
+He is being accused -- pressed, in front of others, over something.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+
+===== VIGNETTE edda-accusation-hardened =====
+He is being accused -- pressed, in front of others, over something.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+
+===== VIGNETTE edda-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE edda-suspicion-sensitive =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- Then, he denies it flatly, looks you in the eye and lies.
+
+===== VIGNETTE edda-suspicion-guilt_prone =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE edda-betrayal-sensitive =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+
+===== VIGNETTE edda-betrayal-guilt_prone =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+
+===== VIGNETTE edda-betrayal-hardened =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+
+===== VIGNETTE edda-multiday_guilt-guilt_prone-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 2, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 3, on waking: only a faint trace of it seems left on him.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE edda-multiday_guilt-guilt_prone-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 2, on waking: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 3, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 4, on waking: it still sits with him -- a shadow that hasn't lifted.
+
+===== VIGNETTE edda-multiday_guilt-hardened-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 2, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE edda-multiday_guilt-hardened-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 2, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE edda-multiday_guilt-empathic-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 2, on waking: only a faint trace of it seems left on him.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE edda-multiday_guilt-empathic-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 2, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 3, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 4, on waking: it still sits with him -- a shadow that hasn't lifted.
+
+===== VIGNETTE halgrim-probe-guilt_prone =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE halgrim-probe-hardened =====
+He had done something he was not proud of. Now he is being questioned about it.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE halgrim-probe-habitual_liar =====
+He had done something he was not proud of. Now he is being questioned about it.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- Then, he denies it flatly, looks you in the eye and lies.
+
+===== VIGNETTE halgrim-probe-empathic =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it and makes his apologies, tries to set it right.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE halgrim-probe-discreet =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE halgrim-probe-gossip_prone =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- The worst of it seems behind him now; he looks lighter.
