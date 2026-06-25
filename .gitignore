@@ -35,3 +35,6 @@ eval/hourly_runs/missing.json
 eval/hourly_runs/progress.md
 # Phase-A re-judge: the wave workflow is regenerated (absolute paths); results + REPORT.md ARE tracked.
 eval/phaseA_run/wave_workflow.js
+
+# regression_judge build artifacts (regenerable via --build)
+eval/regression_judge/batches/
