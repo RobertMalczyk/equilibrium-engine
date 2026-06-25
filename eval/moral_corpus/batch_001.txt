@@ -1,17 +1,9 @@
-===== VIGNETTE cichy-confide-gossip_prone =====
-He has been carrying a wrong he did. A trusted friend is here with him now.
-- A flicker of something troubled crosses him.
-- He carries himself like a man with something weighing on him.
-- Then, he owns up to it -- admits plainly what he did.
-- The worst of it seems behind him now; he looks lighter.
-
 ===== VIGNETTE cichy-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
 - A flicker of something troubled crosses him.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - Then, he unburdens himself to his friend, tells them the whole of it.
-- Then, he owns up to it and makes his apologies, tries to set it right.
 - The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE cichy-accusation-sensitive =====
@@ -30,12 +22,6 @@ Someone has taken to watching him, suspicious, though he has done nothing.
 - He stays withdrawn and wary, saying little, for a good while.
 
 ===== VIGNETTE cichy-suspicion-sensitive =====
-Someone has taken to watching him, suspicious, though he has done nothing.
-- He seems composed enough.
-- A flicker of something troubled crosses him.
-- He stays withdrawn and wary, saying little, for a good while.
-
-===== VIGNETTE cichy-suspicion-guilt_prone =====
 Someone has taken to watching him, suspicious, though he has done nothing.
 - He seems composed enough.
 - A flicker of something troubled crosses him.
@@ -146,6 +132,7 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - A flicker of something troubled crosses him.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
+- With his friend, though, he holds back -- keeps the worst of it to himself.
 - The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE edda-confide-empathic =====
@@ -154,7 +141,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - Then, he unburdens himself to his friend, tells them the whole of it.
-- Then, he owns up to it and makes his apologies, tries to set it right.
 - He seems composed enough.
 - The worst of it seems behind him now; he looks lighter.
 
@@ -172,3 +158,16 @@ Someone has taken to watching him, suspicious, though he has done nothing.
 - He stays withdrawn and wary, saying little, for a good while.
 - He grows visibly uneasy, shifts, won't quite meet your eye.
 - He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE edda-suspicion-sensitive =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE edda-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.

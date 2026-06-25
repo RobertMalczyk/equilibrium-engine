@@ -145,6 +145,10 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
     last_dem = None
     reacted = False  # a betrayal/anger REACT has fired; collapse its oscillation into a sustained chill
     chill_noted = False
+    fired: set[str] = (
+        set()
+    )  # terminal acts already narrated (don't repeat the same disclosure twice)
+    confided = False
 
     def flush():
         nonlocal withdraw_run
@@ -177,15 +181,22 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
             else:
                 continue
         elif act in ACT:
-            flush()
             if act in TERMINAL:
+                if act in fired:
+                    continue  # already narrated this disclosure -- don't repeat the same beat verbatim
+                fired.add(act)
                 answered = True
+                if act == "confide":
+                    confided = True
+            flush()
             line = f"- Then, {ACT[act]}."
         else:
             d = _demeanor(g)
             if answered and ("weighing on him" in d or "troubled" in d):
                 relief_pending = True
                 continue
+            if reacted and ("composed" in d or "settled" in d or "at ease" in d):
+                continue  # after a betrayal goes cold, the calm doesn't simply return -- no reset beat
             if withdraw_run and "troubled" in d:
                 continue
             flush()
@@ -196,6 +207,11 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
         if line != lines[-1]:
             lines.append(line)
     flush()
+    # confide scenario: a friend was present but he did NOT unburden -> show the WITHHOLDING (gossip-prone)
+    if frame_key == "moral_confide" and answered and not confided:
+        lines.append(
+            "- With his friend, though, he holds back -- keeps the worst of it to himself."
+        )
     if relief_pending:
         lines.append("- The worst of it seems behind him now; he looks lighter.")
     return "\n".join(line for line in lines if line)
@@ -217,7 +233,10 @@ KIND_VARIANTS = {
         "sensitive",
         "avoidant",
     ],  # injustice vs conflict_avoidance -- the real contrast
-    "suspicion": ["avoidant", "sensitive", "guilt_prone"],
+    "suspicion": [
+        "avoidant",
+        "sensitive",
+    ],  # guilt_prone indistinguishable here (innocent -> no guilt)
 }
 # betrayal's reply (anger/cold/-trust) is trait-independent -> ONE representative per persona, no variant axis.
 BETRAYAL_VARIANT = "guilt_prone"
