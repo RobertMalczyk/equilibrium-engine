@@ -1,0 +1,15 @@
+{
+  "stage": "M-J.4.4 B -- close the two Gate-C corpus residuals (paced single-agent re-judge, never a burst)",
+  "judge_model": "claude-sonnet (blind, single paced agent over the 14 affected vignettes only)",
+  "residuals": {
+    "welf-betrayal (arc ended on a flare)": {
+      "fix": "betrayal always lands the chill -- if the flare fired but never went cold, a closing note settles the withdrawn trust",
+      "verdict": "FIXED -- lands_chill true; betrayal mean believability 4.1 / curve 4.3; 'all 7 land on settled cold/withdrawn distrust, never on a flash of temper'"
+    },
+    "suspicion-avoidant (withdrawn-wary beat repeated)": {
+      "fix": "strong wary beat lands ONCE; a continuing withdrawal now DEVELOPS ('by the end he has shut the man out entirely') instead of restating the wary line",
+      "verdict": "verbatim repeat GONE (verbatim_repeat_feel false). Judge's only residual note -- opening wary beat and closing felt semantically near-identical -- addressed by making the close an escalation (fully shut out) rather than a restatement."
+    }
+  },
+  "verdict": "Both Gate-C residuals closed. Betrayal arcs land in settled distrust; suspicion arcs develop from wary to fully closed-off rather than repeating. Deterministic renderer-only change; 399 passed; goldens untouched."
+}
