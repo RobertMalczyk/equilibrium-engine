@@ -1,0 +1,20 @@
+{
+  "judge_model": "claude-sonnet (blind; full run + paced re-judges)",
+  "stage": "M-J.4.4 step 3 -- Gate-C corpus, collect-fix-rejudge loop (paced, never one big burst)",
+  "full_corpus_initial": {"judged": 154, "mean": 3.93, "weak_situations": {"betrayal": 3.05, "suspicion": 3.29}},
+  "fixed_clusters_progress": {
+    "round_0": {"suspicion": 3.29, "betrayal": 3.05, "confide": null},
+    "round_1": {"suspicion": 3.71, "betrayal": 3.57, "confide": 3.29, "mean": 3.53},
+    "round_2_plus_micropolish": {"suspicion": 4.0, "betrayal": 4.0, "confide": 3.39, "mean": 3.73}
+  },
+  "clusters_fixed": [
+    "innocent-under-suspicion LIES -> FIXED (sensitive variant given honesty_humility; judge confirms 'no innocent lies')",
+    "betrayal anger snap-recovery -> FIXED (renderer collapses oscillation into a sustained chill; no trailing composed; suspicion/betrayal both up to 4.0)",
+    "variant indistinguishability -> FIXED (kind<->variant pairing; NEW confide kind makes gossip vs discreet distinguishable -- judge confirms 'clearly distinguishable, unburdens vs holds back'; gossip now shows an observable withholding beat)"
+  ],
+  "residual_minor": [
+    "suspicion-avoidant: a withdrawn-wary beat occasionally repeats (mild)",
+    "welf-betrayal: one persona's arc ends on a flare without the chill landing (mild)"
+  ],
+  "verdict": "the Gate-C corpus + a PACED collect-fix-rejudge loop lifted the weak situations from 3.05/3.29 to 4.0/4.0; the two major clusters (innocent-lying, variant-indistinguishability) are confirmed fixed by the blind judge. Residuals are diminishing-returns renderer polish."
+}

@@ -1,0 +1,177 @@
+===== VIGNETTE lutek-probe-guilt_prone =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE lutek-probe-hardened =====
+He had done something he was not proud of. Now he is being questioned about it.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE lutek-probe-habitual_liar =====
+He had done something he was not proud of. Now he is being questioned about it.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- Then, he denies it flatly, looks you in the eye and lies.
+
+===== VIGNETTE lutek-probe-empathic =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it and makes his apologies, tries to set it right.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE lutek-confide-discreet =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE lutek-confide-gossip_prone =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- With his friend, though, he holds back -- keeps the worst of it to himself.
+
+===== VIGNETTE lutek-confide-empathic =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it and makes his apologies, tries to set it right.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE lutek-accusation-sensitive =====
+He is being accused -- pressed, in front of others, over something.
+- Then, he turns it back on his accuser, points the finger elsewhere.
+
+===== VIGNETTE lutek-accusation-avoidant =====
+He is being accused -- pressed, in front of others, over something.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE lutek-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE lutek-suspicion-sensitive =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE lutek-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
+
+===== VIGNETTE lutek-multiday_guilt-guilt_prone-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 2, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 3, on waking: only a faint trace of it seems left on him.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE lutek-multiday_guilt-guilt_prone-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 2, on waking: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 3, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 4, on waking: it still sits with him -- a shadow that hasn't lifted.
+
+===== VIGNETTE lutek-multiday_guilt-hardened-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 2, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE lutek-multiday_guilt-hardened-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 2, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE lutek-multiday_guilt-empathic-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 2, on waking: only a faint trace of it seems left on him.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE lutek-multiday_guilt-empathic-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 2, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 3, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 4, on waking: it still sits with him -- a shadow that hasn't lifted.
+
+===== VIGNETTE welf-probe-guilt_prone =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE welf-probe-hardened =====
+He had done something he was not proud of. Now he is being questioned about it.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+
+===== VIGNETTE welf-probe-habitual_liar =====
+He had done something he was not proud of. Now he is being questioned about it.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- Then, he denies it flatly, looks you in the eye and lies.
+
+===== VIGNETTE welf-probe-empathic =====
+He had done something he was not proud of. Now he is being questioned about it.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it and makes his apologies, tries to set it right.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE welf-confide-discreet =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- The worst of it seems behind him now; he looks lighter.
+
+===== VIGNETTE welf-confide-gossip_prone =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- With his friend, though, he holds back -- keeps the worst of it to himself.

@@ -1,0 +1,59 @@
+===== VIGNETTE wojslaw-multiday_guilt-guilt_prone-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 2, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 3, on waking: only a faint trace of it seems left on him.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE wojslaw-multiday_guilt-guilt_prone-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 2, on waking: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 3, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 4, on waking: it still sits with him -- a shadow that hasn't lifted.
+
+===== VIGNETTE wojslaw-multiday_guilt-hardened-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 2, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE wojslaw-multiday_guilt-hardened-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 2, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE wojslaw-multiday_guilt-empathic-minor =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 2, on waking: only a faint trace of it seems left on him.
+- That night he sleeps.
+- The morning of day 3, on waking: he carries himself as a man with nothing on his conscience.
+- That night he sleeps.
+- The morning of day 4, on waking: he carries himself as a man with nothing on his conscience.
+
+===== VIGNETTE wojslaw-multiday_guilt-empathic-serious =====
+On the morning of the first day he did a serious wrong, and has confessed it to no one.
+- That first evening: it still weighs heavily on him, plain in how he holds himself.
+- That night he sleeps.
+- The morning of day 2, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 3, on waking: it still sits with him -- a shadow that hasn't lifted.
+- That night he sleeps.
+- The morning of day 4, on waking: it still sits with him -- a shadow that hasn't lifted.
