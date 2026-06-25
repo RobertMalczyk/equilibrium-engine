@@ -1,0 +1,96 @@
+===== branic-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he flares up and snaps, temper boiling over.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
+
+===== cichy-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- Then, he answers curtly and coldly, shutting down.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
+
+===== edda-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
+
+===== halgrim-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
+
+===== lutek-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
+
+===== welf-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he flares up and snaps, temper boiling over.
+- The flare passes, but the cold stays in him; the trust does not come back.
+
+===== wojslaw-betrayal =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he flares up and snaps, temper boiling over.
+- The chill does not lift; he stays cold and curt, the trust gone out of him.
+
+===== branic-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He keeps to himself, the wariness not lifting.
+
+===== cichy-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He keeps to himself, the wariness not lifting.
+
+===== edda-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He keeps to himself, the wariness not lifting.
+
+===== halgrim-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He keeps to himself, the wariness not lifting.
+
+===== lutek-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He keeps to himself, the wariness not lifting.
+
+===== welf-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He keeps to himself, the wariness not lifting.
+
+===== wojslaw-suspicion-avoidant =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- He stays withdrawn and wary, saying little, for a good while.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- He keeps to himself, the wariness not lifting.

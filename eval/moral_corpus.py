@@ -163,8 +163,14 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
                 lines.append(
                     "- He stays withdrawn and wary, saying little, for a good while."
                 )
-            elif lines[-1] != "- He keeps to himself, the wariness not lifting.":
-                lines.append("- He keeps to himself, the wariness not lifting.")
+            elif (
+                lines[-1]
+                != "- By the end he has shut the man out entirely, giving him nothing."
+            ):
+                # DEVELOP the mood (close off further), don't restate the wary beat
+                lines.append(
+                    "- By the end he has shut the man out entirely, giving him nothing."
+                )
         elif withdraw_run == 1 and not withdrawn_noted:
             lines.append("- He says little, keeps his distance.")
         withdraw_run = 0
