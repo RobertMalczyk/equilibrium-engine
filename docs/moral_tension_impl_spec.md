@@ -695,6 +695,11 @@ byte-identical in legacy mode; Gate B equivalent when moral-enabled at zero gain
      secret's salience weighs as `stress`. INACTIVATION (spec §3.4): active iff `hidden_from` non-empty OR
      `unresolvedness ≥ inactive_unresolved_floor` — once inactive, salience is neither raised nor weighs.
      Opt-in (ledger empty / no ledger_params → legacy byte-identical).
+     **A3 — minor/serious guilt split (`tests/test_moral_guilt_weight.py`, spec §11):** rather than two guilt
+     states, an ACTIVE secret RE-INJECTS guilt each tick by `secret_weight_to_guilt · moral_weight · salience`
+     (in `_update_secrets`). A SERIOUS unconfessed wrong (high `moral_weight`) keeps guilt alive against decay
+     → it lingers (the judge-validated 72h feel) while the base half-life stays minor-appropriate (18h); a
+     minor wrong fades; confession/exposure inactivates the secret → the drip stops → relief. Opt-in.
    - **M-J.4.4 calibration grid + scoped corpus.** Two parts:
      - *Deterministic gates* — ✅ IMPLEMENTED (`tests/test_moral_gates.py`): **Gate A** (legacy byte-identical,
        via `test_tick_golden.py`); **Gate B** zero-gain behavioral equivalence (`eval.moral.zero_gain_overrides`:

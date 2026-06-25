@@ -31,6 +31,8 @@ ledger_params:
   secret_cue_salience: 0.30      # a `secret_cued` reminder raises salience (gated to 0 for an inactive secret). PLACEHOLDER.
   inactive_unresolved_floor: 0.10  # a secret is ACTIVE while hidden_from is non-empty OR unresolvedness >= this. PLACEHOLDER.
   secret_salience_to_stress: 0.10  # an ACTIVE secret's salience weighs as stress each tick; inactive -> 0 (relief). PLACEHOLDER.
+  secret_weight_to_guilt: 0.10     # A3 minor/serious split: an ACTIVE secret RE-INJECTS guilt by moral_weight x salience
+                                   # each tick -> a SERIOUS unconfessed wrong lingers (the 72h feel), a MINOR one fades. PLACEHOLDER.
 
 gains:
   guilt:
