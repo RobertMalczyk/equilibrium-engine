@@ -1,0 +1,258 @@
+# M-J.0 moral overlay (OPT-IN) -- guilt core.
+#
+# Deep-merged onto calibration/defaults.yaml ONLY for a moral persona (eval/moral.py::moral_overrides).
+# The PRESENCE of the moral half_lives below is the enable signal (engine/yaml_io): without this overlay a
+# persona carries none of the moral states/actions and is byte-identical to a legacy run (Gate A).
+#
+# TOPOLOGY is fixed (docs/moral_tension_impl_spec.md, docs/diagrams/moral_tension.md). Every magnitude here
+# is a CALIBRATION PLACEHOLDER -- only ORDERING is authorized (the litmus: a guilt-prone persona confesses
+# earlier than a low-guilt one). Events are finite single-tick deposits into bounded leaky integrators,
+# never Dirac spikes (docs/control_interpretation.md).
+
+half_lives:
+  guilt: 64800            # 18h placeholder -- slow moral memory (>> anger 30s, so dt is unchanged)
+  exposure_anxiety: 3600  # 60min placeholder -- medium anxiety
+  cognitive_load_from_lies: 21600  # 6h placeholder -- the lie-maintenance burden (M-J.1)
+  repair_drive: 86400              # 24h placeholder -- the urge to make amends (M-J.2)
+  rumination: 43200               # 12h placeholder -- replaying the conflict (M-J.2)
+  avoidance_drive: 3600            # 60min placeholder -- the urge to dodge the person/topic (M-J.2/.3)
+  perceived_injustice: 86400       # 24h placeholder -- the slow "this is unfair" grievance (M-J.3)
+  suspicion: 172800                # 48h placeholder -- per-source suspicion memory, a relation dim (M-J.3)
+
+# M-J.4: MoralLedger tunables. A LieRecord's mini-integrators relax by `lie_decay` each tick when not
+# reinforced -- a lie not kept up slowly fades (stale -> inactive). PLACEHOLDER.
+ledger_params:
+  lie_decay: 0.96
+  detected_risk_on_detect: 0.40  # M-J.4.2: a caught lie's record jumps in detected_risk per detection cue. PLACEHOLDER.
+  detected_exposure: 0.20        # M-J.4.2: the caught liar's exposure_anxiety spikes (gated on holding the record). PLACEHOLDER.
+  detected_guilt: 0.12           # M-J.4.2: ...and a pang of guilt at being found out. PLACEHOLDER.
+  # M-J.4.3 Secret lifecycle:
+  salience_decay: 0.95           # per-tick relaxation of a secret's salience (it fades between cues). PLACEHOLDER.
+  secret_cue_salience: 0.30      # a `secret_cued` reminder raises salience (gated to 0 for an inactive secret). PLACEHOLDER.
+  inactive_unresolved_floor: 0.10  # a secret is ACTIVE while hidden_from is non-empty OR unresolvedness >= this. PLACEHOLDER.
+  secret_salience_to_stress: 0.10  # an ACTIVE secret's salience weighs as stress each tick; inactive -> 0 (relief). PLACEHOLDER.
+
+gains:
+  guilt:
+    wrongdoing: 0.30      # finite guilt deposit per wrongdoing cue; SCALED by guilt_proneness below. PLACEHOLDER.
+    false_accusation_discovered: 0.30  # M-J.3.3: REMORSE when one's own false accusation is exposed; SCALED by guilt_proneness. PLACEHOLDER.
+  exposure_anxiety:
+    probe: 0.05           # being questioned raises exposure anxiety (slow build, not saturating). PLACEHOLDER.
+    suspicion_cue: 0.08   # M-J.3: being SUSPECTED (not yet accused) raises exposure pressure -- feeling watched. PLACEHOLDER.
+    false_accusation_discovered: 0.10  # M-J.3.3: being exposed as a FALSE accuser is itself exposing. PLACEHOLDER.
+  frustration:
+    probe: 0.01           # tiny interrogation pressure -- the sourced provocation that OPENS the reply window
+                          # (so confess/remain_silent can be selected). Small enough never to fire complain/
+                          # outburst on its own. PLACEHOLDER.
+    accusation: 0.02      # M-J.3: the sourced provocation that opens the reply window under accusation
+                          # (so avoid/blame_other can be selected). Small enough never to fire outburst alone. PLACEHOLDER.
+    suspicion_cue: 0.01   # M-J.3: a whisper of provocation -- opens the reply window so the persona can react
+                          # (avoid) to being suspected, without itself firing a vent. PLACEHOLDER.
+    betrayal: 0.02        # M-J.4.2: opens the reply window on lie detection (so a reaction can fire). PLACEHOLDER.
+  perceived_injustice:
+    accusation: 0.30      # M-J.3: being accused reads as UNFAIR -> grievance. SCALED by injustice_sensitivity below. PLACEHOLDER.
+  avoidance_drive:
+    accusation: 0.30      # M-J.3: being accused makes one want to dodge. SCALED by conflict_avoidance below. PLACEHOLDER.
+    suspicion_cue: 0.12   # M-J.3: being SUSPECTED makes an avoidant persona withdraw too. SCALED by conflict_avoidance. PLACEHOLDER.
+  stress:
+    accusation: 0.03      # M-J.3: an accusation is stressful (the threat). PLACEHOLDER.
+  anger:
+    betrayal: 0.15        # M-J.4.2: discovering a lie stings -- anger at the liar. PLACEHOLDER.
+  relations:
+    resentment:
+      accusation: 0.10    # M-J.3: being accused breeds a grudge toward the accuser. PLACEHOLDER.
+      betrayal: 0.25      # M-J.4.2: discovering a lie breeds a strong grudge toward the liar. PLACEHOLDER.
+    trust:
+      betrayal: -0.35     # M-J.4.2: a detected lie COLLAPSES trust in the liar (negative gain). PLACEHOLDER.
+    suspicion:
+      suspicion_cue: 0.15 # M-J.3: a suspicion cue builds per-source suspicion toward the suspecter (the relation dim). PLACEHOLDER.
+
+gain_modulators:
+  guilt:
+    wrongdoing:
+      trait: guilt_proneness
+      ref: 1.0
+      k: 1.0              # mod = max(0, 1+(gp-1)) = gp -> a guilt-prone persona feels the wrong more; gp=0 -> none
+    false_accusation_discovered:
+      trait: guilt_proneness
+      ref: 1.0
+      k: 1.0              # M-J.3.3: same gate -> a guilt-prone accuser feels remorse on exposure; a callous one doesn't
+  exposure_anxiety:
+    probe:
+      trait: gossip_tendency
+      ref: 0.0
+      k: 2.0              # M-J.2 (the GOSSIP LEAK): mod = 1 + 2*gossip_tendency. A discreet persona (gt=0) feels
+                          # probes normally (mod=1, byte-identical); a blabber (gt high) has spread the secret, so
+                          # being questioned bites harder -> exposure_anxiety climbs. The split's "raises exposure
+                          # _risk" half, on the one trait-modulated state input the engine has (gains, not couplings). PLACEHOLDER.
+  perceived_injustice:
+    accusation:
+      trait: injustice_sensitivity
+      ref: 1.0
+      k: 1.5              # M-J.3: mod = max(0, 1+1.5*(injustice_sensitivity-1)) -> a sensitive persona reads the
+                          # accusation as deeply unfair; a low-sensitivity persona barely registers grievance
+                          # (mod ~0), so it neither blames back nor flips the guilt switch. PLACEHOLDER.
+  avoidance_drive:
+    accusation:
+      trait: conflict_avoidance
+      ref: 1.0
+      k: 1.0              # M-J.3: mod = max(0, conflict_avoidance) -> a conflict-avoidant persona wants to dodge;
+                          # conflict_avoidance=0 -> it stands its ground (no avoidance build). PLACEHOLDER.
+    suspicion_cue:
+      trait: conflict_avoidance
+      ref: 1.0
+      k: 1.0              # M-J.3: same gate -> only a conflict-avoidant persona withdraws under bare suspicion. PLACEHOLDER.
+
+couplings:
+  stress:
+    guilt: 0.03               # guilt -> stress (+). PLACEHOLDER.
+    exposure_anxiety: 0.03    # exposure_anxiety -> stress (+). PLACEHOLDER.
+    cognitive_load_from_lies: 0.03  # M-J.1: lie burden -> stress (+) (the noose tightens). PLACEHOLDER.
+    rumination: 0.03          # M-J.2: replaying it -> stress (+) (keeps the burden alive). PLACEHOLDER.
+  anger:
+    guilt: -0.02              # guilt -> anger (-): remorse DAMPS the outburst (empathy-gated topology). PLACEHOLDER.
+    perceived_injustice: 0.02 # M-J.3: a felt injustice STOKES anger (the grievance edge). Small -> stays below the
+                              # outburst latch on its own (the moral states only FEED anger, never a new burst gate). PLACEHOLDER.
+  guilt:
+    perceived_injustice: -0.05  # M-J.3: the GRIEVANCE SWITCH -- "I was justified / I don't deserve this" suppresses
+                                # guilt. The more unfair it feels, the less guilt the wrong leaves behind. PLACEHOLDER.
+  # NOTE: the diagram's exposure_anxiety->avoidance_drive edge is realized as a conflict_avoidance-GATED
+  # event gain (gains.avoidance_drive.accusation / .suspicion_cue), NOT a standing coupling: couplings can't
+  # be trait-modulated, and an always-on exposure->avoidance edge would build avoidance (and fire `avoid`) in
+  # every moral scenario, perturbing the M-J.0/.1 probe litmus. The trait-gated cue deposit keeps avoidance a
+  # property of an AVOIDANT persona under a real accusation/suspicion, and zero elsewhere.
+  fatigue:
+    cognitive_load_from_lies: 0.02  # M-J.1: maintaining the lie is tiring -> fatigue (+). PLACEHOLDER.
+    rumination: 0.02          # M-J.2: rumination is wearing -> fatigue (+). PLACEHOLDER.
+  repair_drive:
+    guilt: 0.04               # M-J.2: guilt -> the urge to make amends (+). PLACEHOLDER.
+  rumination:
+    guilt: 0.04               # M-J.2: guilt -> replaying the conflict (+). PLACEHOLDER.
+
+potential_terms:
+  moral_guilt:    [{kind: state, name: guilt}]
+  moral_exposure: [{kind: state, name: exposure_anxiety}]
+  moral_load:     [{kind: state, name: cognitive_load_from_lies}]
+  # M-J.1: the urge to lie = feeling exposed AND being a habitual liar (low honesty_humility). The
+  # complement (1 - honesty_humility) is the "bad-habit" knob -- distinct from machiavellianism (a later
+  # slice). A scrupulous persona (high honesty_humility) has ~0 lie drive even when exposed.
+  lie_dishonesty: [{kind: state, name: exposure_anxiety}, {kind: trait, name: honesty_humility, complement: true}]
+  moral_repair:   [{kind: state, name: repair_drive}]
+  # M-J.2: the empathic-repair impulse -- feeling the target's harm (empathy) atop one's own guilt drives
+  # making AMENDS (apologize), distinct from merely owning up (confess). A low-empathy persona confesses
+  # but does not apologize.
+  guilt_x_empathy: [{kind: state, name: guilt}, {kind: trait, name: empathy}]
+  # M-J.2: the SAFE-confide drive. Same SHAPE as confess (guilt-driven; spec section 5.5), but aimed at a
+  # TRUSTED ear present this tick (relation_source trust) and only for a DISCREET persona (1-gossip_tendency):
+  # you unburden the wrong to a trusted friend rather than your interrogator. relation_source reads the CURRENT
+  # event's source -> 0 toward the untrusted interrogator (confide can't fire there), high toward the confidant.
+  # A blabber (gossip_tendency~1) collapses the (1-gossip) gate -> CAN'T confide safely -> the secret keeps
+  # weighing (its rumination is never relieved). The EFFECT (relieve rumination) is booked in post_effects.
+  confide_safe: [{kind: state, name: guilt}, {kind: relation_source, name: trust}, {kind: trait, name: gossip_tendency, complement: true}]
+  # M-J.3: the grievance drive (blame the accuser back) and the avoidance drive (dodge the confrontation).
+  moral_injustice: [{kind: state, name: perceived_injustice}]
+  moral_avoidance:  [{kind: state, name: avoidance_drive}]
+
+potential_weights:
+  confess:
+    moral_guilt: 1.0          # guilt drives owning up
+    moral_exposure: -0.6      # exposure anxiety inhibits confessing (fear of consequences). PLACEHOLDER.
+  remain_silent:
+    moral_exposure: 1.0       # exposure anxiety drives continued concealment
+  lie:
+    lie_dishonesty: 1.5       # exposed + dishonest -> deceive. PLACEHOLDER.
+    moral_load: -0.8          # SELF-LIMITING: a high lie-burden makes the next lie harder (the noose). PLACEHOLDER.
+    moral_guilt: -0.5         # guilt inhibits lying. PLACEHOLDER.
+  deflect:
+    moral_load: 0.8           # when the lie-burden is high, dodge rather than add a fresh lie. PLACEHOLDER.
+    moral_exposure: 0.4       # and when exposed. PLACEHOLDER.
+  apologize:
+    guilt_x_empathy: 1.2      # M-J.2: guilt felt WITH empathy -> make amends (beats bare confess for the empathic). PLACEHOLDER.
+    moral_repair: 0.5         # ...reinforced by the accumulated repair drive. PLACEHOLDER.
+  confide:
+    confide_safe: 1.8         # M-J.2: unburden to a trusted ear -- beats staying silent / confessing-to-accuser. PLACEHOLDER.
+  blame_other:
+    moral_injustice: 1.5      # M-J.3: a felt injustice -> shift the blame back (scapegoat the accuser). PLACEHOLDER.
+  avoid:
+    moral_avoidance: 1.5      # M-J.3: the urge to dodge -> avoid the confrontation. PLACEHOLDER.
+
+thresholds:
+  react.confess: 0.30
+  react.remain_silent: 0.30
+  react.lie: 0.30
+  react.deflect: 0.35
+  react.apologize: 0.30
+  react.confide: 0.30
+  react.blame_other: 0.30
+  react.avoid: 0.30
+  interrupt.confess: 0.80
+  interrupt.remain_silent: 0.80
+  interrupt.lie: 0.80
+  interrupt.deflect: 0.80
+  interrupt.apologize: 0.80
+  interrupt.confide: 0.80
+  interrupt.blame_other: 0.80
+  interrupt.avoid: 0.80
+
+action_params:
+  confess:
+    post_effects:
+      global:
+        guilt: -0.50            # owning up relieves guilt. PLACEHOLDER.
+        exposure_anxiety: -0.40 # and the dread of being found out
+        cognitive_load_from_lies: -0.40  # M-J.4 (spec 3.5 lie_confessed): owning up sheds the lie-maintenance burden. PLACEHOLDER.
+    ledger:                     # M-J.4: a confession RESOLVES the lie to this target (reduces the record)
+      resolves: true
+      consistency_debt: -0.50   # PLACEHOLDER.
+      maintenance_load: -0.50   # PLACEHOLDER.
+  remain_silent:
+    post_effects:
+      global: {}                # silence maintains the secret -- no relief
+  lie:
+    post_effects:
+      global:
+        cognitive_load_from_lies: 0.20  # M-J.1: each lie adds maintenance burden (finite deposit). PLACEHOLDER.
+        guilt: 0.08                     # lying adds a little guilt. PLACEHOLDER.
+        exposure_anxiety: 0.06          # ...and a little more risk of being caught. PLACEHOLDER.
+    ledger:                             # M-J.4.1: book/reinforce a LieRecord on the target (the deceived)
+      lie_type: denial                  # an outright lie is a DENIAL/fabrication. PLACEHOLDER.
+      consistency_debt: 0.08            # each lie deepens the story to keep straight (accrues on the record). PLACEHOLDER.
+      maintenance_load: 0.10            # ...and the load of maintaining it. PLACEHOLDER.
+      complexity: 0.15                  # PLACEHOLDER.
+  deflect:
+    post_effects:
+      global:
+        cognitive_load_from_lies: 0.05  # dodging is lighter than a fresh lie, but not free. PLACEHOLDER.
+    ledger:                             # M-J.4.1: a deflection is an OMISSION-type lie; reinforces the same record
+      lie_type: omission                # PLACEHOLDER.
+      consistency_debt: 0.03            # lighter than a fresh lie, but still adds to the story. PLACEHOLDER.
+      maintenance_load: 0.04            # PLACEHOLDER.
+  apologize:
+    post_effects:
+      global:
+        guilt: -0.50            # M-J.2: making amends resolves the guilt. PLACEHOLDER.
+        repair_drive: -0.40     # ...and discharges the urge to repair. PLACEHOLDER.
+        exposure_anxiety: -0.20 # owning it openly also eases the dread of being found out. PLACEHOLDER.
+      source_relations:         # M-J.2 REPARATION: amends close the loop through the RELATIONSHIP, not just
+        trust: 0.15             # the persona. Booked on the wronged target (the reaction source). PLACEHOLDER.
+        resentment: -0.15       # PLACEHOLDER.
+  confide:
+    post_effects:
+      global:
+        rumination: -0.40       # M-J.2: sharing the replayed conflict with a trusted ear relieves it. PLACEHOLDER.
+  blame_other:
+    post_effects:
+      global:
+        perceived_injustice: -0.15  # M-J.3: lashing back vents some of the grievance. PLACEHOLDER.
+      source_relations:         # M-J.3 (the SCAPEGOAT edge): blaming back casts SUSPICION on the accuser and
+        suspicion: 0.15         # deepens the grudge -- the suspicion relation dim, written here. PLACEHOLDER.
+        resentment: 0.05        # PLACEHOLDER.
+    ledger:                     # M-J.4.1: shifting the blame IS a lie -- the blame_shift lie_type (spec 3.2)
+      lie_type: blame_shift     # PLACEHOLDER.
+      consistency_debt: 0.05    # PLACEHOLDER.
+      maintenance_load: 0.05    # PLACEHOLDER.
+  avoid:
+    post_effects:
+      global:
+        avoidance_drive: -0.20  # M-J.3: dodging the confrontation discharges some of the urge. PLACEHOLDER.
+        exposure_anxiety: -0.05 # ...and briefly eases the dread by getting away. PLACEHOLDER.

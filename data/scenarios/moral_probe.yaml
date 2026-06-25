@@ -1,0 +1,35 @@
+# M-J.0 guilt-core micro-scenario (stylized). The persona did a wrong (a few `wrongdoing` reminders
+# build GUILT) and is then questioned over many ticks (`probe` each tick keeps the reactive window open
+# and builds EXPOSURE_ANXIETY). Run TWICE with different `guilt_proneness` (+ the moral overlay): the
+# guilt-prone persona's confess potential (~ guilt) crosses its react threshold EARLY -> it CONFESSES;
+# the low-guilt persona stays below it and REMAINS SILENT. Same scenario, one trait differs -> different
+# visible action (the litmus). Calm initial state so only the moral reply is in play.
+id: moral_probe
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+# ONE event per tick (the engine maps one RawEvent per tick -- multi-event fan-out is the deferred M-MEM).
+# t0-2: the wrongdoing weighs on the persona (guilt builds, silently -- a SELF cue opens no reply window).
+# t3+: the questioner probes each tick (sourced -> opens the reactive reply window + builds exposure_anxiety).
+events:
+  - {type: wrongdoing, t: 0, intensity: 1.0}
+  - {type: wrongdoing, t: 1, intensity: 1.0}
+  - {type: wrongdoing, t: 2, intensity: 1.0}
+  - {type: probe, t: 3,  source: interrogator, intensity: 1.0}
+  - {type: probe, t: 4,  source: interrogator, intensity: 1.0}
+  - {type: probe, t: 5,  source: interrogator, intensity: 1.0}
+  - {type: probe, t: 6,  source: interrogator, intensity: 1.0}
+  - {type: probe, t: 7,  source: interrogator, intensity: 1.0}
+  - {type: probe, t: 8,  source: interrogator, intensity: 1.0}
+  - {type: probe, t: 9,  source: interrogator, intensity: 1.0}
+  - {type: probe, t: 10, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 11, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 12, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 13, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 14, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 15, source: interrogator, intensity: 1.0}

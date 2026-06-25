@@ -1,0 +1,32 @@
+# M-J.3.3 public accusation -- WITNESS FAN-OUT (accused side; needs M-MEM multi-event ticks).
+#
+# An innocent persona is accused IN PUBLIC: on each tick the accuser presses the charge AND two witnesses
+# signal their suspicion -- THREE events on the SAME tick (only possible with M-MEM). The accused grows wary
+# of EACH witness at once (suspicion[witness_i]) and the baseless public charge builds perceived_injustice.
+# Run with the moral overlay + a SENSITIVE persona (injustice_sensitivity high). No wrongdoing -> innocent.
+id: moral_public_accusation
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+# MANY events per tick (M-MEM). Each public tick = accuser's charge + each witness's suspicion, simultaneously.
+events:
+  - {type: accusation,       t: 0, source: accuser,   intensity: 1.0}
+  - {type: suspicion_raised, t: 0, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised, t: 0, source: witness_2, intensity: 1.0}
+  - {type: accusation,       t: 1, source: accuser,   intensity: 1.0}
+  - {type: suspicion_raised, t: 1, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised, t: 1, source: witness_2, intensity: 1.0}
+  - {type: accusation,       t: 2, source: accuser,   intensity: 1.0}
+  - {type: suspicion_raised, t: 2, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised, t: 2, source: witness_2, intensity: 1.0}
+  - {type: accusation,       t: 3, source: accuser,   intensity: 1.0}
+  - {type: suspicion_raised, t: 3, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised, t: 3, source: witness_2, intensity: 1.0}
+  - {type: accusation,       t: 4, source: accuser,   intensity: 1.0}
+  - {type: suspicion_raised, t: 4, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised, t: 4, source: witness_2, intensity: 1.0}

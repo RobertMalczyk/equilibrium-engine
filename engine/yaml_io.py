@@ -16,6 +16,9 @@ import yaml
 from engine.clamp import clamp01, clamp_signed
 from engine.schema import (
     GLOBAL_STATES,
+    MORAL_RELATION_DIMS,
+    MORAL_STATES,
+    MORAL_TRAITS,
     RELATION_DIMS,
     TRAIT_NAMES,
     PersonaConfig,
@@ -158,10 +161,16 @@ def load_persona(
     persona_id = str(_require(merged, "id", ctx))
 
     # --- traits (validated + clamped) ---
+    # Non-moral traits are REQUIRED (a malformed legacy persona must still fail loudly). The M-J moral
+    # traits are OPT-IN and DEFAULT to 0.0 when omitted (traits never appear in the trace, so defaulting
+    # is golden-safe; an inert default = no guilt generated). A moral persona sets them via its config.
     traits_in = dict(_require(merged, "traits", ctx))
     traits: dict[str, float] = {}
     for name in TRAIT_NAMES:
         if name not in traits_in:
+            if name in MORAL_TRAITS:
+                traits[name] = 0.0  # opt-in default (inert)
+                continue
             raise ValueError(f"{ctx}: missing trait '{name}'")
         traits[name] = clamp01(float(traits_in[name]))
 
@@ -169,7 +178,13 @@ def load_persona(
     half_lives = {
         k: float(v) for k, v in dict(_require(merged, "half_lives", ctx)).items()
     }
+    # Non-moral states + relation dims REQUIRE a half_life. The M-J moral states are OPT-IN: a half_life
+    # for them is present ONLY when the moral overlay is merged in -> that presence is the enable signal.
+    # Absent (every legacy persona) -> the moral state is never built into initial_global_state below, so
+    # the runtime/trace omit it and goldens stay byte-identical.
     for name in GLOBAL_STATES + RELATION_DIMS:
+        if name in MORAL_STATES or name in MORAL_RELATION_DIMS:
+            continue  # OPT-IN: a half_life is present only when the moral overlay is merged in (enable signal)
         if name not in half_lives:
             raise ValueError(f"{ctx}: missing half_life for '{name}'")
     tick_cfg = dict(_require(merged, "tick", ctx))
@@ -204,15 +219,23 @@ def load_persona(
     drifts = {k: float(v) for k, v in dict(merged.get("drifts", {})).items()}
 
     # --- initial state (clamped) ---
+    # A MORAL state is included ONLY when the overlay supplied its half_life (= moral enabled); otherwise
+    # it is omitted entirely, so legacy personas carry exactly the canonical state set (byte-identical).
     init_global_in = dict(merged.get("initial_global_state", {}))
     initial_global_state = {
-        name: clamp01(float(init_global_in.get(name, 0.0))) for name in GLOBAL_STATES
+        name: clamp01(float(init_global_in.get(name, 0.0)))
+        for name in GLOBAL_STATES
+        if name not in MORAL_STATES or name in half_lives
     }
 
     initial_relations: dict[str, dict[str, float]] = {}
     for src, dims in dict(merged.get("initial_relations", {})).items():
+        # An OPT-IN moral dim (suspicion) is built into the row ONLY when its half_life is present (= moral
+        # enabled); otherwise omitted, so legacy rows carry exactly the canonical dims (byte-identical).
         initial_relations[str(src)] = {
-            d: clamp01(float(dict(dims).get(d, 0.0))) for d in RELATION_DIMS
+            d: clamp01(float(dict(dims).get(d, 0.0)))
+            for d in RELATION_DIMS
+            if d not in MORAL_RELATION_DIMS or d in half_lives
         }
 
     affinities = {
@@ -431,6 +454,7 @@ def load_persona(
         param_bounds=param_bounds,
         calibration=calibration,
         appraisal=appraisal,
+        ledger_params=dict(merged.get("ledger_params", {})),
     )
 
 

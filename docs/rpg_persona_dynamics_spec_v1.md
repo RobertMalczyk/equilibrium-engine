@@ -975,6 +975,32 @@ the external effect — no burst — via stoicism + self_control, without rewrit
 only if novelty earns an axis beyond boredom. `familiarity` — cut. Each addition = one
 integrator/channel/action with no structural change.
 
+### 13.1 Named next milestones (real-time driving)
+
+Two milestones promoted from "side note" to the deferred roadmap. Both are about *driving* the engine,
+not changing its dynamics — the time-domain integrator math is already in place (`dt`, decay,
+`time_scale`/resolution-factor). They unblock running the engine as a live, world-driven character.
+
+- **M-CLK — Wall-clock real-time driver (IMPORTANT).** A scheduler/clock layer *above* the engine that
+  calls `tick(runtime, t, event)` paced to wall-clock so that one tick advances `dt` of game-time in
+  real time (`time_scale` maps wall-seconds → game-seconds). Today everything runs in batch/eval mode
+  (precomputed event schedules in a tight loop); nothing in the engine prevents real-time use — it is
+  deterministic and carries no state between calls beyond `runtime`. Scope: the driver only; it injects
+  excitations the world produced during each interval and advances the frozen-snapshot → update → commit
+  cycle unchanged. Deliverable: a `runtime`-paced loop + `docs/diagrams/clock_driver.md` (both forms).
+  Determinism note: a fixed-`dt` accumulator (not a variable real-`dt`) keeps traces bit-identical to the
+  batch run for the same event sequence.
+
+- **M-MEM — Multi-event mapper (IMPORTANT).** Today the tick signature is `event: RawEvent | None` —
+  exactly one excitation per tick. A live, busy world can deliver several simultaneous stimuli within one
+  `dt`. M-MEM lets the mapper accept an **event batch** for a single tick and fold the per-event channel
+  vectors into one `SemanticInputVector` *before* `update`, preserving the single frozen snapshot and the
+  single synchronous commit (no extra ticks, no order-dependence — channels sum/compose deterministically;
+  per-channel filters still apply per source/object). This also closes the multi-target/witness fan-out
+  gap from the world-input side (relevant to M-J accusation/gossip). Deliverable: batch mapper pass + a
+  deterministic composition rule (sum with per-channel saturation, not last-wins) +
+  `docs/diagrams/mapper.md` update. **M-MEM is a prerequisite for M-CLK** under any non-trivial world.
+
 ---
 
 ## 14. The generic element and the extension contract

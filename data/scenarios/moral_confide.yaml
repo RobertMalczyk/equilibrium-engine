@@ -1,0 +1,43 @@
+# M-J.2 confide micro-scenario (stylized) -- the SAFE-vs-GOSSIP-prone confiding split.
+#
+# The persona did a wrong (guilt builds -> rumination accumulates: "can't stop replaying it"), is briefly
+# questioned (probe -> exposure_anxiety + opens the reactive reply window), and then a TRUSTED CONFIDANT is
+# privately present for several ticks. Run TWICE with the moral overlay, varying ONE trait, gossip_tendency:
+#   - DISCREET (gossip_tendency=0): confide potential (~ rumination x trust[confidant] x (1-gossip)) crosses
+#     its react threshold -> the persona CONFIDES -> rumination is relieved (the burden is shared safely).
+#   - GOSSIP-PRONE (gossip_tendency=0.9): the (1-gossip) gate collapses confide -> it CANNOT safely confide,
+#     so rumination keeps weighing; meanwhile gossip_tendency modulates the probe->exposure gain UP (a
+#     blabber has spread it, so being questioned bites harder) -> exposure_anxiety climbs higher.
+# Same scenario, one trait differs -> safe relief vs leaked exposure (the litmus). Calm initial state.
+id: moral_confide
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+  relations:
+    confidant:
+      trust: 0.9        # a close, trusted friend -- the safe ear. (interrogator stays at default 0 trust.)
+# ONE event per tick (multi-event fan-out is the deferred M-MEM).
+# t0-2: the wrongdoing weighs (guilt builds silently -> rumination accumulates).
+# t3-7: the interrogator probes (exposure_anxiety builds; opens the reactive reply window).
+# t8-13: the trusted confidant is privately present -- the window from the last probe (reactive_window_ticks)
+#        is still open, so a confide (a reply made to the confidant) can fire while source = confidant.
+events:
+  - {type: wrongdoing, t: 0, intensity: 1.0}
+  - {type: wrongdoing, t: 1, intensity: 1.0}
+  - {type: wrongdoing, t: 2, intensity: 1.0}
+  - {type: probe, t: 3, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 4, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 5, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 6, source: interrogator, intensity: 1.0}
+  - {type: probe, t: 7, source: interrogator, intensity: 1.0}
+  - {type: confide_opportunity, t: 8,  source: confidant, intensity: 1.0}
+  - {type: confide_opportunity, t: 9,  source: confidant, intensity: 1.0}
+  - {type: confide_opportunity, t: 10, source: confidant, intensity: 1.0}
+  - {type: confide_opportunity, t: 11, source: confidant, intensity: 1.0}
+  - {type: confide_opportunity, t: 12, source: confidant, intensity: 1.0}
+  - {type: confide_opportunity, t: 13, source: confidant, intensity: 1.0}

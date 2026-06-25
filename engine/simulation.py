@@ -28,6 +28,7 @@ from engine.schema import (
     ActionKind,
     ActionSelection,
     EffectiveInputVector,
+    LieRecord,
     Mode,
     PersonaConfig,
     PersonaRuntime,
@@ -35,6 +36,148 @@ from engine.schema import (
     Scenario,
     StateDelta,
 )
+
+
+def _update_ledger(
+    runtime: PersonaRuntime, action: str, target: str | None, t: int
+) -> None:
+    """M-J.4.1: decay existing LieRecords (mini-integrators) and book a create/reinforce for a lie-type
+    action (its `action_params[action].ledger` config). Repeated lies to the SAME target accrue debt on the
+    EXISTING record (keyed by target) -- never spawn a fresh one (spec 3.5). Mutates the ledger in the
+    post_effects phase ONLY (the sanctioned second mutation site). Inert for legacy personas (no ledger
+    config -> no decay key, no action ledger block)."""
+    config = runtime.config
+    led = runtime.moral_ledger
+    decay = float(config.ledger_params.get("lie_decay", 1.0))
+    if (
+        decay != 1.0
+    ):  # stale lies fade (a record not reinforced this tick relaxes toward 0)
+        for rid in sorted(
+            led.lies
+        ):  # sorted: deterministic regardless of creation order
+            rec = led.lies[rid]
+            rec.consistency_debt *= decay
+            rec.maintenance_load *= decay
+            rec.detected_risk *= decay
+    spec = config.action_params.get(action, {}).get("ledger")
+    if not spec or target is None:
+        return
+    rid = f"lie:{target}"
+    rec = led.lies.get(rid)
+    if spec.get(
+        "resolves"
+    ):  # M-J.4: a CONFESSION clears the lie to this target (spec 3.5 lie_confessed) --
+        if (
+            rec is not None
+        ):  # reduce its debt/load toward 0 (negative increments); never create a record
+            rec.consistency_debt = clamp01(
+                rec.consistency_debt + float(spec.get("consistency_debt", 0.0))
+            )
+            rec.maintenance_load = clamp01(
+                rec.maintenance_load + float(spec.get("maintenance_load", 0.0))
+            )
+            rec.last_reinforced_at = t
+        return
+    if (
+        rec is None
+    ):  # first lie to this target -> create; later lies REINFORCE this same record
+        rec = LieRecord(
+            id=rid,
+            liar_id=config.id,
+            target_id=target,
+            lie_type=str(spec.get("lie_type", "denial")),
+        )
+        led.lies[rid] = rec
+    rec.consistency_debt = clamp01(
+        rec.consistency_debt + float(spec.get("consistency_debt", 0.0))
+    )
+    rec.maintenance_load = clamp01(
+        rec.maintenance_load + float(spec.get("maintenance_load", 0.0))
+    )
+    rec.complexity = clamp01(max(rec.complexity, float(spec.get("complexity", 0.0))))
+    rec.last_reinforced_at = t
+
+
+def _book_detection(runtime: PersonaRuntime, eff: EffectiveInputVector, t: int) -> None:
+    """M-J.4.2: a detected lie (`betrayal` channel from source S) hits the CAUGHT liar -- the persona holding
+    a LieRecord keyed to S (lie:S). On the record: detected_risk jumps. On the liar's felt state: exposure_
+    anxiety and guilt spike (the caught-out dread + remorse). BOTH are GATED on the record existing, so a
+    betrayed TARGET (no record) gets none of this -- only the relational damage booked by update's gains.
+    Runs in the post_effects phase. Inert for legacy personas (no detected_risk_on_detect config)."""
+    lp = runtime.config.ledger_params
+    bump = float(lp.get("detected_risk_on_detect", 0.0))
+    if bump <= 0.0:
+        return
+    exp_bump = float(lp.get("detected_exposure", 0.0))
+    guilt_bump = float(lp.get("detected_guilt", 0.0))
+    gs = runtime.global_state
+    for si in eff.get("betrayal", ()):
+        if si.source is None:
+            continue
+        rec = runtime.moral_ledger.lies.get(f"lie:{si.source}")
+        if rec is None:
+            continue
+        rec.detected_risk = clamp01(rec.detected_risk + bump * si.value)
+        rec.last_reinforced_at = t
+        # the caught liar FEELS it: exposure_anxiety + guilt spike (gated on being the liar, i.e. the record)
+        if exp_bump and "exposure_anxiety" in gs:
+            gs["exposure_anxiety"] = clamp01(
+                gs["exposure_anxiety"] + exp_bump * si.value
+            )
+        if guilt_bump and "guilt" in gs:
+            gs["guilt"] = clamp01(gs["guilt"] + guilt_bump * si.value)
+
+
+def _secret_active(secret, unresolved_floor: float) -> bool:
+    """M-J.4.3 (spec 3.4): a secret is ACTIVE while the owner is still hiding it from someone OR it remains
+    unresolved. Inactive (hidden_from empty AND unresolvedness low) -> it stays in the ledger/trace but no
+    longer drives salience/stress."""
+    return bool(secret.hidden_from) or secret.unresolvedness >= unresolved_floor
+
+
+def _update_secrets(runtime: PersonaRuntime, events: list[RawEvent], t: int) -> None:
+    """M-J.4.3: the Secret lifecycle, booked in the post_effects phase. Decays salience; a `secret_cued`
+    reminder raises salience (gated to 0 for an inactive secret); `secret_exposed` fills `known_by` with the
+    witnesses and EMPTIES `hidden_from` (publicly known -> no longer hiding) -> inactivation; an ACTIVE
+    secret's salience then weighs as stress. Inert when the ledger holds no secrets (legacy byte-identical)."""
+    led = runtime.moral_ledger
+    if not led.secrets:
+        return
+    lp = runtime.config.ledger_params
+    sal_decay = float(lp.get("salience_decay", 1.0))
+    cue_gain = float(lp.get("secret_cue_salience", 0.0))
+    floor = float(lp.get("inactive_unresolved_floor", 0.0))
+    stress_gain = float(lp.get("secret_salience_to_stress", 0.0))
+    gs = runtime.global_state
+    ids = sorted(
+        led.secrets
+    )  # sorted: deterministic order for the stress accumulation (clamp is sequential)
+    if sal_decay != 1.0:  # salience fades between reminders
+        for sid in ids:
+            led.secrets[sid].salience *= sal_decay
+    for ev in events:
+        if ev.type == "secret_cued":
+            for sid in ids:
+                s = led.secrets[sid]
+                if (ev.topic is None or ev.topic == s.topic) and _secret_active(
+                    s, floor
+                ):
+                    s.salience = clamp01(s.salience + cue_gain * ev.intensity)
+        elif ev.type == "secret_exposed":
+            for sid in ids:
+                s = led.secrets[sid]
+                if ev.topic is None or ev.topic == s.topic:
+                    for w in list(ev.context.get("witnesses", [])):
+                        if w not in s.known_by:
+                            s.known_by.append(w)
+                    s.hidden_from = []  # public knowledge -> no longer ACTIVELY hiding -> inactivation
+    if (
+        stress_gain and "stress" in gs
+    ):  # an ACTIVE secret weighs on the persona; inactive -> no weight
+        for sid in ids:
+            s = led.secrets[sid]
+            if _secret_active(s, floor):
+                gs["stress"] = clamp01(gs["stress"] + stress_gain * s.salience)
 
 
 def _commit(runtime: PersonaRuntime, delta: StateDelta) -> None:
@@ -526,6 +669,16 @@ def tick(
                 runtime.mode = Mode.IDLE
                 runtime.active_action = None
                 runtime.seeking_since = None
+    # M-J.4: ledger writes (post_effects phase) -- run on EVERY tick (incl. the SEEKING->BUSY ENGAGE branch),
+    # so a lie/secret decays and a detection lands even on a tick the persona starts an activity. Inert for
+    # legacy / no-ledger personas.
+    _update_ledger(runtime, sel.action, reaction_target, t)  # book/decay lie records
+    _book_detection(
+        runtime, eff, t
+    )  # M-J.4.2: a caught lie raises its record's detected_risk
+    _update_secrets(
+        runtime, events, t
+    )  # M-J.4.3: secret salience / lifecycle (cue, exposure, weight)
     state_after_post = runtime.freeze()
 
     # 10. bookkeeping

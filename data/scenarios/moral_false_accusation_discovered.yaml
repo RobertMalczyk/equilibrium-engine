@@ -1,0 +1,29 @@
+# M-J.3.3 false accusation DISCOVERED -- accuser side (needs M-MEM multi-event ticks).
+#
+# The persona FALSELY accused someone; now the lie is exposed. On each tick the persona receives the
+# `false_accusation_discovered` self-cue (the realization -> guilt, scaled by guilt_proneness: remorse) AND
+# the crowd turns -- two witnesses now signal suspicion of the (now-discredited) accuser -- THREE events on
+# the SAME tick (M-MEM). A guilt-prone accuser feels the remorse; a callous one barely does. The witnesses'
+# suspicion fans onto the accuser and exposure_anxiety climbs (exposed as a false accuser).
+id: moral_false_accusation_discovered
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+events:
+  - {type: false_accusation_discovered, t: 0, intensity: 1.0}
+  - {type: suspicion_raised,            t: 0, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised,            t: 0, source: witness_2, intensity: 1.0}
+  - {type: false_accusation_discovered, t: 1, intensity: 1.0}
+  - {type: suspicion_raised,            t: 1, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised,            t: 1, source: witness_2, intensity: 1.0}
+  - {type: false_accusation_discovered, t: 2, intensity: 1.0}
+  - {type: suspicion_raised,            t: 2, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised,            t: 2, source: witness_2, intensity: 1.0}
+  - {type: false_accusation_discovered, t: 3, intensity: 1.0}
+  - {type: suspicion_raised,            t: 3, source: witness_1, intensity: 1.0}
+  - {type: suspicion_raised,            t: 3, source: witness_2, intensity: 1.0}

@@ -18,6 +18,7 @@ from __future__ import annotations
 
 from engine.clamp import clamp01
 from engine.schema import (
+    MORAL_POTENTIALS,
     POTENTIAL_NAMES,
     DerivedSnapshot,
     GlobalStateMap,
@@ -120,6 +121,11 @@ def compute(
     out: PotentialVector = {}
     for action in POTENTIAL_NAMES:
         weights = config.potential_weights.get(action, {})
+        # OPT-IN moral actions are emitted ONLY when the persona configures weights for them (the moral
+        # overlay). Absent -> not in the output -> `_potentials_map` omits them -> goldens byte-identical.
+        # (The original actions are always emitted, even at 0.0, exactly as before.)
+        if action in MORAL_POTENTIALS and not weights:
+            continue
         acc = 0.0
         for term in sorted(weights):  # sorted keys: order-invariant sum
             acc += weights[term] * term_values[term]

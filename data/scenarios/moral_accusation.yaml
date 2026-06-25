@@ -1,0 +1,38 @@
+# M-J.3 accusation micro-scenario (stylized) -- the GRIEVANCE switch + avoid-vs-blame split (accused side).
+#
+# The persona is repeatedly accused by an accuser. Run TWICE with the moral overlay, varying the response
+# traits:
+#   - SENSITIVE (injustice_sensitivity high, conflict_avoidance low): the accusation reads as UNFAIR ->
+#     perceived_injustice builds -> couples to anger and to resentment[accuser], and FLIPS the guilt switch
+#     (perceived_injustice -> guilt(-): "I was justified / I don't deserve this") -> the persona BLAMES the
+#     accuser back (blame_other), casting suspicion on them.
+#   - AVOIDANT (conflict_avoidance high, injustice_sensitivity low): the accusation drives avoidance_drive ->
+#     the persona AVOIDS the confrontation (avoid) rather than fighting it.
+# Same accusation, response traits differ -> defend-and-blame vs dodge (the litmus). Calm initial state; a
+# small guilt seed (one wrongdoing) so the injustice->guilt(-) suppression is observable.
+id: moral_accusation
+persona: halgrim
+initial_overrides:
+  global_state:
+    fatigue: 0.05
+    boredom: 0.05
+    stress: 0.05
+    frustration: 0.05
+    anger: 0.05
+# ONE event per tick (multi-event witness fan-out is the deferred M-MEM).
+# t0: a minor wrong (a small guilt seed, so the injustice->guilt(-) switch has something to suppress).
+# t1+: the accuser accuses each tick (perceived_injustice / avoidance_drive build; opens the reply window).
+events:
+  - {type: wrongdoing, t: 0, intensity: 0.5}
+  - {type: accusation, t: 1,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 2,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 3,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 4,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 5,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 6,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 7,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 8,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 9,  source: accuser, intensity: 1.0}
+  - {type: accusation, t: 10, source: accuser, intensity: 1.0}
+  - {type: accusation, t: 11, source: accuser, intensity: 1.0}
+  - {type: accusation, t: 12, source: accuser, intensity: 1.0}

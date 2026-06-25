@@ -170,5 +170,121 @@ def map_event(
         )
         return out
 
+    if event.type == "wrongdoing":
+        # M-J.0 moral cue: the persona did (or is reminded of) a wrong it is responsible for -- a lie,
+        # a harm, a kept secret. SELF channel (no source): it deposits GUILT, scaled in config by the
+        # `guilt_proneness` trait (gain_modulator) so a guilt-prone persona feels it more. A finite
+        # single-tick deposit into the leaky `guilt` integrator -- NOT a Dirac spike. Inert unless the
+        # moral overlay supplies `gains.guilt.wrongdoing` (legacy personas have no such gain).
+        out["wrongdoing"] = SemanticInput(
+            name="wrongdoing",
+            value=event.intensity,
+            cls=InputClass.SELF,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type == "lie_detected":
+        # M-J.4.2 moral cue: a lie has been DETECTED. Mapped to the `betrayal` channel (spec section 4),
+        # RELATIONAL with source = the other party. On the BETRAYED target it lands the relationship damage
+        # (anger + resentment[liar] + trust collapse, via the overlay gains); on a CAUGHT liar (a persona
+        # holding a matching LieRecord) it ALSO raises that record's detected_risk (simulation._book_detection).
+        # Inert unless the moral overlay supplies its gains.
+        out["betrayal"] = SemanticInput(
+            name="betrayal",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type == "false_accusation_discovered":
+        # M-J.3.3 moral cue (accuser side): the persona's OWN false accusation has been exposed. SELF channel
+        # (no source) -- the REALIZATION lands as guilt (scaled in config by guilt_proneness: a guilt-prone
+        # accuser feels remorse, a callous one barely does) and exposure_anxiety (being seen as a false
+        # accuser). A finite single-tick deposit, NOT a Dirac spike. The crowd-turning half (witnesses now
+        # suspecting the accuser) arrives as simultaneous `suspicion_raised` events on the same tick (M-MEM
+        # fan-out), not here. Inert unless the moral overlay supplies its gains.
+        out["false_accusation_discovered"] = SemanticInput(
+            name="false_accusation_discovered",
+            value=event.intensity,
+            cls=InputClass.SELF,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type == "probe":
+        # M-J.0 moral cue: being questioned / accused by SOMEONE (source = the questioner). It deposits
+        # EXPOSURE_ANXIETY (afraid of being revealed) and a little frustration (interrogation pressure) --
+        # the small sourced provocation is what OPENS the reactive reply window (a confession is a reply
+        # to being probed; cf. _event_is_provocation). RELATIONAL, so it routes through the relation_filter
+        # like any sourced event. Inert unless the overlay supplies its gains.
+        out["probe"] = SemanticInput(
+            name="probe",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type == "confide_opportunity":
+        # M-J.2 moral cue: a TRUSTED confidant is privately present (source = the confidant). BENIGN and
+        # RELATIONAL -- it deposits NO negative state (not a provocation, not a stressor); it only marks
+        # WHO is here this tick so the per-source `relation_source` trust factor can let `confide` fire to a
+        # trusted ear. It does not itself open the reactive window (a confide is a reply made WHILE the
+        # interrogation window from a recent `probe` is still open, spec reactive_window_ticks). Inert unless
+        # the moral overlay configures the `confide` action.
+        out["confide_opportunity"] = SemanticInput(
+            name="confide_opportunity",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.POSITIVE,
+        )
+        return out
+
+    if event.type == "suspicion_raised":
+        # M-J.3 moral cue: someone signals SUSPICION of the persona (source = the suspecter) -- a narrowed
+        # eye, a pointed question behind their back, being watched. RELATIONAL. Per spec section 3 it raises
+        # PRESSURE (suspicion[source] + exposure_anxiety) WITHOUT revealing truth: the persona feels watched
+        # and more exposed, and grows wary of the suspecter, but no guilt is created and nothing is confirmed
+        # ("looks suspicious from avoidance without being guilty"). The small frustration deposit (overlay)
+        # opens the reactive reply window so the persona can react (e.g. avoid). Inert unless the overlay
+        # supplies its gains. Distinct from `accusation`: a suspicion is pressure, an accusation is a charge.
+        out["suspicion_cue"] = SemanticInput(
+            name="suspicion_cue",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
+    if event.type in ("accusation", "false_accusation"):
+        # `false_accusation` is the SAME accused-side channel as `accusation` (spec section 4): the accused
+        # cannot tell a charge is baseless from the cue alone -- whether it lands as guilt (a true charge, the
+        # persona already carries guilt) or pure grievance (a false one, no prior guilt -> the injustice->guilt
+        # switch keeps guilt low) emerges from state. The DISTINCT half of false_accusation -- the accuser's
+        # guilt once the lie is DISCOVERED, and the witnesses' trust loss -- needs the multi-agent driver
+        # (deferred M-MEM, review R7) and is not modeled on this single accused runtime.
+        # M-J.3 moral cue: SOMEONE accuses the persona of a wrong (source = the accuser). RELATIONAL and a
+        # PROVOCATION -- via the overlay it deposits perceived_injustice ("this is unfair", scaled by
+        # injustice_sensitivity), avoidance_drive (scaled by conflict_avoidance), a little stress and
+        # frustration (the frustration is the sourced provocation that OPENS the reactive reply window, so
+        # avoid/blame_other can be selected), and resentment toward the accuser. Whether it lands as guilt
+        # (a TRUE accusation, the persona already carries guilt) or pure grievance (a FALSE one, no prior
+        # guilt -> perceived_injustice dominates and the injustice->guilt(-) switch keeps guilt low) emerges
+        # from state, not the event. Inert unless the moral overlay supplies its gains.
+        out["accusation"] = SemanticInput(
+            name="accusation",
+            value=event.intensity,
+            cls=InputClass.RELATIONAL,
+            source=event.source,
+            polarity=Polarity.NEGATIVE,
+        )
+        return out
+
     # Unknown event types decompose to nothing in MVP (no guessed channels).
     return out
