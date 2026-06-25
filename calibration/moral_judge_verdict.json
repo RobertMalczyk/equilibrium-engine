@@ -1,0 +1,10 @@
+{
+  "judge_model": "claude-sonnet (blind, test run)",
+  "stage": "M-J.4.4 calibration, judge step 2 (small sample, test run)",
+  "config": "top-survivor region (current moral_overlay placeholders)",
+  "scores": {"A_guilt_prone_confess": 2, "B_low_guilt_silent": 5, "C_empathic_apologize": 4, "D_liar_lie": 4},
+  "orderings_confirmed": "B stays silent, A/C own up, D lies -- the persona contrasts read correctly",
+  "flaw_found": "A: confession is immediately followed by 'holds his tongue, gives nothing away' on the next probe ticks -- reads as a mechanical toggle (confess-then-reconceal). The deterministic litmus missed this (it only checks confess-fires-earlier).",
+  "diagnosis": "after confess relieves exposure_anxiety, continued probing re-raises it -> remain_silent re-fires. Post-confession the secret is OUT; continued concealment is incoherent.",
+  "verdict": "pipeline works; 3/4 arcs believable; 1 actionable curve-plausibility flaw caught that the deterministic gates could not."
+}
