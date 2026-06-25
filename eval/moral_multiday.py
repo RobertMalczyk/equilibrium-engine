@@ -36,12 +36,15 @@ def _cfg(traits: dict, half_life_overrides: dict | None = None):
     return load_persona(HALGRIM, DEFAULTS, param_overrides=ov)
 
 
-def reminder_arc(traits: dict, half_lives: dict, n_days: int = 3):
-    """A multi-day arc: a PRIVATE wrongdoing-reminder each morning (a SELF cue -- raises guilt, opens no reply
-    window, so nothing resolves it) + nightfall each evening. Returns (cfg, trace)."""
-    ev: list[RawEvent] = []
+def single_wrong_arc(traits: dict, half_lives: dict, n_days: int = 4):
+    """A multi-day arc: ONE serious wrong on the morning of day 1 (a SELF cue -- raises guilt, opens no reply
+    window, so nothing resolves it), then nightfall each evening. The cleanest half-life persistence test:
+    how the single wrong's guilt fades (or doesn't) over the following days/nights. Returns (cfg, trace)."""
+    ev: list[RawEvent] = [
+        RawEvent(type="wrongdoing", t=8, intensity=1.0),
+        RawEvent(type="wrongdoing", t=9, intensity=1.0),
+    ]
     for d in range(n_days):
-        ev.append(RawEvent(type="wrongdoing", t=d * DAY_TICKS + 8, intensity=1.0))
         ev.append(RawEvent(type="nightfall", t=d * DAY_TICKS + WAKING, intensity=1.0))
     cfg = _cfg(traits, half_lives)
     sc = Scenario(
@@ -50,21 +53,54 @@ def reminder_arc(traits: dict, half_lives: dict, n_days: int = 3):
     return cfg, run_scenario(cfg, sc, n_ticks=n_days * DAY_TICKS)[1]
 
 
-def evening_guilt(traits: dict, guilt_half_life: int, n_days: int = 3) -> list[float]:
-    """The lingering-guilt signal: guilt read each evening (just before nightfall) over n_days."""
-    _, tr = reminder_arc(traits, {"guilt": guilt_half_life}, n_days)
-    return [
-        round(
-            tr.ticks[d * DAY_TICKS + WAKING - 30].state_after_post.global_state[
-                "guilt"
-            ],
-            3,
-        )
-        for d in range(n_days)
+def waking_guilt(traits: dict, guilt_half_life: int, n_days: int = 4) -> list[float]:
+    """The persistence signal: guilt read each morning ON WAKING (day 1 = evening, after the wrong) -- does a
+    single serious wrong still sit on him the next morning, and the one after?"""
+    _, tr = single_wrong_arc(traits, {"guilt": guilt_half_life}, n_days)
+    out = [
+        round(tr.ticks[WAKING - 30].state_after_post.global_state["guilt"], 3)
+    ]  # day 1 evening
+    out += [
+        round(tr.ticks[d * DAY_TICKS + 5].state_after_post.global_state["guilt"], 3)
+        for d in range(1, n_days)
     ]
+    return out
+
+
+def _burden(g: dict) -> str:
+    """OBSERVABLE read of how heavily the (unconfessed) wrong still sits on him -- keyed on GUILT, the
+    half-life-calibrated moral memory (NOT rumination, which accumulates and would mask the decay, and NOT
+    the incidental boredom/mood of a long idle day). A bystander's words."""
+    weight = g.get("guilt", 0.0)
+    if weight > 0.40:
+        return "it still weighs heavily on him, plain in how he holds himself"
+    if weight > 0.20:
+        return "it still sits with him -- a shadow that hasn't lifted"
+    if weight > 0.08:
+        return "only a faint trace of it seems left on him"
+    return "he carries himself as a man with nothing on his conscience"
+
+
+def render_multiday(traits: dict, guilt_half_life: int, n_days: int = 4) -> str:
+    """A plain-language, OBSERVABLE multi-day vignette of a man who did ONE serious wrong and confessed it to
+    no one -- the evening he did it, then each following morning ON WAKING -- for the blind believability
+    judge. Surfaces only the lingering moral burden (the half-life signal)."""
+    _, tr = single_wrong_arc(traits, {"guilt": guilt_half_life}, n_days)
+    eve1 = tr.ticks[WAKING - 30].state_after_post.global_state
+    lines = [
+        "On the morning of the first day he did a serious wrong, and has confessed it to no one.",
+        f"- That first evening: {_burden(eve1)}.",
+        "- That night he sleeps.",
+    ]
+    for d in range(1, n_days):
+        wake = tr.ticks[d * DAY_TICKS + 5].state_after_post.global_state
+        lines.append(f"- The morning of day {d + 1}, on waking: {_burden(wake)}.")
+        if d < n_days - 1:
+            lines.append("- That night he sleeps.")
+    return "\n".join(lines)
 
 
 if __name__ == "__main__":
     traits = {"guilt_proneness": 0.9, "honesty_humility": 0.9}
     for hl, lbl in [(21600, "6h"), (64800, "18h"), (259200, "72h")]:
-        print(f"{lbl:>4}: evening guilt by day = {evening_guilt(traits, hl)}")
+        print(f"{lbl:>4}: waking guilt by day = {waking_guilt(traits, hl)}")
