@@ -1,10 +1,14 @@
 {
-  "judge_model": "claude-sonnet (blind, test run)",
-  "stage": "M-J.4.4 calibration, judge step 2 (small sample, test run)",
-  "config": "top-survivor region (current moral_overlay placeholders)",
-  "scores": {"A_guilt_prone_confess": 2, "B_low_guilt_silent": 5, "C_empathic_apologize": 4, "D_liar_lie": 4},
-  "orderings_confirmed": "B stays silent, A/C own up, D lies -- the persona contrasts read correctly",
-  "flaw_found": "A: confession is immediately followed by 'holds his tongue, gives nothing away' on the next probe ticks -- reads as a mechanical toggle (confess-then-reconceal). The deterministic litmus missed this (it only checks confess-fires-earlier).",
-  "diagnosis": "after confess relieves exposure_anxiety, continued probing re-raises it -> remain_silent re-fires. Post-confession the secret is OUT; continued concealment is incoherent.",
-  "verdict": "pipeline works; 3/4 arcs believable; 1 actionable curve-plausibility flaw caught that the deterministic gates could not."
+  "judge_model": "claude-sonnet (blind, 12-vignette batch)",
+  "stage": "M-J.4.4 calibration, judge step 2 (3x batch)",
+  "believability": {"01":1,"02":4,"03":3,"04":3,"05":3,"06":3,"07":5,"08":4,"09":1,"10":4,"11":4,"12":2},
+  "problems": [
+    {"issue":"confession-then-silence","vignettes":["01","12"],"severity":"high","class":"behavioral","root":"confess relieves exposure_anxiety but probes re-raise it -> remain_silent re-fires; post-confession the matter is out, concealment is incoherent"},
+    {"issue":"mechanical loop repetition","vignettes":["09"],"severity":"high","class":"rendering","root":"avoid/remain_silent oscillate every tick; renderer lists each verbatim instead of compressing a sustained withdrawn spell"},
+    {"issue":"redundant doubling of confession beats","vignettes":["04"],"severity":"medium","class":"rendering/scenario","root":"moral_confide has both interrogator probes and confidant -> confess + confide render as two disclosure beats"},
+    {"issue":"post-resolution flicker","vignettes":["03","06"],"severity":"medium","class":"rendering","root":"slow guilt lingers after confess/apologize -> demeanor still reads troubled; post-catharsis it should read relieved"},
+    {"issue":"repeated state beat","vignettes":["10"],"severity":"medium","class":"rendering","root":"same demeanor opens and closes unchanged -> trailing restate is padding"},
+    {"issue":"silence after confident lie","vignettes":["05"],"severity":"low","class":"rendering","root":"post-lie remain_silent renders as fresh concealment; same post-resolution pattern as #1"}
+  ],
+  "verdict": "pipeline robust at 3x; orderings read correctly (02/07/08/10/11 strong); one REAL behavioral root (post-resolution re-conceal, #1/#5/#12) + several rendering-honesty fixes (#9 compression, #3/#6 relief, #10 dedupe, #4 double-disclosure)."
 }

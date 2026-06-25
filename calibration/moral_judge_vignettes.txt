@@ -1,27 +1,94 @@
-===== VIGNETTE A =====
+===== VIGNETTE 01 =====
 He had done something he was not proud of. Now he is being questioned about it.
 - A flicker of something troubled crosses him.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
 - Then, he holds his tongue, gives nothing away.
 
-===== VIGNETTE B =====
+===== VIGNETTE 02 =====
 He had done something he was not proud of. Now he is being questioned about it.
 - He seems composed enough.
 - A flicker of something troubled crosses him.
 - Then, he holds his tongue, gives nothing away.
 
-===== VIGNETTE C =====
+===== VIGNETTE 03 =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
 - A flicker of something troubled crosses him.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - A flicker of something troubled crosses him.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- A flicker of something troubled crosses him.
 
-===== VIGNETTE D =====
+===== VIGNETTE 04 =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- A flicker of something troubled crosses him.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- A flicker of something troubled crosses him.
+
+===== VIGNETTE 05 =====
 He had done something he was not proud of. Now he is being questioned about it.
 - He seems composed enough.
 - A flicker of something troubled crosses him.
 - Then, he denies it flatly, looks you in the eye and lies.
+- Then, he holds his tongue, gives nothing away.
+
+===== VIGNETTE 06 =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- A flicker of something troubled crosses him.
+- Then, he unburdens himself to his friend, tells them the whole of it.
+- A flicker of something troubled crosses him.
+
+===== VIGNETTE 07 =====
+He is being accused -- pressed, in front of others, over something.
+- He seems composed enough.
+- Then, he turns it back on his accuser, points the finger elsewhere.
+
+===== VIGNETTE 08 =====
+He is being accused -- pressed, in front of others, over something.
+- He seems composed enough.
+- Then, he withdraws -- avoids the man, won't be drawn in.
+
+===== VIGNETTE 09 =====
+Someone has taken to watching him, suspicious, though he has done nothing.
+- A flicker of something troubled crosses him.
+- Then, he withdraws -- avoids the man, won't be drawn in.
+- A flicker of something troubled crosses him.
+- Then, he withdraws -- avoids the man, won't be drawn in.
+- He grows visibly uneasy, shifts, won't quite meet your eye.
+- Then, he holds his tongue, gives nothing away.
+- Then, he withdraws -- avoids the man, won't be drawn in.
+- Then, he holds his tongue, gives nothing away.
+- Then, he withdraws -- avoids the man, won't be drawn in.
+- Then, he holds his tongue, gives nothing away.
+- Then, he withdraws -- avoids the man, won't be drawn in.
+- Then, he holds his tongue, gives nothing away.
+
+===== VIGNETTE 10 =====
+He has just learned that a man he trusted lied to him.
+- He seems composed enough.
+- His temper is plainly up, the warmth gone out of him.
+- Then, he answers curtly and coldly, shutting down.
+- His temper is plainly up, the warmth gone out of him.
+
+===== VIGNETTE 11 =====
+He is carrying a secret he must keep -- something the guards must not learn.
+- He seems composed enough.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+
+===== VIGNETTE 12 =====
+He has been carrying a wrong he did. A trusted friend is here with him now.
+- A flicker of something troubled crosses him.
+- He carries himself like a man with something weighing on him.
+- Then, he owns up to it -- admits plainly what he did.
+- A flicker of something troubled crosses him.
 - Then, he holds his tongue, gives nothing away.
