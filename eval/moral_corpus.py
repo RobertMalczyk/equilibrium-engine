@@ -195,7 +195,10 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
             if answered and ("weighing on him" in d or "troubled" in d):
                 relief_pending = True
                 continue
-            if reacted and ("composed" in d or "settled" in d or "at ease" in d):
+            calm = "composed" in d or "settled" in d or "at ease" in d
+            if answered and calm:
+                continue  # a resolved man's composure is not a fresh beat -- no false plateau mid-arc
+            if reacted and calm:
                 continue  # after a betrayal goes cold, the calm doesn't simply return -- no reset beat
             if withdraw_run and "troubled" in d:
                 continue
@@ -207,12 +210,14 @@ def _render_single(persona: str, traits: dict, kind: str) -> str:
         if line != lines[-1]:
             lines.append(line)
     flush()
-    # confide scenario: a friend was present but he did NOT unburden -> show the WITHHOLDING (gossip-prone)
-    if frame_key == "moral_confide" and answered and not confided:
+    # confide scenario: a friend was present but he did NOT unburden -> show the WITHHOLDING (gossip-prone).
+    # The held-back man does NOT then look "lighter" -- the withholding is the closing note (judge fix).
+    withheld = frame_key == "moral_confide" and answered and not confided
+    if withheld:
         lines.append(
             "- With his friend, though, he holds back -- keeps the worst of it to himself."
         )
-    if relief_pending:
+    if relief_pending and not withheld:
         lines.append("- The worst of it seems behind him now; he looks lighter.")
     return "\n".join(line for line in lines if line)
 

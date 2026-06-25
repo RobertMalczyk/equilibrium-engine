@@ -12,7 +12,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - With his friend, though, he holds back -- keeps the worst of it to himself.
-- The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE branic-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
@@ -20,7 +19,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - Then, he unburdens himself to his friend, tells them the whole of it.
-- He seems composed enough.
 - The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE branic-suspicion-avoidant =====
@@ -57,7 +55,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - With his friend, though, he holds back -- keeps the worst of it to himself.
-- The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE cichy-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
@@ -100,7 +97,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - With his friend, though, he holds back -- keeps the worst of it to himself.
-- The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE edda-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
@@ -108,7 +104,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - Then, he unburdens himself to his friend, tells them the whole of it.
-- He seems composed enough.
 - The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE edda-suspicion-avoidant =====
@@ -145,7 +140,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - With his friend, though, he holds back -- keeps the worst of it to himself.
-- The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE halgrim-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
@@ -189,7 +183,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - With his friend, though, he holds back -- keeps the worst of it to himself.
-- The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE lutek-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
@@ -197,7 +190,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - Then, he unburdens himself to his friend, tells them the whole of it.
-- He seems composed enough.
 - The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE lutek-suspicion-avoidant =====
@@ -234,7 +226,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - With his friend, though, he holds back -- keeps the worst of it to himself.
-- The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE welf-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
@@ -242,7 +233,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it and makes his apologies, tries to set it right.
 - Then, he unburdens himself to his friend, tells them the whole of it.
-- He seems composed enough.
 - The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE welf-suspicion-avoidant =====
@@ -278,7 +268,6 @@ He has been carrying a wrong he did. A trusted friend is here with him now.
 - He carries himself like a man with something weighing on him.
 - Then, he owns up to it -- admits plainly what he did.
 - With his friend, though, he holds back -- keeps the worst of it to himself.
-- The worst of it seems behind him now; he looks lighter.
 
 ===== VIGNETTE wojslaw-confide-empathic =====
 He has been carrying a wrong he did. A trusted friend is here with him now.
